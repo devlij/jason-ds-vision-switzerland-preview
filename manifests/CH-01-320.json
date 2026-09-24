@@ -1,0 +1,16 @@
+{
+  "entry_id": "CH-01-320",
+  "country": "Switzerland",
+  "region": "Bern",
+  "city": "Kandersteg",
+  "caption": "Oeschinensee, Kandersteg",
+  "scenario_label": "24 September 2026 · 22:52 Europe/Zurich",
+  "composition": "North shore of Oeschinensee above Kandersteg · AI-generated artistic interpretation",
+  "description": "Oeschinensee is the mountain lake above Kandersteg, held at 1578 metres in a basin dammed by a prehistoric landslide. From the north shore the dark water stretches toward the cirque, with a mountain inn and a few lit windows beside the path. There are no boats and no swimmers, and the lake is not frozen. This replaces Spiez Castle, already published. The Open-Meteo model is cloudy and cool, about 9°C, with cloud cover about seven-tenths, a light wind, and no precipitation, and the sun is below the horizon.",
+  "alt_text": "AI-generated artistic interpretation of Oeschinensee above Kandersteg at night",
+  "file_16x9": "library/world/Switzerland/Kandersteg/ch-01-320-16x9.png",
+  "file_4x5": "library/world/Switzerland/Kandersteg/ch-01-320-4x5.png",
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "approval_status": "Candidate"
+}
