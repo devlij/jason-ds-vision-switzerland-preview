@@ -19,8 +19,19 @@ PAGE = r"""<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="utf-8" />
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-FPVHCRLKD2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-FPVHCRLKD2');
+</script>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Jason D’s Vision — Switzerland</title>
+  <link rel="canonical" href="https://devlij.github.io/jason-ds-vision-switzerland-preview/" />
+  <meta name="description" content="AI-generated artistic interpretations of Switzerland. Free to use, no credit required." />
   <style>
     :root {
       --bg: #140d0d;
@@ -174,6 +185,20 @@ PAGE = r"""<!DOCTYPE html>
   <meta property="og:image" content="https://devlij.github.io/jason-ds-vision-switzerland-preview/library/world/Switzerland/Zermatt/ch-01-001-16x9.png"/>
   <meta property="og:url" content="https://devlij.github.io/jason-ds-vision-switzerland-preview/"/>
   <meta name="twitter:card" content="summary_large_image"/>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ImageGallery",
+  "name": "Jason D's Vision \u2014 Switzerland",
+  "url": "https://devlij.github.io/jason-ds-vision-switzerland-preview/",
+  "description": "AI-generated artistic interpretations of Switzerland. Free to use, no credit required.",
+  "inLanguage": "en",
+  "creator": {
+    "@type": "Organization",
+    "name": "Jason D's Vision"
+  }
+}
+</script>
 </head>
 <body>
   <div class="flag-band" aria-hidden="true"></div>
