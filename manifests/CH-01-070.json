@@ -1,0 +1,16 @@
+{
+  "entry_id": "CH-01-070",
+  "country": "Switzerland",
+  "region": "Aargau",
+  "city": "Lenzburg",
+  "caption": "Lenzburg Castle, Lenzburg",
+  "scenario_label": "24 September 2026 · 16:01 Europe/Zurich",
+  "composition": "Lenzburg Castle on its round hill above the old town · AI-generated artistic interpretation",
+  "description": "Lenzburg Castle covers the top of a round molasse hill about a hundred metres above the town, a horseshoe of buildings and the south keep. Old-town roofs sit far below the rock. No construction crane is added to the walls. The Open-Meteo model is fully overcast, and the temperature is the hill cell, with no rain.",
+  "alt_text": "AI-generated artistic interpretation of Lenzburg Castle on its hill above the town",
+  "file_16x9": "library/world/Switzerland/Lenzburg/ch-01-070-16x9.png",
+  "file_4x5": "library/world/Switzerland/Lenzburg/ch-01-070-4x5.png",
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "approval_status": "Candidate"
+}
