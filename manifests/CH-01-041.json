@@ -1,0 +1,16 @@
+{
+  "entry_id": "CH-01-041",
+  "country": "Switzerland",
+  "region": "Obwalden",
+  "city": "Engelberg",
+  "caption": "Titlis, Engelberg",
+  "scenario_label": "24 September 2026 · 15:28 Europe/Zurich",
+  "composition": "Engelberg valley looking south to the Titlis summit and glacier · AI-generated artistic interpretation",
+  "description": "From the Engelberg valley, Titlis closes the south as a high rock summit carrying a small glacier. The monastery town and late-September meadows sit in the foreground, still free of winter snow, while ice stays on the high face and no cable car is the subject. The Open-Meteo valley model is fully overcast, so cloud sits on the summit while the ice stays readable, and the temperature is the valley cell rather than a glacier thermometer.",
+  "alt_text": "AI-generated artistic interpretation of Titlis and its glacier from the Engelberg valley",
+  "file_16x9": "library/world/Switzerland/Engelberg/ch-01-041-16x9.png",
+  "file_4x5": "library/world/Switzerland/Engelberg/ch-01-041-4x5.png",
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "approval_status": "Candidate"
+}
