@@ -1,4 +1,4 @@
-"""Scene facts for CH-01-001 through CH-01-336."""
+"""Scene facts for CH-01-001 through CH-01-352."""
 
 from __future__ import annotations
 
@@ -8127,4 +8127,519 @@ SCENES = [
         "sky": "Night, sun well below the horizon, no sun disk, no moon. Overcast, no stars, no rain. Cool, humid, a light wind. A plain stone church and cloister beside dark water, a wooded cliff behind, windows dark. No scaffolding, no stained glass, no people, no coat of arms.",
         "weather_note": "The abbey stands just above the river. The Open-Meteo cell is about 586 m, so the temperature is the model cell. The model hour reads is_day 0, and the frame is night.",
     },
+{'entry_id': 'CH-01-337',
+  'caption': 'Boudry Castle, Boudry',
+  'city': 'Boudry',
+  'region': 'Neuchâtel',
+  'folder': 'Boudry',
+  'lat': 46.94947,
+  'lon': 6.83429,
+  'correction': 'Catalogue line asked for the Neuchâtel lakefront and castle approach. The lakefront quay is '
+                'already CH-01-209, and the château with the collegiate church above the old town is already '
+                'CH-01-078. This scene is Château de Boudry, above the Areuse in the municipality of Boudry.',
+  'viewpoint': 'The slope below the spur, looking up at the castle with the Areuse gorge and the small '
+               'old-town roofs beneath. Map: https://maps.google.com/?q=46.94947,6.83429 The exact paving '
+               'was not surveyed. Exterior only. No museum lettering.',
+  'refs': ['https://www.boudry.ch/decouverte/tourisme/le-chateau-de-boudry',
+           'https://fr.wikipedia.org/wiki/Boudry'],
+  'anchors': ['A compact castle begun in the 13th century on a spur above the Areuse crossing, with a round '
+              'tower and lower wings.',
+              'A small historic core sits below the castle. Vineyard slopes fall toward the gorge.',
+              'The building now houses a wine museum. The frame stays outside and shows no labels.'],
+  'composition': 'Boudry Castle above the Areuse gorge · AI-generated artistic interpretation',
+  'description': 'Château de Boudry stands on a spur above the Areuse, a compact stone castle with a round '
+                 'tower and the old-town roofs beneath it. Vineyard slopes drop toward the gorge, and the '
+                 'frame stays outside, with no museum lettering. This replaces the Neuchâtel lakefront and '
+                 'hilltop château, already published. The Open-Meteo model is overcast and mild, about 15°C, '
+                 'with full cloud cover, a northwest breeze, and no precipitation, and the sun is below the '
+                 'horizon.',
+  'alt_text': 'AI-generated artistic interpretation of Boudry Castle above the Areuse at night',
+  'sky': 'Night, sun well below the horizon, no sun disk, no moon. Overcast, no stars, no rain. Mild, a '
+         'northwest breeze. A compact stone castle with a round tower above a dark gorge, old roofs below, '
+         'dull late-September vines. No people, no signs, no labels.',
+  'weather_note': 'The castle stands near 480 m. The Open-Meteo cell is about 464 m, so the temperature is '
+                  'the model cell. The model hour reads is_day 0, and the frame is night.'},
+ {'entry_id': 'CH-01-338',
+  'caption': 'Lac des Brenets, Le Locle',
+  'city': 'Le Locle',
+  'region': 'Neuchâtel',
+  'folder': 'Le Locle',
+  'lat': 47.0669,
+  'lon': 6.7056,
+  'correction': 'Catalogue line asked for La Chaux-de-Fonds. Avenue Léopold-Robert is already CH-01-079. '
+                'This scene is Lac des Brenets from the Swiss shore at Les Brenets, which has been part of '
+                'the municipality of Le Locle since 2021. The far bank is France and is not shown as a Swiss '
+                'town.',
+  'viewpoint': 'The Swiss landing at Les Brenets, looking along the narrow lake as the limestone walls '
+               'disappear into fog. Map: https://maps.google.com/?q=47.06690,6.70560 The exact quay stone '
+               'was not surveyed. The downstream waterfall stays out of frame. The lake is shown with water, '
+               'not as the dry bed of 2022.',
+  'refs': ['https://en.wikipedia.org/wiki/Lac_des_Brenets', 'https://en.wikipedia.org/wiki/Les_Brenets'],
+  'anchors': ['A narrow gorge lake on the Doubs, about 3.5 km long and about 250 m across, surface near 750 '
+              'm.',
+              'The Swiss village of Les Brenets sits above the south-east shore. A natural barrier holds the '
+              'water, and the Saut du Doubs is downstream.',
+              'The opposite cliff is in France. No French place name is painted into the frame.'],
+  'composition': 'Fog on Lac des Brenets from the Swiss shore at Les Brenets · AI-generated artistic '
+                 'interpretation',
+  'description': 'From the Swiss landing at Les Brenets, Lac des Brenets is a narrow dark lake between '
+                 'limestone walls, and the gorge fades into night fog. A few small boats sit at the Swiss '
+                 'shore. The far bank is France and is not presented as a Swiss place, and the downstream '
+                 'waterfall stays out of frame. This replaces La Chaux-de-Fonds, already published. The '
+                 'Open-Meteo model is fog, about 7°C, with cloud cover near 94%, very humid air, a light '
+                 'wind, and no precipitation, and the sun is below the horizon.',
+  'alt_text': 'AI-generated artistic interpretation of foggy Lac des Brenets from the Swiss shore at night',
+  'sky': 'Night, sun well below the horizon, no sun disk, no moon. Thick fog, no stars, no rain. Cool, very '
+         'humid, almost calm. Narrow dark water between limestone walls, a simple Swiss landing and a few '
+         'moored boats. No waterfall, no town names, no people.',
+  'weather_note': 'The village sits above the lake. The Open-Meteo cell is about 852 m, so the temperature '
+                  'is the model cell, not the 750 m water surface. The model hour reads is_day 0, and the '
+                  'frame is night.'},
+ {'entry_id': 'CH-01-339',
+  'caption': 'Zeitglockenturm, Solothurn',
+  'city': 'Solothurn',
+  'region': 'Solothurn',
+  'folder': 'Solothurn',
+  'lat': 47.20757,
+  'lon': 7.53693,
+  'correction': 'Catalogue line asked for the Solothurn old town and cathedral. St. Ursus Cathedral and its '
+                'stair are already CH-01-047, and the Aare front is already CH-01-170. This scene is the '
+                'Zeitglockenturm on the Hauptgasse.',
+  'viewpoint': 'The Hauptgasse looking toward the clock tower, with baroque house fronts on both sides. Map: '
+               'https://maps.google.com/?q=47.20757,7.53693 The exact cobble was not surveyed. The '
+               'cathedral’s two towers and ceremonial stair stay out of frame. Clock faces carry no readable '
+               'words.',
+  'refs': ['https://structurae.net/en/structures/zeitglockenturm-solothurn',
+           'https://en.wikipedia.org/wiki/Solothurn'],
+  'anchors': ['A medieval tower at Hauptgasse 44, standing in the street rather than at the top of a baroque '
+              'stair.',
+              'The tower carries a clock and a small roof over the old town houses.',
+              'St. Ursus, with its twin towers, is a different building farther east and is not the '
+              'subject.'],
+  'composition': 'Zeitglockenturm in the Hauptgasse of Solothurn · AI-generated artistic interpretation',
+  'description': 'The Zeitglockenturm rises in the Hauptgasse of Solothurn, a medieval clock tower among '
+                 'pale baroque house fronts. The view is the street tower, not the cathedral stair. Clock '
+                 'faces carry no readable words. This replaces St. Ursus Cathedral, already published. The '
+                 'Open-Meteo model is overcast and cool, about 12°C, with full cloud cover, humid air, a '
+                 'light wind, and no precipitation, and the sun is below the horizon.',
+  'alt_text': 'AI-generated artistic interpretation of the Zeitglockenturm in Solothurn’s Hauptgasse at '
+              'night',
+  'sky': 'Night, sun well below the horizon, no sun disk, no moon. Overcast, no stars, no rain. Cool, humid, '
+         'a light wind. A square medieval clock tower in a narrow pale street. No twin-towered cathedral, no '
+         'readable numerals, no people.',
+  'weather_note': 'The old town stands near 430 m. The Open-Meteo cell is about 448 m, so the temperature is '
+                  'the model cell. The model hour reads is_day 0, and the frame is night.'},
+ {'entry_id': 'CH-01-340',
+  'caption': 'Neunkirch, Neunkirch',
+  'city': 'Neunkirch',
+  'region': 'Schaffhausen',
+  'folder': 'Neunkirch',
+  'lat': 47.69028,
+  'lon': 8.49972,
+  'correction': 'Catalogue line asked for a Rhine Falls viewpoint at Neuhausen am Rheinfall. Rhine Falls is '
+                'already CH-01-016, and Schloss Laufen above the falls is already CH-01-111. This scene is '
+                'the planned town of Neunkirch in the Klettgau.',
+  'viewpoint': 'Looking east along the Vordergasse toward the Obertorturm, with the Gemeindehaus passage '
+               'near the middle of the street. Map: https://maps.google.com/?q=47.69028,8.49972 The exact '
+               'cobble was not surveyed. The western gate is not rebuilt. No market stalls.',
+  'refs': ['https://en.wikipedia.org/wiki/Neunkirch',
+           'https://www.myswitzerland.com/de-at/reiseziele/neunkirch/'],
+  'anchors': ['A rectangular planned town of about 257 by 139 metres, with the Vordergasse as the long '
+              'east-west street.',
+              'The late-Gothic Gemeindehaus of 1568 stands near the middle and has a passage through it. The '
+              'Obertorturm closes the east end.',
+              'The western Untertor burned in 1825 and was not rebuilt. The Bergkirche stands on the hill '
+              'outside the rectangle.'],
+  'composition': 'Vordergasse of Neunkirch toward the Obertorturm · AI-generated artistic interpretation',
+  'description': 'Neunkirch is a rectangular medieval planned town in the Klettgau, and the Vordergasse runs '
+                 'straight between plastered and half-timbered houses toward the Obertorturm. The '
+                 'Gemeindehaus passage sits near the middle of the street. The western gate, lost in 1825, '
+                 'is not put back. This replaces Rhine Falls, already published. The Open-Meteo model is '
+                 'partly cloudy and cool, about 12°C, with cloud cover under three-tenths, humid air, a '
+                 'light breeze, and no precipitation, and the sun is below the horizon.',
+  'alt_text': 'AI-generated artistic interpretation of the Vordergasse in Neunkirch at night',
+  'sky': 'Night, sun well below the horizon, no sun disk, no moon. Partly cloudy, some stars, no rain. Cool, '
+         'humid, a light breeze. A long straight street of old houses, a through-passage building in the '
+         'middle, one gate tower at the far end. No west gate, no market, no people.',
+  'weather_note': 'The town stands near 430 m. The Open-Meteo cell is about 431 m, so the temperature is the '
+                  'model cell. The model hour reads is_day 0, and the frame is night.'},
+ {'entry_id': 'CH-01-341',
+  'caption': 'Ebenalp, Wasserauen',
+  'city': 'Wasserauen',
+  'region': 'Appenzell Innerrhoden',
+  'folder': 'Wasserauen',
+  'lat': 47.28339,
+  'lon': 9.41436,
+  'correction': 'Catalogue line asked for the Appenzell village square. The village is already CH-01-011, '
+                'and Landsgemeindeplatz is already CH-01-133. This scene is the cliff under Ebenalp above '
+                'Wasserauen, not Seealpsee, which is already CH-01-053.',
+  'viewpoint': 'The path at the Berggasthaus Äscher, looking at the wooden inn under the limestone overhang, '
+               'with the drop beside the cliff. Map: https://maps.google.com/?q=47.28339,9.41436 The exact '
+               'step was not surveyed. Seealpsee is not in frame. No inn sign is readable.',
+  'refs': ['https://en.wikipedia.org/wiki/Ebenalp', 'https://en.wikipedia.org/wiki/Berggasthaus_%C3%84scher'],
+  'anchors': ['Ebenalp is a 1,640 m crest above Wasserauen, reached by cable car since 1955. The valley lies '
+              'in Schwende-Rüte.',
+              'The wooden Berggasthaus Äscher sits in the cliff below the crest, under a rock overhang, near '
+              '1,450 m.',
+              'Seealpsee is the lake farther down the valley and is a different subject.'],
+  'composition': 'Cliff inn under Ebenalp above Wasserauen · AI-generated artistic interpretation',
+  'description': 'Under Ebenalp, the wooden Berggasthaus Äscher is built into the limestone overhang above '
+                 'Wasserauen, with the path along the cliff and a steep drop beside it. Late-September turf '
+                 'is dull, and the lake lower in the valley is not the subject. This replaces the Appenzell '
+                 'village square, already published. The Open-Meteo model is mostly cloudy and cool, about '
+                 '7°C, with cloud cover a little above four-fifths, very humid air, a light wind, and no '
+                 'precipitation, and the sun is below the horizon.',
+  'alt_text': 'AI-generated artistic interpretation of the cliff inn under Ebenalp at night',
+  'sky': 'Night, sun well below the horizon, no sun disk, no moon. Mostly cloudy, a few faint stars, no '
+         'rain, no snow. Cool, very humid, almost calm. A wooden inn tucked under a limestone overhang, dull '
+         'turf, a cliff path. No lake portrait, no crowds, no readable sign.',
+  'weather_note': 'The inn sits near 1,450 m and the crest is 1,640 m. The Open-Meteo cell is about 1,570 m, '
+                  'so the temperature is the model cell. The model hour reads is_day 0, and the frame is '
+                  'night. No snow code is reported.'},
+ {'entry_id': 'CH-01-342',
+  'caption': 'St. Laurenzen, St. Gallen',
+  'city': 'St. Gallen',
+  'region': 'St. Gallen',
+  'folder': 'St. Gallen',
+  'lat': 47.4244,
+  'lon': 9.37706,
+  'correction': 'Catalogue line asked for the St. Gallen abbey district. The abbey cathedral west front is '
+                'already CH-01-055. This scene is the Reformed church of St. Laurenzen on the Marktgasse, a '
+                'single neo-Gothic spire rather than the abbey’s pair of baroque towers.',
+  'viewpoint': 'The Marktgasse looking at the west end and the single tower north of the choir. Map: '
+               'https://maps.google.com/?q=47.42440,9.37706 The exact paving was not surveyed. Windows stay '
+               'dark. The abbey square stays out of frame.',
+  'refs': ['https://de.wikipedia.org/wiki/St._Laurenzen_(St._Gallen)',
+           'https://en.wikipedia.org/wiki/St._Gallen'],
+  'anchors': ['A town church at Marktgasse 25. The tower stands on the north side of the choir.',
+              'The tower has a square shaft, an octagonal upper stage, and a pointed helm. Its height is '
+              'given as about 72 m.',
+              'The nave roof carries colored glazed tiles. The abbey’s two baroque towers are a different '
+              'building.'],
+  'composition': 'St. Laurenzen and its single spire in St. Gallen · AI-generated artistic interpretation',
+  'description': 'St. Laurenzen stands on the Marktgasse in St. Gallen, a town church with one neo-Gothic '
+                 'spire and a nave roof of colored glazed tiles. The tower is a single square-then-octagon '
+                 'helm, not the abbey’s pair of baroque towers. Windows stay dark. This replaces the abbey '
+                 'west front, already published. The Open-Meteo model is mostly cloudy and cool, about 12°C, '
+                 'with cloud cover near seven-tenths, humid air, a light wind, and no precipitation, and the '
+                 'sun is below the horizon.',
+  'alt_text': 'AI-generated artistic interpretation of St. Laurenzen in St. Gallen at night',
+  'sky': 'Night, sun well below the horizon, no sun disk, no moon. Mostly cloudy, no rain. Cool, humid, a '
+         'light wind. One neo-Gothic church spire and a colored tile roof on a market street. No second '
+         'baroque tower, no stained glass, no people.',
+  'weather_note': 'The church stands in the city near 670 m. The Open-Meteo cell is about 680 m, so the '
+                  'temperature is the model cell. The model hour reads is_day 0, and the frame is night.'},
+ {'entry_id': 'CH-01-343',
+  'caption': 'Walenstadt, Walenstadt',
+  'city': 'Walenstadt',
+  'region': 'St. Gallen',
+  'folder': 'Walenstadt',
+  'lat': 47.1228,
+  'lon': 9.308,
+  'correction': 'Catalogue line asked for the Werdenberg castle village and to verify the city. Werdenberg '
+                'is a locality in the municipality of Grabs, and that street and castle are already '
+                'CH-01-068, filed under the city Werdenberg. This scene is Walenstadt, on Walensee.',
+  'viewpoint': 'The Walenstadt shore, looking across the lake toward the Churfirsten. Map: '
+               'https://maps.google.com/?q=47.12280,9.30800 The exact shore stone was not surveyed. The '
+               'cliffs are dark rock, not a winter snowfield.',
+  'refs': ['https://en.wikipedia.org/wiki/Walenstadt', 'https://en.wikipedia.org/wiki/Walensee'],
+  'anchors': ['Walenstadt is the town at the east end of Walensee, in the canton of St. Gallen.',
+              'The Churfirsten form the steep north wall of the lake.',
+              'The near shore is the town quay. Late September, the peaks are not given a snow cover the '
+              'model does not report.'],
+  'composition': 'Walenstadt shore toward the Churfirsten · AI-generated artistic interpretation',
+  'description': 'Walenstadt sits at the east end of Walensee, and the frame looks from the town shore '
+                 'toward the dark wall of the Churfirsten. A few shore lights and late-September trees mark '
+                 'the near bank. The cliffs stay rock, without an invented snowfield. This replaces '
+                 'Werdenberg, already published. The Open-Meteo model is mainly clear and mild, about 14°C, '
+                 'with cloud cover about 5%, humid air, a light wind, and no precipitation, and the sun is '
+                 'below the horizon.',
+  'alt_text': 'AI-generated artistic interpretation of the Walenstadt shore and the Churfirsten at night',
+  'sky': 'Night, sun well below the horizon, no sun disk, no moon. Mainly clear, stars, no rain, no snow. '
+         'Mild, a light wind. A lakeside town, dark water, a steep rock wall across the lake. No people, no '
+         'readable signs.',
+  'weather_note': 'The town stands near 425 m. The Open-Meteo cell is about 424 m, so the temperature is the '
+                  'town cell, not the crest of the Churfirsten. The model hour reads is_day 0, and the frame '
+                  'is night. No snow code is reported.'},
+ {'entry_id': 'CH-01-344',
+  'caption': 'Rhine bank, Buchs',
+  'city': 'Buchs',
+  'region': 'St. Gallen',
+  'folder': 'Buchs',
+  'lat': 47.1672,
+  'lon': 9.478,
+  'correction': 'Catalogue line allowed the Swiss side of the Rhine at Buchs and ruled out treating '
+                'Liechtenstein as Switzerland. This scene is the east bank in the municipality of Buchs, '
+                'canton St. Gallen. The west bank is another country and is not the subject. Vaduz Castle is '
+                'not shown.',
+  'viewpoint': 'The Swiss flood embankment at Buchs, looking along the Rhine with the town lights behind the '
+               'camera’s shoulder. Map: https://maps.google.com/?q=47.16720,9.47800 The exact bank was not '
+               'surveyed. No flags and no border signs.',
+  'refs': ['https://en.wikipedia.org/wiki/Buchs,_St._Gallen', 'https://en.wikipedia.org/wiki/Alpine_Rhine'],
+  'anchors': ['Buchs is a Swiss municipality on the east bank of the Alpine Rhine, in the Werdenberg '
+              'district of St. Gallen.',
+              'The river is the border. The near bank in this frame is the Swiss embankment and the town.',
+              'No castle on the far hill is included. No foreign place is labeled as Swiss.'],
+  'composition': 'Swiss Rhine embankment at Buchs · AI-generated artistic interpretation',
+  'description': 'The frame stands on the Swiss embankment at Buchs, with the Alpine Rhine in front and the '
+                 'lights of the town behind. The far shore is only a low dark bank, and no castle is made '
+                 'the subject. Buchs is in the canton of St. Gallen. The Open-Meteo model is mostly cloudy '
+                 'and mild, about 15°C, with cloud cover about three-quarters, humid air, a light breeze, '
+                 'and no precipitation, and the sun is below the horizon.',
+  'alt_text': 'AI-generated artistic interpretation of the Swiss Rhine bank at Buchs at night',
+  'sky': 'Night, sun well below the horizon, no sun disk, no moon. Mostly cloudy, no rain. Mild, a light '
+         'breeze. A grass and gravel flood bank, a path, dark river, Swiss town lights behind. No castle, no '
+         'flags, no signs, no people.',
+  'weather_note': 'The town stands near 450 m. The Open-Meteo cell is about 450 m, so the temperature is the '
+                  'model cell. The model hour reads is_day 0, and the frame is night.'},
+ {'entry_id': 'CH-01-345',
+  'caption': 'Rochers-de-Naye, Veytaux',
+  'city': 'Veytaux',
+  'region': 'Vaud',
+  'folder': 'Veytaux',
+  'lat': 46.43194,
+  'lon': 6.97611,
+  'correction': 'Catalogue line asked for Chillon Castle at Veytaux. The castle is already CH-01-009, filed '
+                'under Montreux. This scene is the summit ridge of Rochers-de-Naye, in the municipality of '
+                'Veytaux.',
+  'viewpoint': 'The rocky crest beside the summit building, looking over the ridge with the lake only a dark '
+               'shape far below. Map: https://maps.google.com/?q=46.43194,6.97611 The exact rock was not '
+               'surveyed. No railway lettering. No snowfield.',
+  'refs': ['https://en.wikipedia.org/wiki/Rochers_de_Naye', 'https://en.wikipedia.org/wiki/Veytaux'],
+  'anchors': ['Rochers-de-Naye is a limestone crest at 2,042 m above Veytaux and Lake Geneva.',
+              'A summit station building stands on the ridge. The frame shows the rock, not a branded train.',
+              'Chillon is on the shore far below and is not the subject.'],
+  'composition': 'Night ridge of Rochers-de-Naye above Veytaux · AI-generated artistic interpretation',
+  'description': 'Rochers-de-Naye is the limestone crest above Veytaux, and the frame stays on the rocky '
+                 'ridge beside a plain summit building. Lake Geneva is only a dark shape under the cloud, '
+                 'and the shore castle is not the subject. Late-September grass and rock are shown without a '
+                 'snowfield. This replaces Chillon, already published. The Open-Meteo model is overcast and '
+                 'cool, about 8°C, with full cloud cover, a light wind, and no precipitation, and the sun is '
+                 'below the horizon.',
+  'alt_text': 'AI-generated artistic interpretation of the Rochers-de-Naye ridge at night',
+  'sky': 'Night, sun well below the horizon, no sun disk, no moon. Overcast, no stars, no rain, no snow. '
+         'Cool, a light wind. Dark limestone and short grass, a plain summit building with dim windows, a '
+         'faint scatter of shore lights far below. No logos, no people.',
+  'weather_note': 'The crest is 2,042 m. The Open-Meteo cell is about 1,937 m, so the temperature is the '
+                  'model cell. The model hour reads is_day 0, and the frame is night. No snow code is '
+                  'reported.'},
+ {'entry_id': 'CH-01-346',
+  'caption': 'Les Avants, Montreux',
+  'city': 'Montreux',
+  'region': 'Vaud',
+  'folder': 'Montreux',
+  'lat': 46.4565,
+  'lon': 6.944,
+  'correction': 'Catalogue line asked for the Montreux lakefront. That quay is already CH-01-139. This scene '
+                'is Les Avants, a hamlet of Montreux on the slope above the lake.',
+  'viewpoint': 'A sloping lane of wooden chalets in Les Avants, meadows beside the houses. Map: '
+               'https://maps.google.com/?q=46.45650,6.94400 The exact lane was not surveyed. The lake is not '
+               'the subject. No hotel name is readable.',
+  'refs': ['https://fr.wikipedia.org/wiki/Les_Avants', 'https://en.wikipedia.org/wiki/Montreux'],
+  'anchors': ['Les Avants is a hamlet of the municipality of Montreux, near 1,000 m, on the line toward '
+              'Rochers-de-Naye.',
+              'Wooden chalets with deep eaves line a sloping lane.',
+              'The lakeside promenade of Montreux is a different, lower place.'],
+  'composition': 'Chalet lane at Les Avants above Montreux · AI-generated artistic interpretation',
+  'description': 'Les Avants is a hamlet of Montreux on the mountain slope, a lane of wooden chalets and '
+                 'meadows rather than the lake quay. A few windows are lit, and the lake stays out of the '
+                 'frame. This replaces the Montreux lakefront, already published. The Open-Meteo model is '
+                 'overcast and mild, about 14°C, with full cloud cover, dry air, a moderate breeze, and no '
+                 'precipitation, and the sun is below the horizon.',
+  'alt_text': 'AI-generated artistic interpretation of the chalet lane at Les Avants at night',
+  'sky': 'Night, sun well below the horizon, no sun disk, no moon. Overcast, no stars, no fog, no rain, no '
+         'snow. Mild, dry air, a breeze. Wooden chalets with deep eaves on a sloping lane, dark meadows. No '
+         'lake, no readable hotel names, no people.',
+  'weather_note': 'The hamlet stands near 1,000 m. The Open-Meteo cell is about 1,040 m, so the temperature '
+                  'is the model cell. Relative humidity in the model is 34%, so the frame is not misty. The '
+                  'model hour reads is_day 0, and the frame is night.'},
+ {'entry_id': 'CH-01-347',
+  'caption': 'La Tour-de-Peilz Castle, La Tour-de-Peilz',
+  'city': 'La Tour-de-Peilz',
+  'region': 'Vaud',
+  'folder': 'La Tour-de-Peilz',
+  'lat': 46.4537,
+  'lon': 6.8588,
+  'correction': 'Catalogue line asked for the Nestlé building and Grande Place in Vevey, exterior only. The '
+                'Vevey quay and the tower of Saint-Martin are already CH-01-076. A corporate mark is not '
+                'used as the subject. This scene is the lakeside castle in the next municipality, La '
+                'Tour-de-Peilz.',
+  'viewpoint': 'The lake side of the castle, with the round keep, the quay, and plane trees. Map: '
+               'https://maps.google.com/?q=46.45370,6.85880 The exact shore was not surveyed. No fork '
+               'sculpture and no corporate building.',
+  'refs': ['https://en.wikipedia.org/wiki/La_Tour-de-Peilz',
+           'https://fr.wikipedia.org/wiki/Ch%C3%A2teau_de_La_Tour-de-Peilz'],
+  'anchors': ['La Tour-de-Peilz is the municipality east of Vevey, on Lake Geneva.',
+              'The medieval castle has a round stone keep beside the water.',
+              'The Vevey quay, the offshore fork, and any corporate headquarters are outside this '
+              'municipality and outside this frame.'],
+  'composition': 'Round keep of La Tour-de-Peilz Castle beside Lake Geneva · AI-generated artistic '
+                 'interpretation',
+  'description': 'The castle of La Tour-de-Peilz stands on Lake Geneva just east of Vevey, a round stone '
+                 'keep and lower walls beside a small quay and plane trees. The water is dark and a little '
+                 'choppy. No corporate mark and no offshore sculpture are shown. This replaces the Vevey '
+                 'quay, already published. The Open-Meteo model is overcast and mild, about 15°C, with full '
+                 'cloud cover, a fresh breeze, and no precipitation, and the sun is below the horizon.',
+  'alt_text': 'AI-generated artistic interpretation of La Tour-de-Peilz Castle on Lake Geneva at night',
+  'sky': 'Night, sun well below the horizon, no sun disk, no moon. Overcast, no stars, no rain. Mild, a '
+         'fresh breeze, small waves. A round medieval keep beside the lake, plane trees, a small quay. No '
+         'fork sculpture, no corporate building, no logos, no people.',
+  'weather_note': 'The castle stands near the lake, around 375 m. The Open-Meteo cell is about 390 m, so the '
+                  'temperature is the model cell. The model hour reads is_day 0, and the frame is night.'},
+ {'entry_id': 'CH-01-348',
+  'caption': 'Moléson, Gruyères',
+  'city': 'Gruyères',
+  'region': 'Fribourg',
+  'folder': 'Gruyères',
+  'lat': 46.549,
+  'lon': 7.0172,
+  'correction': 'Catalogue line asked for the Gruyères castle village. The castle and village are already '
+                'CH-01-008. This scene is the summit of Moléson, in the same municipality, above the '
+                'village.',
+  'viewpoint': 'Just below the crest, looking along the rounded summit. Map: '
+               'https://maps.google.com/?q=46.54900,7.01720 The exact rock was not surveyed. The valley '
+               'castle is not the subject. No cable-car mark.',
+  'refs': ['https://en.wikipedia.org/wiki/Mol%C3%A9son', 'https://en.wikipedia.org/wiki/Gruy%C3%A8res'],
+  'anchors': ['Moléson is a rounded summit at 2,002 m in the municipality of Gruyères.',
+              'Short pasture and rock cover the crest. A small summit shelter sits on the top.',
+              'The medieval castle village is in the valley below and is a different subject.'],
+  'composition': 'Summit crest of Moléson above Gruyères · AI-generated artistic interpretation',
+  'description': 'Moléson is the rounded summit above Gruyères, rock and short late-September grass under a '
+                 'low cloud, with a small shelter on the crest. The castle village is only a distant speck '
+                 'of light and is not the subject. No snowfield is added. This replaces Gruyères Castle, '
+                 'already published. The Open-Meteo model is overcast and cool, about 7°C, with full cloud '
+                 'cover, a light wind, and no precipitation, and the sun is below the horizon.',
+  'alt_text': 'AI-generated artistic interpretation of the Moléson summit at night',
+  'sky': 'Night, sun well below the horizon, no sun disk, no moon. Overcast, no stars, no rain, no snow. '
+         'Cool, a light wind. Rounded crest, dark rock, short grass, a small plain shelter with one dim '
+         'light. Valley lights only as specks. No castle portrait, no logos, no people.',
+  'weather_note': 'The summit is 2,002 m. The Open-Meteo cell is about 1,971 m, so the temperature is the '
+                  'model cell. The model hour reads is_day 0, and the frame is night. No snow code is '
+                  'reported.'},
+ {'entry_id': 'CH-01-349',
+  'caption': 'Schwarzsee, Plaffeien',
+  'city': 'Plaffeien',
+  'region': 'Fribourg',
+  'folder': 'Plaffeien',
+  'lat': 46.6672,
+  'lon': 7.292,
+  'correction': 'Catalogue line asked for Bulle. The town of Bulle is already CH-01-160. This scene is '
+                'Schwarzsee, the lake in the municipality of Plaffeien.',
+  'viewpoint': 'The near shore of Schwarzsee, looking across the dark water to the far wooded slope and a '
+               'few lights of the lakeside settlement. Map: https://maps.google.com/?q=46.66720,7.29200 The '
+               'exact shore was not surveyed. No beach crowd.',
+  'refs': ['https://en.wikipedia.org/wiki/Schwarzsee', 'https://en.wikipedia.org/wiki/Plaffeien'],
+  'anchors': ['Schwarzsee is a mountain lake in the municipality of Plaffeien, canton of Fribourg, surface '
+              'near 1,046 m.',
+              'Forested slopes enclose the water. A small settlement sits on the shore.',
+              'Bulle is a valley town farther west and is not shown.'],
+  'composition': 'Schwarzsee in Plaffeien at night · AI-generated artistic interpretation',
+  'description': 'Schwarzsee lies in the hills of Plaffeien, a dark mountain lake with forested shores and a '
+                 'few lights from the small settlement. The water is calm under full cloud. This replaces '
+                 'Bulle, already published. The Open-Meteo model is overcast and cool, about 12°C, with full '
+                 'cloud cover, humid air, a light wind, and no precipitation, and the sun is below the '
+                 'horizon.',
+  'alt_text': 'AI-generated artistic interpretation of Schwarzsee in Plaffeien at night',
+  'sky': 'Night, sun well below the horizon, no sun disk, no moon. Overcast, no stars, no rain, no snow. '
+         'Cool, humid, a light wind. A dark mountain lake, forested shores, a few small lights. No crowds, '
+         'no readable signs, no people.',
+  'weather_note': 'The lake surface is near 1,046 m. The Open-Meteo cell is about 1,109 m, so the '
+                  'temperature is the model cell. The model hour reads is_day 0, and the frame is night.'},
+ {'entry_id': 'CH-01-350',
+  'caption': 'Châtel-Saint-Denis, Châtel-Saint-Denis',
+  'city': 'Châtel-Saint-Denis',
+  'region': 'Fribourg',
+  'folder': 'Châtel-Saint-Denis',
+  'lat': 46.5269,
+  'lon': 6.9008,
+  'correction': 'Catalogue line asked for the Murten old-town walls. The ring wall and castle are already '
+                'CH-01-046, and the lakefront is already CH-01-217. This scene is Châtel-Saint-Denis, in the '
+                'Veveyse district of Fribourg.',
+  'viewpoint': 'The sloping town square toward the parish church, with pre-Alpine hills behind the roofs. '
+               'Map: https://maps.google.com/?q=46.52690,6.90080 The exact paving was not surveyed. No ring '
+               'wall and no lake.',
+  'refs': ['https://en.wikipedia.org/wiki/Ch%C3%A2tel-Saint-Denis',
+           'https://fr.wikipedia.org/wiki/Ch%C3%A2tel-Saint-Denis'],
+  'anchors': ['Châtel-Saint-Denis is the main town of the Veveyse district, canton of Fribourg, near 800 m.',
+              'A parish church with one tower stands over a compact center on a slope.',
+              'The pre-Alps rise behind the town. Murten’s ramparts are a different place.'],
+  'composition': 'Parish church and square of Châtel-Saint-Denis · AI-generated artistic interpretation',
+  'description': 'Châtel-Saint-Denis sits on a slope in the Veveyse, a compact center and a single-tower '
+                 'parish church with the pre-Alps behind the roofs. There is no lake and no medieval ring '
+                 'wall in the frame. This replaces the Murten walls, already published. The Open-Meteo model '
+                 'is overcast and cool, about 11°C, with full cloud cover, humid air, a breeze, and no '
+                 'precipitation, and the sun is below the horizon.',
+  'alt_text': 'AI-generated artistic interpretation of Châtel-Saint-Denis at night',
+  'sky': 'Night, sun well below the horizon, no sun disk, no moon. Overcast, no stars, no rain. Cool, humid, '
+         'a breeze. A sloping square, one church tower, old roofs, dark wooded hills. No ring wall, no lake, '
+         'no readable shop signs, no people.',
+  'weather_note': 'The town stands near 800 m. The Open-Meteo cell is about 813 m, so the temperature is the '
+                  'model cell. The model hour reads is_day 0, and the frame is night.'},
+ {'entry_id': 'CH-01-351',
+  'caption': 'Bern Minster, Bern',
+  'city': 'Bern',
+  'region': 'Bern',
+  'folder': 'Bern',
+  'lat': 46.94722,
+  'lon': 7.45139,
+  'correction': 'Catalogue line asked for the Zytglogge. That clock tower is already CH-01-005. This scene '
+                'is Bern Minster, the Gothic minster on Münsterplatz.',
+  'viewpoint': 'Münsterplatz looking at the single west tower and the three portals. Map: '
+               'https://maps.google.com/?q=46.94722,7.45139 The exact paving was not surveyed. No '
+               'scaffolding. Windows stay dark. No readable inscription.',
+  'refs': ['https://en.wikipedia.org/wiki/Bern_Minster', 'https://www.bernermuenster.ch/'],
+  'anchors': ['A Gothic sandstone minster begun in 1421. One west tower, 100.6 m, with the openwork spire '
+              'finished in 1893.',
+              'The lower tower is rectangular, with small round stair turrets. The upper stages are '
+              'octagonal.',
+              'Three west portals face Münsterplatz. Flying buttresses run along the nave. The Zytglogge is '
+              'a different tower on the Kramgasse.'],
+  'composition': 'West tower of Bern Minster from Münsterplatz · AI-generated artistic interpretation',
+  'description': 'Bern Minster closes Münsterplatz with one Gothic sandstone tower, rectangular below and '
+                 'octagonal above, and an openwork spire. Three portals face the square, and flying '
+                 'buttresses run along the nave. No scaffolding is shown, and the windows stay dark. This '
+                 'replaces the Zytglogge, already published. The Open-Meteo model is overcast and cool, '
+                 'about 10°C, with full cloud cover, very humid air, a light wind, and no precipitation, and '
+                 'the sun is below the horizon.',
+  'alt_text': 'AI-generated artistic interpretation of Bern Minster at night',
+  'sky': 'Night, sun well below the horizon, no sun disk, no moon. Overcast, no stars, no rain. Cool, very '
+         'humid, almost calm. One tall Gothic sandstone tower, three west portals, flying buttresses, dark '
+         'windows. No scaffolding, no clock tower, no readable inscription, no people.',
+  'weather_note': 'The minster stands on the Aare peninsula near 540 m. The Open-Meteo cell is about 547 m, '
+                  'so the temperature is the model cell. The model hour reads is_day 0, and the frame is '
+                  'night.'},
+ {'entry_id': 'CH-01-352',
+  'caption': 'Kirchenfeld Bridge, Bern',
+  'city': 'Bern',
+  'region': 'Bern',
+  'folder': 'Bern',
+  'lat': 46.9459,
+  'lon': 7.4485,
+  'correction': 'Catalogue line asked for the Bundeshaus and Bundesplatz. The Bundeshaus is already '
+                'CH-01-022, and the Bundesterrasse is already CH-01-273. This scene is the Kirchenfeld '
+                'Bridge over the Aare. The Nydegg Bridge is already CH-01-277 and is not repeated. The '
+                'bridgehead sculpture is kept out of the focal frame.',
+  'viewpoint': 'The Aare bank below the bridge, looking up at the two iron arches. Map: '
+               'https://maps.google.com/?q=46.94590,7.44850 The exact bank stone was not surveyed. The '
+               'parliament building is not the hero. No statue is the subject.',
+  'refs': ['https://en.wikipedia.org/wiki/List_of_Aare_bridges_in_Bern',
+           'https://structurae.net/en/structures/kirchenfeld-bridge'],
+  'anchors': ['An iron arch bridge opened in 1883, about 229 m long, with two main arches high above the '
+              'Aare.',
+              'The arches are riveted trusses. The deck is a road bridge, not the lower stone Nydegg Bridge '
+              'downstream.',
+              'A 1918 sculpture stands at the south bridgehead and is not the subject of this frame.'],
+  'composition': 'Iron arches of the Kirchenfeld Bridge above the Aare · AI-generated artistic '
+                 'interpretation',
+  'description': 'The Kirchenfeld Bridge crosses high above the Aare on two riveted iron arches, seen from '
+                 'the riverbank. The deck is the 1883 high bridge, not the lower Nydegg Bridge, and the '
+                 'parliament building is not the subject. This replaces the Bundeshaus, already published. '
+                 'The Open-Meteo model is overcast and cool, about 10°C, with full cloud cover, very humid '
+                 'air, a light wind, and no precipitation, and the sun is below the horizon.',
+  'alt_text': 'AI-generated artistic interpretation of the Kirchenfeld Bridge in Bern at night',
+  'sky': 'Night, sun well below the horizon, no sun disk, no moon. Overcast, no stars, no rain. Cool, very '
+         'humid, almost calm. Two tall riveted iron arches over a dark river, stone approaches. No '
+         'parliament facade as the hero, no statue portrait, no people, no readable text.',
+  'weather_note': 'The bridge deck is well above the river. The Open-Meteo cell is about 540 m, so the '
+                  'temperature is the model cell. The model hour reads is_day 0, and the frame is night.'}
 ]

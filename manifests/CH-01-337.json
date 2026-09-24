@@ -1,0 +1,16 @@
+{
+  "entry_id": "CH-01-337",
+  "country": "Switzerland",
+  "region": "Neuchâtel",
+  "city": "Boudry",
+  "caption": "Boudry Castle, Boudry",
+  "scenario_label": "24 September 2026 · 23:27 Europe/Zurich",
+  "composition": "Boudry Castle above the Areuse gorge · AI-generated artistic interpretation",
+  "description": "Château de Boudry stands on a spur above the Areuse, a compact stone castle with a round tower and the old-town roofs beneath it. Vineyard slopes drop toward the gorge, and the frame stays outside, with no museum lettering. This replaces the Neuchâtel lakefront and hilltop château, already published. The Open-Meteo model is overcast and mild, about 15°C, with full cloud cover, a northwest breeze, and no precipitation, and the sun is below the horizon.",
+  "alt_text": "AI-generated artistic interpretation of Boudry Castle above the Areuse at night",
+  "file_16x9": "library/world/Switzerland/Boudry/ch-01-337-16x9.png",
+  "file_4x5": "library/world/Switzerland/Boudry/ch-01-337-4x5.png",
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "approval_status": "Candidate"
+}

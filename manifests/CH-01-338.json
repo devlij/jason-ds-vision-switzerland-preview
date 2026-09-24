@@ -1,0 +1,16 @@
+{
+  "entry_id": "CH-01-338",
+  "country": "Switzerland",
+  "region": "Neuchâtel",
+  "city": "Le Locle",
+  "caption": "Lac des Brenets, Le Locle",
+  "scenario_label": "24 September 2026 · 23:27 Europe/Zurich",
+  "composition": "Fog on Lac des Brenets from the Swiss shore at Les Brenets · AI-generated artistic interpretation",
+  "description": "From the Swiss landing at Les Brenets, Lac des Brenets is a narrow dark lake between limestone walls, and the gorge fades into night fog. A few small boats sit at the Swiss shore. The far bank is France and is not presented as a Swiss place, and the downstream waterfall stays out of frame. This replaces La Chaux-de-Fonds, already published. The Open-Meteo model is fog, about 7°C, with cloud cover near 94%, very humid air, a light wind, and no precipitation, and the sun is below the horizon.",
+  "alt_text": "AI-generated artistic interpretation of foggy Lac des Brenets from the Swiss shore at night",
+  "file_16x9": "library/world/Switzerland/Le Locle/ch-01-338-16x9.png",
+  "file_4x5": "library/world/Switzerland/Le Locle/ch-01-338-4x5.png",
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "approval_status": "Candidate"
+}
