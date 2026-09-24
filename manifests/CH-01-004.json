@@ -1,0 +1,16 @@
+{
+  "entry_id": "CH-01-004",
+  "country": "Switzerland",
+  "region": "Geneva",
+  "city": "Geneva",
+  "caption": "Jet d'Eau, Geneva",
+  "scenario_label": "24 September 2026 · 14:38 Europe/Zurich",
+  "composition": "Lakefront quay looking toward the single Jet d'Eau plume on Lake Geneva · AI-generated artistic interpretation",
+  "description": "A single tall water plume rises from the jet structure offshore in Lake Geneva, seen from the Geneva quay. The lake stretches toward a low far shore under cloud. The jet is the only fountain, and the frame does not include the flower clock or a focal logo. Light is the soft overcast described by the Open-Meteo model for this Geneva afternoon.",
+  "alt_text": "AI-generated artistic interpretation of the Jet d'Eau rising from Lake Geneva",
+  "file_16x9": "library/world/Switzerland/Geneva/ch-01-004-16x9.png",
+  "file_4x5": "library/world/Switzerland/Geneva/ch-01-004-4x5.png",
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "approval_status": "Candidate"
+}
