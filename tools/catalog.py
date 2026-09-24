@@ -1,4 +1,4 @@
-"""Scene facts for CH-01-001 through CH-01-136."""
+"""Scene facts for CH-01-001 through CH-01-137."""
 
 from __future__ import annotations
 
@@ -3220,4 +3220,27 @@ SCENES = [
      'correction': 'Catalogue line said Wildhaus, Wildhaus. The political municipality since 2010 is '
                    'Wildhaus-Alt St. Johann. The scene is the village of Wildhaus, not Alt St. Johann '
                    'and not Unterwasser. Caption and city stay Wildhaus.'},
+    {'entry_id': 'CH-01-137',
+     'caption': 'Sargans Castle, Sargans',
+     'city': 'Sargans',
+     'region': 'St. Gallen',
+     'folder': 'Sargans',
+     'lat': 47.05019,
+     'lon': 9.43728,
+     'viewpoint': 'Below Sargans Castle, looking up at the keep and along the Rhine valley. Map: '
+                  'https://maps.google.com/?q=47.05019,9.43728 The exact path point was not surveyed. '
+                  'Exterior only.',
+     'refs': ['https://en.wikipedia.org/wiki/Sargans_Castle', 'https://en.wikipedia.org/wiki/Sargans'],
+     'anchors': ['Medieval castle with a tall square keep and curtain walls on a rocky spur.',
+                 'Town roofs of Sargans below the rock.',
+                 'The Rhine valley opening beyond. No scaffolding and no readable banner.'],
+     'composition': 'Sargans Castle above the town and the Rhine valley · AI-generated artistic '
+                    'interpretation',
+     'description': 'Sargans Castle stands on its rock above the town, a medieval keep and curtain '
+                    'walls looking over the junction of the Rhine valley. The frame is the exterior, '
+                    'and the town roofs sit below the spur. The Open-Meteo model is fully overcast and '
+                    'mild, with no rain.',
+     'alt_text': 'AI-generated artistic interpretation of Sargans Castle above the Rhine valley town',
+     'sky': 'Fully overcast mild afternoon, gray sky, soft light, stone keep, town roofs, wide valley, '
+            'no rain, no scaffolding.'},
 ]
