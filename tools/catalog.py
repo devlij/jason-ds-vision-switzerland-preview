@@ -1,4 +1,4 @@
-"""Scene facts for CH-01-001 through CH-01-144."""
+"""Scene facts for CH-01-001 through CH-01-160."""
 
 from __future__ import annotations
 
@@ -3427,4 +3427,438 @@ SCENES = [
      'correction': 'Catalogue line offered Chiasso, Chiasso or Mendrisio, Mendrisio. Mendrisio’s '
                    'historic centre is the stronger tourist site. Chiasso was not used. Caption and '
                    'city are Mendrisio.'},
+    {'entry_id': 'CH-01-145',
+     'caption': 'Lake Cauma, Flims',
+     'city': 'Flims',
+     'region': 'Graubünden',
+     'folder': 'Flims',
+     'lat': 46.8204,
+     'lon': 9.2952,
+     'viewpoint': 'The north shore path of Lake Cauma, looking across the turquoise water toward the '
+                  'wooded island and the forested rockslide slopes. Map: '
+                  'https://maps.google.com/?q=46.8204,9.2952 The exact path stone was not surveyed. '
+                  'This is not Flims Dorf and not the Flimserstein wall.',
+     'refs': ['https://en.wikipedia.org/wiki/Caumasee',
+              'https://en.wikipedia.org/wiki/Flims_rockslide'],
+     'anchors': ['A small turquoise lake held in forest on the Flims rockslide debris.',
+                 'A wooded island in the water.',
+                 'Steep wooded slopes of slide debris. No village street and no limestone cliff as the '
+                 'subject.'],
+     'composition': 'Lake Cauma and its wooded island in the Flims forest · AI-generated artistic '
+                    'interpretation',
+     'description': 'Lake Cauma lies in the forest on the Flims rockslide, a turquoise basin with a '
+                    'wooded island and steep wooded debris slopes. The frame is the lake, not the '
+                    'village terrace of Flims Dorf already catalogued under the Flimserstein. Late '
+                    'September leaves are only beginning to turn, and there is no snow at the shore. '
+                    'The Open-Meteo model is mostly cloudy and mild, with breaks of light and no rain.',
+     'alt_text': 'AI-generated artistic interpretation of turquoise Lake Cauma and its wooded island '
+                 'near Flims',
+     'sky': 'Mostly cloudy mild afternoon near 997 metres, cloud cover near 78 percent, soft light '
+            'with a few breaks, turquoise water, dark conifers, a little early autumn color, no snow, '
+            'no rain.',
+     'weather_note': 'The lake surface is about 997 m. The Open-Meteo cell is about 996 m, so the '
+                     'temperature is the model cell, not a thermometer at the shore.'},
+    {'entry_id': 'CH-01-146',
+     'caption': 'Disentis Abbey, Disentis',
+     'city': 'Disentis',
+     'region': 'Graubünden',
+     'folder': 'Disentis',
+     'lat': 46.70694,
+     'lon': 8.85639,
+     'viewpoint': 'South of Disentis Abbey, on the slope of Via Lucmagn, looking at the twin-towered '
+                  'baroque church and the white convent ranges. Map: '
+                  'https://maps.google.com/?q=46.70694,8.85639 The exact path point was not surveyed. '
+                  'Exterior only.',
+     'refs': ['https://en.wikipedia.org/wiki/Disentis_Abbey',
+              'https://www.myswitzerland.com/en/experiences/disentis-monastery-benedictine-abbey/'],
+     'anchors': ['A twin-towered baroque church of Saint Martin, Vorarlberg baroque, built 1696–1712.',
+                 'Long white convent ranges with regular windows and dark roofs.',
+                 'Village roofs below and high Surselva peaks behind. No scaffolding from the finished '
+                 '2016–17 works.'],
+     'composition': 'Twin-towered Disentis Abbey from the south · AI-generated artistic interpretation',
+     'description': 'Disentis Abbey stands above the town as a white baroque convent, with the '
+                    'twin-towered church of Saint Martin at the east end. The view from the south '
+                    'takes in the ranges, the village roofs, and the high valley. The political '
+                    'municipality is Disentis/Mustér; this frame is the abbey at Disentis. The '
+                    'Open-Meteo model is mainly clear and mild, with a low western sun and no rain.',
+     'alt_text': 'AI-generated artistic interpretation of the twin-towered baroque abbey at Disentis',
+     'sky': 'Mainly clear mild afternoon near 1150 metres, cloud cover near zero, blue sky, low '
+            'western sun warming the west faces of the towers, green and tawny slopes, old snow only '
+            'on distant high summits, no snow in the village, no rain.',
+     'weather_note': 'The abbey stands near 1130 m. The Open-Meteo cell is about 1181 m, so the '
+                     'temperature is the model cell, not a thermometer on the convent wall.',
+     'correction': 'Catalogue line said Disentis Abbey, Disentis. The political municipality is '
+                   'Disentis/Mustér. The frame is the abbey above the town of Disentis. Caption and '
+                   'city stay Disentis.'},
+    {'entry_id': 'CH-01-147',
+     'caption': 'Ilanz, Ilanz',
+     'city': 'Ilanz',
+     'region': 'Graubünden',
+     'folder': 'Ilanz',
+     'lat': 46.7744,
+     'lon': 9.2045,
+     'viewpoint': 'Inside the old town of Ilanz, looking toward the Obertor gate tower and the spire '
+                  'of Saint Margaret. Map: https://maps.google.com/?q=46.7744,9.2045 The exact lane '
+                  'stone was not surveyed. The Ruinaulta gorge is not the subject.',
+     'refs': ['https://en.wikipedia.org/wiki/Ilanz',
+              'https://www.myswitzerland.com/en/destinations/ilanz/'],
+     'anchors': ['The Obertor, a medieval gate tower at the edge of the walled town.',
+                 'The late-Gothic church of Saint Margaret with a slender tower.',
+                 'Narrow lanes of colored facades. Not the white cliffs of the Rhine gorge.'],
+     'composition': 'The Obertor and old-town lanes of Ilanz · AI-generated artistic interpretation',
+     'description': 'Ilanz is the first town on the Rhine, and its old town still has the Obertor and '
+                    'the church of Saint Margaret among colored facades. Since 2014 the political '
+                    'municipality has been Ilanz/Glion; this frame is the town of Ilanz, not the '
+                    'Ruinaulta gorge downstream. The Open-Meteo model is heavily clouded and mild, '
+                    'with no rain.',
+     'alt_text': 'AI-generated artistic interpretation of the Obertor and old town of Ilanz',
+     'sky': 'Heavily clouded mild afternoon near 700 metres, cloud cover near 95 percent, gray sky, '
+            'soft light, colored facades, gate tower, no gorge cliffs, no snow, no rain.',
+     'correction': 'Catalogue line said Ilanz, Ilanz. The political municipality since 2014 is '
+                   'Ilanz/Glion. The frame is the old town of Ilanz, not the Rhine gorge. Caption and '
+                   'city stay Ilanz.'},
+    {'entry_id': 'CH-01-148',
+     'caption': 'Thusis, Thusis',
+     'city': 'Thusis',
+     'region': 'Graubünden',
+     'folder': 'Thusis',
+     'lat': 46.6982,
+     'lon': 9.4422,
+     'viewpoint': 'The church square in Thusis, looking at the Reformed church and along the wide '
+                  'nineteenth-century street. Map: https://maps.google.com/?q=46.6982,9.4422 The exact '
+                  'square stone was not surveyed. The Viamala gorge is not in the frame.',
+     'refs': ['https://en.wikipedia.org/wiki/Thusis',
+              'https://www.graubuenden.ch/en/attractions/thusis-reformed-church-0'],
+     'anchors': ['A late-Gothic nave of 1491–1506 with a north tower of 1727.',
+                 'An onion dome on that tower, the standing form rebuilt after the 2002 fire.',
+                 'A wide straight street of nineteenth-century houses, the town rebuilt after the 1845 '
+                 'fire. Not a rock gorge.'],
+     'composition': 'Thusis Reformed church and the wide town street · AI-generated artistic '
+                    'interpretation',
+     'description': 'Thusis is the valley town at the mouth of the Viamala, shown here as the church '
+                    'and the wide street rather than the gorge. The late-Gothic Reformed church keeps '
+                    'the north tower of 1727, and the onion dome is the form rebuilt after the 2002 '
+                    'fire. The Open-Meteo model is partly cloudy and warm, with breaks of sun and no '
+                    'rain.',
+     'alt_text': 'AI-generated artistic interpretation of the Reformed church and wide street in Thusis',
+     'sky': 'Partly cloudy warm afternoon, cloud cover near 41 percent, low western sun and broken '
+            'cloud, onion-domed church, wide street, valley slopes, no gorge, no rain.'},
+    {'entry_id': 'CH-01-149',
+     'caption': 'Engelberg village, Engelberg',
+     'city': 'Engelberg',
+     'region': 'Obwalden',
+     'folder': 'Engelberg',
+     'lat': 46.82056,
+     'lon': 8.40972,
+     'viewpoint': 'The village street in Engelberg, looking up at the baroque abbey church and the '
+                  'convent ranges. Map: https://maps.google.com/?q=46.82056,8.40972 The exact paving '
+                  'stone was not surveyed. The Titlis summit is not the subject.',
+     'refs': ['https://en.wikipedia.org/wiki/Engelberg_Abbey',
+              'https://en.wikipedia.org/wiki/Engelberg'],
+     'anchors': ['A large white baroque abbey closing the head of the street.',
+                 'The abbey church front and a tall tower beside long convent ranges.',
+                 'Wooden and plaster village houses. No summit glacier and no cable car as the subject.'],
+     'composition': 'Engelberg village street and the baroque abbey · AI-generated artistic '
+                    'interpretation',
+     'description': 'The village street of Engelberg leads to the baroque abbey, a large white '
+                    'convent and church at the head of the valley. This frame stays with the abbey and '
+                    'the houses, and it does not repeat the summit portrait of Titlis. Full cloud '
+                    'hides the high ice. The Open-Meteo model is overcast, cool, and calm, with no rain.',
+     'alt_text': 'AI-generated artistic interpretation of the Engelberg village street and abbey',
+     'sky': 'Fully overcast cool afternoon near 1000 metres, uniform gray sky, diffuse light, white '
+            'abbey, wooden houses, no visible glacier, no snow in the street, no rain.',
+     'weather_note': 'The abbey is about 1000 m. The temperature is the Open-Meteo valley cell, not a '
+                     'reading on Titlis.'},
+    {'entry_id': 'CH-01-150',
+     'caption': 'Stans Dorfplatz, Stans',
+     'city': 'Stans',
+     'region': 'Nidwalden',
+     'folder': 'Stans',
+     'lat': 46.9584,
+     'lon': 8.3661,
+     'viewpoint': 'Inside Dorfplatz in Stans, looking at the parish church of Saints Peter and Paul. '
+                  'Map: https://maps.google.com/?q=46.9584,8.3661 The exact paving stone was not '
+                  'surveyed. The Stanserhorn is not the subject, and the Winkelried monument is not '
+                  'the focal object.',
+     'refs': ['https://en.wikipedia.org/wiki/Stans',
+              'https://www.myswitzerland.com/en/destinations/stans/'],
+     'anchors': ['The baroque parish church of Saints Peter and Paul with a tall tower.',
+                 'Town houses enclosing a paved square.',
+                 'No isolated mountain cone filling the sky. The square monument is not the subject.'],
+     'composition': 'Dorfplatz and the parish church in Stans · AI-generated artistic interpretation',
+     'description': 'Dorfplatz is the enclosed main square of Stans, with the baroque church of '
+                    'Saints Peter and Paul and its tall tower among the town houses. This is street '
+                    'level in the capital of Nidwalden, not the view of the Stanserhorn already '
+                    'catalogued from the edge of town. The Open-Meteo model is fully overcast and '
+                    'mild, with no rain.',
+     'alt_text': 'AI-generated artistic interpretation of Dorfplatz and the parish church in Stans',
+     'sky': 'Fully overcast mild afternoon, gray sky, soft light, baroque church tower, enclosed '
+            'square, no mountain portrait, no rain.'},
+    {'entry_id': 'CH-01-151',
+     'caption': 'Vitznau, Vitznau',
+     'city': 'Vitznau',
+     'region': 'Lucerne',
+     'folder': 'Vitznau',
+     'lat': 47.0098,
+     'lon': 8.4842,
+     'viewpoint': 'The lakeside promenade in Vitznau, looking along the quay and the steamer pier as '
+                  'the bay opens. Map: https://maps.google.com/?q=47.0098,8.4842 The exact quay stone '
+                  'was not surveyed. Mount Rigi is not centered.',
+     'refs': ['https://en.wikipedia.org/wiki/Vitznau',
+              'https://en.wikipedia.org/wiki/Lake_Lucerne'],
+     'anchors': ['A curved quay, a steamer pier, and a row of hotels without a readable name.',
+                 'Lake Lucerne opening along the bay.',
+                 'Only the lower forested flank of Rigi at the frame edge. Not a summit portrait.'],
+     'composition': 'Vitznau quay and steamer pier on Lake Lucerne · AI-generated artistic '
+                    'interpretation',
+     'description': 'Vitznau’s lakefront is the quay, the steamer pier, and the hotel row where the '
+                    'bay of Lake Lucerne opens. Mount Rigi, already catalogued as the ridge behind '
+                    'the village, stays at the edge of the frame and is not the subject. The '
+                    'Open-Meteo model is fully overcast and mild, with a fresh breeze and no rain.',
+     'alt_text': 'AI-generated artistic interpretation of the quay and pier at Vitznau on Lake Lucerne',
+     'sky': 'Fully overcast mild afternoon, gray sky, gray-blue lake, soft light, quay and pier, '
+            'hotel fronts without readable names, forested slope only at the edge, no rain.'},
+    {'entry_id': 'CH-01-152',
+     'caption': 'Küssnacht, Küssnacht',
+     'city': 'Küssnacht',
+     'region': 'Schwyz',
+     'folder': 'Küssnacht',
+     'lat': 47.08306,
+     'lon': 8.43833,
+     'viewpoint': 'The lakeside in Küssnacht, looking along the Küssnacht arm of Lake Lucerne toward '
+                  'the church tower and the old-town roofs. Map: '
+                  'https://maps.google.com/?q=47.08306,8.43833 The exact shore point was not surveyed. '
+                  'This is not the Hohle Gasse and not a portrait of Rigi.',
+     'refs': ['https://en.wikipedia.org/wiki/K%C3%BCssnacht',
+              'https://en.wikipedia.org/wiki/Lake_Lucerne'],
+     'anchors': ['A small harbor and promenade on the Küssnacht arm of Lake Lucerne.',
+                 'A church tower and compact old-town roofs behind the shore.',
+                 'No hollow-way chapel and no centered Rigi summit.'],
+     'composition': 'Küssnacht lakefront on the Küssnacht arm of Lake Lucerne · AI-generated artistic '
+                    'interpretation',
+     'description': 'Küssnacht lines the north shore of the Küssnacht arm of Lake Lucerne, with a '
+                    'small harbor, a church tower, and the old-town roofs. The official name since '
+                    '2004 is Küssnacht. The frame is this shore, not the Hohle Gasse and not the Rigi '
+                    'summit. The Open-Meteo model is fully overcast and mild, with no rain.',
+     'alt_text': 'AI-generated artistic interpretation of the lakefront and church tower at Küssnacht',
+     'sky': 'Fully overcast mild afternoon, gray sky, gray-blue arm of the lake, soft light, church '
+            'tower, old-town roofs, no mountain portrait, no rain.',
+     'correction': 'Catalogue line said Küssnacht, Küssnacht. The official municipality name since '
+                   '2004 is Küssnacht; the older form Küssnacht am Rigi is not the caption. The frame '
+                   'is the lakeside town, not the Hohle Gasse.'},
+    {'entry_id': 'CH-01-153',
+     'caption': 'Arth, Arth',
+     'city': 'Arth',
+     'region': 'Schwyz',
+     'folder': 'Arth',
+     'lat': 47.06335,
+     'lon': 8.5238,
+     'viewpoint': 'The promenade at Arth on the south shore of Lake Zug, looking toward the baroque '
+                  'parish church. Map: https://maps.google.com/?q=47.06335,8.5238 The exact shore '
+                  'point was not surveyed. Goldau and the Arth-Goldau station are not in the frame.',
+     'refs': ['https://en.wikipedia.org/wiki/Arth,_Switzerland',
+              'https://en.wikipedia.org/wiki/Lake_Zug'],
+     'anchors': ['The baroque parish church of Arth with an onion-domed tower beside the lake.',
+                 'A promenade and the open water of Lake Zug in the foreground.',
+                 'No railway station and no landslide scar. Rigi is only a distant slope.'],
+     'composition': 'Arth parish church on the south shore of Lake Zug · AI-generated artistic '
+                    'interpretation',
+     'description': 'Arth is the lakeside village on the south shore of Lake Zug, with the baroque '
+                    'parish church and its onion tower beside the promenade. Arth-Goldau is the '
+                    'railway station in the inland locality of Goldau, inside the same municipality, '
+                    'and that station is not the scene. The Open-Meteo model is fully overcast and '
+                    'mild, with a breeze and no rain.',
+     'alt_text': 'AI-generated artistic interpretation of the parish church at Arth on Lake Zug',
+     'sky': 'Fully overcast mild afternoon, gray sky, gray-blue lake, soft light, onion-domed church, '
+            'promenade, no station, no rain.',
+     'correction': 'Catalogue line said Arth-Goldau, Arth or Goldau. Arth-Goldau is the railway '
+                   'station in Goldau. The scenic subject is the lakeside village of Arth on Lake '
+                   'Zug. Caption and city are Arth. Goldau is not shown.'},
+    {'entry_id': 'CH-01-154',
+     'caption': 'Fronwagplatz, Schaffhausen',
+     'city': 'Schaffhausen',
+     'region': 'Schaffhausen',
+     'folder': 'Schaffhausen',
+     'lat': 47.6959,
+     'lon': 8.6347,
+     'viewpoint': 'Inside Fronwagplatz, looking toward the Fronwagturm on the south side of the '
+                  'square. Map: https://maps.google.com/?q=47.6959,8.6347 The exact paving stone was '
+                  'not surveyed. The Munot and the Rhine Falls are not in the frame. The fountain '
+                  'figure is not the subject.',
+     'refs': ['https://en.wikipedia.org/wiki/Schaffhausen',
+              'https://de.wikipedia.org/wiki/Fronwagplatz'],
+     'anchors': ['The Fronwagturm standing on the narrow south side of the square, with a clock in '
+                 'the gable.',
+                 'The guild house Herrenstube beside the tower.',
+                 'Tall burgher houses with oriel windows. No hilltop fortress and no waterfall.'],
+     'composition': 'Fronwagturm on Fronwagplatz in Schaffhausen · AI-generated artistic interpretation',
+     'description': 'Fronwagplatz is the main square of Schaffhausen’s old town, closed on the south '
+                    'by the Fronwagturm and the guild house beside it. Burgher houses with oriel '
+                    'windows ring the paving. This is not the Munot and not the Rhine Falls, both '
+                    'already catalogued. The Open-Meteo model is fully overcast and mild, with a '
+                    'breeze and no rain.',
+     'alt_text': 'AI-generated artistic interpretation of the Fronwagturm on Fronwagplatz in '
+                 'Schaffhausen',
+     'sky': 'Fully overcast mild afternoon, gray sky, soft light, stone tower, oriel houses, empty '
+            'square, no fortress, no waterfall, no rain.'},
+    {'entry_id': 'CH-01-155',
+     'caption': 'Kreuzlingen, Kreuzlingen',
+     'city': 'Kreuzlingen',
+     'region': 'Thurgau',
+     'folder': 'Kreuzlingen',
+     'lat': 47.6494,
+     'lon': 9.1868,
+     'viewpoint': 'The park shore at Seeburg in Kreuzlingen, looking at the historicist house and '
+                  'across Lake Constance. Map: https://maps.google.com/?q=47.6494,9.1868 The exact '
+                  'path point was not surveyed. This is the Swiss shore, not the old town of Konstanz '
+                  'and not Steckborn.',
+     'refs': ['https://en.wikipedia.org/wiki/Kreuzlingen',
+              'https://de.wikipedia.org/wiki/Schloss_Seeburg_(Kreuzlingen)'],
+     'anchors': ['The standing historicist Seeburg of 1870, a villa-castle in a park on the water.',
+                 'Open water of Lake Constance and a low far shore.',
+                 'No German old-town skyline and no Untersee quay of Steckborn.'],
+     'composition': 'Seeburg park on the Kreuzlingen shore of Lake Constance · AI-generated artistic '
+                    'interpretation',
+     'description': 'Kreuzlingen meets Lake Constance at Seeburg, the historicist house rebuilt in '
+                    '1870 and set in a park on the Swiss shore. The water here is the Konstanz end of '
+                    'the lake, not the Untersee quay of Steckborn already catalogued, and the German '
+                    'old town is not the subject. The Open-Meteo model is fully overcast and mild, '
+                    'with a breeze and no rain.',
+     'alt_text': 'AI-generated artistic interpretation of Seeburg park on the Kreuzlingen shore of '
+                 'Lake Constance',
+     'sky': 'Fully overcast mild afternoon, gray sky, gray-blue lake, soft light, historicist house '
+            'in a park, low far shore, no rain.',
+     'correction': 'Catalogue line placed Kreuzlingen on the Untersee. Seeburg faces the Konstanz end '
+                   'of Lake Constance. Steckborn remains the Untersee scene. Caption and city stay '
+                   'Kreuzlingen.'},
+    {'entry_id': 'CH-01-156',
+     'caption': 'Romanshorn, Romanshorn',
+     'city': 'Romanshorn',
+     'region': 'Thurgau',
+     'folder': 'Romanshorn',
+     'lat': 47.5658,
+     'lon': 9.3792,
+     'viewpoint': 'The outer mole of Romanshorn harbor, looking back across the basin toward the town '
+                  'and the open lake. Map: https://maps.google.com/?q=47.5658,9.3792 The exact mole '
+                  'point was not surveyed. No readable ship name.',
+     'refs': ['https://en.wikipedia.org/wiki/Romanshorn',
+              'https://en.wikipedia.org/wiki/Lake_Constance'],
+     'anchors': ['Stone harbor moles and a basin of moored boats without readable names.',
+                 'A low town and a church spire behind the quay.',
+                 'Open Lake Constance to a low far shore. Not a river port.'],
+     'composition': 'Romanshorn harbor on Lake Constance · AI-generated artistic interpretation',
+     'description': 'Romanshorn is the harbor town on the Swiss shore of Lake Constance, with stone '
+                    'moles, a basin, and the church spire behind the quay. The far shore is low and '
+                    'hazy. No ferry name is readable. The Open-Meteo model is fully overcast and mild, '
+                    'with no rain.',
+     'alt_text': 'AI-generated artistic interpretation of the harbor moles at Romanshorn on Lake '
+                 'Constance',
+     'sky': 'Fully overcast mild afternoon, gray sky, gray-blue lake, soft light, stone moles, church '
+            'spire, low far shore, no readable names, no rain.'},
+    {'entry_id': 'CH-01-157',
+     'caption': 'Wil, Wil',
+     'city': 'Wil',
+     'region': 'St. Gallen',
+     'folder': 'Wil',
+     'lat': 47.4618,
+     'lon': 9.0458,
+     'viewpoint': 'The Hof in the old town of Wil, looking at the medieval tower and the church of '
+                  'Saint Nicholas. Map: https://maps.google.com/?q=47.4618,9.0458 The exact court '
+                  'stone was not surveyed. This is not the abbey at St. Gallen.',
+     'refs': ['https://en.wikipedia.org/wiki/Wil',
+              'https://de.wikipedia.org/wiki/Wil_SG'],
+     'anchors': ['A tall medieval tower of the Hof, the former residence of the prince-abbots.',
+                 'The church of Saint Nicholas beside the Hof.',
+                 'Arcaded old-town streets. Not the great abbey church of St. Gallen.'],
+     'composition': 'The Hof tower and Saint Nicholas in Wil · AI-generated artistic interpretation',
+     'description': 'Wil’s old town is marked by the Hof, where the prince-abbots of St. Gallen kept '
+                    'a residence, and by the church of Saint Nicholas. A medieval tower and arcaded '
+                    'streets define the center. This is the town of Wil in St. Gallen, not the abbey '
+                    'district of the city of St. Gallen. The Open-Meteo model is fully overcast and '
+                    'mild, with no rain.',
+     'alt_text': 'AI-generated artistic interpretation of the Hof tower and church in the old town of '
+                 'Wil',
+     'sky': 'Fully overcast mild afternoon, gray sky, soft light, medieval tower, church, arcades, '
+            'no abbey facade, no rain.'},
+    {'entry_id': 'CH-01-158',
+     'caption': 'Château de Grandson, Grandson',
+     'city': 'Grandson',
+     'region': 'Vaud',
+     'folder': 'Grandson',
+     'lat': 46.8094,
+     'lon': 6.6456,
+     'viewpoint': 'The lake side of Château de Grandson, looking along the curtain wall and the round '
+                  'corner towers, with Lake Neuchâtel beside the rock. Map: '
+                  'https://maps.google.com/?q=46.8094,6.6456 The exact shore point was not surveyed. '
+                  'Exterior only.',
+     'refs': ['https://en.wikipedia.org/wiki/Grandson_Castle',
+              'https://en.wikipedia.org/wiki/Grandson,_Switzerland'],
+     'anchors': ['A near-square medieval castle with four large round corner towers and a further '
+                 'tower at the entrance.',
+                 'High curtain walls on a rock spur.',
+                 'Lake Neuchâtel immediately beside the walls, and the small town adjacent. No '
+                 'battlefield display.'],
+     'composition': 'Château de Grandson on its rock beside Lake Neuchâtel · AI-generated artistic '
+                    'interpretation',
+     'description': 'Château de Grandson stands on a rock spur on the south shore of Lake Neuchâtel, '
+                    'a near-square fortress with four great round corner towers and high curtain '
+                    'walls. The lake comes up to the rock, and the small town sits beside the walls. '
+                    'The Open-Meteo model is nearly fully overcast and warm, with almost no wind and '
+                    'no rain.',
+     'alt_text': 'AI-generated artistic interpretation of Château de Grandson beside Lake Neuchâtel',
+     'sky': 'Nearly fully overcast warm afternoon, cloud cover near 96 percent, gray sky, soft light, '
+            'pale stone round towers, gray-blue lake, no rain.'},
+    {'entry_id': 'CH-01-159',
+     'caption': 'Estavayer-le-Lac, Estavayer-le-Lac',
+     'city': 'Estavayer-le-Lac',
+     'region': 'Fribourg',
+     'folder': 'Estavayer-le-Lac',
+     'lat': 46.849,
+     'lon': 6.8468,
+     'viewpoint': 'Below Chenaux Castle, looking up at the keep and across the old-town roofs to Lake '
+                  'Neuchâtel. Map: https://maps.google.com/?q=46.849,6.8468 The exact lane point was '
+                  'not surveyed. Exterior only.',
+     'refs': ['https://en.wikipedia.org/wiki/Estavayer-le-Lac',
+              'https://de.wikipedia.org/wiki/Schloss_Chenaux'],
+     'anchors': ['Chenaux Castle on a height north of the old town, with a keep and steep roofs.',
+                 'Tiled roofs of the old town below the castle.',
+                 'Lake Neuchâtel beyond the roofs. Not a museum interior.'],
+     'composition': 'Chenaux Castle above Estavayer-le-Lac and Lake Neuchâtel · AI-generated artistic '
+                    'interpretation',
+     'description': 'Estavayer-le-Lac sits on the south shore of Lake Neuchâtel in the canton of '
+                    'Fribourg, with Chenaux Castle on the height above the old-town roofs. The lake '
+                    'opens beyond the tiles. Since 2017 the political municipality has been Estavayer; '
+                    'this frame is the historical town. The Open-Meteo model is fully overcast and '
+                    'warm, with no rain.',
+     'alt_text': 'AI-generated artistic interpretation of Chenaux Castle above Estavayer-le-Lac',
+     'sky': 'Fully overcast warm afternoon, gray sky, soft light, stone castle, terracotta roofs, '
+            'gray-blue lake, no rain.',
+     'correction': 'Catalogue line said Estavayer-le-Lac, Estavayer-le-Lac. The political '
+                   'municipality since 2017 is Estavayer. The frame is the historical town and '
+                   'Chenaux Castle. Caption and city stay Estavayer-le-Lac.'},
+    {'entry_id': 'CH-01-160',
+     'caption': 'Bulle, Bulle',
+     'city': 'Bulle',
+     'region': 'Fribourg',
+     'folder': 'Bulle',
+     'lat': 46.6172,
+     'lon': 7.0572,
+     'viewpoint': 'Place du Marché in Bulle, looking at the square keep of the castle on the south '
+                  'side of the square. Map: https://maps.google.com/?q=46.6172,7.0572 The exact '
+                  'square stone was not surveyed. Gruyères Castle is not in the frame.',
+     'refs': ['https://en.wikipedia.org/wiki/Bulle',
+              'https://de.wikipedia.org/wiki/Schloss_Bulle'],
+     'anchors': ['A tall square stone keep, about 33 metres, of the thirteenth-century castle.',
+                 'The keep standing on the south side of the market square among town roofs.',
+                 'Gruyère foothills beyond. Not the hilltop village castle of Gruyères.'],
+     'composition': 'The square keep of Bulle Castle on Place du Marché · AI-generated artistic '
+                    'interpretation',
+     'description': 'Bulle’s market square is closed on the south by the castle, whose square stone '
+                    'keep rises about 33 metres above the town roofs. The town is the market center '
+                    'of the Gruyère district, and this is not the hilltop castle of Gruyères already '
+                    'catalogued. The Open-Meteo model is heavily clouded and warm, with no rain.',
+     'alt_text': 'AI-generated artistic interpretation of the square keep of Bulle Castle above the '
+                 'market square',
+     'sky': 'Heavily clouded warm afternoon, cloud cover near 95 percent, gray sky, soft light, '
+            'square stone keep, town roofs, green foothills, no hilltop fairy-tale castle, no rain.'},
 ]

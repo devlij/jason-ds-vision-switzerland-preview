@@ -1,0 +1,16 @@
+{
+  "entry_id": "CH-01-145",
+  "country": "Switzerland",
+  "region": "Graubünden",
+  "city": "Flims",
+  "caption": "Lake Cauma, Flims",
+  "scenario_label": "24 September 2026 · 17:33 Europe/Zurich",
+  "composition": "Lake Cauma and its wooded island in the Flims forest · AI-generated artistic interpretation",
+  "description": "Lake Cauma lies in the forest on the Flims rockslide, a turquoise basin with a wooded island and steep wooded debris slopes. The frame is the lake, not the village terrace of Flims Dorf already catalogued under the Flimserstein. Late September leaves are only beginning to turn, and there is no snow at the shore. The Open-Meteo model is mostly cloudy and mild, with breaks of light and no rain.",
+  "alt_text": "AI-generated artistic interpretation of turquoise Lake Cauma and its wooded island near Flims",
+  "file_16x9": "library/world/Switzerland/Flims/ch-01-145-16x9.png",
+  "file_4x5": "library/world/Switzerland/Flims/ch-01-145-4x5.png",
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "approval_status": "Candidate"
+}

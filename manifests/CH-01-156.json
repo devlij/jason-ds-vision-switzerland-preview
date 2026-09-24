@@ -1,0 +1,16 @@
+{
+  "entry_id": "CH-01-156",
+  "country": "Switzerland",
+  "region": "Thurgau",
+  "city": "Romanshorn",
+  "caption": "Romanshorn, Romanshorn",
+  "scenario_label": "24 September 2026 · 17:33 Europe/Zurich",
+  "composition": "Romanshorn harbor on Lake Constance · AI-generated artistic interpretation",
+  "description": "Romanshorn is the harbor town on the Swiss shore of Lake Constance, with stone moles, a basin, and the church spire behind the quay. The far shore is low and hazy. No ferry name is readable. The Open-Meteo model is fully overcast and mild, with no rain.",
+  "alt_text": "AI-generated artistic interpretation of the harbor moles at Romanshorn on Lake Constance",
+  "file_16x9": "library/world/Switzerland/Romanshorn/ch-01-156-16x9.png",
+  "file_4x5": "library/world/Switzerland/Romanshorn/ch-01-156-4x5.png",
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "approval_status": "Candidate"
+}
