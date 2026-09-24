@@ -1,4 +1,4 @@
-"""Scene facts for CH-01-001 through CH-01-140."""
+"""Scene facts for CH-01-001 through CH-01-141."""
 
 from __future__ import annotations
 
@@ -3320,4 +3320,31 @@ SCENES = [
                  'Notre-Dame du Glarier',
      'sky': 'Fully overcast warm afternoon, gray sky, soft light, stone lane, square Romanesque tower, '
             'dry, no rain.'},
+    {'entry_id': 'CH-01-141',
+     'caption': 'Brig, Brig',
+     'city': 'Brig',
+     'region': 'Valais',
+     'folder': 'Brig',
+     'lat': 46.3156,
+     'lon': 7.9882,
+     'viewpoint': 'The courtyard of the Stockalper Palace in Brig, looking at the three onion-domed '
+                  'towers. Map: https://maps.google.com/?q=46.3156,7.9882 The exact court stone was '
+                  'not surveyed. No readable inscription.',
+     'refs': ['https://en.wikipedia.org/wiki/Stockalper_Castle',
+              'https://en.wikipedia.org/wiki/Brig-Glis'],
+     'anchors': ['Three tall towers, each with a dark onion dome.',
+                 'Baroque arcaded galleries around the courtyard.',
+                 'A palace garden. The political municipality is Brig-Glis; the palace stands in the '
+                 'town of Brig.'],
+     'composition': 'Stockalper Palace courtyard in Brig · AI-generated artistic interpretation',
+     'description': 'Brig is marked by the Stockalper Palace, a baroque courtyard with three '
+                    'onion-domed towers and arcaded galleries. The political municipality since 1973 '
+                    'is Brig-Glis, and the palace stands in the town quarter of Brig. The Open-Meteo '
+                    'model is partly cloudy, warm, and windy, with no rain.',
+     'alt_text': 'AI-generated artistic interpretation of the Stockalper Palace courtyard in Brig',
+     'sky': 'Partly cloudy warm afternoon, cloud cover near 67 percent, low southwestern sun, three '
+            'dark onion domes, arcaded court, dry, no rain.',
+     'correction': 'Catalogue line said Brig, Brig. The political municipality since 1973 is '
+                   'Brig-Glis. The frame is the Stockalper Palace in the town of Brig. Caption and '
+                   'city stay Brig.'},
 ]
