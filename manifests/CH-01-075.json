@@ -1,0 +1,16 @@
+{
+  "entry_id": "CH-01-075",
+  "country": "Switzerland",
+  "region": "Vaud",
+  "city": "Lausanne",
+  "caption": "Ouchy, Lausanne",
+  "scenario_label": "24 September 2026 · 16:01 Europe/Zurich",
+  "composition": "Ouchy quay and château on Lake Geneva, with Lausanne behind · AI-generated artistic interpretation",
+  "description": "Ouchy is the port of Lausanne, where a square-towered château stands on the quay of Lake Geneva and the city rises behind the water. The Alps lie across the lake under the cloud. The cathedral on the Cité is a separate scene, and no steamer name or hotel sign is readable. The Open-Meteo model is fully overcast and nearly calm, with no rain.",
+  "alt_text": "AI-generated artistic interpretation of the Ouchy quay and château on Lake Geneva",
+  "file_16x9": "library/world/Switzerland/Lausanne/ch-01-075-16x9.png",
+  "file_4x5": "library/world/Switzerland/Lausanne/ch-01-075-4x5.png",
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "approval_status": "Candidate"
+}
