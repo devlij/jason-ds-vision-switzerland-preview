@@ -1,0 +1,16 @@
+{
+  "entry_id": "CH-01-036",
+  "country": "Switzerland",
+  "region": "Uri",
+  "city": "Andermatt",
+  "caption": "Devil's Bridge, Andermatt",
+  "scenario_label": "24 September 2026 · 15:27 Europe/Zurich",
+  "composition": "Schöllenen Gorge with the stone Devil's Bridge and the higher road span · AI-generated artistic interpretation",
+  "description": "In the Schöllenen Gorge, between Göschenen and Andermatt, the 1830 stone Devil's Bridge arches over the Reuss, and a higher road span crosses the same gorge above it. Sheer granite walls close the frame, and the river is white water in the slot. The bridge stands in the municipality of Andermatt, canton of Uri, and the view is the gorge rather than the village street, with no new scaffolding and no readable inscription. The Open-Meteo model is partly cloudy, so sun reaches the granite rims while the gorge stays darker, with no rain.",
+  "alt_text": "AI-generated artistic interpretation of the Devil's Bridge in the Schöllenen Gorge near Andermatt",
+  "file_16x9": "library/world/Switzerland/Andermatt/ch-01-036-16x9.png",
+  "file_4x5": "library/world/Switzerland/Andermatt/ch-01-036-4x5.png",
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "approval_status": "Candidate"
+}
