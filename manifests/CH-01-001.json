@@ -1,0 +1,16 @@
+{
+  "entry_id": "CH-01-001",
+  "country": "Switzerland",
+  "region": "Valais",
+  "city": "Zermatt",
+  "caption": "Matterhorn, Zermatt",
+  "scenario_label": "24 September 2026 · 14:38 Europe/Zurich",
+  "composition": "Gornergrat railway terrace looking southwest toward the Matterhorn and Gorner Glacier · AI-generated artistic interpretation",
+  "description": "From the Gornergrat railway terrace, looking southwest, the Matterhorn rises as a dark pyramidal horn with snow and ice on the upper faces and the Hörnli ridge falling to the right. The Gorner Glacier fills the middle ground with crevassed ice and gray moraine. Late-September rock and tawny alpine grass occupy the near slope under the Open-Meteo cloud and temperature for this high cell. No new construction is shown.",
+  "alt_text": "AI-generated artistic interpretation of the Matterhorn from the Gornergrat railway terrace above Zermatt",
+  "file_16x9": "library/world/Switzerland/Zermatt/ch-01-001-16x9.png",
+  "file_4x5": "library/world/Switzerland/Zermatt/ch-01-001-4x5.png",
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "approval_status": "Candidate"
+}
