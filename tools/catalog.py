@@ -1,4 +1,4 @@
-"""Scene facts for CH-01-001 through CH-01-129."""
+"""Scene facts for CH-01-001 through CH-01-130."""
 
 from __future__ import annotations
 
@@ -3026,4 +3026,36 @@ SCENES = [
             'blue, sun low in the west, mild air, no rain, no snow on roofs or the street.',
      'weather_note': 'The church at Klosters Platz is about 1205 m. The Open-Meteo cell is about 1192 '
                      'm, so the temperature is the model cell, not a thermometer by the church.'},
+    {'entry_id': 'CH-01-130',
+     'caption': 'Lenzerheide, Vaz/Obervaz',
+     'city': 'Vaz/Obervaz',
+     'region': 'Graubünden',
+     'folder': 'Vaz-Obervaz',
+     'lat': 46.72215,
+     'lon': 9.55905,
+     'viewpoint': 'Shore of Heidsee in the village of Lenzerheide, looking across the water toward the '
+                  'chalets and the Parpaner Rothorn. Map: https://maps.google.com/?q=46.72215,9.55905 '
+                  'The exact shore point was not surveyed. This is not Arosa and not St. Moritz.',
+     'refs': ['https://en.wikipedia.org/wiki/Lenzerheide/Lai',
+              'https://en.wikipedia.org/wiki/Vaz/Obervaz'],
+     'anchors': ['Heidsee, a small lake in the broadened valley, with a breeze on the water.',
+                 'Chalets and a modest church of Lenzerheide, tawny late-September meadows.',
+                 'The Parpaner Rothorn behind the village. Lenzerheide is a fraction of Vaz/Obervaz, '
+                 'not its own municipality.'],
+     'composition': 'Heidsee and the village of Lenzerheide under the Parpaner Rothorn · AI-generated '
+                    'artistic interpretation',
+     'description': 'Lenzerheide is the resort village in the municipality of Vaz/Obervaz, gathered '
+                    'around Heidsee beneath the Parpaner Rothorn. Tawny late-September meadows '
+                    'surround the chalets, and the lake is open. It is not Arosa and not St. Moritz. '
+                    'The Open-Meteo model is partly cloudy, cool, and breezy, with no rain and no '
+                    'fresh snow on the shore.',
+     'alt_text': 'AI-generated artistic interpretation of Heidsee and Lenzerheide in Vaz/Obervaz',
+     'sky': 'Partly cloudy cool afternoon near 1470 metres, cloud cover near 60 percent, low western '
+            'sun through gaps, a breezy ruffled lake, tawny meadows, no rain, no fresh snow.',
+     'weather_note': 'The village shore is about 1476 m. The Open-Meteo cell is about 1458 m, so the '
+                     'temperature is the model cell, not a thermometer at Heidsee.',
+     'correction': 'Catalogue line offered Lenzerheide, Vaz/Obervaz or Lenzerheide. Lenzerheide is a '
+                   'village fraction of the municipality of Vaz/Obervaz, not a municipality of its '
+                   'own. Caption uses Lenzerheide, Vaz/Obervaz. City is Vaz/Obervaz. The folder is '
+                   'Vaz-Obervaz because a slash cannot be a directory name.'},
 ]
