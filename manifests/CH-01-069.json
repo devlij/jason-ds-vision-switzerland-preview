@@ -1,0 +1,16 @@
+{
+  "entry_id": "CH-01-069",
+  "country": "Switzerland",
+  "region": "Aargau",
+  "city": "Aarau",
+  "caption": "Aarau Old Town, Aarau",
+  "scenario_label": "24 September 2026 · 16:01 Europe/Zurich",
+  "composition": "Aarau old town, painted eaves leading toward the Oberer Turm · AI-generated artistic interpretation",
+  "description": "The old town of Aarau runs as a narrow street of houses with wide eaves, the painted undersides of the roofs leading toward the Oberer Turm. The paintings belong to the architecture and carry no legible lettering. This is the street of the cantonal capital of Aargau. The Open-Meteo model is fully overcast, with soft light and no rain.",
+  "alt_text": "AI-generated artistic interpretation of Aarau old town and the painted roof eaves",
+  "file_16x9": "library/world/Switzerland/Aarau/ch-01-069-16x9.png",
+  "file_4x5": "library/world/Switzerland/Aarau/ch-01-069-4x5.png",
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "approval_status": "Candidate"
+}
