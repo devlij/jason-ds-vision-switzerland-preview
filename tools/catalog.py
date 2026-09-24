@@ -1,4 +1,4 @@
-"""Scene facts for CH-01-001 through CH-01-141."""
+"""Scene facts for CH-01-001 through CH-01-142."""
 
 from __future__ import annotations
 
@@ -3347,4 +3347,27 @@ SCENES = [
      'correction': 'Catalogue line said Brig, Brig. The political municipality since 1973 is '
                    'Brig-Glis. The frame is the Stockalper Palace in the town of Brig. Caption and '
                    'city stay Brig.'},
+    {'entry_id': 'CH-01-142',
+     'caption': 'Visp, Visp',
+     'city': 'Visp',
+     'region': 'Valais',
+     'folder': 'Visp',
+     'lat': 46.2937,
+     'lon': 7.88149,
+     'viewpoint': 'The old town of Visp beside the Vispa, looking toward the spire of Saint Martin. '
+                  'Map: https://maps.google.com/?q=46.2937,7.88149 The exact bank point was not '
+                  'surveyed. This is not Zermatt and the Matterhorn is not the skyline.',
+     'refs': ['https://en.wikipedia.org/wiki/Visp', 'https://en.wikipedia.org/wiki/Valais'],
+     'anchors': ['The tall dark spire of the church of Saint Martin.',
+                 'Burgher houses and the Vispa river at the edge of town.',
+                 'Valley slopes in broken cloud. No single pyramidal horn as the subject.'],
+     'composition': 'Visp old town, Saint Martin, and the Vispa · AI-generated artistic interpretation',
+     'description': 'Visp is the valley town where the Vispa meets the old-town houses and the tall '
+                    'spire of Saint Martin. The frame stays in the town and does not stand in for '
+                    'Zermatt or the Matterhorn. The Open-Meteo model is partly cloudy and warm, with '
+                    'breaks of sun and no rain.',
+     'alt_text': 'AI-generated artistic interpretation of the old town of Visp and the church of Saint '
+                 'Martin',
+     'sky': 'Partly cloudy warm afternoon, cloud cover near 45 percent, patches of blue, sun low in '
+            'the west, church spire, river, valley slopes, no snow, no rain.'},
 ]
