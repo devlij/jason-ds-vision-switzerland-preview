@@ -1,0 +1,16 @@
+{
+  "entry_id": "CH-01-276",
+  "country": "Switzerland",
+  "region": "Bern",
+  "city": "Bern",
+  "caption": "Mattequartier, Bern",
+  "scenario_label": "24 September 2026 · 19:57 Europe/Zurich",
+  "composition": "Half-timbered Matte lane along the Aare under the old town · AI-generated artistic interpretation",
+  "description": "The Matte is the half-timbered quarter on the Aare at the foot of Bern’s old town, about forty metres below the upper streets. Narrow lanes and wooden houses follow the river, and the high town is only a dark edge above the roofs. This is the riverside quarter, not the Nydegg Bridge and not the Zytglogge. The Open-Meteo model is overcast and mild, about 17°C, with almost no wind and no precipitation, and the sun is below the horizon.",
+  "alt_text": "AI-generated artistic interpretation of the Mattequartier along the Aare in Bern at night",
+  "file_16x9": "library/world/Switzerland/Bern/ch-01-276-16x9.png",
+  "file_4x5": "library/world/Switzerland/Bern/ch-01-276-4x5.png",
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "approval_status": "Candidate"
+}

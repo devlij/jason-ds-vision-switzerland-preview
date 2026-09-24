@@ -1,0 +1,16 @@
+{
+  "entry_id": "CH-01-280",
+  "country": "Switzerland",
+  "region": "Bern",
+  "city": "Hilterfingen",
+  "caption": "Hilterfingen, Hilterfingen",
+  "scenario_label": "24 September 2026 · 19:57 Europe/Zurich",
+  "composition": "Schloss Hünegg in its park on Lake Thun at Hilterfingen · AI-generated artistic interpretation",
+  "description": "Hilterfingen lies on the north shore of Lake Thun, and Schloss Hünegg, built from 1861 to 1863 in a Loire-inspired historicist form, stands in its park at the water. This scene replaces the Schlossberg path in Thun, which is the hill of Thun Castle. The Open-Meteo model is overcast and mild, about 18°C, with a light breeze and no precipitation, and the sun is below the horizon.",
+  "alt_text": "AI-generated artistic interpretation of Schloss Hünegg on Lake Thun at Hilterfingen at night",
+  "file_16x9": "library/world/Switzerland/Hilterfingen/ch-01-280-16x9.png",
+  "file_4x5": "library/world/Switzerland/Hilterfingen/ch-01-280-4x5.png",
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "approval_status": "Candidate"
+}

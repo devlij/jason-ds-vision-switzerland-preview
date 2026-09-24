@@ -1,0 +1,16 @@
+{
+  "entry_id": "CH-01-275",
+  "country": "Switzerland",
+  "region": "Bern",
+  "city": "Bern",
+  "caption": "Bear Park, Bern",
+  "scenario_label": "24 September 2026 · 19:57 Europe/Zurich",
+  "composition": "Bear Park enclosure on the Aare below Bern’s old town · AI-generated artistic interpretation",
+  "description": "The Bear Park is the riverside enclosure on the Aare below Bern’s old town, on the slope that replaced the old bear pit in 2009. Brown bears are in the park, and the sandstone town wall stands above the trees. This is the enclosure, not the Nydegg Bridge. The Open-Meteo model is overcast and mild, about 17°C, with almost no wind and no precipitation, and the sun is below the horizon.",
+  "alt_text": "AI-generated artistic interpretation of the Bear Park on the Aare in Bern at night",
+  "file_16x9": "library/world/Switzerland/Bern/ch-01-275-16x9.png",
+  "file_4x5": "library/world/Switzerland/Bern/ch-01-275-4x5.png",
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "approval_status": "Candidate"
+}
