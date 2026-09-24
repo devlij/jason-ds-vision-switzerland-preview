@@ -1,0 +1,16 @@
+{
+  "entry_id": "CH-01-234",
+  "country": "Switzerland",
+  "region": "Schwyz",
+  "city": "Muotathal",
+  "caption": "Muotathal, Muotathal",
+  "scenario_label": "24 September 2026 · 19:03 Europe/Zurich",
+  "composition": "Muotathal village and church in the Muota valley · AI-generated artistic interpretation",
+  "description": "Muotathal sits on the floor of the Muota valley, a compact village whose church tower rises among the roofs beneath steep wooded walls. Late-September pastures along the valley are still green and tawny, and the village carries no snow. The Open-Meteo model is fully overcast and mild, with little wind and no rain.",
+  "alt_text": "AI-generated artistic interpretation of the village of Muotathal in the Muota valley",
+  "file_16x9": "library/world/Switzerland/Muotathal/ch-01-234-16x9.png",
+  "file_4x5": "library/world/Switzerland/Muotathal/ch-01-234-4x5.png",
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "approval_status": "Candidate"
+}

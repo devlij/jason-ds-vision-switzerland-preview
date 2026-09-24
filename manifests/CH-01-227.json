@@ -1,0 +1,16 @@
+{
+  "entry_id": "CH-01-227",
+  "country": "Switzerland",
+  "region": "Zurich",
+  "city": "Zurich",
+  "caption": "Enge Harbour, Zurich",
+  "scenario_label": "24 September 2026 · 19:02 Europe/Zurich",
+  "composition": "Hafen Enge marina on the west shore of Lake Zurich · AI-generated artistic interpretation",
+  "description": "Hafen Enge is the marina on Mythenquai, in Zurich’s Enge quarter, a stone basin of sailboat masts with the open lake beyond the harbour mouth. The tree-lined quay fills the near shore, and the Alps are only a faint shape under cloud. This is the west-shore harbour, not Bürkliplatz. The Open-Meteo model is fully overcast and mild, with a light breeze and no rain.",
+  "alt_text": "AI-generated artistic interpretation of the Enge harbour marina on Lake Zurich",
+  "file_16x9": "library/world/Switzerland/Zurich/ch-01-227-16x9.png",
+  "file_4x5": "library/world/Switzerland/Zurich/ch-01-227-4x5.png",
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "approval_status": "Candidate"
+}

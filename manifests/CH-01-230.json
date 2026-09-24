@@ -1,0 +1,16 @@
+{
+  "entry_id": "CH-01-230",
+  "country": "Switzerland",
+  "region": "St. Gallen",
+  "city": "Rapperswil",
+  "caption": "Lakeside Promenade, Rapperswil",
+  "scenario_label": "24 September 2026 · 19:03 Europe/Zurich",
+  "composition": "Lakeside promenade and harbour along the Rapperswil old town · AI-generated artistic interpretation",
+  "description": "The lakeside promenade at Fischmarktplatz runs along Rapperswil’s harbour, with plane trees, a stone quay, and moored boats in front of the old-town houses. The view looks west, so the castle knoll is behind the camera and Wurmsbach Abbey is not in the frame. The Open-Meteo model is fully overcast and mild, with a breeze and no rain.",
+  "alt_text": "AI-generated artistic interpretation of the lakeside promenade and harbour in Rapperswil",
+  "file_16x9": "library/world/Switzerland/Rapperswil/ch-01-230-16x9.png",
+  "file_4x5": "library/world/Switzerland/Rapperswil/ch-01-230-4x5.png",
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "approval_status": "Candidate"
+}

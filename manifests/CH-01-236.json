@@ -1,0 +1,16 @@
+{
+  "entry_id": "CH-01-236",
+  "country": "Switzerland",
+  "region": "Uri",
+  "city": "Wassen",
+  "caption": "Wassen, Wassen",
+  "scenario_label": "24 September 2026 · 19:03 Europe/Zurich",
+  "composition": "Wassen church on its knoll above the Gotthard railway spirals · AI-generated artistic interpretation",
+  "description": "The white church of St. Gallus stands on a rocky knoll above Wassen, and the Gotthard mountain line loops around it so that stone viaducts appear at more than one height in the gorge. Steep valley walls close the Reuss. No train name is readable. The Open-Meteo model is mainly clear with broken cloud, cool, and breezy, with no rain.",
+  "alt_text": "AI-generated artistic interpretation of the church of Wassen above the Gotthard railway spirals",
+  "file_16x9": "library/world/Switzerland/Wassen/ch-01-236-16x9.png",
+  "file_4x5": "library/world/Switzerland/Wassen/ch-01-236-4x5.png",
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "approval_status": "Candidate"
+}

@@ -1,0 +1,16 @@
+{
+  "entry_id": "CH-01-228",
+  "country": "Switzerland",
+  "region": "Zurich",
+  "city": "Kyburg",
+  "caption": "Kyburg Castle, Kyburg",
+  "scenario_label": "24 September 2026 · 19:02 Europe/Zurich",
+  "composition": "Schloss Kyburg on its spur above the Töss · AI-generated artistic interpretation",
+  "description": "Schloss Kyburg stands on a wooded spur above the Töss, a preserved castle with a tall keep and roofed wings rather than a ruin. Mixed late-September woods fill the valley, and the small village sits nearby. This replaces a Winterthur old-town view already used for CH-01-097. The Open-Meteo model is fully overcast and cool, with a light breeze and no rain.",
+  "alt_text": "AI-generated artistic interpretation of Kyburg Castle above the Töss valley",
+  "file_16x9": "library/world/Switzerland/Kyburg/ch-01-228-16x9.png",
+  "file_4x5": "library/world/Switzerland/Kyburg/ch-01-228-4x5.png",
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "approval_status": "Candidate"
+}
