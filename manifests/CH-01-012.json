@@ -1,0 +1,16 @@
+{
+  "entry_id": "CH-01-012",
+  "country": "Switzerland",
+  "region": "Ticino",
+  "city": "Lugano",
+  "caption": "Lugano lakefront, Lugano",
+  "scenario_label": "24 September 2026 · 14:40 Europe/Zurich",
+  "composition": "Lugano lakefront promenade toward the lake, Monte Brè, and Monte San Salvatore · AI-generated artistic interpretation",
+  "description": "The Lugano lakefront promenade faces Lake Lugano, with palms and waterfront buildings in front of Monte Brè and Monte San Salvatore. Ticino vegetation is still green in late September. The mountains are close and partly softened by cloud. The Open-Meteo model for this afternoon is overcast, with little wind and no rain.",
+  "alt_text": "AI-generated artistic interpretation of the Lugano lakefront with Monte Brè under cloud",
+  "file_16x9": "library/world/Switzerland/Lugano/ch-01-012-16x9.png",
+  "file_4x5": "library/world/Switzerland/Lugano/ch-01-012-4x5.png",
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "approval_status": "Candidate"
+}
