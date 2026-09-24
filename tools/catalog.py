@@ -1,4 +1,4 @@
-"""Scene facts for CH-01-001 through CH-01-134."""
+"""Scene facts for CH-01-001 through CH-01-135."""
 
 from __future__ import annotations
 
@@ -3164,4 +3164,29 @@ SCENES = [
      'alt_text': 'AI-generated artistic interpretation of the stone palaces on the square in Trogen',
      'sky': 'Fully overcast mild afternoon near 900 metres, uniform gray sky, soft light, pale stone '
             'palaces, empty sloping square, no rain.'},
+    {'entry_id': 'CH-01-135',
+     'caption': 'Rorschach, Rorschach',
+     'city': 'Rorschach',
+     'region': 'St. Gallen',
+     'folder': 'Rorschach',
+     'lat': 47.479,
+     'lon': 9.493,
+     'viewpoint': 'The harbor quay at Rorschach, looking along the Kornhaus and out over Lake '
+                  'Constance. Map: https://maps.google.com/?q=47.479,9.493 The exact quay stone was '
+                  'not surveyed. This is the lakefront, not the abbey at St. Gallen.',
+     'refs': ['https://en.wikipedia.org/wiki/Rorschach,_Switzerland',
+              'https://en.wikipedia.org/wiki/Lake_Constance'],
+     'anchors': ['The long pale Kornhaus granary standing on the harbor.',
+                 'A marina and the open water of Lake Constance.',
+                 'A low far shore. No high alpine peak and no readable boat name.'],
+     'composition': 'Rorschach harbor and the Kornhaus on Lake Constance · AI-generated artistic '
+                    'interpretation',
+     'description': 'Rorschach’s harbor sits on the Swiss shore of Lake Constance, with the long '
+                    'Kornhaus granary on the quay and the lake opening to a low far shore. The frame '
+                    'is this lakefront, not the abbey district of St. Gallen. The Open-Meteo model is '
+                    'fully overcast and mild, with no rain.',
+     'alt_text': 'AI-generated artistic interpretation of the Kornhaus and harbor at Rorschach on Lake '
+                 'Constance',
+     'sky': 'Fully overcast mild afternoon at the lake, gray sky, soft light, gray-blue water, pale '
+            'granary, low far shore, no alpine peaks, no rain.'},
 ]

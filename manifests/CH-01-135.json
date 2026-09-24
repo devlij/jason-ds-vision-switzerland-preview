@@ -1,0 +1,16 @@
+{
+  "entry_id": "CH-01-135",
+  "country": "Switzerland",
+  "region": "St. Gallen",
+  "city": "Rorschach",
+  "caption": "Rorschach, Rorschach",
+  "scenario_label": "24 September 2026 · 17:14 Europe/Zurich",
+  "composition": "Rorschach harbor and the Kornhaus on Lake Constance · AI-generated artistic interpretation",
+  "description": "Rorschach’s harbor sits on the Swiss shore of Lake Constance, with the long Kornhaus granary on the quay and the lake opening to a low far shore. The frame is this lakefront, not the abbey district of St. Gallen. The Open-Meteo model is fully overcast and mild, with no rain.",
+  "alt_text": "AI-generated artistic interpretation of the Kornhaus and harbor at Rorschach on Lake Constance",
+  "file_16x9": "library/world/Switzerland/Rorschach/ch-01-135-16x9.png",
+  "file_4x5": "library/world/Switzerland/Rorschach/ch-01-135-4x5.png",
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "approval_status": "Candidate"
+}
