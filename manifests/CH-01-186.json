@@ -1,0 +1,16 @@
+{
+  "entry_id": "CH-01-186",
+  "country": "Switzerland",
+  "region": "Zurich",
+  "city": "Zurich",
+  "caption": "Bürkliplatz, Zurich",
+  "scenario_label": "24 September 2026 · 18:08 Europe/Zurich",
+  "composition": "Bürkliplatz and the steamer quay at the outlet of Lake Zurich · AI-generated artistic interpretation",
+  "description": "Bürkliplatz is the tree-shaded square where Lake Zurich narrows toward the Limmat, with the steamer quay on the water and a round floral clock. The Quaibrücke stays at the edge of the frame. This is the lake square, not Bahnhofstrasse and not the Limmatquai. The Open-Meteo model is fully overcast and mild, with a breeze and no rain.",
+  "alt_text": "AI-generated artistic interpretation of Bürkliplatz and the steamer quay in Zurich",
+  "file_16x9": "library/world/Switzerland/Zurich/ch-01-186-16x9.png",
+  "file_4x5": "library/world/Switzerland/Zurich/ch-01-186-4x5.png",
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "approval_status": "Candidate"
+}

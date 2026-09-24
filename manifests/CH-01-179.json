@@ -1,0 +1,16 @@
+{
+  "entry_id": "CH-01-179",
+  "country": "Switzerland",
+  "region": "Bern",
+  "city": "Iseltwald",
+  "caption": "Iseltwald, Iseltwald",
+  "scenario_label": "24 September 2026 · 18:07 Europe/Zurich",
+  "composition": "Iseltwald peninsula and bay pier on Lake Brienz · AI-generated artistic interpretation",
+  "description": "Iseltwald sits on a peninsula of Lake Brienz, a cluster of wooden houses with Schloss Seeburg on the point and a wooden pier in the bay. The lake is a muted gray-green under cloud, and the slopes behind the village are wooded. This is the peninsula village, not Brienz itself. The Open-Meteo model is heavily clouded and mild, with no rain.",
+  "alt_text": "AI-generated artistic interpretation of the Iseltwald peninsula on Lake Brienz",
+  "file_16x9": "library/world/Switzerland/Iseltwald/ch-01-179-16x9.png",
+  "file_4x5": "library/world/Switzerland/Iseltwald/ch-01-179-4x5.png",
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "approval_status": "Candidate"
+}

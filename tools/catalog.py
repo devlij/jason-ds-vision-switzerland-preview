@@ -1,4 +1,4 @@
-"""Scene facts for CH-01-001 through CH-01-176."""
+"""Scene facts for CH-01-001 through CH-01-192."""
 
 from __future__ import annotations
 
@@ -4237,4 +4237,374 @@ SCENES = [
         "alt_text": "AI-generated artistic interpretation of the Reformed church in Langnau im Emmental",
         "sky": "Fully overcast mild afternoon, gray sky, soft light, stone church with a high hipped roof and tower, pointed windows, green rolling hills, no rain.",
     },
+    {
+        "entry_id": "CH-01-177",
+        "caption": "Thun lakefront, Thun",
+        "city": "Thun",
+        "region": "Bern",
+        "folder": "Thun",
+        "lat": 46.74613,
+        "lon": 7.63738,
+        "viewpoint": "Lakeside promenade beside Schadau Park in Thun, looking across Lake Thun, with Schloss Schadau in the park. Map: https://maps.google.com/?q=46.74613,7.63738 The exact railing was not surveyed. Thun Castle, the medieval keep on the Aare, is not in this frame.",
+        "refs": [
+            "https://en.wikipedia.org/wiki/Schadau_Castle",
+            "https://en.wikipedia.org/wiki/Lake_Thun"
+        ],
+        "anchors": [
+            "Schloss Schadau, a heritage château in its park on the lake side of the Aare outlet, not the square medieval keep.",
+            "The open water of Lake Thun and the promenade along the near shore.",
+            "The pyramidal Niesen faint across the lake. No town-hall square and no castle on the Aare."
+        ],
+        "composition": "Schadau Park and the Thun lakeshore looking across Lake Thun · AI-generated artistic interpretation",
+        "description": "The Thun lakefront is the promenade beside Schadau Park, where Schloss Schadau stands on the lake side of the Aare. Lake Thun opens in front of the château, and the Niesen is only a faint pyramid under cloud. This is not Thun Castle, the medieval keep above the old town. The Open-Meteo model is fully overcast and mild, with no rain.",
+        "alt_text": "AI-generated artistic interpretation of the Thun lakefront and Schloss Schadau on Lake Thun",
+        "sky": "Fully overcast mild late afternoon, gray sky, soft diffuse light, gray-green lake, château in a park, faint Niesen, no medieval keep, no rain, late-September green trees."
+    },
+    {
+        "entry_id": "CH-01-178",
+        "caption": "Beatenberg, Beatenberg",
+        "city": "Beatenberg",
+        "region": "Bern",
+        "folder": "Beatenberg",
+        "lat": 46.69581,
+        "lon": 7.79148,
+        "viewpoint": "The lane by the church in Beatenberg, looking south over the terrace and Lake Thun. Map: https://maps.google.com/?q=46.69581,7.79148 The exact fence post was not surveyed. The Niederhorn summit is not the subject.",
+        "refs": [
+            "https://en.wikipedia.org/wiki/Beatenberg",
+            "https://www.interlaken.swiss/en/destinations/interlaken/beatenberg"
+        ],
+        "anchors": [
+            "Wooden chalets and the church on the high terrace above Lake Thun.",
+            "The lake far below, with the Eiger, Mönch, and Jungfrau only as shapes in cloud.",
+            "Late-September meadows still green to tawny. No snow on the village and no cable car as the subject."
+        ],
+        "composition": "Beatenberg church and chalets on the terrace above Lake Thun · AI-generated artistic interpretation",
+        "description": "Beatenberg is the terrace village above Lake Thun, with wooden chalets and the church along the meadow lane. The lake lies far below, and the Eiger, Mönch, and Jungfrau stay soft in cloud. At this height in late September the meadows are green to tawny, without village snow. The Open-Meteo model is heavily overcast and cool, with no rain.",
+        "alt_text": "AI-generated artistic interpretation of Beatenberg on its terrace above Lake Thun",
+        "sky": "Heavily overcast cool late afternoon, gray sky, soft light, wooden chalets, church tower, green meadow, lake far below, peaks faint, no snow on the terrace, no rain.",
+        "weather_note": "The church lane is about 1150 m. The temperature is the Open-Meteo model cell, not a thermometer on the terrace."
+    },
+    {
+        "entry_id": "CH-01-179",
+        "caption": "Iseltwald, Iseltwald",
+        "city": "Iseltwald",
+        "region": "Bern",
+        "folder": "Iseltwald",
+        "lat": 46.71321,
+        "lon": 7.96587,
+        "viewpoint": "The shore of the Iseltwald peninsula on Lake Brienz, looking along the wooden houses toward Schloss Seeburg and the bay pier. Map: https://maps.google.com/?q=46.71321,7.96587 The exact shore stone was not surveyed. This is not the village of Brienz.",
+        "refs": [
+            "https://en.wikipedia.org/wiki/Iseltwald",
+            "https://www.myswitzerland.com/en-ch/destinations/iseltwald/"
+        ],
+        "anchors": [
+            "A compact peninsula of dark wooden houses on the south shore of Lake Brienz.",
+            "Schloss Seeburg, the 1907 villa on the point, and a plain wooden pier in the bay.",
+            "Steep wooded slopes behind the water. No Brienz waterfront and no readable sign."
+        ],
+        "composition": "Iseltwald peninsula and bay pier on Lake Brienz · AI-generated artistic interpretation",
+        "description": "Iseltwald sits on a peninsula of Lake Brienz, a cluster of wooden houses with Schloss Seeburg on the point and a wooden pier in the bay. The lake is a muted gray-green under cloud, and the slopes behind the village are wooded. This is the peninsula village, not Brienz itself. The Open-Meteo model is heavily clouded and mild, with no rain.",
+        "alt_text": "AI-generated artistic interpretation of the Iseltwald peninsula on Lake Brienz",
+        "sky": "Heavily clouded mild late afternoon, gray sky, soft light, wooden houses, villa on the point, wooden pier, muted gray-green lake, forested slopes, no rain."
+    },
+    {
+        "entry_id": "CH-01-180",
+        "caption": "Giessbach Falls, Brienz",
+        "city": "Brienz",
+        "region": "Bern",
+        "folder": "Brienz",
+        "lat": 46.73543,
+        "lon": 8.02329,
+        "viewpoint": "The slope beside the Grandhotel Giessbach, looking at the tiered falls with Lake Brienz below. Map: https://maps.google.com/?q=46.73543,8.02329 The exact path stone was not surveyed. The wooden village of Brienz is not in this frame.",
+        "refs": [
+            "https://www.giessbach.ch/en/naturpark-erlebnisse/wasserfall",
+            "https://www.brienzersee.ch/en/experiences/poi/giessbach-falls"
+        ],
+        "anchors": [
+            "The Giessbach dropping in many tiers through forest toward Lake Brienz.",
+            "The Belle Époque Grandhotel Giessbach beside the falls, pale walls and a steep roof.",
+            "The lake below, and only a thin historic funicular line. No village quay and no scaffolding."
+        ],
+        "composition": "Giessbach Falls and the Grandhotel above Lake Brienz · AI-generated artistic interpretation",
+        "description": "The Giessbach Falls drop in a long series of tiers through the forest beside the Grandhotel Giessbach and into Lake Brienz. The hotel is the Belle Époque house on the slope, and the historic funicular is only a thin line. This is the falls above the lake, not the wooden village of Brienz. The Open-Meteo model is fully overcast and mild, with no rain.",
+        "alt_text": "AI-generated artistic interpretation of the Giessbach Falls and Grandhotel above Lake Brienz",
+        "sky": "Fully overcast mild late afternoon, gray sky, soft light, white cascades in dark forest, pale hotel, gray-green lake below, no village, no rain."
+    },
+    {
+        "entry_id": "CH-01-181",
+        "caption": "Ballenberg, Hofstetten bei Brienz",
+        "city": "Hofstetten bei Brienz",
+        "region": "Bern",
+        "folder": "Hofstetten bei Brienz",
+        "lat": 46.74876,
+        "lon": 8.08487,
+        "viewpoint": "A path on the west grounds of the Ballenberg open-air museum in Hofstetten bei Brienz, looking across exterior farmhouses. Map: https://maps.google.com/?q=46.74876,8.08487 The exact path stone was not surveyed. No interior room is shown.",
+        "refs": [
+            "https://ballenberg.ch/en/",
+            "https://en.wikipedia.org/wiki/Ballenberg"
+        ],
+        "anchors": [
+            "Relocated historic farmhouses and barns of dark wood and shingle, standing outdoors.",
+            "Gardens, fruit trees, and a gravel path between the buildings.",
+            "Closed doors and no furnished rooms. No banner and no readable museum name."
+        ],
+        "composition": "Exterior farmhouses on the Ballenberg grounds at Hofstetten bei Brienz · AI-generated artistic interpretation",
+        "description": "Ballenberg is the open-air museum at Hofstetten bei Brienz, where historic Swiss farmhouses and barns stand on garden grounds. The frame stays outside, with closed doors, shingled roofs, and a path between the buildings. No interior exhibit is shown, and no sign is readable. The Open-Meteo model is fully overcast and mild, with no rain.",
+        "alt_text": "AI-generated artistic interpretation of the exterior farmhouses at Ballenberg in Hofstetten bei Brienz",
+        "sky": "Fully overcast mild late afternoon, gray sky, soft light, dark wooden farmhouses, shingle roofs, gardens, gravel path, closed doors, no rain."
+    },
+    {
+        "entry_id": "CH-01-182",
+        "caption": "Lucerne waterfront, Lucerne",
+        "city": "Lucerne",
+        "region": "Lucerne",
+        "folder": "Lucerne",
+        "lat": 47.05442,
+        "lon": 8.31244,
+        "viewpoint": "Nationalquai in Lucerne, looking east along the hotel row and the open lake. Map: https://maps.google.com/?q=47.05442,8.31244 The exact paving stone was not surveyed. The Chapel Bridge is on the Reuss and is not in this frame, and Pilatus is not the subject.",
+        "refs": [
+            "https://en.wikipedia.org/wiki/Lucerne",
+            "https://en.wikipedia.org/wiki/Lake_Lucerne"
+        ],
+        "anchors": [
+            "A wide lakeside quay with grand hotel fronts along the north shore of Lake Lucerne.",
+            "The lake opening to the east, with a low far shore rather than a single peak portrait.",
+            "No covered wooden bridge and no octagonal water tower. Those belong to the Chapel Bridge scene."
+        ],
+        "composition": "Nationalquai hotel row along the Lucerne lakeshore · AI-generated artistic interpretation",
+        "description": "The Lucerne waterfront here is the Nationalquai, a lakeside promenade of grand hotels along the north shore of the lake. The water opens east, away from the Reuss. The Chapel Bridge and the Pilatus portrait are separate scenes and are not the subject. The Open-Meteo model is fully overcast and mild, with a light breeze and no rain.",
+        "alt_text": "AI-generated artistic interpretation of the Nationalquai waterfront on Lake Lucerne",
+        "sky": "Fully overcast mild late afternoon, gray sky, soft light, hotel row, wide quay, gray-green lake to the east, no chapel bridge, no peak portrait, no rain."
+    },
+    {
+        "entry_id": "CH-01-183",
+        "caption": "KKL Lucerne exterior, Lucerne",
+        "city": "Lucerne",
+        "region": "Lucerne",
+        "folder": "Lucerne",
+        "lat": 47.0503,
+        "lon": 8.31211,
+        "viewpoint": "The lake side of the KKL Lucerne at Europaplatz, looking at the exterior roof and the three wings. Map: https://maps.google.com/?q=47.05030,8.31211 The exact quay stone was not surveyed. The concert hall interior is not shown.",
+        "refs": [
+            "https://www.kkl-luzern.ch/en/about-us/architecture-acoustics",
+            "https://www.luzern.com/en/the-city/culture-and-congress-center-lucerne"
+        ],
+        "anchors": [
+            "One huge flat roof cantilevered over Lake Lucerne, with a reflective underside.",
+            "Three wings separated at ground level by narrow water channels.",
+            "Glass and metal exterior walls. No concert-hall interior and no readable lettering."
+        ],
+        "composition": "Lake side of the KKL Lucerne under its cantilevered roof · AI-generated artistic interpretation",
+        "description": "The KKL Lucerne stands on the lake beside Europaplatz, three wings under one broad roof that reaches out over the water. Narrow channels separate the wings, and the underside of the roof reads as a pale reflective plane. Only the exterior is shown. The Open-Meteo model is fully overcast and mild, with a light breeze and no rain.",
+        "alt_text": "AI-generated artistic interpretation of the KKL Lucerne exterior on the lake",
+        "sky": "Fully overcast mild late afternoon, gray sky, soft light, huge flat roof over gray-green water, three wings, glass walls, no lettering, no rain."
+    },
+    {
+        "entry_id": "CH-01-184",
+        "caption": "Swiss Museum of Transport exterior, Lucerne",
+        "city": "Lucerne",
+        "region": "Lucerne",
+        "folder": "Lucerne",
+        "lat": 47.05275,
+        "lon": 8.33664,
+        "viewpoint": "The exterior plaza of the Swiss Museum of Transport on Lidostrasse, looking across the open courtyard toward the lake. Map: https://maps.google.com/?q=47.05275,8.33664 The exact paving stone was not surveyed. No gallery interior is shown.",
+        "refs": [
+            "https://en.wikipedia.org/wiki/Swiss_Museum_of_Transport",
+            "https://www.verkehrshaus.ch/en/your-visit/plan-a-visit"
+        ],
+        "anchors": [
+            "The museum complex on the lido site, with an open courtyard between the halls.",
+            "A bridge-like entrance building and the lake along one side.",
+            "No interior exhibits, no readable road signs, and no logo on the facade."
+        ],
+        "composition": "Exterior courtyard of the Swiss Museum of Transport beside Lake Lucerne · AI-generated artistic interpretation",
+        "description": "The Swiss Museum of Transport occupies the lido ground east of Lucerne, and this frame stays on the exterior plaza. Halls and a bridge-like entrance surround an open courtyard, with the lake along the site. No gallery interior is shown, and no sign or logo is readable. The Open-Meteo model is fully overcast and mild, with a light breeze and no rain.",
+        "alt_text": "AI-generated artistic interpretation of the exterior plaza of the Swiss Museum of Transport in Lucerne",
+        "sky": "Fully overcast mild late afternoon, gray sky, soft light, museum halls, open courtyard, lake beside the site, no readable signs, no rain."
+    },
+    {
+        "entry_id": "CH-01-185",
+        "caption": "Zurich Opera House, Zurich",
+        "city": "Zurich",
+        "region": "Zurich",
+        "folder": "Zurich",
+        "lat": 47.36497,
+        "lon": 8.54683,
+        "viewpoint": "Sechseläutenplatz in Zurich, looking at the 1891 facade of the opera house. Map: https://maps.google.com/?q=47.36497,8.54683 The exact paving stone was not surveyed. The auditorium is not shown.",
+        "refs": [
+            "https://en.wikipedia.org/wiki/Zurich_Opera_House",
+            "https://de.wikipedia.org/wiki/Opernhaus_Z%C3%BCrich"
+        ],
+        "anchors": [
+            "The historicist stone facade of 1891 by Fellner and Helmer, with columns and a sculpted pediment.",
+            "Busts set in the facade, and the open square of Sechseläutenplatz in front.",
+            "No auditorium, no event poster with readable lettering, and no lake jet."
+        ],
+        "composition": "Sechseläutenplatz looking at the Zurich Opera House facade · AI-generated artistic interpretation",
+        "description": "The Zurich Opera House faces Sechseläutenplatz with the 1891 stone facade by Fellner and Helmer, columns, a sculpted pediment, and busts along the front. The square in front is open, and the auditorium stays out of frame. No poster is readable. The Open-Meteo model is fully overcast and mild, with a breeze and no rain.",
+        "alt_text": "AI-generated artistic interpretation of the Zurich Opera House from Sechseläutenplatz",
+        "sky": "Fully overcast mild late afternoon, gray sky, soft light, pale stone opera facade, columns, pediment, open square, no readable posters, no rain."
+    },
+    {
+        "entry_id": "CH-01-186",
+        "caption": "Bürkliplatz, Zurich",
+        "city": "Zurich",
+        "region": "Zurich",
+        "folder": "Zurich",
+        "lat": 47.3665,
+        "lon": 8.54077,
+        "viewpoint": "Bürkliplatz at the outflow of Lake Zurich, looking across the square toward the steamer quay and the lake. Map: https://maps.google.com/?q=47.36650,8.54077 The exact paving stone was not surveyed. This is not the Bahnhofstrasse canyon and not the Limmatquai.",
+        "refs": [
+            "https://en.wikipedia.org/wiki/B%C3%BCrkliplatz,_Zurich",
+            "https://en.wikipedia.org/wiki/Lake_Zurich"
+        ],
+        "anchors": [
+            "A tree-shaded square at the lake outlet, with the steamer landing on the water.",
+            "The floral clock as a round planted bed, and the Quaibrücke only at the edge.",
+            "The lake opening south. Not a shopping-street view and not the Limmat guild houses."
+        ],
+        "composition": "Bürkliplatz and the steamer quay at the outlet of Lake Zurich · AI-generated artistic interpretation",
+        "description": "Bürkliplatz is the tree-shaded square where Lake Zurich narrows toward the Limmat, with the steamer quay on the water and a round floral clock. The Quaibrücke stays at the edge of the frame. This is the lake square, not Bahnhofstrasse and not the Limmatquai. The Open-Meteo model is fully overcast and mild, with a breeze and no rain.",
+        "alt_text": "AI-generated artistic interpretation of Bürkliplatz and the steamer quay in Zurich",
+        "sky": "Fully overcast mild late afternoon, gray sky, soft light, plane trees, square, steamer pier, round flower clock, lake, no shopping street, no rain."
+    },
+    {
+        "entry_id": "CH-01-187",
+        "caption": "Lindenhof, Zurich",
+        "city": "Zurich",
+        "region": "Zurich",
+        "folder": "Zurich",
+        "lat": 47.37292,
+        "lon": 8.54018,
+        "viewpoint": "The Lindenhof terrace in Zurich, looking across the lime trees and the Limmat roofs. Map: https://maps.google.com/?q=47.37292,8.54018 The exact gravel point was not surveyed. No castle stands on the hill, and the Grossmünster facade is not the subject.",
+        "refs": [
+            "https://de.wikipedia.org/wiki/Lindenhof_(Z%C3%BCrcher_H%C3%BCgelzug)",
+            "https://en.wikipedia.org/wiki/Altstadt_(Zurich)"
+        ],
+        "anchors": [
+            "A gravel public terrace shaded by large lime trees, on the moraine hill above the left bank.",
+            "A stone fountain on the terrace, and tiled roofs dropping toward the Limmat.",
+            "No standing castle. The church towers across the river stay distant and are not the subject."
+        ],
+        "composition": "Lindenhof terrace of lime trees above the Limmat in Zurich · AI-generated artistic interpretation",
+        "description": "The Lindenhof is the public terrace on Zurich’s moraine hill, a gravel square under large lime trees with a stone fountain. Roofs drop toward the Limmat, and no castle remains on the hill. The church fronts on the far bank are a separate scene. The Open-Meteo model is fully overcast and mild, with a breeze and no rain.",
+        "alt_text": "AI-generated artistic interpretation of the Lindenhof terrace above the Limmat in Zurich",
+        "sky": "Fully overcast mild late afternoon, gray sky, soft light, lime trees, gravel terrace, stone fountain, tiled roofs, river below, no castle, no rain."
+    },
+    {
+        "entry_id": "CH-01-188",
+        "caption": "Geneva Old Town, Geneva",
+        "city": "Geneva",
+        "region": "Geneva",
+        "folder": "Geneva",
+        "lat": 46.20032,
+        "lon": 6.14914,
+        "viewpoint": "Place du Bourg-de-Four in Geneva, looking across the sloping cobblestone square and its fountain. Map: https://maps.google.com/?q=46.20032,6.14914 The exact cobble was not surveyed. The cathedral west front, the Jet d'Eau, and Carouge are not in this frame.",
+        "refs": [
+            "https://en.wikipedia.org/wiki/Place_du_Bourg-de-Four",
+            "https://en.wikipedia.org/wiki/Geneva"
+        ],
+        "anchors": [
+            "A sloping cobblestone square on the old forum site, with a small marble fountain in the middle.",
+            "Tall shuttered facades of the old town around the square.",
+            "No cathedral west front, no lake jet, and no Carouge street. No readable café name."
+        ],
+        "composition": "Place du Bourg-de-Four in the Geneva old town · AI-generated artistic interpretation",
+        "description": "Geneva Old Town here is Place du Bourg-de-Four, a sloping cobblestone square with a small eighteenth-century marble fountain and shuttered facades. The square sits near the cathedral hill, but the cathedral front is not the subject. The Jet d'Eau and Carouge are other scenes. The Open-Meteo model is overcast and warm, with no rain.",
+        "alt_text": "AI-generated artistic interpretation of Place du Bourg-de-Four in Geneva’s old town",
+        "sky": "Overcast warm late afternoon, gray sky with a little brightness, soft light, cobblestones, small marble fountain, shuttered facades, no cathedral front, no lake jet, no rain."
+    },
+    {
+        "entry_id": "CH-01-189",
+        "caption": "Plainpalais, Geneva",
+        "city": "Geneva",
+        "region": "Geneva",
+        "folder": "Geneva",
+        "lat": 46.19788,
+        "lon": 6.14062,
+        "viewpoint": "The Plaine de Plainpalais in Geneva, looking across the open gravel esplanade and its plane trees. Map: https://maps.google.com/?q=46.19788,6.14062 The exact gravel point was not surveyed. The lake, the old-town square, and Carouge are not in this frame.",
+        "refs": [
+            "https://en.wikipedia.org/wiki/Plainpalais",
+            "https://en.wikipedia.org/wiki/Geneva"
+        ],
+        "anchors": [
+            "A broad gravel esplanade lined with plane trees.",
+            "University and city blocks around the open ground, not a lakeside quay.",
+            "No market crowd, no lake jet, and no old-town fountain."
+        ],
+        "composition": "The gravel esplanade and plane trees of the Plaine de Plainpalais · AI-generated artistic interpretation",
+        "description": "Plainpalais is the broad gravel esplanade in Geneva, planted with plane trees and edged by university and city blocks. The ground is open and inland, with no lake in the frame. It is not the old-town square and not Carouge. The Open-Meteo model is overcast and warm, with no rain.",
+        "alt_text": "AI-generated artistic interpretation of the Plaine de Plainpalais in Geneva",
+        "sky": "Overcast warm late afternoon, gray sky with a little brightness, soft light, gravel square, plane trees, surrounding blocks, no lake, no rain."
+    },
+    {
+        "entry_id": "CH-01-190",
+        "caption": "Basel Rhine promenade, Basel",
+        "city": "Basel",
+        "region": "Basel-Stadt",
+        "folder": "Basel",
+        "lat": 47.56065,
+        "lon": 7.59079,
+        "viewpoint": "Unterer Rheinweg in Basel, looking downstream along the tree-lined quay. Map: https://maps.google.com/?q=47.56065,7.59079 The exact paving stone was not surveyed. The Mittlere Brücke, the minster west front, and the Rathaus are not the subject.",
+        "refs": [
+            "https://en.wikipedia.org/wiki/Basel",
+            "https://en.wikipedia.org/wiki/Rhine"
+        ],
+        "anchors": [
+            "A stone promenade and a row of plane trees along the Rhine.",
+            "The wide river, with a small flat cable ferry rather than a stone bridge.",
+            "No minster facade and no painted town hall. Those are separate scenes."
+        ],
+        "composition": "Tree-lined Unterer Rheinweg looking downstream on the Basel Rhine · AI-generated artistic interpretation",
+        "description": "The Basel Rhine promenade here is the Unterer Rheinweg, a tree-lined quay looking downstream along the river. A small cable ferry sits on the water, and the stone bridge, the minster, and the Rathaus stay out of the subject. The Open-Meteo model is heavily clouded, mild, and breezy, with no rain.",
+        "alt_text": "AI-generated artistic interpretation of the Rhine promenade along the Unterer Rheinweg in Basel",
+        "sky": "Heavily clouded breezy late afternoon, gray sky, soft light, plane trees, stone quay, wide gray-green river, small cable ferry, no bridge portrait, no cathedral, no rain."
+    },
+    {
+        "entry_id": "CH-01-191",
+        "caption": "Tinguely Fountain, Basel",
+        "city": "Basel",
+        "region": "Basel-Stadt",
+        "folder": "Basel",
+        "lat": 47.55367,
+        "lon": 7.59063,
+        "viewpoint": "Theaterplatz in Basel, looking across the shallow basin of the Fasnachts-Brunnen. Map: https://maps.google.com/?q=47.55367,7.59063 The exact paving stone was not surveyed. Exterior of the public fountain only. No maker’s mark is readable.",
+        "refs": [
+            "https://de.wikipedia.org/wiki/Fasnachts-Brunnen",
+            "https://en.wikipedia.org/wiki/Jean_Tinguely"
+        ],
+        "anchors": [
+            "A wide shallow dark pool on Theaterplatz, on the site of the old theatre stage.",
+            "Black iron kinetic sculptures standing in the water, seen as the public fountain.",
+            "The square and the theatre front behind, with no readable poster and no shop mark."
+        ],
+        "composition": "The Fasnachts-Brunnen on Theaterplatz in Basel · AI-generated artistic interpretation",
+        "description": "The Tinguely Fountain is the Fasnachts-Brunnen on Theaterplatz, a shallow dark pool with black iron kinetic sculptures, built from 1975 to 1977 where the old theatre stage stood. The view stays outside, on the public square, and no name is readable on the machines. The Open-Meteo model is heavily clouded, mild, and breezy, with no rain.",
+        "alt_text": "AI-generated artistic interpretation of the Tinguely Fountain on Theaterplatz in Basel",
+        "sky": "Heavily clouded breezy late afternoon, gray sky, soft light, shallow dark pool, black iron fountain sculptures, theatre square, no readable names, no rain."
+    },
+    {
+        "entry_id": "CH-01-192",
+        "caption": "Kaiseraugst, Kaiseraugst",
+        "city": "Kaiseraugst",
+        "region": "Aargau",
+        "folder": "Kaiseraugst",
+        "lat": 47.54118,
+        "lon": 7.72443,
+        "correction": "Suggested CH-01-192 was the Augusta Raurica theatre in Augst. CH-01-050 is already that theatre. Rheinfelden is CH-01-099 and Baden is CH-01-098, so both suggested alternates of that pair were already used. This scene is Kaiseraugst, the Aargau village on the Rhine, instead.",
+        "viewpoint": "Kirchgasse in Kaiseraugst, looking toward the church of St. Gallus and the Rhine. Map: https://maps.google.com/?q=47.54118,7.72443 The exact lane stone was not surveyed. The Roman theatre at Augst is not in this frame.",
+        "refs": [
+            "https://en.wikipedia.org/wiki/Kaiseraugst",
+            "https://en.wikipedia.org/wiki/Augusta_Raurica"
+        ],
+        "anchors": [
+            "The church of St. Gallus on the lane of the Rhine village.",
+            "The High Rhine along the north side, with the far bank low.",
+            "No semicircular Roman theatre. That cavea is the Augst scene, in Basel-Landschaft."
+        ],
+        "composition": "St. Gallus church and the Rhine bank in Kaiseraugst · AI-generated artistic interpretation",
+        "description": "Kaiseraugst is the Aargau village on the High Rhine that grew from the late-Roman Castrum Rauracense, with the church of St. Gallus on Kirchgasse and the river along the north side. The Roman theatre of Augusta Raurica stands in neighbouring Augst and is already a separate scene. The Open-Meteo model is fully overcast and mild, with a breeze and no rain.",
+        "alt_text": "AI-generated artistic interpretation of Kaiseraugst and the church of St. Gallus on the Rhine",
+        "sky": "Fully overcast mild late afternoon, gray sky, soft light, village church and tower, lane, wide Rhine, low far bank, no Roman theatre, no rain."
+    }
 ]
