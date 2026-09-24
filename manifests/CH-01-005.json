@@ -1,0 +1,16 @@
+{
+  "entry_id": "CH-01-005",
+  "country": "Switzerland",
+  "region": "Bern",
+  "city": "Bern",
+  "caption": "Zytglogge, Bern",
+  "scenario_label": "24 September 2026 · 14:40 Europe/Zurich",
+  "composition": "Kramgasse looking west to the Zytglogge clock tower · AI-generated artistic interpretation",
+  "description": "The sandstone arcade of Bern’s Kramgasse leads west to the Zytglogge, whose astronomical clock and pointed tower close the street. The old-town roofs stay inside the street canyon. No festival banners or scaffolding are added. The afternoon light is the diffuse overcast given by the Open-Meteo model for Bern.",
+  "alt_text": "AI-generated artistic interpretation of the Zytglogge at the end of Kramgasse in Bern",
+  "file_16x9": "library/world/Switzerland/Bern/ch-01-005-16x9.png",
+  "file_4x5": "library/world/Switzerland/Bern/ch-01-005-4x5.png",
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "approval_status": "Candidate"
+}
