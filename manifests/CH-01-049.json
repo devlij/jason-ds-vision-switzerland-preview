@@ -1,0 +1,16 @@
+{
+  "entry_id": "CH-01-049",
+  "country": "Switzerland",
+  "region": "Solothurn",
+  "city": "Oberdorf",
+  "caption": "Weissenstein, Oberdorf",
+  "scenario_label": "24 September 2026 · 15:39 Europe/Zurich",
+  "composition": "Weissenstein ridge above Oberdorf looking south over the Mittelland · AI-generated artistic interpretation",
+  "description": "The Weissenstein is the Jura ridge above Oberdorf in the canton of Solothurn, not a viewpoint inside the city of Solothurn. From the crest beside the hotel, pasture and the ridge run across the frame and the Mittelland opens to the south, with the Alpine chain only as far as the light allows. Late September on this ridge is green to tawny grass, not snow. The Open-Meteo model is used for this cell, and the baroque cathedral of St. Ursus is a separate scene.",
+  "alt_text": "AI-generated artistic interpretation of the Weissenstein ridge above Oberdorf looking south",
+  "file_16x9": "library/world/Switzerland/Oberdorf/ch-01-049-16x9.png",
+  "file_4x5": "library/world/Switzerland/Oberdorf/ch-01-049-4x5.png",
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "approval_status": "Candidate"
+}
