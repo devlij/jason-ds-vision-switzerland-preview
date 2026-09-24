@@ -1,4 +1,4 @@
-"""Scene facts for CH-01-001 through CH-01-142."""
+"""Scene facts for CH-01-001 through CH-01-143."""
 
 from __future__ import annotations
 
@@ -3370,4 +3370,31 @@ SCENES = [
                  'Martin',
      'sky': 'Partly cloudy warm afternoon, cloud cover near 45 percent, patches of blue, sun low in '
             'the west, church spire, river, valley slopes, no snow, no rain.'},
+    {'entry_id': 'CH-01-143',
+     'caption': 'Bellinzona Old Town, Bellinzona',
+     'city': 'Bellinzona',
+     'region': 'Ticino',
+     'folder': 'Bellinzona',
+     'lat': 46.1926,
+     'lon': 9.0238,
+     'viewpoint': 'Piazza Collegiata in the old town of Bellinzona, looking at the collegiate church '
+                  'and the arcades. Map: https://maps.google.com/?q=46.1926,9.0238 The exact square '
+                  'stone was not surveyed. Castelgrande is not the subject.',
+     'refs': ['https://en.wikipedia.org/wiki/Bellinzona',
+              'https://en.wikipedia.org/wiki/Three_Castles_of_Bellinzona'],
+     'anchors': ['The collegiate church of Saints Peter and Stephen, a baroque facade and a bell '
+                 'tower.',
+                 'Arcaded streets of warm stucco and terracotta roofs.',
+                 'The castle on the rock is not centered and is not the subject.'],
+     'composition': 'Piazza Collegiata and the arcades of Bellinzona old town · AI-generated artistic '
+                    'interpretation',
+     'description': 'The old town of Bellinzona opens onto Piazza Collegiata, where the collegiate '
+                    'church of Saints Peter and Stephen stands among arcaded streets and terracotta '
+                    'roofs. Castelgrande, already catalogued on its rock, is not the subject of this '
+                    'frame. The Open-Meteo model is partly cloudy, warm, and nearly calm, with no '
+                    'rain.',
+     'alt_text': 'AI-generated artistic interpretation of the collegiate church and arcades in the old '
+                 'town of Bellinzona',
+     'sky': 'Mostly cloudy warm afternoon, cloud cover near 74 percent, soft light, baroque church, '
+            'arcades, terracotta roofs, no castle portrait, no rain.'},
 ]
