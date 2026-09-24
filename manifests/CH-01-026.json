@@ -1,0 +1,16 @@
+{
+  "entry_id": "CH-01-026",
+  "country": "Switzerland",
+  "region": "Zurich",
+  "city": "Zurich",
+  "caption": "Grossmünster, Zurich",
+  "scenario_label": "24 September 2026 · 15:09 Europe/Zurich",
+  "composition": "West front of the Grossmünster from the church square · AI-generated artistic interpretation",
+  "description": "The Grossmünster’s twin Romanesque towers and west facade fill the frame from the paved square in front of the church. The towers carry their later pointed caps and stand close together above the portal. This view is the church front, not the Limmatquai river promenade, and the interior windows are not shown. Cloud and light follow the overcast Open-Meteo model for Zurich.",
+  "alt_text": "AI-generated artistic interpretation of the Grossmünster west front in Zurich",
+  "file_16x9": "library/world/Switzerland/Zurich/ch-01-026-16x9.png",
+  "file_4x5": "library/world/Switzerland/Zurich/ch-01-026-4x5.png",
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "approval_status": "Candidate"
+}
