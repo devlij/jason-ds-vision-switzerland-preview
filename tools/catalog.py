@@ -1,4 +1,4 @@
-"""Scene facts for CH-01-001 through CH-01-133."""
+"""Scene facts for CH-01-001 through CH-01-134."""
 
 from __future__ import annotations
 
@@ -3136,4 +3136,32 @@ SCENES = [
      'alt_text': 'AI-generated artistic interpretation of the empty Landsgemeindeplatz in Appenzell',
      'sky': 'Fully overcast mild afternoon, solid gray sky, diffuse light, painted gables, empty '
             'square, no mountain panorama, no rain.'},
+    {'entry_id': 'CH-01-134',
+     'caption': 'Trogen, Trogen',
+     'city': 'Trogen',
+     'region': 'Appenzell Ausserrhoden',
+     'folder': 'Trogen',
+     'lat': 47.40782,
+     'lon': 9.46498,
+     'viewpoint': 'The Landsgemeindeplatz in Trogen, Appenzell Ausserrhoden, looking along the stone '
+                  'Zellweger palaces. Map: https://maps.google.com/?q=47.40782,9.46498 The exact '
+                  'paving stone was not surveyed. This is not Trogen in Nidwalden, not Herisau, and '
+                  'not the painted wooden square of Appenzell.',
+     'refs': ['https://en.wikipedia.org/wiki/Trogen,_Switzerland',
+              'https://en.wikipedia.org/wiki/Appenzell_Ausserrhoden'],
+     'anchors': ['Eighteenth-century pale-stone merchant palaces with symmetrical windows and hipped '
+                 'roofs.',
+                 'A sloping village square and a church tower.',
+                 'Masonry palaces, not painted wooden Appenzell farmhouses. The square is empty '
+                 'because the assembly is not in September.'],
+     'composition': 'Stone palaces on the Landsgemeindeplatz in Trogen · AI-generated artistic '
+                    'interpretation',
+     'description': 'Trogen’s Landsgemeindeplatz is lined with the pale stone Zellweger palaces, '
+                    'classical merchant houses with hipped roofs, and the church closes the square. '
+                    'The canton is Appenzell Ausserrhoden, and the houses are masonry, not the painted '
+                    'wooden gables of Appenzell. The September square is empty of an assembly. The '
+                    'Open-Meteo model is fully overcast and mild, with no rain.',
+     'alt_text': 'AI-generated artistic interpretation of the stone palaces on the square in Trogen',
+     'sky': 'Fully overcast mild afternoon near 900 metres, uniform gray sky, soft light, pale stone '
+            'palaces, empty sloping square, no rain.'},
 ]
