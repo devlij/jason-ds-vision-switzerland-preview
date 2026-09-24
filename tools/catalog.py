@@ -1,4 +1,4 @@
-"""Scene facts for CH-01-001 through CH-01-137."""
+"""Scene facts for CH-01-001 through CH-01-138."""
 
 from __future__ import annotations
 
@@ -3243,4 +3243,32 @@ SCENES = [
      'alt_text': 'AI-generated artistic interpretation of Sargans Castle above the Rhine valley town',
      'sky': 'Fully overcast mild afternoon, gray sky, soft light, stone keep, town roofs, wide valley, '
             'no rain, no scaffolding.'},
+    {'entry_id': 'CH-01-138',
+     'caption': 'Villeneuve, Villeneuve',
+     'city': 'Villeneuve',
+     'region': 'Vaud',
+     'folder': 'Villeneuve',
+     'lat': 46.3965,
+     'lon': 6.926,
+     'viewpoint': 'The harbor quay of Villeneuve at the east end of Lake Geneva, looking along the '
+                  'town and the mountains that close the lake. Map: '
+                  'https://maps.google.com/?q=46.3965,6.926 The exact quay point was not surveyed. '
+                  'This is Villeneuve in Vaud, not a French Villeneuve, and Chillon Castle is not in '
+                  'the frame.',
+     'refs': ['https://en.wikipedia.org/wiki/Villeneuve,_Vaud',
+              'https://en.wikipedia.org/wiki/Lake_Geneva'],
+     'anchors': ['A small harbor and tree-lined quay at the east end of the lake.',
+                 'Compact town roofs and a church spire.',
+                 'Steep wooded mountains closing the lake. No castle standing in the water.'],
+     'composition': 'Villeneuve harbor at the east end of Lake Geneva · AI-generated artistic '
+                    'interpretation',
+     'description': 'Villeneuve is the small harbor town at the eastern end of Lake Geneva, in the '
+                    'canton of Vaud, with a quay, a church spire, and the wooded mountains that close '
+                    'the lake. Chillon Castle, already catalogued on the Montreux shore, is not in '
+                    'this frame. The Open-Meteo model is nearly fully overcast and warm, with no rain.',
+     'alt_text': 'AI-generated artistic interpretation of the harbor at Villeneuve on Lake Geneva',
+     'sky': 'Nearly fully overcast warm afternoon, gray sky, soft light, gray-blue lake, harbor, steep '
+            'wooded mountains, no castle in the water, no rain.',
+     'correction': 'Catalogue line replaced Château de Chillon, already published as CH-01-009, with '
+                   'Villeneuve, Villeneuve. The frame is the harbor town in Vaud, not the castle.'},
 ]
