@@ -1,0 +1,16 @@
+{
+  "entry_id": "CH-01-011",
+  "country": "Switzerland",
+  "region": "Appenzell Innerrhoden",
+  "city": "Appenzell",
+  "caption": "Appenzell, Appenzell",
+  "scenario_label": "24 September 2026 · 14:40 Europe/Zurich",
+  "composition": "Village center with painted wooden houses and the Alpstein behind · AI-generated artistic interpretation",
+  "description": "Appenzell’s village center shows painted wooden gables and the church, with the limestone ridges of the Alpstein rising behind the roofs. The street is a public square, empty of prominent people. Houses keep traditional painted fronts rather than a generic chalet row. The Open-Meteo model is overcast and breezy for this afternoon.",
+  "alt_text": "AI-generated artistic interpretation of Appenzell village with painted houses and the Alpstein",
+  "file_16x9": "library/world/Switzerland/Appenzell/ch-01-011-16x9.png",
+  "file_4x5": "library/world/Switzerland/Appenzell/ch-01-011-4x5.png",
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "approval_status": "Candidate"
+}
