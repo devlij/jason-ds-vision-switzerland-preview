@@ -1,0 +1,16 @@
+{
+  "entry_id": "CH-01-104",
+  "country": "Switzerland",
+  "region": "Valais",
+  "city": "Fieschertal",
+  "caption": "Jungfraujoch, Fieschertal",
+  "scenario_label": "24 September 2026 · 16:37 Europe/Zurich",
+  "composition": "Sphinx terrace at the Jungfraujoch, snow col between Jungfrau and Mönch · AI-generated artistic interpretation",
+  "description": "The Jungfraujoch is the high saddle between the Jungfrau and the Mönch. The railway station, the Sphinx observatory, and the other buildings stand in Fieschertal, in Valais, a few metres from the border with Lauterbrunnen in Bern. Snow and ice cover the col in every season, and the Jungfraufirn leads south from the saddle. The Open-Meteo model is heavily clouded, just below freezing, with a strong wind and no precipitation.",
+  "alt_text": "AI-generated artistic interpretation of the Sphinx and the snow col at the Jungfraujoch in Fieschertal",
+  "file_16x9": "library/world/Switzerland/Fieschertal/ch-01-104-16x9.png",
+  "file_4x5": "library/world/Switzerland/Fieschertal/ch-01-104-4x5.png",
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "approval_status": "Candidate"
+}
