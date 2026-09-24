@@ -1,0 +1,16 @@
+{
+  "entry_id": "CH-01-111",
+  "country": "Switzerland",
+  "region": "Zurich",
+  "city": "Laufen-Uhwiesen",
+  "caption": "Schloss Laufen, Laufen-Uhwiesen",
+  "scenario_label": "24 September 2026 · 16:38 Europe/Zurich",
+  "composition": "Schloss Laufen on its cliff above the Rhine Falls · AI-generated artistic interpretation",
+  "description": "Schloss Laufen stands on the cliff of the left bank above the Rhine Falls, in the municipality of Laufen-Uhwiesen in the canton of Zurich. The castle terrace looks down on the wide falls, and the opposite bank is Neuhausen am Rheinfall in Schaffhausen. The walls are the maintained castle, not a ruin, and no name is readable on them. The Open-Meteo model is fully overcast and mild, with no rain.",
+  "alt_text": "AI-generated artistic interpretation of Schloss Laufen above the Rhine Falls at Laufen-Uhwiesen",
+  "file_16x9": "library/world/Switzerland/Laufen-Uhwiesen/ch-01-111-16x9.png",
+  "file_4x5": "library/world/Switzerland/Laufen-Uhwiesen/ch-01-111-4x5.png",
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "approval_status": "Candidate"
+}
