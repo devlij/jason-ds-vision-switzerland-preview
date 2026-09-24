@@ -1,4 +1,4 @@
-"""Scene facts for CH-01-001 through CH-01-135."""
+"""Scene facts for CH-01-001 through CH-01-136."""
 
 from __future__ import annotations
 
@@ -3189,4 +3189,35 @@ SCENES = [
                  'Constance',
      'sky': 'Fully overcast mild afternoon at the lake, gray sky, soft light, gray-blue water, pale '
             'granary, low far shore, no alpine peaks, no rain.'},
+    {'entry_id': 'CH-01-136',
+     'caption': 'Wildhaus, Wildhaus',
+     'city': 'Wildhaus',
+     'region': 'St. Gallen',
+     'folder': 'Wildhaus',
+     'lat': 47.20583,
+     'lon': 9.35402,
+     'viewpoint': 'The village street of Wildhaus on the Toggenburg pass, looking toward the wooden '
+                  'houses and the Churfirsten. Map: https://maps.google.com/?q=47.20583,9.35402 The '
+                  'exact lane point was not surveyed. This is not Alt St. Johann, not Unterwasser, and '
+                  'not a close view of the Säntis.',
+     'refs': ['https://en.wikipedia.org/wiki/Wildhaus', 'https://en.wikipedia.org/wiki/Toggenburg'],
+     'anchors': ['Dark wooden farmhouses of the pass village of Wildhaus.',
+                 'The jagged limestone wall of the Churfirsten behind the roofs.',
+                 'No snow on the street. The Säntis is not the subject.'],
+     'composition': 'Wildhaus on the Toggenburg pass beneath the Churfirsten · AI-generated artistic '
+                    'interpretation',
+     'description': 'Wildhaus is the high village on the Toggenburg pass, with wooden farmhouses and '
+                    'the limestone teeth of the Churfirsten behind the roofs. Since 2010 the political '
+                    'municipality has been Wildhaus-Alt St. Johann; this frame is the village of '
+                    'Wildhaus, not Alt St. Johann and not a portrait of the Säntis. The street is free '
+                    'of snow. The Open-Meteo model is heavily clouded, cool, and breezy, with no rain.',
+     'alt_text': 'AI-generated artistic interpretation of Wildhaus and the Churfirsten in the '
+                 'Toggenburg',
+     'sky': 'Heavily overcast cool afternoon near 1090 metres, cloud cover near 90 percent, gray sky, '
+            'wooden houses, jagged limestone ridge, no snow in the village, no rain.',
+     'weather_note': 'The village street is about 1095 m. The Open-Meteo cell is about 1117 m, so the '
+                     'temperature is the model cell, not a thermometer in the lane.',
+     'correction': 'Catalogue line said Wildhaus, Wildhaus. The political municipality since 2010 is '
+                   'Wildhaus-Alt St. Johann. The scene is the village of Wildhaus, not Alt St. Johann '
+                   'and not Unterwasser. Caption and city stay Wildhaus.'},
 ]

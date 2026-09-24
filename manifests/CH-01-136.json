@@ -1,0 +1,16 @@
+{
+  "entry_id": "CH-01-136",
+  "country": "Switzerland",
+  "region": "St. Gallen",
+  "city": "Wildhaus",
+  "caption": "Wildhaus, Wildhaus",
+  "scenario_label": "24 September 2026 · 17:14 Europe/Zurich",
+  "composition": "Wildhaus on the Toggenburg pass beneath the Churfirsten · AI-generated artistic interpretation",
+  "description": "Wildhaus is the high village on the Toggenburg pass, with wooden farmhouses and the limestone teeth of the Churfirsten behind the roofs. Since 2010 the political municipality has been Wildhaus-Alt St. Johann; this frame is the village of Wildhaus, not Alt St. Johann and not a portrait of the Säntis. The street is free of snow. The Open-Meteo model is heavily clouded, cool, and breezy, with no rain.",
+  "alt_text": "AI-generated artistic interpretation of Wildhaus and the Churfirsten in the Toggenburg",
+  "file_16x9": "library/world/Switzerland/Wildhaus/ch-01-136-16x9.png",
+  "file_4x5": "library/world/Switzerland/Wildhaus/ch-01-136-4x5.png",
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "approval_status": "Candidate"
+}
