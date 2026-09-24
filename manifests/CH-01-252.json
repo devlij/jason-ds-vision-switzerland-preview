@@ -1,0 +1,16 @@
+{
+  "entry_id": "CH-01-252",
+  "country": "Switzerland",
+  "region": "Bern",
+  "city": "Lauterbrunnen",
+  "caption": "Schilthorn, Lauterbrunnen",
+  "scenario_label": "24 September 2026 · 19:21 Europe/Zurich",
+  "composition": "Schilthorn summit building above Mürren, in the municipality of Lauterbrunnen · AI-generated artistic interpretation",
+  "description": "The Schilthorn is the rocky summit above Mürren, in the municipality of Lauterbrunnen, and the frame is the summit building in cloud rather than the village street. Old snow clings to the ridge in patches, and no name or emblem is readable on the building. The Open-Meteo weather code is mainly clear, with cloud cover near four-fifths, and the air is near freezing, with a cold wind and no precipitation, and the sun is below the horizon.",
+  "alt_text": "AI-generated artistic interpretation of the Schilthorn summit building above the Lauterbrunnen valley",
+  "file_16x9": "library/world/Switzerland/Lauterbrunnen/ch-01-252-16x9.png",
+  "file_4x5": "library/world/Switzerland/Lauterbrunnen/ch-01-252-4x5.png",
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "approval_status": "Candidate"
+}

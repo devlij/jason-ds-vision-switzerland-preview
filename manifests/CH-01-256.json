@@ -1,0 +1,16 @@
+{
+  "entry_id": "CH-01-256",
+  "country": "Switzerland",
+  "region": "Graubünden",
+  "city": "Poschiavo",
+  "caption": "Poschiavo, Poschiavo",
+  "scenario_label": "24 September 2026 · 19:21 Europe/Zurich",
+  "composition": "Village square and collegiate church of San Vittore in Poschiavo · AI-generated artistic interpretation",
+  "description": "Poschiavo’s village square is lined with Italianate palazzi and closed by the collegiate church of San Vittore, with its baroque facade and bell tower. This is the valley town, not Lago Bianco on the Bernina, and Tirano, beyond the Italian border, is not used. No shop name is readable. The Open-Meteo weather code is mainly clear, with cloud cover about three-quarters, a breeze, and no precipitation, and the sun is below the horizon.",
+  "alt_text": "AI-generated artistic interpretation of the village square and church of San Vittore in Poschiavo",
+  "file_16x9": "library/world/Switzerland/Poschiavo/ch-01-256-16x9.png",
+  "file_4x5": "library/world/Switzerland/Poschiavo/ch-01-256-4x5.png",
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "approval_status": "Candidate"
+}

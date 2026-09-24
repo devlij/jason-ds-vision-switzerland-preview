@@ -1,0 +1,16 @@
+{
+  "entry_id": "CH-01-242",
+  "country": "Switzerland",
+  "region": "Bern",
+  "city": "Hasliberg",
+  "caption": "Hasliberg, Hasliberg",
+  "scenario_label": "24 September 2026 · 19:20 Europe/Zurich",
+  "composition": "Hasliberg Reuti terrace looking toward the Engelhörner · AI-generated artistic interpretation",
+  "description": "Hasliberg Reuti is a scatter of dark wooden houses on a terrace above the Aare, with tawny September pasture and fir woods, and the Engelhörner rising across the valley. This is the terrace municipality, not the Meiringen valley floor. No snow lies on the houses. The Open-Meteo model is overcast and mild for this height, with cloud cover near two-thirds, a light breeze, and no precipitation, and the sun is below the horizon.",
+  "alt_text": "AI-generated artistic interpretation of Hasliberg Reuti on its terrace above the Aare",
+  "file_16x9": "library/world/Switzerland/Hasliberg/ch-01-242-16x9.png",
+  "file_4x5": "library/world/Switzerland/Hasliberg/ch-01-242-4x5.png",
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "approval_status": "Candidate"
+}

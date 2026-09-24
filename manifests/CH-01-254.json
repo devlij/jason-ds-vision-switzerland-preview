@@ -1,0 +1,16 @@
+{
+  "entry_id": "CH-01-254",
+  "country": "Switzerland",
+  "region": "Bern",
+  "city": "Grindelwald",
+  "caption": "Pfingstegg, Grindelwald",
+  "scenario_label": "24 September 2026 · 19:21 Europe/Zurich",
+  "composition": "Pfingstegg cable-car terrace above the glacial valley at Grindelwald · AI-generated artistic interpretation",
+  "description": "Pfingstegg is the small cable-car terrace on a rock spur east of Grindelwald, with the cable dropping toward the village and a dark glacial valley of rock and remnant ice behind it. It replaces an Eiger Trail viewpoint, because the north face from the valley is already a separate scene, and it is not First and not Bachalpsee. The Open-Meteo model is overcast and mild, with cloud cover near seven-tenths, a light breeze, and no precipitation, and the sun is below the horizon.",
+  "alt_text": "AI-generated artistic interpretation of the Pfingstegg terrace above Grindelwald",
+  "file_16x9": "library/world/Switzerland/Grindelwald/ch-01-254-16x9.png",
+  "file_4x5": "library/world/Switzerland/Grindelwald/ch-01-254-4x5.png",
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "approval_status": "Candidate"
+}

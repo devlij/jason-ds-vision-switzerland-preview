@@ -1,0 +1,16 @@
+{
+  "entry_id": "CH-01-255",
+  "country": "Switzerland",
+  "region": "Graubünden",
+  "city": "Brusio",
+  "caption": "Spiral Viaduct, Brusio",
+  "scenario_label": "24 September 2026 · 19:21 Europe/Zurich",
+  "composition": "Circular stone viaduct of the Bernina line at Brusio · AI-generated artistic interpretation",
+  "description": "The Brusio spiral viaduct is a circle of nine stone arches in the valley meadows, where the Bernina line loops to gain height. The masonry is the subject, and no train name is readable. Late-September trees are still in leaf, with no snow at this height, and this is not the Landwasser viaduct. The Open-Meteo weather code is partly cloudy, with cloud cover about five-sixths, a breeze, and no precipitation, and the sun is below the horizon.",
+  "alt_text": "AI-generated artistic interpretation of the spiral railway viaduct at Brusio",
+  "file_16x9": "library/world/Switzerland/Brusio/ch-01-255-16x9.png",
+  "file_4x5": "library/world/Switzerland/Brusio/ch-01-255-4x5.png",
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "approval_status": "Candidate"
+}

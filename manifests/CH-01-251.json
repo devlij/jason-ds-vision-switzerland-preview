@@ -1,0 +1,16 @@
+{
+  "entry_id": "CH-01-251",
+  "country": "Switzerland",
+  "region": "Bern",
+  "city": "Lauterbrunnen",
+  "caption": "Gimmelwald, Lauterbrunnen",
+  "scenario_label": "24 September 2026 · 19:21 Europe/Zurich",
+  "composition": "Car-free hamlet of Gimmelwald on its cliff terrace · AI-generated artistic interpretation",
+  "description": "Gimmelwald is a few dark wooden chalets and barns on a car-free terrace above the Lauterbrunnen valley, with the ground dropping away beside the houses. It sits below Mürren and is the smaller hamlet, not the Mürren village street and not the Schilthorn. The Open-Meteo model is partly cloudy and mild, with dry air, a breeze, and no precipitation, and the sun is below the horizon.",
+  "alt_text": "AI-generated artistic interpretation of the car-free hamlet of Gimmelwald",
+  "file_16x9": "library/world/Switzerland/Lauterbrunnen/ch-01-251-16x9.png",
+  "file_4x5": "library/world/Switzerland/Lauterbrunnen/ch-01-251-4x5.png",
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "approval_status": "Candidate"
+}
