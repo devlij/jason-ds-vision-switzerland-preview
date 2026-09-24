@@ -1,0 +1,16 @@
+{
+  "entry_id": "CH-01-008",
+  "country": "Switzerland",
+  "region": "Fribourg",
+  "city": "Gruyères",
+  "caption": "Gruyères Castle, Gruyères",
+  "scenario_label": "24 September 2026 · 14:40 Europe/Zurich",
+  "composition": "Medieval street climbing to Gruyères Castle on the hill · AI-generated artistic interpretation",
+  "description": "The cobbled main street of Gruyères rises between medieval houses to the castle at the top of the hill, with round towers and steep roofs. The Fribourg pre-Alps sit behind the town. The castle is shown as it stands, without added scaffolding, and the street has no prominent people. Afternoon light is the soft overcast from the Open-Meteo model.",
+  "alt_text": "AI-generated artistic interpretation of Gruyères Castle above the medieval street in Gruyères",
+  "file_16x9": "library/world/Switzerland/Gruyères/ch-01-008-16x9.png",
+  "file_4x5": "library/world/Switzerland/Gruyères/ch-01-008-4x5.png",
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "approval_status": "Candidate"
+}
