@@ -1,0 +1,16 @@
+{
+  "entry_id": "CH-01-220",
+  "country": "Switzerland",
+  "region": "Valais",
+  "city": "Sierre",
+  "caption": "Sierre, Sierre",
+  "scenario_label": "24 September 2026 · 18:46 Europe/Zurich",
+  "composition": "Autumn vineyards above the old town of Sierre · AI-generated artistic interpretation",
+  "description": "Sierre stands on a dry hillside above the Rhône, and the old-town church tower rises among pale houses with autumn vines in yellow and russet on the slope below. Distant Valais peaks close the valley under broken cloud. This is the valley town, not a high-alpine resort. The Open-Meteo model is partly cloudy, warm, and dry, with a breeze.",
+  "alt_text": "AI-generated artistic interpretation of autumn vineyards above the old town of Sierre",
+  "file_16x9": "library/world/Switzerland/Sierre/ch-01-220-16x9.png",
+  "file_4x5": "library/world/Switzerland/Sierre/ch-01-220-4x5.png",
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "approval_status": "Candidate"
+}

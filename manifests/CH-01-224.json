@@ -1,0 +1,16 @@
+{
+  "entry_id": "CH-01-224",
+  "country": "Switzerland",
+  "region": "Valais",
+  "city": "Zermatt",
+  "caption": "Findeln, Zermatt",
+  "scenario_label": "24 September 2026 · 18:46 Europe/Zurich",
+  "composition": "Walser hamlet of Findeln on the shelf above Zermatt · AI-generated artistic interpretation",
+  "description": "Findeln is a hamlet of dark Walser houses and barns on a south-facing shelf above Zermatt, with golden larch and short alpine grass around the wood. The Matterhorn shows only as a distant peak beyond the roofs, so this is not the Gornergrat portrait, the Bahnhofstrasse, or the Klein Matterhorn. The Open-Meteo model is mainly clear and cool, with a breeze and no precipitation, and the late sun comes from the west.",
+  "alt_text": "AI-generated artistic interpretation of the wooden hamlet of Findeln above Zermatt",
+  "file_16x9": "library/world/Switzerland/Zermatt/ch-01-224-16x9.png",
+  "file_4x5": "library/world/Switzerland/Zermatt/ch-01-224-4x5.png",
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "approval_status": "Candidate"
+}

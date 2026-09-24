@@ -1,0 +1,16 @@
+{
+  "entry_id": "CH-01-219",
+  "country": "Switzerland",
+  "region": "Fribourg",
+  "city": "Charmey",
+  "caption": "Charmey, Charmey",
+  "scenario_label": "24 September 2026 · 18:46 Europe/Zurich",
+  "composition": "Charmey village in the Jogne valley under the Gruyère Prealps · AI-generated artistic interpretation",
+  "description": "Charmey is the pre-Alpine village in the Jogne valley, with wooden chalets, a church, and the limestone peaks of the Gruyère Prealps behind dark fir woods. Late-September meadows are tawny, and the village itself carries no snow. The Open-Meteo model is heavily clouded and cool, with no rain.",
+  "alt_text": "AI-generated artistic interpretation of Charmey in the Jogne valley",
+  "file_16x9": "library/world/Switzerland/Charmey/ch-01-219-16x9.png",
+  "file_4x5": "library/world/Switzerland/Charmey/ch-01-219-4x5.png",
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "approval_status": "Candidate"
+}

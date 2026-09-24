@@ -1,0 +1,16 @@
+{
+  "entry_id": "CH-01-210",
+  "country": "Switzerland",
+  "region": "Neuchâtel",
+  "city": "Colombier",
+  "caption": "Colombier Castle, Colombier",
+  "scenario_label": "24 September 2026 · 18:45 Europe/Zurich",
+  "composition": "South facade of Colombier Castle across its park · AI-generated artistic interpretation",
+  "description": "Colombier Castle is the large cream-white palace-castle in the town of Colombier, now part of Milvignes, with a long south facade, steep roofs, and square corner towers standing in a park. The lake shows beyond the trees, and the building is not the hilltop château of Neuchâtel. The Open-Meteo model is fully overcast and mild, with soft light and no rain.",
+  "alt_text": "AI-generated artistic interpretation of the south facade of Colombier Castle in its park",
+  "file_16x9": "library/world/Switzerland/Colombier/ch-01-210-16x9.png",
+  "file_4x5": "library/world/Switzerland/Colombier/ch-01-210-4x5.png",
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "approval_status": "Candidate"
+}

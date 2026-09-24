@@ -1,0 +1,16 @@
+{
+  "entry_id": "CH-01-218",
+  "country": "Switzerland",
+  "region": "Fribourg",
+  "city": "Broc",
+  "caption": "Broc, Broc",
+  "scenario_label": "24 September 2026 · 18:46 Europe/Zurich",
+  "composition": "Church and valley street in the village of Broc · AI-generated artistic interpretation",
+  "description": "Broc sits where the Jogne valley meets the Gruyère, and the village church spire rises over tile roofs with pastures and a limestone ridge behind. This is the valley village, not the hilltop castle of Gruyères. No factory name is shown. The Open-Meteo model is heavily clouded and mild, with no rain.",
+  "alt_text": "AI-generated artistic interpretation of the church and valley street in Broc",
+  "file_16x9": "library/world/Switzerland/Broc/ch-01-218-16x9.png",
+  "file_4x5": "library/world/Switzerland/Broc/ch-01-218-4x5.png",
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "approval_status": "Candidate"
+}

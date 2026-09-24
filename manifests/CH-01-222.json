@@ -1,0 +1,16 @@
+{
+  "entry_id": "CH-01-222",
+  "country": "Switzerland",
+  "region": "Valais",
+  "city": "Nendaz",
+  "caption": "Nendaz, Nendaz",
+  "scenario_label": "24 September 2026 · 18:46 Europe/Zurich",
+  "composition": "Haute-Nendaz chalets above the Rhône valley · AI-generated artistic interpretation",
+  "description": "Nendaz’s resort village of Haute-Nendaz sits on a shelf above the Rhône, a cluster of dark-wood chalets and a small church looking south toward the high peaks. Late-September pastures are tawny, and the village itself is free of snow. The Open-Meteo model is broken cloud and mild for this height, with no precipitation.",
+  "alt_text": "AI-generated artistic interpretation of the chalet village of Haute-Nendaz above the Rhône valley",
+  "file_16x9": "library/world/Switzerland/Nendaz/ch-01-222-16x9.png",
+  "file_4x5": "library/world/Switzerland/Nendaz/ch-01-222-4x5.png",
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "approval_status": "Candidate"
+}
