@@ -1,4 +1,4 @@
-"""Scene facts for CH-01-001 through CH-01-143."""
+"""Scene facts for CH-01-001 through CH-01-144."""
 
 from __future__ import annotations
 
@@ -3397,4 +3397,34 @@ SCENES = [
                  'town of Bellinzona',
      'sky': 'Mostly cloudy warm afternoon, cloud cover near 74 percent, soft light, baroque church, '
             'arcades, terracotta roofs, no castle portrait, no rain.'},
+    {'entry_id': 'CH-01-144',
+     'caption': 'Mendrisio, Mendrisio',
+     'city': 'Mendrisio',
+     'region': 'Ticino',
+     'folder': 'Mendrisio',
+     'lat': 45.87019,
+     'lon': 8.9816,
+     'viewpoint': 'Piazza del Ponte in Mendrisio, looking at the neoclassical church of Santi Cosma e '
+                  'Damiano and the medieval tower. Map: https://maps.google.com/?q=45.87019,8.9816 The '
+                  'exact square stone was not surveyed. This is not Chiasso and not Monte Generoso.',
+     'refs': ['https://en.wikipedia.org/wiki/Mendrisio',
+              'https://www.ticino.ch/en/commons/details/Church-of-Saints-Cosmas-and-Damian-and-Medieval-Tower/2934.html'],
+     'anchors': ['A neoclassical facade like a Roman triumphal arch, with three openings and '
+                 'Corinthian columns.',
+                 'A separate medieval square tower beside the church.',
+                 'Stucco palazzi, terracotta roofs, and vineyard hills. Not a border station.'],
+     'composition': 'Piazza del Ponte and Santi Cosma e Damiano in Mendrisio · AI-generated artistic '
+                    'interpretation',
+     'description': 'Mendrisio’s Piazza del Ponte is dominated by the neoclassical church of Santi '
+                    'Cosma e Damiano, built in 1863–75 with a triumphal-arch facade, and by the '
+                    'separate medieval tower. Vineyard hills and terracotta roofs close the square. '
+                    'Chiasso, the border-station town, was the weaker tourist site and is not shown. '
+                    'The Open-Meteo model is partly cloudy and warm, with no rain.',
+     'alt_text': 'AI-generated artistic interpretation of Piazza del Ponte and the church of Santi '
+                 'Cosma e Damiano in Mendrisio',
+     'sky': 'Partly cloudy warm afternoon, cloud cover near 48 percent, low western sun, '
+            'triumphal-arch church facade, medieval tower, terracotta roofs, vineyard hills, no rain.',
+     'correction': 'Catalogue line offered Chiasso, Chiasso or Mendrisio, Mendrisio. Mendrisio’s '
+                   'historic centre is the stronger tourist site. Chiasso was not used. Caption and '
+                   'city are Mendrisio.'},
 ]
