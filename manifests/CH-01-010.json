@@ -1,0 +1,16 @@
+{
+  "entry_id": "CH-01-010",
+  "country": "Switzerland",
+  "region": "Graubünden",
+  "city": "St. Moritz",
+  "caption": "Lake St. Moritz, St. Moritz",
+  "scenario_label": "24 September 2026 · 14:40 Europe/Zurich",
+  "composition": "Engadin lakeshore looking across Lake St. Moritz toward the town and peaks · AI-generated artistic interpretation",
+  "description": "Lake St. Moritz fills the foreground, with the town climbing the slope and high Engadin peaks behind it. Late September here is early autumn: larches are still mostly green with only the first gold, and the town is not under winter snow. Residual snow is limited to the higher summits. The Open-Meteo model for this high cell is fully overcast.",
+  "alt_text": "AI-generated artistic interpretation of Lake St. Moritz and the Engadin town under cloud",
+  "file_16x9": "library/world/Switzerland/St. Moritz/ch-01-010-16x9.png",
+  "file_4x5": "library/world/Switzerland/St. Moritz/ch-01-010-4x5.png",
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "approval_status": "Candidate"
+}
