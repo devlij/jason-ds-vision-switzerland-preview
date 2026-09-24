@@ -1,0 +1,16 @@
+{
+  "entry_id": "CH-01-033",
+  "country": "Switzerland",
+  "region": "Lucerne",
+  "city": "Weggis",
+  "caption": "Weggis, Weggis",
+  "scenario_label": "24 September 2026 · 15:27 Europe/Zurich",
+  "composition": "Weggis quay looking across Lake Lucerne toward Pilatus, with Rigi beside the village · AI-generated artistic interpretation",
+  "description": "The Oberdorfquai at Weggis is a flat lakeside promenade with a pavilion, jetties, and palms, facing Lake Lucerne. Pilatus rises across the water as a jagged limestone massif, and the forested foot of Rigi climbs beside the village. This is the Weggis shore, not the Lucerne Chapel Bridge and not the Vitznau view of Rigi alone. The Open-Meteo model is fully overcast, with soft light and no rain.",
+  "alt_text": "AI-generated artistic interpretation of the Weggis lakefront with Pilatus across Lake Lucerne and Rigi beside the village",
+  "file_16x9": "library/world/Switzerland/Weggis/ch-01-033-16x9.png",
+  "file_4x5": "library/world/Switzerland/Weggis/ch-01-033-4x5.png",
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "approval_status": "Candidate"
+}
