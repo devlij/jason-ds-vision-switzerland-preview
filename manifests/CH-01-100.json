@@ -1,0 +1,16 @@
+{
+  "entry_id": "CH-01-100",
+  "country": "Switzerland",
+  "region": "Bern",
+  "city": "Meiringen",
+  "caption": "Meiringen, Meiringen",
+  "scenario_label": "24 September 2026 · 16:37 Europe/Zurich",
+  "composition": "Meiringen in the Haslital, church spire and valley cliffs · AI-generated artistic interpretation",
+  "description": "Meiringen is the valley town of the Haslital, gathered around the tall spire of the Reformed church, with the cliffs of the valley behind the roofs. The waterfalls above the town are a separate scene, and no portrait statue is the subject. The street is quiet. The Open-Meteo model is fully overcast and mild, with no rain.",
+  "alt_text": "AI-generated artistic interpretation of Meiringen and its church spire in the Haslital",
+  "file_16x9": "library/world/Switzerland/Meiringen/ch-01-100-16x9.png",
+  "file_4x5": "library/world/Switzerland/Meiringen/ch-01-100-4x5.png",
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "approval_status": "Candidate"
+}
