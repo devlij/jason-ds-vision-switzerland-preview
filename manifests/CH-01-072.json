@@ -1,0 +1,16 @@
+{
+  "entry_id": "CH-01-072",
+  "country": "Switzerland",
+  "region": "Thurgau",
+  "city": "Frauenfeld",
+  "caption": "Frauenfeld Castle, Frauenfeld",
+  "scenario_label": "24 September 2026 · 16:01 Europe/Zurich",
+  "composition": "Frauenfeld Castle keep in the old town above the Murg · AI-generated artistic interpretation",
+  "description": "Frauenfeld Castle stands in the old town above the Murg, a 13th-century keep of large stones about 19 metres high, with a later timber-framed storey overhanging the walls. It sits near the town hall, inside the former town. No scaffolding is added. The Open-Meteo model is fully overcast and breezy, with no rain.",
+  "alt_text": "AI-generated artistic interpretation of Frauenfeld Castle in the old town",
+  "file_16x9": "library/world/Switzerland/Frauenfeld/ch-01-072-16x9.png",
+  "file_4x5": "library/world/Switzerland/Frauenfeld/ch-01-072-4x5.png",
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "approval_status": "Candidate"
+}
