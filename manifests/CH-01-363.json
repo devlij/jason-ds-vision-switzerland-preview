@@ -1,0 +1,16 @@
+{
+  "entry_id": "CH-01-363",
+  "country": "Switzerland",
+  "region": "Graubünden",
+  "city": "Scuol",
+  "caption": "Tarasp Castle, Scuol",
+  "scenario_label": "24 September 2026 · 23:47 Europe/Zurich",
+  "composition": "Tarasp Castle on its crag above the Inn · AI-generated artistic interpretation",
+  "description": "Tarasp Castle stands on a crag above the Inn, white walls and a ring wall with a chapel tower and a baroque onion dome. The frame stays outside, so the interior collection is not shown. This replaces the Scuol town street, already published. The Open-Meteo model is mainly clear and cool, about 9°C, with cloud cover near three-tenths, a light wind, and no precipitation, and the sun is below the horizon.",
+  "alt_text": "AI-generated artistic interpretation of Tarasp Castle at night",
+  "file_16x9": "library/world/Switzerland/Scuol/ch-01-363-16x9.png",
+  "file_4x5": "library/world/Switzerland/Scuol/ch-01-363-4x5.png",
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "approval_status": "Candidate"
+}

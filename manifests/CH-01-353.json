@@ -1,0 +1,16 @@
+{
+  "entry_id": "CH-01-353",
+  "country": "Switzerland",
+  "region": "St. Gallen",
+  "city": "Weesen",
+  "caption": "Weesen, Weesen",
+  "scenario_label": "24 September 2026 · 23:46 Europe/Zurich",
+  "composition": "Weesen waterfront at the west end of Walensee · AI-generated artistic interpretation",
+  "description": "Weesen sits at the west end of Walensee, where the Linth canal leaves the lake, with the old town on the water and the Churfirsten running east as a dark cliff wall. The churches on the Büel stay in the background, and their interiors are not shown. This replaces the Rapperswil lakeside and castle, already published, and it is not Walenstadt. The Open-Meteo model is mainly clear and mild, about 14°C, with cloud cover under one-tenth, humid air, a light wind, and no precipitation, and the sun is below the horizon.",
+  "alt_text": "AI-generated artistic interpretation of the Weesen waterfront on Walensee at night",
+  "file_16x9": "library/world/Switzerland/Weesen/ch-01-353-16x9.png",
+  "file_4x5": "library/world/Switzerland/Weesen/ch-01-353-4x5.png",
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "approval_status": "Candidate"
+}
