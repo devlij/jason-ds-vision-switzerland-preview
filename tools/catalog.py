@@ -1,4 +1,4 @@
-"""Scene facts for CH-01-001 through CH-01-192."""
+"""Scene facts for CH-01-001 through CH-01-208."""
 
 from __future__ import annotations
 
@@ -4606,5 +4606,382 @@ SCENES = [
         "description": "Kaiseraugst is the Aargau village on the High Rhine that grew from the late-Roman Castrum Rauracense, with the church of St. Gallus on Kirchgasse and the river along the north side. The Roman theatre of Augusta Raurica stands in neighbouring Augst and is already a separate scene. The Open-Meteo model is fully overcast and mild, with a breeze and no rain.",
         "alt_text": "AI-generated artistic interpretation of Kaiseraugst and the church of St. Gallus on the Rhine",
         "sky": "Fully overcast mild late afternoon, gray sky, soft light, village church and tower, lane, wide Rhine, low far bank, no Roman theatre, no rain."
-    }
+    },
+    {
+        "entry_id": "CH-01-193",
+        "caption": "Locarno lakefront, Locarno",
+        "city": "Locarno",
+        "region": "Ticino",
+        "folder": "Locarno",
+        "lat": 46.1672,
+        "lon": 8.8008,
+        "viewpoint": "The palm promenade on Lake Maggiore at Locarno, looking across the water toward the far shore. Map: https://maps.google.com/?q=46.1672,8.8008 The exact paving stone was not surveyed. Piazza Grande and Madonna del Sasso are not in this frame.",
+        "refs": [
+            "https://en.wikipedia.org/wiki/Locarno",
+            "https://en.wikipedia.org/wiki/Lake_Maggiore"
+        ],
+        "anchors": [
+            "A public promenade lined with palms along the north shore of Lake Maggiore.",
+            "Open water and the mountains of the far shore.",
+            "No arcaded square and no sanctuary on the Orselina rock. Those are separate scenes."
+        ],
+        "composition": "Palm promenade on Lake Maggiore at Locarno · AI-generated artistic interpretation",
+        "description": "The Locarno lakefront is the palm promenade on Lake Maggiore, south of the arcaded square. The water opens toward the mountains of the far shore, and the sanctuary on the Orselina rock stays out of the frame. Palms are still green in late September. The Open-Meteo model is mainly clear and warm, with a low western sun and no rain.",
+        "alt_text": "AI-generated artistic interpretation of the palm promenade on Lake Maggiore at Locarno",
+        "sky": "Clear warm late afternoon, low sun from the west, golden light, long shadows, blue sky, palms, open lake, far mountains, no arcades, no hilltop church, no rain."
+    },
+    {
+        "entry_id": "CH-01-194",
+        "caption": "San Quirico, Minusio",
+        "city": "Minusio",
+        "region": "Ticino",
+        "folder": "Minusio",
+        "lat": 46.173,
+        "lon": 8.81608,
+        "correction": "Catalogue line was Minusio, Minusio. The frame is the church of San Quirico at Rivapiana, so the card is not a second Locarno lakefront.",
+        "viewpoint": "Via San Quirico at Rivapiana in Minusio, looking at the church and its medieval tower, with Lake Maggiore beside the lane. Map: https://maps.google.com/?q=46.17300,8.81608 The exact lane stone was not surveyed. This is east of the Locarno promenade.",
+        "refs": [
+            "https://en.wikipedia.org/wiki/Minusio",
+            "https://it.wikipedia.org/wiki/Chiesa_di_San_Quirico_(Minusio)"
+        ],
+        "anchors": [
+            "The church of San Quirico, recorded from 1313, on the lake at Rivapiana.",
+            "A medieval watchtower, later the bell tower, standing beside the church.",
+            "Lake Maggiore at the lane. No Locarno arcade and no Orselina sanctuary."
+        ],
+        "composition": "San Quirico and its medieval tower on the lake at Minusio · AI-generated artistic interpretation",
+        "description": "San Quirico stands at Rivapiana in Minusio, a lakeside church first recorded in 1313, with a medieval watchtower adapted as its bell tower. The quarter sits on Lake Maggiore east of Locarno, so this is not the Locarno promenade and not Madonna del Sasso. Only the exterior is shown. The Open-Meteo model is mainly clear and warm, with a low western sun and no rain.",
+        "alt_text": "AI-generated artistic interpretation of the church of San Quirico and its medieval tower in Minusio",
+        "sky": "Clear warm late afternoon, low sun from the west, golden light, stone church, medieval tower, lake beside the lane, palms, no Locarno square, no rain."
+    },
+    {
+        "entry_id": "CH-01-195",
+        "caption": "Brissago Islands, Brissago",
+        "city": "Brissago",
+        "region": "Ticino",
+        "folder": "Brissago",
+        "lat": 46.13275,
+        "lon": 8.73575,
+        "viewpoint": "From the water on the boat approach to Isola Grande, looking at Villa Emden and the botanical garden, with the smaller island nearby. Map: https://maps.google.com/?q=46.13275,8.73575 The exact point on the water was not surveyed. Both islands are in the municipality of Brissago.",
+        "refs": [
+            "https://en.wikipedia.org/wiki/Brissago_Islands",
+            "https://www.isoledibrissago.ti.ch/en/botanical-garden/introduction"
+        ],
+        "anchors": [
+            "Isola Grande, with a large pale villa on the high point and subtropical gardens around it.",
+            "The smaller island, wooded and without a villa, nearby in the lake.",
+            "Open water of Lake Maggiore. No town quay of Brissago and no readable sign."
+        ],
+        "composition": "Boat approach to Isola Grande and the Brissago Islands gardens · AI-generated artistic interpretation",
+        "description": "The Brissago Islands lie in Lake Maggiore in the municipality of Brissago, and this frame is the boat approach to Isola Grande. A large pale villa and the subtropical botanical garden occupy the larger island, and the smaller island stays wooded. The view stays outside. The Open-Meteo model is mainly clear and warm, with a low western sun and no rain.",
+        "alt_text": "AI-generated artistic interpretation of the boat approach to the Brissago Islands and their gardens",
+        "sky": "Mainly clear warm late afternoon, low sun from the west, a little high cloud, deep blue lake, pale villa, palms and subtropical garden, smaller wooded island, no town, no readable sign, no rain.",
+        "weather_note": "The island rises only a few metres above the lake, near 193 m, which matches this Open-Meteo cell."
+    },
+    {
+        "entry_id": "CH-01-196",
+        "caption": "Montebello, Bellinzona",
+        "city": "Bellinzona",
+        "region": "Ticino",
+        "folder": "Bellinzona",
+        "lat": 46.19129,
+        "lon": 9.02657,
+        "viewpoint": "The slope below Castello di Montebello, looking up at the walls and the keep. Map: https://maps.google.com/?q=46.19129,9.02657 The exact path stone was not surveyed. Castelgrande and the old-town streets are not the subject.",
+        "refs": [
+            "https://whc.unesco.org/en/list/884/",
+            "https://it.wikipedia.org/wiki/Castello_di_Montebello_(Bellinzona)"
+        ],
+        "anchors": [
+            "Montebello, the middle castle, pale walls and a keep on the eastern slope.",
+            "The fortified wall, the Murata, leaving the castle toward the valley.",
+            "No great castle on the central rock and no old-town colonnades. Those are separate scenes."
+        ],
+        "composition": "Castello di Montebello on the slope above Bellinzona · AI-generated artistic interpretation",
+        "description": "Montebello is the middle castle of Bellinzona, pale walls and a keep on the slope, tied into the Murata wall. Castelgrande on its rock and the old-town streets are separate scenes and are not the subject. No scaffolding is added, and no banner is readable. The Open-Meteo model is overcast and warm, with no rain.",
+        "alt_text": "AI-generated artistic interpretation of Castello di Montebello above Bellinzona",
+        "sky": "Overcast warm late afternoon, gray sky, soft diffuse light, pale castle walls and keep on a wooded slope, curtain wall descending, no central rock castle, no blue sky, no rain.",
+        "weather_note": "The castle stands near 313 m. The Open-Meteo cell is about 288 m, so the temperature is the model cell, not a thermometer on the wall-walk."
+    },
+    {
+        "entry_id": "CH-01-197",
+        "caption": "Parco Ciani, Lugano",
+        "city": "Lugano",
+        "region": "Ticino",
+        "folder": "Lugano",
+        "lat": 46.00392,
+        "lon": 8.95993,
+        "viewpoint": "Inside Parco Ciani in Lugano, looking across the trees toward Villa Ciani with the lake at the edge of the park. Map: https://maps.google.com/?q=46.00392,8.95993 The exact path stone was not surveyed. The Monte Brè promenade view is not this frame.",
+        "refs": [
+            "https://en.wikipedia.org/wiki/Lugano",
+            "https://en.wikipedia.org/wiki/Lake_Lugano"
+        ],
+        "anchors": [
+            "A public park of large trees on the lake edge, with lawns and a gravel path.",
+            "Villa Ciani, a neoclassical villa, standing in the park.",
+            "The lake only at the side. Monte Brè is not the portrait, and no sign is readable."
+        ],
+        "composition": "Villa Ciani among the trees of Parco Ciani on Lake Lugano · AI-generated artistic interpretation",
+        "description": "Parco Ciani is the civic park on Lugano’s lake edge, with the neoclassical Villa Ciani among large trees and the water along one side. The frame stays in the park and does not repeat the lakefront view toward Monte Brè. No sign is readable. The Open-Meteo model is mainly clear and warm, with a low western sun and no rain.",
+        "alt_text": "AI-generated artistic interpretation of Villa Ciani in Parco Ciani on Lake Lugano",
+        "sky": "Mainly clear warm late afternoon, low sun from the west, golden light through trees, neoclassical villa, cedars and planes, lake at the park edge, no mountain portrait, no readable sign, no rain."
+    },
+    {
+        "entry_id": "CH-01-198",
+        "caption": "Melide, Melide",
+        "city": "Melide",
+        "region": "Ticino",
+        "folder": "Melide",
+        "lat": 45.95466,
+        "lon": 8.94908,
+        "viewpoint": "Piazza Domenico Fontana in Melide, looking toward the parish church with Lake Lugano and the causeway beyond. Map: https://maps.google.com/?q=45.95466,8.94908 The exact paving stone was not surveyed. The miniature park is not in this frame.",
+        "refs": [
+            "https://en.wikipedia.org/wiki/Melide,_Switzerland",
+            "https://en.wikipedia.org/wiki/Melide_causeway"
+        ],
+        "anchors": [
+            "The parish church of Santi Quirico e Giulitta beside the west shore.",
+            "Lake Lugano, with the causeway leaving toward Bissone.",
+            "Monte San Salvatore only as the slope behind the roofs. No miniature models and no summit portrait."
+        ],
+        "composition": "Melide church and the causeway shore on Lake Lugano · AI-generated artistic interpretation",
+        "description": "Melide is the village on the west shore of Lake Lugano where the causeway leaves for Bissone. The parish church of Santi Quirico e Giulitta stands by the water, and Monte San Salvatore rises behind the roofs without becoming the portrait. The miniature park is not shown. The Open-Meteo model is mainly clear and warm, with a low western sun and no rain.",
+        "alt_text": "AI-generated artistic interpretation of Melide, its parish church, and the Lake Lugano causeway",
+        "sky": "Mainly clear warm late afternoon, low sun from the west, a little high cloud, parish church, village roofs, lake, low causeway, mountain slope behind, no miniature buildings, no rain."
+    },
+    {
+        "entry_id": "CH-01-199",
+        "caption": "Airolo village, Airolo",
+        "city": "Airolo",
+        "region": "Ticino",
+        "folder": "Airolo",
+        "lat": 46.52918,
+        "lon": 8.60883,
+        "viewpoint": "Via San Gottardo in Airolo village, looking at the church of Santi Nazario e Celso and the stone houses of the valley floor. Map: https://maps.google.com/?q=46.52918,8.60883 The exact lane stone was not surveyed. The Gotthard Pass saddle is not in this frame.",
+        "refs": [
+            "https://en.wikipedia.org/wiki/Airolo",
+            "https://www.ticino.ch/en/commons/details/Church-of-SS-Nazario-e-Celso/4685.html"
+        ],
+        "anchors": [
+            "The church of Santi Nazario e Celso, rebuilt after the 1877 fire, with its surviving Romanesque bell tower of twin arches.",
+            "Stone houses of the valley village at about 1175 m.",
+            "Steep valley slopes. No barren pass, no hospice lake, and no snow on the roofs."
+        ],
+        "composition": "Airolo village and the Romanesque tower of Santi Nazario e Celso · AI-generated artistic interpretation",
+        "description": "Airolo village sits on the Leventina floor at about 1175 m, below the Gotthard saddle. The church of Santi Nazario e Celso keeps its Romanesque bell tower, with twin arches, from before the 1877 fire that destroyed most of the town. This is the valley village, not the barren pass. The Open-Meteo model is clear and cool, with a low western sun, no rain, and no snow on the roofs.",
+        "alt_text": "AI-generated artistic interpretation of Airolo village and the church tower of Santi Nazario e Celso",
+        "sky": "Clear cool late afternoon in a high valley, low sun from the west, blue sky, stone village, Romanesque bell tower with twin arches, tawny September grass, steep slopes, no snow on roofs, no pass lake, no rain.",
+        "weather_note": "The church stands near 1175 m. The Open-Meteo cell is about 1195 m, so the temperature is the model cell, not a thermometer in the lane."
+    },
+    {
+        "entry_id": "CH-01-200",
+        "caption": "Faido, Faido",
+        "city": "Faido",
+        "region": "Ticino",
+        "folder": "Faido",
+        "lat": 46.47897,
+        "lon": 8.79771,
+        "viewpoint": "Via Canton Uri in Faido, looking at the exterior of the church of Sant'Andrea and the valley town. Map: https://maps.google.com/?q=46.47897,8.79771 The exact paving stone was not surveyed. The facade mosaic is not the subject.",
+        "refs": [
+            "https://en.wikipedia.org/wiki/Faido",
+            "https://it.wikipedia.org/wiki/Chiesa_di_Sant%27Andrea_(Faido)"
+        ],
+        "anchors": [
+            "The church of Sant'Andrea, a neoclassical body of 1829–1838 with a Romanesque bell tower.",
+            "The town street of the lower Leventina, at about 720 m, with the valley slopes behind.",
+            "No close view of the facade mosaic, and no readable sign."
+        ],
+        "composition": "Sant'Andrea and the valley street in Faido · AI-generated artistic interpretation",
+        "description": "Faido is the town of the lower Leventina, set in the valley at about 720 m. The church of Sant'Andrea has a neoclassical body and a Romanesque bell tower on Via Canton Uri. The frame stays outside and does not feature the facade mosaic. The Open-Meteo model is mainly clear and warm, with a low western sun and no rain.",
+        "alt_text": "AI-generated artistic interpretation of Faido and the church of Sant'Andrea",
+        "sky": "Mainly clear warm late afternoon, low sun from the west, blue sky, valley town, neoclassical church, Romanesque bell tower, steep green slopes, no mosaic close-up, no readable sign, no rain."
+    },
+    {
+        "entry_id": "CH-01-201",
+        "caption": "Chur Cathedral, Chur",
+        "city": "Chur",
+        "region": "Graubünden",
+        "folder": "Chur",
+        "lat": 46.84765,
+        "lon": 9.53544,
+        "viewpoint": "The Hof in Chur, looking at the west front of the cathedral and the single tower on the north side, with the bishop's palace beside it. Map: https://maps.google.com/?q=46.84765,9.53544 The exact paving stone was not surveyed. The old-town lane and the Martinskirche are not the subject.",
+        "refs": [
+            "https://en.wikipedia.org/wiki/Chur_Cathedral",
+            "https://en.wikipedia.org/wiki/Chur"
+        ],
+        "anchors": [
+            "A Romanesque west portal with a large round-arched window above it.",
+            "One bell tower on the north side, between nave and choir, rebuilt after the 1811 fire.",
+            "The bishop's palace beside the church. No old-town shopping lane and no second west tower."
+        ],
+        "composition": "West front of Chur Cathedral in the Hof · AI-generated artistic interpretation",
+        "description": "Chur Cathedral, dedicated to the Assumption, stands in the Hof beside the bishop's palace, apart from the old-town lane. The west front has a Romanesque portal and a large round-arched window, and the single bell tower rises on the north side, rebuilt after the 1811 fire. The Martinskirche street is a separate scene. The Open-Meteo model is fully overcast and mild, with a breeze and no rain.",
+        "alt_text": "AI-generated artistic interpretation of the west front of Chur Cathedral",
+        "sky": "Fully overcast mild late afternoon, gray sky, soft diffuse light, gray stone cathedral, one north tower, large west window, bishop's palace, no old-town lane, no rain."
+    },
+    {
+        "entry_id": "CH-01-202",
+        "caption": "Maienfeld, Maienfeld",
+        "city": "Maienfeld",
+        "region": "Graubünden",
+        "folder": "Maienfeld",
+        "lat": 47.00639,
+        "lon": 9.53086,
+        "viewpoint": "The south side of Maienfeld old town, looking at the square tower of Schloss Brandis among the roofs. Map: https://maps.google.com/?q=47.00639,9.53086 The exact lane stone was not surveyed. No character figure and no themed-village sign.",
+        "refs": [
+            "https://en.wikipedia.org/wiki/Brandis_Castle",
+            "https://en.wikipedia.org/wiki/Maienfeld"
+        ],
+        "anchors": [
+            "Schloss Brandis, a square medieval tower of about six stories on the south edge of the old town.",
+            "Lower palace wings and the lane of the walled centre around the tower.",
+            "The Rhine-valley floor beyond. No character statue and no readable attraction name."
+        ],
+        "composition": "Schloss Brandis tower in the old town of Maienfeld · AI-generated artistic interpretation",
+        "description": "Maienfeld's old town closes on Schloss Brandis, a square medieval tower on the south side of the walled centre in the Rhine valley. The frame is that street and tower. No character statue and no themed-village sign is shown. The Open-Meteo model is mild and breezy, with broken cloud and no rain.",
+        "alt_text": "AI-generated artistic interpretation of Schloss Brandis in the old town of Maienfeld",
+        "sky": "Overcast mild late afternoon, gray sky, soft light, square stone tower, old-town roofs, valley beyond, vineyards tawny, no statue, no readable sign, no rain."
+    },
+    {
+        "entry_id": "CH-01-203",
+        "caption": "Bad Ragaz, Bad Ragaz",
+        "city": "Bad Ragaz",
+        "region": "St. Gallen",
+        "folder": "Bad Ragaz",
+        "lat": 47.00395,
+        "lon": 9.50094,
+        "viewpoint": "Sarganserstrasse in Bad Ragaz, looking toward the church of St. Pankraz and the valley town. Map: https://maps.google.com/?q=47.00395,9.50094 The exact paving stone was not surveyed. The Tamina gorge is not in this frame.",
+        "refs": [
+            "https://en.wikipedia.org/wiki/Bad_Ragaz",
+            "https://de.wikipedia.org/wiki/Taminaschlucht"
+        ],
+        "anchors": [
+            "The church of St. Pankraz in the spa town on the valley floor.",
+            "Streets and trees of Bad Ragaz, with wooded slopes behind and the valley open.",
+            "No narrow rock gorge and no readable hotel name."
+        ],
+        "composition": "St. Pankraz and the valley streets of Bad Ragaz · AI-generated artistic interpretation",
+        "description": "Bad Ragaz is the spa town on the Rhine-valley floor, with the church of St. Pankraz among the streets where the Tamina comes out of the hills. This is the town, not the gorge upstream. No hotel name is readable. The Open-Meteo model is fully overcast and mild, with no rain.",
+        "alt_text": "AI-generated artistic interpretation of Bad Ragaz and the church of St. Pankraz",
+        "sky": "Fully overcast mild late afternoon, gray sky, soft light, valley town, church, trees, wooded slopes, open valley, no gorge, no readable hotel name, no rain."
+    },
+    {
+        "entry_id": "CH-01-204",
+        "caption": "Tamina Gorge, Pfäfers",
+        "city": "Pfäfers",
+        "region": "St. Gallen",
+        "folder": "Pfäfers",
+        "lat": 46.974,
+        "lon": 9.48764,
+        "correction": "Suggested caption was Tamina Gorge, Bad Ragaz. The gorge and the baroque Alte Bad Pfäfers are in the municipality of Pfäfers. Bad Ragaz is the neighboring spa town and is a separate scene.",
+        "viewpoint": "The entrance of the Tamina Gorge at the Alte Bad Pfäfers, looking into the narrow canyon. Map: https://maps.google.com/?q=46.97400,9.48764 The exact path stone was not surveyed. The spa town of Bad Ragaz is not in this frame.",
+        "refs": [
+            "https://de.wikipedia.org/wiki/Taminaschlucht",
+            "https://www.altes-bad-pfaefers.ch/"
+        ],
+        "anchors": [
+            "A very narrow rock canyon, walls rising and nearly closing overhead.",
+            "The baroque Alte Bad Pfäfers, a long bathhouse of 1704–1718, at the gorge entrance.",
+            "A footpath and the Tamina at the bottom. No spa-town street and no readable sign."
+        ],
+        "composition": "The Tamina Gorge and the Alte Bad at Pfäfers · AI-generated artistic interpretation",
+        "description": "The Tamina Gorge is the narrow canyon of the Tamina in the municipality of Pfäfers, with rock walls closing overhead and the baroque Alte Bad at the entrance. Bad Ragaz, the spa town downstream, is a separate scene. The path is empty, and no sign is readable. The Open-Meteo model is overcast and cool, with a breeze and no rain.",
+        "alt_text": "AI-generated artistic interpretation of the Tamina Gorge and the Alte Bad Pfäfers",
+        "sky": "Fully overcast cool late afternoon, gray sky above a dim gorge, soft light, narrow rock walls, stream, long baroque bathhouse, footpath, no town, no readable sign, no rain.",
+        "weather_note": "The Alte Bad sits near 690 m. The Open-Meteo cell is about 740 m, so the temperature is the model cell, not a thermometer in the gorge."
+    },
+    {
+        "entry_id": "CH-01-205",
+        "caption": "Gais, Gais",
+        "city": "Gais",
+        "region": "Appenzell Ausserrhoden",
+        "folder": "Gais",
+        "lat": 47.36258,
+        "lon": 9.45418,
+        "correction": "Suggested sites were Appenzell Castle and the Landsgemeindehaus. Appenzell already has the village view and the Landsgemeindeplatz, and the town hall stands on that square. This scene is Gais in Appenzell Ausserrhoden instead.",
+        "viewpoint": "The Dorfplatz in Gais, looking along the row of wooden houses toward the church. Map: https://maps.google.com/?q=47.36258,9.45418 The exact paving stone was not surveyed. This is not Appenzell and not Trogen.",
+        "refs": [
+            "https://en.wikipedia.org/wiki/Gais_AR",
+            "https://en.wikipedia.org/wiki/Appenzell_Ausserrhoden"
+        ],
+        "anchors": [
+            "A long village square rebuilt after the fire of 1780.",
+            "Wooden houses with curved gables in a continuous row.",
+            "The Protestant church of 1782 at the square. Not the painted square of Appenzell and not the stone palaces of Trogen."
+        ],
+        "composition": "The Dorfplatz of wooden houses in Gais · AI-generated artistic interpretation",
+        "description": "Gais is the Appenzell Ausserrhoden village rebuilt after the fire of 1780, and the Dorfplatz is a long square of wooden houses with curved gables and the church of 1782. The row is this village, not the painted square of Appenzell and not the stone palaces of Trogen. The September square is empty. The Open-Meteo model is fully overcast and cool, with a breeze and no rain.",
+        "alt_text": "AI-generated artistic interpretation of the Dorfplatz in Gais",
+        "sky": "Fully overcast cool late afternoon, gray sky, soft light, breeze in the trees, long square, wooden houses with curved gables, church, empty paving, no bright painted Appenzell facades, no rain.",
+        "weather_note": "The Dorfplatz lies near 930 m. The Open-Meteo cell is about 948 m, so the temperature is the model cell, not a thermometer on the square."
+    },
+    {
+        "entry_id": "CH-01-206",
+        "caption": "Stein AR, Stein",
+        "city": "Stein",
+        "region": "Appenzell Ausserrhoden",
+        "folder": "Stein",
+        "lat": 47.37506,
+        "lon": 9.3439,
+        "viewpoint": "The village lane in Stein, Appenzell Ausserrhoden, looking at the reformed church of 1749. Map: https://maps.google.com/?q=47.37506,9.34390 The exact lane stone was not surveyed. This is not Stein am Rhein.",
+        "refs": [
+            "https://en.wikipedia.org/wiki/Stein_AR",
+            "https://de.wikipedia.org/wiki/Reformierte_Kirche_Stein_AR"
+        ],
+        "anchors": [
+            "The white reformed church built in 1749 by Jakob and Hans Ulrich Grubenmann.",
+            "A tall tower with a pointed, Gothic-leaning spire.",
+            "Wooden village houses. No Rhine quay and no frescoed medieval street."
+        ],
+        "composition": "The Grubenmann church in Stein, Appenzell Ausserrhoden · AI-generated artistic interpretation",
+        "description": "Stein is the Appenzell Ausserrhoden village between the Sitter and the Urnäsch. The frame is the reformed church of 1749 by Jakob and Hans Ulrich Grubenmann, with its tall pointed tower, among wooden houses. This is not Stein am Rhein, and no interior painting is shown. The Open-Meteo model is fully overcast and mild, with no rain.",
+        "alt_text": "AI-generated artistic interpretation of the reformed church in Stein, Appenzell Ausserrhoden",
+        "sky": "Fully overcast mild late afternoon, gray sky, soft light, white church, tall pointed spire, wooden houses, green hills, no Rhine, no frescoed street, no rain."
+    },
+    {
+        "entry_id": "CH-01-207",
+        "caption": "Wurmsbach Abbey, Rapperswil-Jona",
+        "city": "Rapperswil-Jona",
+        "region": "St. Gallen",
+        "folder": "Rapperswil-Jona",
+        "lat": 47.22058,
+        "lon": 8.86596,
+        "correction": "Suggested caption was Jona, Rapperswil-Jona. The Jona centre is inland, and the near shore still faces the Rapperswil peninsula. Wurmsbach Abbey is the lakeside convent on the upper lake in Bollingen, a locality of the same municipality.",
+        "viewpoint": "The shore path at Wurmsbach, looking at the convent and its church on the upper Lake Zurich. Map: https://maps.google.com/?q=47.22058,8.86596 The exact shore stone was not surveyed. Rapperswil Castle is not in this frame.",
+        "refs": [
+            "https://en.wikipedia.org/wiki/Wurmsbach_Abbey",
+            "https://en.wikipedia.org/wiki/Rapperswil-Jona"
+        ],
+        "anchors": [
+            "A Cistercian convent directly on the north shore of the upper lake.",
+            "The abbey church with a baroque onion dome among the convent roofs.",
+            "Reeds and open gray water. No three-towered castle and no wooden lake bridge."
+        ],
+        "composition": "Wurmsbach Abbey on the upper Lake Zurich · AI-generated artistic interpretation",
+        "description": "Wurmsbach Abbey is the Cistercian convent on the north shore of the upper Lake Zurich, in the Bollingen locality of Rapperswil-Jona. The church and its onion-domed tower stand among the convent roofs at the water, with a reed shore in front. Rapperswil Castle is not in this frame. The Open-Meteo model is fully overcast and mild, with a light breeze and no rain.",
+        "alt_text": "AI-generated artistic interpretation of Wurmsbach Abbey on the upper Lake Zurich",
+        "sky": "Fully overcast mild late afternoon, gray sky, soft light, convent on the shore, onion-domed church tower, reeds, gray lake, no castle, no bridge, no rain."
+    },
+    {
+        "entry_id": "CH-01-208",
+        "caption": "Pfäffikon SZ, Freienbach",
+        "city": "Freienbach",
+        "region": "Schwyz",
+        "folder": "Freienbach",
+        "lat": 47.20464,
+        "lon": 8.77485,
+        "viewpoint": "The lakeside lane in the Unterdorf of Pfäffikon SZ, municipality of Freienbach, looking at the square tower of Schloss Pfäffikon with Lake Zurich beside it. Map: https://maps.google.com/?q=47.20464,8.77485 The exact lane stone was not surveyed. This is not Pfäffikon in the canton of Zurich, and Rapperswil Castle is not in this frame.",
+        "refs": [
+            "https://en.wikipedia.org/wiki/Pf%C3%A4ffikon_Castle",
+            "https://en.wikipedia.org/wiki/Freienbach"
+        ],
+        "anchors": [
+            "A square medieval stone tower, about twelve metres on a side, in the Unterdorf.",
+            "Lower castle buildings beside the tower, close to the upper Lake Zurich.",
+            "Open water along the shore. No canton-of-Zurich lake village and no Rapperswil castle."
+        ],
+        "composition": "Schloss Pfäffikon on the lake in Pfäffikon SZ · AI-generated artistic interpretation",
+        "description": "Pfäffikon SZ is the lakeside town in the municipality of Freienbach, on the upper Lake Zurich, and the square tower of Schloss Pfäffikon stands in the Unterdorf by the water. This is the Schwyz town, not Pfäffikon in the canton of Zurich. The Seedamm and Rapperswil stay out of the subject. The Open-Meteo model is fully overcast and mild, with no rain.",
+        "alt_text": "AI-generated artistic interpretation of Schloss Pfäffikon on Lake Zurich in Freienbach",
+        "sky": "Fully overcast mild late afternoon, gray sky, soft light, square stone tower, lower castle wings, gray lake, shore lane, no shopping mall, no distant castle portrait, no rain."
+    },
 ]

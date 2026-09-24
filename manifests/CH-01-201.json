@@ -1,0 +1,16 @@
+{
+  "entry_id": "CH-01-201",
+  "country": "Switzerland",
+  "region": "Graubünden",
+  "city": "Chur",
+  "caption": "Chur Cathedral, Chur",
+  "scenario_label": "24 September 2026 · 18:28 Europe/Zurich",
+  "composition": "West front of Chur Cathedral in the Hof · AI-generated artistic interpretation",
+  "description": "Chur Cathedral, dedicated to the Assumption, stands in the Hof beside the bishop's palace, apart from the old-town lane. The west front has a Romanesque portal and a large round-arched window, and the single bell tower rises on the north side, rebuilt after the 1811 fire. The Martinskirche street is a separate scene. The Open-Meteo model is fully overcast and mild, with a breeze and no rain.",
+  "alt_text": "AI-generated artistic interpretation of the west front of Chur Cathedral",
+  "file_16x9": "library/world/Switzerland/Chur/ch-01-201-16x9.png",
+  "file_4x5": "library/world/Switzerland/Chur/ch-01-201-4x5.png",
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "approval_status": "Candidate"
+}

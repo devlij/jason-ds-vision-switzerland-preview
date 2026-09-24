@@ -1,0 +1,16 @@
+{
+  "entry_id": "CH-01-194",
+  "country": "Switzerland",
+  "region": "Ticino",
+  "city": "Minusio",
+  "caption": "San Quirico, Minusio",
+  "scenario_label": "24 September 2026 · 18:27 Europe/Zurich",
+  "composition": "San Quirico and its medieval tower on the lake at Minusio · AI-generated artistic interpretation",
+  "description": "San Quirico stands at Rivapiana in Minusio, a lakeside church first recorded in 1313, with a medieval watchtower adapted as its bell tower. The quarter sits on Lake Maggiore east of Locarno, so this is not the Locarno promenade and not Madonna del Sasso. Only the exterior is shown. The Open-Meteo model is mainly clear and warm, with a low western sun and no rain.",
+  "alt_text": "AI-generated artistic interpretation of the church of San Quirico and its medieval tower in Minusio",
+  "file_16x9": "library/world/Switzerland/Minusio/ch-01-194-16x9.png",
+  "file_4x5": "library/world/Switzerland/Minusio/ch-01-194-4x5.png",
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "approval_status": "Candidate"
+}
