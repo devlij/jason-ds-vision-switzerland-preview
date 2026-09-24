@@ -1,0 +1,16 @@
+{
+  "entry_id": "CH-01-132",
+  "country": "Switzerland",
+  "region": "Graubünden",
+  "city": "Laax",
+  "caption": "Laax, Laax",
+  "scenario_label": "24 September 2026 · 17:14 Europe/Zurich",
+  "composition": "Laax Dorf, Lag Grond, and the church of Saint Gallus and Saint Otmar · AI-generated artistic interpretation",
+  "description": "Laax Dorf is the old village in the Surselva, with the church of Saint Gallus and Saint Otmar beside the small lake Lag Grond and the Signina peaks to the south. It is a separate municipality from Flims, and the frame is not the Flimserstein and not the cable-car station at Murschetg. The Open-Meteo model is partly cloudy and mild, with no rain and no snow in the village.",
+  "alt_text": "AI-generated artistic interpretation of Laax Dorf and Lag Grond",
+  "file_16x9": "library/world/Switzerland/Laax/ch-01-132-16x9.png",
+  "file_4x5": "library/world/Switzerland/Laax/ch-01-132-4x5.png",
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "approval_status": "Candidate"
+}

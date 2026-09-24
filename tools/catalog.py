@@ -1,4 +1,4 @@
-"""Scene facts for CH-01-001 through CH-01-131."""
+"""Scene facts for CH-01-001 through CH-01-132."""
 
 from __future__ import annotations
 
@@ -3080,4 +3080,32 @@ SCENES = [
      'alt_text': 'AI-generated artistic interpretation of Flims Dorf beneath the Flimserstein',
      'sky': 'Partly cloudy mild afternoon near 1080 metres, cloud cover near 70 percent, soft low '
             'western sun, green and tawny meadows, pale cliff, no lake, no snow, no rain.'},
+    {'entry_id': 'CH-01-132',
+     'caption': 'Laax, Laax',
+     'city': 'Laax',
+     'region': 'Graubünden',
+     'folder': 'Laax',
+     'lat': 46.80452,
+     'lon': 9.25787,
+     'viewpoint': 'Laax Dorf beside Lag Grond, looking toward the church of Saint Gallus and Saint '
+                  'Otmar and the Signina peaks. Map: https://maps.google.com/?q=46.80452,9.25787 The '
+                  'exact shore point was not surveyed. This is not Flims Dorf and not the Murschetg '
+                  'cable-car station.',
+     'refs': ['https://en.wikipedia.org/wiki/Laax', 'https://en.wikipedia.org/wiki/Surselva'],
+     'anchors': ['The baroque church of Saint Gallus and Saint Otmar beside the village.',
+                 'Lag Grond, the small lake in Laax Dorf.',
+                 'The Signina group to the south. No cliff wall of the Flimserstein and no resort '
+                 'name.'],
+     'composition': 'Laax Dorf, Lag Grond, and the church of Saint Gallus and Saint Otmar · '
+                    'AI-generated artistic interpretation',
+     'description': 'Laax Dorf is the old village in the Surselva, with the church of Saint Gallus and '
+                    'Saint Otmar beside the small lake Lag Grond and the Signina peaks to the south. '
+                    'It is a separate municipality from Flims, and the frame is not the Flimserstein '
+                    'and not the cable-car station at Murschetg. The Open-Meteo model is partly cloudy '
+                    'and mild, with no rain and no snow in the village.',
+     'alt_text': 'AI-generated artistic interpretation of Laax Dorf and Lag Grond',
+     'sky': 'Partly cloudy mild afternoon near 1020 metres, cloud cover near 70 percent, soft western '
+            'light, a small village lake, church tower, rocky peaks under cloud, no snow, no rain.',
+     'weather_note': 'The village lake is near 1010 m. The Open-Meteo cell is about 1020 m, so the '
+                     'temperature is the model cell, not a thermometer at Lag Grond.'},
 ]
