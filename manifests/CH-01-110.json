@@ -1,0 +1,16 @@
+{
+  "entry_id": "CH-01-110",
+  "country": "Switzerland",
+  "region": "Ticino",
+  "city": "Val Mara",
+  "caption": "Monte Generoso, Val Mara",
+  "scenario_label": "24 September 2026 · 16:38 Europe/Zurich",
+  "composition": "Summit of Monte Generoso looking north over Lake Lugano · AI-generated artistic interpretation",
+  "description": "Monte Generoso is the limestone summit on the Swiss-Italian border, seen from the Swiss side looking north over Lake Lugano and the Melide causeway toward the Alps. The Swiss summit lies in Val Mara; Capolago, in Mendrisio, is only the valley station of the railway. No observatory dome is shown, because that instrument was removed in 2021, and no railway mark is readable. The Open-Meteo model is partly cloudy, with sun through broken cloud and no rain.",
+  "alt_text": "AI-generated artistic interpretation from Monte Generoso over Lake Lugano",
+  "file_16x9": "library/world/Switzerland/Val Mara/ch-01-110-16x9.png",
+  "file_4x5": "library/world/Switzerland/Val Mara/ch-01-110-4x5.png",
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "approval_status": "Candidate"
+}
