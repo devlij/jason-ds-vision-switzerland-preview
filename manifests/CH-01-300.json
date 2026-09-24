@@ -1,0 +1,16 @@
+{
+  "entry_id": "CH-01-300",
+  "country": "Switzerland",
+  "region": "Vaud",
+  "city": "Lausanne",
+  "caption": "Flon, Lausanne",
+  "scenario_label": "24 September 2026 · 22:30 Europe/Zurich",
+  "composition": "Pedestrian streets and warehouse buildings of the Flon in Lausanne · AI-generated artistic interpretation",
+  "description": "The Flon is the pedestrian district in the old riverbed in Lausanne, where converted warehouses and bridges sit below the surrounding streets. It is not the cathedral hill and not the Ouchy quay. The Open-Meteo model is overcast and mild, about 20°C, with a breeze and no precipitation, and the sun is below the horizon.",
+  "alt_text": "AI-generated artistic interpretation of the Flon district in Lausanne at night",
+  "file_16x9": "library/world/Switzerland/Lausanne/ch-01-300-16x9.png",
+  "file_4x5": "library/world/Switzerland/Lausanne/ch-01-300-4x5.png",
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "approval_status": "Candidate"
+}

@@ -1,0 +1,16 @@
+{
+  "entry_id": "CH-01-289",
+  "country": "Switzerland",
+  "region": "Geneva",
+  "city": "Geneva",
+  "caption": "Quai du Mont-Blanc, Geneva",
+  "scenario_label": "24 September 2026 · 22:30 Europe/Zurich",
+  "composition": "Quai du Mont-Blanc promenade on the north shore of Lake Geneva · AI-generated artistic interpretation",
+  "description": "Quai du Mont-Blanc is the north-shore promenade of Lake Geneva in Geneva, a stone quay with plane trees between the Mont-Blanc bridge and the Pâquis. The Jet d'Eau stands on the other side of the Rhône outlet, so this frame is the quay and the lake, not the fountain. The Open-Meteo model is overcast and mild, about 19°C, with little wind and no precipitation, and the sun is below the horizon.",
+  "alt_text": "AI-generated artistic interpretation of Quai du Mont-Blanc on Lake Geneva at night",
+  "file_16x9": "library/world/Switzerland/Geneva/ch-01-289-16x9.png",
+  "file_4x5": "library/world/Switzerland/Geneva/ch-01-289-4x5.png",
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "approval_status": "Candidate"
+}

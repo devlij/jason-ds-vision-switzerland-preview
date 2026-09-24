@@ -1,0 +1,16 @@
+{
+  "entry_id": "CH-01-299",
+  "country": "Switzerland",
+  "region": "Vaud",
+  "city": "Lausanne",
+  "caption": "Escaliers du Marché, Lausanne",
+  "scenario_label": "24 September 2026 · 22:30 Europe/Zurich",
+  "composition": "Covered wooden Escaliers du Marché and the steep lane in Lausanne · AI-generated artistic interpretation",
+  "description": "The Escaliers du Marché are the covered wooden stairs that climb from the foot of Rue Mercerie toward the cathedral parvis in Lausanne, beside a steep paved lane and a row of tall houses. The present flights date from 1717 to 1719, and Rue Pierre-Viret crosses the upper part. This is the stair, not the cathedral front and not Ouchy. The Open-Meteo model is overcast and mild, about 19°C, with a breeze and no precipitation, and the sun is below the horizon.",
+  "alt_text": "AI-generated artistic interpretation of the covered Escaliers du Marché in Lausanne at night",
+  "file_16x9": "library/world/Switzerland/Lausanne/ch-01-299-16x9.png",
+  "file_4x5": "library/world/Switzerland/Lausanne/ch-01-299-4x5.png",
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "approval_status": "Candidate"
+}
