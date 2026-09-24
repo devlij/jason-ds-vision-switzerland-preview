@@ -1,4 +1,4 @@
-"""Scene facts for CH-01-001 through CH-01-128."""
+"""Scene facts for CH-01-001 through CH-01-129."""
 
 from __future__ import annotations
 
@@ -2997,4 +2997,33 @@ SCENES = [
         "alt_text": "AI-generated artistic interpretation of the Romanesque abbey church in Payerne",
         "sky": "Fully overcast mild afternoon, gray sky, soft light, honey-gray Romanesque stone, market square, no rain.",
     },
+    {'entry_id': 'CH-01-129',
+     'caption': 'Klosters, Klosters',
+     'city': 'Klosters',
+     'region': 'Graubünden',
+     'folder': 'Klosters',
+     'lat': 46.86881,
+     'lon': 9.88151,
+     'viewpoint': 'Klosters Platz beside the Landquart, looking toward the Reformed church and the '
+                  'Gotschna slope. Map: https://maps.google.com/?q=46.86881,9.88151 The exact paving '
+                  'stone was not surveyed. This is not Lake Davos. The municipality, called '
+                  'Klosters-Serneus until 2021, is again named Klosters.',
+     'refs': ['https://en.wikipedia.org/wiki/Klosters', 'https://en.wikipedia.org/wiki/Pr%C3%A4ttigau'],
+     'anchors': ['White Reformed church with a tall dark spire among dark-wood chalets.',
+                 'The Landquart in the valley floor and the forested Gotschna slope behind Platz.',
+                 'No snow on the street. This is not the lake at Davos and no cable-car name is '
+                 'readable.'],
+     'composition': 'Klosters Platz, the Reformed church, and the Landquart · AI-generated artistic '
+                    'interpretation',
+     'description': 'Klosters Platz sits in the Prättigau where the Landquart runs through a village '
+                    'of dark-wood chalets and the white Reformed church. The Gotschna slope rises '
+                    'behind the roofs. The municipality has been named Klosters again since 2021. The '
+                    'Open-Meteo model is partly cloudy and mild for this elevation, with no rain and '
+                    'no snow in the street.',
+     'alt_text': 'AI-generated artistic interpretation of Klosters Platz and the Reformed church in '
+                 'the Prättigau',
+     'sky': 'Partly cloudy late afternoon near 1200 metres, cloud cover near 30 percent, patches of '
+            'blue, sun low in the west, mild air, no rain, no snow on roofs or the street.',
+     'weather_note': 'The church at Klosters Platz is about 1205 m. The Open-Meteo cell is about 1192 '
+                     'm, so the temperature is the model cell, not a thermometer by the church.'},
 ]
