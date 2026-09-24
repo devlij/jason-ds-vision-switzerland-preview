@@ -1,0 +1,16 @@
+{
+  "entry_id": "CH-01-052",
+  "country": "Switzerland",
+  "region": "Schaffhausen",
+  "city": "Stein am Rhein",
+  "caption": "Stein am Rhein, Stein am Rhein",
+  "scenario_label": "24 September 2026 · 15:40 Europe/Zurich",
+  "composition": "Rhine quay at Stein am Rhein with painted facades and Hohenklingen · AI-generated artistic interpretation",
+  "description": "Stein am Rhein lines the Rhine with a row of oriel windows and painted facades, and Burg Hohenklingen sits on the wooded hill behind the roofs. The murals are part of the house fronts and carry no legible text. The town is in the canton of Schaffhausen, and the frame is the river quay rather than the Munot or the falls. The Open-Meteo model sets the light, with no rain added beyond the model.",
+  "alt_text": "AI-generated artistic interpretation of the painted Rhine front at Stein am Rhein",
+  "file_16x9": "library/world/Switzerland/Stein am Rhein/ch-01-052-16x9.png",
+  "file_4x5": "library/world/Switzerland/Stein am Rhein/ch-01-052-4x5.png",
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "approval_status": "Candidate"
+}
