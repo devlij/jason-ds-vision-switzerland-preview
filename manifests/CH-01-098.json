@@ -1,0 +1,16 @@
+{
+  "entry_id": "CH-01-098",
+  "country": "Switzerland",
+  "region": "Aargau",
+  "city": "Baden",
+  "caption": "Baden, Baden",
+  "scenario_label": "24 September 2026 · 16:37 Europe/Zurich",
+  "composition": "Covered wooden bridge at Baden, old town, and the Stein castle ruin · AI-generated artistic interpretation",
+  "description": "Baden is the spa town on the Limmat in Aargau, seen from the water: the covered wooden bridge crosses to the old town, and the ruin of Stein castle stands on the Schlossberg above the roofs. What remains is the watchtower and the chapel of St. Nicholas, not a restored palace. No spa name is readable. The Open-Meteo model is fully overcast and warm, with no rain.",
+  "alt_text": "AI-generated artistic interpretation of the covered bridge, old town, and Stein castle ruin at Baden",
+  "file_16x9": "library/world/Switzerland/Baden/ch-01-098-16x9.png",
+  "file_4x5": "library/world/Switzerland/Baden/ch-01-098-4x5.png",
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "approval_status": "Candidate"
+}
