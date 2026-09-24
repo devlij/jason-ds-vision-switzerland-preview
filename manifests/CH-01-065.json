@@ -1,0 +1,16 @@
+{
+  "entry_id": "CH-01-065",
+  "country": "Switzerland",
+  "region": "Appenzell Ausserrhoden",
+  "city": "Herisau",
+  "caption": "Herisau, Herisau",
+  "scenario_label": "24 September 2026 · 16:00 Europe/Zurich",
+  "composition": "Platz in Herisau looking at the reformed church and the merchant houses · AI-generated artistic interpretation",
+  "description": "Herisau, capital of Appenzell Ausserrhoden, meets at the Platz in front of its reformed church, a late Gothic building of 1516 to 1520 whose tower carries the octagonal helmet added in 1741. Merchant houses line the square, plastered town houses rather than the painted wooden farms of Appenzell, and the Alpstein is only a distant ridge. The view stays outside, with no interior plasterwork and no readable arms on the wall. The Open-Meteo model is fully overcast and breezy, with no rain.",
+  "alt_text": "AI-generated artistic interpretation of the reformed church and Platz in Herisau",
+  "file_16x9": "library/world/Switzerland/Herisau/ch-01-065-16x9.png",
+  "file_4x5": "library/world/Switzerland/Herisau/ch-01-065-4x5.png",
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "approval_status": "Candidate"
+}
