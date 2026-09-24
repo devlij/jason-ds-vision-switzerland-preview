@@ -1,0 +1,16 @@
+{
+  "entry_id": "CH-01-169",
+  "country": "Switzerland",
+  "region": "Vaud",
+  "city": "Rolle",
+  "caption": "Rolle, Rolle",
+  "scenario_label": "24 September 2026 · 17:50 Europe/Zurich",
+  "composition": "Rolle Castle and the Île de la Harpe on Lake Geneva · AI-generated artistic interpretation",
+  "description": "Rolle’s castle stands close to the water on an irregular plan, with a round northwest tower, a rectangular tower toward the lake, and two raised semi-oval towers. About seventy metres offshore, the artificial Île de la Harpe carries a column among trees. The plan is not the regular four-tower square of Morges. The Open-Meteo model is heavily clouded and warm, with no rain.",
+  "alt_text": "AI-generated artistic interpretation of Rolle Castle and the Île de la Harpe",
+  "file_16x9": "library/world/Switzerland/Rolle/ch-01-169-16x9.png",
+  "file_4x5": "library/world/Switzerland/Rolle/ch-01-169-4x5.png",
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "approval_status": "Candidate"
+}

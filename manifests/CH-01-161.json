@@ -1,0 +1,16 @@
+{
+  "entry_id": "CH-01-161",
+  "country": "Switzerland",
+  "region": "Valais",
+  "city": "Zermatt",
+  "caption": "Zermatt Bahnhofstrasse, Zermatt",
+  "scenario_label": "24 September 2026 · 17:50 Europe/Zurich",
+  "composition": "Car-free Bahnhofstrasse looking south toward St Mauritius in Zermatt · AI-generated artistic interpretation",
+  "description": "Zermatt’s Bahnhofstrasse is the car-free promenade between the station and the parish church of St Mauritius, lined with hotels and shopfronts and closed to private cars since 1961. The white church tower closes the south end of the street, and the Matterhorn is only a distant peak above the roofs, not the Gornergrat portrait already catalogued. No shop name is readable, and the September street has no summer goat herd. The Open-Meteo model is mainly clear with broken cloud, mild and dry, and the late sun comes from the west.",
+  "alt_text": "AI-generated artistic interpretation of Bahnhofstrasse looking toward St Mauritius in Zermatt",
+  "file_16x9": "library/world/Switzerland/Zermatt/ch-01-161-16x9.png",
+  "file_4x5": "library/world/Switzerland/Zermatt/ch-01-161-4x5.png",
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "approval_status": "Candidate"
+}

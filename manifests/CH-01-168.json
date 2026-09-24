@@ -1,0 +1,16 @@
+{
+  "entry_id": "CH-01-168",
+  "country": "Switzerland",
+  "region": "Vaud",
+  "city": "Morges",
+  "caption": "Morges, Morges",
+  "scenario_label": "24 September 2026 · 17:50 Europe/Zurich",
+  "composition": "The square castle of Morges on the Lake Geneva quay · AI-generated artistic interpretation",
+  "description": "Morges meets Lake Geneva at the Savoyard square castle built for Louis of Savoy from 1286 to 1291, four round corner towers on the quay with one tower larger than the others. The harbor and the town sit behind the walls, and the far Alps are only as clear as the light allows. This is not the irregular castle and island at Rolle. The Open-Meteo model is fully overcast and warm, with no rain.",
+  "alt_text": "AI-generated artistic interpretation of the square castle on the Morges quay",
+  "file_16x9": "library/world/Switzerland/Morges/ch-01-168-16x9.png",
+  "file_4x5": "library/world/Switzerland/Morges/ch-01-168-4x5.png",
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "approval_status": "Candidate"
+}

@@ -1,0 +1,16 @@
+{
+  "entry_id": "CH-01-166",
+  "country": "Switzerland",
+  "region": "Vaud",
+  "city": "Aigle",
+  "caption": "Aigle Castle, Aigle",
+  "scenario_label": "24 September 2026 · 17:50 Europe/Zurich",
+  "composition": "Aigle Castle in the Chablais vineyards · AI-generated artistic interpretation",
+  "description": "Aigle Castle stands in the vineyards of the Chablais, a rectangular hill castle with a square donjon and corner towers above the Rhône plain. The vines around the walls are the late-September vineyard, leaves turning, not a winter bare slope and not the terraces of Lavaux. The exterior is shown as it stands, and no wine label is readable. The Open-Meteo model is partly cloudy, warm, and almost calm, with no rain.",
+  "alt_text": "AI-generated artistic interpretation of Aigle Castle among the Chablais vineyards",
+  "file_16x9": "library/world/Switzerland/Aigle/ch-01-166-16x9.png",
+  "file_4x5": "library/world/Switzerland/Aigle/ch-01-166-4x5.png",
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "approval_status": "Candidate"
+}
