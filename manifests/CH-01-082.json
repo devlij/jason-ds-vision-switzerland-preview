@@ -1,0 +1,16 @@
+{
+  "entry_id": "CH-01-082",
+  "country": "Switzerland",
+  "region": "Glarus",
+  "city": "Glarus",
+  "caption": "Klöntalersee, Glarus",
+  "scenario_label": "24 September 2026 · 16:14 Europe/Zurich",
+  "composition": "Klöntalersee looking toward the Glärnisch wall, in the municipality of Glarus · AI-generated artistic interpretation",
+  "description": "The Klöntalersee lies in the Klöntal, inside the municipality of Glarus, with the Glärnisch wall along its southern shore and the hamlets of Vorauen and Seerüti on the water. Riedern is only the valley entrance below the lake, and Näfels is in Glarus Nord, so the city field stays Glarus. The eastern dam belongs to the standing lake, and no extra village is added on the cliffs. The Open-Meteo model is fully overcast and breezy, with no rain.",
+  "alt_text": "AI-generated artistic interpretation of the Klöntalersee and the Glärnisch wall in Glarus",
+  "file_16x9": "library/world/Switzerland/Glarus/ch-01-082-16x9.png",
+  "file_4x5": "library/world/Switzerland/Glarus/ch-01-082-4x5.png",
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "approval_status": "Candidate"
+}
