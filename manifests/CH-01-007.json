@@ -1,0 +1,16 @@
+{
+  "entry_id": "CH-01-007",
+  "country": "Switzerland",
+  "region": "Bern",
+  "city": "Lauterbrunnen",
+  "caption": "Staubbach Falls, Lauterbrunnen",
+  "scenario_label": "24 September 2026 · 14:40 Europe/Zurich",
+  "composition": "Valley floor looking up at Staubbach Falls above the Lauterbrunnen church · AI-generated artistic interpretation",
+  "description": "Staubbach Falls drops as a tall, thin veil from the lip of the western cliff above Lauterbrunnen. Wooden chalets and the church spire sit at the base of the wall, with late-September meadows still green. The fall is the cliff waterfall, not a wide river cataract. The Open-Meteo model for the valley is heavily clouded, and the light is soft.",
+  "alt_text": "AI-generated artistic interpretation of Staubbach Falls above Lauterbrunnen",
+  "file_16x9": "library/world/Switzerland/Lauterbrunnen/ch-01-007-16x9.png",
+  "file_4x5": "library/world/Switzerland/Lauterbrunnen/ch-01-007-4x5.png",
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "approval_status": "Candidate"
+}
