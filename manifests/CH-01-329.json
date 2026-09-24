@@ -1,0 +1,16 @@
+{
+  "entry_id": "CH-01-329",
+  "country": "Switzerland",
+  "region": "Graubünden",
+  "city": "Val Müstair",
+  "caption": "Müstair Abbey, Val Müstair",
+  "scenario_label": "24 September 2026 · 23:10 Europe/Zurich",
+  "composition": "Exterior of the Convent of St John at Müstair · AI-generated artistic interpretation",
+  "description": "The Convent of St John at Müstair stands in the municipality of Val Müstair, a long church, towers, and courtyard walls in a high valley. The frame stays outside, so the Carolingian paintings are not shown. This replaces the St. Moritz lake shore, already published. The Open-Meteo model is mainly clear and cool, about 10°C, with cloud cover a little under three-tenths, a light wind, and no precipitation, and the sun is below the horizon.",
+  "alt_text": "AI-generated artistic interpretation of the Müstair convent exterior at night",
+  "file_16x9": "library/world/Switzerland/Val Müstair/ch-01-329-16x9.png",
+  "file_4x5": "library/world/Switzerland/Val Müstair/ch-01-329-4x5.png",
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "approval_status": "Candidate"
+}

@@ -1,0 +1,16 @@
+{
+  "entry_id": "CH-01-334",
+  "country": "Switzerland",
+  "region": "Zurich",
+  "city": "Zurich",
+  "caption": "St. Peter, Zurich",
+  "scenario_label": "24 September 2026 · 23:10 Europe/Zurich",
+  "composition": "St. Peter clock tower from St. Peterhofstatt · AI-generated artistic interpretation",
+  "description": "St. Peter is the old parish church on its hill in Zurich, known from the square by a single tower and four clock faces about 8.7 metres across. It is not the Grossmünster and not the Fraumünster. Bellevue and the Quaibrücke are already published. The Open-Meteo model is clear and mild, about 15°C, with no cloud, a light breeze, and no precipitation, and the sun is below the horizon.",
+  "alt_text": "AI-generated artistic interpretation of the St. Peter clock tower in Zurich at night",
+  "file_16x9": "library/world/Switzerland/Zurich/ch-01-334-16x9.png",
+  "file_4x5": "library/world/Switzerland/Zurich/ch-01-334-4x5.png",
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "approval_status": "Candidate"
+}
