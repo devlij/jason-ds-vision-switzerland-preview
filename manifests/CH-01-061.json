@@ -1,0 +1,16 @@
+{
+  "entry_id": "CH-01-061",
+  "country": "Switzerland",
+  "region": "Ticino",
+  "city": "Bellinzona",
+  "caption": "Castelgrande, Bellinzona",
+  "scenario_label": "24 September 2026 · 15:44 Europe/Zurich",
+  "composition": "Bellinzona old town looking up at Castelgrande on its rock · AI-generated artistic interpretation",
+  "description": "Castelgrande crowns the rock in the middle of Bellinzona, pale walls and two towers above vineyards and the old-town roofs. The view is this one castle, the largest of the three UNESCO forts, and Montebello and Sasso Corbaro are not the subject. No scaffolding is added, and the walls carry no readable banner. The Open-Meteo model sets the Ticino afternoon light.",
+  "alt_text": "AI-generated artistic interpretation of Castelgrande above the old town of Bellinzona",
+  "file_16x9": "library/world/Switzerland/Bellinzona/ch-01-061-16x9.png",
+  "file_4x5": "library/world/Switzerland/Bellinzona/ch-01-061-4x5.png",
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "approval_status": "Candidate"
+}
