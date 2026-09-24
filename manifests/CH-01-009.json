@@ -1,0 +1,16 @@
+{
+  "entry_id": "CH-01-009",
+  "country": "Switzerland",
+  "region": "Vaud",
+  "city": "Montreux",
+  "caption": "Chillon Castle, Montreux",
+  "scenario_label": "24 September 2026 · 14:40 Europe/Zurich",
+  "composition": "Lake Geneva shore looking toward Chillon Castle and the Dents du Midi · AI-generated artistic interpretation",
+  "description": "Chillon Castle stands on its rock in Lake Geneva, a cluster of round and square towers linked to the shore by a bridge. The water reaches the walls, and the Dents du Midi ridge is the mountain backdrop across the lake. The peaks are softened by cloud to match the overcast Open-Meteo model. No boat with a readable name is featured.",
+  "alt_text": "AI-generated artistic interpretation of Chillon Castle on Lake Geneva near Montreux",
+  "file_16x9": "library/world/Switzerland/Montreux/ch-01-009-16x9.png",
+  "file_4x5": "library/world/Switzerland/Montreux/ch-01-009-4x5.png",
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "approval_status": "Candidate"
+}
