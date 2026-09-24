@@ -182,6 +182,11 @@ def write_approval(scene: dict, scenario_label: str, weather: dict, solar: str) 
         "",
         "## Evidence card",
         f"- Caption baked into the image: {scene['caption']}",
+        *(
+            [f"- Caption correction: {scene['correction']}"]
+            if scene.get("correction")
+            else []
+        ),
         f"- Camera viewpoint: {scene['viewpoint']}",
         "- Reference links:",
         f"  - {scene['refs'][0]}",
