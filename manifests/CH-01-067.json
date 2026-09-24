@@ -1,0 +1,16 @@
+{
+  "entry_id": "CH-01-067",
+  "country": "Switzerland",
+  "region": "Appenzell Ausserrhoden",
+  "city": "Heiden",
+  "caption": "Heiden, Heiden",
+  "scenario_label": "24 September 2026 · 16:00 Europe/Zurich",
+  "composition": "Heiden terrace looking over the village toward Lake Constance · AI-generated artistic interpretation",
+  "description": "Heiden is a Biedermeier spa village in Appenzell Ausserrhoden, on a high terrace above Lake Constance. The church and the roofs sit on that terrace, and the land drops toward the lake and the far shore. No emblem and no portrait monument are the subject. The Open-Meteo model is fully overcast and breezy, with no rain.",
+  "alt_text": "AI-generated artistic interpretation of Heiden on its terrace above Lake Constance",
+  "file_16x9": "library/world/Switzerland/Heiden/ch-01-067-16x9.png",
+  "file_4x5": "library/world/Switzerland/Heiden/ch-01-067-4x5.png",
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "approval_status": "Candidate"
+}
