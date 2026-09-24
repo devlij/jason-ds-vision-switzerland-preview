@@ -4,6 +4,7 @@
 from __future__ import annotations
 
 import json
+import math
 import sys
 from datetime import datetime
 from pathlib import Path
@@ -32,10 +33,33 @@ def scenario_fields(moment: datetime) -> tuple[str, str]:
     return stamp, f"Scenario: {stamp}"
 
 
+WMO_NAMES = {
+    0: "clear",
+    1: "mainly clear",
+    2: "partly cloudy",
+    3: "overcast",
+    45: "fog",
+    48: "depositing rime fog",
+    51: "light drizzle",
+    53: "moderate drizzle",
+    55: "dense drizzle",
+    61: "slight rain",
+    63: "moderate rain",
+    65: "heavy rain",
+    71: "slight snow",
+    73: "moderate snow",
+    75: "heavy snow",
+    80: "slight rain showers",
+    81: "moderate rain showers",
+    82: "violent rain showers",
+    85: "slight snow showers",
+    95: "thunderstorm",
+}
+
+
 def weather_sentence(weather: dict) -> str:
     code = int(weather["weather_code"])
-    names = {0: "clear", 1: "mainly clear", 2: "partly cloudy", 3: "overcast"}
-    name = names.get(code, f"code {code}")
+    name = WMO_NAMES.get(code, f"code {code}")
     return (
         f"Model data from Open-Meteo, retrieved {weather['retrieved']}, "
         f"valid {weather['valid']} Europe/Zurich — not a verified on-site observation. "
@@ -45,6 +69,108 @@ def weather_sentence(weather: dict) -> str:
         f"relative humidity {weather['relative_humidity_2m']}%, "
         f"precipitation {weather['precipitation']} mm, is_day {weather['is_day']}. "
         f"Model cell elevation about {weather['elevation']} m."
+    )
+
+
+def _decl_eqtime(moment: datetime) -> tuple[float, float]:
+    utc = moment.astimezone(ZoneInfo("UTC"))
+    day = utc.timetuple().tm_yday
+    hour = utc.hour + utc.minute / 60 + utc.second / 3600
+    gamma = 2 * math.pi / 365 * (day - 1 + (hour - 12) / 24)
+    eqtime = 229.18 * (
+        0.000075
+        + 0.001868 * math.cos(gamma)
+        - 0.032077 * math.sin(gamma)
+        - 0.014615 * math.cos(2 * gamma)
+        - 0.040849 * math.sin(2 * gamma)
+    )
+    decl = (
+        0.006918
+        - 0.399912 * math.cos(gamma)
+        + 0.070257 * math.sin(gamma)
+        - 0.006758 * math.cos(2 * gamma)
+        + 0.000907 * math.sin(2 * gamma)
+        - 0.002697 * math.cos(3 * gamma)
+        + 0.00148 * math.sin(3 * gamma)
+    )
+    return decl, eqtime
+
+
+def solar_position(lat: float, lon: float, moment: datetime) -> tuple[float, float]:
+    decl, eqtime = _decl_eqtime(moment)
+    tz_hours = moment.utcoffset().total_seconds() / 3600
+    local_minutes = moment.hour * 60 + moment.minute + moment.second / 60
+    tst = local_minutes + eqtime + 4 * lon - 60 * tz_hours
+    ha = math.radians(tst / 4 - 180)
+    latr = math.radians(lat)
+    cosz = math.sin(latr) * math.sin(decl) + math.cos(latr) * math.cos(decl) * math.cos(ha)
+    cosz = max(-1.0, min(1.0, cosz))
+    altitude = 90 - math.degrees(math.acos(cosz))
+    azimuth = math.degrees(
+        math.atan2(
+            -math.sin(ha),
+            math.tan(decl) * math.cos(latr) - math.sin(latr) * math.cos(ha),
+        )
+    )
+    return altitude, azimuth % 360
+
+
+def compass_16(azimuth: float) -> str:
+    names = [
+        "north",
+        "north-northeast",
+        "northeast",
+        "east-northeast",
+        "east",
+        "east-southeast",
+        "southeast",
+        "south-southeast",
+        "south",
+        "south-southwest",
+        "southwest",
+        "west-southwest",
+        "west",
+        "west-northwest",
+        "northwest",
+        "north-northwest",
+    ]
+    return names[int((azimuth + 11.25) // 22.5) % 16]
+
+
+def sun_times(lat: float, lon: float, moment: datetime) -> tuple[str, str]:
+    decl, eqtime = _decl_eqtime(moment)
+    latr = math.radians(lat)
+    arg = max(-1.0, min(1.0, -math.tan(latr) * math.tan(decl)))
+    hour_angle = math.degrees(math.acos(arg))
+    tz_hours = moment.utcoffset().total_seconds() / 3600
+    noon = 720 - eqtime - 4 * lon + 60 * tz_hours
+
+    def fmt(minutes: float) -> str:
+        minutes = minutes % (24 * 60)
+        hour = int(minutes // 60)
+        minute = int(round(minutes % 60))
+        if minute == 60:
+            hour = (hour + 1) % 24
+            minute = 0
+        return f"{hour:02d}:{minute:02d}"
+
+    return fmt(noon - hour_angle * 4), fmt(noon + hour_angle * 4)
+
+
+def solar_sentence(scene: dict, moment: datetime) -> str:
+    altitude, azimuth = solar_position(float(scene["lat"]), float(scene["lon"]), moment)
+    rise, sett = sun_times(float(scene["lat"]), float(scene["lon"]), moment)
+    if altitude <= 0:
+        when = "Night"
+    elif moment.hour < 12:
+        when = "Morning"
+    else:
+        when = "Afternoon"
+    return (
+        f"{when}. Calculated solar altitude about {altitude:.0f}° and azimuth about {azimuth:.0f}° "
+        f"({compass_16(azimuth)}) at {moment.strftime('%H:%M')} Europe/Zurich on {moment.strftime('%-d %B %Y')} "
+        f"at this latitude, using a NOAA-style approximation. Sunrise roughly {rise} and sunset roughly {sett} Europe/Zurich. "
+        "Calculated, not observed on site. Where the model is overcast, the frame uses diffuse light rather than hard sun."
     )
 
 
@@ -122,13 +248,7 @@ def publish(entry_id: str, raw_16: str, raw_45: str, weather_path: str) -> str:
     dest_45 = folder / f"{slug}-4x5.png"
     bake(raw_16, str(dest_16), 1920, 1080, scene["caption"], scenario_line)
     bake(raw_45, str(dest_45), 864, 1080, scene["caption"], scenario_line)
-    solar = (
-        "Afternoon. Calculated solar altitude about 40° and azimuth about 204° "
-        "(south-southwest) near 14:30 Europe/Zurich on 24 September 2026 at this latitude, "
-        "using a NOAA-style approximation. Sunrise roughly 07:20 and sunset roughly 19:20 Europe/Zurich. "
-        "Calculated, not observed on site. Where the model is overcast, the frame uses diffuse light rather than hard sun."
-    )
-    write_approval(scene, scenario_label, weather, solar)
+    write_approval(scene, scenario_label, weather, solar_sentence(scene, moment))
     write_manifest(scene, scenario_label)
     return scenario_label
 
