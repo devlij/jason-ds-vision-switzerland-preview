@@ -1,0 +1,16 @@
+{
+  "entry_id": "CH-01-006",
+  "country": "Switzerland",
+  "region": "Zurich",
+  "city": "Zurich",
+  "caption": "Limmatquai, Zurich",
+  "scenario_label": "24 September 2026 · 14:40 Europe/Zurich",
+  "composition": "Limmatquai looking along the Limmat toward the Grossmünster twin towers · AI-generated artistic interpretation",
+  "description": "The Limmatquai promenade follows the Limmat through Zurich’s old town, with guild-house facades on the water and the Grossmünster’s twin Romanesque towers on the right bank. The river runs through the frame and the quay is free of prominent people. No commercial logo is the subject. Cloud and temperature follow the Open-Meteo model for this Zurich afternoon.",
+  "alt_text": "AI-generated artistic interpretation of Limmatquai and the Grossmünster along the Limmat in Zurich",
+  "file_16x9": "library/world/Switzerland/Zurich/ch-01-006-16x9.png",
+  "file_4x5": "library/world/Switzerland/Zurich/ch-01-006-4x5.png",
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "approval_status": "Candidate"
+}
