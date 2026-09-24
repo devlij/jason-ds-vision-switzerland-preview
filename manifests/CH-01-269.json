@@ -1,0 +1,16 @@
+{
+  "entry_id": "CH-01-269",
+  "country": "Switzerland",
+  "region": "Ticino",
+  "city": "Lugano",
+  "caption": "Castagnola, Lugano",
+  "scenario_label": "24 September 2026 · 19:39 Europe/Zurich",
+  "composition": "Castagnola lakeside beneath Monte Brè · AI-generated artistic interpretation",
+  "description": "Castagnola is the lakeside quarter east of Lugano’s center, a shore of villas and cypresses with Monte Brè rising behind it, and it has been part of Lugano since 1972. The frame stops before the stacked cliff houses of Gandria, and no villa name is readable. The Open-Meteo model is clear and warm, with little wind and no precipitation, and the sun is below the horizon.",
+  "alt_text": "AI-generated artistic interpretation of the Castagnola shore beneath Monte Brè",
+  "file_16x9": "library/world/Switzerland/Lugano/ch-01-269-16x9.png",
+  "file_4x5": "library/world/Switzerland/Lugano/ch-01-269-4x5.png",
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "approval_status": "Candidate"
+}

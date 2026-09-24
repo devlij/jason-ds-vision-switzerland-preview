@@ -1,0 +1,16 @@
+{
+  "entry_id": "CH-01-268",
+  "country": "Switzerland",
+  "region": "Ticino",
+  "city": "Lugano",
+  "caption": "Monte Brè, Lugano",
+  "scenario_label": "24 September 2026 · 19:39 Europe/Zurich",
+  "composition": "Summit of Monte Brè looking over Lugano toward Monte San Salvatore · AI-generated artistic interpretation",
+  "description": "The upper station of the Monte Brè funicular sits on the summit above Lugano, looking over the lights of the city and the lake toward the dark cone of Monte San Salvatore. This is not the lakefront, not Parco Ciani, not Gandria, and not the San Salvatore summit, and no restaurant name is readable. The Open-Meteo model is clear and mild, with a light wind and no precipitation, and the sun is below the horizon.",
+  "alt_text": "AI-generated artistic interpretation from the summit of Monte Brè over Lugano at night",
+  "file_16x9": "library/world/Switzerland/Lugano/ch-01-268-16x9.png",
+  "file_4x5": "library/world/Switzerland/Lugano/ch-01-268-4x5.png",
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "approval_status": "Candidate"
+}
