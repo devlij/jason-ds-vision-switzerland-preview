@@ -1,0 +1,16 @@
+{
+  "entry_id": "CH-01-120",
+  "country": "Switzerland",
+  "region": "Valais",
+  "city": "Champéry",
+  "caption": "Champéry, Champéry",
+  "scenario_label": "24 September 2026 · 16:56 Europe/Zurich",
+  "composition": "Champéry looking toward the Dents du Midi · AI-generated artistic interpretation",
+  "description": "Champéry is the village at the head of the Val d'Illiez, with chalets and the church, looking toward the limestone teeth of the Dents du Midi. The streets are free of snow in late September, and only the high gullies carry old snow. The Open-Meteo model is overcast and mild for this elevation, with no rain.",
+  "alt_text": "AI-generated artistic interpretation of Champéry and the Dents du Midi",
+  "file_16x9": "library/world/Switzerland/Champéry/ch-01-120-16x9.png",
+  "file_4x5": "library/world/Switzerland/Champéry/ch-01-120-4x5.png",
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "approval_status": "Candidate"
+}
