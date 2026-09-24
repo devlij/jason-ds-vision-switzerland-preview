@@ -1,0 +1,16 @@
+{
+  "entry_id": "CH-01-015",
+  "country": "Switzerland",
+  "region": "Bern",
+  "city": "Grindelwald",
+  "caption": "Eiger, Grindelwald",
+  "scenario_label": "24 September 2026 · 14:42 Europe/Zurich",
+  "composition": "Grindelwald meadows looking south at the Eiger north face · AI-generated artistic interpretation",
+  "description": "From the Grindelwald valley, the Eiger’s north face is a dark, near-vertical wall, with the Mönch and Jungfrau further west and the Wetterhorn to the east. Meadows and wooden chalets sit in the foreground under late-September green. The Open-Meteo valley model is overcast with partial cloud cover, so the upper wall carries cloud while the face stays identifiable. No climbing infrastructure is invented on the wall.",
+  "alt_text": "AI-generated artistic interpretation of the Eiger north face from Grindelwald",
+  "file_16x9": "library/world/Switzerland/Grindelwald/ch-01-015-16x9.png",
+  "file_4x5": "library/world/Switzerland/Grindelwald/ch-01-015-4x5.png",
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "approval_status": "Candidate"
+}
