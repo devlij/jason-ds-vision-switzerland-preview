@@ -1,0 +1,16 @@
+{
+  "entry_id": "CH-01-140",
+  "country": "Switzerland",
+  "region": "Valais",
+  "city": "Sion",
+  "caption": "Sion Old Town, Sion",
+  "scenario_label": "24 September 2026 · 17:14 Europe/Zurich",
+  "composition": "Old-town lane and Notre-Dame du Glarier in Sion · AI-generated artistic interpretation",
+  "description": "The old town of Sion is a lane of stone houses leading to the cathedral of Notre-Dame du Glarier and its square Romanesque tower. This is street level in the town, not the fortified basilica of Valère on the hill, which is already a separate scene. The Open-Meteo model is fully overcast, warm, and dry, with no rain.",
+  "alt_text": "AI-generated artistic interpretation of the old town of Sion and the cathedral of Notre-Dame du Glarier",
+  "file_16x9": "library/world/Switzerland/Sion/ch-01-140-16x9.png",
+  "file_4x5": "library/world/Switzerland/Sion/ch-01-140-4x5.png",
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "approval_status": "Candidate"
+}

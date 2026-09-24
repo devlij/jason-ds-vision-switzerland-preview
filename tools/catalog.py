@@ -1,4 +1,4 @@
-"""Scene facts for CH-01-001 through CH-01-139."""
+"""Scene facts for CH-01-001 through CH-01-140."""
 
 from __future__ import annotations
 
@@ -3294,4 +3294,30 @@ SCENES = [
      'alt_text': 'AI-generated artistic interpretation of the palm promenade on the Montreux lakefront',
      'sky': 'Fully overcast warm afternoon, gray sky, soft light, palms, cream hotel fronts, gray-blue '
             'lake, hazy ridge, no castle, no rain.'},
+    {'entry_id': 'CH-01-140',
+     'caption': 'Sion Old Town, Sion',
+     'city': 'Sion',
+     'region': 'Valais',
+     'folder': 'Sion',
+     'lat': 46.2338,
+     'lon': 7.3592,
+     'viewpoint': 'A lane in the old town of Sion, looking toward the cathedral of Notre-Dame du '
+                  'Glarier. Map: https://maps.google.com/?q=46.2338,7.3592 The exact lane point was '
+                  'not surveyed. Valère Basilica is not the subject.',
+     'refs': ['https://en.wikipedia.org/wiki/Sion,_Switzerland',
+              'https://en.wikipedia.org/wiki/Sion_Cathedral'],
+     'anchors': ['The Romanesque cathedral of Notre-Dame du Glarier with a square stone bell tower.',
+                 'A narrow lane of medieval stone houses.',
+                 'The hilltop basilica of Valère is not the subject and is not shown close.'],
+     'composition': 'Old-town lane and Notre-Dame du Glarier in Sion · AI-generated artistic '
+                    'interpretation',
+     'description': 'The old town of Sion is a lane of stone houses leading to the cathedral of '
+                    'Notre-Dame du Glarier and its square Romanesque tower. This is street level in '
+                    'the town, not the fortified basilica of Valère on the hill, which is already a '
+                    'separate scene. The Open-Meteo model is fully overcast, warm, and dry, with no '
+                    'rain.',
+     'alt_text': 'AI-generated artistic interpretation of the old town of Sion and the cathedral of '
+                 'Notre-Dame du Glarier',
+     'sky': 'Fully overcast warm afternoon, gray sky, soft light, stone lane, square Romanesque tower, '
+            'dry, no rain.'},
 ]
