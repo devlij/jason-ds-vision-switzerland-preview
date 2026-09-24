@@ -1,0 +1,16 @@
+{
+  "entry_id": "CH-01-002",
+  "country": "Switzerland",
+  "region": "Lucerne",
+  "city": "Lucerne",
+  "caption": "Chapel Bridge, Lucerne",
+  "scenario_label": "24 September 2026 · 14:38 Europe/Zurich",
+  "composition": "Reuss crossing with the covered wooden Chapel Bridge and octagonal Water Tower · AI-generated artistic interpretation",
+  "description": "The covered wooden Chapel Bridge runs diagonally across the Reuss, with the octagonal stone Water Tower standing in the river beside it. Flower boxes line the bridge and the old-town facades sit beyond the water. The walkway is empty of prominent people, and the bridge is shown in its standing rebuilt form, without fire damage or scaffolding. Cloud and light follow the Open-Meteo model for this Lucerne afternoon.",
+  "alt_text": "AI-generated artistic interpretation of the Chapel Bridge and Water Tower on the Reuss in Lucerne",
+  "file_16x9": "library/world/Switzerland/Lucerne/ch-01-002-16x9.png",
+  "file_4x5": "library/world/Switzerland/Lucerne/ch-01-002-4x5.png",
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "approval_status": "Candidate"
+}
