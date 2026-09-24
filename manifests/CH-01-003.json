@@ -1,0 +1,16 @@
+{
+  "entry_id": "CH-01-003",
+  "country": "Switzerland",
+  "region": "Bern",
+  "city": "Interlaken",
+  "caption": "Jungfrau, Interlaken",
+  "scenario_label": "24 September 2026 · 14:38 Europe/Zurich",
+  "composition": "Harder Kulm panorama south over Interlaken toward Eiger, Mönch, and Jungfrau · AI-generated artistic interpretation",
+  "description": "From the Harder Kulm terrace north of Interlaken, the view looks south across the town between Lake Brienz and Lake Thun. Eiger’s dark wall, the Mönch, and the snowier Jungfrau stand in that order from left to right, with cloud on the high faces. The lakes and valley remain readable below. The peaks are shown with cloud because the Open-Meteo model for this afternoon is overcast, not as a clear-day postcard.",
+  "alt_text": "AI-generated artistic interpretation of the Jungfrau massif from Harder Kulm above Interlaken under cloud",
+  "file_16x9": "library/world/Switzerland/Interlaken/ch-01-003-16x9.png",
+  "file_4x5": "library/world/Switzerland/Interlaken/ch-01-003-4x5.png",
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "approval_status": "Candidate"
+}
