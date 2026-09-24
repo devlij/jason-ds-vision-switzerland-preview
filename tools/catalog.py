@@ -1,4 +1,4 @@
-"""Scene facts for CH-01-001 through CH-01-132."""
+"""Scene facts for CH-01-001 through CH-01-133."""
 
 from __future__ import annotations
 
@@ -3108,4 +3108,32 @@ SCENES = [
             'light, a small village lake, church tower, rocky peaks under cloud, no snow, no rain.',
      'weather_note': 'The village lake is near 1010 m. The Open-Meteo cell is about 1020 m, so the '
                      'temperature is the model cell, not a thermometer at Lag Grond.'},
+    {'entry_id': 'CH-01-133',
+     'caption': 'Landsgemeindeplatz, Appenzell',
+     'city': 'Appenzell',
+     'region': 'Appenzell Innerrhoden',
+     'folder': 'Appenzell',
+     'lat': 47.33103,
+     'lon': 9.40996,
+     'viewpoint': 'Inside the Landsgemeindeplatz in Appenzell, looking across the square at the '
+                  'painted gables and the church of Saint Maurice. Map: '
+                  'https://maps.google.com/?q=47.33103,9.40996 The exact paving stone was not '
+                  'surveyed. This is the square, not the Alpstein panorama already catalogued, and not '
+                  'an April assembly.',
+     'refs': ['https://en.wikipedia.org/wiki/Appenzell', 'https://en.wikipedia.org/wiki/Landsgemeinde'],
+     'anchors': ['Painted curved wooden gables enclosing the square.',
+                 'A stone fountain, and the tower of the church of Saint Maurice at the edge of the '
+                 'square.',
+                 'Empty paving. The Landsgemeinde meets in late April, not on this September '
+                 'afternoon. The Alpstein is not the subject.'],
+     'composition': 'The Landsgemeindeplatz in Appenzell, empty of an assembly · AI-generated artistic '
+                    'interpretation',
+     'description': 'The Landsgemeindeplatz is the main square of Appenzell, ringed by painted wooden '
+                    'gables, with the church of Saint Maurice at one side. This frame stays in the '
+                    'square and does not repeat the wider village view toward the Alpstein. Late '
+                    'September is not assembly day, so the paving is empty. The Open-Meteo model is '
+                    'fully overcast and mild, with no rain.',
+     'alt_text': 'AI-generated artistic interpretation of the empty Landsgemeindeplatz in Appenzell',
+     'sky': 'Fully overcast mild afternoon, solid gray sky, diffuse light, painted gables, empty '
+            'square, no mountain panorama, no rain.'},
 ]
