@@ -1,4 +1,4 @@
-"""Scene facts for CH-01-001 through CH-01-130."""
+"""Scene facts for CH-01-001 through CH-01-131."""
 
 from __future__ import annotations
 
@@ -3058,4 +3058,26 @@ SCENES = [
                    'village fraction of the municipality of Vaz/Obervaz, not a municipality of its '
                    'own. Caption uses Lenzerheide, Vaz/Obervaz. City is Vaz/Obervaz. The folder is '
                    'Vaz-Obervaz because a slash cannot be a directory name.'},
+    {'entry_id': 'CH-01-131',
+     'caption': 'Flims, Flims',
+     'city': 'Flims',
+     'region': 'Graubünden',
+     'folder': 'Flims',
+     'lat': 46.83705,
+     'lon': 9.28458,
+     'viewpoint': 'Flims Dorf on the terrace under the Flimserstein, looking at the village and the '
+                  'limestone wall. Map: https://maps.google.com/?q=46.83705,9.28458 The exact lane '
+                  'point was not surveyed. Lake Cauma is not the subject.',
+     'refs': ['https://en.wikipedia.org/wiki/Flims', 'https://en.wikipedia.org/wiki/Flims_rockslide'],
+     'anchors': ['The pale limestone wall of the Flimserstein rising directly behind the village.',
+                 'White and timber houses and the small Schlössli on the terrace of Flims Dorf.',
+                 'No turquoise lake in the frame. Flims is its own municipality, separate from Laax.'],
+     'composition': 'Flims Dorf under the Flimserstein · AI-generated artistic interpretation',
+     'description': 'Flims Dorf stands on a terrace under the pale wall of the Flimserstein, with '
+                    'white and timber houses and the small Schlössli. The frame is the village, not '
+                    'Lake Cauma and not the shared ski slopes above Laax. The Open-Meteo model is '
+                    'partly cloudy and mild, with cloud cover near seventy percent and no rain.',
+     'alt_text': 'AI-generated artistic interpretation of Flims Dorf beneath the Flimserstein',
+     'sky': 'Partly cloudy mild afternoon near 1080 metres, cloud cover near 70 percent, soft low '
+            'western sun, green and tawny meadows, pale cliff, no lake, no snow, no rain.'},
 ]
