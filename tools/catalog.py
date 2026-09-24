@@ -1,4 +1,4 @@
-"""Scene facts for CH-01-001 through CH-01-138."""
+"""Scene facts for CH-01-001 through CH-01-139."""
 
 from __future__ import annotations
 
@@ -3271,4 +3271,27 @@ SCENES = [
             'wooded mountains, no castle in the water, no rain.',
      'correction': 'Catalogue line replaced Château de Chillon, already published as CH-01-009, with '
                    'Villeneuve, Villeneuve. The frame is the harbor town in Vaud, not the castle.'},
+    {'entry_id': 'CH-01-139',
+     'caption': 'Montreux lakefront, Montreux',
+     'city': 'Montreux',
+     'region': 'Vaud',
+     'folder': 'Montreux',
+     'lat': 46.4312,
+     'lon': 6.9108,
+     'viewpoint': 'The lakeside promenade in Montreux, looking along the palms and the hotel fronts '
+                  'toward the lake and a distant Dents du Midi. Map: '
+                  'https://maps.google.com/?q=46.4312,6.9108 The exact paving stone was not surveyed. '
+                  'Chillon Castle is not in the frame, and no statue is the subject.',
+     'refs': ['https://en.wikipedia.org/wiki/Montreux', 'https://en.wikipedia.org/wiki/Lake_Geneva'],
+     'anchors': ['A paved promenade with palm trees and late-season flower beds.',
+                 'Belle Époque hotel fronts without a readable name.',
+                 'Lake Geneva and a hazy serrated ridge across the water. No castle and no statue.'],
+     'composition': 'Palm promenade on the Montreux lakefront · AI-generated artistic interpretation',
+     'description': 'The Montreux lakefront is the palm promenade and the Belle Époque hotel row along '
+                    'Lake Geneva, with the Dents du Midi only a hazy ridge across the water. This is '
+                    'the town shore, not Chillon Castle farther east along the lake. No statue is used '
+                    'as the subject. The Open-Meteo model is fully overcast and warm, with no rain.',
+     'alt_text': 'AI-generated artistic interpretation of the palm promenade on the Montreux lakefront',
+     'sky': 'Fully overcast warm afternoon, gray sky, soft light, palms, cream hotel fronts, gray-blue '
+            'lake, hazy ridge, no castle, no rain.'},
 ]
