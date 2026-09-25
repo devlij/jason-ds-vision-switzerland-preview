@@ -1,0 +1,451 @@
+BATCH CH daylight variants CH-01-001 through CH-01-016
+Date: 2026-09-25
+Country: Switzerland
+Repo: devlij/jason-ds-vision-switzerland-preview
+Base tip before this batch: 51e2913c73f5a8723787a53981b24bcc9dbaa552
+Directive: 2026-09-25 Jason daylight-variants workstream, Switzerland batch 1.
+Scope: night scenes in CH-01-001–016 that have night masters.
+Germany excluded. Weather fields not edited. Night images not regenerated. Existing masters not rewritten.
+
+Built: 0 scenes × 2 masters = 0 variant masters.
+Skipped: 16 scenes. Each ID is an approved afternoon daylight master (Cosmo QC 5/5 · Daylight, scenario 14:38–14:42 Europe/Zurich, Open-Meteo is_day 1). No separate night master file exists beside those masters. A daylight variant labeled “derived from the night interpretation” was not invented from a daylight source.
+
+Gallery: Switzerland cards switch 16:9 / 4:5 only. No night/day control already expects *-daylight-* paths. Gallery wiring deferred. No variant assets and no daylight_variant manifest blocks were landed, because every ID in this batch was skipped.
+
+On-image text / Art. 50 chunks / daylight_variant lineage: not applied. Nothing was baked.
+
+NIGHT-UNCHANGED CONFIRMATION
+No night master exists for CH-01-001–016, so there is no night hash that could drift.
+Every published PNG for these sixteen scenes was hashed before this note and again after it. Pre-work SHA-256 equals post-work SHA-256 for all 32 files. No night hash drifted. Batch not aborted.
+
+========================================================================
+CH-01-001
+SKIP — daylight-only already. No night master.
+time_of_day: Afternoon daylight
+approval_state: Approved
+qc_status: Approved · Cosmo QC 5/5 · Daylight
+scenario_label: 24 September 2026 · 14:38 Europe/Zurich
+caption: Matterhorn, Zermatt
+Open-Meteo is_day: 1 (read from approvals note; weather fields not rewritten)
+published daylight master 16x9: library/world/Switzerland/Zermatt/ch-01-001-16x9.png
+  pre  SHA-256: 517cf6d0e27b0719c9498b44d312d5a049aa07d172c02cba30c27e5220cb3390
+  post SHA-256: 517cf6d0e27b0719c9498b44d312d5a049aa07d172c02cba30c27e5220cb3390
+  unchanged: True
+  manifest sha256_16x9 match: True
+published daylight master 4x5: library/world/Switzerland/Zermatt/ch-01-001-4x5.png
+  pre  SHA-256: 04ef00b3c1b3d99e9c20293fab70f768525a86c8f4d404f47cbb94235d26f47e
+  post SHA-256: 04ef00b3c1b3d99e9c20293fab70f768525a86c8f4d404f47cbb94235d26f47e
+  unchanged: True
+  manifest sha256_4x5 match: True
+night master: none
+night 16x9 pre  SHA-256: n/a
+night 16x9 post SHA-256: n/a
+night 4x5 pre  SHA-256: n/a
+night 4x5 post SHA-256: n/a
+variant paths: none
+variant hashes: none
+
+========================================================================
+CH-01-002
+SKIP — daylight-only already. No night master.
+time_of_day: Afternoon daylight
+approval_state: Approved
+qc_status: Approved · Cosmo QC 5/5 · Daylight
+scenario_label: 24 September 2026 · 14:38 Europe/Zurich
+caption: Chapel Bridge, Lucerne
+Open-Meteo is_day: 1 (read from approvals note; weather fields not rewritten)
+published daylight master 16x9: library/world/Switzerland/Lucerne/ch-01-002-16x9.png
+  pre  SHA-256: 3aafca9e08998ce394b9721d6ebe8fd73f2e6f25918837cced2814d842df8a67
+  post SHA-256: 3aafca9e08998ce394b9721d6ebe8fd73f2e6f25918837cced2814d842df8a67
+  unchanged: True
+  manifest sha256_16x9 match: True
+published daylight master 4x5: library/world/Switzerland/Lucerne/ch-01-002-4x5.png
+  pre  SHA-256: 23a5156c63954a5325f3218e36c736723c3996eea3b56cd83ec0252ac9dd6f98
+  post SHA-256: 23a5156c63954a5325f3218e36c736723c3996eea3b56cd83ec0252ac9dd6f98
+  unchanged: True
+  manifest sha256_4x5 match: True
+night master: none
+night 16x9 pre  SHA-256: n/a
+night 16x9 post SHA-256: n/a
+night 4x5 pre  SHA-256: n/a
+night 4x5 post SHA-256: n/a
+variant paths: none
+variant hashes: none
+
+========================================================================
+CH-01-003
+SKIP — daylight-only already. No night master.
+time_of_day: Afternoon daylight
+approval_state: Approved
+qc_status: Approved · Cosmo QC 5/5 · Daylight
+scenario_label: 24 September 2026 · 14:38 Europe/Zurich
+caption: Jungfrau, Interlaken
+Open-Meteo is_day: 1 (read from approvals note; weather fields not rewritten)
+published daylight master 16x9: library/world/Switzerland/Interlaken/ch-01-003-16x9.png
+  pre  SHA-256: 20c5038b18e616e819007fa081965151359b88fae6ab7fcb1a2819d13ca05f02
+  post SHA-256: 20c5038b18e616e819007fa081965151359b88fae6ab7fcb1a2819d13ca05f02
+  unchanged: True
+  manifest sha256_16x9 match: True
+published daylight master 4x5: library/world/Switzerland/Interlaken/ch-01-003-4x5.png
+  pre  SHA-256: f49cb40f54acae9652656e5ec78b2bda48a42fcb5d14d20d13858646a689a3b0
+  post SHA-256: f49cb40f54acae9652656e5ec78b2bda48a42fcb5d14d20d13858646a689a3b0
+  unchanged: True
+  manifest sha256_4x5 match: True
+night master: none
+night 16x9 pre  SHA-256: n/a
+night 16x9 post SHA-256: n/a
+night 4x5 pre  SHA-256: n/a
+night 4x5 post SHA-256: n/a
+variant paths: none
+variant hashes: none
+
+========================================================================
+CH-01-004
+SKIP — daylight-only already. No night master.
+time_of_day: Afternoon daylight
+approval_state: Approved
+qc_status: Approved · Cosmo QC 5/5 · Daylight
+scenario_label: 24 September 2026 · 14:38 Europe/Zurich
+caption: Jet d'Eau, Geneva
+Open-Meteo is_day: 1 (read from approvals note; weather fields not rewritten)
+published daylight master 16x9: library/world/Switzerland/Geneva/ch-01-004-16x9.png
+  pre  SHA-256: e6153d9a28f1d181545c29c844463be3c50c2d53daf4dbe8656da24722ff67b5
+  post SHA-256: e6153d9a28f1d181545c29c844463be3c50c2d53daf4dbe8656da24722ff67b5
+  unchanged: True
+  manifest sha256_16x9 match: True
+published daylight master 4x5: library/world/Switzerland/Geneva/ch-01-004-4x5.png
+  pre  SHA-256: 416f2875577302ce3ab80e22226d1dd4366650eae00b12c60539683991ed4f22
+  post SHA-256: 416f2875577302ce3ab80e22226d1dd4366650eae00b12c60539683991ed4f22
+  unchanged: True
+  manifest sha256_4x5 match: True
+night master: none
+night 16x9 pre  SHA-256: n/a
+night 16x9 post SHA-256: n/a
+night 4x5 pre  SHA-256: n/a
+night 4x5 post SHA-256: n/a
+variant paths: none
+variant hashes: none
+
+========================================================================
+CH-01-005
+SKIP — daylight-only already. No night master.
+time_of_day: Afternoon daylight
+approval_state: Approved
+qc_status: Approved · Cosmo QC 5/5 · Daylight
+scenario_label: 24 September 2026 · 14:40 Europe/Zurich
+caption: Zytglogge, Bern
+Open-Meteo is_day: 1 (read from approvals note; weather fields not rewritten)
+published daylight master 16x9: library/world/Switzerland/Bern/ch-01-005-16x9.png
+  pre  SHA-256: 8541dbf9af710a53f93edb92f16b7545299d9913b3742cd968ba583a745c1626
+  post SHA-256: 8541dbf9af710a53f93edb92f16b7545299d9913b3742cd968ba583a745c1626
+  unchanged: True
+  manifest sha256_16x9 match: True
+published daylight master 4x5: library/world/Switzerland/Bern/ch-01-005-4x5.png
+  pre  SHA-256: c2b5720d733cc36bb1e669beb673cddadc2289ec76149041bb51caa4929d4fbc
+  post SHA-256: c2b5720d733cc36bb1e669beb673cddadc2289ec76149041bb51caa4929d4fbc
+  unchanged: True
+  manifest sha256_4x5 match: True
+night master: none
+night 16x9 pre  SHA-256: n/a
+night 16x9 post SHA-256: n/a
+night 4x5 pre  SHA-256: n/a
+night 4x5 post SHA-256: n/a
+variant paths: none
+variant hashes: none
+
+========================================================================
+CH-01-006
+SKIP — daylight-only already. No night master.
+time_of_day: Afternoon daylight
+approval_state: Approved
+qc_status: Approved · Cosmo QC 5/5 · Daylight
+scenario_label: 24 September 2026 · 14:40 Europe/Zurich
+caption: Limmatquai, Zurich
+Open-Meteo is_day: 1 (read from approvals note; weather fields not rewritten)
+published daylight master 16x9: library/world/Switzerland/Zurich/ch-01-006-16x9.png
+  pre  SHA-256: bc869adf3b1139e390f22faff8a50d8226c2060b13dab3540119ec15a1a403e8
+  post SHA-256: bc869adf3b1139e390f22faff8a50d8226c2060b13dab3540119ec15a1a403e8
+  unchanged: True
+  manifest sha256_16x9 match: True
+published daylight master 4x5: library/world/Switzerland/Zurich/ch-01-006-4x5.png
+  pre  SHA-256: 1d9cacbc97a95157703223f57ab0c8b462df584fb4a3ab573b294d8ef91245ba
+  post SHA-256: 1d9cacbc97a95157703223f57ab0c8b462df584fb4a3ab573b294d8ef91245ba
+  unchanged: True
+  manifest sha256_4x5 match: True
+night master: none
+night 16x9 pre  SHA-256: n/a
+night 16x9 post SHA-256: n/a
+night 4x5 pre  SHA-256: n/a
+night 4x5 post SHA-256: n/a
+variant paths: none
+variant hashes: none
+
+========================================================================
+CH-01-007
+SKIP — daylight-only already. No night master.
+time_of_day: Afternoon daylight
+approval_state: Approved
+qc_status: Approved · Cosmo QC 5/5 · Daylight
+scenario_label: 24 September 2026 · 14:40 Europe/Zurich
+caption: Staubbach Falls, Lauterbrunnen
+Open-Meteo is_day: 1 (read from approvals note; weather fields not rewritten)
+published daylight master 16x9: library/world/Switzerland/Lauterbrunnen/ch-01-007-16x9.png
+  pre  SHA-256: 27b1cfd0abe82113c3b4ed4ba20d623f9393fdf17f9457faf960a540a8097e2b
+  post SHA-256: 27b1cfd0abe82113c3b4ed4ba20d623f9393fdf17f9457faf960a540a8097e2b
+  unchanged: True
+  manifest sha256_16x9 match: True
+published daylight master 4x5: library/world/Switzerland/Lauterbrunnen/ch-01-007-4x5.png
+  pre  SHA-256: eaace8a52ae705e93d3aa03fd14a0962ac0fd4b512377c49d562416aebd4c6d9
+  post SHA-256: eaace8a52ae705e93d3aa03fd14a0962ac0fd4b512377c49d562416aebd4c6d9
+  unchanged: True
+  manifest sha256_4x5 match: True
+night master: none
+night 16x9 pre  SHA-256: n/a
+night 16x9 post SHA-256: n/a
+night 4x5 pre  SHA-256: n/a
+night 4x5 post SHA-256: n/a
+variant paths: none
+variant hashes: none
+
+========================================================================
+CH-01-008
+SKIP — daylight-only already. No night master.
+time_of_day: Afternoon daylight
+approval_state: Approved
+qc_status: Approved · Cosmo QC 5/5 · Daylight
+scenario_label: 24 September 2026 · 14:40 Europe/Zurich
+caption: Gruyères Castle, Gruyères
+Open-Meteo is_day: 1 (read from approvals note; weather fields not rewritten)
+published daylight master 16x9: library/world/Switzerland/Gruyères/ch-01-008-16x9.png
+  pre  SHA-256: 221944c41d95183f9b50b622fe970e55395c7ce6d41a479f9bcb4ab7d687fd7b
+  post SHA-256: 221944c41d95183f9b50b622fe970e55395c7ce6d41a479f9bcb4ab7d687fd7b
+  unchanged: True
+  manifest sha256_16x9 match: True
+published daylight master 4x5: library/world/Switzerland/Gruyères/ch-01-008-4x5.png
+  pre  SHA-256: 8fc47717150eca90303d69f16eb746759c88a81a5410621381d51c54909386fa
+  post SHA-256: 8fc47717150eca90303d69f16eb746759c88a81a5410621381d51c54909386fa
+  unchanged: True
+  manifest sha256_4x5 match: True
+night master: none
+night 16x9 pre  SHA-256: n/a
+night 16x9 post SHA-256: n/a
+night 4x5 pre  SHA-256: n/a
+night 4x5 post SHA-256: n/a
+variant paths: none
+variant hashes: none
+
+========================================================================
+CH-01-009
+SKIP — daylight-only already. No night master.
+time_of_day: Afternoon daylight
+approval_state: Approved
+qc_status: Approved · Cosmo QC 5/5 · Daylight
+scenario_label: 24 September 2026 · 14:40 Europe/Zurich
+caption: Chillon Castle, Montreux
+Open-Meteo is_day: 1 (read from approvals note; weather fields not rewritten)
+published daylight master 16x9: library/world/Switzerland/Montreux/ch-01-009-16x9.png
+  pre  SHA-256: f8a6cb23c81743b0ec352f3383be283e694cf5863c5337448d4a79c138c5e571
+  post SHA-256: f8a6cb23c81743b0ec352f3383be283e694cf5863c5337448d4a79c138c5e571
+  unchanged: True
+  manifest sha256_16x9 match: True
+published daylight master 4x5: library/world/Switzerland/Montreux/ch-01-009-4x5.png
+  pre  SHA-256: 7af35728d8c95898dc5ae739e1de65d75032f1705fa8d1acf36c5c4fb83dbc76
+  post SHA-256: 7af35728d8c95898dc5ae739e1de65d75032f1705fa8d1acf36c5c4fb83dbc76
+  unchanged: True
+  manifest sha256_4x5 match: True
+night master: none
+night 16x9 pre  SHA-256: n/a
+night 16x9 post SHA-256: n/a
+night 4x5 pre  SHA-256: n/a
+night 4x5 post SHA-256: n/a
+variant paths: none
+variant hashes: none
+
+========================================================================
+CH-01-010
+SKIP — daylight-only already. No night master.
+time_of_day: Afternoon daylight
+approval_state: Approved
+qc_status: Approved · Cosmo QC 5/5 · Daylight
+scenario_label: 24 September 2026 · 14:40 Europe/Zurich
+caption: Lake St. Moritz, St. Moritz
+Open-Meteo is_day: 1 (read from approvals note; weather fields not rewritten)
+published daylight master 16x9: library/world/Switzerland/St. Moritz/ch-01-010-16x9.png
+  pre  SHA-256: 16ca361b61f2fa7c180c32a3c35ccc109c4b2b18a93591f1c00ed3e22db46b2f
+  post SHA-256: 16ca361b61f2fa7c180c32a3c35ccc109c4b2b18a93591f1c00ed3e22db46b2f
+  unchanged: True
+  manifest sha256_16x9 match: True
+published daylight master 4x5: library/world/Switzerland/St. Moritz/ch-01-010-4x5.png
+  pre  SHA-256: b9bcca301520bcd92c302f2fc62bf4b80570c10bae39f83bfaed4aecf983da80
+  post SHA-256: b9bcca301520bcd92c302f2fc62bf4b80570c10bae39f83bfaed4aecf983da80
+  unchanged: True
+  manifest sha256_4x5 match: True
+night master: none
+night 16x9 pre  SHA-256: n/a
+night 16x9 post SHA-256: n/a
+night 4x5 pre  SHA-256: n/a
+night 4x5 post SHA-256: n/a
+variant paths: none
+variant hashes: none
+
+========================================================================
+CH-01-011
+SKIP — daylight-only already. No night master.
+time_of_day: Afternoon daylight
+approval_state: Approved
+qc_status: Approved · Cosmo QC 5/5 · Daylight
+scenario_label: 24 September 2026 · 14:40 Europe/Zurich
+caption: Appenzell, Appenzell
+Open-Meteo is_day: 1 (read from approvals note; weather fields not rewritten)
+published daylight master 16x9: library/world/Switzerland/Appenzell/ch-01-011-16x9.png
+  pre  SHA-256: 4c19613287c783e619203897642230c37f791187e629fd9df39fe5fdca8aa59f
+  post SHA-256: 4c19613287c783e619203897642230c37f791187e629fd9df39fe5fdca8aa59f
+  unchanged: True
+  manifest sha256_16x9 match: True
+published daylight master 4x5: library/world/Switzerland/Appenzell/ch-01-011-4x5.png
+  pre  SHA-256: fc6f51588e330b191e54725f4c1c33da7ed7e6d0c306ddef6c31513b16bdb5db
+  post SHA-256: fc6f51588e330b191e54725f4c1c33da7ed7e6d0c306ddef6c31513b16bdb5db
+  unchanged: True
+  manifest sha256_4x5 match: True
+night master: none
+night 16x9 pre  SHA-256: n/a
+night 16x9 post SHA-256: n/a
+night 4x5 pre  SHA-256: n/a
+night 4x5 post SHA-256: n/a
+variant paths: none
+variant hashes: none
+
+========================================================================
+CH-01-012
+SKIP — daylight-only already. No night master.
+time_of_day: Afternoon daylight
+approval_state: Approved
+qc_status: Approved · Cosmo QC 5/5 · Daylight
+scenario_label: 24 September 2026 · 14:40 Europe/Zurich
+caption: Lugano lakefront, Lugano
+Open-Meteo is_day: 1 (read from approvals note; weather fields not rewritten)
+published daylight master 16x9: library/world/Switzerland/Lugano/ch-01-012-16x9.png
+  pre  SHA-256: 7e4547127f347d625c7c5fd0fafb8e716989181473930f7e1af2cc6195fde87f
+  post SHA-256: 7e4547127f347d625c7c5fd0fafb8e716989181473930f7e1af2cc6195fde87f
+  unchanged: True
+  manifest sha256_16x9 match: True
+published daylight master 4x5: library/world/Switzerland/Lugano/ch-01-012-4x5.png
+  pre  SHA-256: 9596d5a553a28a5ae76d683ffc8fda651aeccf32b3489408121f4c3afc0f71ea
+  post SHA-256: 9596d5a553a28a5ae76d683ffc8fda651aeccf32b3489408121f4c3afc0f71ea
+  unchanged: True
+  manifest sha256_4x5 match: True
+night master: none
+night 16x9 pre  SHA-256: n/a
+night 16x9 post SHA-256: n/a
+night 4x5 pre  SHA-256: n/a
+night 4x5 post SHA-256: n/a
+variant paths: none
+variant hashes: none
+
+========================================================================
+CH-01-013
+SKIP — daylight-only already. No night master.
+time_of_day: Afternoon daylight
+approval_state: Approved
+qc_status: Approved · Cosmo QC 5/5 · Daylight
+scenario_label: 24 September 2026 · 14:41 Europe/Zurich
+caption: Mittlere Brücke, Basel
+Open-Meteo is_day: 1 (read from approvals note; weather fields not rewritten)
+published daylight master 16x9: library/world/Switzerland/Basel/ch-01-013-16x9.png
+  pre  SHA-256: d678c9f7bf01295e2400fa620d7fee2433eefe0c714eeccf79d1a3b8c13af9cc
+  post SHA-256: d678c9f7bf01295e2400fa620d7fee2433eefe0c714eeccf79d1a3b8c13af9cc
+  unchanged: True
+  manifest sha256_16x9 match: True
+published daylight master 4x5: library/world/Switzerland/Basel/ch-01-013-4x5.png
+  pre  SHA-256: fd35563f86342aad01dedf53b2dda0ecad8b3f1f7083f7cead12e12c92f6ca79
+  post SHA-256: fd35563f86342aad01dedf53b2dda0ecad8b3f1f7083f7cead12e12c92f6ca79
+  unchanged: True
+  manifest sha256_4x5 match: True
+night master: none
+night 16x9 pre  SHA-256: n/a
+night 16x9 post SHA-256: n/a
+night 4x5 pre  SHA-256: n/a
+night 4x5 post SHA-256: n/a
+variant paths: none
+variant hashes: none
+
+========================================================================
+CH-01-014
+SKIP — daylight-only already. No night master.
+time_of_day: Afternoon daylight
+approval_state: Approved
+qc_status: Approved · Cosmo QC 5/5 · Daylight
+scenario_label: 24 September 2026 · 14:42 Europe/Zurich
+caption: Thun Castle, Thun
+Open-Meteo is_day: 1 (read from approvals note; weather fields not rewritten)
+published daylight master 16x9: library/world/Switzerland/Thun/ch-01-014-16x9.png
+  pre  SHA-256: 1d5bff1c96797d1937dd136a11fc7e3ec6ea1681f9e370f33f758bd0a28e1165
+  post SHA-256: 1d5bff1c96797d1937dd136a11fc7e3ec6ea1681f9e370f33f758bd0a28e1165
+  unchanged: True
+  manifest sha256_16x9 match: True
+published daylight master 4x5: library/world/Switzerland/Thun/ch-01-014-4x5.png
+  pre  SHA-256: 30bbcc8065676c607bea0e052f3a2d7b9e2ad879faa162510a627795869d867f
+  post SHA-256: 30bbcc8065676c607bea0e052f3a2d7b9e2ad879faa162510a627795869d867f
+  unchanged: True
+  manifest sha256_4x5 match: True
+night master: none
+night 16x9 pre  SHA-256: n/a
+night 16x9 post SHA-256: n/a
+night 4x5 pre  SHA-256: n/a
+night 4x5 post SHA-256: n/a
+variant paths: none
+variant hashes: none
+
+========================================================================
+CH-01-015
+SKIP — daylight-only already. No night master.
+time_of_day: Afternoon daylight
+approval_state: Approved
+qc_status: Approved · Cosmo QC 5/5 · Daylight
+scenario_label: 24 September 2026 · 14:42 Europe/Zurich
+caption: Eiger, Grindelwald
+Open-Meteo is_day: 1 (read from approvals note; weather fields not rewritten)
+published daylight master 16x9: library/world/Switzerland/Grindelwald/ch-01-015-16x9.png
+  pre  SHA-256: 196c764a0dc9b192cf6f00a62e8f01e055b7791229fa0a1ec5b75a936ffe8d1c
+  post SHA-256: 196c764a0dc9b192cf6f00a62e8f01e055b7791229fa0a1ec5b75a936ffe8d1c
+  unchanged: True
+  manifest sha256_16x9 match: True
+published daylight master 4x5: library/world/Switzerland/Grindelwald/ch-01-015-4x5.png
+  pre  SHA-256: 2a556643c350c2a59e838ff637fa667ed4a084c5aece15ea09a6fea005f01148
+  post SHA-256: 2a556643c350c2a59e838ff637fa667ed4a084c5aece15ea09a6fea005f01148
+  unchanged: True
+  manifest sha256_4x5 match: True
+night master: none
+night 16x9 pre  SHA-256: n/a
+night 16x9 post SHA-256: n/a
+night 4x5 pre  SHA-256: n/a
+night 4x5 post SHA-256: n/a
+variant paths: none
+variant hashes: none
+
+========================================================================
+CH-01-016
+SKIP — daylight-only already. No night master.
+time_of_day: Afternoon daylight
+approval_state: Approved
+qc_status: Approved · Cosmo QC 5/5 · Daylight
+scenario_label: 24 September 2026 · 14:42 Europe/Zurich
+caption: Rhine Falls, Schaffhausen
+Open-Meteo is_day: 1 (read from approvals note; weather fields not rewritten)
+published daylight master 16x9: library/world/Switzerland/Schaffhausen/ch-01-016-16x9.png
+  pre  SHA-256: b68f0ffbdea6e554271229277f4d9c13738f75f40b56aa7ef17ee5ff334ca1f8
+  post SHA-256: b68f0ffbdea6e554271229277f4d9c13738f75f40b56aa7ef17ee5ff334ca1f8
+  unchanged: True
+  manifest sha256_16x9 match: True
+published daylight master 4x5: library/world/Switzerland/Schaffhausen/ch-01-016-4x5.png
+  pre  SHA-256: 37199515f708dfeea1dc8f7fe27fb19fe44697a6c0ce2eaed4d91785b0a5442d
+  post SHA-256: 37199515f708dfeea1dc8f7fe27fb19fe44697a6c0ce2eaed4d91785b0a5442d
+  unchanged: True
+  manifest sha256_4x5 match: True
+night master: none
+night 16x9 pre  SHA-256: n/a
+night 16x9 post SHA-256: n/a
+night 4x5 pre  SHA-256: n/a
+night 4x5 post SHA-256: n/a
+variant paths: none
+variant hashes: none
