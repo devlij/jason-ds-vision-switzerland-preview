@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Switzerland/Airolo/ch-01-037-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "Gates 1-2: the master shows the Gotthard Pass summit — the barren saddle with dark Lago della Piazza, the low hospice and museum buildings just south of the water, and the old Tremola cobbles curving away downhill at frame right, with residual snow only in shaded gullies at late September; exact 1920×1080/864×1080 masters, caption 'Gotthard Pass, Airolo', 'Scenario: 24 September 2026 · 15:27 Europe/Zurich', disclosure and signature exact; weather claim (Open-Meteo retrieved 2026-09-24T13:19:28Z, valid 15:15, code 2, 63% cloud, 12.2°C, 24 km/h wind) per-scene and consistent with the broken-cloud frame. Gate 3: text-prompt-only lineage claimed, no photographic inputs. Gate 4: no people or logos. Gate 5: no blockers.",
+  "approved_at": "2026-09-25T07:36:19.639461+00:00",
+  "sha256_16x9": "c10499441cb8d9a69947611b021624d8b2cfe8c0ae4e6a777e0531e009273381",
+  "sha256_4x5": "d3c9ce9915fe5962ee5cd3265416781b2b8e83d4ac129ce3bf63ce285dd13f36"
 }
