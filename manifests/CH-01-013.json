@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Switzerland/Basel/ch-01-013-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Afternoon",
+  "approval_basis": "G1 visual: Mittlere Brücke crossing the Rhine with its stone arches and the small chapel tower on the bridge, twin-spired red-sandstone Basel Münster on the rise above the south bank — recognizably the captioned site from a plausible quay viewpoint, no commercial banners, no artifacts. G2 technical: both masters exact 1920×1080/864×1080; exact 'Jason D's Vision' signature bottom-right; exact caption 'Mittlere Brücke, Basel' + 'Scenario: 24 September 2026 · 14:41 Europe/Zurich' + AI disclosure bottom-left on scrim, legible. Weather cross-check: approvals/CH-01-013.md records Open-Meteo retrieval 2026-09-24T12:40:09Z (14:40 CEST) valid 14:30 Zurich, code 3 overcast — consistent with scenario and the grey frame, no stale metadata. G3: text-prompt-only lineage documented, no photographic inputs. G4: no prominent people or focal logos — documented, commercial call remains Jason's. G5: all gates pass, publish-ready.",
+  "approved_at": "2026-09-25T05:33:37.700764+00:00",
+  "sha256_16x9": "d678c9f7bf01295e2400fa620d7fee2433eefe0c714eeccf79d1a3b8c13af9cc",
+  "sha256_4x5": "fd35563f86342aad01dedf53b2dda0ecad8b3f1f7083f7cead12e12c92f6ca79"
 }
