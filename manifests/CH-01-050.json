@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Switzerland/Augst/ch-01-050-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "Gate 1: Augusta Raurica Roman theatre at Augst — wide semicircle of stone seating from the upper cavea, ruined scaenae frons fragments across the stage end, trees and the Rhine plain beyond; recognisable arrangement, no misconfiguration. Gate 2: sweep-verified 1920x1080 + 864x1080 PNGs; exact caption 'Augusta Raurica, Augst', scenario '24 September 2026 · 15:39 Europe/Zurich', disclosure 'AI-generated artistic interpretation · Not a photograph.' bottom-left on scrim, 'Jason D's Vision' bottom-right. Weather: batch retrieval 2026-09-24T13:37:01Z valid 15:30 vs scenario 15:39 — consistent; per-scene code 3 overcast 100%, 22.7C matches the grey sky rendered (values differ per scene, not copied). Gate 3: text-prompt-only lineage, no photographic inputs per approvals/CH-01-050.md. Gate 4: no visible people or logos; public archaeological site. Gate 5: no open blockers.",
+  "approved_at": "2026-09-25T09:32:06.318228+00:00",
+  "sha256_16x9": "6105a5e28c4e37966fb453005aa319b4d3a637078cd33c6e20d754b37d379d8f",
+  "sha256_4x5": "04b2dbac61d5eab257f5c1974fb6bdc037b6949e2558fe88b923c098ac9217ed"
 }
