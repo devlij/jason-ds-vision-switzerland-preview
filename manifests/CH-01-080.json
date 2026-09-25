@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Switzerland/St-Ursanne/ch-01-080-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "G1: Four-arch stone Pont Saint-Jean spans the Doubs in the foreground with the collegiate church and its tower rising inside the medieval gates, forested valley walls behind — matches the St-Ursanne anchors; no scaffolding, clean framing. G2: exact 1920×1080 / 864×1080; caption 'St-Ursanne, St-Ursanne', scenario '24 September 2026 · 16:01 Europe/Zurich', disclosure 'AI-generated artistic interpretation · Not a photograph.' and exact 'Jason D's Vision' signature legible on the scrim; weather retrieval 2026-09-24T14:00:42Z valid 16:00 — fresh for the scenario hour. G3: text-prompt-only lineage recorded, no photographic inputs. G4: no identifiable people or focal logos visible; documented only. G5: no open blockers.",
+  "approved_at": "2026-09-25T12:31:18.314450+00:00",
+  "sha256_16x9": "470db3d2cce8e543ffdb743bd3d84d4bd664212a25aaef684f6dae714ec0d163",
+  "sha256_4x5": "d9656658ad5dfd3bb2cd59e12ca3e3bf8722fc98be8a80b19694f05f5f0b0cdf"
 }
