@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Switzerland/Saas-Fee/ch-01-017-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Afternoon",
+  "approval_basis": "G1 visual: the Allalinhorn's snow dome with a deeply crevassed glacier spilling from its summit, rocky moraine foreground, blue sky with scattered fair-weather clouds — recognizably the captioned site from a plausible Saas-Fee viewpoint, no artifacts. G2 technical: both masters exact 1920×1080/864×1080; exact 'Jason D's Vision' signature bottom-right; exact caption 'Allalinhorn, Saas-Fee' + 'Scenario: 24 September 2026 · 15:08 Europe/Zurich' + AI disclosure bottom-left on scrim, legible. Weather cross-check: approvals/CH-01-017.md records Open-Meteo retrieval 2026-09-24T13:08:46Z (15:08 CEST) valid 15:00 Zurich, code 1 mainly clear 13% cloud — consistent with scenario AND with the blue-sky frame, no stale metadata. G3: text-prompt-only lineage documented, no photographic inputs. G4: no prominent people or focal logos — documented, commercial call remains Jason's. G5: all gates pass, publish-ready.",
+  "approved_at": "2026-09-25T05:34:32.980004+00:00",
+  "sha256_16x9": "704bdf91adf19cf9283f98a3fdaeaf8b9638912e32599b7ff569265655d04b79",
+  "sha256_4x5": "36e2f7dca815ac0d5b63429609fcd786a57b86a86a891108fdd749e9a5d818ce"
 }
