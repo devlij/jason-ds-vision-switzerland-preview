@@ -28,6 +28,11 @@
       "at": "2026-09-25T13:34:12.042908+00:00",
       "by": "Cosmo QC",
       "note": "Gate 2 FAIL (shared weather retrieval): Open-Meteo retrieval timestamp 2026-09-24T12:40:09Z identical to the second across CH-01-005/006/007/008/009/010 — batch retrieval, not per-scene (hardened 2026-09-25 rule). Gate 1 passed (Lake St. Moritz with the town waterfront and snow-capped peaks behind, overcast; exact caption/scenario/signature/disclosure on-image). Gates 3–4 noted (text-prompt-only lineage claimed; no prominent people/logos seen). Hold at Candidate until the per-scene weather rework lands."
+    },
+    {
+      "at": "2026-09-25T14:32:02.369203+00:00",
+      "by": "Cosmo QC",
+      "note": "Gate 2 FAIL — shared batch Open-Meteo retrieval: approvals/CH-01-010.md records retrieved 2026-09-24T12:40:09Z, identical to the second with CH-01-005/006/007/008/009/010. Per the hardened one-retrieval-per-scene rule this is batch retrieval, so weather metadata is stale/reused. Visual review otherwise fine (exact caption, scenario '24 September 2026 · 14:40 Europe/Zurich', signature, disclosure present; dimensions verified 1920x1080 + 864x1080). Held as Candidate pending Grok per-scene weather rework."
     }
   ],
   "qc_status": "Candidate — reverted 2026-09-25 (Gate 2: shared weather retrieval; awaiting Grok rework)",
