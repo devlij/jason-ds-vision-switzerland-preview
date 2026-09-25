@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Switzerland/Urnäsch/ch-01-066-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "G1: Urnäsch village street — dark Appenzell wooden farmhouses with shingle roofs, the church's tall spire, rolling green hills beyond under overcast matching weather code 3; plausible street viewpoint; clean, no artifacts. G2: exact dimensions, caption 'Urnäsch, Urnäsch', scenario 'Scenario: 24 September 2026 · 16:00 Europe/Zurich', disclosure and curly-apostrophe signature legible on the scrim; weather retrieved 14:00:42Z (16:00:42 Zurich), valid 16:00 — fresh against the 16:00 scenario. G3: text-prompt-only, no photographic inputs per build notes. G4: no people, no logos; traditional houses on a public street — documented only. G5: no open blockers.",
+  "approved_at": "2026-09-25T10:32:52.368799+00:00",
+  "sha256_16x9": "d977841ef1edbb61cd1dcaf058b38f8667bcb8c0cbf416ce0ede10cfacc491e4",
+  "sha256_4x5": "b8da0f4b0542a726da1f35b27191b14f5011e4d52c5d61855cfc6676ab61f6ee"
 }
