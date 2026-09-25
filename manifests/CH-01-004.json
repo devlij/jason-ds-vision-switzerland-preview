@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Switzerland/Geneva/ch-01-004-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "CH-01-004 Jet d'Eau, Geneva: 16:9 master shows the single tall white plume of the Jet d'Eau rising vertically from its lake structure offshore, open dark lake water in the foreground, a stone quay at the frame's right edge, and a low far shore under a grey cloud deck. Gate 1: recognizable single water jet from a plausible lakeside viewpoint; no plaza fountain misconfiguration, clean framing. Gate 2: 1920×1080 and 864×1080 confirmed; on-image text reads exactly 'Jet d'Eau, Geneva', 'Scenario: 24 September 2026 · 14:38 Europe/Zurich', 'AI-generated artistic interpretation · Not a photograph.', and 'Jason D's Vision' with curly apostrophe, legible on the bottom gradient. Weather check: notes record Open-Meteo retrieval 2026-09-24T12:35:44Z valid 14:30, overcast 100% cloud 24.3°C — consistent with the 14:38 scenario and the fully overcast sky in frame; no stale/reused metadata. Gate 3: text-prompt-only lineage, no photographic inputs reported. Gate 4: no visible people, no logos; public lakefront, commercial call remains Jason's. Gate 5: no blockers.",
+  "approved_at": "2026-09-25T04:33:04.106445+00:00",
+  "sha256_16x9": "e6153d9a28f1d181545c29c844463be3c50c2d53daf4dbe8656da24722ff67b5",
+  "sha256_4x5": "416f2875577302ce3ab80e22226d1dd4366650eae00b12c60539683991ed4f22"
 }
