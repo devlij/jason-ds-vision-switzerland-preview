@@ -1,0 +1,11 @@
+{
+  "entry_id": "CH-01-09",
+  "approval_status": "Candidate",
+  "qc_notes": [
+    {
+      "at": "2026-09-25T14:32:00.599236+00:00",
+      "by": "Cosmo QC",
+      "note": "Gate 2 FAIL — shared batch Open-Meteo retrieval: approvals/CH-01-09.md records retrieved 2026-09-24T12:40:09Z, identical to the second with CH-01-005/006/007/008/009/010. Per the hardened one-retrieval-per-scene rule this is batch retrieval, so weather metadata is stale/reused. Visual review otherwise fine (exact caption, scenario '24 September 2026 · 14:40 Europe/Zurich', signature, disclosure present; dimensions verified 1920x1080 + 864x1080). Held as Candidate pending Grok per-scene weather rework."
+    }
+  ]
+}
