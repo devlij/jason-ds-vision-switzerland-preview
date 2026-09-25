@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Switzerland/Habsburg/ch-01-071-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "Gates 1–5 pass. Gate 1: the 16:9 master shows the compact rear castle of Habsburg on the wooded Wülpelsberg — large crenellated tower, smaller tower, 13th-century residence — with the front castle kept as low conserved foundation walls in the foreground; under full overcast, clean framing. Gate 2: masters mechanically verified 1920×1080 + 864×1080; caption ‘Habsburg Castle, Habsburg’, scenario ‘24 September 2026 · 16:01 Europe/Zurich’, disclosure legible bottom-left; exact ‘Jason D’s Vision’ bottom-right. Weather: retrieved 2026-09-24T14:00:42Z, valid 16:00 Europe/Zurich; scene-specific (code 3, 100% cloud, 20.9°C, wind 12.2 from 294°, cell ~464m) — distinct per scene, batch timestamp only. Gate 3: text-prompt-only lineage recorded. Gate 4: no visible people, no logos — notes only. Gate 5: no open blockers.",
+  "approved_at": "2026-09-25T11:33:29.350428+00:00",
+  "sha256_16x9": "7046176e8acbc68aa9fe2dd1f7b7d600d120c1f515248900b6337c7be2d0f066",
+  "sha256_4x5": "c58486ab78763faa0d503ea978a5b05cc878c25a72ff21fa0a79c3a8b950144d"
 }
