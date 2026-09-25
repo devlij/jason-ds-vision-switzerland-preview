@@ -1,26 +1,28 @@
 {
   "entry_id": "CH-01-010",
   "country": "Switzerland",
-  "region": "Graubünden",
+  "region": "Graub\u00fcnden",
   "city": "St. Moritz",
   "caption": "Lake St. Moritz, St. Moritz",
-  "scenario_label": "24 September 2026 · 14:40 Europe/Zurich",
-  "composition": "Engadin lakeshore looking across Lake St. Moritz toward the town and peaks · AI-generated artistic interpretation",
+  "scenario_label": "24 September 2026 \u00b7 14:40 Europe/Zurich",
+  "composition": "Engadin lakeshore looking across Lake St. Moritz toward the town and peaks \u00b7 AI-generated artistic interpretation",
   "description": "Lake St. Moritz fills the foreground, with the town climbing the slope and high Engadin peaks behind it. Late September here is early autumn: larches are still mostly green with only the first gold, and the town is not under winter snow. Residual snow is limited to the higher summits. The Open-Meteo model for this high cell is fully overcast.",
   "alt_text": "AI-generated artistic interpretation of Lake St. Moritz and the Engadin town under cloud",
   "file_16x9": "library/world/Switzerland/St. Moritz/ch-01-010-16x9.png",
   "file_4x5": "library/world/Switzerland/St. Moritz/ch-01-010-4x5.png",
-  "license_badge": "Free · no credit needed",
+  "license_badge": "Free \u00b7 no credit needed",
   "license_anchor": "#license",
   "approval_status": "Approved",
   "qc_notes": [
     {
       "at": "2026-09-25T04:34:23.415609+00:00",
       "by": "Cosmo QC",
-      "note": "QC hold (mechanical, not a gate verdict): master files failed to download in the sweep batch (absent from the verified download set) — the five-gate audit could not be performed. Left as Candidate. Build agent to re-check/re-push the masters for ch-01-010-16x9.png and ch-01-010-4x5.png."
+      "note": "QC hold (mechanical, not a gate verdict): master files failed to download in the sweep batch (absent from the verified download set) \u2014 the five-gate audit could not be performed. Left as Candidate. Build agent to re-check/re-push the masters for ch-01-010-16x9.png and ch-01-010-4x5.png."
     }
   ],
-  "qc_status": "Approved · Cosmo QC 5/5 · Afternoon",
-  "approval_basis": "G1 visual: Lake St. Moritz fills the foreground with the town climbing the slope opposite, snow-dusted Engadin peaks behind, larches green with first gold — recognizably the captioned shore view, plausible tourist viewpoint, no artifacts. G2 technical: both masters exact 1920×1080/864×1080; exact 'Jason D's Vision' signature bottom-right; exact caption 'Lake St. Moritz, St. Moritz' + 'Scenario: 24 September 2026 · 14:40 Europe/Zurich' + AI disclosure bottom-left on scrim, legible. Weather cross-check: approvals/CH-01-010.md records Open-Meteo retrieval 2026-09-24T12:40:09Z (14:40 CEST) valid 14:30 Zurich, code 3 overcast 100% cloud — consistent with scenario and with the grey overcast frame, no reused metadata. G3: text-prompt-only lineage documented, no photographic inputs. G4: no prominent people or focal logos visible — documented, commercial call remains Jason's. G5: all gates pass, publish-ready.",
-  "approved_at": "2026-09-25T05:32:48.622691+00:00"
+  "qc_status": "Approved \u00b7 Cosmo QC 5/5 \u00b7 Afternoon",
+  "approval_basis": "G1 visual: Lake St. Moritz fills the foreground with the town climbing the slope opposite, snow-dusted Engadin peaks behind, larches green with first gold \u2014 recognizably the captioned shore view, plausible tourist viewpoint, no artifacts. G2 technical: both masters exact 1920\u00d71080/864\u00d71080; exact 'Jason D's Vision' signature bottom-right; exact caption 'Lake St. Moritz, St. Moritz' + 'Scenario: 24 September 2026 \u00b7 14:40 Europe/Zurich' + AI disclosure bottom-left on scrim, legible. Weather cross-check: approvals/CH-01-010.md records Open-Meteo retrieval 2026-09-24T12:40:09Z (14:40 CEST) valid 14:30 Zurich, code 3 overcast 100% cloud \u2014 consistent with scenario and with the grey overcast frame, no reused metadata. G3: text-prompt-only lineage documented, no photographic inputs. G4: no prominent people or focal logos visible \u2014 documented, commercial call remains Jason's. G5: all gates pass, publish-ready.",
+  "approved_at": "2026-09-25T05:32:48.622691+00:00",
+  "sha256_16x9": "16ca361b61f2fa7c180c32a3c35ccc109c4b2b18a93591f1c00ed3e22db46b2f",
+  "sha256_4x5": "b9bcca301520bcd92c302f2fc62bf4b80570c10bae39f83bfaed4aecf983da80"
 }
