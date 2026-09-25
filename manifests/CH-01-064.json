@@ -12,10 +12,18 @@
   "file_4x5": "library/world/Switzerland/Noiraigue/ch-01-064-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Approved",
-  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_status": "Candidate",
+  "qc_status": "Candidate — reverted 2026-09-25 (Gate 2: shared weather retrieval; awaiting Grok rework)",
   "approval_basis": "G1: the Creux du Van limestone amphitheatre — sheer curving cliff walls, conifer forest filling the bowl, a dry-stone wall in the foreground — plausible rim viewpoint above Noiraigue under overcast matching weather code 3; clean, no artifacts. G2: exact dimensions, caption 'Creux du Van, Noiraigue', scenario 'Scenario: 24 September 2026 · 15:44 Europe/Zurich', disclosure and curly-apostrophe signature legible on the scrim (verified on both formats); weather retrieved 13:37:01Z, valid 15:30 — fresh against the 15:44 scenario. G3: text-prompt-only, no photographic inputs per build notes. G4: no people, no logos; nature reserve, no private property — documented only. G5: no open blockers.",
   "approved_at": "2026-09-25T10:32:28.536604+00:00",
   "sha256_16x9": "d193b28247c982a6d506194089f5d55d5f40b4718937733fc674b89a4dac7375",
-  "sha256_4x5": "413fec65a198a1d47a07cc85d9aaad008df372b61facca3f4b522e124c23189b"
+  "sha256_4x5": "413fec65a198a1d47a07cc85d9aaad008df372b61facca3f4b522e124c23189b",
+  "reverted_at": "2026-09-25T12:42:47.270189+00:00",
+  "qc_notes": [
+    {
+      "at": "2026-09-25T12:42:47.270189+00:00",
+      "by": "Cosmo QC",
+      "note": "Approval withdrawn 2026-09-25 (Cosmo QC): the weather metadata was a shared/batch Open-Meteo retrieval (retrieval timestamp 2026-09-24T13:37:01Z identical across 16 scenes), failing Gate 2 under the confirmed standing policy — one HTTP fetch per scene, one recorded retrieval timestamp per scene; identical-to-the-second timestamps across scenes = shared retrieval. Rework: fetch Open-Meteo fresh per scene (own HTTP request, own recorded timestamp), scenario hour inside the model-valid hour; update the approvals note with the new retrieval evidence; re-push masters only if on-image text must change. Scene stays Candidate until Cosmo QC re-audits."
+    }
+  ]
 }
