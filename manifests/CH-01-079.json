@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Switzerland/La Chaux-de-Fonds/ch-01-079-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "G1: Long straight avenue of even-corniced pale facades (Avenue Léopold-Robert) runs to the Jura ridges closing the high valley — the watchmaking grid reads clearly; clean overcast framing, no snow on the street. G2: exact 1920×1080 / 864×1080 masters; caption 'La Chaux-de-Fonds, La Chaux-de-Fonds', scenario '24 September 2026 · 16:01 Europe/Zurich', disclosure 'AI-generated artistic interpretation · Not a photograph.' and exact 'Jason D's Vision' signature verified on the bottom gradient; weather retrieval 2026-09-24T14:00:42Z, valid 16:00 scenario hour — fresh, no stale reuse. G3: text-prompt-only lineage recorded in build-agent notes, no photographic inputs. G4: no identifiable people, no watch brand or shop logos; documented only. G5: no open blockers.",
+  "approved_at": "2026-09-25T12:31:02.452722+00:00",
+  "sha256_16x9": "cc93ea4b609eb61c8816d9c1e2a6a4450aab59b9b32a99d3da1bf7de7891b803",
+  "sha256_4x5": "d8c23b053651951ab7676c37bd78da4d144a9c3a32ff6dde9b8c8dc870884934"
 }
