@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Switzerland/Zurich/ch-01-027-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "Gate1: Uetliberg summit terrace panorama — Zurich spreading between wooded hills, the long sheet of Lake Zurich running to the right, the slim lookout tower at the left edge; beech woods mostly green with the first late-September turn; distant Alps hidden under the overcast — matches anchors. Gate2: exact 1920×1080 / 864×1080; on-image 'Uetliberg, Zurich', scenario '24 September 2026 · 15:09 Europe/Zurich', disclosure and 'Jason D's Vision' signature bottom-right, legible; weather retrieved 13:08:46Z for scenario 15:09 — fresh same-day pull, 100% cloud consistent with the overcast view. Gate3: text-prompt-only, no photographic inputs. Gate4: no identifiable people or readable billboards (documented only). Gate5: no blockers.",
+  "approved_at": "2026-09-25T06:32:04.031798+00:00",
+  "sha256_16x9": "4be3b43056c2f174d2595ecde52d9215bfdd07c3b26029a6d01f8d825af45510",
+  "sha256_4x5": "1c2b7219f318448dd2627b70d6ca42c44253bd38be1f49b5839b683ec2062530"
 }
