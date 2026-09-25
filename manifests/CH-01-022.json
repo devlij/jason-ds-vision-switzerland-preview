@@ -12,10 +12,18 @@
   "file_4x5": "library/world/Switzerland/Bern/ch-01-022-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Approved",
-  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_status": "Candidate",
+  "qc_status": "Candidate — reverted 2026-09-25 (Gate 2: shared weather retrieval; awaiting Grok rework)",
   "approval_basis": "Gate1: symmetrical sandstone Bundeshaus with central dome and two long wings facing the open Bundesplatz; reflecting fountain in front, empty square, no banners, scaffolding, or readable inscriptions — matches anchors. Gate2: exact 1920×1080 / 864×1080; on-image 'Bundeshaus, Bern', scenario 15:09, disclosure and 'Jason D's Vision' signature bottom-right, all legible; weather retrieved 13:08:46Z for scenario 15:09, overcast 100% cloud matching the gray sky. Gate3: text-prompt-only, no photographic inputs. Gate4: no identifiable people or focal logos (documented only). Gate5: no blockers.",
   "approved_at": "2026-09-25T06:31:09.864631+00:00",
   "sha256_16x9": "1d55c8d3fd0cb56a2134b977b582fc4eb96ee6e5403690fd47e484a1032c7db6",
-  "sha256_4x5": "07d510b4f8c8426fdf5e3746ae55cb69f48c456f10361b77a648086bbd6fafe7"
+  "sha256_4x5": "07d510b4f8c8426fdf5e3746ae55cb69f48c456f10361b77a648086bbd6fafe7",
+  "reverted_at": "2026-09-25T12:40:49.920095+00:00",
+  "qc_notes": [
+    {
+      "at": "2026-09-25T12:40:49.920095+00:00",
+      "by": "Cosmo QC",
+      "note": "Approval withdrawn 2026-09-25 (Cosmo QC): the weather metadata was a shared/batch Open-Meteo retrieval (retrieval timestamp 2026-09-24T13:08:46Z identical across 16 scenes), failing Gate 2 under the confirmed standing policy — one HTTP fetch per scene, one recorded retrieval timestamp per scene; identical-to-the-second timestamps across scenes = shared retrieval. Rework: fetch Open-Meteo fresh per scene (own HTTP request, own recorded timestamp), scenario hour inside the model-valid hour; update the approvals note with the new retrieval evidence; re-push masters only if on-image text must change. Scene stays Candidate until Cosmo QC re-audits."
+    }
+  ]
 }
