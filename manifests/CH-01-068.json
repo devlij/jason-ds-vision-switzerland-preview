@@ -12,10 +12,18 @@
   "file_4x5": "library/world/Switzerland/Werdenberg/ch-01-068-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Approved",
-  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_status": "Candidate",
+  "qc_status": "Candidate — reverted 2026-09-25 (Gate 2: shared weather retrieval; awaiting Grok rework)",
   "approval_basis": "Gates 1–5 pass. Gate 1: the 16:9 master shows the Städtli’s dark timber houses below Schloss Werdenberg’s stone keep and crenellated tower on its knoll, the Werdenbergersee at frame right under a full overcast — recognizable, artifact-free tourist framing matching the geometry anchors. Gate 2: masters mechanically verified 1920×1080 + 864×1080; caption ‘Werdenberg, Werdenberg’, scenario ‘24 September 2026 · 16:01 Europe/Zurich’ and disclosure ‘AI-generated artistic interpretation · Not a photograph.’ legible bottom-left on the gradient; exact ‘Jason D’s Vision’ (curly apostrophe) bottom-right. Weather check: retrieved 2026-09-24T14:00:42Z, valid 16:00 Europe/Zurich — scenario 16:01 sits inside validity; values are scene-specific (code 3, cloud 100%, 21.1°C, cell ~461m), geographically coherent within the 10-scene batch. Gate 3: approvals file records text-prompt-only lineage, no photographic inputs. Gate 4: no visible people, no logos, no legible lettering — documented notes only, no chain certified. Gate 5: no open blockers.",
   "approved_at": "2026-09-25T11:32:47.868406+00:00",
   "sha256_16x9": "6c8720b5a06f999f457fdf71298727ca28196b2f3d1c4b956cb02b75a83974bf",
-  "sha256_4x5": "8690eba1f6ceb57e4a07562e45f01ed494b13e34f44a69a590eeeb67a51022b4"
+  "sha256_4x5": "8690eba1f6ceb57e4a07562e45f01ed494b13e34f44a69a590eeeb67a51022b4",
+  "reverted_at": "2026-09-25T12:43:01.282963+00:00",
+  "qc_notes": [
+    {
+      "at": "2026-09-25T12:43:01.282963+00:00",
+      "by": "Cosmo QC",
+      "note": "Approval withdrawn 2026-09-25 (Cosmo QC): the weather metadata was a shared/batch Open-Meteo retrieval (retrieval timestamp 2026-09-24T14:00:42Z identical across 16 scenes), failing Gate 2 under the confirmed standing policy — one HTTP fetch per scene, one recorded retrieval timestamp per scene; identical-to-the-second timestamps across scenes = shared retrieval. Rework: fetch Open-Meteo fresh per scene (own HTTP request, own recorded timestamp), scenario hour inside the model-valid hour; update the approvals note with the new retrieval evidence; re-push masters only if on-image text must change. Scene stays Candidate until Cosmo QC re-audits."
+    }
+  ]
 }
