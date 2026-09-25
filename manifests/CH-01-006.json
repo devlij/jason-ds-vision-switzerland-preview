@@ -12,10 +12,18 @@
   "file_4x5": "library/world/Switzerland/Zurich/ch-01-006-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Approved",
-  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_status": "Candidate",
+  "qc_status": "Candidate — reverted 2026-09-25 (Gate 2: shared weather retrieval; awaiting Grok rework)",
   "approval_basis": "CH-01-006 Limmatquai, Zurich: 16:9 master shows the Limmat river with the stone quay promenade on the right bank in the foreground, guild-house facades lining the water, the Münsterbrücke mid-frame, and the Grossmünster's twin Romanesque towers rising on the right. Gate 1: recognizable river-and-towers arrangement from a plausible quay viewpoint; no invented elements, clean framing. Gate 2: 1920×1080 and 864×1080 confirmed; on-image text reads exactly 'Limmatquai, Zurich', 'Scenario: 24 September 2026 · 14:40 Europe/Zurich', 'AI-generated artistic interpretation · Not a photograph.', and 'Jason D's Vision' with curly apostrophe, legible on the bottom gradient. Weather check: notes record Open-Meteo retrieval 2026-09-24T12:40:09Z valid 14:30, overcast 100% cloud 21.5°C — consistent with the 14:40 scenario and the grey overcast sky in frame; no stale/reused metadata. Gate 3: text-prompt-only lineage, no photographic inputs reported. Gate 4: no visible people, no logos; public riverside, commercial call remains Jason's. Gate 5: no blockers.",
   "approved_at": "2026-09-25T04:33:35.350373+00:00",
   "sha256_16x9": "bc869adf3b1139e390f22faff8a50d8226c2060b13dab3540119ec15a1a403e8",
-  "sha256_4x5": "1d9cacbc97a95157703223f57ab0c8b462df584fb4a3ab573b294d8ef91245ba"
+  "sha256_4x5": "1d9cacbc97a95157703223f57ab0c8b462df584fb4a3ab573b294d8ef91245ba",
+  "reverted_at": "2026-09-25T12:40:05.625559+00:00",
+  "qc_notes": [
+    {
+      "at": "2026-09-25T12:40:05.625559+00:00",
+      "by": "Cosmo QC",
+      "note": "Approval withdrawn 2026-09-25 (Cosmo QC): the weather metadata was a shared/batch Open-Meteo retrieval (retrieval timestamp 2026-09-24T12:40:09Z identical across 12 scenes), failing Gate 2 under the confirmed standing policy — one HTTP fetch per scene, one recorded retrieval timestamp per scene; identical-to-the-second timestamps across scenes = shared retrieval. Rework: fetch Open-Meteo fresh per scene (own HTTP request, own recorded timestamp), scenario hour inside the model-valid hour; update the approvals note with the new retrieval evidence; re-push masters only if on-image text must change. Scene stays Candidate until Cosmo QC re-audits."
+    }
+  ]
 }
