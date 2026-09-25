@@ -24,6 +24,11 @@
       "at": "2026-09-25T12:40:08.159760+00:00",
       "by": "Cosmo QC",
       "note": "Approval withdrawn 2026-09-25 (Cosmo QC): the weather metadata was a shared/batch Open-Meteo retrieval (retrieval timestamp 2026-09-24T12:40:09Z identical across 12 scenes), failing Gate 2 under the confirmed standing policy — one HTTP fetch per scene, one recorded retrieval timestamp per scene; identical-to-the-second timestamps across scenes = shared retrieval. Rework: fetch Open-Meteo fresh per scene (own HTTP request, own recorded timestamp), scenario hour inside the model-valid hour; update the approvals note with the new retrieval evidence; re-push masters only if on-image text must change. Scene stays Candidate until Cosmo QC re-audits."
+    },
+    {
+      "at": "2026-09-25T13:33:40.908533+00:00",
+      "by": "Cosmo QC",
+      "note": "Gate 2 FAIL (shared weather retrieval): Open-Meteo retrieval timestamp 2026-09-24T12:40:09Z identical to the second across CH-01-005/006/007/008/009/010 — batch retrieval, not per-scene (hardened 2026-09-25 rule). Gate 1 passed (Staubbach Falls free-falling from the Lauterbrunnen cliff with village church and chalets below, misty overcast; exact caption/scenario/signature/disclosure on-image). Gates 3–4 noted (text-prompt-only lineage claimed; no prominent people/logos seen). Hold at Candidate until the per-scene weather rework lands."
     }
   ]
 }
