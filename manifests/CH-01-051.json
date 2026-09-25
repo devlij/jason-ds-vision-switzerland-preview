@@ -12,10 +12,18 @@
   "file_4x5": "library/world/Switzerland/Schaffhausen/ch-01-051-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Approved",
-  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_status": "Candidate",
+  "qc_status": "Candidate — reverted 2026-09-25 (Gate 2: shared weather retrieval; awaiting Grok rework)",
   "approval_basis": "Gate 1: Munot above Schaffhausen — circular stone roundel with its round tower and steep roof on the Emmersberg, old-town roofs and a bend of the Rhine below the rock; plausible tourist viewpoint under overcast. Gate 2: sweep-verified 1920x1080 + 864x1080 PNGs; exact caption 'Munot, Schaffhausen', scenario '24 September 2026 · 15:39 Europe/Zurich', disclosure 'AI-generated artistic interpretation · Not a photograph.' bottom-left on scrim, 'Jason D's Vision' bottom-right. Weather: batch retrieval 2026-09-24T13:37:01Z valid 15:30 vs scenario 15:39 — consistent; per-scene code 3 overcast 100%, 21.7C matches the grey sky (values differ per scene, not copied). Gate 3: text-prompt-only lineage, no photographic inputs per approvals/CH-01-051.md. Gate 4: no visible people or logos; public historic fortress. Gate 5: no open blockers.",
   "approved_at": "2026-09-25T09:32:22.811702+00:00",
   "sha256_16x9": "63fb9ff1da6608c2f3e1df5ef83eee9b85b9f173e3131d438f0e55e0bf483e70",
-  "sha256_4x5": "0304598d9e5800b54f797b2f22e6a2b1e0717b5b54f3555e4a3b3b16bcb0c7d1"
+  "sha256_4x5": "0304598d9e5800b54f797b2f22e6a2b1e0717b5b54f3555e4a3b3b16bcb0c7d1",
+  "reverted_at": "2026-09-25T12:42:14.012406+00:00",
+  "qc_notes": [
+    {
+      "at": "2026-09-25T12:42:14.012406+00:00",
+      "by": "Cosmo QC",
+      "note": "Approval withdrawn 2026-09-25 (Cosmo QC): the weather metadata was a shared/batch Open-Meteo retrieval (retrieval timestamp 2026-09-24T13:37:01Z identical across 16 scenes), failing Gate 2 under the confirmed standing policy — one HTTP fetch per scene, one recorded retrieval timestamp per scene; identical-to-the-second timestamps across scenes = shared retrieval. Rework: fetch Open-Meteo fresh per scene (own HTTP request, own recorded timestamp), scenario hour inside the model-valid hour; update the approvals note with the new retrieval evidence; re-push masters only if on-image text must change. Scene stays Candidate until Cosmo QC re-audits."
+    }
+  ]
 }
