@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Switzerland/Chur/ch-01-057-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "Gate 1: Chur Old Town — cobbled lane between stone and painted houses running toward the Martinskirche Gothic spire, the Hof cathedral hill behind the roofs; correct street composition, no misconfiguration. Gate 2: sweep-verified 1920x1080 + 864x1080 PNGs; exact caption 'Chur Old Town, Chur', scenario '24 September 2026 · 15:44 Europe/Zurich', disclosure 'AI-generated artistic interpretation · Not a photograph.' bottom-left on scrim, 'Jason D's Vision' bottom-right. Weather: batch retrieval 2026-09-24T13:37:01Z valid 15:30 vs scenario 15:44 — consistent; per-scene code 2 partly cloudy 46%, 22.2C matches the broken-cloud blue-sky render, a distinct value from the overcast set (not copied). Gate 3: text-prompt-only lineage, no photographic inputs per approvals/CH-01-057.md. Gate 4: empty lane, no visible people or logos; public old town. Gate 5: no open blockers.",
+  "approved_at": "2026-09-25T09:33:51.664259+00:00",
+  "sha256_16x9": "e6d46fb43a3df32ae960b9cb42c15dc241235f15ad55b0841a8fbddff05d3cee",
+  "sha256_4x5": "4497730254b61e3ceac7b79c8079ecadea989ed3d929b7651084246ff53ab2c5"
 }
