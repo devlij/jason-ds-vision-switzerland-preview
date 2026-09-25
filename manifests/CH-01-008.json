@@ -12,7 +12,7 @@
   "file_4x5": "library/world/Switzerland/Gruyères/ch-01-008-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate",
+  "approval_status": "Approved",
   "qc_notes": [
     {
       "at": "2026-09-25T04:34:21.739714+00:00",
@@ -50,9 +50,9 @@
       "note": "Gate 2 shared-retrieval hold RESOLVED: the build agent landed the per-scene weather rework (approvals/BATCH-CH-01-001-087-rework.txt plus the per-scene note). approvals/CH-01-008.md now records Open-Meteo retrieval 2026-09-25T21:42:50Z, a separate request for this scene's coordinates — verified unique to the second across all 87 reworked scenes; the baked scenario 24 September 2026 · 14:40 Europe/Zurich sits inside the model-valid hour 14:00–14:59 Europe/Zurich. Cosmo re-audited against authoritative blob downloads: gates 1–5 PASS, all masters at exact dimensions, exact caption/scenario/signature/disclosure on-image. Hold cleared; ready for approval."
     }
   ],
-  "qc_status": "Candidate — reverted 2026-09-25 (Gate 2: shared weather retrieval; awaiting Grok rework)",
-  "approval_basis": "G1 visual: Gruyères Castle with round towers and steep roofs crowns the hill above the cobbled medieval main street and stone houses, Fribourg pre-Alps behind, overcast diffuse light, no scaffolding — recognizably the captioned site from a plausible tourist viewpoint, clean framing, no artifacts. G2 technical: both masters exact 1920×1080/864×1080; exact 'Jason D's Vision' signature bottom-right; exact caption 'Gruyères Castle, Gruyères' + 'Scenario: 24 September 2026 · 14:40 Europe/Zurich' + 'AI-generated artistic interpretation · Not a photograph.' bottom-left on gradient scrim, legible and non-intrusive. Weather cross-check: approvals/CH-01-008.md records Open-Meteo retrieval 2026-09-24T12:40:09Z (14:40 CEST) valid 14:30 Zurich — consistent with the 14:40 scenario, no stale or reused timestamps. G3: approvals file documents text-prompt-only lineage, no photographic inputs. G4: no prominent identifiable people or focal logos (a few distant street figures only) — documented, final commercial call Jason's. G5: all gates pass, publish-ready.",
-  "approved_at": "2026-09-25T05:32:33.825357+00:00",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "Gruyères Castle, Gruyères — Gate 1 PASS: the medieval castle with its round towers and pitched roofs crowns the hill above a cobbled village street of stone houses, misty green mountains behind; correct castle silhouette and town arrangement, no artifacts. Gate 2 PASS: exact 1920x1080/864x1080 masters from authoritative blob downloads; exact Jason D's Vision signature bottom-right, caption 'Gruyères Castle, Gruyères', scenario '24 September 2026 · 14:40 Europe/Zurich', disclosure on the bottom gradient; scenario inside model-valid hour 14:00–14:59 Europe/Zurich, weather retrieved 2026-09-25T21:42:50Z, unique to this scene. Gate 3: text-prompt-only lineage, no photographic inputs reported. Gate 4: no prominent identifiable people or focal logos. Gate 5: no open blockers.",
+  "approved_at": "2026-09-25T22:43:30.638403+00:00",
   "sha256_16x9": "221944c41d95183f9b50b622fe970e55395c7ce6d41a479f9bcb4ab7d687fd7b",
   "sha256_4x5": "8fc47717150eca90303d69f16eb746759c88a81a5410621381d51c54909386fa",
   "reverted_at": "2026-09-25T12:40:11.070345+00:00"
