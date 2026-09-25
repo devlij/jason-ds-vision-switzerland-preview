@@ -38,6 +38,11 @@
       "at": "2026-09-25T16:33:32.720905+00:00",
       "by": "Cosmo QC",
       "note": "Gate 2 (Technical) FAIL: Open-Meteo weather retrieval timestamp 2026-09-24T12:40:09Z is identical to the second with CH-01-005, CH-01-006, CH-01-007, CH-01-008, CH-01-009 and CH-01-010 — shared/batch retrieval, violating the per-scene retrieval rule (one retrieval per scene; identical timestamps across scenes = batch, even though per-location values differ). Weather rework still owed; scene stays Candidate."
+    },
+    {
+      "at": "2026-09-25T17:32:14.096078+00:00",
+      "by": "Cosmo QC",
+      "note": "Gate 2 (Technical) FAIL: Open-Meteo weather retrieval timestamp 2026-09-24T12:40:09Z is identical to the second across CH-01-005/006/007/008/009/010 — shared/batch retrieval, violates the Grok-confirmed one-retrieval-per-scene rule (stale/reused weather metadata). Gates 1/3/4 reviewed: visual location pass, text-prompt-only lineage documented, no prominent people or focal logos seen (documented only, no chain certified)."
     }
   ],
   "qc_status": "Candidate — reverted 2026-09-25 (Gate 2: shared weather retrieval; awaiting Grok rework)",
