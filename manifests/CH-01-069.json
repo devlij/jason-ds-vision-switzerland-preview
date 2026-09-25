@@ -12,10 +12,18 @@
   "file_4x5": "library/world/Switzerland/Aarau/ch-01-069-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Approved",
-  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_status": "Candidate",
+  "qc_status": "Candidate — reverted 2026-09-25 (Gate 2: shared weather retrieval; awaiting Grok rework)",
   "approval_basis": "Gates 1–5 pass. Gate 1: the 16:9 master shows Aarau’s old-town street of town houses with wide painted eaves — decorative rosettes only, no legible lettering — leading toward the Oberer Turm clock tower closing the street under a full overcast; clean framing, no artifacts. Gate 2: masters mechanically verified 1920×1080 + 864×1080; caption ‘Aarau Old Town, Aarau’, scenario ‘24 September 2026 · 16:01 Europe/Zurich’, disclosure legible bottom-left on the gradient; exact ‘Jason D’s Vision’ (curly apostrophe) bottom-right. Weather: retrieved 2026-09-24T14:00:42Z (same batch timestamp as the sibling scenes), valid 16:00 Europe/Zurich; values scene-specific (code 3, 100% cloud, 21.8°C, wind 9.7 from 285°, cell ~390m) — consistent with the batch-fetch artifact, not the Spain reuse pattern. Gate 3: text-prompt-only lineage recorded, no photographic inputs. Gate 4: no visible people, no logos — notes only. Gate 5: no open blockers.",
   "approved_at": "2026-09-25T11:33:19.105775+00:00",
   "sha256_16x9": "d1b43f1d8e8a19aea2650c71d01413031557796fe4db80ac58c7932ee434422a",
-  "sha256_4x5": "45cd5d24167b584e29cc257db2afefe0e653880a3e065561bc8aeb72321a909b"
+  "sha256_4x5": "45cd5d24167b584e29cc257db2afefe0e653880a3e065561bc8aeb72321a909b",
+  "reverted_at": "2026-09-25T12:43:03.867739+00:00",
+  "qc_notes": [
+    {
+      "at": "2026-09-25T12:43:03.867739+00:00",
+      "by": "Cosmo QC",
+      "note": "Approval withdrawn 2026-09-25 (Cosmo QC): the weather metadata was a shared/batch Open-Meteo retrieval (retrieval timestamp 2026-09-24T14:00:42Z identical across 16 scenes), failing Gate 2 under the confirmed standing policy — one HTTP fetch per scene, one recorded retrieval timestamp per scene; identical-to-the-second timestamps across scenes = shared retrieval. Rework: fetch Open-Meteo fresh per scene (own HTTP request, own recorded timestamp), scenario hour inside the model-valid hour; update the approvals note with the new retrieval evidence; re-push masters only if on-image text must change. Scene stays Candidate until Cosmo QC re-audits."
+    }
+  ]
 }
