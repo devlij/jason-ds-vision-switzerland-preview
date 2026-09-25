@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Switzerland/Laufen/ch-01-085-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "G1: Cobbled main street between town gates, baroque St. Katharina church tower with dome at the lower end and the gate arch (Untertor) closing the vista — the Laufen anchors read correctly; this is not Schloss Laufen, no waterfall or cliff castle. G2: exact 1920×1080 / 864×1080; caption 'Laufen, Laufen', scenario '24 September 2026 · 16:17 Europe/Zurich', disclosure 'AI-generated artistic interpretation · Not a photograph.' and exact 'Jason D's Vision' signature legible; weather retrieval 2026-09-24T14:11:31Z valid 16:00 scenario hour — fresh. G3: text-prompt-only lineage recorded, no photographic inputs. G4: no identifiable people or logos; documented only. G5: no open blockers.",
+  "approved_at": "2026-09-25T12:32:30.913825+00:00",
+  "sha256_16x9": "ec23ebb7c199ca62166cc1c43d9302c7bb838ae379312710f627128479e21fa3",
+  "sha256_4x5": "9fde09ac6f22cc5e2f1cba7915ec02df252c82f55cd77b1829668f086eccf358"
 }
