@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Switzerland/Lauterbrunnen/ch-01-007-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "CH-01-007 Staubbach Falls, Lauterbrunnen: 16:9 master shows the tall thin veil of Staubbach Falls dropping from the lip of the sheer western cliff, the cliff tops wrapped in cloud, with wooden chalets and the church spire at the base of the wall and green late-September meadows and forest in the foreground. Gate 1: recognizable cliff waterfall, not a river cataract, from a plausible valley-floor viewpoint; clean framing, no artifacts. Gate 2: 1920×1080 and 864×1080 confirmed; on-image text reads exactly 'Staubbach Falls, Lauterbrunnen', 'Scenario: 24 September 2026 · 14:40 Europe/Zurich', 'AI-generated artistic interpretation · Not a photograph.', and 'Jason D's Vision' with curly apostrophe, legible on the bottom gradient. Weather check: notes record Open-Meteo retrieval 2026-09-24T12:40:09Z valid 14:30, 97% cloud 19.4°C — consistent with the 14:40 scenario and the cloud-wrapped cliffs in frame; no stale/reused metadata. Gate 3: text-prompt-only lineage, no photographic inputs reported. Gate 4: no visible people, no logos; public valley, commercial call remains Jason's. Gate 5: no blockers.",
+  "approved_at": "2026-09-25T04:33:51.700126+00:00",
+  "sha256_16x9": "27b1cfd0abe82113c3b4ed4ba20d623f9393fdf17f9457faf960a540a8097e2b",
+  "sha256_4x5": "eaace8a52ae705e93d3aa03fd14a0962ac0fd4b512377c49d562416aebd4c6d9"
 }
