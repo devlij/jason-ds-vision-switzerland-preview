@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Switzerland/Altdorf/ch-01-034-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "Gates 1-2: the master shows the Tell Monument on Rathausplatz — a bronze standing man with crossbow at his shoulder and a boy beside him on a plain stone pedestal, the medieval Türmli stone tower rising directly behind, old-town facades closing the square, no legible inscription or banner; exact 1920×1080/864×1080 masters, caption 'Tell Monument, Altdorf', 'Scenario: 24 September 2026 · 15:27 Europe/Zurich', disclosure and 'Jason D's Vision' signature exact; weather claim (Open-Meteo retrieved 2026-09-24T13:19:28Z, valid 15:15, code 3, 100% cloud, 21.2°C) per-scene and consistent with the flat overcast light. Gate 3: text-prompt-only lineage claimed, no photographic inputs. Gate 4: the only figure is a 19th-century public bronze of Wilhelm Tell — no living identifiable person, no logos; commercial call documented, not certified. Gate 5: no blockers.",
+  "approved_at": "2026-09-25T07:35:45.142161+00:00",
+  "sha256_16x9": "24bcf2f67b25174bc5c5df60515885e84d119117f9f1c671cfe493c4b60608ad",
+  "sha256_4x5": "f2ccc926814e895e662641f38451ab7f5ce321bfd7e1e43001f7e90411e8df99"
 }
