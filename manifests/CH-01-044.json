@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Switzerland/Bürgenstock/ch-01-044-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "G1: Buergenstock cliff-edge resort — long hotel complex on the wooded ridge, Hammetschwand lift tower in the foreground cliff, Lake Lucerne and cloud-veiled peaks beyond — recognizable Buergenstock composition, clean framing, no artifacts. G2: 1920x1080/864x1080 exact; exact caption 'Buergenstock, Buergenstock', '24 September 2026 · 15:28 Europe/Zurich', AI disclosure, curly-apostrophe signature on scrim. Weather fresh: batch retrieval 2026-09-24T13:19:28Z, valid 15:15, location-specific 19.4C/100pct at 795m cell (note records ridge cell, not crest). G3: notes claim text-prompt-only, no photographic inputs. G4: no identifiable people/logos; resort exterior, public vista. G5: no blockers.",
+  "approved_at": "2026-09-25T08:34:04.431478+00:00",
+  "sha256_16x9": "730f21f812ad117f550e6e3271fee99df33203483b33316021c324a2ddbc4d08",
+  "sha256_4x5": "9d4368404424d70ed6cb00f4cc621200704d67502cfbedd86c42c3b70221d761"
 }
