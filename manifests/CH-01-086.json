@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Switzerland/Sarnen/ch-01-086-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "G1: Double-towered baroque front with domed caps and the wide stair at Kirchhofen, Lake Sarnen visible beyond the slope — the Sarnen anchors read correctly; not the Titlis summit or Lungern shore. G2: exact 1920×1080 / 864×1080; caption 'Sarnen, Sarnen', scenario '24 September 2026 · 16:17 Europe/Zurich', disclosure 'AI-generated artistic interpretation · Not a photograph.' and exact 'Jason D's Vision' signature legible; weather retrieval 2026-09-24T14:11:31Z valid 16:00 — fresh. G3: text-prompt-only lineage recorded, no photographic inputs. G4: no identifiable people, no readable arms or logos; documented only. G5: no open blockers.",
+  "approved_at": "2026-09-25T12:32:44.925466+00:00",
+  "sha256_16x9": "aa862e86aa92c507cab86a712d1b1413988062b5e3c05f24504a54d0c82b4dd0",
+  "sha256_4x5": "7feae1a24d296ae468d6a2806b80301d1a46efdc5757872a0cb17e23a3c5b319"
 }
