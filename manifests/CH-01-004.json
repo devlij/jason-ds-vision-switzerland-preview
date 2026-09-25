@@ -34,6 +34,11 @@
       "at": "2026-09-25T14:31:34.984674+00:00",
       "by": "Cosmo QC",
       "note": "Gate 2 FAIL — shared batch Open-Meteo retrieval: approvals/CH-01-004.md records retrieved 2026-09-24T12:35:44Z, identical to the second with CH-01-001/002/003/004. Per the hardened one-retrieval-per-scene rule this is batch retrieval, so weather metadata is stale/reused. Visual review otherwise fine (exact caption, scenario '24 September 2026 · 14:38 Europe/Zurich', signature, disclosure present; dimensions verified 1920x1080 + 864x1080). Held as Candidate pending Grok per-scene weather rework."
+    },
+    {
+      "at": "2026-09-25T15:30:19.670409+00:00",
+      "by": "Cosmo QC",
+      "note": "Gate 2 FAIL (rejected, kept Candidate): weather retrieval shared across scenes — approvals/CH-01-004.md cites the identical Open-Meteo retrieval timestamp 2026-09-24T12:35:44Z also cited by CH-01-001 through CH-01-004. One retrieval per scene is required; identical-to-the-second timestamps = batch retrieval. Awaiting Grok per-scene weather rework before re-audit."
     }
   ]
 }
