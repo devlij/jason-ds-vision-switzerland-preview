@@ -12,10 +12,18 @@
   "file_4x5": "library/world/Switzerland/Lungern/ch-01-042-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Approved",
-  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_status": "Candidate",
+  "qc_status": "Candidate — reverted 2026-09-25 (Gate 2: shared weather retrieval; awaiting Grok rework)",
   "approval_basis": "G1: Lungern village chalet rooftops with tall church spire along the calm grey lake, steep forested mountains rising behind — plausible Lungerersee viewpoint, clean framing, no artifacts. G2: 1920x1080/864x1080 exact; exact caption 'Lungern, Lungern', '24 September 2026 · 15:28 Europe/Zurich', AI disclosure, curly-apostrophe signature on scrim. Weather fresh: batch retrieval 2026-09-24T13:19:28Z, valid 15:15, location-specific 18.8C/100pct at 710m cell. G3: notes claim text-prompt-only, no photographic inputs. G4: no identifiable people/logos; public village/lake. G5: no blockers.",
   "approved_at": "2026-09-25T08:33:35.679813+00:00",
   "sha256_16x9": "f2cbd9ffc1180a03bf110698449b6c10fa0508e32eb193e1d9f41eff28a36fb8",
-  "sha256_4x5": "1a4ca8f6f94e192e20fae82f3a58c097e694b74707f698694a7f378293cb709c"
+  "sha256_4x5": "1a4ca8f6f94e192e20fae82f3a58c097e694b74707f698694a7f378293cb709c",
+  "reverted_at": "2026-09-25T12:41:44.347680+00:00",
+  "qc_notes": [
+    {
+      "at": "2026-09-25T12:41:44.347680+00:00",
+      "by": "Cosmo QC",
+      "note": "Approval withdrawn 2026-09-25 (Cosmo QC): the weather metadata was a shared/batch Open-Meteo retrieval (retrieval timestamp 2026-09-24T13:19:28Z identical across 16 scenes), failing Gate 2 under the confirmed standing policy — one HTTP fetch per scene, one recorded retrieval timestamp per scene; identical-to-the-second timestamps across scenes = shared retrieval. Rework: fetch Open-Meteo fresh per scene (own HTTP request, own recorded timestamp), scenario hour inside the model-valid hour; update the approvals note with the new retrieval evidence; re-push masters only if on-image text must change. Scene stays Candidate until Cosmo QC re-audits."
+    }
+  ]
 }
