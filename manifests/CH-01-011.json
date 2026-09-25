@@ -12,10 +12,18 @@
   "file_4x5": "library/world/Switzerland/Appenzell/ch-01-011-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Approved",
-  "qc_status": "Approved · Cosmo QC 5/5 · Afternoon",
+  "approval_status": "Candidate",
+  "qc_status": "Candidate — reverted 2026-09-25 (Gate 2: shared weather retrieval; awaiting Grok rework)",
   "approval_basis": "G1 visual: Appenzell village center with painted wooden gables on the foreground houses, the church spire rising mid-frame, limestone ridges of the Alpstein behind — recognizably the captioned site from a plausible tourist viewpoint, clean framing, no artifacts. G2 technical: both masters exact 1920×1080/864×1080; exact 'Jason D's Vision' signature bottom-right; exact caption 'Appenzell, Appenzell' + 'Scenario: 24 September 2026 · 14:40 Europe/Zurich' + AI disclosure bottom-left on scrim, legible. Weather cross-check: approvals/CH-01-011.md records Open-Meteo retrieval 2026-09-24T12:40:09Z (14:40 CEST) valid 14:30 Zurich, code 3 overcast — consistent with scenario and the diffuse frame, no stale/reused metadata. G3: text-prompt-only lineage documented, no photographic inputs. G4: no prominent people or focal logos (public square largely empty) — documented, commercial call remains Jason's. G5: all gates pass, publish-ready.",
   "approved_at": "2026-09-25T05:33:02.434133+00:00",
   "sha256_16x9": "4c19613287c783e619203897642230c37f791187e629fd9df39fe5fdca8aa59f",
-  "sha256_4x5": "fc6f51588e330b191e54725f4c1c33da7ed7e6d0c306ddef6c31513b16bdb5db"
+  "sha256_4x5": "fc6f51588e330b191e54725f4c1c33da7ed7e6d0c306ddef6c31513b16bdb5db",
+  "reverted_at": "2026-09-25T12:40:18.535016+00:00",
+  "qc_notes": [
+    {
+      "at": "2026-09-25T12:40:18.535016+00:00",
+      "by": "Cosmo QC",
+      "note": "Approval withdrawn 2026-09-25 (Cosmo QC): the weather metadata was a shared/batch Open-Meteo retrieval (retrieval timestamp 2026-09-24T12:40:09Z identical across 12 scenes), failing Gate 2 under the confirmed standing policy — one HTTP fetch per scene, one recorded retrieval timestamp per scene; identical-to-the-second timestamps across scenes = shared retrieval. Rework: fetch Open-Meteo fresh per scene (own HTTP request, own recorded timestamp), scenario hour inside the model-valid hour; update the approvals note with the new retrieval evidence; re-push masters only if on-image text must change. Scene stays Candidate until Cosmo QC re-audits."
+    }
+  ]
 }
