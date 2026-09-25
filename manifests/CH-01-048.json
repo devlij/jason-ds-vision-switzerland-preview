@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Switzerland/Basel/ch-01-048-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "Gate 1: red sandstone west front of Basel Minster from Münsterplatz with the taller Georgsturm and slightly shorter Martinsturm and patterned tile roof; overcast grey sky consistent with scenario. Gate 2: sweep-verified 1920x1080 + 864x1080 PNGs; on-image exact caption 'Basel Minster, Basel', scenario '24 September 2026 · 15:28 Europe/Zurich', disclosure 'AI-generated artistic interpretation · Not a photograph.' bottom-left on gradient scrim, 'Jason D's Vision' bottom-right — legible, non-intrusive. Weather cross-check: retrieved 2026-09-24T13:19:28Z valid 15:15 vs scenario 15:28 — consistent, not stale; code 3 overcast 100%, 22.9C matches rendered sky. Gate 3: text-prompt-only lineage, no photographic inputs per approvals/CH-01-048.md. Gate 4: empty plaza, no visible people or logos; public historic church. Gate 5: no open blockers.",
+  "approved_at": "2026-09-25T09:31:36.589747+00:00",
+  "sha256_16x9": "c92c514bb96c97fbe1523b7ad8890d3d534d4e77a17c2cdaf07540a5a88e3eda",
+  "sha256_4x5": "98609abacb37b2236550ed61f2858c5d8ad802a533b8366dec2781de287fef62"
 }
