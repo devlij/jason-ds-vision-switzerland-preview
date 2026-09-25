@@ -29,6 +29,11 @@
       "at": "2026-09-25T13:33:20.226277+00:00",
       "by": "Cosmo QC",
       "note": "Gate 2 FAIL (shared weather retrieval): Open-Meteo retrieval timestamp 2026-09-24T12:40:09Z identical to the second across CH-01-005/006/007/008/009/010 — batch retrieval, not per-scene (hardened 2026-09-25 rule). Gate 1 passed (Zytglogge clock tower closing the cobbled Marktgasse vista with arcaded Lauben buildings; exact caption/scenario/signature/disclosure on-image). Gates 3–4 noted (text-prompt-only lineage claimed; no prominent people/logos seen). Hold at Candidate until the per-scene weather rework lands."
+    },
+    {
+      "at": "2026-09-25T15:30:30.354789+00:00",
+      "by": "Cosmo QC",
+      "note": "Gate 2 FAIL (rejected, kept Candidate): weather retrieval shared across scenes — approvals/CH-01-005.md cites the identical Open-Meteo retrieval timestamp 2026-09-24T12:40:09Z also cited by CH-01-005 through CH-01-010. One retrieval per scene is required; identical-to-the-second timestamps = batch retrieval. Awaiting Grok per-scene weather rework before re-audit."
     }
   ]
 }
