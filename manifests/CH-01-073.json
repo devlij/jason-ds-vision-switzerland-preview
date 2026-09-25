@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Switzerland/Salenstein/ch-01-073-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "Gates 1–5 pass. Gate 1: the 16:9 master shows the pale empire-style château of Arenenberg in its park on the slope above the Untersee, exterior only — no portraits, no interior views — under a full overcast; matches the anchors. Gate 2: masters mechanically verified 1920×1080 + 864×1080; caption ‘Arenenberg, Salenstein’, scenario ‘24 September 2026 · 16:01 Europe/Zurich’, disclosure legible bottom-left; exact ‘Jason D’s Vision’ bottom-right. Weather: retrieved 2026-09-24T14:00:42Z, valid 16:00 Europe/Zurich; scene-specific (code 3, 100% cloud, 20.4°C, wind 15.8 from 271°, cell ~430m at the château slope) — distinct values, batch timestamp artifact. Gate 3: text-prompt-only lineage recorded. Gate 4: no visible people, no logos — notes only. Gate 5: no open blockers.",
+  "approved_at": "2026-09-25T11:34:05.321875+00:00",
+  "sha256_16x9": "ebe20072b0e3b51802584de1366a38a158f83cb46fac35ba9391357c3b5414e0",
+  "sha256_4x5": "f483b77f68a2c64de51544384ef5360169f0c6aba77014cc60d87f5e54473edf"
 }
