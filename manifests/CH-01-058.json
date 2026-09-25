@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Switzerland/Poschiavo/ch-01-058-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "G1: milky Lago Bianco with the Bernina dam wall and rugged peaks under broken cloud reads as the Ospizio Bernina viewpoint; clean framing, no artifacts. G2: 1920x1080/864x1080 confirmed, caption 'Lago Bianco, Poschiavo', scenario 'Scenario: 24 September 2026 · 15:44 Europe/Zurich', disclosure 'AI-generated artistic interpretation · Not a photograph.' and 'Jason D's Vision' with curly apostrophe, all legible on the bottom scrim; weather retrieved 2026-09-24T13:37:01Z (15:37 Zurich), valid 15:30 — fresh against the 15:44 scenario, not reused. G3: text-prompt-only lineage, no photographic inputs per the build notes. G4: no people, no logos; dam infrastructure is public — documented only, no chain certified clean. G5: no open blockers.",
+  "approved_at": "2026-09-25T10:31:13.606347+00:00",
+  "sha256_16x9": "1b209a2852e3acfbb1c939775ab21241f2eb0acab55a2daf0d8baacd94c93c30",
+  "sha256_4x5": "386a4bea9147d2cc21dea75dfd3323d79f5dbe99c618309cfe16bcdf2a3a624f"
 }
