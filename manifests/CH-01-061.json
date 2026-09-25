@@ -12,10 +12,18 @@
   "file_4x5": "library/world/Switzerland/Bellinzona/ch-01-061-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Approved",
-  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_status": "Candidate",
+  "qc_status": "Candidate — reverted 2026-09-25 (Gate 2: shared weather retrieval; awaiting Grok rework)",
   "approval_basis": "G1: Castelgrande's curtain walls and twin stone towers on the rock above Bellinzona, terraced vineyards on the slope and old-town rooftops below — plausible view up from the old town; clean, no artifacts. G2: exact dimensions, caption 'Castelgrande, Bellinzona', scenario 'Scenario: 24 September 2026 · 15:44 Europe/Zurich', disclosure and 'Jason D's Vision' signature legible on the scrim; weather retrieved 13:37:01Z, valid 15:30 — fresh against the 15:44 scenario. G3: text-prompt-only, no photographic inputs per build notes. G4: no people, no logos; UNESCO fortress, public — documented only. G5: no open blockers.",
   "approved_at": "2026-09-25T10:31:51.754580+00:00",
   "sha256_16x9": "96dcadac1095eecdf54c3cff94d578417ec333f288a32bbe8183cfc76edd6814",
-  "sha256_4x5": "e50042e900df991537f83a18b0e151ac53a50db957a9a2e4a4b5fa878e184b0f"
+  "sha256_4x5": "e50042e900df991537f83a18b0e151ac53a50db957a9a2e4a4b5fa878e184b0f",
+  "reverted_at": "2026-09-25T12:42:39.481543+00:00",
+  "qc_notes": [
+    {
+      "at": "2026-09-25T12:42:39.481543+00:00",
+      "by": "Cosmo QC",
+      "note": "Approval withdrawn 2026-09-25 (Cosmo QC): the weather metadata was a shared/batch Open-Meteo retrieval (retrieval timestamp 2026-09-24T13:37:01Z identical across 16 scenes), failing Gate 2 under the confirmed standing policy — one HTTP fetch per scene, one recorded retrieval timestamp per scene; identical-to-the-second timestamps across scenes = shared retrieval. Rework: fetch Open-Meteo fresh per scene (own HTTP request, own recorded timestamp), scenario hour inside the model-valid hour; update the approvals note with the new retrieval evidence; re-push masters only if on-image text must change. Scene stays Candidate until Cosmo QC re-audits."
+    }
+  ]
 }
