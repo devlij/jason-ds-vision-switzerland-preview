@@ -12,10 +12,18 @@
   "file_4x5": "library/world/Switzerland/Einsiedeln/ch-01-038-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Approved",
-  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_status": "Candidate",
+  "qc_status": "Candidate — reverted 2026-09-25 (Gate 2: shared weather retrieval; awaiting Grok rework)",
   "approval_basis": "G1: Einsiedeln Abbey baroque west front with twin towers, long monastery wings, Klosterplatz fountain — recognizable, clean framing, no artifacts. G2: 1920x1080/864x1080 exact; exact caption, '24 September 2026 · 15:27 Europe/Zurich' scenario, AI disclosure, curly-apostrophe signature bottom-right on scrim. Weather fresh: retrieved 2026-09-24T13:19:28Z batch fetch, valid 15:15, location-specific 17.2C/100pct overcast at 896m cell — Greece-precedent pass, not Spain-style reuse. G3: notes claim text-prompt-only, no photographic inputs. G4: no identifiable people/logos; public landmark exterior. G5: no blockers.",
   "approved_at": "2026-09-25T08:32:43.939360+00:00",
   "sha256_16x9": "d6903fec821d2e8fdd1f369c365aaa07c86d4c2793150940ff81479ba8535f04",
-  "sha256_4x5": "1b19602f23580877550f6905cea0bd67d59c274151769de354313d6c3520a077"
+  "sha256_4x5": "1b19602f23580877550f6905cea0bd67d59c274151769de354313d6c3520a077",
+  "reverted_at": "2026-09-25T12:41:34.245390+00:00",
+  "qc_notes": [
+    {
+      "at": "2026-09-25T12:41:34.245390+00:00",
+      "by": "Cosmo QC",
+      "note": "Approval withdrawn 2026-09-25 (Cosmo QC): the weather metadata was a shared/batch Open-Meteo retrieval (retrieval timestamp 2026-09-24T13:19:28Z identical across 16 scenes), failing Gate 2 under the confirmed standing policy — one HTTP fetch per scene, one recorded retrieval timestamp per scene; identical-to-the-second timestamps across scenes = shared retrieval. Rework: fetch Open-Meteo fresh per scene (own HTTP request, own recorded timestamp), scenario hour inside the model-valid hour; update the approvals note with the new retrieval evidence; re-push masters only if on-image text must change. Scene stays Candidate until Cosmo QC re-audits."
+    }
+  ]
 }
