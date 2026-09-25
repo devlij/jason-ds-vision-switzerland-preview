@@ -12,10 +12,18 @@
   "file_4x5": "library/world/Switzerland/Interlaken/ch-01-003-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Approved",
-  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_status": "Candidate",
+  "qc_status": "Candidate — reverted 2026-09-25 (Gate 2: shared weather retrieval; awaiting Grok rework)",
   "approval_basis": "CH-01-003 Jungfrau, Interlaken: 16:9 master shows the view south from an elevated terrace (railing visible at bottom) across Interlaken with the town and the Aare bend in the valley, Lake Brienz to the east on the left and the larger Lake Thun to the west on the right, and the Eiger's dark wall left, Mönch center, snowier Jungfrau right with cloud on the high faces. Gate 1: recognizable valley-and-lake arrangement from a plausible Harder Kulm viewpoint; editorial check only, no misconfiguration or artifacts. Gate 2: 1920×1080 and 864×1080 confirmed; on-image text reads exactly 'Jungfrau, Interlaken', 'Scenario: 24 September 2026 · 14:38 Europe/Zurich', 'AI-generated artistic interpretation · Not a photograph.', and 'Jason D's Vision' with curly apostrophe, legible on the bottom gradient. Weather check: notes record Open-Meteo retrieval 2026-09-24T12:35:44Z valid 14:30, overcast 100% cloud 18.2°C — consistent with the 14:38 scenario and the heavily clouded peaks in frame; no stale/reused metadata. Gate 3: text-prompt-only lineage, no photographic inputs reported. Gate 4: no visible people, no logos; public landscape, commercial call remains Jason's. Gate 5: no blockers.",
   "approved_at": "2026-09-25T04:32:48.622075+00:00",
   "sha256_16x9": "20c5038b18e616e819007fa081965151359b88fae6ab7fcb1a2819d13ca05f02",
-  "sha256_4x5": "f49cb40f54acae9652656e5ec78b2bda48a42fcb5d14d20d13858646a689a3b0"
+  "sha256_4x5": "f49cb40f54acae9652656e5ec78b2bda48a42fcb5d14d20d13858646a689a3b0",
+  "reverted_at": "2026-09-25T12:39:48.113663+00:00",
+  "qc_notes": [
+    {
+      "at": "2026-09-25T12:39:48.113663+00:00",
+      "by": "Cosmo QC",
+      "note": "Approval withdrawn 2026-09-25 (Cosmo QC): the weather metadata was a shared/batch Open-Meteo retrieval (retrieval timestamp 2026-09-24T12:35:44Z identical across 4 scenes), failing Gate 2 under the confirmed standing policy — one HTTP fetch per scene, one recorded retrieval timestamp per scene; identical-to-the-second timestamps across scenes = shared retrieval. Rework: fetch Open-Meteo fresh per scene (own HTTP request, own recorded timestamp), scenario hour inside the model-valid hour; update the approvals note with the new retrieval evidence; re-push masters only if on-image text must change. Scene stays Candidate until Cosmo QC re-audits."
+    }
+  ]
 }
