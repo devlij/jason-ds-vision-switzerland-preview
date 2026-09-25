@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Switzerland/Thun/ch-01-014-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Afternoon",
+  "approval_basis": "G1 visual: Thun Castle's massive square keep with four corner towers above the old-town roofs, the Aare flowing toward Lake Thun at right, snow peaks faint under cloud — recognizably the captioned site from a plausible street viewpoint, no cranes, no artifacts. G2 technical: both masters exact 1920×1080/864×1080; exact 'Jason D's Vision' signature bottom-right; exact caption 'Thun Castle, Thun' + 'Scenario: 24 September 2026 · 14:42 Europe/Zurich' + AI disclosure bottom-left on scrim, legible. Weather cross-check: approvals/CH-01-014.md records Open-Meteo retrieval 2026-09-24T12:40:09Z (14:40 CEST) valid 14:30 Zurich, code 3 overcast 96% cloud — consistent with scenario and the muted alpine backdrop, no reused metadata. G3: text-prompt-only lineage documented, no photographic inputs. G4: no prominent people or focal logos — documented, commercial call remains Jason's. G5: all gates pass, publish-ready.",
+  "approved_at": "2026-09-25T05:33:51.680104+00:00",
+  "sha256_16x9": "1d5bff1c96797d1937dd136a11fc7e3ec6ea1681f9e370f33f758bd0a28e1165",
+  "sha256_4x5": "30bbcc8065676c607bea0e052f3a2d7b9e2ad879faa162510a627795869d867f"
 }
