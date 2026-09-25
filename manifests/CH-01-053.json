@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Switzerland/Wasserauen/ch-01-053-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "Gate 1: Seealpsee in the Alpstein limestone basin above Wasserauen — small lake reflecting steep rock walls, wooden alpine huts at the shore, low cloud wrapping the peaks; correct setting and mood. Gate 2: sweep-verified 1920x1080 + 864x1080 PNGs; exact caption 'Seealpsee, Wasserauen', scenario '24 September 2026 · 15:41 Europe/Zurich', disclosure 'AI-generated artistic interpretation · Not a photograph.' bottom-left on scrim, 'Jason D's Vision' bottom-right. Weather: batch retrieval 2026-09-24T13:37:01Z valid 15:30 vs scenario 15:41 — consistent; per-scene code 3 overcast 97%, 15.4C — cooler high-altitude value coherent with geography and matches the misty rendered peaks (values differ per scene, not copied). Gate 3: text-prompt-only lineage, no photographic inputs per approvals/CH-01-053.md. Gate 4: no visible people or logos; public alpine lake. Gate 5: no open blockers.",
+  "approved_at": "2026-09-25T09:32:51.071153+00:00",
+  "sha256_16x9": "ea46931fd15685aa795b1f3e62df403d300c45267028940e958d2eefc7e1360e",
+  "sha256_4x5": "e5eb24fbec7268d90898684f6f2185a3f3762ddf60a62ae98511ff7bf82002fb"
 }
