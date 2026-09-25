@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Switzerland/Locarno/ch-01-032-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "Gates 1-2: the master shows Piazza Grande as a long stone-paved rectangle lined with continuous arcades and shuttered facades, palms edging the square, opening toward lake light and mountains at the far end — no festival branding, screen, or red carpet; exact 1920×1080/864×1080 masters, caption 'Piazza Grande, Locarno', 'Scenario: 24 September 2026 · 15:09 Europe/Zurich', disclosure and 'Jason D's Vision' signature exact; weather claim (Open-Meteo retrieved 2026-09-24T13:08:46Z, valid 15:00, code 3, 100% cloud, 22.3°C) per-scene and consistent with the soft grey light. Gate 3: text-prompt-only lineage claimed, no photographic inputs. Gate 4: square empty of prominent people, no readable logos. Gate 5: no blockers.",
+  "approved_at": "2026-09-25T07:35:21.165705+00:00",
+  "sha256_16x9": "18647b9ddcb406edf4469331372c28256f1f7d53e82de3c35d345f3079b6d514",
+  "sha256_4x5": "e58687281d6d225be4761486e123123dfd501339c8bec522c9198f503e67b24a"
 }
