@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Switzerland/Zermatt/ch-01-001-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "CH-01-001 Matterhorn, Zermatt: 16:9 master shows the asymmetric pyramidal Matterhorn rising right of frame with the snow-ridged summit and Hörnli ridge falling to the right, the crevassed Gorner Glacier with grey moraines in the middle ground, and tawny late-September rock in the foreground viewed from the Gornergrat side. Gate 1: location recognizable, clean framing, no artifacts. Gate 2: 1920×1080 and 864×1080 confirmed; on-image text reads exactly 'Matterhorn, Zermatt', 'Scenario: 24 September 2026 · 14:38 Europe/Zurich', 'AI-generated artistic interpretation · Not a photograph.', and 'Jason D's Vision' with curly apostrophe, all legible on the bottom gradient without spoiling the scene. Weather check: notes record Open-Meteo retrieval 2026-09-24T12:35:44Z valid 14:30 for a partly-cloudy 9.3°C cell — consistent with the 14:38 scenario and the partly-cloudy sky in frame; no stale/reused metadata. Gate 3: text-prompt-only lineage, no photographic inputs reported. Gate 4: no visible people, no logos; public landscape, commercial call remains Jason's. Gate 5: no blockers.",
+  "approved_at": "2026-09-25T04:32:14.513082+00:00",
+  "sha256_16x9": "517cf6d0e27b0719c9498b44d312d5a049aa07d172c02cba30c27e5220cb3390",
+  "sha256_4x5": "04ef00b3c1b3d99e9c20293fab70f768525a86c8f4d404f47cbb94235d26f47e"
 }
