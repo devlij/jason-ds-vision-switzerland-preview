@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Switzerland/Delémont/ch-01-083-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "G1: Baroque château on its rusticated stone base with the garden terrace in the foreground, Saint-Marcel's tower among the old-town roofs, Jura hills behind — the Delémont anchors read correctly; this is not St-Ursanne, no mural subject. G2: exact 1920×1080 / 864×1080; caption 'Delémont, Delémont', scenario '24 September 2026 · 16:14 Europe/Zurich', disclosure 'AI-generated artistic interpretation · Not a photograph.' and exact 'Jason D's Vision' signature legible on the scrim; weather retrieval 2026-09-24T14:11:31Z valid 16:00 — fresh. G3: text-prompt-only lineage recorded, no photographic inputs. G4: no identifiable people or focal logos; documented only. G5: no open blockers.",
+  "approved_at": "2026-09-25T12:32:02.060722+00:00",
+  "sha256_16x9": "dbc4dd600715c205a5299db0c71b37515da1da5b0882e77ecbeb7ac1f2443f99",
+  "sha256_4x5": "0ea9d43dba1748fc342e8d27c85e4d38cca1ffb960b864b3dcbadeba32db1b62"
 }
