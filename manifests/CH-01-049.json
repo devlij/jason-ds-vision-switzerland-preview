@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Switzerland/Oberdorf/ch-01-049-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "Gate 1: Weissenstein Jura ridge above Oberdorf — alpine pasture, the Berghotel on the crest, rolling Mittelland and a faint distant Alpine chain to the west; plausible summit viewpoint under heavy overcast. Gate 2: sweep-verified 1920x1080 + 864x1080 PNGs; exact caption 'Weissenstein, Oberdorf', scenario '24 September 2026 · 15:39 Europe/Zurich', disclosure 'AI-generated artistic interpretation · Not a photograph.' bottom-left on scrim, 'Jason D's Vision' bottom-right. Weather cross-check: batch retrieval 2026-09-24T13:37:01Z valid 15:30 vs scenario 15:39 — consistent; per-scene values code 3 overcast 100%, 15.6C coherent with cooler summit and match the grey rendered sky (values differ per scene, not copied). Gate 3: text-prompt-only lineage, no photographic inputs per approvals/CH-01-049.md. Gate 4: no visible people or logos; public summit ridge/hotel. Gate 5: no open blockers.",
+  "approved_at": "2026-09-25T09:31:52.024083+00:00",
+  "sha256_16x9": "71163ce3173b04e3e4a3bc9af019257b8cc201e39a40e90a9c3c24575af11aa6",
+  "sha256_4x5": "11af9bb2af833c1343371f634a27d3b3796ab40afcf37d5ea247740c6b00cc01"
 }
