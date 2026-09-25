@@ -2,25 +2,27 @@
   "entry_id": "CH-01-008",
   "country": "Switzerland",
   "region": "Fribourg",
-  "city": "Gruyères",
-  "caption": "Gruyères Castle, Gruyères",
-  "scenario_label": "24 September 2026 · 14:40 Europe/Zurich",
-  "composition": "Medieval street climbing to Gruyères Castle on the hill · AI-generated artistic interpretation",
-  "description": "The cobbled main street of Gruyères rises between medieval houses to the castle at the top of the hill, with round towers and steep roofs. The Fribourg pre-Alps sit behind the town. The castle is shown as it stands, without added scaffolding, and the street has no prominent people. Afternoon light is the soft overcast from the Open-Meteo model.",
-  "alt_text": "AI-generated artistic interpretation of Gruyères Castle above the medieval street in Gruyères",
-  "file_16x9": "library/world/Switzerland/Gruyères/ch-01-008-16x9.png",
-  "file_4x5": "library/world/Switzerland/Gruyères/ch-01-008-4x5.png",
-  "license_badge": "Free · no credit needed",
+  "city": "Gruy\u00e8res",
+  "caption": "Gruy\u00e8res Castle, Gruy\u00e8res",
+  "scenario_label": "24 September 2026 \u00b7 14:40 Europe/Zurich",
+  "composition": "Medieval street climbing to Gruy\u00e8res Castle on the hill \u00b7 AI-generated artistic interpretation",
+  "description": "The cobbled main street of Gruy\u00e8res rises between medieval houses to the castle at the top of the hill, with round towers and steep roofs. The Fribourg pre-Alps sit behind the town. The castle is shown as it stands, without added scaffolding, and the street has no prominent people. Afternoon light is the soft overcast from the Open-Meteo model.",
+  "alt_text": "AI-generated artistic interpretation of Gruy\u00e8res Castle above the medieval street in Gruy\u00e8res",
+  "file_16x9": "library/world/Switzerland/Gruy\u00e8res/ch-01-008-16x9.png",
+  "file_4x5": "library/world/Switzerland/Gruy\u00e8res/ch-01-008-4x5.png",
+  "license_badge": "Free \u00b7 no credit needed",
   "license_anchor": "#license",
   "approval_status": "Approved",
   "qc_notes": [
     {
       "at": "2026-09-25T04:34:21.739714+00:00",
       "by": "Cosmo QC",
-      "note": "QC hold (mechanical, not a gate verdict): 16:9 and 4:5 master URLs returned DOWNLOAD FAILED in the sweep — file not retrievable from the preview site, so the five-gate audit could not be performed. Left as Candidate. Build agent to re-check/re-push the masters for ch-01-008-16x9.png and ch-01-008-4x5.png."
+      "note": "QC hold (mechanical, not a gate verdict): 16:9 and 4:5 master URLs returned DOWNLOAD FAILED in the sweep \u2014 file not retrievable from the preview site, so the five-gate audit could not be performed. Left as Candidate. Build agent to re-check/re-push the masters for ch-01-008-16x9.png and ch-01-008-4x5.png."
     }
   ],
-  "qc_status": "Approved · Cosmo QC 5/5 · Afternoon",
-  "approval_basis": "G1 visual: Gruyères Castle with round towers and steep roofs crowns the hill above the cobbled medieval main street and stone houses, Fribourg pre-Alps behind, overcast diffuse light, no scaffolding — recognizably the captioned site from a plausible tourist viewpoint, clean framing, no artifacts. G2 technical: both masters exact 1920×1080/864×1080; exact 'Jason D's Vision' signature bottom-right; exact caption 'Gruyères Castle, Gruyères' + 'Scenario: 24 September 2026 · 14:40 Europe/Zurich' + 'AI-generated artistic interpretation · Not a photograph.' bottom-left on gradient scrim, legible and non-intrusive. Weather cross-check: approvals/CH-01-008.md records Open-Meteo retrieval 2026-09-24T12:40:09Z (14:40 CEST) valid 14:30 Zurich — consistent with the 14:40 scenario, no stale or reused timestamps. G3: approvals file documents text-prompt-only lineage, no photographic inputs. G4: no prominent identifiable people or focal logos (a few distant street figures only) — documented, final commercial call Jason's. G5: all gates pass, publish-ready.",
-  "approved_at": "2026-09-25T05:32:33.825357+00:00"
+  "qc_status": "Approved \u00b7 Cosmo QC 5/5 \u00b7 Afternoon",
+  "approval_basis": "G1 visual: Gruy\u00e8res Castle with round towers and steep roofs crowns the hill above the cobbled medieval main street and stone houses, Fribourg pre-Alps behind, overcast diffuse light, no scaffolding \u2014 recognizably the captioned site from a plausible tourist viewpoint, clean framing, no artifacts. G2 technical: both masters exact 1920\u00d71080/864\u00d71080; exact 'Jason D's Vision' signature bottom-right; exact caption 'Gruy\u00e8res Castle, Gruy\u00e8res' + 'Scenario: 24 September 2026 \u00b7 14:40 Europe/Zurich' + 'AI-generated artistic interpretation \u00b7 Not a photograph.' bottom-left on gradient scrim, legible and non-intrusive. Weather cross-check: approvals/CH-01-008.md records Open-Meteo retrieval 2026-09-24T12:40:09Z (14:40 CEST) valid 14:30 Zurich \u2014 consistent with the 14:40 scenario, no stale or reused timestamps. G3: approvals file documents text-prompt-only lineage, no photographic inputs. G4: no prominent identifiable people or focal logos (a few distant street figures only) \u2014 documented, final commercial call Jason's. G5: all gates pass, publish-ready.",
+  "approved_at": "2026-09-25T05:32:33.825357+00:00",
+  "sha256_16x9": "221944c41d95183f9b50b622fe970e55395c7ce6d41a479f9bcb4ab7d687fd7b",
+  "sha256_4x5": "8fc47717150eca90303d69f16eb746759c88a81a5410621381d51c54909386fa"
 }
