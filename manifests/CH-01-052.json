@@ -12,10 +12,18 @@
   "file_4x5": "library/world/Switzerland/Stein am Rhein/ch-01-052-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Approved",
-  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_status": "Candidate",
+  "qc_status": "Candidate — reverted 2026-09-25 (Gate 2: shared weather retrieval; awaiting Grok rework)",
   "approval_basis": "Gate 1: Stein am Rhein from the river — row of waterfront houses with oriel windows and painted/muraled facades, Burg Hohenklingen on the wooded hill above the roofs; correct site identity and composition. Gate 2: sweep-verified 1920x1080 + 864x1080 PNGs; exact caption 'Stein am Rhein, Stein am Rhein', scenario '24 September 2026 · 15:40 Europe/Zurich', disclosure 'AI-generated artistic interpretation · Not a photograph.' bottom-left on scrim, 'Jason D's Vision' bottom-right. Weather: batch retrieval 2026-09-24T13:37:01Z valid 15:30 vs scenario 15:40 — consistent; per-scene code 3 overcast 100%, 20.8C matches the grey rendered sky (values differ per scene, not copied). Gate 3: text-prompt-only lineage, no photographic inputs per approvals/CH-01-052.md. Gate 4: no visible people or logos; public old town. Gate 5: no open blockers.",
   "approved_at": "2026-09-25T09:32:37.111400+00:00",
   "sha256_16x9": "772ca8afec9c27192b1f45f03786bbb62745d52d546a637b757ee1712e6ed76c",
-  "sha256_4x5": "9ec21475e8d64b52e2d2a15e24271471ded0434cf3a3a41cb5b518805a52844a"
+  "sha256_4x5": "9ec21475e8d64b52e2d2a15e24271471ded0434cf3a3a41cb5b518805a52844a",
+  "reverted_at": "2026-09-25T12:42:16.574954+00:00",
+  "qc_notes": [
+    {
+      "at": "2026-09-25T12:42:16.574954+00:00",
+      "by": "Cosmo QC",
+      "note": "Approval withdrawn 2026-09-25 (Cosmo QC): the weather metadata was a shared/batch Open-Meteo retrieval (retrieval timestamp 2026-09-24T13:37:01Z identical across 16 scenes), failing Gate 2 under the confirmed standing policy — one HTTP fetch per scene, one recorded retrieval timestamp per scene; identical-to-the-second timestamps across scenes = shared retrieval. Rework: fetch Open-Meteo fresh per scene (own HTTP request, own recorded timestamp), scenario hour inside the model-valid hour; update the approvals note with the new retrieval evidence; re-push masters only if on-image text must change. Scene stays Candidate until Cosmo QC re-audits."
+    }
+  ]
 }
