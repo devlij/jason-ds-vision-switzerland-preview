@@ -29,6 +29,11 @@
       "at": "2026-09-25T13:32:33.929634+00:00",
       "by": "Cosmo QC",
       "note": "Gate 2 FAIL (shared weather retrieval): Open-Meteo retrieval timestamp 2026-09-24T12:35:44Z identical to the second across CH-01-001/002/003/004 — batch retrieval, not per-scene (hardened 2026-09-25 rule). Gate 1 passed (Matterhorn pyramidal horn with Gorner Glacier mid-ground from Gornergrat; exact caption/scenario/signature/disclosure on-image). Gates 3–4 noted (text-prompt-only lineage claimed; no prominent people/logos seen). Hold at Candidate until the per-scene weather rework lands."
+    },
+    {
+      "at": "2026-09-25T14:31:28.124739+00:00",
+      "by": "Cosmo QC",
+      "note": "Gate 2 FAIL — shared batch Open-Meteo retrieval: approvals/CH-01-001.md records retrieved 2026-09-24T12:35:44Z, identical to the second with CH-01-001/002/003/004. Per the hardened one-retrieval-per-scene rule this is batch retrieval, so weather metadata is stale/reused. Visual review otherwise fine (exact caption, scenario '24 September 2026 · 14:38 Europe/Zurich', signature, disclosure present; dimensions verified 1920x1080 + 864x1080). Held as Candidate pending Grok per-scene weather rework."
     }
   ]
 }
