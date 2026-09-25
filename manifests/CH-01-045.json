@@ -12,10 +12,18 @@
   "file_4x5": "library/world/Switzerland/Zug/ch-01-045-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Approved",
-  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_status": "Candidate",
+  "qc_status": "Candidate — reverted 2026-09-25 (Gate 2: shared weather retrieval; awaiting Grok rework)",
   "approval_basis": "G1: Zug Old Town square — Zytturm clock tower with frescoes and double clock faces, arcaded house row, lake and forested far shore beyond — recognizable Zug composition, clean framing, no artifacts. G2: 1920x1080/864x1080 exact; exact caption 'Zug Old Town, Zug', '24 September 2026 · 15:28 Europe/Zurich', AI disclosure, curly-apostrophe signature on scrim. Weather fresh: batch retrieval 2026-09-24T13:19:28Z, valid 15:15, location-specific 21.5C/100pct at 427m cell. G3: notes claim text-prompt-only, no photographic inputs. G4: no identifiable people/logos; public old town. G5: no blockers.",
   "approved_at": "2026-09-25T08:34:19.516792+00:00",
   "sha256_16x9": "04abac492b78fb71e774c6cb2fdffea069d9573ac7b02d378afb4f95595d467f",
-  "sha256_4x5": "165db9c43d6d2f9096797875f55a498ba8b5312469a64712274affa705ab34e6"
+  "sha256_4x5": "165db9c43d6d2f9096797875f55a498ba8b5312469a64712274affa705ab34e6",
+  "reverted_at": "2026-09-25T12:41:52.102585+00:00",
+  "qc_notes": [
+    {
+      "at": "2026-09-25T12:41:52.102585+00:00",
+      "by": "Cosmo QC",
+      "note": "Approval withdrawn 2026-09-25 (Cosmo QC): the weather metadata was a shared/batch Open-Meteo retrieval (retrieval timestamp 2026-09-24T13:19:28Z identical across 16 scenes), failing Gate 2 under the confirmed standing policy — one HTTP fetch per scene, one recorded retrieval timestamp per scene; identical-to-the-second timestamps across scenes = shared retrieval. Rework: fetch Open-Meteo fresh per scene (own HTTP request, own recorded timestamp), scenario hour inside the model-valid hour; update the approvals note with the new retrieval evidence; re-push masters only if on-image text must change. Scene stays Candidate until Cosmo QC re-audits."
+    }
+  ]
 }
