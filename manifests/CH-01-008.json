@@ -12,5 +12,12 @@
   "file_4x5": "library/world/Switzerland/Gruyères/ch-01-008-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Candidate",
+  "qc_notes": [
+    {
+      "at": "2026-09-25T04:34:21.739714+00:00",
+      "by": "Cosmo QC",
+      "note": "QC hold (mechanical, not a gate verdict): 16:9 and 4:5 master URLs returned DOWNLOAD FAILED in the sweep — file not retrievable from the preview site, so the five-gate audit could not be performed. Left as Candidate. Build agent to re-check/re-push the masters for ch-01-008-16x9.png and ch-01-008-4x5.png."
+    }
+  ]
 }
