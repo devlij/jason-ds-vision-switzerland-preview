@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Switzerland/Lucerne/ch-01-002-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "CH-01-002 Chapel Bridge, Lucerne: 16:9 master shows the covered wooden Chapel Bridge running diagonally across the Reuss with red flower boxes along the span and the octagonal stone Water Tower standing in the river beside it, old-town facades and the Jesuitenkirche tower on the far bank. Gate 1: recognizable covered bridge and water tower from a plausible bank viewpoint; no scaffolding or ruin, clean framing. Gate 2: 1920×1080 and 864×1080 confirmed; on-image text reads exactly 'Chapel Bridge, Lucerne', 'Scenario: 24 September 2026 · 14:38 Europe/Zurich', 'AI-generated artistic interpretation · Not a photograph.', and 'Jason D's Vision' with curly apostrophe, legible on the bottom gradient. Weather check: notes record Open-Meteo retrieval 2026-09-24T12:35:44Z valid 14:30, overcast 100% cloud 22.6°C — consistent with the 14:38 scenario and the grey overcast sky in frame; no stale/reused metadata. Gate 3: text-prompt-only lineage, no photographic inputs reported. Gate 4: no visible people, no logos; public riverside scene, commercial call remains Jason's. Gate 5: no blockers.",
+  "approved_at": "2026-09-25T04:32:31.757736+00:00",
+  "sha256_16x9": "3aafca9e08998ce394b9721d6ebe8fd73f2e6f25918837cced2814d842df8a67",
+  "sha256_4x5": "23a5156c63954a5325f3218e36c736723c3996eea3b56cd83ec0252ac9dd6f98"
 }
