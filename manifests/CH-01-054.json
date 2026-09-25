@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Switzerland/Schwägalp/ch-01-054-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "Gate 1: Säntis from the Schwägalp pastures — steep limestone massif with cloud wrapping the summit, a snow patch on the upper crags, alpine chalets in the foreground meadow; correct mountain identity and viewpoint. Gate 2: sweep-verified 1920x1080 + 864x1080 PNGs; exact caption 'Säntis, Schwägalp', scenario '24 September 2026 · 15:41 Europe/Zurich', disclosure 'AI-generated artistic interpretation · Not a photograph.' bottom-left on scrim, 'Jason D's Vision' bottom-right. Weather: batch retrieval 2026-09-24T13:37:01Z valid 15:30 vs scenario 15:41 — consistent; per-scene code 3 overcast 100%, 13.1C — the coldest value of the batch, coherent for the high summit and matches the cloud-shrouded render (values differ per scene, not copied). Gate 3: text-prompt-only lineage, no photographic inputs per approvals/CH-01-054.md. Gate 4: no visible people or logos; public mountain summit. Gate 5: no open blockers.",
+  "approved_at": "2026-09-25T09:33:05.339086+00:00",
+  "sha256_16x9": "76f89819c191ad5eb6dbf25c8499acea4d7690a20fb66d2a1efa351c67799a60",
+  "sha256_4x5": "74e30e4f3607f63c8785a70868582354e908856fed4847050a5f0b1bcc65c1ad"
 }
