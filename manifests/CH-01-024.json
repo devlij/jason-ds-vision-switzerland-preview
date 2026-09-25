@@ -12,5 +12,12 @@
   "file_4x5": "library/world/Switzerland/Mürren/ch-01-024-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Candidate",
+  "qc_notes": [
+    {
+      "at": "2026-09-25T06:32:24.343091+00:00",
+      "by": "Cosmo QC",
+      "note": "MECHANICAL GATE FAIL: both masters failed to download from the preview site (https://devlij.github.io/jason-ds-vision-switzerland-preview/library/world/Switzerland/Mürren/ch-01-024-16x9.png and -4x5.png) — likely the umlaut path encoding 'Mürren' in the URL. Dimensions, captions, scenario labels, disclosure and signature could not be verified. Card stays Candidate; will retry when the file URL resolves."
+    }
+  ]
 }
