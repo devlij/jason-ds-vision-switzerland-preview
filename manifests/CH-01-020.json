@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Switzerland/Lucerne/ch-01-020-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "Gate1: Mount Pilatus as a jagged limestone massif with multiple snow-dusted rocky summits — not a single snow pyramid — rising over Lake Lucerne with the lakeshore and houses in the foreground; Chapel Bridge and Water Tower correctly absent. Gate2: both formats at exact 1920×1080 / 864×1080; on-image 'Mount Pilatus, Lucerne', scenario 15:08, disclosure and 'Jason D's Vision' signature bottom-right all present and legible; weather retrieved 13:08:46Z for scenario 15:08, overcast 100% cloud consistent with the gray sky shown. Gate3: text-prompt-only, no photographic inputs. Gate4: no identifiable people, no focal logos (documented only). Gate5: no blockers.",
+  "approved_at": "2026-09-25T06:30:48.010754+00:00",
+  "sha256_16x9": "bbd664f7496bcb6aaabc0d9c552b9a364e92b0a47e552c34ebfbd3410c5ec34e",
+  "sha256_4x5": "03d0e2311e1aa9b51b69de979741ab96521a8cc551ce64ae1b3ee62b1c74137f"
 }
