@@ -49,6 +49,11 @@
       "at": "2026-09-25T17:31:53.695421+00:00",
       "by": "Cosmo QC",
       "note": "Gate 2 (Technical) FAIL: Open-Meteo weather retrieval timestamp 2026-09-24T12:35:44Z is identical to the second across CH-01-001/002/003/004 — shared/batch retrieval, violates the Grok-confirmed one-retrieval-per-scene rule (stale/reused weather metadata). Gates 1/3/4 reviewed: visual location pass, text-prompt-only lineage documented, no prominent people or focal logos seen (documented only, no chain certified)."
+    },
+    {
+      "at": "2026-09-25T22:42:57.924086+00:00",
+      "by": "Cosmo QC",
+      "note": "Gate 2 shared-retrieval hold RESOLVED: the build agent landed the per-scene weather rework (approvals/BATCH-CH-01-001-087-rework.txt plus the per-scene note). approvals/CH-01-004.md now records Open-Meteo retrieval 2026-09-25T21:42:43Z, a separate request for this scene's coordinates — verified unique to the second across all 87 reworked scenes; the baked scenario 24 September 2026 · 14:38 Europe/Zurich sits inside the model-valid hour 14:00–14:59 Europe/Zurich. Cosmo re-audited against authoritative blob downloads: gates 1–5 PASS, all masters at exact dimensions, exact caption/scenario/signature/disclosure on-image. Hold cleared; ready for approval."
     }
   ]
 }
