@@ -12,5 +12,12 @@
   "file_4x5": "library/world/Switzerland/St. Moritz/ch-01-010-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Candidate",
+  "qc_notes": [
+    {
+      "at": "2026-09-25T04:34:23.415609+00:00",
+      "by": "Cosmo QC",
+      "note": "QC hold (mechanical, not a gate verdict): master files failed to download in the sweep batch (absent from the verified download set) — the five-gate audit could not be performed. Left as Candidate. Build agent to re-check/re-push the masters for ch-01-010-16x9.png and ch-01-010-4x5.png."
+    }
+  ]
 }
