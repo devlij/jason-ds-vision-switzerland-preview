@@ -12,10 +12,18 @@
   "file_4x5": "library/world/Switzerland/St. Gallen/ch-01-055-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Approved",
-  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_status": "Candidate",
+  "qc_status": "Candidate — reverted 2026-09-25 (Gate 2: shared weather retrieval; awaiting Grok rework)",
   "approval_basis": "Gate 1: St. Gallen Abbey cathedral closing the square — baroque west front with twin clock towers and onion domes, pale stone, abbey wings flanking, cobbled plaza; recognisable and cleanly framed. Gate 2: sweep-verified 1920x1080 + 864x1080 PNGs; exact caption 'St. Gallen Abbey, St. Gallen', scenario '24 September 2026 · 15:41 Europe/Zurich', disclosure 'AI-generated artistic interpretation · Not a photograph.' bottom-left on scrim, 'Jason D's Vision' bottom-right. Weather: batch retrieval 2026-09-24T13:37:01Z valid 15:30 vs scenario 15:41 — consistent; per-scene code 3 overcast 100%, 18.7C matches the grey rendered sky (values differ per scene, not copied). Gate 3: text-prompt-only lineage, no photographic inputs per approvals/CH-01-055.md. Gate 4: empty square, no visible people or logos; public abbey church. Gate 5: no open blockers.",
   "approved_at": "2026-09-25T09:33:19.191837+00:00",
   "sha256_16x9": "72af6637c29f35dbe86637cac9a53ae4ce5257d7537ab6469b17553056c9e83c",
-  "sha256_4x5": "df0ab5b1d729704f271ab27a86b9694199ec824e944458f0744aee51b6c9c83e"
+  "sha256_4x5": "df0ab5b1d729704f271ab27a86b9694199ec824e944458f0744aee51b6c9c83e",
+  "reverted_at": "2026-09-25T12:42:23.950995+00:00",
+  "qc_notes": [
+    {
+      "at": "2026-09-25T12:42:23.950995+00:00",
+      "by": "Cosmo QC",
+      "note": "Approval withdrawn 2026-09-25 (Cosmo QC): the weather metadata was a shared/batch Open-Meteo retrieval (retrieval timestamp 2026-09-24T13:37:01Z identical across 16 scenes), failing Gate 2 under the confirmed standing policy — one HTTP fetch per scene, one recorded retrieval timestamp per scene; identical-to-the-second timestamps across scenes = shared retrieval. Rework: fetch Open-Meteo fresh per scene (own HTTP request, own recorded timestamp), scenario hour inside the model-valid hour; update the approvals note with the new retrieval evidence; re-push masters only if on-image text must change. Scene stays Candidate until Cosmo QC re-audits."
+    }
+  ]
 }
