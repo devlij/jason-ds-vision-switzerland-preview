@@ -12,10 +12,18 @@
   "file_4x5": "library/world/Switzerland/Glarus/ch-01-081-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Approved",
-  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_status": "Candidate",
+  "qc_status": "Candidate — reverted 2026-09-25 (Gate 2: shared weather retrieval; awaiting Grok rework)",
   "approval_basis": "G1: Neo-Romanesque Stadtkirche with its one tall pointed spire centered on the rebuilt 19th-century town grid, the Glärnisch rock wall rising immediately behind the roofs — matches the Glarus anchors; no scaffolding, no medieval old town added. G2: exact 1920×1080 / 864×1080; caption 'Glarus, Glarus', scenario '24 September 2026 · 16:14 Europe/Zurich', disclosure 'AI-generated artistic interpretation · Not a photograph.' and exact 'Jason D's Vision' signature legible on the gradient scrim; weather retrieval 2026-09-24T14:11:31Z valid 16:00 scenario hour — fresh, no stale reuse. G3: text-prompt-only lineage recorded, no photographic inputs. G4: no identifiable people or focal logos; documented only. G5: no open blockers.",
   "approved_at": "2026-09-25T12:31:33.850365+00:00",
   "sha256_16x9": "11c904e9fff6a14459e85015a77ef3984e711242cf81dd45ad6dd694f3555516",
-  "sha256_4x5": "e4a450ae305ff5dd741cdf18e039411aca19d5580067ad178ab6f0cb39f0d5ee"
+  "sha256_4x5": "e4a450ae305ff5dd741cdf18e039411aca19d5580067ad178ab6f0cb39f0d5ee",
+  "reverted_at": "2026-09-25T12:43:38.247210+00:00",
+  "qc_notes": [
+    {
+      "at": "2026-09-25T12:43:38.247210+00:00",
+      "by": "Cosmo QC",
+      "note": "Approval withdrawn 2026-09-25 (Cosmo QC): the weather metadata was a shared/batch Open-Meteo retrieval (retrieval timestamp 2026-09-24T14:11:31Z identical across 7 scenes), failing Gate 2 under the confirmed standing policy — one HTTP fetch per scene, one recorded retrieval timestamp per scene; identical-to-the-second timestamps across scenes = shared retrieval. Rework: fetch Open-Meteo fresh per scene (own HTTP request, own recorded timestamp), scenario hour inside the model-valid hour; update the approvals note with the new retrieval evidence; re-push masters only if on-image text must change. Scene stays Candidate until Cosmo QC re-audits."
+    }
+  ]
 }
