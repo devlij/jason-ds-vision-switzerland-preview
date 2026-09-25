@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Switzerland/Einsiedeln/ch-01-038-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "G1: Einsiedeln Abbey baroque west front with twin towers, long monastery wings, Klosterplatz fountain — recognizable, clean framing, no artifacts. G2: 1920x1080/864x1080 exact; exact caption, '24 September 2026 · 15:27 Europe/Zurich' scenario, AI disclosure, curly-apostrophe signature bottom-right on scrim. Weather fresh: retrieved 2026-09-24T13:19:28Z batch fetch, valid 15:15, location-specific 17.2C/100pct overcast at 896m cell — Greece-precedent pass, not Spain-style reuse. G3: notes claim text-prompt-only, no photographic inputs. G4: no identifiable people/logos; public landmark exterior. G5: no blockers.",
+  "approved_at": "2026-09-25T08:32:43.939360+00:00",
+  "sha256_16x9": "d6903fec821d2e8fdd1f369c365aaa07c86d4c2793150940ff81479ba8535f04",
+  "sha256_4x5": "1b19602f23580877550f6905cea0bd67d59c274151769de354313d6c3520a077"
 }
