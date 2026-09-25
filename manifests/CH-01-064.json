@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Switzerland/Noiraigue/ch-01-064-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "G1: the Creux du Van limestone amphitheatre — sheer curving cliff walls, conifer forest filling the bowl, a dry-stone wall in the foreground — plausible rim viewpoint above Noiraigue under overcast matching weather code 3; clean, no artifacts. G2: exact dimensions, caption 'Creux du Van, Noiraigue', scenario 'Scenario: 24 September 2026 · 15:44 Europe/Zurich', disclosure and curly-apostrophe signature legible on the scrim (verified on both formats); weather retrieved 13:37:01Z, valid 15:30 — fresh against the 15:44 scenario. G3: text-prompt-only, no photographic inputs per build notes. G4: no people, no logos; nature reserve, no private property — documented only. G5: no open blockers.",
+  "approved_at": "2026-09-25T10:32:28.536604+00:00",
+  "sha256_16x9": "d193b28247c982a6d506194089f5d55d5f40b4718937733fc674b89a4dac7375",
+  "sha256_4x5": "413fec65a198a1d47a07cc85d9aaad008df372b61facca3f4b522e124c23189b"
 }
