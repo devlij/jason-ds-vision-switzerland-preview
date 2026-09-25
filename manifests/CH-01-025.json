@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Switzerland/Brienz/ch-01-025-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "Gate1: Brienz lines Lake Brienz with wooden houses and a prominent church spire; long lake stretching past steep wooded slopes with the Brienzer Rothorn ridge softened by cloud — the one-lake view, not the Interlaken panorama; gray-green water under overcast. Gate2: exact 1920×1080 / 864×1080; on-image 'Brienz, Brienz', scenario '24 September 2026 · 15:09 Europe/Zurich', disclosure and 'Jason D's Vision' signature bottom-right, legible; weather retrieved 13:08:46Z for scenario 15:09, 100% cloud consistent with the overcast frame. Gate3: text-prompt-only, no photographic inputs. Gate4: no identifiable people or focal logos (documented only). Gate5: no blockers.",
+  "approved_at": "2026-09-25T06:31:34.539741+00:00",
+  "sha256_16x9": "bb6f2f8439aa92109623dfb137829597fb238988e6d222016ba550dbac78941b",
+  "sha256_4x5": "a9973f1ca31e0d4cc370f17a5787066a41540a277dde4f7276142f91f4e87c09"
 }
