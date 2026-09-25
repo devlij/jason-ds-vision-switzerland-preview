@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Switzerland/Seelisberg/ch-01-039-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "G1: Ruetli meadow grass slope to Lake Uri with boat-landing jetty, forested shoreline, misty peaks across the lake — plausible tourist viewpoint, clean framing, no artifacts. G2: 1920x1080/864x1080 exact; exact caption 'Ruetli Meadow, Seelisberg', '24 September 2026 · 15:28 Europe/Zurich', AI disclosure, curly-apostrophe signature on scrim. Weather fresh: batch retrieval 2026-09-24T13:19:28Z, valid 15:15, location-specific 21.4C/100pct at 481m cell — not Spain-style reuse. G3: notes claim text-prompt-only, no photographic inputs. G4: no identifiable people/logos; open meadow landscape. G5: no blockers.",
+  "approved_at": "2026-09-25T08:32:56.639398+00:00",
+  "sha256_16x9": "cbf05ca9b3e1bbb01b26f3b908d94c076d20c25e3b0eb95e87a54e4580b76402",
+  "sha256_4x5": "0b79ee76d0b5dfdb3b13d575fd52b49d927aeb8e8213ec442a74fd78eacabe46"
 }
