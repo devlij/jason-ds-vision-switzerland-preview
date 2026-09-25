@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Switzerland/Zurich/ch-01-087-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "G1: Fraumünster from the Münsterhof with the single slender verdigris spire on the north tower and the crenellated south tower spireless as built since 1728–1732 — the Zurich anchors read exactly; dark windows, no stained glass, no twin-tower confusion with the Grossmünster. G2: exact 1920×1080 / 864×1080; caption 'Fraumünster, Zurich', scenario '24 September 2026 · 16:17 Europe/Zurich', disclosure 'AI-generated artistic interpretation · Not a photograph.' and exact 'Jason D's Vision' signature legible; weather retrieval 2026-09-24T14:11:31Z valid 16:00 — fresh. G3: text-prompt-only lineage recorded, no photographic inputs. G4: no identifiable people or logos; documented only. G5: no open blockers.",
+  "approved_at": "2026-09-25T12:33:01.379976+00:00",
+  "sha256_16x9": "ec1a9038a7604749e47ee74fa8f6b4b545910049508a0c20659f3b244182d097",
+  "sha256_4x5": "903eb35899f477260c93180876473af355b6ca08e0ea709d18af285840cce80b"
 }
