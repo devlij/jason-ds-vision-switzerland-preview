@@ -12,10 +12,18 @@
   "file_4x5": "library/world/Switzerland/Lausanne/ch-01-063-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Approved",
-  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_status": "Candidate",
+  "qc_status": "Candidate — reverted 2026-09-25 (Gate 2: shared weather retrieval; awaiting Grok rework)",
   "approval_basis": "G1: Lausanne Cathedral with its single great western tower, flying buttresses and lancet windows above the old-town roofs, Lake Geneva stretching beyond under a grey overcast matching weather code 3 — plausible Cité-hill viewpoint; clean, no artifacts. G2: exact dimensions, caption 'Lausanne Cathedral, Lausanne', scenario 'Scenario: 24 September 2026 · 15:44 Europe/Zurich', disclosure and 'Jason D's Vision' signature legible on the scrim; weather retrieved 13:37:01Z, valid 15:30 — fresh against the 15:44 scenario. G3: text-prompt-only, no photographic inputs per build notes. G4: no people, no logos; public monument — documented only. G5: no open blockers.",
   "approved_at": "2026-09-25T10:32:16.245973+00:00",
   "sha256_16x9": "0cc434b0b07f69768130ff397b5a7e9b59ee1760e9efb7eaa3e257f238c5ea8e",
-  "sha256_4x5": "b1892f5dea26d3cbefb6c26f23fb659ee519b1e3c71e48518cd571f360c6d788"
+  "sha256_4x5": "b1892f5dea26d3cbefb6c26f23fb659ee519b1e3c71e48518cd571f360c6d788",
+  "reverted_at": "2026-09-25T12:42:44.596760+00:00",
+  "qc_notes": [
+    {
+      "at": "2026-09-25T12:42:44.596760+00:00",
+      "by": "Cosmo QC",
+      "note": "Approval withdrawn 2026-09-25 (Cosmo QC): the weather metadata was a shared/batch Open-Meteo retrieval (retrieval timestamp 2026-09-24T13:37:01Z identical across 16 scenes), failing Gate 2 under the confirmed standing policy — one HTTP fetch per scene, one recorded retrieval timestamp per scene; identical-to-the-second timestamps across scenes = shared retrieval. Rework: fetch Open-Meteo fresh per scene (own HTTP request, own recorded timestamp), scenario hour inside the model-valid hour; update the approvals note with the new retrieval evidence; re-push masters only if on-image text must change. Scene stays Candidate until Cosmo QC re-audits."
+    }
+  ]
 }
