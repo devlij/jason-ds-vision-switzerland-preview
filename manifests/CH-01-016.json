@@ -12,10 +12,18 @@
   "file_4x5": "library/world/Switzerland/Schaffhausen/ch-01-016-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Approved",
-  "qc_status": "Approved · Cosmo QC 5/5 · Afternoon",
+  "approval_status": "Candidate",
+  "qc_status": "Candidate — reverted 2026-09-25 (Gate 2: shared weather retrieval; awaiting Grok rework)",
   "approval_basis": "G1 visual: Rhine Falls cascading around the central rock with the Schlössli Wörth tower on the left bank and Laufen Castle on the cliff at right, foam and mist, overcast sky — recognizably the captioned site from a plausible tourist viewpoint, no artifacts. G2 technical: both masters exact 1920×1080/864×1080; exact 'Jason D's Vision' signature bottom-right; exact caption 'Rhine Falls, Schaffhausen' + 'Scenario: 24 September 2026 · 14:42 Europe/Zurich' + AI disclosure bottom-left on scrim, legible. Weather cross-check: approvals/CH-01-016.md records Open-Meteo retrieval 2026-09-24T12:40:09Z (14:40 CEST) valid 14:30 Zurich, code 3 overcast 100% cloud — consistent with scenario and the flat grey sky, no reused metadata. G3: text-prompt-only lineage documented, no photographic inputs. G4: no prominent people or focal logos — documented, commercial call remains Jason's. G5: all gates pass, publish-ready.",
   "approved_at": "2026-09-25T05:34:18.760918+00:00",
   "sha256_16x9": "b68f0ffbdea6e554271229277f4d9c13738f75f40b56aa7ef17ee5ff334ca1f8",
-  "sha256_4x5": "37199515f708dfeea1dc8f7fe27fb19fe44697a6c0ce2eaed4d91785b0a5442d"
+  "sha256_4x5": "37199515f708dfeea1dc8f7fe27fb19fe44697a6c0ce2eaed4d91785b0a5442d",
+  "reverted_at": "2026-09-25T12:40:30.723066+00:00",
+  "qc_notes": [
+    {
+      "at": "2026-09-25T12:40:30.723066+00:00",
+      "by": "Cosmo QC",
+      "note": "Approval withdrawn 2026-09-25 (Cosmo QC): the weather metadata was a shared/batch Open-Meteo retrieval (retrieval timestamp 2026-09-24T12:40:09Z identical across 12 scenes), failing Gate 2 under the confirmed standing policy — one HTTP fetch per scene, one recorded retrieval timestamp per scene; identical-to-the-second timestamps across scenes = shared retrieval. Rework: fetch Open-Meteo fresh per scene (own HTTP request, own recorded timestamp), scenario hour inside the model-valid hour; update the approvals note with the new retrieval evidence; re-push masters only if on-image text must change. Scene stays Candidate until Cosmo QC re-audits."
+    }
+  ]
 }
