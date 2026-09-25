@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Switzerland/Stans/ch-01-043-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "G1: Stans rooftops with baroque church tower and dome foreground, the Stanserhorn pyramid peak cloud-capped behind — classic Stans view of the mountain, clean framing, no artifacts. G2: 1920x1080/864x1080 exact; exact caption 'Stanserhorn, Stans', '24 September 2026 · 15:28 Europe/Zurich', AI disclosure, curly-apostrophe signature on scrim. Weather fresh: batch retrieval 2026-09-24T13:19:28Z, valid 15:15, location-specific 21.4C/100pct at 464m town cell (note records Stans cell, not summit). G3: notes claim text-prompt-only, no photographic inputs. G4: no identifiable people/logos; public town/mountain. G5: no blockers.",
+  "approved_at": "2026-09-25T08:33:49.631051+00:00",
+  "sha256_16x9": "a978f91b56ba51c27ccdc6180a0c57c85805b41908a68a22f463c9f68ce596ac",
+  "sha256_4x5": "6219e3f3f865f16dcc39fe50a4b9972929b1c37f7c11dbb6b700b33f2b6c3fe8"
 }
