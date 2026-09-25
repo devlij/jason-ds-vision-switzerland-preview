@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Switzerland/Bellinzona/ch-01-061-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "G1: Castelgrande's curtain walls and twin stone towers on the rock above Bellinzona, terraced vineyards on the slope and old-town rooftops below — plausible view up from the old town; clean, no artifacts. G2: exact dimensions, caption 'Castelgrande, Bellinzona', scenario 'Scenario: 24 September 2026 · 15:44 Europe/Zurich', disclosure and 'Jason D's Vision' signature legible on the scrim; weather retrieved 13:37:01Z, valid 15:30 — fresh against the 15:44 scenario. G3: text-prompt-only, no photographic inputs per build notes. G4: no people, no logos; UNESCO fortress, public — documented only. G5: no open blockers.",
+  "approved_at": "2026-09-25T10:31:51.754580+00:00",
+  "sha256_16x9": "96dcadac1095eecdf54c3cff94d578417ec333f288a32bbe8183cfc76edd6814",
+  "sha256_4x5": "e50042e900df991537f83a18b0e151ac53a50db957a9a2e4a4b5fa878e184b0f"
 }
