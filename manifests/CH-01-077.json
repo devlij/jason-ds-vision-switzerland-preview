@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Switzerland/Carouge/ch-01-077-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "Gates 1–5 pass. Gate 1: the 16:9 master shows Carouge’s Place du Marché — arcaded warm-plaster facades, the neoclassical Sainte-Croix church with its columned portico closing the square, plane trees lining the street, broken cloud letting sunlight through; no readable shop signs. Gate 2: masters mechanically verified 1920×1080 + 864×1080; caption ‘Carouge, Carouge’, scenario ‘24 September 2026 · 16:01 Europe/Zurich’, disclosure legible bottom-left; exact ‘Jason D’s Vision’ bottom-right. Weather: retrieved 2026-09-24T14:00:42Z, valid 16:00 Europe/Zurich; scene-specific (code 2, 48% cloud, 25.4°C, wind 5.6 from 40°, cell ~387m) — the partly-cloudy frame light matches code 2, warmest of the batch as expected for the Geneva basin; batch timestamp artifact only. Gate 3: text-prompt-only lineage recorded. Gate 4: no people, no logos — notes only. Gate 5: no open blockers.",
+  "approved_at": "2026-09-25T11:34:47.129072+00:00",
+  "sha256_16x9": "1de7ce4a2e8a67a2d6e64791775a4c91fc41ff352501dc2cd902b34ca23ff880",
+  "sha256_4x5": "173d8ffd6a25b74b464208f27d86bb4563012cdf8ff2fb90bf63f1967ecba0fc"
 }
