@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Switzerland/Schwyz/ch-01-040-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "G1: Kleiner/Grosser Mythen twin rocky peaks rising over Schwyz valley rooftops and pastures, cloud-draped summits — classic Mythen view, clean framing, no artifacts. G2: 1920x1080/864x1080 exact; exact caption 'Mythen, Schwyz', '24 September 2026 · 15:28 Europe/Zurich', AI disclosure, curly-apostrophe signature on scrim. Weather fresh: batch retrieval 2026-09-24T13:19:28Z, valid 15:15, location-specific 21.3C/100pct at 512m town cell (note records town cell, not summit). G3: notes claim text-prompt-only, no photographic inputs. G4: no identifiable people/logos; mountain landscape. G5: no blockers.",
+  "approved_at": "2026-09-25T08:33:08.720746+00:00",
+  "sha256_16x9": "a122ffc436dca1b0b391ababd6acec222d998015330400078da1bfca35b6db16",
+  "sha256_4x5": "2c169d07d9bba3b3afe1cbf4fa14d514885a1891256d071d1e7da952f43473f4"
 }
