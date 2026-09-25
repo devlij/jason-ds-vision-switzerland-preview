@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Switzerland/Basel/ch-01-084-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "G1: Red town hall facing the Marktplatz with the ground-floor arcade and the tall tower rising at the corner — the Basel Rathaus anchors read correctly; no Rhine, bridge or cathedral towers in frame. G2: exact 1920×1080 / 864×1080; caption 'Basel Rathaus, Basel', scenario '24 September 2026 · 16:14 Europe/Zurich', disclosure 'AI-generated artistic interpretation · Not a photograph.' and exact 'Jason D's Vision' signature legible; weather retrieval 2026-09-24T14:11:31Z valid 16:00 scenario hour — fresh, no stale reuse. G3: text-prompt-only lineage recorded, no photographic inputs. G4: no identifiable people, no readable coat of arms or logos; documented only. G5: no open blockers.",
+  "approved_at": "2026-09-25T12:32:16.116026+00:00",
+  "sha256_16x9": "bd47862316bf5befe35146e1ce9df1a44ffb466c3267fa7a767923bf5c57ceb2",
+  "sha256_4x5": "43af98b4d4be7e6656b63623c0ef81300a6934d973a27fbd7e75a5f866adf56a"
 }
