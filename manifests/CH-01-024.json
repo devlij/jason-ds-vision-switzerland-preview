@@ -12,15 +12,21 @@
   "file_4x5": "library/world/Switzerland/Mürren/ch-01-024-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Approved",
+  "approval_status": "Candidate",
   "qc_notes": [
     {
       "at": "2026-09-25T06:32:24.343091+00:00",
       "by": "Cosmo QC",
       "note": "MECHANICAL GATE FAIL: both masters failed to download from the preview site (https://devlij.github.io/jason-ds-vision-switzerland-preview/library/world/Switzerland/Mürren/ch-01-024-16x9.png and -4x5.png) — likely the umlaut path encoding 'Mürren' in the URL. Dimensions, captions, scenario labels, disclosure and signature could not be verified. Card stays Candidate; will retry when the file URL resolves."
+    },
+    {
+      "at": "2026-09-25T12:40:54.887591+00:00",
+      "by": "Cosmo QC",
+      "note": "Approval withdrawn 2026-09-25 (Cosmo QC): the weather metadata was a shared/batch Open-Meteo retrieval (retrieval timestamp 2026-09-24T13:08:46Z identical across 16 scenes), failing Gate 2 under the confirmed standing policy — one HTTP fetch per scene, one recorded retrieval timestamp per scene; identical-to-the-second timestamps across scenes = shared retrieval. Rework: fetch Open-Meteo fresh per scene (own HTTP request, own recorded timestamp), scenario hour inside the model-valid hour; update the approvals note with the new retrieval evidence; re-push masters only if on-image text must change. Scene stays Candidate until Cosmo QC re-audits."
     }
   ],
-  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "qc_status": "Candidate — reverted 2026-09-25 (Gate 2: shared weather retrieval; awaiting Grok rework)",
   "approval_basis": "Gates 1-2: the 16:9 master shows Mürren's car-free chalet village on the cliff shelf with the white church and slender spire mid-frame, the Eiger's dark north face across the valley with cloud sitting on the upper wall, and tawny late-September grass — matching the geometry anchors; both masters verified 1920×1080/864×1080 PNG, with exact caption 'Mürren, Mürren', 'Scenario: 24 September 2026 · 15:09 Europe/Zurich', 'AI-generated artistic interpretation · Not a photograph.' bottom-left and 'Jason D's Vision' signature bottom-right; weather claim (Open-Meteo, retrieved 2026-09-24T13:08:46Z, valid 15:00 Europe/Zurich, code 3 overcast 74%) is internally consistent and per-scene (not reused) versus the 15:09 scenario. Gates 3-4: build-agent note claims text-prompt-only lineage with no photographic inputs and no prominent people or focal logos requested — visible frame has no identifiable people or logos; commercial-use call documented, not certified. Gate 5: no blockers.",
-  "approved_at": "2026-09-25T07:34:23.353232+00:00"
+  "approved_at": "2026-09-25T07:34:23.353232+00:00",
+  "reverted_at": "2026-09-25T12:40:54.887591+00:00"
 }
