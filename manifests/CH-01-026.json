@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Switzerland/Zurich/ch-01-026-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "Gate1: Grossmünster west front filling the frame — twin Romanesque towers with later pointed caps close together above the portal, paved church square in front, no river or quay in view — matches the church-front (not Limmatquai) anchor. Gate2: exact 1920×1080 / 864×1080; on-image 'Grossmünster, Zurich', scenario '24 September 2026 · 15:09 Europe/Zurich', disclosure and 'Jason D's Vision' signature bottom-right, legible; weather retrieved 13:08:46Z for scenario 15:09, overcast 100% cloud consistent with the gray sky. Gate3: text-prompt-only, no photographic inputs. Gate4: no identifiable people or focal logos (documented only). Gate5: no blockers.",
+  "approved_at": "2026-09-25T06:31:58.322666+00:00",
+  "sha256_16x9": "6ffb1f8435a501b489dc38dfa40aeccda9f0c63a4ea59897edd6a69cf7e064c8",
+  "sha256_4x5": "95661a81b6fa32882eb697277491da0895819c1ce09fde17249bf43ac2845250"
 }
