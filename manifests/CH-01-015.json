@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Switzerland/Grindelwald/ch-01-015-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Afternoon",
+  "approval_basis": "G1 visual: the Eiger's massive rock face with cloud-capped summit, snow slopes, and scattered chalets in the Grindelwald valley foreground — recognizably the captioned site from a plausible tourist viewpoint, no artifacts. G2 technical: both masters exact 1920×1080/864×1080; exact 'Jason D's Vision' signature bottom-right; exact caption 'Eiger, Grindelwald' + 'Scenario: 24 September 2026 · 14:42 Europe/Zurich' + AI disclosure bottom-left on scrim, legible. Weather cross-check: approvals/CH-01-015.md records Open-Meteo retrieval 2026-09-24T12:40:09Z (14:40 CEST) valid 14:30 Zurich, code 3 overcast 63% cloud — consistent with scenario and the heavy cloud on the face, no stale metadata. G3: text-prompt-only lineage documented, no photographic inputs. G4: no prominent people or focal logos — documented, commercial call remains Jason's. G5: all gates pass, publish-ready.",
+  "approved_at": "2026-09-25T05:34:05.170556+00:00",
+  "sha256_16x9": "196c764a0dc9b192cf6f00a62e8f01e055b7791229fa0a1ec5b75a936ffe8d1c",
+  "sha256_4x5": "2a556643c350c2a59e838ff637fa667ed4a084c5aece15ea09a6fea005f01148"
 }
