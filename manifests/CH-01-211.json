@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Switzerland/Le Locle/ch-01-211-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "Gate 1: straight valley street with parallel rows of pale stone houses and workshops, wooded Jura slopes close on both sides — the watchmaking-town valley fabric of Le Locle, not the Chaux-de-Fonds plateau grid, plausible and clean. Gate 2: exact 1920x1080/864x1080 masters; on-image caption 'Le Locle, Le Locle' and scenario '24 September 2026 · 18:46 Europe/Zurich'; curly-apostrophe signature bottom-right; disclosure present; per-scene Open-Meteo retrieval 2026-09-25T23:45:35Z (unique second), scenario inside 18:00–18:59 model hour, broken cloud matches code 3. Gate 3: text-prompt-only lineage, no photographic input. Gate 4: no people/logos visible — documented only. Gate 5: no open blockers.",
+  "approved_at": "2026-09-26T12:34:20.289997+00:00",
+  "sha256_16x9": "50ab0f3465eb7f81da0a7a8bdd5271b6ad92c28572a48592aaf9777352b71c0d",
+  "sha256_4x5": "f0819d8224d7bdad99afd38114fb7a8746ca23177e802438db76620fb1c94b32"
 }
