@@ -12,7 +12,7 @@
   "file_4x5": "library/world/Switzerland/Crans-Montana/ch-01-313-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate",
+  "approval_status": "Approved",
   "daylight_variant": {
     "variant_of_entry_id": "CH-01-313",
     "derived_from": "Live gallery night master library/world/Switzerland/Crans-Montana/ch-01-313-16x9.png (16:9) and library/world/Switzerland/Crans-Montana/ch-01-313-4x5.png (4:5) of the same scene; not an independently modelled weather or lighting scenario",
@@ -42,5 +42,10 @@
     "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
     "derivative_disclosure": "Derivative of the night interpretation of this same viewpoint. Not an independently modelled weather or lighting scenario. No weather claim. No scenario timestamp on the variant.",
     "note": "AI-generated daylight re-interpretation derived from the night master of the same viewpoint and composition. Not a new scene. Architecture and landscape preserved; lighting only was changed from night to daylight. No weather evidence invented. The variant image carries no weather claim and no scenario timestamp. The scene scenario_label remains the night scene's label and is not a daylight weather assertion."
-  }
+  },
+  "qc_status": "Approved · Cosmo QC 5/5 · Night",
+  "approval_basis": "Gate 1 PASS: Lac de la Moubra at night — small still lake with fir reflections, lit path lamps along the far shore, shore path and tawny late-September grass in the foreground; no swimmers, no boats, no readable beach-club names. Gate 2 PASS: exact dims; caption 'Lac de la Moubra, Crans-Montana', scenario 24 Sep 2026 22:52 Europe/Zurich, disclosure, signature exact; retrieval 2026-09-25T23:48:19Z unique repo-wide, scenario inside model hour. Gate 3 PASS: text-prompt-only per note. Gate 4: no people, no logos.",
+  "approved_at": "2026-09-26T19:37:01.398019+00:00",
+  "sha256_16x9": "8090942dfa3461b32cd6a8c33d1f62a0b76b2cad26332c9ea2f3913bf46e541b",
+  "sha256_4x5": "11b5ae93d5d3dc67e6fbb7e5f624fedccafdf891f8460c50c484c90c59a7c93f"
 }
