@@ -12,7 +12,7 @@
   "file_4x5": "library/world/Switzerland/Kandersteg/ch-01-320-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate",
+  "approval_status": "Approved",
   "daylight_variant": {
     "variant_of_entry_id": "CH-01-320",
     "derived_from": "Live gallery night master library/world/Switzerland/Kandersteg/ch-01-320-16x9.png (16:9) and library/world/Switzerland/Kandersteg/ch-01-320-4x5.png (4:5) of the same scene; not an independently modelled weather or lighting scenario",
@@ -42,5 +42,10 @@
     "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
     "derivative_disclosure": "Derivative of the night interpretation of this same viewpoint. Not an independently modelled weather or lighting scenario. No weather claim. No scenario timestamp on the variant.",
     "note": "AI-generated daylight re-interpretation derived from the night master of the same viewpoint and composition. Not a new scene. Architecture and landscape preserved; lighting only was changed from night to daylight. No weather evidence invented. The variant image carries no weather claim and no scenario timestamp. The scene scenario_label remains the night scene's label and is not a daylight weather assertion."
-  }
+  },
+  "qc_status": "Approved · Cosmo QC 5/5 · Night",
+  "approval_basis": "Gate 1: the 16:9 master shows Oeschinensee at night — a still alpine lake ringed by rugged peaks with a lit mountain hut on the shore under broken cloud; plausible tourist view, clean framing, no artifacts; the 4:5 master shows the same lake, peaks, and lit hut with no defining-feature disagreement. Gate 2: sweep-verified exact 1920×1080 / 864×1080; on-image caption 'Oeschinensee, Kandersteg', scenario '24 September 2026 · 22:52 Europe/Zurich', 'AI-generated artistic interpretation · Not a photograph.' disclosure bottom-left on gradient scrim; exact 'Jason D's Vision' (curly apostrophe) bottom-right; weather retrieval unique to this scene at 2026-09-25T23:48:26Z, separate request for Oeschinensee coords, model-valid hour 22:00–22:59 contains the 22:52 scenario (code 3 overcast, 9.8°C, 75% cloud — matches the brooding cloudscape). Gate 3: builder note documents text-prompt-only lineage, no photographic inputs. Gate 4: no people or logos; natural landmark — documented only. Gate 5: no open blockers.",
+  "approved_at": "2026-09-26T20:36:53.215174+00:00",
+  "sha256_16x9": "e633b771cd2305dfcb75718f3894564702ea940ad4028011964337c9be6dd209",
+  "sha256_4x5": "c3379ce097561fa60ca52bfc3326a623cd5c25b397ea8267ecfd1fc017ea3c5e"
 }
