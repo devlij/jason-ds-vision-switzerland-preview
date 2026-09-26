@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Switzerland/Spiez/ch-01-282-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Night",
+  "approval_basis": "Gate 1: night lakefront at Spiez with moored rowboats in the foreground, lamp-lit promenade curving along the shore, vineyards on the hillside left, and the pyramid silhouette of the Niesen across Lake Thun; plausible tourist viewpoint from the jetty. Gate 2: exact 1920x1080/864x1080; caption 'Spiez lakefront, Spiez', scenario '24 September 2026 - 19:57 Europe/Zurich', AI-disclosure and 'Jason D's Vision' signature verified on-image; weather retrieved 2026-09-25T23:47:48Z, unique repo-wide, valid hour 19:00-19:59 matches scenario. Gate 3: text-prompt-only lineage per note, no photographic inputs. Gate 4: no identifiable people or logos (documented only).",
+  "approved_at": "2026-09-26T17:42:13.271573+00:00",
+  "sha256_16x9": "35c6b519c18d0a4790c58a5d80b9fe30529d5038f27cc152881ac02a6531776e",
+  "sha256_4x5": "7ebdea4e2987f6bf6cd99e4f07e804fe731575af74dafc5f94d1bbb4d6c68ef2"
 }
