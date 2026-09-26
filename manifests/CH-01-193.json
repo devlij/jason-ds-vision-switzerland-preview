@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Switzerland/Locarno/ch-01-193-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved - Cosmo QC 5/5 - Daylight",
+  "approval_basis": "Gate 1: master shows palm-lined lakeside promenade curving along Lake Maggiore with forested mountains across the water and soft golden light on the ridge - plausible Locarno lakefront view. Gate 2: exact caption 'Locarno lakefront, Locarno' and 'Scenario: 24 September 2026 - 18:27 Europe/Zurich' verified on-image with AI disclosure and curly-apostrophe Jason D's Vision signature; weather retrieval 2026-09-25T23:45:17Z unique repo-wide, valid model hour 2026-09-24T18:15 containing the 18:27 scenario. Gate 3: text-prompt-only, no photographic inputs. Gate 4: no identifiable people or focal logos - documented only. Gate 5: no open blockers.",
+  "approved_at": "2026-09-26T11:38:45.159299+00:00",
+  "sha256_16x9": "ebc7cb8291e0482bcf5fb863faec13624f6170c9404349d27de911ca7107ce0a",
+  "sha256_4x5": "e579e18eac7596a8cb1f4928219f6961454745916045486aeacdcd54c0e93a15"
 }
