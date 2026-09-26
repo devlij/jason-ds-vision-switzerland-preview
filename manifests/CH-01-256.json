@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Switzerland/Poschiavo/ch-01-256-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Night",
+  "approval_basis": "Poschiavo village square at night: Gate 1 pass — stone square lined with Italianate palazzi, collegiate church of San Vittore with baroque facade and bell tower closing the view, warm lamps, no readable shop signs, no lake — matches the note's viewpoint. Gate 2 pass — exact dims, caption 'Poschiavo, Poschiavo', scenario '24 September 2026 · 19:21 Europe/Zurich', disclosure, signature; retrieval 2026-09-25T23:46:21Z unique repo-wide, 19:15 model step, scenario inside model hour. Gate 3 pass — text-prompt-only. Gate 4 noted — no readable names, no people. Gate 5 pass.",
+  "approved_at": "2026-09-26T15:37:06.004833+00:00",
+  "sha256_16x9": "df704c036ee52c1f77c054f40769cba01cbcc834f8c499cb8998ed81898d7a3c",
+  "sha256_4x5": "b3451ecb012ce8f172def5e88c2bb48ecfd899130899b08306fc6132bcc10e79"
 }
