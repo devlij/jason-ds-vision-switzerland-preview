@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Switzerland/Romont/ch-01-126-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "Gate 1: Romont Castle exterior with round towers and high curtain walls crowning the hill town, old-town roofs below — the Glâne frame, stonework exterior only. Gate 2: masters 1920x1080/864x1080 exact; on-image caption 'Romont Castle, Romont', scenario '24 September 2026 · 16:57 Europe/Zurich', disclosure and signature 'Jason D’s Vision' legible on the gradient scrim. Weather retrieved 2026-09-25T23:41:05Z, unique to this scene across the 101-145 window; model-valid hour 16:00-16:59 matches the scenario. Gate 3: text-prompt-only lineage, no photographic inputs per note. Gate 4: no people, no logos — documented only. Gate 5: no open blockers.",
+  "approved_at": "2026-09-26T06:36:59.638935+00:00",
+  "sha256_16x9": "096701438d78272feef4f32ac973ed411bbe6f6fd6b9f3e9697bd727b0ded0f0",
+  "sha256_4x5": "f8a01102f81324ecec2cebcbc1420a9debee39bdf983fe525b22fa25db533d3e"
 }
