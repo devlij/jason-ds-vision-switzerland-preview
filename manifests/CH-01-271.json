@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Switzerland/Agno/ch-01-271-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Night",
+  "approval_basis": "Gate 1 PASS: church with slender spired bell tower on the Agno lakeshore promenade, lamp-lit path along calm Lake Lugano, village lights climbing the hill, orange afterglow east; clean framing, no artifacts. Gate 2 PASS: 1920x1080/864x1080 exact per sweep; caption 'Agno, Agno', scenario '24 September 2026 · 19:39 Europe/Zurich', disclosure and 'Jason D's Vision' signature (curly apostrophe) on the bottom scrim, legible; 4:5 master shows the same church and shoreline (inter-format identity agrees). Weather per-scene retrieval 2026-09-25T23:47:37Z, unique to the second; model-valid hour 19:00–19:59 Europe/Zurich, scenario 19:39 inside; code 0 clear / 6% cloud / 20.5C matches the clear twilight sky. Gate 3: text-prompt-only lineage per note. Gate 4: no visible people, no logos. Gate 5: no open blockers.",
+  "approved_at": "2026-09-26T16:40:19.063668+00:00",
+  "sha256_16x9": "ea4db05865a6e20a7f1a3865f8351ab213cab1b30ba335dd83e6ee23414228b5",
+  "sha256_4x5": "b5b548697f583696333924b398a8e11265d1cb395c88442e7fa451a45d0f7168"
 }
