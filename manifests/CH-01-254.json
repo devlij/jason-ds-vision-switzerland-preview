@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Switzerland/Grindelwald/ch-01-254-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Night",
+  "approval_basis": "Pfingstegg, Grindelwald cable-car terrace at night: Gate 1 pass — lit hut with viewing terrace on a rock spur at right, dark glacial valley of rock and remnant ice behind, village lights far below at left, no centered Eiger north face and no lake, per the note's viewpoint. Gate 2 pass — exact dims both formats, caption 'Pfingstegg, Grindelwald', scenario '24 September 2026 · 19:21 Europe/Zurich', disclosure and signature; retrieval 2026-09-25T23:46:19Z unique repo-wide, 19:15 model step covers scenario. Gate 3 pass — text-prompt-only. Gate 4 noted — no people, no logos. Gate 5 pass.",
+  "approved_at": "2026-09-26T15:36:56.124505+00:00",
+  "sha256_16x9": "276b21db78457935dfeff0ffd2503377f4eae6aa07207b6878963cee317a4f29",
+  "sha256_4x5": "f3e525b5976d1ed9d0dc23841e12b643df9144abf089ceb081cf925dd3505f19"
 }
