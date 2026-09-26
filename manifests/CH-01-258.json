@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Switzerland/Celerina/ch-01-258-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Night",
+  "approval_basis": "Celerina, San Gian church at night: Gate 1 pass — late Gothic church on its low hill with two towers, the larger tower roofless and crenellated per the 1682 lightning note, historic village lights beyond, starry sky. Gate 2 pass — exact dims, caption 'Celerina, Celerina', scenario '24 September 2026 · 19:38 Europe/Zurich', disclosure, signature; retrieval 2026-09-25T23:47:24Z unique repo-wide, model step 19:30 covers scenario. Gate 3 pass — text-prompt-only. Gate 4 noted — no people, no logos. Gate 5 pass.",
+  "approved_at": "2026-09-26T15:37:15.453358+00:00",
+  "sha256_16x9": "f930be89bb511d23485565df66b692382f910effc6e179a53797a8280323db87",
+  "sha256_4x5": "a5fc1e84ec1b04611b331a78b48ec5815cad0853b0d6f364159986acbd454a25"
 }
