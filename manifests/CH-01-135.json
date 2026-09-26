@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Switzerland/Rorschach/ch-01-135-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "Gate 1: Rorschach harbor quay with long pale Kornhaus granary, marina with sailboats, open Lake Constance to a low far shore, no readable boat names; overcast light matching model code 3/100% cover. Gate 2: caption 'Rorschach, Rorschach', scenario '24 September 2026 · 17:14 Europe/Zurich', disclosure and curly-apostrophe signature exact on bottom gradient; per-scene Open-Meteo retrieval 2026-09-25T23:42:15Z verified unique across all 373 repo notes, valid hour 17:00-17:59 covers 17:14. Gate 3: text-prompt-only, no photographic inputs reported. Gate 4: no prominent people, no focal logos (internal note only). Gate 5: no open blockers.",
+  "approved_at": "2026-09-26T07:35:35.383958+00:00",
+  "sha256_16x9": "c6264df98d5868a52199062e19f4b2ee62e35a8ea0e620baacc3b2ec2edc6ead",
+  "sha256_4x5": "39f92c4395a3b5ee4555d46f98bbab022b1c4ac58fe5fcb1296ca488f7d9047e"
 }
