@@ -12,5 +12,35 @@
   "file_4x5": "library/world/Switzerland/Val Müstair/ch-01-329-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Candidate",
+  "daylight_variant": {
+    "variant_of_entry_id": "CH-01-329",
+    "derived_from": "Live gallery night master library/world/Switzerland/Val Müstair/ch-01-329-16x9.png (16:9) and library/world/Switzerland/Val Müstair/ch-01-329-4x5.png (4:5) of the same scene; not an independently modelled weather or lighting scenario",
+    "source_night": {
+      "16x9": {
+        "path": "library/world/Switzerland/Val Müstair/ch-01-329-16x9.png",
+        "sha256": "87ce88460534302a12546e0414531577d30fa179f19dddbecce9252fe1c1d050"
+      },
+      "4x5": {
+        "path": "library/world/Switzerland/Val Müstair/ch-01-329-4x5.png",
+        "sha256": "49f865d69cbd68958f97138b80743b6786d9e0e9ea22a772d37e7d4a4d35fe74"
+      },
+      "recorded": "SHA-256 of the night masters immediately before this daylight batch. Post-write hashes are identical; night masters were not rewritten."
+    },
+    "files": {
+      "16x9": "library/world/Switzerland/Val Müstair/ch-01-329-daylight-16x9.png",
+      "4x5": "library/world/Switzerland/Val Müstair/ch-01-329-daylight-4x5.png"
+    },
+    "sha256": {
+      "16x9": "0a7960b400008ed5df42be6580d9a81e2b8741978db8b6ef85905e4063353e2f",
+      "4x5": "27a06826c6bf972d70bfdf29d7432d46a0deb21a76589fe95cdc4fb3f4038ec4"
+    },
+    "created_date": "2026-09-26",
+    "on_image_caption": "Müstair Abbey, Val Müstair",
+    "on_image_signature": "Jason D’s Vision",
+    "on_image_disclosure": "AI-generated artistic interpretation · Not a photograph.",
+    "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
+    "derivative_disclosure": "Derivative of the night interpretation of this same viewpoint. Not an independently modelled weather or lighting scenario. No weather claim. No scenario timestamp on the variant.",
+    "note": "AI-generated daylight re-interpretation derived from the night master of the same viewpoint and composition. Not a new scene. Architecture and landscape preserved; lighting only was changed from night to daylight. No weather evidence invented. The variant image carries no weather claim and no scenario timestamp. The scene scenario_label remains the night scene's label and is not a daylight weather assertion."
+  }
 }
