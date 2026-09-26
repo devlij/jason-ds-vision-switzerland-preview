@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Switzerland/Appenzell/ch-01-133-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "Gate 1: Landsgemeindeplatz ringed by painted curved gables (red, yellow, blue houses), stone fountain with column, St. Maurice church tower at square edge, empty paving, overcast sky matching model code 3/100% cover. Gate 2: caption 'Landsgemeindeplatz, Appenzell', scenario '24 September 2026 · 17:14 Europe/Zurich', disclosure and curly-apostrophe signature exact on bottom gradient; per-scene Open-Meteo retrieval 2026-09-25T23:41:12Z verified unique across all 373 repo notes, valid hour 17:00-17:59 covers 17:14. Gate 3: text-prompt-only, no photographic inputs reported. Gate 4: no prominent people, no focal logos (internal note only). Gate 5: no open blockers.",
+  "approved_at": "2026-09-26T07:35:02.859237+00:00",
+  "sha256_16x9": "be5ad0bd12a338c96f8af269f975b948208149fc021d15100271932a6b906281",
+  "sha256_4x5": "56575b6011a868f4d41c8afb350ba7e0fee64960f64ac29930df8b97dd41a5b9"
 }
