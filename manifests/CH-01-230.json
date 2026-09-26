@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Switzerland/Rapperswil/ch-01-230-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "Gate 1: Rapperswil's Fischmarktplatz promenade — plane trees, stone quay, moored boats, old-town houses, view west so the castle stays behind the camera — recognizably the lakeside promenade. Gate 2: on-image caption 'Lakeside Promenade, Rapperswil', scenario '24 September 2026 · 19:03 Europe/Zurich' inside the model-valid hour; per-scene retrieval 2026-09-25T23:45:55Z, unique, code 3 overcast matching the grey rendered sky; dims verified; signature and disclosure legible. Gate 3: text-prompt-only lineage. Gate 4: no prominent people or focal logos; documented-only. Gate 5: no open blockers.",
+  "approved_at": "2026-09-26T13:35:06.970888+00:00",
+  "sha256_16x9": "af590ac989516d768ebb1cebf099ac6361e83b8c25eb299f308b7d2b4acfbb1a",
+  "sha256_4x5": "9f157479fb8a56be09e33c027f5bea47e9631c9f37e09f69600ecceffb391f38"
 }
