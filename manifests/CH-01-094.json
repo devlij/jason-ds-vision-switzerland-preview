@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Switzerland/Martigny/ch-01-094-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "Gate 1: Martigny from below the rocky knoll — the round thirteenth-century keep of La Bâtiaz on its rock, town roofs and the flat Rhône plain below, high snow-dusted Valais peaks closing the valley end; diffuse light suits the documented partly-cloudy model. Gate 2: exact masters; on-image 'Martigny, Martigny', scenario '24 September 2026 · 16:18 Europe/Zurich', disclosure and curly-apostrophe signature confirmed. Retrieval 2026-09-25T23:40:33Z scene-unique; 16:18 falls inside the note's 16:00–16:59 model-valid hour. Gate 3: text-prompt-only, no photographic inputs. Gate 4: no people, no museum sign, no fortified-church confusion; commercial clearance is Jason's. Gate 5: no blockers.",
+  "approved_at": "2026-09-26T04:36:12.752759+00:00",
+  "sha256_16x9": "a0a7d553b5bb7c737081ae4e50f101497cbb0121a12760da964592652317bc91",
+  "sha256_4x5": "b45132fcc668edc31ce8c73ece274a6d36daef0534b41c87e949432f366b478e"
 }
