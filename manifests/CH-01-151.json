@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Switzerland/Vitznau/ch-01-151-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "Gate 1 PASS: Vitznau lakefront quay with steamer pier, grand hotel row, and the bay of Lake Lucerne opening under a heavy grey sky, plausible promenade-level tourist viewpoint, clean framing, no artifacts. Gate 2 PASS: mechanical 1920x1080/864x1080 verified; on-image caption 'Vitznau, Vitznau', scenario '24 September 2026 · 17:33 Europe/Zurich', disclosure 'AI-generated artistic interpretation · Not a photograph.' bottom-left and exact 'Jason D's Vision' signature bottom-right, legible on the gradient scrim; note records a separate Open-Meteo retrieval at 2026-09-25T23:42:32Z unique repo-wide to this scene, valid for the model hour covering the scenario. Gate 3: text-prompt-only lineage, no photographic inputs reported. Gate 4: no people, logos, or recognizable private property (documented only). Gate 5: no open blockers.",
+  "approved_at": "2026-09-26T08:39:14.577423+00:00",
+  "sha256_16x9": "fe0e6a690377fb1783f7cf1e873c776d5feb58c7c4d4fa62b8bc7e9987b4a399",
+  "sha256_4x5": "eb141589159f4172f018da300ca27add58c433ecc81f56e134f400d6936e50fb"
 }
