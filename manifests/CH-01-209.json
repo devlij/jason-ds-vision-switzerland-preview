@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Switzerland/Neuchâtel/ch-01-209-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "Gate 1: outer stone quay of the Port of Neuchâtel with a stone mole and moored boats, open lake running southwest to a low far shore — the lakefront frame, correctly without château or old-town streets, clean and plausible. Gate 2: exact 1920x1080/864x1080 masters; on-image caption 'Neuchâtel lakefront, Neuchâtel' and scenario '24 September 2026 · 18:45 Europe/Zurich'; curly-apostrophe signature bottom-right; disclosure present; per-scene Open-Meteo retrieval 2026-09-25T23:45:33Z (unique second), scenario inside the 18:00–18:59 model hour, heavy-cloud sky matches code 3. Gate 3: text-prompt-only lineage, no photographic input. Gate 4: no people/logos visible — documented only. Gate 5: no open blockers.",
+  "approved_at": "2026-09-26T12:34:11.707832+00:00",
+  "sha256_16x9": "cf0050996ba119101f1733156a0d4ed480cdfe61cbb0524b0d295eb10f169cb7",
+  "sha256_4x5": "08314d225e99ddec6c59c50648c34dc0fd9b097206a102c468594ce9c5e275f5"
 }
