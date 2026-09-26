@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Switzerland/Burgdorf/ch-01-175-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "Gate 1: Burgdorf Castle crowning its rocky hill — the tall square keep with hipped roof, the round tower with conical cap, stone curtain walls — the old town's brown rooftops and the Emme river valley spreading below under grey cloud. Gate 2: exact masters; caption 'Burgdorf Castle, Burgdorf', scenario '24 September 2026 · 17:51 Europe/Zurich', disclosure and signature legible bottom band. Retrieval 2026-09-25T23:43:57Z unique to this scene (coords 47.05487, 7.62899), scenario inside model-valid hour. Gate 3: text-prompt-only. Gate 4: no people or logos (documented only). Gate 5: no open blockers.",
+  "approved_at": "2026-09-26T09:36:59.682882+00:00",
+  "sha256_16x9": "ca60716dedaa52418e2f5a35c8c661d3de67e890459147609a6ea4d875de76dd",
+  "sha256_4x5": "785ede8fd76036240e58ed6ef534fa7fdaa393033e3e84df07942199a31f403d"
 }
