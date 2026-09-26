@@ -12,5 +12,35 @@
   "file_4x5": "library/world/Switzerland/Gruyères/ch-01-348-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Candidate",
+  "daylight_variant": {
+    "variant_of_entry_id": "CH-01-348",
+    "derived_from": "Live gallery night master library/world/Switzerland/Gruyères/ch-01-348-16x9.png (16:9) and library/world/Switzerland/Gruyères/ch-01-348-4x5.png (4:5) of the same scene; not an independently modelled weather or lighting scenario",
+    "source_night": {
+      "16x9": {
+        "path": "library/world/Switzerland/Gruyères/ch-01-348-16x9.png",
+        "sha256": "96f8fb3a2bc684be0efd01791808ad409e2db6f853f9385d496e321260eeab13"
+      },
+      "4x5": {
+        "path": "library/world/Switzerland/Gruyères/ch-01-348-4x5.png",
+        "sha256": "f488c82d64e7c8a72441296289f90760ca17dd33be14bd0c7b41930d204cd063"
+      },
+      "recorded": "SHA-256 of the night masters immediately before this daylight batch. Post-write hashes are identical; night masters were not rewritten."
+    },
+    "files": {
+      "16x9": "library/world/Switzerland/Gruyères/ch-01-348-daylight-16x9.png",
+      "4x5": "library/world/Switzerland/Gruyères/ch-01-348-daylight-4x5.png"
+    },
+    "sha256": {
+      "16x9": "72df5872687bfb9c3ba03e71e041255d6b447882805ce7007a4f337dffca62e2",
+      "4x5": "0e3485f95acbfa2e7a72a3636efd5ba973211c4987f384d902f0698c1d413fbc"
+    },
+    "created_date": "2026-09-26",
+    "on_image_caption": "Moléson, Gruyères",
+    "on_image_signature": "Jason D’s Vision",
+    "on_image_disclosure": "AI-generated artistic interpretation · Not a photograph.",
+    "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
+    "derivative_disclosure": "Derivative of the night interpretation of this same viewpoint. Not an independently modelled weather or lighting scenario. No weather claim. No scenario timestamp on the variant.",
+    "note": "AI-generated daylight re-interpretation derived from the night master of the same viewpoint and composition. Not a new scene. Architecture and landscape preserved; lighting only was changed from night to daylight. No weather evidence invented. The variant image carries no weather claim and no scenario timestamp. The scene scenario_label remains the night scene's label and is not a daylight weather assertion."
+  }
 }

@@ -12,5 +12,35 @@
   "file_4x5": "library/world/Switzerland/Boudry/ch-01-337-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Candidate",
+  "daylight_variant": {
+    "variant_of_entry_id": "CH-01-337",
+    "derived_from": "Live gallery night master library/world/Switzerland/Boudry/ch-01-337-16x9.png (16:9) and library/world/Switzerland/Boudry/ch-01-337-4x5.png (4:5) of the same scene; not an independently modelled weather or lighting scenario",
+    "source_night": {
+      "16x9": {
+        "path": "library/world/Switzerland/Boudry/ch-01-337-16x9.png",
+        "sha256": "beac3d5eab73aa6db6c69d76ecb818fd6abbb8ae2f27c73efa2b99db0d6a06dc"
+      },
+      "4x5": {
+        "path": "library/world/Switzerland/Boudry/ch-01-337-4x5.png",
+        "sha256": "c2ebdfce88d0862664f374a56064c248fcf01acbb843b81e307db7ae01f690bf"
+      },
+      "recorded": "SHA-256 of the night masters immediately before this daylight batch. Post-write hashes are identical; night masters were not rewritten."
+    },
+    "files": {
+      "16x9": "library/world/Switzerland/Boudry/ch-01-337-daylight-16x9.png",
+      "4x5": "library/world/Switzerland/Boudry/ch-01-337-daylight-4x5.png"
+    },
+    "sha256": {
+      "16x9": "89ff28cbf43b3b32bb8bcd740e29d1aa7ac9258848ad56a12072f4d8c3c8750a",
+      "4x5": "0fab941bc6bc7801ab6798ba4ce19c76d00d5d0bc58f6a66a2b3a2bd00c7eed7"
+    },
+    "created_date": "2026-09-26",
+    "on_image_caption": "Boudry Castle, Boudry",
+    "on_image_signature": "Jason D’s Vision",
+    "on_image_disclosure": "AI-generated artistic interpretation · Not a photograph.",
+    "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
+    "derivative_disclosure": "Derivative of the night interpretation of this same viewpoint. Not an independently modelled weather or lighting scenario. No weather claim. No scenario timestamp on the variant.",
+    "note": "AI-generated daylight re-interpretation derived from the night master of the same viewpoint and composition. Not a new scene. Architecture and landscape preserved; lighting only was changed from night to daylight. No weather evidence invented. The variant image carries no weather claim and no scenario timestamp. The scene scenario_label remains the night scene's label and is not a daylight weather assertion."
+  }
 }
