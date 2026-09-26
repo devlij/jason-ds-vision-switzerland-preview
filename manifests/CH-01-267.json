@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Switzerland/Roveredo/ch-01-267-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Night",
+  "approval_basis": "Gate 1 PASS: stone church with lit Gothic bell tower (rose window, arched portal) centered in a cobbled piazza at twilight, framed by trees and lit street lamps, village houses at right; clean framing, no artifacts. Gate 2 PASS: 1920x1080/864x1080 exact per sweep; caption 'Roveredo, Roveredo', scenario '24 September 2026 · 19:39 Europe/Zurich', disclosure and 'Jason D's Vision' signature (curly apostrophe) baked on the bottom gradient scrim, legible; 4:5 master shows the same church tower (inter-format identity agrees). Weather per-scene retrieval 2026-09-25T23:47:33Z, unique to the second; model-valid hour 19:00–19:59 Europe/Zurich, scenario 19:39 inside; code 0 clear / 36% cloud / 19.9C consistent with the scattered-cloud night sky. Gate 3: text-prompt-only lineage per note. Gate 4: no visible people, no logos. Gate 5: no open blockers.",
+  "approved_at": "2026-09-26T16:40:00.577612+00:00",
+  "sha256_16x9": "a3e767f4fbc39d5599823caa3a9c54bb630b1c106ddb9e18e2b52d95aa39b2d6",
+  "sha256_4x5": "b6d2f733b1694c2ac53d1477293a26d38296f28bf54d454427feec275a71bdfa"
 }
