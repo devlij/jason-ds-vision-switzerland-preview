@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Switzerland/Bern/ch-01-276-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Night",
+  "approval_basis": "Gate 1 PASS: Mattequartier riverside row of lit half-timbered houses along the Aare, cliff face with the old town above, overcast night; clean framing, no artifacts. Gate 2 PASS: 1920x1080/864x1080 exact per sweep; caption 'Mattequartier, Bern', scenario '24 September 2026 · 19:57 Europe/Zurich', disclosure and 'Jason D's Vision' signature (curly apostrophe) on the bottom scrim, legible; 4:5 master shows the same house row and cliff (inter-format identity agrees). Weather per-scene retrieval 2026-09-25T23:47:42Z, unique to the second; model-valid hour 19:00–19:59 Europe/Zurich, scenario 19:57 inside; code 3 overcast / 96% cloud / 17.3C matches the cloudy night. Gate 3: text-prompt-only lineage per note. Gate 4: no visible people, no logos. Gate 5: no open blockers.",
+  "approved_at": "2026-09-26T16:40:41.656337+00:00",
+  "sha256_16x9": "afe291109942a19b9a6ebac6dbd2879cb0871269b91d57d006bc46404fc907ae",
+  "sha256_4x5": "a3f83776eab5395888a889793d42f96d4c549e5cbd7e1079efc1625cfe4f0e39"
 }
