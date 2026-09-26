@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Switzerland/Melide/ch-01-198-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved - Cosmo QC 5/5 - Daylight",
+  "approval_basis": "Gate 1: master shows the lakeside town with the parish church (tower plus dome) on the shore, the long causeway bridge to Bissone crossing Lake Lugano, terraced houses on the wooded slope - plausible Melide view. Gate 2: exact caption 'Melide, Melide' and 'Scenario: 24 September 2026 - 18:28 Europe/Zurich' verified on-image with AI disclosure and curly-apostrophe Jason D's Vision signature; weather retrieval 2026-09-25T23:45:22Z unique repo-wide, valid model hour 2026-09-24T18:15 containing the 18:28 scenario. Gate 3: text-prompt-only, no photographic inputs. Gate 4: no identifiable people or focal logos - documented only. Gate 5: no open blockers.",
+  "approved_at": "2026-09-26T11:39:08.153227+00:00",
+  "sha256_16x9": "a6b37bf073a5038c525f68a3e82466d3ae9dc34abdaff20f4063cef6209ab5a3",
+  "sha256_4x5": "2e8063fc98705338eecca1a01a461a3c6362378dbf0aac21a28ffee5cd8ba6c8"
 }
