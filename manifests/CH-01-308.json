@@ -12,7 +12,7 @@
   "file_4x5": "library/world/Switzerland/Saas-Fee/ch-01-308-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate",
+  "approval_status": "Approved",
   "daylight_variant": {
     "variant_of_entry_id": "CH-01-308",
     "derived_from": "Live gallery night master library/world/Switzerland/Saas-Fee/ch-01-308-16x9.png (16:9) and library/world/Switzerland/Saas-Fee/ch-01-308-4x5.png (4:5) of the same scene; not an independently modelled weather or lighting scenario",
@@ -42,5 +42,10 @@
     "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
     "derivative_disclosure": "Derivative of the night interpretation of this same viewpoint. Not an independently modelled weather or lighting scenario. No weather claim. No scenario timestamp on the variant.",
     "note": "AI-generated daylight re-interpretation derived from the night master of the same viewpoint and composition. Not a new scene. Architecture and landscape preserved; lighting only was changed from night to daylight. No weather evidence invented. The variant image carries no weather claim and no scenario timestamp. The scene scenario_label remains the night scene's label and is not a daylight weather assertion."
-  }
+  },
+  "qc_status": "Approved · Cosmo QC 5/5 · Night",
+  "approval_basis": "Gate 1: 16:9 shows Kirchstrasse in Saas-Fee with the Herz Jesu parish church — stone tower with dark spire and clock face, Gothic windows lit, dark wooden chalets, snow-capped peaks beyond; 4:5 shows the same tower with dark spire among the same chalets with the snowy ridge behind. Formats agree on the defining tower. Clean framing, no artifacts. Gate 2: exact 1920x1080 and 864x1080 masters; on-image caption 'Saas-Fee, Saas-Fee', scenario '24 September 2026 · 22:51 Europe/Zurich', disclosure 'AI-generated artistic interpretation · Not a photograph.', and 'Jason D\\u2019s Vision' signature verified. Weather retrieval 2026-09-25T23:48:14Z is unique to this scene to the second; scenario 22:51 falls inside the model-valid hour 22:00–22:59. Gate 3: build-agent note documents text-prompt-only lineage, no photographic inputs. Gate 4: no prominent people, no cars (car-free village honored), no logos. Gate 5: no open blockers.",
+  "approved_at": "2026-09-26T18:40:17.067870+00:00",
+  "sha256_16x9": "af02c05e0d2ebdb2334d6638941c5795297cb2315a75a1515c9814af7e1860e4",
+  "sha256_4x5": "4b57d13a3449c823bbb48c64c6afff3084a20c7201868e7ad096ba9f05e70a62"
 }
