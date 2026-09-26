@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Switzerland/Worb/ch-01-278-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Night",
+  "approval_basis": "Gate 1 PASS: Worb Castle's stone towers and lit windows rising above the village, autumn trees around, overcast dusk; clean framing, no artifacts. Gate 2 PASS: 1920x1080/864x1080 exact per sweep; caption 'Worb Castle, Worb', scenario '24 September 2026 · 19:57 Europe/Zurich', disclosure and 'Jason D's Vision' signature (curly apostrophe) on the bottom scrim, legible; 4:5 master shows the same castle and village (inter-format identity agrees). Weather per-scene retrieval 2026-09-25T23:47:44Z, unique to the second; model-valid hour 19:00–19:59 Europe/Zurich, scenario 19:57 inside; code 3 overcast / 94% cloud / 15.0C matches the cloudy dusk light. Gate 3: text-prompt-only lineage per note. Gate 4: no visible people, no logos. Gate 5: no open blockers.",
+  "approved_at": "2026-09-26T16:40:50.647976+00:00",
+  "sha256_16x9": "626862f586c2b46367fdcfbaa2c3eb0aaf5867bd4197b44754c3dfe217a12eb0",
+  "sha256_4x5": "e10e56a603d3735d24b8e969a90a7693e8b7e54a08a80a3b50b8f025b93f7ec3"
 }
