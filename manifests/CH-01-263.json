@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Switzerland/Bregaglia/ch-01-263-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Night",
+  "approval_basis": "Vicosoprano village square at night: Gate 1 pass — stone houses with a round tower, fountain in the cobbled square, church with bell tower, warm lamps under a starry sky, matching the Bregaglia village-square anchors. Gate 2 pass — exact dims, caption 'Vicosoprano, Bregaglia', scenario '24 September 2026 · 19:38 Europe/Zurich', disclosure, signature; retrieval 2026-09-25T23:47:29Z unique repo-wide, 19:30 model step valid. Gate 3 pass — text-prompt-only. Gate 4 noted — no readable names, no people. Gate 5 pass.",
+  "approved_at": "2026-09-26T15:37:38.620658+00:00",
+  "sha256_16x9": "b92841b1cf710b1f75ad0d6e3e551a4bc8c9ce3eca3f33a6805205e34daf28fb",
+  "sha256_4x5": "917058ce3e67db72c6dcbaf2ff985b7fb309000f4c5b9d7e0b4cc6ff5738c502"
 }
