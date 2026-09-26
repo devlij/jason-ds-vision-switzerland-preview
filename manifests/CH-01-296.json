@@ -12,7 +12,7 @@
   "file_4x5": "library/world/Switzerland/Gland/ch-01-296-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate",
+  "approval_status": "Approved",
   "daylight_variant": {
     "variant_of_entry_id": "CH-01-296",
     "derived_from": "Live gallery night master library/world/Switzerland/Gland/ch-01-296-16x9.png (16:9) and library/world/Switzerland/Gland/ch-01-296-4x5.png (4:5) of the same scene; not an independently modelled weather or lighting scenario",
@@ -42,5 +42,10 @@
     "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
     "derivative_disclosure": "Derivative of the night interpretation of this same viewpoint. Not an independently modelled weather or lighting scenario. No weather claim. No scenario timestamp on the variant.",
     "note": "AI-generated daylight re-interpretation derived from the night master of the same viewpoint and composition. Not a new scene. Architecture and landscape preserved; lighting only was changed from night to daylight. No weather evidence invented. The variant image carries no weather claim and no scenario timestamp. The scene scenario_label remains the night scene's label and is not a daylight weather assertion."
-  }
+  },
+  "qc_status": "Approved · Cosmo QC 5/5 · Night",
+  "approval_basis": "Gate 1 PASS: night street in Gland with the reformed church tower and gable on the right, lit street lamps, houses and trees along a curving road — plausible town-center tourist view. Gate 2 PASS: 1920x1080 + 864x1080 exact; caption 'Gland, Gland', scenario '24 September 2026 · 22:30 Europe/Zurich', disclosure and Jason D's Vision signature all exact and legible; weather retrieval 2026-09-25T23:48:02Z unique to this scene (repo-wide uniqueness scan 280–365), scenario falls inside the model-valid hour. Gate 3 PASS: text-prompt-only lineage, no photographic inputs per note. Gate 4: no people or logos visible; ordinary houses documented only.",
+  "approved_at": "2026-09-26T19:34:20.642143+00:00",
+  "sha256_16x9": "7bbfc7ced775f65879734b7c0396d93a7374daf32a13993ced673fd19a3f83bd",
+  "sha256_4x5": "11a81e15fbf0325ec4e68ab943daf336519bb0bfa0a29fb914296785ac883af6"
 }
