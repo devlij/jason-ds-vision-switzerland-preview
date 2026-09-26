@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Switzerland/Zermatt/ch-01-161-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "Gate 1: the frame shows Zermatt's car-free Bahnhofstrasse of dark-timber chalets with stone bases converging on the white tower of St Mauritius, the Matterhorn a distant snow peak above the roofs — matches the builder's geometry anchors, clean framing, no artifacts. Gate 2: both masters exact (1920x1080, 864x1080); on-image caption 'Zermatt Bahnhofstrasse, Zermatt', scenario '24 September 2026 · 17:50 Europe/Zurich', the AI-disclosure line, and the curly-apostrophe 'Jason D's Vision' signature all legible on the bottom band. Weather retrieval 2026-09-25T23:42:42Z is unique to this scene (neighbors 156-160 and 176-180 carry their own adjacent seconds, no duplicates repo-wide), and scenario 17:50 falls inside the model-valid hour 17:00-17:59. Gate 3: note records text-prompt-only generation lineage, no photographic inputs. Gate 4: no visible people or readable logos on the shopfronts (documented only, commercial call stays Jason's). Gate 5: no open blockers.",
+  "approved_at": "2026-09-26T09:34:27.729534+00:00",
+  "sha256_16x9": "83199749b3137ccc5a41c18cc0682d7cb9e46aa696a2823c9e880619b39bd692",
+  "sha256_4x5": "27131ac22f2ac29528aa6d60210b32afd6af8450da151dfa28fbf9c5f219eec4"
 }
