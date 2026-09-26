@@ -12,7 +12,7 @@
   "file_4x5": "library/world/Switzerland/Weesen/ch-01-353-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate",
+  "approval_status": "Approved",
   "daylight_variant": {
     "variant_of_entry_id": "CH-01-353",
     "derived_from": "Live gallery night master library/world/Switzerland/Weesen/ch-01-353-16x9.png (16:9) and library/world/Switzerland/Weesen/ch-01-353-4x5.png (4:5) of the same scene; not an independently modelled weather or lighting scenario",
@@ -42,5 +42,10 @@
     "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
     "derivative_disclosure": "Derivative of the night interpretation of this same viewpoint. Not an independently modelled weather or lighting scenario. No weather claim. No scenario timestamp on the variant.",
     "note": "AI-generated daylight re-interpretation derived from the night master of the same viewpoint and composition. Not a new scene. Architecture and landscape preserved; lighting only was changed from night to daylight. No weather evidence invented. The variant image carries no weather claim and no scenario timestamp. The scene scenario_label remains the night scene's label and is not a daylight weather assertion."
-  }
+  },
+  "qc_status": "Approved · Cosmo QC 5/5 · Night",
+  "approval_basis": "Gate 1 — 16:9 master shows Weesen at night from the waterfront: the old Städtli on the water with the lit church on the Büel, and the Churfirsten cliffs running east along the south shore under a starry sky — matches the anchors (west end of Walensee where the Linth canal leaves the lake, old town on the water, Churfirsten cliffs, churches on the Büel; not Walenstadt). 4:5 crop shows the same waterfront, church, and cliff wall — no inter-format subject disagreement. Gate 2 — exact 1920x1080 / 864x1080 masters; on-image caption 'Weesen, Weesen', scenario '24 September 2026 · 23:46 Europe/Zurich', disclosure and exact curly-apostrophe 'Jason D's Vision' signature legible on the scrim. Weather per approvals note: Open-Meteo retrieved 2026-09-25T23:48:59Z, unique per-scene timestamp across the 27-scene candidate window, model-valid hour covering the scenario time with per-scene coordinates. Gate 3 — text-prompt-only lineage documented, no photographic inputs. Gate 4 — no visible people, logos, or recognizable private property; documented only.",
+  "approved_at": "2026-09-26T22:34:39.425466+00:00",
+  "sha256_16x9": "5a4169451684b909f8036e1db4cf09d37303b100e290b5531fb54b0a30bbd6ec",
+  "sha256_4x5": "3c345e51eda6a3723cf8dda19c98937a1f40d9ff42d79700479131fc860fe567"
 }
