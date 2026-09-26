@@ -12,7 +12,7 @@
   "file_4x5": "library/world/Switzerland/Geneva/ch-01-290-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate",
+  "approval_status": "Approved",
   "daylight_variant": {
     "variant_of_entry_id": "CH-01-290",
     "derived_from": "Live gallery night master library/world/Switzerland/Geneva/ch-01-290-16x9.png (16:9) and library/world/Switzerland/Geneva/ch-01-290-4x5.png (4:5) of the same scene; not an independently modelled weather or lighting scenario",
@@ -42,5 +42,10 @@
     "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
     "derivative_disclosure": "Derivative of the night interpretation of this same viewpoint. Not an independently modelled weather or lighting scenario. No weather claim. No scenario timestamp on the variant.",
     "note": "AI-generated daylight re-interpretation derived from the night master of the same viewpoint and composition. Not a new scene. Architecture and landscape preserved; lighting only was changed from night to daylight. No weather evidence invented. The variant image carries no weather claim and no scenario timestamp. The scene scenario_label remains the night scene's label and is not a daylight weather assertion."
-  }
+  },
+  "qc_status": "Approved · Cosmo QC 5/5 · Night",
+  "approval_basis": "Gate 1: night view in Parc des Bastions with the lamp-lit tree avenue, manicured lawn, and the floodlit neoclassical university building with the old city wall to the left; plausible park-path viewpoint. Gate 2: exact 1920x1080/864x1080; caption 'Parc des Bastions, Geneva', scenario '24 September 2026 - 22:30 Europe/Zurich', disclosure and signature verified on-image; weather retrieved 2026-09-25T23:47:56Z, unique repo-wide, valid hour 22:00-22:59 matches scenario. Gate 3: text-prompt-only lineage per note. Gate 4: no people or logos visible (documented only).",
+  "approved_at": "2026-09-26T17:42:52.227124+00:00",
+  "sha256_16x9": "8e8656e47c471889dc1122c4d72fddce1fd5e487cc94e58125236c9a629b7cac",
+  "sha256_4x5": "56f5c6caad3610aefe23de04a0e870e578c6eae3af2d323554630ff3a9ef940d"
 }
