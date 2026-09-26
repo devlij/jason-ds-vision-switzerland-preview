@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Switzerland/Brissago/ch-01-195-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved - Cosmo QC 5/5 - Daylight",
+  "approval_basis": "Gate 1: master shows the boat approach to Isola Grande - large stone villa with balustrades set among cypresses and palms on the wooded island, second wooded islet to the right, Lake Maggiore water and mountain backdrop - plausible Brissago Islands view. Gate 2: exact caption 'Brissago Islands, Brissago' and 'Scenario: 24 September 2026 - 18:27 Europe/Zurich' verified on-image with AI disclosure and curly-apostrophe Jason D's Vision signature; weather retrieval 2026-09-25T23:45:19Z unique repo-wide, valid model hour 2026-09-24T18:15 containing the 18:27 scenario. Gate 3: text-prompt-only, no photographic inputs. Gate 4: no identifiable people or focal logos - documented only. Gate 5: no open blockers.",
+  "approved_at": "2026-09-26T11:38:54.027567+00:00",
+  "sha256_16x9": "0a3ea3df6f668d22a7c8c936174ed944db162d56ee5c825298fc7c9eaad8136f",
+  "sha256_4x5": "133bbd983e8acc8f38eb4f5ccd0b5e8d2993a8f9344ea0b01485a2c2f532e38c"
 }
