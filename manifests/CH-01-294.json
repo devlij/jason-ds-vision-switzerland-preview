@@ -12,7 +12,7 @@
   "file_4x5": "library/world/Switzerland/Nyon/ch-01-294-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate",
+  "approval_status": "Approved",
   "daylight_variant": {
     "variant_of_entry_id": "CH-01-294",
     "derived_from": "Live gallery night master library/world/Switzerland/Nyon/ch-01-294-16x9.png (16:9) and library/world/Switzerland/Nyon/ch-01-294-4x5.png (4:5) of the same scene; not an independently modelled weather or lighting scenario",
@@ -42,5 +42,10 @@
     "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
     "derivative_disclosure": "Derivative of the night interpretation of this same viewpoint. Not an independently modelled weather or lighting scenario. No weather claim. No scenario timestamp on the variant.",
     "note": "AI-generated daylight re-interpretation derived from the night master of the same viewpoint and composition. Not a new scene. Architecture and landscape preserved; lighting only was changed from night to daylight. No weather evidence invented. The variant image carries no weather claim and no scenario timestamp. The scene scenario_label remains the night scene's label and is not a daylight weather assertion."
-  }
+  },
+  "qc_status": "Approved · Cosmo QC 5/5 · Night",
+  "approval_basis": "Gate 1: night view on the Nyon lakefront pier with the stone quay, mooring posts and lamps receding into the dark lake, distant shoreline lights across the water, moored boats right; plausible pier viewpoint. Gate 2: exact 1920x1080/864x1080; caption 'Nyon lakefront, Nyon', scenario '24 September 2026 - 22:30 Europe/Zurich', disclosure and signature verified on-image; weather retrieved 2026-09-25T23:48:00Z, unique repo-wide, valid hour 22:00-22:59 matches scenario. Gate 3: text-prompt-only lineage per note. Gate 4: no people or logos visible (documented only).",
+  "approved_at": "2026-09-26T17:43:17.451207+00:00",
+  "sha256_16x9": "594b6de9b9b7b674a92ed2f75929d919e195569c58b497e1ec35881680b1d5c1",
+  "sha256_4x5": "69af9aadaf4e5594a3cc7f841dccf286b1c1c6b65217702455d88f323583af64"
 }
