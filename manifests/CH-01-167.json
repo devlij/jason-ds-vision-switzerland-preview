@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Switzerland/Coppet/ch-01-167-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "Gate 1: Château de Coppet's classical south façade — pale stone, slate mansard roofs, two pavilion ends, row of chimneys — set in lawns and mature trees under brooding cloud, consistent with the English park setting. Gate 2: exact masters; caption 'Château de Coppet, Coppet', scenario '24 September 2026 · 17:50 Europe/Zurich', disclosure and signature legible bottom band. Retrieval 2026-09-25T23:43:49Z unique to this scene (coords 46.31713, 6.19206), scenario inside model-valid hour. Gate 3: text-prompt-only. Gate 4: no people or logos (documented only). Gate 5: no open blockers.",
+  "approved_at": "2026-09-26T09:35:45.958660+00:00",
+  "sha256_16x9": "b08e55244e64c1b4b014c5a3444319673f10c9492e44d25ee32df613787b20cb",
+  "sha256_4x5": "bff36a772e9aafed3911fcbd0752a4151906129af40c0aeef115470f3588bf69"
 }
