@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Switzerland/St. Moritz/ch-01-257-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Night",
+  "approval_basis": "St. Moritz Bad lakeshore at night: Gate 1 pass — spa hotels along the southwest shore where the Inn leaves Lake St. Moritz, Dorf lights on the slope above at left, not the open-lake postcard view per the note. Gate 2 pass — exact dims, caption 'St. Moritz Bad, St. Moritz', scenario '24 September 2026 · 19:38 Europe/Zurich', disclosure, signature; retrieval 2026-09-25T23:46:22Z unique repo-wide, model step 19:30 valid for the 19:38 scenario. Gate 3 pass — text-prompt-only. Gate 4 noted — no readable hotel names, no people. Gate 5 pass.",
+  "approved_at": "2026-09-26T15:37:10.436751+00:00",
+  "sha256_16x9": "f0ee46e18c9f937cc5486a8010cd08989639610e231fc38115d27a3aeb32621f",
+  "sha256_4x5": "718333b09644f3736ebeb9bc96a259506cf6a365c18921aa60d2bf8fce1d1001"
 }
