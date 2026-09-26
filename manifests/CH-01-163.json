@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Switzerland/Saas-Almagell/ch-01-163-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "Gate 1: white church of St Barbara with stone tower beside the Saaser Vispa, sun-darkened larch chalets on the slope, autumn meadows — matches Saas-Almagell's village arrangement, no artifacts. Gate 2: exact masters (1920x1080, 864x1080); caption 'Saas-Almagell, Saas-Almagell', scenario '24 September 2026 · 17:50 Europe/Zurich', disclosure and 'Jason D's Vision' signature legible bottom band. Retrieval 2026-09-25T23:43:45Z unique to this scene (its own second, coordinates 46.09364, 7.95876), scenario inside model-valid hour. Gate 3: text-prompt-only, no photographic inputs. Gate 4: no people/logos visible (documented only). Gate 5: no open blockers.",
+  "approved_at": "2026-09-26T09:35:04.761608+00:00",
+  "sha256_16x9": "9ff5841f0245eda545ec22495b2c932a0306883dadaca0d90d7bd98fc43e4b85",
+  "sha256_4x5": "ec49fa4c4fda2f4c406e9bd1e29de0294a091b0f911b70c4dc259cd351541d24"
 }
