@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Switzerland/Freienbach/ch-01-208-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "Gate 1: square medieval stone tower of Schloss Pfäffikon rising beside lower castle buildings on the upper Lake Zurich shore — the Unterdorf keep, water beside it, no canton-of-Zurich confusion, clean framing. Gate 2: exact 1920x1080/864x1080 masters; on-image caption 'Pfäffikon SZ, Freienbach' and scenario '24 September 2026 · 18:28 Europe/Zurich'; curly-apostrophe signature bottom-right; disclosure legible; per-scene Open-Meteo retrieval 2026-09-25T23:45:32Z (unique second), scenario inside model-valid 18:00–18:59 hour, overcast sky matches code 3. Gate 3: text-prompt-only lineage, no photographic input. Gate 4: no people/logos visible — documented only. Gate 5: no open blockers.",
+  "approved_at": "2026-09-26T12:34:07.512620+00:00",
+  "sha256_16x9": "2445fad72fe99ea4c4cf135bec952cbfe29a83d053acd3aba5a0090d97838917",
+  "sha256_4x5": "bf15432a52850a1bfb1c31fbd34e7d5e84ca674e2b4cdc5cee7072a47e410bf1"
 }
