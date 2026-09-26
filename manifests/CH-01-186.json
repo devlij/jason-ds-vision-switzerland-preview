@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Switzerland/Zurich/ch-01-186-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "Gate 1: the master shows Burkliplatz at the Lake Zurich outflow — tree-shaded square with the steamer landing and a white lake steamer at the quay, the round floral clock bed in the foreground, and the Quaibrucke only at the frame edge; not a shopping-street or Limmat view, plausible square viewpoint, clean framing, no artifacts. Gate 2: both masters exact dims (sweep-verified); caption 'Burkliplatz, Zurich', scenario '24 September 2026 · 18:08 Europe/Zurich', AI disclosure legible on gradient; exact 'Jason D's Vision' signature bottom-right; weather retrieved 2026-09-25T23:44:08Z, unique repo-wide, valid 18:00–18:59 hour covering 18:08, overcast code 3/100% matching the diffuse light. Gate 3: text-prompt-only lineage, no photographic inputs. Gate 4: no prominent person or focal logo — documented only. Gate 5: no open blockers.",
+  "approved_at": "2026-09-26T10:36:57.350836+00:00",
+  "sha256_16x9": "6efaab95f2376e7d522df282e0614edabd468aa7ab24196986d7119d45bfcc84",
+  "sha256_4x5": "3bcac47d4f90408d26ff90471b31841c35af7329b1c21d47e715cc9e4cad9042"
 }
