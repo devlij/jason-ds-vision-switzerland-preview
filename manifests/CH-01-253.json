@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Switzerland/Lauterbrunnen/ch-01-253-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Night",
+  "approval_basis": "Kleine Scheidegg, Lauterbrunnen rail pass at night: Gate 1 pass — multiple tracks in the foreground, large dark pass hotels with a few lit windows, the Eiger wall rising immediately beside the station and vanishing into cloud, distinct from the valley meadow Eiger portrait. Gate 2 pass — exact 1920x1080 / 864x1080 masters, caption 'Kleine Scheidegg, Lauterbrunnen', scenario '24 September 2026 · 19:21 Europe/Zurich', disclosure, signature; retrieval 2026-09-25T23:46:18Z unique repo-wide, valid 19:15 model step, scenario inside model hour. Gate 3 pass — text-prompt-only. Gate 4 noted — no people, no readable hotel names. Gate 5 pass.",
+  "approved_at": "2026-09-26T15:36:51.757491+00:00",
+  "sha256_16x9": "5c8999734408ab0f56d0da7ccfe5cdb9d8d9b0b3faa124e150448009a0222eec",
+  "sha256_4x5": "6e78dea92a90ee38068930ce1e9fe2a4a897fa76806d68c782cfc62411a97317"
 }
