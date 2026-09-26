@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Switzerland/Göschenen/ch-01-237-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "Gate 1: compact stone village of Göschenen with the Romanesque-revival Maria Himmelfahrt church and solid tower among the houses, steep rock walls closing the valley, clear dusk sky — matches the evidence card, no Devil's Bridge, no tunnel-portal sign. Gate 2: exact dims; signature 'Jason D's Vision' bottom-right; caption 'Göschenen, Göschenen' + scenario '24 September 2026 · 19:03 Europe/Zurich' + disclosure on scrim; retrieval 2026-09-25T23:46:02Z unique per-scene (repo-wide zero duplicates), valid 19:00 hour covers scenario. Gate 3: text-prompt-only lineage. Gate 4: no visible people or logos.",
+  "approved_at": "2026-09-26T15:12:23.173600+00:00",
+  "sha256_16x9": "976b0189a23108fa8e3385bb565969cba912aca1ba438fa17fb2d95de2e8e156",
+  "sha256_4x5": "7f69bf4083e45e414bdaed0d6962c32f92cfbc8205d11e3c90fbc1b1781ce8ff"
 }
