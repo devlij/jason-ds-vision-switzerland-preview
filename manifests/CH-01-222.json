@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Switzerland/Nendaz/ch-01-222-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "Gate 1: dark-wood chalets of Haute-Nendaz on a shelf above the Rhône, small white church, tawny late-September pastures, snow-capped peaks south — recognizably Nendaz. Gate 2: on-image caption 'Nendaz, Nendaz', scenario '24 September 2026 · 18:46 Europe/Zurich' inside the model-valid hour; per-scene retrieval 2026-09-25T23:45:46Z, unique, code 2 at 70% cloud, cell ~1296m matching the note; dims verified; signature and disclosure legible. Gate 3: text-prompt-only lineage, no photographic inputs. Gate 4: no prominent people or focal logos; documented-only. Gate 5: no open blockers.",
+  "approved_at": "2026-09-26T13:33:41.626468+00:00",
+  "sha256_16x9": "32b4c975f70048c223bf1d571587da6500f3078380d02e91ccfbc7451c9ad7fe",
+  "sha256_4x5": "257585e9deb54853584dab442d719afda65f3f82c6c7a46554332718372a77a0"
 }
