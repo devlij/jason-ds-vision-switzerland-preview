@@ -12,5 +12,35 @@
   "file_4x5": "library/world/Switzerland/Geneva/ch-01-289-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Candidate",
+  "daylight_variant": {
+    "variant_of_entry_id": "CH-01-289",
+    "derived_from": "Live gallery night master library/world/Switzerland/Geneva/ch-01-289-16x9.png (16:9) and library/world/Switzerland/Geneva/ch-01-289-4x5.png (4:5) of the same scene; not an independently modelled weather or lighting scenario",
+    "source_night": {
+      "16x9": {
+        "path": "library/world/Switzerland/Geneva/ch-01-289-16x9.png",
+        "sha256": "1fad49254439d6adb43bfc34c27f144f971ccd2a23b8d5fef55006d3a192c5b6"
+      },
+      "4x5": {
+        "path": "library/world/Switzerland/Geneva/ch-01-289-4x5.png",
+        "sha256": "c8279ccfdb06c3ff052a57560b646bfe4222eb2ff6244b10d9d7f1522dc51266"
+      },
+      "recorded": "SHA-256 of the night masters immediately before this daylight batch. Post-write hashes are identical; night masters were not rewritten."
+    },
+    "files": {
+      "16x9": "library/world/Switzerland/Geneva/ch-01-289-daylight-16x9.png",
+      "4x5": "library/world/Switzerland/Geneva/ch-01-289-daylight-4x5.png"
+    },
+    "sha256": {
+      "16x9": "62a4c4823f8304ac18ee764943560e7b8b2adf8fc6e654bbc2fb71515f52a40b",
+      "4x5": "8a3fb7454578ba4b98e5d7e72261cdb285d0c65414a1357e01ee35b95f957606"
+    },
+    "created_date": "2026-09-25",
+    "on_image_caption": "Quai du Mont-Blanc, Geneva",
+    "on_image_signature": "Jason D’s Vision",
+    "on_image_disclosure": "AI-generated artistic interpretation · Not a photograph.",
+    "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
+    "derivative_disclosure": "Derivative of the night interpretation of this same viewpoint. Not an independently modelled weather or lighting scenario. No weather claim. No scenario timestamp on the variant.",
+    "note": "AI-generated daylight re-interpretation derived from the night master of the same viewpoint and composition. Not a new scene. Architecture and landscape preserved; lighting only was changed from night to daylight. No weather evidence invented. The variant image carries no weather claim and no scenario timestamp. The scene scenario_label remains the night scene's label and is not a daylight weather assertion."
+  }
 }

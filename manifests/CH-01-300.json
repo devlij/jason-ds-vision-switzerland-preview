@@ -12,5 +12,35 @@
   "file_4x5": "library/world/Switzerland/Lausanne/ch-01-300-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Candidate",
+  "daylight_variant": {
+    "variant_of_entry_id": "CH-01-300",
+    "derived_from": "Live gallery night master library/world/Switzerland/Lausanne/ch-01-300-16x9.png (16:9) and library/world/Switzerland/Lausanne/ch-01-300-4x5.png (4:5) of the same scene; not an independently modelled weather or lighting scenario",
+    "source_night": {
+      "16x9": {
+        "path": "library/world/Switzerland/Lausanne/ch-01-300-16x9.png",
+        "sha256": "304499240295d8ab613da1b1eaf803b664bf2e4c3aa1a1a5a08576d0768d0ab4"
+      },
+      "4x5": {
+        "path": "library/world/Switzerland/Lausanne/ch-01-300-4x5.png",
+        "sha256": "d05f12e72eee8fd433915cdf207029eb3b1c366dfa52fd60a029d77b4ef3ae2a"
+      },
+      "recorded": "SHA-256 of the night masters immediately before this daylight batch. Post-write hashes are identical; night masters were not rewritten."
+    },
+    "files": {
+      "16x9": "library/world/Switzerland/Lausanne/ch-01-300-daylight-16x9.png",
+      "4x5": "library/world/Switzerland/Lausanne/ch-01-300-daylight-4x5.png"
+    },
+    "sha256": {
+      "16x9": "28a5e1e5e1a86f75979bb3fe9872405d7a6415c696d6833ecfd6c479686dc27d",
+      "4x5": "b475d791977d602e18dc0cd070496c93b8e580635d82254a3d1a9b3c227e2599"
+    },
+    "created_date": "2026-09-25",
+    "on_image_caption": "Flon, Lausanne",
+    "on_image_signature": "Jason D’s Vision",
+    "on_image_disclosure": "AI-generated artistic interpretation · Not a photograph.",
+    "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
+    "derivative_disclosure": "Derivative of the night interpretation of this same viewpoint. Not an independently modelled weather or lighting scenario. No weather claim. No scenario timestamp on the variant.",
+    "note": "AI-generated daylight re-interpretation derived from the night master of the same viewpoint and composition. Not a new scene. Architecture and landscape preserved; lighting only was changed from night to daylight. No weather evidence invented. The variant image carries no weather claim and no scenario timestamp. The scene scenario_label remains the night scene's label and is not a daylight weather assertion."
+  }
 }

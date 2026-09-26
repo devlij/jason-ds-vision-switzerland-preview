@@ -12,5 +12,35 @@
   "file_4x5": "library/world/Switzerland/Meyrin/ch-01-292-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Candidate",
+  "daylight_variant": {
+    "variant_of_entry_id": "CH-01-292",
+    "derived_from": "Live gallery night master library/world/Switzerland/Meyrin/ch-01-292-16x9.png (16:9) and library/world/Switzerland/Meyrin/ch-01-292-4x5.png (4:5) of the same scene; not an independently modelled weather or lighting scenario",
+    "source_night": {
+      "16x9": {
+        "path": "library/world/Switzerland/Meyrin/ch-01-292-16x9.png",
+        "sha256": "1c83d3f995af4667aafa5461b302acf87ab9303c3fffa9c00bdfcaca870a9c2a"
+      },
+      "4x5": {
+        "path": "library/world/Switzerland/Meyrin/ch-01-292-4x5.png",
+        "sha256": "b876328ee361b82e8a6ab60d83224f30e70fc994d0531275ef3f02589096b3a5"
+      },
+      "recorded": "SHA-256 of the night masters immediately before this daylight batch. Post-write hashes are identical; night masters were not rewritten."
+    },
+    "files": {
+      "16x9": "library/world/Switzerland/Meyrin/ch-01-292-daylight-16x9.png",
+      "4x5": "library/world/Switzerland/Meyrin/ch-01-292-daylight-4x5.png"
+    },
+    "sha256": {
+      "16x9": "735079c889c4bc87149c47ba0db4e71e3cad84b1fe46caf76aaefa2ecae194fd",
+      "4x5": "e7f4dce10d4a5c96fb525ed94569f81cf914d7db7f73e2676b7324086f57aba9"
+    },
+    "created_date": "2026-09-25",
+    "on_image_caption": "CERN Globe, Meyrin",
+    "on_image_signature": "Jason D’s Vision",
+    "on_image_disclosure": "AI-generated artistic interpretation · Not a photograph.",
+    "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
+    "derivative_disclosure": "Derivative of the night interpretation of this same viewpoint. Not an independently modelled weather or lighting scenario. No weather claim. No scenario timestamp on the variant.",
+    "note": "AI-generated daylight re-interpretation derived from the night master of the same viewpoint and composition. Not a new scene. Architecture and landscape preserved; lighting only was changed from night to daylight. No weather evidence invented. The variant image carries no weather claim and no scenario timestamp. The scene scenario_label remains the night scene's label and is not a daylight weather assertion."
+  }
 }
