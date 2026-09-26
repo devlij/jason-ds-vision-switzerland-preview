@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Switzerland/Mendrisio/ch-01-144-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "Gate 1: Mendrisio Piazza del Ponte with neoclassical triumphal-arch facade of Santi Cosma e Damiano (three openings, Corinthian columns), separate medieval square tower beside the church, stucco palazzi, terracotta roofs, vineyard hills behind; not Chiasso. Gate 2: caption 'Mendrisio, Mendrisio', scenario '24 September 2026 · 17:15 Europe/Zurich', disclosure and curly-apostrophe signature exact on bottom gradient; per-scene Open-Meteo retrieval 2026-09-25T23:42:24Z verified unique across all 373 repo notes, valid hour 17:00-17:59 covers 17:15. Gate 3: text-prompt-only, no photographic inputs reported. Gate 4: no prominent people, no focal logos (internal note only). Gate 5: no open blockers.",
+  "approved_at": "2026-09-26T07:38:13.492832+00:00",
+  "sha256_16x9": "8556cb18fbcac688a0251f2c578e442c4a709604223d05a4e529d846a9d730e4",
+  "sha256_4x5": "8bc9690efa3ba2bbfa781c1202f17eb2ac952b902b261de8c3d4ca21971e1277"
 }
