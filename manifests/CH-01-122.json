@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Switzerland/Interlaken/ch-01-122-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "Gate 1: tree-lined Höheweg promenade with grand hotel fronts, the open Höhematte meadow, and the Jungfrau aligned at the valley end — the Interlaken frame. Gate 2: masters 1920x1080/864x1080 exact; on-image caption 'Höheweg, Interlaken', scenario '24 September 2026 · 16:57 Europe/Zurich', disclosure and signature 'Jason D’s Vision' legible on the gradient scrim. Weather retrieved 2026-09-25T23:41:01Z, unique to this scene across the 101-145 window; model-valid hour 16:00-16:59 matches the scenario. Gate 3: text-prompt-only lineage, no photographic inputs per note. Gate 4: no people, no logos — documented only. Gate 5: no open blockers.",
+  "approved_at": "2026-09-26T06:35:59.924270+00:00",
+  "sha256_16x9": "d77cc48c6d96358e254df1e447b907803c89cac8bda13be450ad900911e966b3",
+  "sha256_4x5": "cf6a4de1952cfa6932ef7ea462c54ebf437284aa24abf64731c40aea6ccb906e"
 }
