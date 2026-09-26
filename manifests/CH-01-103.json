@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Switzerland/Lauterbrunnen/ch-01-103-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "Gate 1: glacial water churning down a polished limestone chute inside the cliff, visitor gallery with railing and warm lamps at left, spray and dim daylight — matches anchors, not the outdoor Staubbach veil. Gate 2: caption 'Trümmelbach Falls, Lauterbrunnen' and 'Scenario: 24 September 2026 · 16:37 Europe/Zurich' exact; signature bottom-right; disclosure present. Weather verified: Open-Meteo retrieved 2026-09-25T23:40:42Z, unique to this scene, model hour covers 16:37. Gate 3: text-prompt-only, no photographic inputs. Gate 4: no people, no logos (documented only). Gate 5: clear.",
+  "approved_at": "2026-09-26T05:32:54.643104+00:00",
+  "sha256_16x9": "c60905f2337649a53a9baa8b5ec0adc5c7dffbb015999b882b68281aa01dd0ca",
+  "sha256_4x5": "b583b05672aca4f69f1b7d0d62367051c87f45674f65d05feb7e6c0111eba43f"
 }
