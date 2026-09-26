@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Switzerland/Murten/ch-01-217-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "Gate 1: stone harbour quay with moored boats and reeds in the foreground, open Lake Murten running to the low wooded ridge of Mont Vully — the harbour frame with no ring wall or castle, plausible and clean. Gate 2: exact 1920x1080/864x1080 masters; on-image caption 'Murten lakefront, Murten' and scenario '24 September 2026 · 18:46 Europe/Zurich'; curly-apostrophe signature bottom-right; disclosure present; per-scene Open-Meteo retrieval 2026-09-25T23:45:41Z (unique second), scenario inside 18:00–18:59 model hour, near-overcast sky matches code 3. Gate 3: text-prompt-only lineage, no photographic input. Gate 4: no people/logos visible — documented only. Gate 5: no open blockers.",
+  "approved_at": "2026-09-26T12:34:48.822464+00:00",
+  "sha256_16x9": "59c77cd424882a81a9285c837712d2914d4c91de935b5422f6ec19d253564852",
+  "sha256_4x5": "4569adf86e4f824e355c20b47dad845aa1e5eab7dea043de8fd26daa19544c94"
 }
