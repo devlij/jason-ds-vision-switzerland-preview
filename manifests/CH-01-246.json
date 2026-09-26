@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Switzerland/Unterseen/ch-01-246-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Night",
+  "approval_basis": "Gate 1: the Stedli's arcaded wooden street of Unterseen at twilight closing on the reformed church with its tall tower and clock, lit windows, overcast sky — old town, not the Harder Kulm terrace, no festival banners. Gate 2: exact 1920x1080/864x1080; signature/caption 'Old Town, Unterseen'/scenario '24 September 2026 · 19:20 Europe/Zurich'/disclosure all on-image; retrieval 2026-09-25T23:46:11Z unique per-scene (repo-wide no duplicates), valid 19:15 hour. Gate 3: text-prompt-only. Gate 4: no visible people or logos.",
+  "approved_at": "2026-09-26T15:13:17.842025+00:00",
+  "sha256_16x9": "9fb44e8e64e8d76c07a44370eedbe5baf7c72d77620bd135bf5e6599533d078a",
+  "sha256_4x5": "157424efebfccbcca857143924370b4514ad1e8f8a615184596e974275ae3a61"
 }
