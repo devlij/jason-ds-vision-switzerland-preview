@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Switzerland/Hasliberg/ch-01-242-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Night",
+  "approval_basis": "Gate 1: scattered dark-wood chalets of Hasliberg Reuti on the tawny terrace with lit windows, fir woods, and the jagged Engelhörner across the valley under broken dusk cloud — terrace municipality, not the Meiringen valley floor, no snow. Gate 2: exact 1920x1080/864x1080; signature/caption 'Hasliberg, Hasliberg'/scenario '24 September 2026 · 19:20 Europe/Zurich'/disclosure all present; retrieval 2026-09-25T23:46:07Z unique per-scene (repo-wide zero duplicates), valid 19:15 hour. Gate 3: text-prompt-only. Gate 4: no visible people or logos.",
+  "approved_at": "2026-09-26T15:12:58.540073+00:00",
+  "sha256_16x9": "87d63b32a271b5403fcd7e41888f4bca6cbb5025dfce56ed7bcbb1c03d05320d",
+  "sha256_4x5": "0260d3eec237f8298f4852f7a84fe8c53bf799b2ef6656c56a890b850039c6ab"
 }
