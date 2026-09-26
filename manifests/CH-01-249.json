@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Switzerland/Lauterbrunnen/ch-01-249-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Night",
+  "approval_basis": "Gate 1: Lauterbrunnen's parish church spire with one lit stained-glass window rising over the dark village street of wooden chalets with glowing windows at night — plausible street-level viewpoint, no glaring misconfiguration. Gate 2: exact dims; 'Jason D's Vision' signature bottom-right; caption 'Parish Church, Lauterbrunnen' + scenario '24 September 2026 · 19:21 Europe/Zurich' + disclosure on scrim; retrieval 2026-09-25T23:46:14Z unique per-scene (repo-wide zero duplicates), valid 19:15 hour. Gate 3: text-prompt-only. Gate 4: no people, no logos.",
+  "approved_at": "2026-09-26T15:13:31.546067+00:00",
+  "sha256_16x9": "289ea3d454b9dddd3c841d526a9988622185d1dea0c7645ce4f642815a94377b",
+  "sha256_4x5": "6ca162e941865590a17767120415a88c175e80a33aae422debafe2dd9af3e1bf"
 }
