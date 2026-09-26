@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Switzerland/Geneva/ch-01-188-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "Gate 1: the master shows Place du Bourg-de-Four in Geneva Old Town — the sloping cobblestone square with the small marble fountain, surrounded by tall shuttered old-town facades; no cathedral west front, no Jet d'Eau, no Carouge street, plausible square viewpoint, clean framing, no artifacts. Gate 2: both masters exact dims (sweep-verified); caption 'Geneva Old Town, Geneva', scenario '24 September 2026 · 18:08 Europe/Zurich', AI disclosure legible on gradient; exact 'Jason D's Vision' signature bottom-right; weather retrieved 2026-09-25T23:44:10Z, unique repo-wide, valid 18:00–18:59 hour covering 18:08, partly cloudy code 2/57% matching the brighter cloud-break sky. Gate 3: text-prompt-only lineage, no photographic inputs. Gate 4: no prominent person or focal logo — documented only. Gate 5: no open blockers.",
+  "approved_at": "2026-09-26T10:37:25.913437+00:00",
+  "sha256_16x9": "bf99b070f81d5f949938663cc84d4c03249be0b6aa3ccfc76212365ef1c0108a",
+  "sha256_4x5": "3b04c0a4c6df0337053a4639fbb7160f090168bd73a81c7af92d28675579bb45"
 }
