@@ -100,6 +100,15 @@
     .fmt-tab.is-active {
       background: var(--accent); border-color: var(--accent); color: var(--bg); font-weight: 700;
     }
+    .day-tab {
+      display: inline-block; background: #243049; color: var(--text);
+      border-radius: 8px; padding: 0.4rem 0.7rem; font-size: 0.85rem; border: 1px solid var(--line);
+      cursor: pointer;
+    }
+    .day-tab:hover { border-color: var(--accent); }
+    .day-tab.is-active {
+      background: #e8b23a; border-color: #e8b23a; color: #1a1405; font-weight: 700;
+    }
     .view-affordance {
       position: absolute; top: 1.05rem; right: 1.05rem; z-index: 2;
       padding: 5px 10px; border: 1px solid rgba(255, 255, 255, 0.35); border-radius: 999px;
@@ -6136,7 +6145,7 @@
               <button type="button" class="fmt-tab" data-format="4x5" aria-pressed="false">4:5</button>
             </div>
             <a class="thumb" href="${esc(file16)}">
-              <img src="${esc(file16)}" alt="${esc(s.alt_text)}" loading="lazy" data-src-16="${esc(file16)}" data-src-45="${esc(file45)}" />
+              <img src="${esc(file16)}" alt="${esc(s.alt_text)}" loading="lazy" data-src-16="${esc(file16)}" data-src-45="${esc(file45)}"${s.file_16x9_day ? ` data-src-16-day="${esc(s.file_16x9_day)}" data-src-45-day="${esc(s.file_4x5_day)}"` : ""} />
               <span class="view-affordance">View image</span>
             </a>
           </div>
@@ -6146,19 +6155,48 @@
               <span class="status candidate">${esc(status)}</span>
             </div>
             <h3 class="caption">${esc(s.caption)}</h3>
-            <p class="scenario">Scenario: ${esc(s.scenario_label)}</p>
+            <p class="scenario" data-scenario="${esc(s.scenario_label)}">Scenario: ${esc(s.scenario_label)}</p>
             <p class="composition">${esc(s.composition)}</p>
             ${s.description ? `<p class="detail">${esc(s.description)}</p>` : ""}
             <div class="actions">
               <a class="badge" href="${esc(s.license_anchor)}">${esc(s.license_badge)}</a>
-              <a class="download" href="${esc(file16)}" download="${esc(fileName(file16))}">Download 16:9</a>
-              <a class="download" href="${esc(file45)}" download="${esc(fileName(file45))}">Download 4:5</a>
+              <a class="download" data-dl="16x9" href="${esc(file16)}" download="${esc(fileName(file16))}">Download 16:9</a>
+              <a class="download" data-dl="4x5" href="${esc(file45)}" download="${esc(fileName(file45))}">Download 4:5</a>
+              ${s.file_16x9_day ? `<button type="button" class="day-tab" data-daynight="night" aria-pressed="false" title="Toggle the daylight variant">\u2600 Daylight</button>` : ""}
             </div>
           </div>`;
         grid.appendChild(card);
       }
     }
     grid.addEventListener('click', (event) => {
+      const dtab = event.target.closest('.day-tab');
+      if (dtab) {
+        event.preventDefault();
+        const dcard = dtab.closest('.card');
+        if (!dcard) return;
+        const isDay = !dtab.classList.contains('is-active');
+        dtab.classList.toggle('is-active', isDay);
+        dtab.setAttribute('aria-pressed', isDay ? 'true' : 'false');
+        dtab.setAttribute('data-daynight', isDay ? 'day' : 'night');
+        const ftab = dcard.querySelector('.fmt-tab.is-active');
+        const dfmt = ftab ? ftab.getAttribute('data-format') : '16x9';
+        const dlink = dcard.querySelector('a.thumb');
+        const dimg = dlink && dlink.querySelector('img');
+        if (dimg && dlink) {
+          const dkey = dfmt === '4x5' ? (isDay ? 'data-src-45-day' : 'data-src-45') : (isDay ? 'data-src-16-day' : 'data-src-16');
+          const dnext = dimg.getAttribute(dkey);
+          if (dnext) { dimg.src = dnext; dlink.href = dnext; }
+        }
+        dcard.querySelectorAll('a.download').forEach((a) => {
+          const f = a.getAttribute('data-dl');
+          const dk = f === '4x5' ? (isDay ? 'data-src-45-day' : 'data-src-45') : (isDay ? 'data-src-16-day' : 'data-src-16');
+          const u = dimg && dimg.getAttribute(dk);
+          if (u) a.href = u;
+        });
+        const sc = dcard.querySelector('p.scenario');
+        if (sc) sc.textContent = isDay ? '\u2600 Daylight variant \u00b7 derived from the night interpretation' : 'Scenario: ' + sc.getAttribute('data-scenario');
+        return;
+      }
       const tab = event.target.closest('.fmt-tab');
       if (!tab) return;
       event.preventDefault();
@@ -6174,7 +6212,11 @@
       const link = card.querySelector('a.thumb');
       const img = link && link.querySelector('img');
       if (!img || !link) return;
-      const next = fmt === '4x5' ? img.getAttribute('data-src-45') : img.getAttribute('data-src-16');
+      const dayOn = card.querySelector('.day-tab.is-active');
+      const useDay = dayOn && dayOn.getAttribute('data-daynight') === 'day';
+      const next = fmt === '4x5'
+        ? (useDay && img.getAttribute('data-src-45-day')) || img.getAttribute('data-src-45')
+        : (useDay && img.getAttribute('data-src-16-day')) || img.getAttribute('data-src-16');
       if (next) {
         img.src = next;
         link.href = next;
@@ -6204,6 +6246,11 @@
     /* Lightbox-session format choice: seeded from the opening card's active tab,
        persists across prev/next and slideshow navigation (never reset to 16:9). */
     var lbFormat='16x9';
+    var lbDay='night';/* lightbox-session day/night: seeded from the opening card's active day tab; persists across prev/next and slideshow navigation */
+    function cardDay(card){
+      var d=card.querySelector('.day-tab.is-active');
+      return (d&&d.getAttribute('data-daynight')==='day')?'day':'night';
+    }
     function cardFormat(card){
       var t=card.querySelector('.fmt-tab.is-active');
       var f=t?t.getAttribute('data-format'):null;
@@ -6213,6 +6260,11 @@
       var a=card.querySelector('a.thumb');
       if(!a)return'';
       var im=a.querySelector('img');
+      if(cardDay(card)==='day'&&im){
+        var dk=fmt==='4x5'?'data-src-45-day':'data-src-16-day';
+        var ds=im.getAttribute(dk);
+        if(ds)return ds;
+      }
       if(fmt==='4x5'&&im){var s45=im.getAttribute('data-src-45');if(s45)return s45;}
       if(im){var s16=im.getAttribute('data-src-16');if(s16)return s16;}
       return a.href;
@@ -6224,7 +6276,8 @@
          slideshow (no dataset access on digit-bearing attributes) */
       items=visibleCards().map(function(c){
         var t=c.querySelector('.caption');
-        return{src:cardSrc(c,lbFormat),cap:t?t.textContent:''};
+        var daySfx=cardDay(c)==='day'?' \u2014 \u2600 Daylight variant':'';
+        return{src:cardSrc(c,lbFormat),cap:(t?t.textContent:'')+daySfx};
       }).filter(function(x){return x.src;});
       if(!items.length)return;
       idx=(i+items.length)%items.length;
@@ -6249,7 +6302,7 @@
     function hide(){stopSlideshow();overlay.classList.remove('open');overlay.setAttribute('aria-hidden','true');document.body.style.overflow='';}
     document.addEventListener('click',function(e){
       var a=e.target.closest?e.target.closest('a.thumb'):null;
-      if(a){e.preventDefault();var cards=visibleCards();var card=a.closest('.card');lbFormat=cardFormat(card);show(cards.indexOf(card));return;}
+      if(a){e.preventDefault();var cards=visibleCards();var card=a.closest('.card');lbFormat=cardFormat(card);lbDay=cardDay(card);show(cards.indexOf(card));return;}
       if(e.target===overlay||(e.target.closest&&e.target.closest('.lb-close')))hide();
       else if(e.target.closest&&e.target.closest('.lb-play'))togglePlay();
       else if(e.target.closest&&e.target.closest('.lb-prev'))nav(-1);
