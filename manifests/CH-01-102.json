@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Switzerland/Grindelwald/ch-01-102-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "Gate 1: small alpine lake in a tawny late-September turf bowl with cloud-veiled snow-dusted Schreckhorn/Wetterhorn beyond the far shore — matches anchors. Gate 2: caption 'Bachalpsee, Grindelwald' and 'Scenario: 24 September 2026 · 16:37 Europe/Zurich' exact; signature 'Jason D's Vision' bottom-right; disclosure present. Weather verified: Open-Meteo retrieved 2026-09-25T23:40:41Z, unique to this scene, model hour 16:00–16:59 covers 16:37, overcast code 3 matches the grey sky. Gate 3: text-prompt-only, no photographic inputs. Gate 4: no people, no logos (documented only). Gate 5: clear.",
+  "approved_at": "2026-09-26T05:32:49.229316+00:00",
+  "sha256_16x9": "33d5b79b761f9c9782cb39ef1d07668060edff52c25b3f15e5ff89968c70167d",
+  "sha256_4x5": "fc8fef16ad2296ddc8e114fe0fbe314df13cb70bbcf1fb7dc229bfeb97e5e24d"
 }
