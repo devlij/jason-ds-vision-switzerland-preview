@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Switzerland/Porrentruy/ch-01-214-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "Gate 1: round medieval Tour Réfous with tiled roof beside the long Renaissance prince-bishops' residence, old-town roofs below the spur — recognizably Porrentruy Castle from the old-town side, clean framing. Gate 2: exact 1920x1080/864x1080 masters; on-image caption 'Porrentruy Castle, Porrentruy' and scenario '24 September 2026 · 18:46 Europe/Zurich'; curly-apostrophe signature bottom-right; disclosure legible; per-scene Open-Meteo retrieval 2026-09-25T23:45:38Z (unique second), scenario inside model-valid 18:00–18:59 hour, broken cloud with pale sun matches code 2. Gate 3: text-prompt-only lineage, no photographic input. Gate 4: no people/logos visible — documented only. Gate 5: no open blockers.",
+  "approved_at": "2026-09-26T12:34:33.974747+00:00",
+  "sha256_16x9": "4d57201c7413a4015f3c1e691c0d037d19b8af67feacc9613fb95683b1e721f6",
+  "sha256_4x5": "de0a28db976c9ff9feb7f31469a0b6a8ce7f70058a89ae575a957cdb284d8d64"
 }
