@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Switzerland/Saxeten/ch-01-288-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Night",
+  "approval_basis": "Gate 1: night view of Saxeten in the alpine valley with lit wooden chalets and the white church clustered above the stream, steep forested slopes on both sides; plausible elevated village viewpoint. Gate 2: exact 1920x1080/864x1080; caption 'Saxeten, Saxeten', scenario '24 September 2026 - 19:58 Europe/Zurich', disclosure and signature verified on-image; weather retrieved 2026-09-25T23:47:54Z, unique repo-wide, valid hour 19:00-19:59 matches scenario. Gate 3: text-prompt-only lineage per note. Gate 4: no people or logos visible (documented only).",
+  "approved_at": "2026-09-26T17:42:39.814232+00:00",
+  "sha256_16x9": "8d9b457a2d9c34e0e30f26522509aef689de83673fff9476d445e52c8606ee4a",
+  "sha256_4x5": "5d0e70b66abb442c9cee4e2eef235c25a507b50875305c18641a4cb54fcf714f"
 }
