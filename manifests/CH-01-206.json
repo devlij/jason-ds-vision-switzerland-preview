@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Switzerland/Stein/ch-01-206-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "Gate 1: white 1749 Grubenmann reformed church with tall pointed spire over wooden Appenzell houses and green foothill pastures — a plausible Stein AR lane view, clean framing, no artifacts. Gate 2: masters 1920x1080/864x1080 exact; on-image caption 'Stein AR, Stein' and scenario '24 September 2026 · 18:28 Europe/Zurich' legible on the scrim; curly-apostrophe 'Jason D’s Vision' signature bottom-right; disclosure present; per-scene Open-Meteo retrieval 2026-09-25T23:45:30Z (unique second, repo-wide check clean), model-valid hour 18:00–18:59 contains the scenario, overcast code-3 sky rendered. Gate 3: builder notes record text-prompt-only lineage, no photographic input. Gate 4: no visible people, logos, or focal private property — documented only. Gate 5: no open blockers.",
+  "approved_at": "2026-09-26T12:33:58.559592+00:00",
+  "sha256_16x9": "9925e3c6f39edeef70f17049e8071eefea9df1f24463c1c86c3b9ace0469da66",
+  "sha256_4x5": "f63eb42220c39093a6f30babc7b60454f6801ae4bd835555c155279a5a0981b2"
 }
