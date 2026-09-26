@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Switzerland/Lugano/ch-01-268-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Night",
+  "approval_basis": "Gate 1 PASS: Monte Brè funicular summit station terrace with glass pavilion and visible tracks descending, Lake Lugano's city lights below, Monte San Salvatore silhouette right, sunset remnant on the western horizon; clean panorama, no artifacts. Gate 2 PASS: 1920x1080/864x1080 exact per sweep; caption 'Monte Brè, Lugano', scenario '24 September 2026 · 19:39 Europe/Zurich', disclosure and 'Jason D's Vision' signature (curly apostrophe) on the bottom scrim, legible; 4:5 master shows the same terrace and lake vista (inter-format identity agrees). Weather per-scene retrieval 2026-09-25T23:47:34Z, unique to the second; model-valid hour 19:00–19:59 Europe/Zurich, scenario 19:39 inside; code 0 clear / 12% cloud / 16.1C, is_day 0 matches the night panorama. Gate 3: text-prompt-only lineage per note. Gate 4: no visible people, no logos. Gate 5: no open blockers.",
+  "approved_at": "2026-09-26T16:40:05.198719+00:00",
+  "sha256_16x9": "1dfe75c6115dc7b1848e821891f09464ce60c8ebae795d380378272997cb119a",
+  "sha256_4x5": "447bbcf5f632a4e72480bbe89a651106588fe23c98b1c321a3722166706fa534"
 }
