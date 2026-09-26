@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Switzerland/Thun/ch-01-177-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "Gate 1: the master shows the Thun lakefront promenade beside Schadau Park — Schloss Schadau's white château with steep spired roofs set in parkland on the Aare outlet, the open water of Lake Thun, and the pyramidal Niesen faint across the lake under cloud; correct subject (not the Thun Castle keep), plausible lakeside viewpoint, clean framing, no artifacts. Gate 2: both masters exact dims (sweep-verified); caption 'Thun lakefront, Thun', scenario '24 September 2026 · 18:07 Europe/Zurich', AI disclosure legible on gradient; exact 'Jason D's Vision' signature bottom-right; weather retrieved 2026-09-25T23:43:59Z, unique repo-wide, valid 18:00–18:59 hour covering 18:07, overcast code 3/89% matching the diffuse light. Gate 3: text-prompt-only lineage, no photographic inputs. Gate 4: no prominent person or focal logo — documented only. Gate 5: no open blockers.",
+  "approved_at": "2026-09-26T10:34:43.530665+00:00",
+  "sha256_16x9": "ab369f70286215ef619042e4a67f47e9eba74f49fccea5c291eeba315486c5a0",
+  "sha256_4x5": "6059ec56060b6bd2b4b99d557c3c6deb4e59b16386fb01e430c7f9d588c45392"
 }
