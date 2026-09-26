@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Switzerland/Grimentz/ch-01-164-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "Gate 1: cobbled Rue du Village flanked by sun-darkened larch houses and stilted granaries on stone posts, the white church with slender spire at the vanishing point under heavy overcast — Grimentz's wooden-village character is unmistakable, clean framing. Gate 2: exact masters; caption 'Grimentz, Grimentz', scenario '24 September 2026 · 17:50 Europe/Zurich', disclosure and curly-apostrophe signature legible. Retrieval 2026-09-25T23:43:46Z unique to this scene (coords 46.18034, 7.57602), scenario inside model-valid hour. Gate 3: text-prompt-only lineage. Gate 4: no people or logos (documented only). Gate 5: no open blockers.",
+  "approved_at": "2026-09-26T09:35:08.750877+00:00",
+  "sha256_16x9": "a09751dd2a6bdb742e865e32118b869fcc1d2d8ea111f805d78e8036c7231c80",
+  "sha256_4x5": "8db43179af023fac62dcb8a7a280ea59f30f699a5b73a047c6ab895fc22f43d1"
 }
