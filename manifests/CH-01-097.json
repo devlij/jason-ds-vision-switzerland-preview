@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Switzerland/Winterthur/ch-01-097-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "Gate 1: Winterthur old town — quiet street of pastel townhouses with a street lamp, the tall stone spire of the town church rising at its end; empty under flat overcast light, matching the documented model sky. Gate 2: exact masters; on-image 'Winterthur, Winterthur', scenario '24 September 2026 · 16:37 Europe/Zurich', disclosure and curly-apostrophe signature verified in both corners. Retrieval 2026-09-25T23:40:36Z scene-unique; 16:37 falls inside the note's 16:00–16:59 model-valid hour. Gate 3: text-prompt-only, no photographic inputs. Gate 4: no people, logos, or readable signage; commercial clearance is Jason's. Gate 5: ready.",
+  "approved_at": "2026-09-26T04:36:48.454315+00:00",
+  "sha256_16x9": "c403fc5ea5f4b8f0c184d11460331f167fa833720ae2c73d5be41e7dfb5256e8",
+  "sha256_4x5": "26466b15a2e3492a4292352ea5455b882db80bd5b8b9b903585fcbe71897d17d"
 }
