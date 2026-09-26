@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Switzerland/Broc/ch-01-218-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "Gate 1: village church spire among tile roofs with the Jogne valley opening toward the Gruyère Prealps behind — plausibly Broc, no castle and no brand signage, clean framing. Gate 2: exact 1920x1080/864x1080 masters; on-image caption 'Broc, Broc' and scenario '24 September 2026 · 18:46 Europe/Zurich'; curly-apostrophe signature bottom-right; disclosure legible; per-scene Open-Meteo retrieval 2026-09-25T23:45:42Z (unique second), scenario inside model-valid 18:00–18:59 hour, overcast sky matches code 3. Gate 3: text-prompt-only lineage, no photographic input. Gate 4: no people/logos visible — documented only. Gate 5: no open blockers.",
+  "approved_at": "2026-09-26T12:34:53.680177+00:00",
+  "sha256_16x9": "c63d9dd981d56caf9cf5d412e439ea5d52ba54bf3468a9a031546d51a0dcd28e",
+  "sha256_4x5": "9982fdd30881c028af12d3aaf82215917f53e5fc29088b28b19fe94bf87fc29f"
 }
