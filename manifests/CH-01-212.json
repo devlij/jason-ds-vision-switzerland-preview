@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Switzerland/Môtiers/ch-01-212-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "Gate 1: compact valley street of stone and rendered houses with the modest Protestant temple (open bell gable) on the street and wooded Areuse-valley slopes behind — plausibly Môtiers, no Creux du Van in frame, clean framing. Gate 2: exact 1920x1080/864x1080 masters; on-image caption 'Môtiers, Môtiers' and scenario '24 September 2026 · 18:46 Europe/Zurich'; curly-apostrophe signature bottom-right; disclosure legible; per-scene Open-Meteo retrieval 2026-09-25T23:45:36Z (unique second), scenario inside model-valid 18:00–18:59 hour, overcast sky matches code 3. Gate 3: text-prompt-only lineage, no photographic input. Gate 4: no people/logos visible — documented only. Gate 5: no open blockers.",
+  "approved_at": "2026-09-26T12:34:25.076848+00:00",
+  "sha256_16x9": "1aec2bc12bdc01c0aab52ed8c40fb5fd3d5137770c8e0a69d221c95fe526cba5",
+  "sha256_4x5": "ca9a315b115b871030728f0feb79262bbbddd93f81fee2a43818925be4661fd7"
 }
