@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Switzerland/Zurich/ch-01-226-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "Gate 1: Bellevueplatz junction — plane trees, period apartment blocks, tram tracks crossing, view opening south onto the lake — recognizably Bellevue. Gate 2: on-image caption 'Bellevue, Zurich', scenario '24 September 2026 · 19:02 Europe/Zurich' inside the model-valid hour; per-scene retrieval 2026-09-25T23:45:51Z, unique, code 3 overcast consistent with the grey rendered sky; dims verified; signature and disclosure legible. Gate 3: text-prompt-only lineage. Gate 4: no prominent people or focal logos; documented-only. Gate 5: no open blockers.",
+  "approved_at": "2026-09-26T13:33:59.280801+00:00",
+  "sha256_16x9": "6de244df91823c35fd8d1d507388a5f87989ffd51108e145ae7bcfd733b9dd4f",
+  "sha256_4x5": "587c680868a3fdece88b587f2f368076cbab91c63e326435395c15046fe7178d"
 }
