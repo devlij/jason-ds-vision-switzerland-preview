@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Switzerland/Zurich/ch-01-225-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "Gate 1: Quaibrücke's stone balustrade crossing the Limmat outlet, lake opening south between tree-lined quays with Uetliberg right and Zürichberg left — recognizably the Quaibrücke deck. Gate 2: on-image caption 'Quaibrücke, Zurich', scenario '24 September 2026 · 19:02 Europe/Zurich' inside the 19:00–19:59 model hour; per-scene retrieval 2026-09-25T23:45:50Z, unique, code 3 overcast 100% matching the rendered grey sky; dims verified; signature and disclosure present. Gate 3: text-prompt-only lineage. Gate 4: no prominent people or focal logos; documented-only. Gate 5: no open blockers.",
+  "approved_at": "2026-09-26T13:33:54.864570+00:00",
+  "sha256_16x9": "9544bcd685508fbe0a5c22bd52fc8cc637d7b09647e3375dd3594eab81a443b1",
+  "sha256_4x5": "5a106a5430963737e155b210388e5be63dc0ea933289eab468dca591401c1d00"
 }
