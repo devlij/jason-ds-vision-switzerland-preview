@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Switzerland/Sils im Engadin-Segl/ch-01-261-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Night",
+  "approval_basis": "Sils Maria at the mouth of Val Fex, night: Gate 1 pass — Engadin houses with lit windows on the slope, Lake Sils as dark water at right, starry sky with distant snow peaks, not Lake Silvaplana per the note. Gate 2 pass — exact dims, caption 'Sils Maria, Sils im Engadin/Segl', scenario '24 September 2026 · 19:38 Europe/Zurich', disclosure, signature; retrieval 2026-09-25T23:47:27Z unique repo-wide, 19:30 model step valid. Gate 3 pass — text-prompt-only. Gate 4 noted — no readable hotel names, no people. Gate 5 pass.",
+  "approved_at": "2026-09-26T15:37:30.006267+00:00",
+  "sha256_16x9": "e0a3ea0159ece9a41ea58b17ada86e881955fa403a52e8ba8841ee8ab3abf0f9",
+  "sha256_4x5": "b1584fc9fc8b4eb29bb93dc62f3999f5133960c3ffec21ebfbabcc98e28479a2"
 }
