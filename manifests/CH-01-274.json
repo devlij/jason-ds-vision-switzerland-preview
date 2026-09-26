@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Switzerland/Bern/ch-01-274-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Night",
+  "approval_basis": "Gate 1 PASS: Rosengarten rose beds and lamp posts in the foreground, Bern old town with the Münster's tall spire right, Aare bend center, overcast dusk; clean panorama, no artifacts. Gate 2 PASS: 1920x1080/864x1080 exact per sweep; caption 'Rosengarten, Bern', scenario '24 September 2026 · 19:56 Europe/Zurich', disclosure and 'Jason D's Vision' signature (curly apostrophe) on the bottom scrim, legible; 4:5 master shows the same rose-garden vista (inter-format identity agrees). Weather per-scene retrieval 2026-09-25T23:47:40Z, unique to the second; model-valid hour 19:00–19:59 Europe/Zurich, scenario 19:56 inside; code 3 overcast / 96% cloud / 17.8C matches the grey sky. Gate 3: text-prompt-only lineage per note. Gate 4: no visible people, no logos. Gate 5: no open blockers.",
+  "approved_at": "2026-09-26T16:40:33.097795+00:00",
+  "sha256_16x9": "260ea859b816eaed763d1b10dfce776719bffe14eeca9f0be12e3a738b45a314",
+  "sha256_4x5": "36d457f24a1dfaa8c1b64d4735a43e54f62af424cd899061f61b28cc1f68bfb0"
 }
