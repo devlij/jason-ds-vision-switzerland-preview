@@ -2,7 +2,8 @@ BATCH CH daylight variants — CH-01-337 through CH-01-352
 Date: 2026-09-26
 Country: Switzerland
 Repo: devlij/jason-ds-vision-switzerland-preview
-Base tip before this batch: 1a59ca84b42042a9114f1e2f7b4ee596d97e2d1c
+Base tip at start: 1a59ca84b42042a9114f1e2f7b4ee596d97e2d1c
+Main advanced during the batch to 2f5b26021e1268aa1b5d737e883545cf861ff396 (index.html daylight toggle only). This batch lands on top of that tip.
 Directive: 2026-09-25 Jason daylight-variants workstream, Switzerland batch 5.
 Scope: CH-01-337 through CH-01-352 only. Stop after 352.
 Germany and other countries not touched. Weather fields not edited. Night images not regenerated. Existing masters not rewritten.
@@ -44,7 +45,7 @@ MANIFEST
 Each selected scene manifest gained a daylight_variant block only: night lineage paths and SHA-256, both variant paths, variant SHA-256, and the derivative disclosure. scenario_label, description, weather wording, and approval_status were not rewritten.
 
 GALLERY
-Switzerland cards switch 16:9 / 4:5 only. No night/day control already expects *-daylight-* paths. index.html was not edited. Gallery wiring deferred.
+index.html was not edited by this batch. The daylight toggle that landed in 2f5b260 looks for file_16x9_day and file_4x5_day on each card. Those attributes were not added here. Gallery wiring of these sixteen scenes stays deferred.
 
 NIGHT-UNCHANGED CONFIRMATION
 SHA-256 of each night master was recorded before any variant write and checked again after the variant files and manifest blocks were written. Pre and post are identical for all 32 night files. No night hash drifted. No night image was regenerated. Batch not aborted.
