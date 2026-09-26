@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Switzerland/Rolle/ch-01-169-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "Gate 1: Rolle's waterside castle — irregular stone plan, round northwest tower and rectangular lake-side tower, warm evening light — on its small treed islet with the tall lakeside column beside it, Lake Geneva and hazy shore hills beyond. Gate 2: exact masters; caption 'Rolle, Rolle', scenario '24 September 2026 · 17:50 Europe/Zurich', disclosure and signature legible bottom band. Retrieval 2026-09-25T23:43:51Z unique to this scene (coords 46.45871, 6.34151), scenario inside model-valid hour. Gate 3: text-prompt-only. Gate 4: no people or logos (documented only). Gate 5: no open blockers.",
+  "approved_at": "2026-09-26T09:35:54.319126+00:00",
+  "sha256_16x9": "81ca36f9a21565a90e41e86ae0cafefcb152b26d452be5e1af38e1c4a74cb3d2",
+  "sha256_4x5": "6ba04e46bbdf62efe60fc64aaefcc49a194427c197e7b66c44bcaf9d7fd1cf97"
 }
