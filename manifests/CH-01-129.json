@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Switzerland/Klosters/ch-01-129-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "Gate 1: Klosters Platz in the Prättigau — dark-wood chalets, the white church with slender spire, the Landquart river, and warm late-afternoon light on the valley slopes, matching the note's independent description. Gate 2: masters 1920x1080/864x1080 exact; on-image caption 'Klosters, Klosters', scenario '24 September 2026 · 17:14 Europe/Zurich', disclosure and signature 'Jason D’s Vision' legible on the gradient scrim. Weather retrieved 2026-09-25T23:41:08Z, unique to this scene across the 101-145 window; model-valid hour 17:00 matches the 17:14 scenario. Gate 3: text-prompt-only lineage, no photographic inputs per note. Gate 4: no people, no logos — documented only. Gate 5: no open blockers.",
+  "approved_at": "2026-09-26T06:37:34.473923+00:00",
+  "sha256_16x9": "e3485a6e7436991f8dcfae693a23cbf6dab47ac5aa22b28d22062b5a5abbc555",
+  "sha256_4x5": "23ed2cf57931eae7f6a58172044fa2facbf72d562bce764d77e215b7352ec76d"
 }
