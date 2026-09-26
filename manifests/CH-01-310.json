@@ -12,7 +12,7 @@
   "file_4x5": "library/world/Switzerland/Visperterminen/ch-01-310-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate",
+  "approval_status": "Approved",
   "daylight_variant": {
     "variant_of_entry_id": "CH-01-310",
     "derived_from": "Live gallery night master library/world/Switzerland/Visperterminen/ch-01-310-16x9.png (16:9) and library/world/Switzerland/Visperterminen/ch-01-310-4x5.png (4:5) of the same scene; not an independently modelled weather or lighting scenario",
@@ -42,5 +42,10 @@
     "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
     "derivative_disclosure": "Derivative of the night interpretation of this same viewpoint. Not an independently modelled weather or lighting scenario. No weather claim. No scenario timestamp on the variant.",
     "note": "AI-generated daylight re-interpretation derived from the night master of the same viewpoint and composition. Not a new scene. Architecture and landscape preserved; lighting only was changed from night to daylight. No weather evidence invented. The variant image carries no weather claim and no scenario timestamp. The scene scenario_label remains the night scene's label and is not a daylight weather assertion."
-  }
+  },
+  "qc_status": "Approved · Cosmo QC 5/5 · Night",
+  "approval_basis": "Gate 1: 16:9 shows Visperterminen village with the St. Theodul church — stone tower with pointed spire — among dark wooden houses, stone-walled vineyard terraces with yellowing vines below, a lit lane curving in; 4:5 shows the same spired tower with clock among the same wooden houses, stone steps, yellowing vines. Formats agree on the defining tower. Clean framing, no artifacts. Gate 2: exact 1920x1080 and 864x1080 masters; on-image caption 'Visperterminen, Visperterminen', scenario '24 September 2026 · 22:51 Europe/Zurich', disclosure 'AI-generated artistic interpretation · Not a photograph.', and 'Jason D\\u2019s Vision' signature verified. Weather retrieval 2026-09-25T23:48:16Z is unique to this scene to the second; scenario 22:51 falls inside the model-valid hour 22:00–22:59. Gate 3: build-agent note documents text-prompt-only lineage, no photographic inputs. Gate 4: no prominent people or logos; no readable cellar name. Gate 5: no open blockers.",
+  "approved_at": "2026-09-26T18:40:36.898217+00:00",
+  "sha256_16x9": "9282382e1b9c11f33a9704cb143db9fb744199bd3ad9958be6446924b9c1cf09",
+  "sha256_4x5": "6d8b75f60bb0e6b0345dd41e8c7da1fe11771246e319808e5049e03596f5ba4b"
 }
