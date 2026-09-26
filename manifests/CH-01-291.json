@@ -12,7 +12,7 @@
   "file_4x5": "library/world/Switzerland/Geneva/ch-01-291-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate",
+  "approval_status": "Approved",
   "daylight_variant": {
     "variant_of_entry_id": "CH-01-291",
     "derived_from": "Live gallery night master library/world/Switzerland/Geneva/ch-01-291-16x9.png (16:9) and library/world/Switzerland/Geneva/ch-01-291-4x5.png (4:5) of the same scene; not an independently modelled weather or lighting scenario",
@@ -42,5 +42,10 @@
     "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
     "derivative_disclosure": "Derivative of the night interpretation of this same viewpoint. Not an independently modelled weather or lighting scenario. No weather claim. No scenario timestamp on the variant.",
     "note": "AI-generated daylight re-interpretation derived from the night master of the same viewpoint and composition. Not a new scene. Architecture and landscape preserved; lighting only was changed from night to daylight. No weather evidence invented. The variant image carries no weather claim and no scenario timestamp. The scene scenario_label remains the night scene's label and is not a daylight weather assertion."
-  }
+  },
+  "qc_status": "Approved · Cosmo QC 5/5 · Night",
+  "approval_basis": "Gate 1: night view on the Promenade de la Treille with the long wooden bench under the chestnut canopy, lamp-lit terrace walk and city lights beyond the parapet; plausible terrace viewpoint. Gate 2: exact 1920x1080/864x1080; caption 'Promenade de la Treille, Geneva', scenario '24 September 2026 - 22:30 Europe/Zurich', disclosure and signature verified on-image; weather retrieved 2026-09-25T23:47:57Z, unique repo-wide, valid hour 22:00-22:59 matches scenario. Gate 3: text-prompt-only lineage per note. Gate 4: no people or logos visible (documented only).",
+  "approved_at": "2026-09-26T17:42:58.592662+00:00",
+  "sha256_16x9": "17ade88bd2bff4a09e34dc75034d3b71abe2fc797871f18ebb9dbd1779c1ed2b",
+  "sha256_4x5": "32b7d483a3a16eb324a201d1825815846d754e166d480a52112eb330532bff94"
 }
