@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Switzerland/Silvaplana/ch-01-119-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "Gate 1: lake shore with chalets and snow-dusted high Engadin ridges, wind-ruffled water running southwest — the Lej da Silvaplauna frame, not Lake St. Moritz. Gate 2: masters 1920x1080/864x1080 exact; on-image caption 'Silvaplana, Silvaplana', scenario '24 September 2026 · 16:56 Europe/Zurich', disclosure and signature 'Jason D’s Vision' legible on the gradient scrim. Weather retrieved 2026-09-25T23:40:58Z, unique to this scene across the 101-145 window; model-valid hour 16:00-16:59 matches the scenario. Gate 3: text-prompt-only lineage, no photographic inputs per note. Gate 4: no people, no logos — documented only. Gate 5: no open blockers.",
+  "approved_at": "2026-09-26T06:35:27.118475+00:00",
+  "sha256_16x9": "b2b7465f4a12d00a346a5af45593a542a7d5deb40ecfa883f22548127158050e",
+  "sha256_4x5": "f844aeebcbfd5a950e0951c01285f1948a05f799c2c7e82cf5c25ffe039c1760"
 }
