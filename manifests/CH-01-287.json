@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Switzerland/Wilderswil/ch-01-287-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Night",
+  "approval_basis": "Gate 1: night view of the Unspunnen Castle ruins on the rocky hill above Wilderswil, broken keep and curtain-wall fragments against the sky, village lights in the valley below; plausible meadow-path viewpoint. Gate 2: exact 1920x1080/864x1080; caption 'Unspunnen Castle, Wilderswil', scenario '24 September 2026 - 19:57 Europe/Zurich', disclosure and signature verified on-image; weather retrieved 2026-09-25T23:47:53Z, unique repo-wide, valid hour 19:00-19:59 matches scenario. Gate 3: text-prompt-only lineage per note. Gate 4: no people or logos visible (documented only).",
+  "approved_at": "2026-09-26T17:42:35.507219+00:00",
+  "sha256_16x9": "d67ab1f36adbc16052fc0bdb7f00b6635351f09434137166b9bd9a556a3fb7d5",
+  "sha256_4x5": "d4e8dda1de196095467d0c2cf9c650a08f6b9a82502335c1d09d664d0e08031a"
 }
