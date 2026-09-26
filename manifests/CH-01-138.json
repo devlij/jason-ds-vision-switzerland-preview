@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Switzerland/Villeneuve/ch-01-138-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "Gate 1: Villeneuve (Vaud) harbor town at east end of Lake Geneva, tree-lined quay, compact roofs, church spire, steep wooded mountains closing the lake; Chillon Castle not in frame. Overcast light matching model code 3/91% cover. Gate 2: caption 'Villeneuve, Villeneuve', scenario '24 September 2026 · 17:14 Europe/Zurich', disclosure and curly-apostrophe signature exact on bottom gradient; per-scene Open-Meteo retrieval 2026-09-25T23:42:18Z verified unique across all 373 repo notes, valid hour 17:00-17:59 covers 17:14. Gate 3: text-prompt-only, no photographic inputs reported. Gate 4: no prominent people, no focal logos (internal note only). Gate 5: no open blockers.",
+  "approved_at": "2026-09-26T07:36:27.502241+00:00",
+  "sha256_16x9": "ff9011e00b75c5ca68f7e6b6d0b08db7f506062cbcce59931eb8e3c7ac02bdba",
+  "sha256_4x5": "ddf4cae5e0aeb62d7fcc14f0d4076c0627d08719d9f6c184519e4970f1fb988c"
 }
