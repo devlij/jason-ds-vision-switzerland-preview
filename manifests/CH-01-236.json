@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Switzerland/Wassen/ch-01-236-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "Gate 1: white St. Gallus church on its rocky knoll above Wassen with two stone railway viaduct tiers in the gorge and village roofs below — the classic Gotthard-loop viewpoint, clean framing, no artifacts. Gate 2: exact 1920x1080/864x1080, 'Jason D's Vision' signature bottom-right, caption 'Wassen, Wassen' + scenario '24 September 2026 · 19:03 Europe/Zurich' + 'AI-generated artistic interpretation · Not a photograph.' on scrim; weather retrieved 2026-09-25T23:46:01Z, unique per-scene (repo-wide scan: no duplicates), valid 19:00 hour covering the 19:03 scenario. Gate 3: text-prompt-only, no photographic inputs. Gate 4: no people, no logos, no readable brands.",
+  "approved_at": "2026-09-26T15:12:15.720543+00:00",
+  "sha256_16x9": "021652aa40fa33e46b0a92c72a971ab37186bc50a12e8307fdaec313f2c5af2f",
+  "sha256_4x5": "7038e51897988f83dacdb06d13ef53d9c8be0dd251f4dab11b2b245b1ac21b4e"
 }
