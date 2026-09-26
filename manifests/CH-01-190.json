@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Switzerland/Basel/ch-01-190-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "Gate 1: the master shows the Unterer Rheinweg in Basel — the tree-lined stone quay looking downstream along the wide Rhine, with the small flat cable ferry on the water and city rooftops distant; no stone bridge, no minster facade, no painted town hall, correct subject framing, plausible quay viewpoint, clean framing, no artifacts. Gate 2: both masters exact dims (sweep-verified); caption 'Basel Rhine promenade, Basel', scenario '24 September 2026 · 18:08 Europe/Zurich', AI disclosure legible on gradient; exact 'Jason D's Vision' signature bottom-right; weather retrieved 2026-09-25T23:44:12Z, unique repo-wide, valid 18:00–18:59 hour covering 18:08, overcast code 3/92% matching the diffuse light. Gate 3: text-prompt-only lineage, no photographic inputs. Gate 4: no prominent person or focal logo — documented only. Gate 5: no open blockers.",
+  "approved_at": "2026-09-26T10:37:54.878538+00:00",
+  "sha256_16x9": "46c728cf1ec0950d6822accd009e29f6824f81afb08fa7a04ce01028b9d38dae",
+  "sha256_4x5": "91fc6ac041a385f96d81dee8214e033ce2de77dbdbeb8e3174441610bdbedb92"
 }
