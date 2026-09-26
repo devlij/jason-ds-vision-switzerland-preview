@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Switzerland/Schwyz/ch-01-115-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "Gate 1: Schwyz Hauptplatz closed by the Rathaus with its clock tower and historic painted facade, the Baroque tower of St. Martin rising behind the roofs, Great and Small Mythen out of frame — matches anchors, no readable sign. Gate 2: caption 'Schwyz Hauptplatz, Schwyz' and 'Scenario: 24 September 2026 · 16:56 Europe/Zurich' exact; signature bottom-right; disclosure present. Weather verified: Open-Meteo retrieved 2026-09-25T23:40:54Z, unique to this scene, model hour with the 16:45 step covers 16:56; overcast code 3 matches. Gate 3: text-prompt-only, no photographic inputs. Gate 4: no people, no logos (documented only). Gate 5: clear.",
+  "approved_at": "2026-09-26T05:35:05.999678+00:00",
+  "sha256_16x9": "d4b069f03d0d3e2bb843a49506db37f2dad59129da2047d2bac6a43b7a86f96d",
+  "sha256_4x5": "bedc6d536cab19e2d9bedbce019f4c8d3c827616f1639d0ee873859e20137da7"
 }
