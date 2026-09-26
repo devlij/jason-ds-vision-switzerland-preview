@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Switzerland/Mesocco/ch-01-266-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Night",
+  "approval_basis": "Gate 1 PASS: ruin of Mesocco Castle — broken wall towers and the tall Romanesque bell tower of San Carpoforo crowning the castle rock, lit Santa Maria del Castello at the northern approach lower left, star field over the Moesa valley with valley lights right; plausible tourist viewpoint, clean framing, no artifacts. Gate 2 PASS: 1920x1080/864x1080 exact per sweep; caption 'Mesocco Castle, Mesocco', scenario '24 September 2026 · 19:39 Europe/Zurich', disclosure 'AI-generated artistic interpretation · Not a photograph.', signature 'Jason D's Vision' (curly apostrophe) all baked bottom-left/right on the gradient scrim and legible; 4:5 master shows the same ruin/tower/church (inter-format identity agrees). Weather per-scene retrieval 2026-09-25T23:47:32Z, unique to the second in the batch; model-valid hour 19:00–19:59 Europe/Zurich, scenario 19:39 inside; code 0 clear / 4% cloud / 17.7C matches the starry early-night frame. Gate 3: note records text-prompt-only lineage, no photographic inputs. Gate 4: no visible people, no logos (documented only). Gate 5: no open blockers.",
+  "approved_at": "2026-09-26T16:39:54.679728+00:00",
+  "sha256_16x9": "6d7ea5f6cb7420184122e9b49c12c3357a265f31d333941a7f1fa662bd7455da",
+  "sha256_4x5": "e86d603333dc8a9ec6197be3b9c291489e26c75517121583a95be111fafb3b57"
 }
