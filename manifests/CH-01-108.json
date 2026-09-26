@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Switzerland/Scuol/ch-01-108-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "Gate 1: white Engadin houses with sgraffito along the bank of the Inn, forested valley slopes, no snow on the town, larches not yet gold — matches anchors, no spa name. Gate 2: caption 'Scuol, Scuol' and 'Scenario: 24 September 2026 · 16:38 Europe/Zurich' exact; signature bottom-right; disclosure present. Weather verified: Open-Meteo retrieved 2026-09-25T23:40:47Z, unique to this scene, model hour covers 16:38; overcast code 3 matches. Gate 3: text-prompt-only, no photographic inputs. Gate 4: no people, no logos (documented only). Gate 5: clear.",
+  "approved_at": "2026-09-26T05:33:46.299476+00:00",
+  "sha256_16x9": "d4449414eced96087f17004d4ae8942384fee2d98220ec76df4ad7eea2c50356",
+  "sha256_4x5": "bbc9c65a628fae3f4f9f25358a6455ebfa7673314ee6aca2e5493ef274efcef7"
 }
