@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Switzerland/Innertkirchen/ch-01-241-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Night",
+  "approval_basis": "Gate 1: Steinsee at blue-hour night with the low pass hotel's lit windows, the road along the shore, and the pale Stein Glacier tongue above — twilight sky with stars, matching the note's night/solar-altitude -1° calculation; not Wassen, not Grimsel. Gate 2: exact dims; signature 'Jason D's Vision'; caption 'Susten Pass, Innertkirchen' + scenario '24 September 2026 · 19:20 Europe/Zurich' + disclosure on scrim; retrieval 2026-09-25T23:46:06Z unique per-scene (repo-wide scan: no duplicate timestamps), valid 19:15 hour covers the 19:20 scenario. Gate 3: text-prompt-only. Gate 4: no people, no logos.",
+  "approved_at": "2026-09-26T15:12:52.819397+00:00",
+  "sha256_16x9": "990cd6c92be2ef9afe85ee4a74fdbaf50068c092e15da905afb9d3c04cb8abea",
+  "sha256_4x5": "2d1d57ec1f9c65e47576ec2e6a92e7272a686a966613b8f75cd4113e3a2b2de1"
 }
