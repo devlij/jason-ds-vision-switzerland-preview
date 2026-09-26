@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Switzerland/Chur/ch-01-201-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved - Cosmo QC 5/5 - Daylight",
+  "approval_basis": "Gate 1: master shows Chur Cathedral's Romanesque west front with round-arched portal and triplet windows, tall stone tower with pointed spire, rounded apse, and the bishop's palace range in the Hof - plausible Hof-quarter view under overcast sky. Gate 2: exact caption 'Chur Cathedral, Chur' and 'Scenario: 24 September 2026 - 18:28 Europe/Zurich' verified on-image with AI disclosure and curly-apostrophe Jason D's Vision signature; weather retrieval 2026-09-25T23:45:25Z unique repo-wide, valid model hour 2026-09-24T18:15 containing the 18:28 scenario. Gate 3: text-prompt-only, no photographic inputs. Gate 4: no identifiable people or focal logos - documented only. Gate 5: no open blockers.",
+  "approved_at": "2026-09-26T11:39:21.285499+00:00",
+  "sha256_16x9": "957b9fdca5f8ecd84764113f25f26276783bc92ed9ed49d8700ff611afed72c1",
+  "sha256_4x5": "d46222816c59746c3cc41e5defc841356dbec54a085eaea36474103264da0715"
 }
