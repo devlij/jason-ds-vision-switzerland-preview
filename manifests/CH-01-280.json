@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Switzerland/Hilterfingen/ch-01-280-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Night",
+  "approval_basis": "Gate 1 PASS: Schloss Hünegg at Hilterfingen — Loire-inspired historicist castle with multiple slate spires and turrets, lit windows, set in its dark park by Lake Thun, overcast dusk; matches the note's independent description, clean framing, no artifacts. Gate 2 PASS: 1920x1080/864x1080 exact per sweep; caption 'Hilterfingen, Hilterfingen', scenario '24 September 2026 · 19:57 Europe/Zurich', disclosure and 'Jason D's Vision' signature (curly apostrophe) on the bottom scrim, legible; 4:5 master shows the same spired castle (inter-format identity agrees). Weather per-scene retrieval 2026-09-25T23:47:46Z, unique to the second; model-valid hour 19:00–19:59 Europe/Zurich, scenario 19:57 inside; code 3 overcast / 98% cloud / 17.9C matches the heavy cloud cover. Gate 3: text-prompt-only lineage per note. Gate 4: no visible people, no logos. Gate 5: no open blockers.",
+  "approved_at": "2026-09-26T16:41:00.343914+00:00",
+  "sha256_16x9": "8b4b94af9ec889313953f9efc67ed0a7302faef90372314c88b0e88faf350f89",
+  "sha256_4x5": "aca279a9cc46363a0d6238248b72562a4f48a8b0f0d49d1b9612153d536e0e73"
 }
