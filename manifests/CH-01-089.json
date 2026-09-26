@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Switzerland/Spiez/ch-01-089-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "Gate 1: Spiez Castle on its peninsula — tall white keep, early Romanesque church beside it, vineyards stepping up the slope, Lake Thun in front and the pyramidal Niesen across the bay under heavy cloud; all documented geometry anchors visible. Gate 2: exact masters; on-image 'Spiez Castle, Spiez' and scenario '24 September 2026 · 16:17 Europe/Zurich' with disclosure and curly-apostrophe signature verified. Retrieval 2026-09-25T23:40:28Z is scene-unique; 16:17 sits inside the note's 16:00–16:59 model-valid hour. Gate 3: text-prompt-only, no photographic inputs. Gate 4: no people, no banners, no logos on the walls; commercial clearance is Jason's. Gate 5: ready.",
+  "approved_at": "2026-09-26T04:35:06.176183+00:00",
+  "sha256_16x9": "01dbf164e2ec1aacc45089e1671ce803b6adbc7e3615bc346d2d82d431a09dac",
+  "sha256_4x5": "7333e1628577e5549fadc00ae1eadce525dedf3d43a601a26caf608716bd49e2"
 }
