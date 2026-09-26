@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Switzerland/Sargans/ch-01-137-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "Gate 1: Sargans Castle with tall square keep and curtain walls on rocky spur, town roofs of Sargans below, Rhine valley opening beyond; no scaffolding, no readable banners; overcast light matching model code 3/100% cover. Gate 2: caption 'Sargans Castle, Sargans', scenario '24 September 2026 · 17:14 Europe/Zurich', disclosure and curly-apostrophe signature exact on bottom gradient; per-scene Open-Meteo retrieval 2026-09-25T23:42:17Z verified unique across all 373 repo notes, valid hour 17:00-17:59 covers 17:14. Gate 3: text-prompt-only, no photographic inputs reported. Gate 4: no prominent people, no focal logos (internal note only). Gate 5: no open blockers.",
+  "approved_at": "2026-09-26T07:36:10.146795+00:00",
+  "sha256_16x9": "2da85863209ab01d88e43062c0fbf47bced50109479d006d44dd1dd9fcef85b8",
+  "sha256_4x5": "f5ae92ab595e40d544fdcf1b8888fd3b7794cd5034c0db7d91757902542e2c39"
 }
