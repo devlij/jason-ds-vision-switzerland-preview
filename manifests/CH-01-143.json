@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Switzerland/Bellinzona/ch-01-143-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "Gate 1: Bellinzona Old Town Piazza Collegiata with baroque facade and bell tower of Saints Peter and Stephen, arcaded warm-stucco streets and terracotta roofs; Castelgrande on the rock off to the left, not the subject. Partly-cloudy warm light matching model code 2/37% cover. Gate 2: caption 'Bellinzona Old Town, Bellinzona', scenario '24 September 2026 · 17:14 Europe/Zurich', disclosure and curly-apostrophe signature exact on bottom gradient; per-scene Open-Meteo retrieval 2026-09-25T23:42:23Z verified unique across all 373 repo notes, valid hour 17:00-17:59 covers 17:14. Gate 3: text-prompt-only, no photographic inputs reported. Gate 4: no prominent people, no focal logos (internal note only). Gate 5: no open blockers.",
+  "approved_at": "2026-09-26T07:37:56.939510+00:00",
+  "sha256_16x9": "bcae3484fb3fac7e2247258bee6ce55cdfbe878ed7a97a559ae077103e1e89be",
+  "sha256_4x5": "f8ccb9f669e8b42e8d9215a65245c85b47d480220473724e04e251b8b35f2508"
 }
