@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Switzerland/Saignelégier/ch-01-213-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "Gate 1: wide Franches-Montagnes street with the Catholic church's square stone tower among modest town houses, open Jura pasture and fir woods beyond the roofs — recognizably Saignelégier town center, no fair or bog lake, clean framing. Gate 2: exact 1920x1080/864x1080 masters; on-image caption 'Saignelégier, Saignelégier' and scenario '24 September 2026 · 18:46 Europe/Zurich'; curly-apostrophe signature bottom-right; disclosure present; per-scene Open-Meteo retrieval 2026-09-25T23:45:37Z (unique second), scenario inside 18:00–18:59 model hour, partly-cloudy sky matches code 2. Gate 3: text-prompt-only lineage, no photographic input. Gate 4: no people/logos visible — documented only. Gate 5: no open blockers.",
+  "approved_at": "2026-09-26T12:34:29.228864+00:00",
+  "sha256_16x9": "7ff3fb5c7ece9e0010d71653f0ba221b030a7c9f38ab59362387792f533c0b62",
+  "sha256_4x5": "01e00842a98bd0a6486bd76fc37fdd8b4ef7a77af34a419de97352bcb2fff4ed"
 }
