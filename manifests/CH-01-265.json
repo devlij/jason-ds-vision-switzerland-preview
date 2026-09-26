@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Switzerland/Mesocco/ch-01-265-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Night",
+  "approval_basis": "San Bernardino Pass, Mesocco alpine tarn at night: Gate 1 pass — dark mountain lake between rocky snow-patched slopes, curving pass road at right, starry sky with twilight glow on the horizon, matching the pass-crest viewpoint. Gate 2 pass — exact dims, caption 'San Bernardino Pass, Mesocco', scenario '24 September 2026 · 19:39 Europe/Zurich', disclosure, signature; retrieval 2026-09-25T23:47:31Z unique repo-wide, 19:30 model step covers scenario. Gate 3 pass — text-prompt-only. Gate 4 noted — no people, no logos. Gate 5 pass.",
+  "approved_at": "2026-09-26T15:37:47.666584+00:00",
+  "sha256_16x9": "ce52ad613fce19ea86fcaf338d9c3babb74429c657db74b69965b1e13a56687a",
+  "sha256_4x5": "9b30879c357589a92eaae3dd8f266a227ebd0c571e4011ec06d311179626513c"
 }
