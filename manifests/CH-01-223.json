@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Switzerland/Ayent/ch-01-223-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "Gate 1: compact alpine chalets on Anzère's sunny plateau at ~1500m, wide southern view across the Rhône valley, tawny grass, snow only on distant summits — recognizably the Ayent resort locality. Gate 2: on-image caption 'Anzère, Ayent', scenario '24 September 2026 · 18:46 Europe/Zurich' inside the model-valid hour; per-scene retrieval 2026-09-25T23:45:48Z, unique, code 2 with near-calm wind (1.1 km/h) as in the note; dims verified; signature and disclosure present. Gate 3: text-prompt-only lineage. Gate 4: no prominent people or focal logos; documented-only. Gate 5: no open blockers.",
+  "approved_at": "2026-09-26T13:33:46.002032+00:00",
+  "sha256_16x9": "ea0487bf542dec6839f7bc144fab6286e8dee52237884e55eb052d9faf56cfd0",
+  "sha256_4x5": "e1c291dbabeca72315d599dacc3ffee5ea209181b66495d4a31124c541c64f1d"
 }
