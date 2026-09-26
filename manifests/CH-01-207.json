@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Switzerland/Rapperswil-Jona/ch-01-207-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "Gate 1: Cistercian convent range on the north shore of the upper lake with the baroque onion-domed abbey church among the roofs, reeds and open gray water in front — recognizably Wurmsbach Abbey from the shore path, no castle/bridge intrusions, clean framing. Gate 2: exact 1920x1080/864x1080 masters; caption 'Wurmsbach Abbey, Rapperswil-Jona' and scenario '24 September 2026 · 18:28 Europe/Zurich' verified on-image; curly-apostrophe signature bottom-right; disclosure present; per-scene Open-Meteo retrieval 2026-09-25T23:45:31Z (unique second), model hour 18:00–18:59 covers the scenario, overcast rendering matches code 3. Gate 3: text-prompt-only lineage recorded, no photographic input. Gate 4: no people or logos visible — documented only. Gate 5: no open blockers.",
+  "approved_at": "2026-09-26T12:34:03.538445+00:00",
+  "sha256_16x9": "e075d876ca479fca1104be6cc9a345b3678af45b59f846aed3ac2ba76ffd37b5",
+  "sha256_4x5": "eecca4705b29cc1e361b0369535b8694707183140ec5eb3b3359036cb24c2397"
 }
