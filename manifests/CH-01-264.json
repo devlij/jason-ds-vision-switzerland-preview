@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Switzerland/Rheinwald/ch-01-264-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Night",
+  "approval_basis": "Splügen village with church at twilight: Gate 1 pass — white church with tall spire among stone houses with lit windows, pink-purple twilight glow behind the mountains, starry sky. Gate 2 pass — exact dims, caption 'Splügen, Rheinwald', scenario '24 September 2026 · 19:38 Europe/Zurich', disclosure, signature; retrieval 2026-09-25T23:47:30Z unique repo-wide, 19:30 model step covers scenario. Gate 3 pass — text-prompt-only. Gate 4 noted — no people, no logos. Gate 5 pass.",
+  "approved_at": "2026-09-26T15:37:43.326584+00:00",
+  "sha256_16x9": "081f4e9a3ccb9056dd61e7c9014343981bf3f1de0e85ed23c224e30740b4fdfb",
+  "sha256_4x5": "5f93d768359ad43d270dcf1b4049cae77a54cb34f7747ac54a576f74c921317f"
 }
