@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Switzerland/Oberhofen am Thunersee/ch-01-281-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Night",
+  "approval_basis": "Gate 1: night frame shows Oberhofen Castle on Lake Thun with the medieval keep and the spire-capped water tower standing in the lake, park trees along the shore, matching the note's anchors (11x12m keep, 19th-century romantic rebuilding; not Thun/Spiez/Huenegg). Gate 2: exact 1920x1080/864x1080; on-image caption 'Oberhofen Castle, Oberhofen am Thunersee', scenario '24 September 2026 - 19:57 Europe/Zurich', AI-disclosure bottom-left on legible scrim, 'Jason D's Vision' signature bottom-right; weather retrieved 2026-09-25T23:47:47Z, unique repo-wide (verified against all 365 notes), valid hour 19:00-19:59 matches scenario, overcast/is_day 0 consistent with the night frame. Gate 3: note records text-prompt-only lineage, no photographic inputs. Gate 4: no visible people or logos (documented only).",
+  "approved_at": "2026-09-26T17:42:08.018733+00:00",
+  "sha256_16x9": "dda91c7630369fef834e6909d1ef92fea76a39ddc128b2d9967d6046dbb026f5",
+  "sha256_4x5": "3f17328ac9b2bebb07ad3af6ee7c9d556f29b687b7d98ab13bb3aa7e73a47c12"
 }
