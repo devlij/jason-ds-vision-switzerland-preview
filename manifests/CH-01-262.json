@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Switzerland/Bregaglia/ch-01-262-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Night",
+  "approval_basis": "Maloja Pass hairpin road at night: Gate 1 pass — lamp-lit hairpins descending from the crest into Val Bregaglia, dark rocky alpine slopes, starry sky, Lake Sils behind the camera per the note. Gate 2 pass — exact dims, caption 'Maloja Pass, Bregaglia', scenario '24 September 2026 · 19:38 Europe/Zurich', disclosure, signature; retrieval 2026-09-25T23:47:28Z unique repo-wide, 19:30 model step covers scenario. Gate 3 pass — text-prompt-only. Gate 4 noted — no people, no logos. Gate 5 pass.",
+  "approved_at": "2026-09-26T15:37:34.500333+00:00",
+  "sha256_16x9": "77866544ad04ce6aa31885c3f2b907550f385ac731587904dda8aeded081b6bb",
+  "sha256_4x5": "5fffa3ca76b5c082f12e96b0cff516349506a1d1a1918d49439bb1a0891496cc"
 }
