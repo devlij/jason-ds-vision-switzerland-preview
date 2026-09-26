@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Switzerland/Rapperswil-Jona/ch-01-231-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "Gate 1: the Seedamm causeway across upper Lake Zurich with the long wooden footbridge on piles beside it, open water and reeds on both sides, low far shore — recognizably the Rapperswil–Hurden crossing. Gate 2: on-image caption 'Seedamm, Rapperswil-Jona', scenario '24 September 2026 · 19:03 Europe/Zurich' inside the model-valid hour; per-scene retrieval 2026-09-25T23:45:56Z, unique, code 3 overcast matching the rendered cloud cover; dims verified; signature and disclosure present. Gate 3: text-prompt-only lineage. Gate 4: no prominent people or focal logos; documented-only. Gate 5: no open blockers.",
+  "approved_at": "2026-09-26T13:35:11.421886+00:00",
+  "sha256_16x9": "c0f88b4af929b0aac913f97a73800c7dc0fa9b53eecbbec4504fe5c544b2a2fd",
+  "sha256_4x5": "f9049520b4eee5579006d6eeb2eb13aa0d1e63ae77c97c5763d3f7477e3fd855"
 }
