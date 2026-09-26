@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Switzerland/Visp/ch-01-142-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "Gate 1: Visp old town with tall dark spire of Saint Martin over burgher houses, Vispa river at the town edge, valley slopes in broken cloud; no pyramidal Matterhorn as subject. Warm late-afternoon light matching model code 2/37% cover. Gate 2: caption 'Visp, Visp', scenario '24 September 2026 · 17:14 Europe/Zurich', disclosure and curly-apostrophe signature exact on bottom gradient; per-scene Open-Meteo retrieval 2026-09-25T23:42:22Z verified unique across all 373 repo notes, valid hour 17:00-17:59 covers 17:14. Gate 3: text-prompt-only, no photographic inputs reported. Gate 4: no prominent people, no focal logos (internal note only). Gate 5: no open blockers.",
+  "approved_at": "2026-09-26T07:37:39.780971+00:00",
+  "sha256_16x9": "36a5efabfe18218b2eca0fc38d217330657565ee1849e403029db3a8932c22c9",
+  "sha256_4x5": "11e14868c58678bbb364ca5b609cd754c0e92e36c7e52b8d6da203c82ee18d9a"
 }
