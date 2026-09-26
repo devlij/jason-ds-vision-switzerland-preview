@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Switzerland/Bulle/ch-01-160-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "Gate 1 PASS: Bulle market square with the stone castle keep rising above town roofs against the rolling Gruyère hills under a grey sky, plausible square-level tourist viewpoint, clean framing, no artifacts. Gate 2 PASS: mechanical 1920x1080/864x1080 verified; on-image caption 'Bulle, Bulle', scenario '24 September 2026 · 17:34 Europe/Zurich', disclosure 'AI-generated artistic interpretation · Not a photograph.' bottom-left and exact 'Jason D's Vision' signature bottom-right, legible on the gradient scrim; note records a separate Open-Meteo retrieval at 2026-09-25T23:42:41Z unique repo-wide to this scene, valid for the model hour covering the scenario. Gate 3: text-prompt-only lineage, no photographic inputs reported. Gate 4: no people, logos, or recognizable private property (documented only). Gate 5: no open blockers.",
+  "approved_at": "2026-09-26T08:41:42.626855+00:00",
+  "sha256_16x9": "be8c177fc79a20bc26402618ec6dc15810e9e7761e2908b3edcfdfb03a4e0c0d",
+  "sha256_4x5": "2a737173b1a442753a34fd3b8346f61175e1661ba39fc64ef226cdad5586e81d"
 }
