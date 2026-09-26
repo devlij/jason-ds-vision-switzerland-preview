@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Switzerland/Altdorf/ch-01-235-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "Gate 1: St. Martin in Altdorf — pale classicist church front with tower, small St. Anna chapel, churchyard and old-town houses closing Kirchplatz — recognizably the Altdorf parish church. Gate 2: on-image caption 'St. Martin, Altdorf', scenario '24 September 2026 · 19:03 Europe/Zurich' inside the model-valid hour; per-scene retrieval 2026-09-25T23:45:58Z replaced by the scene's own unique 2026-09-25T23:46:00Z retrieval, code 3 overcast matching the rendered sky; dims verified; signature and disclosure present. Gate 3: text-prompt-only lineage. Gate 4: no prominent people or focal logos; documented-only. Gate 5: no open blockers.",
+  "approved_at": "2026-09-26T13:35:29.900810+00:00",
+  "sha256_16x9": "b0d3d44e507eab9bd67603d197041336db2499f8e1e546cd72c6746eda9b93f6",
+  "sha256_4x5": "a2c6f4a056fdf017f4d1112d93ed13be8d08e0d8f154cb165ea65e62e31748ca"
 }
