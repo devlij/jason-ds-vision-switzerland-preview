@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Switzerland/Fully/ch-01-221-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "Gate 1: stone-terraced vineyards turning yellow-red, tall church spire among village roofs, rocky Follatères shoulder, flat Rhône plain beyond — recognizably Fully. Gate 2: on-image caption 'Fully, Fully', scenario '24 September 2026 · 18:46 Europe/Zurich' inside the model-valid hour; per-scene retrieval 2026-09-25T23:45:45Z unique to this scene, values differ from siblings (code 2, 83% cloud); exact dims verified; 'Jason D's Vision' signature and AI-interpretation disclosure present and legible. Gate 3: text-prompt-only lineage recorded, no photographic inputs. Gate 4: no prominent people or focal logos; documented-only. Gate 5: no open blockers.",
+  "approved_at": "2026-09-26T13:33:37.236946+00:00",
+  "sha256_16x9": "fda11a121d86096a64f516f2ed103a79acc8da4b9631dcfc8ef15250d14ca365",
+  "sha256_4x5": "f3fc8cf43226624ac7d190e997bc2cf64a4af5492252990f604146ae8d8a8ae6"
 }
