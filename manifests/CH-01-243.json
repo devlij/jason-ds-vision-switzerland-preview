@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Switzerland/Brienz/ch-01-243-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Night",
+  "approval_basis": "Gate 1: Brienzer Rothorn summit station swallowed by full cloud, cog track arriving at the lit hotel building on the rocky ridge — cloud 100% per the note, no lakeside promenade, no waterfall, no fresh snow falling. Gate 2: exact dims; 'Jason D's Vision' signature bottom-right; caption 'Brienz Rothorn, Brienz' + scenario '24 September 2026 · 19:20 Europe/Zurich' + disclosure on scrim; retrieval 2026-09-25T23:46:08Z unique per-scene (repo-wide no duplicates), valid 19:15 hour. Gate 3: text-prompt-only. Gate 4: no people, no logos.",
+  "approved_at": "2026-09-26T15:13:03.270265+00:00",
+  "sha256_16x9": "861c32d8d852c77259edbad296f226c32960005f7281fde0d486d1d858e1bb2a",
+  "sha256_4x5": "4ca4c2593f4c54577180348b1cd580571015101c5bbcd59ea220bd550a643847"
 }
