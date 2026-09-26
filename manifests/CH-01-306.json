@@ -12,5 +12,35 @@
   "file_4x5": "library/world/Switzerland/Täsch/ch-01-306-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Candidate",
+  "daylight_variant": {
+    "variant_of_entry_id": "CH-01-306",
+    "derived_from": "Live gallery night master library/world/Switzerland/Täsch/ch-01-306-16x9.png (16:9) and library/world/Switzerland/Täsch/ch-01-306-4x5.png (4:5) of the same scene; not an independently modelled weather or lighting scenario",
+    "source_night": {
+      "16x9": {
+        "path": "library/world/Switzerland/Täsch/ch-01-306-16x9.png",
+        "sha256": "ca3554b386782da3253ad69ebb5640b9a41d5c2cbdd7e296fc890d9c03235e2d"
+      },
+      "4x5": {
+        "path": "library/world/Switzerland/Täsch/ch-01-306-4x5.png",
+        "sha256": "c56d42db1d3aa9fa041a9b16d3fc29f57ada97ccfe2a83ae8672d8ba81cb5a96"
+      },
+      "recorded": "SHA-256 of the night masters immediately before this daylight batch. Post-write hashes are identical; night masters were not rewritten."
+    },
+    "files": {
+      "16x9": "library/world/Switzerland/Täsch/ch-01-306-daylight-16x9.png",
+      "4x5": "library/world/Switzerland/Täsch/ch-01-306-daylight-4x5.png"
+    },
+    "sha256": {
+      "16x9": "994d86c98530ba1ea28c252c4a4ab95e0c1183d74552979c47748bd40f25e3b3",
+      "4x5": "c2269add52269d3b2dd26b52c9825fc70ba89b4db43135657bbe3aa14f195d87"
+    },
+    "created_date": "2026-09-26",
+    "on_image_caption": "Täsch, Täsch",
+    "on_image_signature": "Jason D’s Vision",
+    "on_image_disclosure": "AI-generated artistic interpretation · Not a photograph.",
+    "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
+    "derivative_disclosure": "Derivative of the night interpretation of this same viewpoint. Not an independently modelled weather or lighting scenario. No weather claim. No scenario timestamp on the variant.",
+    "note": "AI-generated daylight re-interpretation derived from the night master of the same viewpoint and composition. Not a new scene. Architecture and landscape preserved; lighting only was changed from night to daylight. No weather evidence invented. The variant image carries no weather claim and no scenario timestamp. The scene scenario_label remains the night scene's label and is not a daylight weather assertion."
+  }
 }

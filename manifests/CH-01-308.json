@@ -12,5 +12,35 @@
   "file_4x5": "library/world/Switzerland/Saas-Fee/ch-01-308-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Candidate",
+  "daylight_variant": {
+    "variant_of_entry_id": "CH-01-308",
+    "derived_from": "Live gallery night master library/world/Switzerland/Saas-Fee/ch-01-308-16x9.png (16:9) and library/world/Switzerland/Saas-Fee/ch-01-308-4x5.png (4:5) of the same scene; not an independently modelled weather or lighting scenario",
+    "source_night": {
+      "16x9": {
+        "path": "library/world/Switzerland/Saas-Fee/ch-01-308-16x9.png",
+        "sha256": "af02c05e0d2ebdb2334d6638941c5795297cb2315a75a1515c9814af7e1860e4"
+      },
+      "4x5": {
+        "path": "library/world/Switzerland/Saas-Fee/ch-01-308-4x5.png",
+        "sha256": "4b57d13a3449c823bbb48c64c6afff3084a20c7201868e7ad096ba9f05e70a62"
+      },
+      "recorded": "SHA-256 of the night masters immediately before this daylight batch. Post-write hashes are identical; night masters were not rewritten."
+    },
+    "files": {
+      "16x9": "library/world/Switzerland/Saas-Fee/ch-01-308-daylight-16x9.png",
+      "4x5": "library/world/Switzerland/Saas-Fee/ch-01-308-daylight-4x5.png"
+    },
+    "sha256": {
+      "16x9": "effba010c6ccfa3a6cc8a8509fb42929f90aad9bbb18f98250149cea9e92da5d",
+      "4x5": "3f652c5bc3588a5818b261d857a9dd5f56b6c197dd0e8f62dc1662fc1ebb3c3a"
+    },
+    "created_date": "2026-09-26",
+    "on_image_caption": "Saas-Fee, Saas-Fee",
+    "on_image_signature": "Jason D’s Vision",
+    "on_image_disclosure": "AI-generated artistic interpretation · Not a photograph.",
+    "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
+    "derivative_disclosure": "Derivative of the night interpretation of this same viewpoint. Not an independently modelled weather or lighting scenario. No weather claim. No scenario timestamp on the variant.",
+    "note": "AI-generated daylight re-interpretation derived from the night master of the same viewpoint and composition. Not a new scene. Architecture and landscape preserved; lighting only was changed from night to daylight. No weather evidence invented. The variant image carries no weather claim and no scenario timestamp. The scene scenario_label remains the night scene's label and is not a daylight weather assertion."
+  }
 }

@@ -12,5 +12,35 @@
   "file_4x5": "library/world/Switzerland/Visperterminen/ch-01-310-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Candidate",
+  "daylight_variant": {
+    "variant_of_entry_id": "CH-01-310",
+    "derived_from": "Live gallery night master library/world/Switzerland/Visperterminen/ch-01-310-16x9.png (16:9) and library/world/Switzerland/Visperterminen/ch-01-310-4x5.png (4:5) of the same scene; not an independently modelled weather or lighting scenario",
+    "source_night": {
+      "16x9": {
+        "path": "library/world/Switzerland/Visperterminen/ch-01-310-16x9.png",
+        "sha256": "9282382e1b9c11f33a9704cb143db9fb744199bd3ad9958be6446924b9c1cf09"
+      },
+      "4x5": {
+        "path": "library/world/Switzerland/Visperterminen/ch-01-310-4x5.png",
+        "sha256": "6d8b75f60bb0e6b0345dd41e8c7da1fe11771246e319808e5049e03596f5ba4b"
+      },
+      "recorded": "SHA-256 of the night masters immediately before this daylight batch. Post-write hashes are identical; night masters were not rewritten."
+    },
+    "files": {
+      "16x9": "library/world/Switzerland/Visperterminen/ch-01-310-daylight-16x9.png",
+      "4x5": "library/world/Switzerland/Visperterminen/ch-01-310-daylight-4x5.png"
+    },
+    "sha256": {
+      "16x9": "40e72e12b9edc46c9d756faeae63ef3c3ecbf49f154939fc3e284fcfae7c2ac4",
+      "4x5": "5ba07c63b233e146e9f0d82715d7c4aaffa2125ac19e7cb7fe2f72cd0255dbc5"
+    },
+    "created_date": "2026-09-26",
+    "on_image_caption": "Visperterminen, Visperterminen",
+    "on_image_signature": "Jason D’s Vision",
+    "on_image_disclosure": "AI-generated artistic interpretation · Not a photograph.",
+    "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
+    "derivative_disclosure": "Derivative of the night interpretation of this same viewpoint. Not an independently modelled weather or lighting scenario. No weather claim. No scenario timestamp on the variant.",
+    "note": "AI-generated daylight re-interpretation derived from the night master of the same viewpoint and composition. Not a new scene. Architecture and landscape preserved; lighting only was changed from night to daylight. No weather evidence invented. The variant image carries no weather claim and no scenario timestamp. The scene scenario_label remains the night scene's label and is not a daylight weather assertion."
+  }
 }

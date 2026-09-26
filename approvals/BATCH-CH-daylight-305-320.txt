@@ -1,0 +1,306 @@
+BATCH CH daylight variants — CH-01-305 through CH-01-320
+Date: 2026-09-26
+Country: Switzerland
+Repo: devlij/jason-ds-vision-switzerland-preview
+Base tip before this batch: cbb688137ffd5c8a39e1ef2cc73f3f9205b0802a
+Directive: 2026-09-25 Jason daylight-variants workstream, Switzerland batch 3.
+Scope: CH-01-305 through CH-01-320 only. Stop after 320.
+Germany and other countries not touched. Weather fields not edited. Night images not regenerated. Existing masters not rewritten.
+
+Built: 16 scenes × 2 masters = 32 variant masters.
+Selected IDs: CH-01-305, CH-01-306, CH-01-307, CH-01-308, CH-01-309, CH-01-310, CH-01-311, CH-01-312, CH-01-313, CH-01-314, CH-01-315, CH-01-316, CH-01-317, CH-01-318, CH-01-319, CH-01-320.
+
+QUALIFICATION
+A scene qualifies when it is a live gallery night interpretation, both night masters exist (1920×1080 and 864×1080), no *-daylight-* file already exists, and the scene is not daylight-only or dusk-only without a night master.
+Live gallery: all 365 IDs are in index.html. None of these night IDs are Cosmo-approved. The directive admits a live gallery master as well as a Cosmo approval, so the published night masters qualify.
+Night master test used here: the evidence card states "the frame is night", Open-Meteo is_day is 0, and both masters are the published night files beside the scene. That holds for every ID in CH-01-305 through CH-01-320, at 22:51 or 22:52 Europe/Zurich, solar altitude well below the horizon.
+
+SKIP SUMMARY
+This batch was scoped to CH-01-305–320. Nothing in that range was skipped.
+already daylight — CH-01-001–240 were not in this batch and were not used as night sources.
+dusk-only — CH-01-241–254 were not in this batch and were not used as night sources.
+civil twilight — CH-01-255–288 were not in this batch and were not used as night sources.
+already had daylight variants — CH-01-289–304 from the previous batch were not rewritten.
+night masters not in this batch — 45 scenes, CH-01-321–365. They qualify on the same night test and wait.
+missing night master among the selected set: none. Every selected ID had both night files at 1920×1080 and 864×1080.
+
+ON-IMAGE (every variant)
+Caption identical to the night master.
+Signature: Jason D’s Vision (curly apostrophe U+2019).
+Disclosure: AI-generated artistic interpretation · Not a photograph.
+Marking: ☀ Daylight variant · derived from the night interpretation
+No weather claim. No scenario timestamp.
+
+METADATA
+EU AI Act Art. 50 five PNG chunks on every variant master, after pixels were final. IDAT bytes were not recompressed by the embed.
+Title (iTXt, UTF-8): Jason D's Vision — AI-generated artistic interpretation
+Description (tEXt): AI-generated artistic interpretation from the Jason D's Vision Switzerland gallery. Created with generative AI; not a photograph.
+Copyright (iTXt, UTF-8): Jason D's Vision — AI-generated content
+Software (tEXt): Jason D's Vision library pipeline
+Comment (tEXt): EU AI Act Art. 50 transparency note: this image is AI-generated content. Machine-readable disclosure embedded 2026-09-24.
+Title and Copyright use a straight apostrophe and an em dash. The on-image signature stays the curly apostrophe.
+
+MANIFEST
+Each selected scene manifest gained a daylight_variant block only: night lineage paths and SHA-256, both variant paths, variant SHA-256, and the derivative disclosure. scenario_label, description, weather wording, and approval_status were not rewritten.
+
+GALLERY
+Switzerland cards switch 16:9 / 4:5 only. No night/day control already expects *-daylight-* paths. index.html was not edited. Gallery wiring deferred.
+
+NIGHT-UNCHANGED CONFIRMATION
+SHA-256 of each night master was recorded before any variant write and checked again after the variant files and manifest blocks were written. Pre and post are identical for all 32 night files. No night hash drifted. No night image was regenerated. Batch not aborted.
+
+========================================================================
+CH-01-305  Hinterdorf, Zermatt
+  night 16x9  library/world/Switzerland/Zermatt/ch-01-305-16x9.png
+    sha256 before  6ae92a82bbc1615d2056fa9aa9e7fafd545159e9752b799cbdd3201263f592e4
+    sha256 after   6ae92a82bbc1615d2056fa9aa9e7fafd545159e9752b799cbdd3201263f592e4
+    night master   IDENTICAL
+  variant 16x9  library/world/Switzerland/Zermatt/ch-01-305-daylight-16x9.png
+    sha256         79b69b2063a260b219b1813898311d7e8f7545594976451024e0675f7536d88b
+  night 4x5  library/world/Switzerland/Zermatt/ch-01-305-4x5.png
+    sha256 before  a73eda937792d76340e16e7ebbae620dd9db4acb2bd4c825eb4d90d55f69f946
+    sha256 after   a73eda937792d76340e16e7ebbae620dd9db4acb2bd4c825eb4d90d55f69f946
+    night master   IDENTICAL
+  variant 4x5  library/world/Switzerland/Zermatt/ch-01-305-daylight-4x5.png
+    sha256         e1d3d25feb2a092b0f68aefb1651aead09a1edd74dab46856a10ce64b6c5cc9e
+  derivative disclosure: daylight re-interpretation of the same viewpoint and composition; not a new scene; no weather claim; no scenario timestamp on the variant.
+
+========================================================================
+CH-01-306  Täsch, Täsch
+  night 16x9  library/world/Switzerland/Täsch/ch-01-306-16x9.png
+    sha256 before  ca3554b386782da3253ad69ebb5640b9a41d5c2cbdd7e296fc890d9c03235e2d
+    sha256 after   ca3554b386782da3253ad69ebb5640b9a41d5c2cbdd7e296fc890d9c03235e2d
+    night master   IDENTICAL
+  variant 16x9  library/world/Switzerland/Täsch/ch-01-306-daylight-16x9.png
+    sha256         994d86c98530ba1ea28c252c4a4ab95e0c1183d74552979c47748bd40f25e3b3
+  night 4x5  library/world/Switzerland/Täsch/ch-01-306-4x5.png
+    sha256 before  c56d42db1d3aa9fa041a9b16d3fc29f57ada97ccfe2a83ae8672d8ba81cb5a96
+    sha256 after   c56d42db1d3aa9fa041a9b16d3fc29f57ada97ccfe2a83ae8672d8ba81cb5a96
+    night master   IDENTICAL
+  variant 4x5  library/world/Switzerland/Täsch/ch-01-306-daylight-4x5.png
+    sha256         c2269add52269d3b2dd26b52c9825fc70ba89b4db43135657bbe3aa14f195d87
+  derivative disclosure: daylight re-interpretation of the same viewpoint and composition; not a new scene; no weather claim; no scenario timestamp on the variant.
+
+========================================================================
+CH-01-307  St. Niklaus, St. Niklaus
+  night 16x9  library/world/Switzerland/St. Niklaus/ch-01-307-16x9.png
+    sha256 before  35ce64d00030a2b514b5e6c4a1364f44c5b1a9b70451ff2a5e395531f7a06397
+    sha256 after   35ce64d00030a2b514b5e6c4a1364f44c5b1a9b70451ff2a5e395531f7a06397
+    night master   IDENTICAL
+  variant 16x9  library/world/Switzerland/St. Niklaus/ch-01-307-daylight-16x9.png
+    sha256         14161e8d7a9b4f44ef91a5459a0289ae0b121b74477d24d12657087e57317d1c
+  night 4x5  library/world/Switzerland/St. Niklaus/ch-01-307-4x5.png
+    sha256 before  e13afbac383501b81a834957328416b7e96e2427fbf543cf990a5d142f86d485
+    sha256 after   e13afbac383501b81a834957328416b7e96e2427fbf543cf990a5d142f86d485
+    night master   IDENTICAL
+  variant 4x5  library/world/Switzerland/St. Niklaus/ch-01-307-daylight-4x5.png
+    sha256         496d5b9af0afe488c8bfb37c61028841e19bc22c03df1a9180942afb84ec5f74
+  derivative disclosure: daylight re-interpretation of the same viewpoint and composition; not a new scene; no weather claim; no scenario timestamp on the variant.
+
+========================================================================
+CH-01-308  Saas-Fee, Saas-Fee
+  night 16x9  library/world/Switzerland/Saas-Fee/ch-01-308-16x9.png
+    sha256 before  af02c05e0d2ebdb2334d6638941c5795297cb2315a75a1515c9814af7e1860e4
+    sha256 after   af02c05e0d2ebdb2334d6638941c5795297cb2315a75a1515c9814af7e1860e4
+    night master   IDENTICAL
+  variant 16x9  library/world/Switzerland/Saas-Fee/ch-01-308-daylight-16x9.png
+    sha256         effba010c6ccfa3a6cc8a8509fb42929f90aad9bbb18f98250149cea9e92da5d
+  night 4x5  library/world/Switzerland/Saas-Fee/ch-01-308-4x5.png
+    sha256 before  4b57d13a3449c823bbb48c64c6afff3084a20c7201868e7ad096ba9f05e70a62
+    sha256 after   4b57d13a3449c823bbb48c64c6afff3084a20c7201868e7ad096ba9f05e70a62
+    night master   IDENTICAL
+  variant 4x5  library/world/Switzerland/Saas-Fee/ch-01-308-daylight-4x5.png
+    sha256         3f652c5bc3588a5818b261d857a9dd5f56b6c197dd0e8f62dc1662fc1ebb3c3a
+  derivative disclosure: daylight re-interpretation of the same viewpoint and composition; not a new scene; no weather claim; no scenario timestamp on the variant.
+
+========================================================================
+CH-01-309  Glis Church, Brig-Glis
+  night 16x9  library/world/Switzerland/Brig-Glis/ch-01-309-16x9.png
+    sha256 before  88a3e8f32c655728b9a224fd4d7d1ab4ddb7219b378d051c114e0fdc210fc59b
+    sha256 after   88a3e8f32c655728b9a224fd4d7d1ab4ddb7219b378d051c114e0fdc210fc59b
+    night master   IDENTICAL
+  variant 16x9  library/world/Switzerland/Brig-Glis/ch-01-309-daylight-16x9.png
+    sha256         12d72b1579a662a3fa524d479c3d37ce36bef21a3e90a746a79c82ffcdeda66d
+  night 4x5  library/world/Switzerland/Brig-Glis/ch-01-309-4x5.png
+    sha256 before  cf339d3a358eb9e7b3a4aae57204e6428a5cad4ecf199161cb59d827f4b1c422
+    sha256 after   cf339d3a358eb9e7b3a4aae57204e6428a5cad4ecf199161cb59d827f4b1c422
+    night master   IDENTICAL
+  variant 4x5  library/world/Switzerland/Brig-Glis/ch-01-309-daylight-4x5.png
+    sha256         be496f00dca8457b75bf5e70eef6752bb8dba60b7b624189e0f2a7bf782c9c9a
+  derivative disclosure: daylight re-interpretation of the same viewpoint and composition; not a new scene; no weather claim; no scenario timestamp on the variant.
+
+========================================================================
+CH-01-310  Visperterminen, Visperterminen
+  night 16x9  library/world/Switzerland/Visperterminen/ch-01-310-16x9.png
+    sha256 before  9282382e1b9c11f33a9704cb143db9fb744199bd3ad9958be6446924b9c1cf09
+    sha256 after   9282382e1b9c11f33a9704cb143db9fb744199bd3ad9958be6446924b9c1cf09
+    night master   IDENTICAL
+  variant 16x9  library/world/Switzerland/Visperterminen/ch-01-310-daylight-16x9.png
+    sha256         40e72e12b9edc46c9d756faeae63ef3c3ecbf49f154939fc3e284fcfae7c2ac4
+  night 4x5  library/world/Switzerland/Visperterminen/ch-01-310-4x5.png
+    sha256 before  6d8b75f60bb0e6b0345dd41e8c7da1fe11771246e319808e5049e03596f5ba4b
+    sha256 after   6d8b75f60bb0e6b0345dd41e8c7da1fe11771246e319808e5049e03596f5ba4b
+    night master   IDENTICAL
+  variant 4x5  library/world/Switzerland/Visperterminen/ch-01-310-daylight-4x5.png
+    sha256         5ba07c63b233e146e9f0d82715d7c4aaffa2125ac19e7cb7fe2f72cd0255dbc5
+  derivative disclosure: daylight re-interpretation of the same viewpoint and composition; not a new scene; no weather claim; no scenario timestamp on the variant.
+
+========================================================================
+CH-01-311  Leuk Castle, Leuk
+  night 16x9  library/world/Switzerland/Leuk/ch-01-311-16x9.png
+    sha256 before  7f6b492036b79eff5f55fdbb1f997f5ee281834a88771cde645a87e21ae17b39
+    sha256 after   7f6b492036b79eff5f55fdbb1f997f5ee281834a88771cde645a87e21ae17b39
+    night master   IDENTICAL
+  variant 16x9  library/world/Switzerland/Leuk/ch-01-311-daylight-16x9.png
+    sha256         488ca25920ca49686a2852d7c29b87b8b877502c81e7733c342b7298e607553a
+  night 4x5  library/world/Switzerland/Leuk/ch-01-311-4x5.png
+    sha256 before  ecceadca53001cbb5dc4b57d0e0ade5be7285499fb4b086909f5c4552fbe228d
+    sha256 after   ecceadca53001cbb5dc4b57d0e0ade5be7285499fb4b086909f5c4552fbe228d
+    night master   IDENTICAL
+  variant 4x5  library/world/Switzerland/Leuk/ch-01-311-daylight-4x5.png
+    sha256         c3bf1e2cb39ba19b0870ec630bcdb67197d3386c7bc77e40d5e62a980b8f085a
+  derivative disclosure: daylight re-interpretation of the same viewpoint and composition; not a new scene; no weather claim; no scenario timestamp on the variant.
+
+========================================================================
+CH-01-312  Hôtel de Ville, Sierre
+  night 16x9  library/world/Switzerland/Sierre/ch-01-312-16x9.png
+    sha256 before  9577d5b29bc9bec7f98b05f96d1fabd4cd8f375d4a11947f08c9c4efba3bb5ff
+    sha256 after   9577d5b29bc9bec7f98b05f96d1fabd4cd8f375d4a11947f08c9c4efba3bb5ff
+    night master   IDENTICAL
+  variant 16x9  library/world/Switzerland/Sierre/ch-01-312-daylight-16x9.png
+    sha256         535a8e5e774c725bb07e70e13772ff4dadf19e64c2d6bba988d71c072a3f23f5
+  night 4x5  library/world/Switzerland/Sierre/ch-01-312-4x5.png
+    sha256 before  b85d6241c6d0490081cb22155cceb7d50bb127007a2f94701e60edc5309c110e
+    sha256 after   b85d6241c6d0490081cb22155cceb7d50bb127007a2f94701e60edc5309c110e
+    night master   IDENTICAL
+  variant 4x5  library/world/Switzerland/Sierre/ch-01-312-daylight-4x5.png
+    sha256         8f932b28fe071105e29ca125c75be7777bf3751abc0a25c3190ec0069931d827
+  derivative disclosure: daylight re-interpretation of the same viewpoint and composition; not a new scene; no weather claim; no scenario timestamp on the variant.
+
+========================================================================
+CH-01-313  Lac de la Moubra, Crans-Montana
+  night 16x9  library/world/Switzerland/Crans-Montana/ch-01-313-16x9.png
+    sha256 before  8090942dfa3461b32cd6a8c33d1f62a0b76b2cad26332c9ea2f3913bf46e541b
+    sha256 after   8090942dfa3461b32cd6a8c33d1f62a0b76b2cad26332c9ea2f3913bf46e541b
+    night master   IDENTICAL
+  variant 16x9  library/world/Switzerland/Crans-Montana/ch-01-313-daylight-16x9.png
+    sha256         d2c718d15d9e6dde048ff8f67fe1888c08e16a2e5c1e20e36b50dd977b68eb2b
+  night 4x5  library/world/Switzerland/Crans-Montana/ch-01-313-4x5.png
+    sha256 before  11b5ae93d5d3dc67e6fbb7e5f624fedccafdf891f8460c50c484c90c59a7c93f
+    sha256 after   11b5ae93d5d3dc67e6fbb7e5f624fedccafdf891f8460c50c484c90c59a7c93f
+    night master   IDENTICAL
+  variant 4x5  library/world/Switzerland/Crans-Montana/ch-01-313-daylight-4x5.png
+    sha256         d36e0ec0380a54de8049167f1bb5e2cfdeae26279005dd5629259f6710e8409a
+  derivative disclosure: daylight re-interpretation of the same viewpoint and composition; not a new scene; no weather claim; no scenario timestamp on the variant.
+
+========================================================================
+CH-01-314  Isenfluh, Lauterbrunnen
+  night 16x9  library/world/Switzerland/Lauterbrunnen/ch-01-314-16x9.png
+    sha256 before  5a78fec4e57628c498981cb6173c69afd65ee365a537422258fb6ee7595e39f8
+    sha256 after   5a78fec4e57628c498981cb6173c69afd65ee365a537422258fb6ee7595e39f8
+    night master   IDENTICAL
+  variant 16x9  library/world/Switzerland/Lauterbrunnen/ch-01-314-daylight-16x9.png
+    sha256         dbd03cbdbd07e5b37b07bb2b8e0d7ab6bf4769a9c72bbfcc3a782a46a4f25a41
+  night 4x5  library/world/Switzerland/Lauterbrunnen/ch-01-314-4x5.png
+    sha256 before  265b7d4cb9df2448dc6de73a4e781bfa8796306ad1ccbc152e4d0434b9de834f
+    sha256 after   265b7d4cb9df2448dc6de73a4e781bfa8796306ad1ccbc152e4d0434b9de834f
+    night master   IDENTICAL
+  variant 4x5  library/world/Switzerland/Lauterbrunnen/ch-01-314-daylight-4x5.png
+    sha256         805e207c92954e58e0de91fedc22e9a2bcc5f9e78c9c41479fbaace78ec9ef20
+  derivative disclosure: daylight re-interpretation of the same viewpoint and composition; not a new scene; no weather claim; no scenario timestamp on the variant.
+
+========================================================================
+CH-01-315  Wengernalp, Lauterbrunnen
+  night 16x9  library/world/Switzerland/Lauterbrunnen/ch-01-315-16x9.png
+    sha256 before  23143264756bc31f3c2488b3ffc26c26564eb5f3cd22ab7043ed1c1ea417b1c0
+    sha256 after   23143264756bc31f3c2488b3ffc26c26564eb5f3cd22ab7043ed1c1ea417b1c0
+    night master   IDENTICAL
+  variant 16x9  library/world/Switzerland/Lauterbrunnen/ch-01-315-daylight-16x9.png
+    sha256         34a0f3f8d70043e0a61be4f10cc17fb431954f34e2caab1b57a32475d2a77977
+  night 4x5  library/world/Switzerland/Lauterbrunnen/ch-01-315-4x5.png
+    sha256 before  7896e2128b04c32ac56f870c5d75f94785c53df5817f30eb6e592968115e4fdd
+    sha256 after   7896e2128b04c32ac56f870c5d75f94785c53df5817f30eb6e592968115e4fdd
+    night master   IDENTICAL
+  variant 4x5  library/world/Switzerland/Lauterbrunnen/ch-01-315-daylight-4x5.png
+    sha256         dbe76261aea8bb3cb2b334b91100410a42e30378bfed5870a6ac3ca6db8e8429
+  derivative disclosure: daylight re-interpretation of the same viewpoint and composition; not a new scene; no weather claim; no scenario timestamp on the variant.
+
+========================================================================
+CH-01-316  Allmendhubel, Lauterbrunnen
+  night 16x9  library/world/Switzerland/Lauterbrunnen/ch-01-316-16x9.png
+    sha256 before  b814b3eb742dc1ca0a861bab60fbb81311a4d83df5c366cd8c77b635200fa051
+    sha256 after   b814b3eb742dc1ca0a861bab60fbb81311a4d83df5c366cd8c77b635200fa051
+    night master   IDENTICAL
+  variant 16x9  library/world/Switzerland/Lauterbrunnen/ch-01-316-daylight-16x9.png
+    sha256         42bd31a61d73769e975c99eb5fea8ecd845653d9eba01db612ebcfcdeb522fb7
+  night 4x5  library/world/Switzerland/Lauterbrunnen/ch-01-316-4x5.png
+    sha256 before  c67c4f56fb327e0ecfaa9dfaa02ca8a35e457be82949cf6f34e7827d16646b10
+    sha256 after   c67c4f56fb327e0ecfaa9dfaa02ca8a35e457be82949cf6f34e7827d16646b10
+    night master   IDENTICAL
+  variant 4x5  library/world/Switzerland/Lauterbrunnen/ch-01-316-daylight-4x5.png
+    sha256         60aedbeef3685ed33a7aa90d6c50c35c288fac7662cf173f10601c4a0ffb2b3b
+  derivative disclosure: daylight re-interpretation of the same viewpoint and composition; not a new scene; no weather claim; no scenario timestamp on the variant.
+
+========================================================================
+CH-01-317  Parish Church, Grindelwald
+  night 16x9  library/world/Switzerland/Grindelwald/ch-01-317-16x9.png
+    sha256 before  dd4106312717754ae3ff976742725e66cc2b48305889274196a52daf58308eda
+    sha256 after   dd4106312717754ae3ff976742725e66cc2b48305889274196a52daf58308eda
+    night master   IDENTICAL
+  variant 16x9  library/world/Switzerland/Grindelwald/ch-01-317-daylight-16x9.png
+    sha256         7825703aa4e739a6f37fcdd8f4b8bd9ce5dc0fd328cc68d5bd92bbe83cabcc90
+  night 4x5  library/world/Switzerland/Grindelwald/ch-01-317-4x5.png
+    sha256 before  cddfae2f6002554cd421820beddd3dac83308f554a52e08d03640f79106bd9a8
+    sha256 after   cddfae2f6002554cd421820beddd3dac83308f554a52e08d03640f79106bd9a8
+    night master   IDENTICAL
+  variant 4x5  library/world/Switzerland/Grindelwald/ch-01-317-daylight-4x5.png
+    sha256         7793fde1347d189b11f32b067b468e88d65a72a8c1f472358631650107aded22
+  derivative disclosure: daylight re-interpretation of the same viewpoint and composition; not a new scene; no weather claim; no scenario timestamp on the variant.
+
+========================================================================
+CH-01-318  Interlaken Castle, Interlaken
+  night 16x9  library/world/Switzerland/Interlaken/ch-01-318-16x9.png
+    sha256 before  09c7195ed29eb4f47e16ee63dc0b8007102d57a1d7c23ff4ead28a6efd776a52
+    sha256 after   09c7195ed29eb4f47e16ee63dc0b8007102d57a1d7c23ff4ead28a6efd776a52
+    night master   IDENTICAL
+  variant 16x9  library/world/Switzerland/Interlaken/ch-01-318-daylight-16x9.png
+    sha256         e7deae82cbb049c4084fb2d5da8e88a55d379d70c694947ae709df199f46f87a
+  night 4x5  library/world/Switzerland/Interlaken/ch-01-318-4x5.png
+    sha256 before  d0e802b0a5dc44aa42a34f748f1463e0f911218ca5dd5eddbff24b4ea29b3960
+    sha256 after   d0e802b0a5dc44aa42a34f748f1463e0f911218ca5dd5eddbff24b4ea29b3960
+    night master   IDENTICAL
+  variant 4x5  library/world/Switzerland/Interlaken/ch-01-318-daylight-4x5.png
+    sha256         cb0b3f2b5ff3f87d4e64969d0e6a382743dd25169c5034d27bde323e3478a974
+  derivative disclosure: daylight re-interpretation of the same viewpoint and composition; not a new scene; no weather claim; no scenario timestamp on the variant.
+
+========================================================================
+CH-01-319  Aarequai, Thun
+  night 16x9  library/world/Switzerland/Thun/ch-01-319-16x9.png
+    sha256 before  b0a80a7d43fb7048b3e29201c25b834ac58ebc12f23660b021232a3288427349
+    sha256 after   b0a80a7d43fb7048b3e29201c25b834ac58ebc12f23660b021232a3288427349
+    night master   IDENTICAL
+  variant 16x9  library/world/Switzerland/Thun/ch-01-319-daylight-16x9.png
+    sha256         2d850bda09793d552948b6680de63a7751c4cbdc47731a19125fbe01e570eeb0
+  night 4x5  library/world/Switzerland/Thun/ch-01-319-4x5.png
+    sha256 before  5324af23e0697918582f57bd83c9dd43d780aadd1886c061568a20be9297707e
+    sha256 after   5324af23e0697918582f57bd83c9dd43d780aadd1886c061568a20be9297707e
+    night master   IDENTICAL
+  variant 4x5  library/world/Switzerland/Thun/ch-01-319-daylight-4x5.png
+    sha256         30dedd5a19e97c8bdf9cafd3415a9db2d3401d01e468e4578d241885d1a84bed
+  derivative disclosure: daylight re-interpretation of the same viewpoint and composition; not a new scene; no weather claim; no scenario timestamp on the variant.
+
+========================================================================
+CH-01-320  Oeschinensee, Kandersteg
+  night 16x9  library/world/Switzerland/Kandersteg/ch-01-320-16x9.png
+    sha256 before  e633b771cd2305dfcb75718f3894564702ea940ad4028011964337c9be6dd209
+    sha256 after   e633b771cd2305dfcb75718f3894564702ea940ad4028011964337c9be6dd209
+    night master   IDENTICAL
+  variant 16x9  library/world/Switzerland/Kandersteg/ch-01-320-daylight-16x9.png
+    sha256         b34e4cbdcdb3adff6e76ad33ef3eb8aebe40b7543b8f41d3c738a75e95e736fc
+  night 4x5  library/world/Switzerland/Kandersteg/ch-01-320-4x5.png
+    sha256 before  c3379ce097561fa60ca52bfc3326a623cd5c25b397ea8267ecfd1fc017ea3c5e
+    sha256 after   c3379ce097561fa60ca52bfc3326a623cd5c25b397ea8267ecfd1fc017ea3c5e
+    night master   IDENTICAL
+  variant 4x5  library/world/Switzerland/Kandersteg/ch-01-320-daylight-4x5.png
+    sha256         8573af5ae7885a4e64c3aa9ac17d0696a022961716d359c0f0a27971eaed366a
+  derivative disclosure: daylight re-interpretation of the same viewpoint and composition; not a new scene; no weather claim; no scenario timestamp on the variant.
