@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Switzerland/Fribourg/ch-01-216-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "Gate 1: dark-roofed covered wooden Pont de Berne low over the Sarine on a central stone pier with the tall 1924 concrete Zähringen viaduct crossing the gorge high above, houses on the rock walls — both named bridges in one frame, clean and plausible. Gate 2: exact 1920x1080/864x1080 masters; on-image caption 'Fribourg bridges, Fribourg' and scenario '24 September 2026 · 18:46 Europe/Zurich'; curly-apostrophe signature bottom-right; disclosure legible; per-scene Open-Meteo retrieval 2026-09-25T23:45:40Z (unique second), scenario inside model-valid 18:00–18:59 hour, broken cloud matches code 2. Gate 3: text-prompt-only lineage, no photographic input. Gate 4: no people/logos visible — documented only. Gate 5: no open blockers.",
+  "approved_at": "2026-09-26T12:34:43.956798+00:00",
+  "sha256_16x9": "3e13bc59b317a4aa997dd240d728ab61b39fe341f015bf2c768d4f093ec4ee16",
+  "sha256_4x5": "72edc87205cd4ba8dd5afb34c9752c2dd5f38a3babe49cc0b899ebc8cee5d376"
 }
