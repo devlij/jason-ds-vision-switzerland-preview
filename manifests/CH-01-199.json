@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Switzerland/Airolo/ch-01-199-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved - Cosmo QC 5/5 - Daylight",
+  "approval_basis": "Gate 1: master shows the Airolo stone village lane with slab-roofed stone houses and the tall bell tower of Santi Nazario e Celso, Leventina valley slopes with larch and spruce behind in golden light - plausible Gotthard-region village view. Gate 2: exact caption 'Airolo village, Airolo' and 'Scenario: 24 September 2026 - 18:28 Europe/Zurich' verified on-image with AI disclosure and curly-apostrophe Jason D's Vision signature; weather retrieval 2026-09-25T23:45:23Z unique repo-wide, valid model hour 2026-09-24T18:15 containing the 18:28 scenario. Gate 3: text-prompt-only, no photographic inputs. Gate 4: no identifiable people or focal logos - documented only. Gate 5: no open blockers.",
+  "approved_at": "2026-09-26T11:39:12.207411+00:00",
+  "sha256_16x9": "ba41eeb72d5342175010d6ba9f758c130152d52d803520f5f2a6db7ed6c72be7",
+  "sha256_4x5": "5e11ea98a19b28df2d6ce757f0cb0065948e453a73f12cc549be878119c13ae3"
 }
