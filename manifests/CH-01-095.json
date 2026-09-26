@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Switzerland/Leukerbad/ch-01-095-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "Gate 1: Leukerbad in the Dala valley — compact thermal village of dark-wood chalets and modern bath buildings with steam rising, the sheer pale Gemmi limestone wall closing the valley directly behind the roofs; blue sky with scattered cloud matching the documented mainly-clear (35% cloud) model. Gate 2: exact masters; on-image 'Leukerbad, Leukerbad' and scenario '24 September 2026 · 16:18 Europe/Zurich' with disclosure and signature verified. Retrieval 2026-09-25T23:40:34Z unique to this scene; 16:18 inside the note's 16:00–16:59 model-valid hour. Gate 3: text-prompt-only, no photographic inputs. Gate 4: no readable bath logos or brand names; no people; commercial call remains Jason's. Gate 5: ready.",
+  "approved_at": "2026-09-26T04:36:17.298931+00:00",
+  "sha256_16x9": "6f60bcb65fc3a2b9a5f6b0164d1456e5abc34afb40fb3405d3e2cbecc8b10341",
+  "sha256_4x5": "ead96f0cf23872cdf5a821e8b114d31aee539d1933251374342dcc817f6c02cc"
 }
