@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Switzerland/Gündlischwand/ch-01-124-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "Gate 1: Schynige Platte ridge viewpoint with station buildings, cog-rail track, tawny late-September pastures, and Lake Thun below — the Gündlischwand frame. Gate 2: masters 1920x1080/864x1080 exact; on-image caption 'Schynige Platte, Gündlischwand', scenario '24 September 2026 · 16:57 Europe/Zurich', disclosure and signature 'Jason D’s Vision' legible on the gradient scrim. Weather retrieved 2026-09-25T23:41:03Z, unique to this scene across the 101-145 window; model-valid hour 16:00-16:59 matches the scenario. Gate 3: text-prompt-only lineage, no photographic inputs per note. Gate 4: no people, no logos — documented only. Gate 5: no open blockers.",
+  "approved_at": "2026-09-26T06:36:29.621416+00:00",
+  "sha256_16x9": "59f011c8bc953b6b2ec78f5802b94b0d894478f5d1f81cc9b376476969654369",
+  "sha256_4x5": "664f9decd7a930032eb0809be7794e258bc15f73c4204e248d31e72f99c51542"
 }
