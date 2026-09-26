@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Switzerland/Einsiedeln/ch-01-232-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "Gate 1: Dorfplatz in Einsiedeln's Unterdorf — village square among traditional town houses where Hauptstrasse meets the side lanes, abbey west front correctly out of frame — recognizably the village square. Gate 2: on-image caption 'Dorfplatz, Einsiedeln', scenario '24 September 2026 · 19:03 Europe/Zurich' inside the model-valid hour; per-scene retrieval 2026-09-25T23:45:57Z, unique, code 3 overcast consistent with the rendered sky; dims verified; signature and disclosure legible. Gate 3: text-prompt-only lineage. Gate 4: no prominent people or focal logos; documented-only. Gate 5: no open blockers.",
+  "approved_at": "2026-09-26T13:35:15.809282+00:00",
+  "sha256_16x9": "f890a46fa9433f36a22bcb8e326be429979b92196bb686d216847e47fd9c5683",
+  "sha256_4x5": "b2d1f400d6a125dab9998466bbfd1bf3d83e1a440b5f457a2642d6e3656c2f34"
 }
