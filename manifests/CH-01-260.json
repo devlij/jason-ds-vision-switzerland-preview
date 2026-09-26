@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Switzerland/Zuoz/ch-01-260-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Night",
+  "approval_basis": "Zuoz village square at night: Gate 1 pass — wide stone square with central fountain, San Luzi church with tall tower and pyramidal spire, sgraffito-decorated houses, warm street lamps, per the note's anchors. Gate 2 pass — exact dims, caption 'Zuoz, Zuoz', scenario '24 September 2026 · 19:38 Europe/Zurich', disclosure, signature; retrieval 2026-09-25T23:47:26Z unique repo-wide, model step 19:30 covers scenario. Gate 3 pass — text-prompt-only. Gate 4 noted — no readable inn names, no people. Gate 5 pass.",
+  "approved_at": "2026-09-26T15:37:24.955780+00:00",
+  "sha256_16x9": "c5de02495463a967ba6cd90e746fe0a2e34096684d6e32ba7ad3257e9e8fc1d2",
+  "sha256_4x5": "623955fa77feb3a3ef000a61652511dec6385e6732e13927646649a65aef691e"
 }
