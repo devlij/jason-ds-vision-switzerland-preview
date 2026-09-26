@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Switzerland/Sion/ch-01-140-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "Gate 1: Sion Old Town medieval stone lane with arcaded houses leading to Romanesque cathedral of Notre-Dame du Glarier and its square stone bell tower; fortified hilltop basilicas visible only distantly on the hills, not the subject; street-level frame. Gate 2: caption 'Sion Old Town, Sion', scenario '24 September 2026 · 17:14 Europe/Zurich', disclosure and curly-apostrophe signature exact on bottom gradient; per-scene Open-Meteo retrieval 2026-09-25T23:42:20Z verified unique across all 373 repo notes, valid hour 17:00-17:59 covers 17:14. Gate 3: text-prompt-only, no photographic inputs reported. Gate 4: no prominent people, no focal logos (internal note only). Gate 5: no open blockers.",
+  "approved_at": "2026-09-26T07:37:07.196291+00:00",
+  "sha256_16x9": "693f2810aab0c0b5dd5270e72f853736e677613a6bfb39a60c397b555cd96f5e",
+  "sha256_4x5": "f2eb584b85644642b929a499c4df29a91bbb6c7e80be407d0da9d8064e531804"
 }
