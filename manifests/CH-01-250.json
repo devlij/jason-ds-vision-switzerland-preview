@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Switzerland/Lauterbrunnen/ch-01-250-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Night",
+  "approval_basis": "Gate 1: Stechelberg under the Lauterbrunnen valley walls at night, lit chalet cluster and the glowing cable-car valley station, cliff lights receding up the valley — matches the note's night scenario, clean framing. Gate 2: exact 1920x1080/864x1080; signature; caption 'Stechelberg, Lauterbrunnen' + scenario '24 September 2026 · 19:21 Europe/Zurich' + disclosure present; retrieval 2026-09-25T23:46:15Z unique per-scene (repo-wide scan clean), valid 19:15 hour. Gate 3: text-prompt-only. Gate 4: no visible people or logos.",
+  "approved_at": "2026-09-26T15:13:36.305631+00:00",
+  "sha256_16x9": "4b3213c55b3068d33612610f2124ac9a6c37caa433b05befb76857bd249dde2c",
+  "sha256_4x5": "0d124214ac44f38cbb21384612b07ff4839d25b3e9b1f3d8af126a0b19130493"
 }
