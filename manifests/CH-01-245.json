@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Switzerland/Ringgenberg/ch-01-245-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Night",
+  "approval_basis": "Gate 1: Ringgenberg Castle's ruined medieval walls and round tower with the 1670 church's lit windows built into them on the hill above Lake Brienz, overcast dusk sky, no scaffolding, no reconstructed battlements. Gate 2: exact dims; 'Jason D's Vision' signature; caption 'Ringgenberg Castle, Ringgenberg' + scenario '24 September 2026 · 19:20 Europe/Zurich' + disclosure on scrim; retrieval 2026-09-25T23:46:10Z unique per-scene (repo-wide zero duplicates), valid 19:15 hour. Gate 3: text-prompt-only. Gate 4: no people, no logos.",
+  "approved_at": "2026-09-26T15:13:13.235561+00:00",
+  "sha256_16x9": "0305aa1cb4990be8c74a7cceacb054fd897e98a01a17427b0a983e22b56d6c30",
+  "sha256_4x5": "7a5d2c6e268350af4cdadbf26a4a29bc31255f7af23c5cd38cfcdf7da0e84cff"
 }
