@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Switzerland/Leissigen/ch-01-284-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Night",
+  "approval_basis": "Gate 1: night view across the lake of Leissigen with the illuminated church on the wooded hill, village lights strung along the shore, dark forested slopes behind; plausible lake viewpoint. Gate 2: exact 1920x1080/864x1080; caption 'Leissigen, Leissigen', scenario '24 September 2026 - 19:57 Europe/Zurich', disclosure and signature verified on-image; weather retrieved 2026-09-25T23:47:50Z, unique repo-wide, valid hour 19:00-19:59 matches scenario. Gate 3: text-prompt-only lineage per note. Gate 4: no people or logos visible (documented only).",
+  "approved_at": "2026-09-26T17:42:22.252099+00:00",
+  "sha256_16x9": "c2a9161354c017dc1bba7222cba94cd0fc065cece6b5fdd443fa9191f23de0c1",
+  "sha256_4x5": "9ba73ae7d5138717c3f936873eb1145903aee31feb9eacbaa946881d16176536"
 }
