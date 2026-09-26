@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Switzerland/Lugano/ch-01-197-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved - Cosmo QC 5/5 - Daylight",
+  "approval_basis": "Gate 1: master shows the neoclassical Villa Ciani with columned portico among giant plane trees and a cedar on the lake-edge lawn - plausible Parco Ciani park view on Lugano's shore. Gate 2: exact caption 'Parco Ciani, Lugano' and 'Scenario: 24 September 2026 - 18:28 Europe/Zurich' verified on-image with AI disclosure and curly-apostrophe Jason D's Vision signature; weather retrieval 2026-09-25T23:45:21Z unique repo-wide, valid model hour 2026-09-24T18:15 containing the 18:28 scenario. Gate 3: text-prompt-only, no photographic inputs. Gate 4: no identifiable people or focal logos - documented only. Gate 5: no open blockers.",
+  "approved_at": "2026-09-26T11:39:03.408034+00:00",
+  "sha256_16x9": "d1692be6724591d5853c7fe5d2b1eb9eba99122d9588dffe5650c70faad4ed7c",
+  "sha256_4x5": "2e1a6c2ae5cf1d820e0a413d881a2e236e53f3284c108ebbde52b330bcf4ce2a"
 }
