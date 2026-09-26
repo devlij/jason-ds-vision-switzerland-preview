@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Switzerland/Zermatt/ch-01-162-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "Gate 1: the snow summit of the Klein Matterhorn rises over the Theodul glacier from the ice terrace, a concrete viewing shelter low at frame right — recognizably the 3883 m summit viewpoint, clean framing, no artifacts. Gate 2: both masters exact (1920x1080, 864x1080); on-image caption 'Klein Matterhorn, Zermatt', scenario '24 September 2026 · 17:50 Europe/Zurich', AI-disclosure line, and curly-apostrophe 'Jason D's Vision' signature all legible on the bottom band. Weather retrieval 2026-09-25T23:43:44Z unique to this scene in the sequential per-scene series (no second-level duplicates across the audited window), scenario 17:50 inside model-valid hour 17:00-17:59. Gate 3: text-prompt-only lineage recorded, no photographic inputs. Gate 4: no people or logos visible (documented only). Gate 5: no open blockers.",
+  "approved_at": "2026-09-26T09:35:00.539408+00:00",
+  "sha256_16x9": "990c8ff1704563df62195e676fa74ac19794a49a33fcfbc1b162443e6940e12d",
+  "sha256_4x5": "558464ffdc74052bbdc236be88d7ae73feb6d09eb3af95da54666b5f362a3002"
 }
