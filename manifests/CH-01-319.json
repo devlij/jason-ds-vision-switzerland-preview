@@ -12,7 +12,7 @@
   "file_4x5": "library/world/Switzerland/Thun/ch-01-319-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate",
+  "approval_status": "Approved",
   "daylight_variant": {
     "variant_of_entry_id": "CH-01-319",
     "derived_from": "Live gallery night master library/world/Switzerland/Thun/ch-01-319-16x9.png (16:9) and library/world/Switzerland/Thun/ch-01-319-4x5.png (4:5) of the same scene; not an independently modelled weather or lighting scenario",
@@ -42,5 +42,10 @@
     "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
     "derivative_disclosure": "Derivative of the night interpretation of this same viewpoint. Not an independently modelled weather or lighting scenario. No weather claim. No scenario timestamp on the variant.",
     "note": "AI-generated daylight re-interpretation derived from the night master of the same viewpoint and composition. Not a new scene. Architecture and landscape preserved; lighting only was changed from night to daylight. No weather evidence invented. The variant image carries no weather claim and no scenario timestamp. The scene scenario_label remains the night scene's label and is not a daylight weather assertion."
-  }
+  },
+  "qc_status": "Approved · Cosmo QC 5/5 · Night",
+  "approval_basis": "Gate 1: the 16:9 master shows the Aarequai in Thun at night — a lamplit riverside promenade with plane trees, historic facades, and warm reflections on the Aare under a heavy overcast sky; plausible tourist viewpoint, clean framing, no artifacts; the 4:5 master shows the same promenade from a different angle with no defining-feature disagreement. Gate 2: sweep-verified exact 1920×1080 / 864×1080; on-image caption 'Aarequai, Thun', scenario '24 September 2026 · 22:52 Europe/Zurich', 'AI-generated artistic interpretation · Not a photograph.' disclosure bottom-left on gradient scrim; exact 'Jason D's Vision' (curly apostrophe) bottom-right; weather retrieval unique to this scene at 2026-09-25T23:48:25Z, separate request for Thun coords, model-valid hour 22:00–22:59 contains the 22:52 scenario (code 3 overcast, 13.7°C — matches the cloudy night sky). Gate 3: builder note documents text-prompt-only lineage, no photographic inputs. Gate 4: no people or logos visible; public promenade — documented only. Gate 5: no open blockers.",
+  "approved_at": "2026-09-26T20:36:34.291443+00:00",
+  "sha256_16x9": "b0a80a7d43fb7048b3e29201c25b834ac58ebc12f23660b021232a3288427349",
+  "sha256_4x5": "5324af23e0697918582f57bd83c9dd43d780aadd1886c061568a20be9297707e"
 }
