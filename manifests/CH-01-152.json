@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Switzerland/Küssnacht/ch-01-152-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "Gate 1 PASS: Küssnacht lakeside promenade with stone harbor, moored boats, church spire among old-town roofs and a tree-lined walk under overcast skies, plausible waterfront tourist viewpoint, clean framing, no artifacts. Gate 2 PASS: mechanical 1920x1080/864x1080 verified; on-image caption 'Küssnacht, Küssnacht', scenario '24 September 2026 · 17:33 Europe/Zurich', disclosure 'AI-generated artistic interpretation · Not a photograph.' bottom-left and exact 'Jason D's Vision' signature bottom-right, legible on the gradient scrim; note records a separate Open-Meteo retrieval at 2026-09-25T23:42:33Z unique repo-wide to this scene, valid for the model hour covering the scenario. Gate 3: text-prompt-only lineage, no photographic inputs reported. Gate 4: no people, logos, or recognizable private property (documented only). Gate 5: no open blockers.",
+  "approved_at": "2026-09-26T08:39:31.923277+00:00",
+  "sha256_16x9": "448fbc84e455c0f5ee67599e5d34a8407fe20e2fa4d70ae78d4438d7a589dfd0",
+  "sha256_4x5": "fef5d4789491e524e7c8855f13793f7713b86ea905c5afa59346f8869d6138b1"
 }
