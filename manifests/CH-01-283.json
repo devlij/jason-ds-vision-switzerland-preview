@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Switzerland/Spiez/ch-01-283-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Night",
+  "approval_basis": "Gate 1: night view of Faulensee from the lake with the white church and its slender spire among lit chalets, forested hillside rising behind, reflections on calm water; plausible shoreline viewpoint. Gate 2: exact 1920x1080/864x1080; caption 'Faulensee, Spiez', scenario '24 September 2026 - 19:57 Europe/Zurich', disclosure and signature verified on-image; weather retrieved 2026-09-25T23:47:49Z, unique repo-wide, valid hour 19:00-19:59 matches scenario. Gate 3: text-prompt-only lineage per note. Gate 4: no people or logos visible (documented only).",
+  "approved_at": "2026-09-26T17:42:17.504917+00:00",
+  "sha256_16x9": "5a900ea077d129b60d354cd282018bed421df5197fdc9997a91e7a88cc60ac0b",
+  "sha256_4x5": "10ad03146af299ee413273fe8ca63c6c433659d38cf556bd72245713b9f51cb4"
 }
