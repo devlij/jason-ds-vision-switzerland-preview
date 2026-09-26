@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Switzerland/Zurich/ch-01-187-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "Gate 1: the master shows the Lindenhof terrace — gravel public square under large lime trees with the stone fountain, tiled roofs dropping toward the Limmat, and distant church towers across the river; no standing castle on the hill, correct subject framing, plausible terrace viewpoint, clean framing, no artifacts. Gate 2: both masters exact dims (sweep-verified); caption 'Lindenhof, Zurich', scenario '24 September 2026 · 18:08 Europe/Zurich', AI disclosure legible on gradient; exact 'Jason D's Vision' signature bottom-right; weather retrieved 2026-09-25T23:44:09Z, unique repo-wide, valid 18:00–18:59 hour covering 18:08, overcast code 3/100% matching the diffuse light. Gate 3: text-prompt-only lineage, no photographic inputs. Gate 4: no prominent person or focal logo — documented only. Gate 5: no open blockers.",
+  "approved_at": "2026-09-26T10:37:12.186600+00:00",
+  "sha256_16x9": "2b8cb336338bfdd098981fce97eff88fa7091a9671f4a6029635508f1125bb92",
+  "sha256_4x5": "fa1f58d5a490ca1a10750719887ecbea4c63a3a24d8e33e6d0fec5998fa27772"
 }
