@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Switzerland/Geneva/ch-01-189-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "Gate 1: the master shows the Plaine de Plainpalais in Geneva — the broad open gravel esplanade lined with rows of plane trees and edged by university and city blocks, inland ground with no lake in frame; not the old-town square and not Carouge, plausible esplanade viewpoint, clean framing, no artifacts. Gate 2: both masters exact dims (sweep-verified); caption 'Plainpalais, Geneva', scenario '24 September 2026 · 18:08 Europe/Zurich', AI disclosure legible on gradient; exact 'Jason D's Vision' signature bottom-right; weather retrieved 2026-09-25T23:44:11Z, unique repo-wide, valid 18:00–18:59 hour covering 18:08, partly cloudy code 2/57% matching the cloud-break sky. Gate 3: text-prompt-only lineage, no photographic inputs. Gate 4: no prominent person or focal logo — documented only. Gate 5: no open blockers.",
+  "approved_at": "2026-09-26T10:37:40.974032+00:00",
+  "sha256_16x9": "7f12c429490bc28f1d457719356580c6d88bdf8e7f9d07142cfa48bce7aa3cd6",
+  "sha256_4x5": "5a75a6fbc8e3591b08024df418ad23200dde8b77b49ff65a64997bdefe38b73c"
 }
