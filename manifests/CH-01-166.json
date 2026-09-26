@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Switzerland/Aigle/ch-01-166-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "Gate 1: Aigle Castle's stone enceinte with square keep and conical-roofed corner towers on the vineyard hill, autumn-tinged vines in the foreground, snow-flecked Chablais peaks behind — recognizably the Chablais castle above the Rhône plain. Gate 2: exact masters (1920x1080, 864x1080); caption 'Aigle Castle, Aigle', scenario '24 September 2026 · 17:50 Europe/Zurich', disclosure and curly-apostrophe 'Jason D's Vision' signature legible. Retrieval 2026-09-25T23:43:48Z unique to this scene (coords 46.31500, 6.97629), scenario inside model-valid hour. Gate 3: text-prompt-only lineage, no photographic inputs. Gate 4: no people or logos visible (documented only). Gate 5: no open blockers.",
+  "approved_at": "2026-09-26T09:35:42.019036+00:00",
+  "sha256_16x9": "a06306c46306c261018070375bcc42c857dd89806fb4c305b47268d7f54522b8",
+  "sha256_4x5": "7644f06f70fd670482f1583242c832a038fb2e76612aec21d2a117641f244dde"
 }
