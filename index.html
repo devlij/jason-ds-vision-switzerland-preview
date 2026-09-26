@@ -6251,6 +6251,11 @@
       var d=card.querySelector('.day-tab.is-active');
       return (d&&d.getAttribute('data-daynight')==='day')?'day':'night';
     }
+    function dayUsed(card,fmt){
+      var im=card.querySelector('a.thumb img');
+      if(lbDay!=='day'||!im)return false;
+      return !!(im.getAttribute(fmt==='4x5'?'data-src-45-day':'data-src-16-day'));
+    }
     function cardFormat(card){
       var t=card.querySelector('.fmt-tab.is-active');
       var f=t?t.getAttribute('data-format'):null;
@@ -6260,7 +6265,7 @@
       var a=card.querySelector('a.thumb');
       if(!a)return'';
       var im=a.querySelector('img');
-      if(cardDay(card)==='day'&&im){
+      if(lbDay==='day'&&im){
         var dk=fmt==='4x5'?'data-src-45-day':'data-src-16-day';
         var ds=im.getAttribute(dk);
         if(ds)return ds;
@@ -6276,7 +6281,7 @@
          slideshow (no dataset access on digit-bearing attributes) */
       items=visibleCards().map(function(c){
         var t=c.querySelector('.caption');
-        var daySfx=cardDay(c)==='day'?' \u2014 \u2600 Daylight variant':'';
+        var daySfx=dayUsed(c,lbFormat)?' \u2014 \u2600 Daylight variant':'';
         return{src:cardSrc(c,lbFormat),cap:(t?t.textContent:'')+daySfx};
       }).filter(function(x){return x.src;});
       if(!items.length)return;
