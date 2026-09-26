@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Switzerland/Olten/ch-01-171-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "Gate 1: Olten's covered wooden Alte Brücke spanning the Aare on stone piers, the old-town row houses and a tall stone tower across the river, the bridge's truss and shingle roof rendered cleanly — consistent with the 1803 rebuilt crossing. Gate 2: exact masters; caption 'Olten, Olten', scenario '24 September 2026 · 17:51 Europe/Zurich', disclosure and signature legible bottom band. Retrieval 2026-09-25T23:43:53Z unique to this scene (coords 47.34948, 7.90520), scenario inside model-valid hour. Gate 3: text-prompt-only. Gate 4: no people or logos (documented only). Gate 5: no open blockers.",
+  "approved_at": "2026-09-26T09:36:27.635379+00:00",
+  "sha256_16x9": "e17e6c77251f7b59b8c05f73ad37b35002925bc54d1e9139a935a9b9df3dc4fa",
+  "sha256_4x5": "300adc2571408d872d67a973a1110479e94c03b79d085bec5cecd2503826406b"
 }
