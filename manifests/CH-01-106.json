@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Switzerland/Arosa/ch-01-106-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "Gate 1: the Obersee in a high bowl with open water, chalets among tawny grass with snow-free roofs, forested ridges around — matches anchors. Gate 2: caption 'Arosa, Arosa' and 'Scenario: 24 September 2026 · 16:38 Europe/Zurich' exact; signature bottom-right; disclosure present. Weather verified: Open-Meteo retrieved 2026-09-25T23:40:45Z, unique to this scene, model hour covers 16:38; overcast code 3 matches the grey sky. Gate 3: text-prompt-only, no photographic inputs. Gate 4: no people, no logos (documented only). Gate 5: clear.",
+  "approved_at": "2026-09-26T05:33:37.163815+00:00",
+  "sha256_16x9": "8a4469e2f2b9b50080a4681adaa1f51d089a88d0ca6cc6c919203aaae1c9e3e1",
+  "sha256_4x5": "e14ba6083e421798c234d2f0719c29ba8bb529ed80282fc73f44790398469266"
 }
