@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Switzerland/Waldenburg/ch-01-173-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "Gate 1: the Waldenburg ruin's broken medieval masonry and window voids crowning the rocky Rehag ridge, the small town's red roofs spreading across the valley floor far below — matches the ~170 m-above-town vantage, clean framing. Gate 2: exact masters; caption 'Waldenburg Ruin, Waldenburg', scenario '24 September 2026 · 17:51 Europe/Zurich', disclosure and signature legible bottom band. Retrieval 2026-09-25T23:43:55Z unique to this scene (coords 47.38164, 7.75317), scenario inside model-valid hour. Gate 3: text-prompt-only. Gate 4: no people or logos (documented only). Gate 5: no open blockers.",
+  "approved_at": "2026-09-26T09:36:36.691173+00:00",
+  "sha256_16x9": "867dcec0d212d3a5dfa4be9a8efc1e8823f29a36547f2c6728145ad6f4a9ac20",
+  "sha256_4x5": "c97bfcc7afc1891d67101c0b45c3d41a566cad4fb3ac144c0690b74e11c75cc6"
 }
