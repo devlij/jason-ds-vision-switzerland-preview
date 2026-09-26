@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Switzerland/Morcote/ch-01-090-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "Gate 1: Morcote rising from Lake Lugano — arcaded stone houses stepping up the shore, Santa Maria del Sasso with its bell tower on the rocky outcrop above the roofs, tall cypresses, wooded hillside behind; partly cloudy sky consistent with the documented 57% cloud model. Gate 2: exact masters; on-image 'Morcote, Morcote', scenario '24 September 2026 · 16:17 Europe/Zurich', disclosure and curly-apostrophe signature confirmed. Retrieval 2026-09-25T23:40:29Z scene-unique; 16:17 inside the note's 16:00–16:59 model-valid hour. Gate 3: text-prompt-only, no photographic inputs. Gate 4: no people, logos, or readable marks; commercial call Jason's. Gate 5: no blockers.",
+  "approved_at": "2026-09-26T04:35:33.398335+00:00",
+  "sha256_16x9": "c60501ff222dbb720e92a0f8a626a24dc6981c5b5ecdc078eb0c5ecf368fe216",
+  "sha256_4x5": "cfe2eb695b5aacfac4ba34b06c156435260a57c37e98c567868ea3b42937aedc"
 }
