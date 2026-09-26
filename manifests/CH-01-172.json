@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Switzerland/Liestal/ch-01-172-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "Gate 1: Liestal's Rathausstrasse of shuttered pastel houses climbing to the Obertor (Törli) — stone gate tower with pointed-arch opening and red tile roof centered at frame's end, wrought-iron lanterns on the walls — matches the noted viewpoint. Gate 2: exact masters; caption 'Liestal, Liestal', scenario '24 September 2026 · 17:51 Europe/Zurich', disclosure and signature legible. Retrieval 2026-09-25T23:43:54Z unique to this scene (coords 47.48300, 7.73540), scenario inside model-valid hour. Gate 3: text-prompt-only lineage. Gate 4: no people or logos (documented only). Gate 5: no open blockers.",
+  "approved_at": "2026-09-26T09:36:32.443423+00:00",
+  "sha256_16x9": "6e2ce6b3764703c226c496ac999b72fa643357af5a92f7cc9b93a0765d5df2dd",
+  "sha256_4x5": "6d9e59f703511e0846329d1d66952485218c1c62d3c9a283c7217d4350fdf273"
 }
