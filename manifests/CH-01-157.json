@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Switzerland/Wil/ch-01-157-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "Gate 1 PASS: Wil old town with the stone Hof tower and the spire of St. Nicholas rising above arcaded burgher houses on an empty cobbled square, plausible street-level tourist viewpoint, clean framing, no artifacts. Gate 2 PASS: mechanical 1920x1080/864x1080 verified; on-image caption 'Wil, Wil', scenario '24 September 2026 · 17:33 Europe/Zurich', disclosure 'AI-generated artistic interpretation · Not a photograph.' bottom-left and exact 'Jason D's Vision' signature bottom-right, legible on the gradient scrim; note records a separate Open-Meteo retrieval at 2026-09-25T23:42:38Z unique repo-wide to this scene, valid for the model hour covering the scenario. Gate 3: text-prompt-only lineage, no photographic inputs reported. Gate 4: no people, logos, or recognizable private property (documented only). Gate 5: no open blockers.",
+  "approved_at": "2026-09-26T08:40:53.142095+00:00",
+  "sha256_16x9": "a3ec3a6b9a82bebafec95e3bd936c67d6d48694ba7d08904129075799ad9ac61",
+  "sha256_4x5": "7ab61bd6ef705865c7fa05a89e9671fba1896385acf6e898f3cb1949da1673a4"
 }
