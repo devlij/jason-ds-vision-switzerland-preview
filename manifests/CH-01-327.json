@@ -12,7 +12,7 @@
   "file_4x5": "library/world/Switzerland/Giornico/ch-01-327-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate",
+  "approval_status": "Approved",
   "daylight_variant": {
     "variant_of_entry_id": "CH-01-327",
     "derived_from": "Live gallery night master library/world/Switzerland/Giornico/ch-01-327-16x9.png (16:9) and library/world/Switzerland/Giornico/ch-01-327-4x5.png (4:5) of the same scene; not an independently modelled weather or lighting scenario",
@@ -42,5 +42,10 @@
     "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
     "derivative_disclosure": "Derivative of the night interpretation of this same viewpoint. Not an independently modelled weather or lighting scenario. No weather claim. No scenario timestamp on the variant.",
     "note": "AI-generated daylight re-interpretation derived from the night master of the same viewpoint and composition. Not a new scene. Architecture and landscape preserved; lighting only was changed from night to daylight. No weather evidence invented. The variant image carries no weather claim and no scenario timestamp. The scene scenario_label remains the night scene's label and is not a daylight weather assertion."
-  }
+  },
+  "qc_status": "Approved · Cosmo QC 5/5 · Night",
+  "approval_basis": "Gate 1: the 16:9 master shows San Nicolao in Giornico — a Romanesque stone church with a tall bell tower on a vine-covered knoll beside the Ticino river under a starry sky; plausible tourist view, clean framing, no artifacts; the 4:5 master shows the same church, tower, and vineyard with no defining-feature disagreement. Gate 2: sweep-verified exact 1920×1080 / 864×1080; on-image caption 'San Nicolao, Giornico', scenario '24 September 2026 · 23:10 Europe/Zurich', 'AI-generated artistic interpretation · Not a photograph.' disclosure bottom-left on gradient scrim; exact 'Jason D's Vision' (curly apostrophe) bottom-right; weather retrieval unique to this scene at 2026-09-25T23:48:33Z, separate request for Giornico coords, model-valid hour 23:00–23:59 contains the 23:10 scenario (code 0 clear, 18.4°C — matches the starry night). Gate 3: builder note documents text-prompt-only lineage, no photographic inputs. Gate 4: no people or logos; historic public church — documented only. Gate 5: no open blockers.",
+  "approved_at": "2026-09-26T20:38:55.677393+00:00",
+  "sha256_16x9": "19c263457b21918ff5ddf26971ad2da6546365953706c91274ac56c6dc462a83",
+  "sha256_4x5": "9ae291c0f6dd7cceb7a622c8923d4df158af9f59a6e780be1c972939e4728c5d"
 }
