@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Switzerland/Yverdon-les-Bains/ch-01-093-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "Gate 1: Yverdon's Savoy castle from the moat edge — square thirteenth-century block with four large round corner towers and conical roofs, water-filled moat reflecting it, compact old town around it and Lake Neuchâtel beyond the roofs; no portrait statue in frame, per the note's own guard. Gate 2: exact masters; on-image 'Yverdon-les-Bains, Yverdon-les-Bains' and scenario '24 September 2026 · 16:18 Europe/Zurich' with disclosure and curly-apostrophe signature verified. Retrieval 2026-09-25T23:40:32Z unique to this scene; 16:18 inside the note's 16:00–16:59 model-valid hour. Gate 3: text-prompt-only generation. Gate 4: no people, logos, or readable marks; commercial call Jason's. Gate 5: ready.",
+  "approved_at": "2026-09-26T04:36:08.848395+00:00",
+  "sha256_16x9": "35949b6a5ba8f67a1d3d78fb829fa8efeb16264d6670332fb0f5c610ef31386d",
+  "sha256_4x5": "dcead95b4a73ac3ec4105e812a495e74f28b3bea1f25befca8049d63431f3d16"
 }
