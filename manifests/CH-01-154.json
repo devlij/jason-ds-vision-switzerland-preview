@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Switzerland/Schaffhausen/ch-01-154-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "Gate 1 PASS: Schaffhausen's Fronwagplatz with the stone Fronwagturm clock tower and the ornate guild house flanked by gabled burgher houses under a grey sky, plausible square-level tourist viewpoint, clean framing, no artifacts. Gate 2 PASS: mechanical 1920x1080/864x1080 verified; on-image caption 'Fronwagplatz, Schaffhausen', scenario '24 September 2026 · 17:33 Europe/Zurich', disclosure 'AI-generated artistic interpretation · Not a photograph.' bottom-left and exact 'Jason D's Vision' signature bottom-right, legible on the gradient scrim; note records a separate Open-Meteo retrieval at 2026-09-25T23:42:35Z unique repo-wide to this scene, valid for the model hour covering the scenario. Gate 3: text-prompt-only lineage, no photographic inputs reported. Gate 4: no people, logos, or recognizable private property (documented only). Gate 5: no open blockers.",
+  "approved_at": "2026-09-26T08:40:04.473977+00:00",
+  "sha256_16x9": "fcef9c1e17dfa5d50cbe01a7407fbf3d56c7dc2d9c0638823cf947b58370053b",
+  "sha256_4x5": "ae8711bbc3636f2f12ca1ab587970446af9d45736ae830dcc07426c557e49ac0"
 }
