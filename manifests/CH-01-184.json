@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Switzerland/Lucerne/ch-01-184-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "Gate 1: the master shows the Swiss Museum of Transport exterior plaza — modernist dark halls around an open gravel courtyard with a glass entrance band and the lake alongside; exterior only, no gallery interiors, no readable road signs or facade logos, plausible Lidostrasse plaza viewpoint, clean framing, no artifacts. Gate 2: both masters exact dims (sweep-verified); caption 'Swiss Museum of Transport exterior, Lucerne', scenario '24 September 2026 · 18:08 Europe/Zurich', AI disclosure legible on gradient; exact 'Jason D's Vision' signature bottom-right; weather retrieved 2026-09-25T23:44:06Z, unique repo-wide, valid 18:00–18:59 hour covering 18:08, overcast code 3/100% matching the diffuse light. Gate 3: text-prompt-only lineage, no photographic inputs. Gate 4: no prominent person or focal logo — documented only. Gate 5: no open blockers.",
+  "approved_at": "2026-09-26T10:36:29.046156+00:00",
+  "sha256_16x9": "a35a0b32021024750481dce20ce2a17f9cbf350f369e783e1d33eb857c7551cf",
+  "sha256_4x5": "e81df9d87ad0498759ff2e0b50300ee527bbf97caed12ce202dd77ca281b8d1d"
 }
