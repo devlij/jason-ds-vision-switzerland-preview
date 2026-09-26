@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Switzerland/Trogen/ch-01-134-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "Gate 1: Trogen Landsgemeindeplatz with pale-stone Zellweger merchant palaces, symmetrical windows, hipped roofs, empty sloping square, church tower behind; masonry not painted wood; overcast light matching model code 3/100% cover. Gate 2: caption 'Trogen, Trogen', scenario '24 September 2026 · 17:14 Europe/Zurich', disclosure and curly-apostrophe signature exact on bottom gradient; per-scene Open-Meteo retrieval 2026-09-25T23:42:14Z verified unique across all 373 repo notes, valid hour 17:00-17:59 covers 17:14. Gate 3: text-prompt-only, no photographic inputs reported. Gate 4: no prominent people, no focal logos (internal note only). Gate 5: no open blockers.",
+  "approved_at": "2026-09-26T07:35:18.588161+00:00",
+  "sha256_16x9": "909bba6bc58f01ed45edde4f2d6fa82b647d4189ac2fbc48d1b7a3fd57f8e972",
+  "sha256_4x5": "a622c8c95b47032b76d6e7111b867e5c6e15d299be6e1312fe7d86eb897fb5bf"
 }
