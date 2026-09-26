@@ -12,7 +12,7 @@
   "file_4x5": "library/world/Switzerland/Boudry/ch-01-337-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate",
+  "approval_status": "Approved",
   "daylight_variant": {
     "variant_of_entry_id": "CH-01-337",
     "derived_from": "Live gallery night master library/world/Switzerland/Boudry/ch-01-337-16x9.png (16:9) and library/world/Switzerland/Boudry/ch-01-337-4x5.png (4:5) of the same scene; not an independently modelled weather or lighting scenario",
@@ -42,5 +42,10 @@
     "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
     "derivative_disclosure": "Derivative of the night interpretation of this same viewpoint. Not an independently modelled weather or lighting scenario. No weather claim. No scenario timestamp on the variant.",
     "note": "AI-generated daylight re-interpretation derived from the night master of the same viewpoint and composition. Not a new scene. Architecture and landscape preserved; lighting only was changed from night to daylight. No weather evidence invented. The variant image carries no weather claim and no scenario timestamp. The scene scenario_label remains the night scene's label and is not a daylight weather assertion."
-  }
+  },
+  "qc_status": "Approved · Cosmo QC 5/5 · Night",
+  "approval_basis": "Gate 1: Boudry Castle on its spur above the Areuse — stone castle with the defining round tower, old-town roofs below, autumn vineyard slopes in the foreground; both formats agree on the round tower, spur, and old town (inter-format check). Gate 2: 1920×1080/864×1080 exact; caption 'Boudry Castle, Boudry', scenario '24 September 2026 · 23:27 Europe/Zurich', 'Jason D’s Vision' signature bottom-right and 'AI-generated artistic interpretation · Not a photograph.' bottom-left legible; Open-Meteo weather retrieved 2026-09-25T23:48:43Z, per-scene unique across all 39 candidates, valid slot 23:15 consistent with 23:27 scenario. Gate 3: note documents text-prompt-only lineage, no photo inputs. Gate 4: historic castle; no people or logos. Gate 5: no blockers.",
+  "approved_at": "2026-09-26T21:34:03.291368+00:00",
+  "sha256_16x9": "beac3d5eab73aa6db6c69d76ecb818fd6abbb8ae2f27c73efa2b99db0d6a06dc",
+  "sha256_4x5": "c2ebdfce88d0862664f374a56064c248fcf01acbb843b81e307db7ae01f690bf"
 }
