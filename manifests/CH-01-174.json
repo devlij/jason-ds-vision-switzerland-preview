@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Switzerland/Aarberg/ch-01-174-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "Gate 1: Aarberg's covered wooden bridge of 1566-69 on three stone piers crossing the Alte Aare, the arcaded house row of the Stadtplatz behind with the central fountain, brown tile roofs — matches the noted old-town arrangement under flat overcast. Gate 2: exact masters (1920x1080, 864x1080); caption 'Aarberg, Aarberg', scenario '24 September 2026 · 17:51 Europe/Zurich', disclosure and curly-apostrophe signature legible. Retrieval 2026-09-25T23:43:56Z unique to this scene (coords 47.04364, 7.27442), scenario inside model-valid hour. Gate 3: text-prompt-only lineage, no photographic inputs. Gate 4: no people or logos (documented only). Gate 5: no open blockers.",
+  "approved_at": "2026-09-26T09:36:55.184535+00:00",
+  "sha256_16x9": "5231c745728a537fee4d2769ea038561df27a5ece2b62a835542d4589696acfb",
+  "sha256_4x5": "2dc36f46c60489cafe08d9b3439726a41977f792079331933463335a9540e623"
 }
