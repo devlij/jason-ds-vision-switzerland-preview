@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Switzerland/Champéry/ch-01-120-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "Gate 1: village chalets beneath the limestone teeth of the Dents du Midi — the signature Champéry backdrop. Gate 2: masters 1920x1080/864x1080 exact; on-image caption 'Champéry, Champéry', scenario '24 September 2026 · 16:56 Europe/Zurich', disclosure and signature 'Jason D’s Vision' legible on the gradient scrim. Weather retrieved 2026-09-25T23:40:59Z, unique to this scene across the 101-145 window; model-valid hour 16:00-16:59 matches the scenario. Gate 3: text-prompt-only lineage, no photographic inputs per note. Gate 4: no people, no logos — documented only. Gate 5: no open blockers.",
+  "approved_at": "2026-09-26T06:35:51.148525+00:00",
+  "sha256_16x9": "0ea696ec1b3f4f0c701407f2f1366072ba13eaf4db6877c544bafcdfa0d468ca",
+  "sha256_4x5": "b5e420cc1940f0dff326753231e9dcda08b658aad41a11847724613275123119"
 }
