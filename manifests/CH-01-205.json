@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Switzerland/Gais/ch-01-205-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved - Cosmo QC 5/5 - Daylight",
+  "approval_basis": "Gate 1: master shows the Gais Dorfplatz - long row of wooden Appenzell houses with curved gables lining the square, the village church with onion dome at the end, autumn trees - plausible post-1780-fire village-square view under overcast sky. Gate 2: exact caption 'Gais, Gais' and 'Scenario: 24 September 2026 - 18:28 Europe/Zurich' verified on-image with AI disclosure and curly-apostrophe Jason D's Vision signature; weather retrieval 2026-09-25T23:45:29Z unique repo-wide, valid model hour 2026-09-24T18:15 containing the 18:28 scenario. Gate 3: text-prompt-only, no photographic inputs. Gate 4: no identifiable people or focal logos - documented only. Gate 5: no open blockers.",
+  "approved_at": "2026-09-26T11:39:38.319726+00:00",
+  "sha256_16x9": "89977f40219ee248b448d58f763ed51a32ee37bc724daf6c326b3679066eb989",
+  "sha256_4x5": "c222636cce37732663e4be485c944e0433f5d83b33e1c2663c481536473ffb49"
 }
