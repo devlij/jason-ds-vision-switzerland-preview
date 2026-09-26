@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Switzerland/Bellinzona/ch-01-196-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved - Cosmo QC 5/5 - Daylight",
+  "approval_basis": "Gate 1: master shows the pale-walled Montebello castle with its tall keep on the wooded slope, the Murata wall descending toward Bellinzona's town rooftops - plausible view of the middle Bellinzona castle. Gate 2: exact caption 'Montebello, Bellinzona' and 'Scenario: 24 September 2026 - 18:28 Europe/Zurich' verified on-image with AI disclosure and curly-apostrophe Jason D's Vision signature; weather retrieval 2026-09-25T23:45:20Z unique repo-wide, valid model hour 2026-09-24T18:15 containing the 18:28 scenario. Gate 3: text-prompt-only, no photographic inputs. Gate 4: no identifiable people or focal logos - documented only. Gate 5: no open blockers.",
+  "approved_at": "2026-09-26T11:38:59.068766+00:00",
+  "sha256_16x9": "5ef35eadcdfce57a0e6ac310ab661e3fe1721ce5bbfa9c761abf959f90cfbacd",
+  "sha256_4x5": "bc237d92486cbbd51638eaf286393abb8cbd8273ec7df864375b5db52885d993"
 }
