@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Switzerland/Lauterbrunnen/ch-01-252-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Night",
+  "approval_basis": "Schilthorn, Lauterbrunnen summit in cloud: Gate 1 pass — modern summit building with rounded upper floor on a rocky 2970m peak, old snow in patches, heavy cloud, no readable lettering, matching the Piz Gloria-type summit view described in the note. Gate 2 pass — both masters exact dims, caption 'Schilthorn, Lauterbrunnen', scenario '24 September 2026 · 19:21 Europe/Zurich', disclosure and signature present; Open-Meteo retrieval 2026-09-25T23:46:17Z cited in the note, unique repo-wide, model hour 19:00–19:59 covers the 19:21 scenario, weather code 1 at 3.3°C. Gate 3 pass — text-prompt-only lineage, no photographic inputs reported. Gate 4 noted — no people, no logos. Gate 5 pass.",
+  "approved_at": "2026-09-26T15:36:47.143988+00:00",
+  "sha256_16x9": "b9d2c5c5eb8717c716702c3334ba252971de7e82e9ff533c07d63eeb5ebf7a08",
+  "sha256_4x5": "eedbcdc6619294fd728d053886b803436d0b473f183e71b8727d23db65072434"
 }
