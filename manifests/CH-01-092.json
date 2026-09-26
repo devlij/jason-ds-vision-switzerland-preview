@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Switzerland/Nyon/ch-01-092-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "Gate 1: Nyon Castle from the Lake Geneva quay — white château with round corner towers built directly against the water, old-town roofs rising behind, the far shore of the lake under a fully overcast sky matching the documented 100% cloud model. Gate 2: exact masters; on-image 'Nyon Castle, Nyon', scenario '24 September 2026 · 16:17 Europe/Zurich', disclosure and curly-apostrophe signature confirmed. Retrieval 2026-09-25T23:40:31Z scene-unique; scenario inside the note's 16:00–16:59 model-valid hour. Gate 3: text-prompt-only, no photographic inputs per note. Gate 4: no people, no readable banner; commercial clearance stays Jason's. Gate 5: no blockers.",
+  "approved_at": "2026-09-26T04:35:41.668900+00:00",
+  "sha256_16x9": "1d90a7e198c3cd3d030c5cf92c32e25e8ae217b3aba3a7e7b07f03b04a0cbd35",
+  "sha256_4x5": "6cc133b4a23bd78b13bfac39058c4a6392a22c771fe0cfc6f0396b05978312e9"
 }
