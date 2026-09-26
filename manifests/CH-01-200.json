@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Switzerland/Faido/ch-01-200-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved - Cosmo QC 5/5 - Daylight",
+  "approval_basis": "Gate 1: master shows Sant'Andrea's neoclassical stone church body with rose window and tall square bell tower above the old town of slab-roofed houses in the Leventina valley, mountains behind - plausible Faido view. Gate 2: exact caption 'Faido, Faido' and 'Scenario: 24 September 2026 - 18:28 Europe/Zurich' verified on-image with AI disclosure and curly-apostrophe Jason D's Vision signature; weather retrieval 2026-09-25T23:45:24Z unique repo-wide, valid model hour 2026-09-24T18:15 containing the 18:28 scenario. Gate 3: text-prompt-only, no photographic inputs. Gate 4: no identifiable people or focal logos - documented only. Gate 5: no open blockers.",
+  "approved_at": "2026-09-26T11:39:16.781926+00:00",
+  "sha256_16x9": "a4161ee47d637f2dd829c1365efbb2c61a8691b7065106fc9799d72718d0e7bd",
+  "sha256_4x5": "5bdc58130f3beaae46bc07ce1def479a9544ad54626d950eddccaf879d713cf2"
 }
