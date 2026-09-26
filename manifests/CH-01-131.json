@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Switzerland/Flims/ch-01-131-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "Gate 1: Flims Dorf village terrace with white/timber houses and small Schlössli, pale Flimserstein limestone wall directly behind, no turquoise lake; partly-cloudy afternoon light matches model code 2/19% cover. Gate 2: caption 'Flims, Flims', scenario '24 September 2026 · 17:14 Europe/Zurich', disclosure and curly-apostrophe 'Jason D's Vision' signature exact on bottom gradient; per-scene Open-Meteo retrieval 2026-09-25T23:41:10Z verified unique across all 373 repo notes, valid hour 17:00-17:59 covers 17:14. Gate 3: text-prompt-only, no photographic inputs reported. Gate 4: no prominent people, no focal logos (internal note only). Gate 5: no open blockers.",
+  "approved_at": "2026-09-26T07:34:30.024388+00:00",
+  "sha256_16x9": "172aed7cb78744e06f25a4d357e621926f599a810054cbd0fcc77d1cc292c97c",
+  "sha256_4x5": "f110b2ea24a14f8444a98b67840002e5d922715e63e52081ead537d0512980d8"
 }
