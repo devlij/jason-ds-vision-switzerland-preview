@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Switzerland/Charmey/ch-01-219-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "Gate 1: pre-Alpine village of wooden chalets and stone houses with a church among the roofs, Jogne valley and steep limestone peaks with fir forest and tawny September meadows behind, no snow — plausibly Charmey, clean framing. Gate 2: exact 1920x1080/864x1080 masters; on-image caption 'Charmey, Charmey' and scenario '24 September 2026 · 18:46 Europe/Zurich'; curly-apostrophe signature bottom-right; disclosure present; per-scene Open-Meteo retrieval 2026-09-25T23:45:43Z (unique second), scenario inside 18:00–18:59 model hour, heavy cloud matches code 3. Gate 3: text-prompt-only lineage, no photographic input. Gate 4: no people/logos visible — documented only. Gate 5: no open blockers.",
+  "approved_at": "2026-09-26T12:34:58.299138+00:00",
+  "sha256_16x9": "62a980f9eec23d7b0cf1bd20628198a31af80b72433f53419c56eefc99164067",
+  "sha256_4x5": "b66ab20260569a2e968239f86388255c22a05e71fe85741d8087fca5e8c34209"
 }
