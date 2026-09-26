@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Switzerland/Crans-Montana/ch-01-096-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "Gate 1: Crans-Montana plateau — scattered wooden chalets on autumn pasture, the Rhône valley dropping away and the full Valais Alps arc with fresh snow under low cloud; overcast light matches the documented model conditions. Gate 2: exact masters; on-image 'Crans-Montana, Crans-Montana', scenario '24 September 2026 · 16:18 Europe/Zurich', disclosure and curly-apostrophe signature confirmed. Retrieval 2026-09-25T23:40:35Z unique to this scene; 16:18 inside the note's 16:00–16:59 model-valid hour. Gate 3: text-prompt-only generation, no photographic inputs. Gate 4: no people, no resort logos or signage; commercial call stays Jason's. Gate 5: no blockers.",
+  "approved_at": "2026-09-26T04:36:44.517417+00:00",
+  "sha256_16x9": "62b0d5dab7a27e38abb2b8fd35c7d4eb5e1916707fd59ec0eedc76da6df43300",
+  "sha256_4x5": "ef803e52234b49b1da03ef391454aa17b1dba9304159bf173f2b4bef51a40a4a"
 }
