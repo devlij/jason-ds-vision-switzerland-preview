@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Switzerland/Gambarogno/ch-01-272-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Night",
+  "approval_basis": "Gate 1 PASS: Magadino church with domed bell tower beside Lake Maggiore, reed beds in the foreground shallows, layered mountain silhouettes and broken-cloud night sky; clean framing, no artifacts. Gate 2 PASS: 1920x1080/864x1080 exact per sweep; caption 'Magadino, Gambarogno', scenario '24 September 2026 · 19:39 Europe/Zurich', disclosure and 'Jason D's Vision' signature (curly apostrophe) on the bottom scrim, legible; 4:5 master shows the same church and reed beds (inter-format identity agrees). Weather per-scene retrieval 2026-09-25T23:47:38Z, unique to the second; model-valid hour 19:00–19:59 Europe/Zurich, scenario 19:39 inside; code 1 mainly clear / 30% cloud / 19.6C matches the clouded sky. Gate 3: text-prompt-only lineage per note. Gate 4: no visible people, no logos. Gate 5: no open blockers.",
+  "approved_at": "2026-09-26T16:40:24.119311+00:00",
+  "sha256_16x9": "0391e6d5121602e259f765df8a3cc30653f40488bed7d8029843ee253cc33805",
+  "sha256_4x5": "94953f8d4ecffff09d013777b7c9422a820d3ebd34688b5b93e63dfa24698779"
 }
