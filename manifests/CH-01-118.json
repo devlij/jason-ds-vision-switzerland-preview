@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Switzerland/Guarda/ch-01-118-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "Gate 1: sgraffito-decorated white Engadin houses flanking a cobbled lane with a stone fountain and the valley view — the distinctive Guarda geometry anchors. Gate 2: masters 1920x1080/864x1080 exact; on-image caption 'Guarda, Guarda', scenario '24 September 2026 · 16:56 Europe/Zurich', disclosure and signature 'Jason D’s Vision' legible on the gradient scrim. Weather retrieved 2026-09-25T23:40:57Z, unique to this scene across the 101-145 window; model-valid hour 16:00-16:59 matches the scenario. Gate 3: text-prompt-only lineage, no photographic inputs per note. Gate 4: no people, no logos — documented only. Gate 5: no open blockers.",
+  "approved_at": "2026-09-26T06:35:22.200794+00:00",
+  "sha256_16x9": "2154d3f0caa2eb3125eb570f9e55ca92ec5fb9b5901cbca5d5e19c5564458b16",
+  "sha256_4x5": "cc8b3cb40fdaee0797f04a74225b7a8df51844f563d74c28817b7f382be1083e"
 }
