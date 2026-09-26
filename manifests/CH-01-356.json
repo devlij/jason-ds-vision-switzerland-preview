@@ -12,7 +12,7 @@
   "file_4x5": "library/world/Switzerland/Lauerz/ch-01-356-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate",
+  "approval_status": "Approved",
   "daylight_variant": {
     "variant_of_entry_id": "CH-01-356",
     "derived_from": "Live gallery night master library/world/Switzerland/Lauerz/ch-01-356-16x9.png (16:9) and library/world/Switzerland/Lauerz/ch-01-356-4x5.png (4:5) of the same scene; not an independently modelled weather or lighting scenario",
@@ -42,5 +42,10 @@
     "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
     "derivative_disclosure": "Derivative of the night interpretation of this same viewpoint. Not an independently modelled weather or lighting scenario. No weather claim. No scenario timestamp on the variant.",
     "note": "AI-generated daylight re-interpretation derived from the night master of the same viewpoint and composition. Not a new scene. Architecture and landscape preserved; lighting only was changed from night to daylight. No weather evidence invented. The variant image carries no weather claim and no scenario timestamp. The scene scenario_label remains the night scene's label and is not a daylight weather assertion."
-  }
+  },
+  "qc_status": "Approved · Cosmo QC 5/5 · Night",
+  "approval_basis": "Gate 1: wooded island with low stone ruin walls and a small chapel among the trees, twin Mythen silhouette beyond across the water — matches the anchors (Schwanau island, ruined medieval castle, chapel); the 4:5 master agrees on island, ruin walls, chapel and twin peaks. Gate 2: exact 1920x1080 and 864x1080; caption 'Schwanau, Lauerz', scenario '24 September 2026 · 23:46 Europe/Zurich', disclosure 'AI-generated artistic interpretation · Not a photograph.' and signature 'Jason D\\u2019s Vision' legible on the bottom scrim; scenario 23:46 inside the model-valid 23:45 step; weather retrieved 2026-09-25T23:49:02Z, verified unique across all 365 Switzerland note files. Gate 3: approvals note records text-prompt-only lineage, no photographic inputs. Gate 4: no identifiable people, no logos or focal artwork — documented only, final commercial call is Jason's. Gate 5: all gates closed.",
+  "approved_at": "2026-09-26T23:41:55.691075+00:00",
+  "sha256_16x9": "a013e242b9d58a6ffd7038d2acd2f745f3896a7b847870f5b55d03c7fbeb713f",
+  "sha256_4x5": "639ac782bf393af0b45aaeb735f4dfb50df49ab2e57b81253db798a50340d376"
 }
