@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Switzerland/Brusio/ch-01-255-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Night",
+  "approval_basis": "Spiral Viaduct, Brusio circular viaduct at nightfall: Gate 1 pass — nine-arch stone viaduct completing a full loop in open valley meadows, track on top with an unbranded lit train car, late-September trees in leaf, no snow, not the Landwasser. Gate 2 pass — exact dims, caption 'Spiral Viaduct, Brusio', scenario '24 September 2026 · 19:21 Europe/Zurich', disclosure, signature; retrieval 2026-09-25T23:46:20Z unique repo-wide, model step 19:15 valid for scenario. Gate 3 pass — text-prompt-only. Gate 4 noted — no readable train brand, no people. Gate 5 pass.",
+  "approved_at": "2026-09-26T15:37:00.918057+00:00",
+  "sha256_16x9": "44130b5fae8c0091487f554acda9a28145dd7dea00575d0e61f14167e0934475",
+  "sha256_4x5": "f6094b5e1ee7282a9f0256d8582f8edde80a5fe342e3ec2656f620400d716e8a"
 }
