@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Switzerland/Wildhaus/ch-01-136-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "Gate 1: Wildhaus pass village with dark wooden farmhouses, jagged limestone Churfirsten wall behind the roofs, street free of snow, overcast; not Alt St. Johann, no close Santis. Gate 2: caption 'Wildhaus, Wildhaus', scenario '24 September 2026 · 17:14 Europe/Zurich', disclosure and curly-apostrophe signature exact on bottom gradient; per-scene Open-Meteo retrieval 2026-09-25T23:42:16Z verified unique across all 373 repo notes, valid hour 17:00-17:59 covers 17:14. Gate 3: text-prompt-only, no photographic inputs reported. Gate 4: no prominent people, no focal logos (internal note only). Gate 5: no open blockers.",
+  "approved_at": "2026-09-26T07:35:53.128985+00:00",
+  "sha256_16x9": "d8dce706824e52db0757cad4c7e78eec8ea2e015e37e5940c891a0a918cf23d3",
+  "sha256_4x5": "ae1b99d26bc85470accb11199835f5d8bd15fa5a9fa91b683fe257dc8626eb32"
 }
