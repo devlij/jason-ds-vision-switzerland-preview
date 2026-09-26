@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Switzerland/Guttannen/ch-01-240-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "Gate 1: granite Grimsel road curving along the rocky ridge with the dark Bernese-side reservoir below and the small stone hospice at the water's edge; the Totensee correctly absent from the subject. Gate 2: exact 1920x1080/864x1080; signature bottom-right; caption 'Grimsel Pass, Guttannen' + scenario '24 September 2026 · 19:03 Europe/Zurich' + disclosure on scrim; retrieval 2026-09-25T23:46:05Z unique per-scene (repo-wide zero duplicates), valid 19:00 hour. Gate 3: text-prompt-only lineage. Gate 4: no visible people or logos.",
+  "approved_at": "2026-09-26T15:12:45.362429+00:00",
+  "sha256_16x9": "696d959b9016025813a1066db81593ca4002ce3f8cdccc395c48f14b1e480528",
+  "sha256_4x5": "e92a23837c86c21fb64c56ac3c55fbda18ab53f5155589ca620ea03d19b630c8"
 }
