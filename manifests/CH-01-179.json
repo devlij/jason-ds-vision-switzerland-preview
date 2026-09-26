@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Switzerland/Iseltwald/ch-01-179-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "Gate 1: the master shows the Iseltwald peninsula on Lake Brienz — the cluster of dark wooden houses, the pale 1907 Schloss Seeburg villa on the point, and the plain wooden pier in the bay, with steep wooded slopes behind; correct subject (not Brienz village), plausible shore viewpoint, clean framing, no artifacts. Gate 2: both masters exact dims (sweep-verified); caption 'Iseltwald, Iseltwald', scenario '24 September 2026 · 18:07 Europe/Zurich', AI disclosure legible on gradient; exact 'Jason D's Vision' signature bottom-right; weather retrieved 2026-09-25T23:44:01Z, unique repo-wide, valid 18:00–18:59 hour covering 18:07, overcast code 3/100% matching the muted gray-green lake. Gate 3: text-prompt-only lineage, no photographic inputs. Gate 4: no prominent person or focal logo — documented only. Gate 5: no open blockers.",
+  "approved_at": "2026-09-26T10:35:15.444443+00:00",
+  "sha256_16x9": "67d8dc9282f2116a220b0d9745c78337e5c67d7a6430e6c440416f9979ddea42",
+  "sha256_4x5": "677c67c05007d4bb4855207af2a960e14a30a135ca2013f1f143f0ddbe41da9d"
 }
