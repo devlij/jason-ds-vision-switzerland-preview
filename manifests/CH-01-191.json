@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Switzerland/Basel/ch-01-191-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved - Cosmo QC 5/5 - Daylight",
+  "approval_basis": "Gate 1: master shows black iron kinetic sculptures (wheel-like machines on arms) standing in the shallow dark circular pool on Theaterplatz, neoclassical theatre front with columns behind, overcast late-afternoon sky - plausible Fasnachts-Brunnen view. Gate 2: exact caption 'Tinguely Fountain, Basel' and 'Scenario: 24 September 2026 - 18:08 Europe/Zurich' verified on-image with 'AI-generated artistic interpretation - Not a photograph.'; curly-apostrophe Jason D's Vision signature bottom-right; weather retrieval 2026-09-25T23:45:14Z unique repo-wide, valid model hour 2026-09-24T18:00 containing the 18:08 scenario. Gate 3: note records text-prompt-only, no photographic inputs. Gate 4: no identifiable people or focal logos - documented, final commercial call is Jason's. Gate 5: no open blockers.",
+  "approved_at": "2026-09-26T11:38:34.104259+00:00",
+  "sha256_16x9": "087d995a0736c407fa0a98bd3b1701afd268acd53a46aea957777f45d6f1c848",
+  "sha256_4x5": "54952be36942b787810d2b598dedba9c081a3d1bb69a96bf3c7245c3cec444fb"
 }
