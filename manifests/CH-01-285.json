@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Switzerland/Därligen/ch-01-285-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Night",
+  "approval_basis": "Gate 1: night scene at Daerligen with the stone church and tall spire among lit lakeside houses, lamp reflections on the lake, mountain silhouettes closing the valley; plausible promenade viewpoint. Gate 2: exact 1920x1080/864x1080; caption 'Daerligen, Daerligen', scenario '24 September 2026 - 19:57 Europe/Zurich', disclosure and signature verified on-image; weather retrieved 2026-09-25T23:47:51Z, unique repo-wide, valid hour 19:00-19:59 matches scenario. Gate 3: text-prompt-only lineage per note. Gate 4: no people or logos visible (documented only).",
+  "approved_at": "2026-09-26T17:42:26.620832+00:00",
+  "sha256_16x9": "75d16b769be301c607e242510d2bfff1fe69092af7b68d8b51d16d4538ab07d0",
+  "sha256_4x5": "37bbd42b75a34aee67ddf4626c48474cc0b700df2d33ff7c5db3246c5e4a1597"
 }
