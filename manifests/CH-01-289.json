@@ -12,7 +12,7 @@
   "file_4x5": "library/world/Switzerland/Geneva/ch-01-289-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate",
+  "approval_status": "Approved",
   "daylight_variant": {
     "variant_of_entry_id": "CH-01-289",
     "derived_from": "Live gallery night master library/world/Switzerland/Geneva/ch-01-289-16x9.png (16:9) and library/world/Switzerland/Geneva/ch-01-289-4x5.png (4:5) of the same scene; not an independently modelled weather or lighting scenario",
@@ -42,5 +42,10 @@
     "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
     "derivative_disclosure": "Derivative of the night interpretation of this same viewpoint. Not an independently modelled weather or lighting scenario. No weather claim. No scenario timestamp on the variant.",
     "note": "AI-generated daylight re-interpretation derived from the night master of the same viewpoint and composition. Not a new scene. Architecture and landscape preserved; lighting only was changed from night to daylight. No weather evidence invented. The variant image carries no weather claim and no scenario timestamp. The scene scenario_label remains the night scene's label and is not a daylight weather assertion."
-  }
+  },
+  "qc_status": "Approved · Cosmo QC 5/5 · Night",
+  "approval_basis": "Gate 1: night view along Quai du Mont-Blanc in Geneva with the plane-tree avenue, lamp-lit promenade, stone quay and railing, and a floodlit building across the dark lake; plausible lakeside-walk viewpoint. Gate 2: exact 1920x1080/864x1080; caption 'Quai du Mont-Blanc, Geneva', scenario '24 September 2026 - 22:30 Europe/Zurich', disclosure and signature verified on-image; weather retrieved 2026-09-25T23:47:55Z, unique repo-wide, valid hour 22:00-22:59 matches scenario. Gate 3: text-prompt-only lineage per note. Gate 4: no identifiable people or logos (documented only).",
+  "approved_at": "2026-09-26T17:42:45.377564+00:00",
+  "sha256_16x9": "1fad49254439d6adb43bfc34c27f144f971ccd2a23b8d5fef55006d3a192c5b6",
+  "sha256_4x5": "c8279ccfdb06c3ff052a57560b646bfe4222eb2ff6244b10d9d7f1522dc51266"
 }
