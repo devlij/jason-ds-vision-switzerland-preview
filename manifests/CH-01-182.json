@@ -12,5 +12,10 @@
   "file_4x5": "library/world/Switzerland/Lucerne/ch-01-182-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate"
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "Gate 1: the master shows the Lucerne Nationalquai — grand hotel fronts along the north shore with a tree-lined promenade, the lake opening east with a low far shore; no covered wooden bridge and no octagonal water tower, correctly separating this from the Chapel Bridge scene, plausible quay viewpoint, clean framing, no artifacts. Gate 2: both masters exact dims (sweep-verified); caption 'Lucerne waterfront, Lucerne', scenario '24 September 2026 · 18:08 Europe/Zurich', AI disclosure legible on gradient; exact 'Jason D's Vision' signature bottom-right; weather retrieved 2026-09-25T23:44:04Z, unique repo-wide, valid 18:00–18:59 hour covering 18:08, overcast code 3/100% matching the diffuse light. Gate 3: text-prompt-only lineage, no photographic inputs. Gate 4: no prominent person or focal logo — documented only. Gate 5: no open blockers.",
+  "approved_at": "2026-09-26T10:36:00.524913+00:00",
+  "sha256_16x9": "55280814160e5f6fd23c7ae2cf5452d59d8382f1b0e25ca5b44e04213cf2b3b3",
+  "sha256_4x5": "918136ceab595ee06d4888d4ccd6e57dd8e595324a8cc55e249e685d88cf1b52"
 }
