@@ -10,6 +10,7 @@
   "alt_text": "AI-generated artistic interpretation of the Rochers-de-Naye ridge at night",
   "file_16x9": "library/world/Switzerland/Veytaux/ch-01-345-16x9.png",
   "file_4x5": "library/world/Switzerland/Veytaux/ch-01-345-4x5.png",
+  "file_9x16": "library/world/Switzerland/Veytaux/ch-01-345-9x16.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
   "approval_status": "Candidate",
@@ -48,6 +49,11 @@
       "at": "2026-09-26T22:32:58.247740+00:00",
       "by": "Cosmo QC",
       "note": "Gate 1 hold: inter-format subject disagreement — the 16:9 master shows the summit building as a long low modern block with a row of lit windows while the 4:5 master shows a small square stone hut with a pitched stone roof; the two formats do not agree on the summit building's form. Left Candidate pending rework."
+    },
+    {
+      "at": "2026-09-27T16:41:42.776988+00:00",
+      "by": "rerender",
+      "note": "Re-render for the recorded Gate 1 hold: inter-format subject disagreement — the 16:9 master shows the summit building as a long low modern block with a row of lit windows while the 4:5 master shows a small square stone hut with a pitched stone roof. All three new masters share one plain stone-and-timber summit house with a pitched roof on the rocky ridge, night, no snowfield. Scenario unchanged. Label-bar finish 1920×1270, 864×1270, 1080×2110. Still Candidate. Daylight variant files were not regenerated."
     }
   ]
 }
