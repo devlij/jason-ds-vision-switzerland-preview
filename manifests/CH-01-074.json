@@ -12,18 +12,43 @@
   "file_4x5": "library/world/Switzerland/Steckborn/ch-01-074-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Approved",
-  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
-  "approval_basis": "Gate 1: Turmhof tower house at Steckborn with its round stair turret and baroque roof cap, standing directly on the Untersee, flanked by the half-timbered waterfront row — the note's anchors verified in-frame. Gate 2: 1920x1080 + 864x1080 verified; caption 'Steckborn, Steckborn', scenario '24 September 2026 · 16:01 Europe/Zurich', disclosure and exact 'Jason D's Vision' signature legible bottom-left/right. Weather: Open-Meteo retrieval recorded as retrieved 2026-09-25T21:45:31Z, unique to the second across all 365 Switzerland notes (repo-wide, zero duplicates); code 3 overcast 100%, 20.9°C valid for the 16:00 model hour covering 16:01, matching the grey lake sky. Gate 3: text-prompt-only lineage, no photographic inputs. Gate 4: no identifiable people or focal logos; documented only.",
-  "approved_at": "2026-09-26T03:37:07.693045+00:00",
-  "sha256_16x9": "aac8509e044f12c76387ad90d9aff197070edebe2eb5d1568ade48a50f9b1ed8",
-  "sha256_4x5": "ea4b170c94896cb35c1ffefe482b49340cd33e5938e609d5ca3edcc9d0982610",
+  "approval_status": "Candidate",
+  "qc_status": "Candidate · weather rework 2026-09-27 · not approved",
+  "approval_basis": "Builder weather rework 2026-09-27 for CH-01-074. Own Open-Meteo archive GET, HTTP Date Sun, 27 Sep 2026 16:55:52 GMT, retrieved 2026-09-27T16:55:52Z, valid 2026-09-24T16:00 Europe/Zurich, model-valid hour 16:00–16:59, scenario 24 September 2026 · 16:01 Europe/Zurich inside that hour. Weather code 3 (overcast), cloud 99%, 20.0°C, is_day 1. Masters re-rendered at 1920×1270, 864×1270, and 1080×2110 with a 190px #0e0e12 label bar. Status Candidate. Not an approval.",
+  "sha256_16x9": "29c8e3ad17ef5a25138aee670d7411a0c553c58b947b735c8037c0409ed204c1",
+  "sha256_4x5": "2cc8a149efa127484690ab946602c5ce7e73e045970db661eae5ef6c24fe5170",
   "reverted_at": "2026-09-25T12:43:16.487832+00:00",
   "qc_notes": [
     {
       "at": "2026-09-25T12:43:16.487832+00:00",
       "by": "Cosmo QC",
       "note": "Approval withdrawn 2026-09-25 (Cosmo QC): the weather metadata was a shared/batch Open-Meteo retrieval (retrieval timestamp 2026-09-24T14:00:42Z identical across 16 scenes), failing Gate 2 under the confirmed standing policy — one HTTP fetch per scene, one recorded retrieval timestamp per scene; identical-to-the-second timestamps across scenes = shared retrieval. Rework: fetch Open-Meteo fresh per scene (own HTTP request, own recorded timestamp), scenario hour inside the model-valid hour; update the approvals note with the new retrieval evidence; re-push masters only if on-image text must change. Scene stays Candidate until Cosmo QC re-audits."
+    },
+    {
+      "at": "2026-09-27T17:29:46Z",
+      "by": "builder",
+      "note": "Builder weather rework 2026-09-27 for CH-01-074. Own Open-Meteo archive GET, HTTP Date Sun, 27 Sep 2026 16:55:52 GMT, retrieved 2026-09-27T16:55:52Z, valid 2026-09-24T16:00 Europe/Zurich, model-valid hour 16:00–16:59, scenario 24 September 2026 · 16:01 Europe/Zurich inside that hour. Weather code 3 (overcast), cloud 99%, 20.0°C, is_day 1. Masters re-rendered at 1920×1270, 864×1270, and 1080×2110 with a 190px #0e0e12 label bar. Status Candidate. Not an approval."
     }
-  ]
+  ],
+  "file_9x16": "library/world/Switzerland/Steckborn/ch-01-074-9x16.png",
+  "sha256_9x16": "25089ca0c6b6d6abc200bb5329dc0192b3a8b59d8a9730770062a7044de41a2a",
+  "open_meteo": {
+    "retrieved_utc": "2026-09-27T16:55:52Z",
+    "http_date": "Sun, 27 Sep 2026 16:55:52 GMT",
+    "valid": "2026-09-24T16:00",
+    "model_valid_hour": "16:00–16:59",
+    "scenario_minute": "16:01",
+    "weather_code": 3,
+    "cloud_cover": 99,
+    "temperature_2m": 20.0,
+    "apparent_temperature": 18.2,
+    "wind_speed_10m": 11.6,
+    "wind_direction_10m": 240,
+    "relative_humidity_2m": 51,
+    "precipitation": 0.0,
+    "is_day": 1,
+    "elevation": 394.0,
+    "latitude": 47.66895,
+    "longitude": 8.98286
+  }
 }

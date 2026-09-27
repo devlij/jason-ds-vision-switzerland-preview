@@ -1,0 +1,20 @@
+CH-01-065–080 weather rework. One Open-Meteo archive HTTP GET per scene.
+16 scenes. All overcast daylight (weather code 3). Scenario minutes inside the model-valid hour.
+One pure photograph per scene, center-cropped to the three photo sizes, then the 190px #0e0e12 label bar. Status Candidate. Not an approval.
+
+CH-01-065  retrieved_utc 2026-09-27T16:55:40Z  HTTP Date Sun, 27 Sep 2026 16:55:40 GMT  valid 2026-09-24T16:00 Europe/Zurich  model-valid hour 16:00–16:59  scenario 24 September 2026 16:00 Europe/Zurich  code 3 cloud 100% 17.7°C is_day 1
+CH-01-066  retrieved_utc 2026-09-27T16:55:41Z  HTTP Date Sun, 27 Sep 2026 16:55:41 GMT  valid 2026-09-24T16:00 Europe/Zurich  model-valid hour 16:00–16:59  scenario 24 September 2026 16:00 Europe/Zurich  code 3 cloud 100% 16.7°C is_day 1
+CH-01-067  retrieved_utc 2026-09-27T16:55:43Z  HTTP Date Sun, 27 Sep 2026 16:55:43 GMT  valid 2026-09-24T16:00 Europe/Zurich  model-valid hour 16:00–16:59  scenario 24 September 2026 16:00 Europe/Zurich  code 3 cloud 100% 17.4°C is_day 1
+CH-01-068  retrieved_utc 2026-09-27T16:55:44Z  HTTP Date Sun, 27 Sep 2026 16:55:44 GMT  valid 2026-09-24T16:00 Europe/Zurich  model-valid hour 16:00–16:59  scenario 24 September 2026 16:01 Europe/Zurich  code 3 cloud 100% 20.9°C is_day 1
+CH-01-069  retrieved_utc 2026-09-27T16:55:45Z  HTTP Date Sun, 27 Sep 2026 16:55:45 GMT  valid 2026-09-24T16:00 Europe/Zurich  model-valid hour 16:00–16:59  scenario 24 September 2026 16:01 Europe/Zurich  code 3 cloud 100% 20.7°C is_day 1
+CH-01-070  retrieved_utc 2026-09-27T16:55:47Z  HTTP Date Sun, 27 Sep 2026 16:55:47 GMT  valid 2026-09-24T16:00 Europe/Zurich  model-valid hour 16:00–16:59  scenario 24 September 2026 16:01 Europe/Zurich  code 3 cloud 100% 20.3°C is_day 1
+CH-01-071  retrieved_utc 2026-09-27T16:55:48Z  HTTP Date Sun, 27 Sep 2026 16:55:48 GMT  valid 2026-09-24T16:00 Europe/Zurich  model-valid hour 16:00–16:59  scenario 24 September 2026 16:01 Europe/Zurich  code 3 cloud 100% 20.0°C is_day 1
+CH-01-072  retrieved_utc 2026-09-27T16:55:50Z  HTTP Date Sun, 27 Sep 2026 16:55:50 GMT  valid 2026-09-24T16:00 Europe/Zurich  model-valid hour 16:00–16:59  scenario 24 September 2026 16:01 Europe/Zurich  code 3 cloud 100% 20.5°C is_day 1
+CH-01-073  retrieved_utc 2026-09-27T16:55:51Z  HTTP Date Sun, 27 Sep 2026 16:55:51 GMT  valid 2026-09-24T16:00 Europe/Zurich  model-valid hour 16:00–16:59  scenario 24 September 2026 16:01 Europe/Zurich  code 3 cloud 98% 19.1°C is_day 1
+CH-01-074  retrieved_utc 2026-09-27T16:55:52Z  HTTP Date Sun, 27 Sep 2026 16:55:52 GMT  valid 2026-09-24T16:00 Europe/Zurich  model-valid hour 16:00–16:59  scenario 24 September 2026 16:01 Europe/Zurich  code 3 cloud 99% 20.0°C is_day 1
+CH-01-075  retrieved_utc 2026-09-27T16:55:54Z  HTTP Date Sun, 27 Sep 2026 16:55:54 GMT  valid 2026-09-24T16:00 Europe/Zurich  model-valid hour 16:00–16:59  scenario 24 September 2026 16:01 Europe/Zurich  code 3 cloud 99% 23.8°C is_day 1
+CH-01-076  retrieved_utc 2026-09-27T16:55:55Z  HTTP Date Sun, 27 Sep 2026 16:55:55 GMT  valid 2026-09-24T16:00 Europe/Zurich  model-valid hour 16:00–16:59  scenario 24 September 2026 16:01 Europe/Zurich  code 3 cloud 99% 23.2°C is_day 1
+CH-01-077  retrieved_utc 2026-09-27T16:55:56Z  HTTP Date Sun, 27 Sep 2026 16:55:56 GMT  valid 2026-09-24T16:00 Europe/Zurich  model-valid hour 16:00–16:59  scenario 24 September 2026 16:01 Europe/Zurich  code 3 cloud 93% 25.5°C is_day 1
+CH-01-078  retrieved_utc 2026-09-27T16:55:58Z  HTTP Date Sun, 27 Sep 2026 16:55:58 GMT  valid 2026-09-24T16:00 Europe/Zurich  model-valid hour 16:00–16:59  scenario 24 September 2026 16:01 Europe/Zurich  code 3 cloud 100% 22.0°C is_day 1
+CH-01-079  retrieved_utc 2026-09-27T16:55:59Z  HTTP Date Sun, 27 Sep 2026 16:55:59 GMT  valid 2026-09-24T16:00 Europe/Zurich  model-valid hour 16:00–16:59  scenario 24 September 2026 16:01 Europe/Zurich  code 3 cloud 100% 17.6°C is_day 1
+CH-01-080  retrieved_utc 2026-09-27T16:56:01Z  HTTP Date Sun, 27 Sep 2026 16:56:01 GMT  valid 2026-09-24T16:00 Europe/Zurich  model-valid hour 16:00–16:59  scenario 24 September 2026 16:01 Europe/Zurich  code 3 cloud 100% 19.9°C is_day 1

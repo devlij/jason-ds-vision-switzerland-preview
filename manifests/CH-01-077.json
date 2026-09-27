@@ -6,24 +6,49 @@
   "caption": "Carouge, Carouge",
   "scenario_label": "24 September 2026 · 16:01 Europe/Zurich",
   "composition": "Place du Marché in Carouge toward Sainte-Croix · AI-generated artistic interpretation",
-  "description": "Carouge, a municipality in the canton of Geneva, is a planned town of arcades and warm plaster around the neoclassical church of Sainte-Croix on the market square. Plane trees line the street. No shop lettering is readable. The Open-Meteo model is partly cloudy and warm, with sun through broken cloud and no rain.",
+  "description": "Carouge, a municipality in the canton of Geneva, is a planned town of arcades and warm plaster around the neoclassical church of Sainte-Croix on the market square. Plane trees line the street. No shop lettering is readable. The Open-Meteo model is fully overcast and warm, with diffuse light and no rain.",
   "alt_text": "AI-generated artistic interpretation of Place du Marché and Sainte-Croix in Carouge",
   "file_16x9": "library/world/Switzerland/Carouge/ch-01-077-16x9.png",
   "file_4x5": "library/world/Switzerland/Carouge/ch-01-077-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Approved",
-  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
-  "approval_basis": "Gate 1: Carouge's neoclassical Sainte-Croix church with columned portico, warm-plaster arcaded blocks framing a plane-tree avenue — the note's 'planned town of arcades and warm plaster' anchors verified in-frame, blue-sky partly-cloudy mood. Gate 2: 1920x1080 + 864x1080 verified; caption 'Carouge, Carouge', scenario '24 September 2026 · 16:01 Europe/Zurich', disclosure and exact 'Jason D's Vision' signature legible on the bottom gradient. Weather: Open-Meteo retrieval recorded as retrieved 2026-09-25T21:45:35Z, unique to the second across all 365 Switzerland notes (repo-wide, zero duplicates); code 2 partly cloudy, 48% cloud, 25.4°C valid for the 16:00 model hour covering 16:01 — notably different from the overcast entries, matching the sunny frame. Gate 3: text-prompt-only lineage, no photographic inputs. Gate 4: no identifiable people or focal logos; documented only.",
-  "approved_at": "2026-09-26T03:37:53.921490+00:00",
-  "sha256_16x9": "1de7ce4a2e8a67a2d6e64791775a4c91fc41ff352501dc2cd902b34ca23ff880",
-  "sha256_4x5": "173d8ffd6a25b74b464208f27d86bb4563012cdf8ff2fb90bf63f1967ecba0fc",
+  "approval_status": "Candidate",
+  "qc_status": "Candidate · weather rework 2026-09-27 · not approved",
+  "approval_basis": "Builder weather rework 2026-09-27 for CH-01-077. Own Open-Meteo archive GET, HTTP Date Sun, 27 Sep 2026 16:55:56 GMT, retrieved 2026-09-27T16:55:56Z, valid 2026-09-24T16:00 Europe/Zurich, model-valid hour 16:00–16:59, scenario 24 September 2026 · 16:01 Europe/Zurich inside that hour. Weather code 3 (overcast), cloud 93%, 25.5°C, is_day 1. Masters re-rendered at 1920×1270, 864×1270, and 1080×2110 with a 190px #0e0e12 label bar. Status Candidate. Not an approval.",
+  "sha256_16x9": "eb8742de220f40281235cc49b5dff97cdf8ce73201a25726f18a908606e9b62c",
+  "sha256_4x5": "fc3127f409c739ce9dcc6a39ad221475a2595a3d75a6206770318187fea446d6",
   "reverted_at": "2026-09-25T12:43:23.859626+00:00",
   "qc_notes": [
     {
       "at": "2026-09-25T12:43:23.859626+00:00",
       "by": "Cosmo QC",
       "note": "Approval withdrawn 2026-09-25 (Cosmo QC): the weather metadata was a shared/batch Open-Meteo retrieval (retrieval timestamp 2026-09-24T14:00:42Z identical across 16 scenes), failing Gate 2 under the confirmed standing policy — one HTTP fetch per scene, one recorded retrieval timestamp per scene; identical-to-the-second timestamps across scenes = shared retrieval. Rework: fetch Open-Meteo fresh per scene (own HTTP request, own recorded timestamp), scenario hour inside the model-valid hour; update the approvals note with the new retrieval evidence; re-push masters only if on-image text must change. Scene stays Candidate until Cosmo QC re-audits."
+    },
+    {
+      "at": "2026-09-27T17:29:46Z",
+      "by": "builder",
+      "note": "Builder weather rework 2026-09-27 for CH-01-077. Own Open-Meteo archive GET, HTTP Date Sun, 27 Sep 2026 16:55:56 GMT, retrieved 2026-09-27T16:55:56Z, valid 2026-09-24T16:00 Europe/Zurich, model-valid hour 16:00–16:59, scenario 24 September 2026 · 16:01 Europe/Zurich inside that hour. Weather code 3 (overcast), cloud 93%, 25.5°C, is_day 1. Masters re-rendered at 1920×1270, 864×1270, and 1080×2110 with a 190px #0e0e12 label bar. Status Candidate. Not an approval."
     }
-  ]
+  ],
+  "file_9x16": "library/world/Switzerland/Carouge/ch-01-077-9x16.png",
+  "sha256_9x16": "045fb32860f9619b3b216ad8f71afe8dd9e63eb3f3441bf46360b45f91571e6c",
+  "open_meteo": {
+    "retrieved_utc": "2026-09-27T16:55:56Z",
+    "http_date": "Sun, 27 Sep 2026 16:55:56 GMT",
+    "valid": "2026-09-24T16:00",
+    "model_valid_hour": "16:00–16:59",
+    "scenario_minute": "16:01",
+    "weather_code": 3,
+    "cloud_cover": 93,
+    "temperature_2m": 25.5,
+    "apparent_temperature": 24.7,
+    "wind_speed_10m": 3.9,
+    "wind_direction_10m": 127,
+    "relative_humidity_2m": 35,
+    "precipitation": 0.0,
+    "is_day": 1,
+    "elevation": 387.0,
+    "latitude": 46.1834,
+    "longitude": 6.14
+  }
 }

@@ -12,18 +12,43 @@
   "file_4x5": "library/world/Switzerland/Werdenberg/ch-01-068-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Approved",
-  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
-  "approval_basis": "Gate 1 PASS: the medieval Werdenberg Castle stands on its rocky knoll above the cluster of dark-timbered houses, the lake edge visible at the right — a recognizable, plausible viewpoint of the Werdenberg ensemble. Clean framing, no artifacts. Gate 2 PASS: 1920x1080 / 864x1080 sha-matched. On-image: 'Werdenberg, Werdenberg', 'Scenario: 24 September 2026 · 16:01 Europe/Zurich', 'AI-generated artistic interpretation · Not a photograph.' and exact 'Jason D's Vision' (curly apostrophe) bottom-right — legible, unobtrusive. Weather: per-scene Open-Meteo retrieval 2026-09-25T21:45:24Z for the scene's coordinates, valid window 2026-09-24T16:00 Europe/Zurich covering the scenario hour; timestamp unique to this scene to the second. Gate 3 PASS: text-prompt-only, no photographic input. Gate 4 DOCUMENTED: no people or logos visible; historic castle, public landmark — commercial call is Jason's. Gate 5 PASS: no open blockers.",
-  "approved_at": "2026-09-26T02:38:11.320439+00:00",
-  "sha256_16x9": "6c8720b5a06f999f457fdf71298727ca28196b2f3d1c4b956cb02b75a83974bf",
-  "sha256_4x5": "8690eba1f6ceb57e4a07562e45f01ed494b13e34f44a69a590eeeb67a51022b4",
+  "approval_status": "Candidate",
+  "qc_status": "Candidate · weather rework 2026-09-27 · not approved",
+  "approval_basis": "Builder weather rework 2026-09-27 for CH-01-068. Own Open-Meteo archive GET, HTTP Date Sun, 27 Sep 2026 16:55:44 GMT, retrieved 2026-09-27T16:55:44Z, valid 2026-09-24T16:00 Europe/Zurich, model-valid hour 16:00–16:59, scenario 24 September 2026 · 16:01 Europe/Zurich inside that hour. Weather code 3 (overcast), cloud 100%, 20.9°C, is_day 1. Masters re-rendered at 1920×1270, 864×1270, and 1080×2110 with a 190px #0e0e12 label bar. Status Candidate. Not an approval.",
+  "sha256_16x9": "f779fcd94989f120a756b16dc886036b0c4d91d5c9c73de5989525ab2324204d",
+  "sha256_4x5": "82cb1637ff4cd32502890bcb7d37fc97e319f478dd096ad0ad23e0f74bdb596c",
   "reverted_at": "2026-09-25T12:43:01.282963+00:00",
   "qc_notes": [
     {
       "at": "2026-09-25T12:43:01.282963+00:00",
       "by": "Cosmo QC",
       "note": "Approval withdrawn 2026-09-25 (Cosmo QC): the weather metadata was a shared/batch Open-Meteo retrieval (retrieval timestamp 2026-09-24T14:00:42Z identical across 16 scenes), failing Gate 2 under the confirmed standing policy — one HTTP fetch per scene, one recorded retrieval timestamp per scene; identical-to-the-second timestamps across scenes = shared retrieval. Rework: fetch Open-Meteo fresh per scene (own HTTP request, own recorded timestamp), scenario hour inside the model-valid hour; update the approvals note with the new retrieval evidence; re-push masters only if on-image text must change. Scene stays Candidate until Cosmo QC re-audits."
+    },
+    {
+      "at": "2026-09-27T17:29:46Z",
+      "by": "builder",
+      "note": "Builder weather rework 2026-09-27 for CH-01-068. Own Open-Meteo archive GET, HTTP Date Sun, 27 Sep 2026 16:55:44 GMT, retrieved 2026-09-27T16:55:44Z, valid 2026-09-24T16:00 Europe/Zurich, model-valid hour 16:00–16:59, scenario 24 September 2026 · 16:01 Europe/Zurich inside that hour. Weather code 3 (overcast), cloud 100%, 20.9°C, is_day 1. Masters re-rendered at 1920×1270, 864×1270, and 1080×2110 with a 190px #0e0e12 label bar. Status Candidate. Not an approval."
     }
-  ]
+  ],
+  "file_9x16": "library/world/Switzerland/Werdenberg/ch-01-068-9x16.png",
+  "sha256_9x16": "be1af5cc3d89aa77f952c3c690140668d93d2c02a6fbad1912b368cd1722c8d2",
+  "open_meteo": {
+    "retrieved_utc": "2026-09-27T16:55:44Z",
+    "http_date": "Sun, 27 Sep 2026 16:55:44 GMT",
+    "valid": "2026-09-24T16:00",
+    "model_valid_hour": "16:00–16:59",
+    "scenario_minute": "16:01",
+    "weather_code": 3,
+    "cloud_cover": 100,
+    "temperature_2m": 20.9,
+    "apparent_temperature": 20.5,
+    "wind_speed_10m": 4.3,
+    "wind_direction_10m": 17,
+    "relative_humidity_2m": 52,
+    "precipitation": 0.0,
+    "is_day": 1,
+    "elevation": 461.0,
+    "latitude": 47.16851,
+    "longitude": 9.46165
+  }
 }
