@@ -12,18 +12,43 @@
   "file_4x5": "library/world/Switzerland/Neuchâtel/ch-01-078-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Approved",
-  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
-  "approval_basis": "Gate 1: Neuchâtel's château and collegiate church sharing the yellow Hauterive limestone spur above the old-town roofs, the lake alongside — the note's exact anchors confirmed, framing from a plausible lakeside viewpoint. Gate 2: 1920x1080 + 864x1080 verified; caption 'Neuchâtel Old Town, Neuchâtel', scenario '24 September 2026 · 16:01 Europe/Zurich', disclosure and exact 'Jason D's Vision' signature legible bottom-left/right. Weather: Open-Meteo retrieval recorded as retrieved 2026-09-25T21:45:36Z, unique to the second across all 365 Switzerland notes (repo-wide, zero duplicates); code 3 overcast 100%, 22.2°C valid for the 16:00 model hour covering 16:01, matching the grey sky. Gate 3: text-prompt-only lineage, no photographic inputs. Gate 4: no identifiable people or focal logos; documented only.",
-  "approved_at": "2026-09-26T03:38:09.423672+00:00",
-  "sha256_16x9": "dc4b38c8604b7a4ba15344efda387610fcbf8c52f1116cedbe385d7df62701ad",
-  "sha256_4x5": "ca98babd9b2c7fb6be5953b805e39af7dbb687855f31167853b0334e00c5c877",
+  "approval_status": "Candidate",
+  "qc_status": "Candidate · weather rework 2026-09-27 · not approved",
+  "approval_basis": "Builder weather rework 2026-09-27 for CH-01-078. Own Open-Meteo archive GET, HTTP Date Sun, 27 Sep 2026 16:55:58 GMT, retrieved 2026-09-27T16:55:58Z, valid 2026-09-24T16:00 Europe/Zurich, model-valid hour 16:00–16:59, scenario 24 September 2026 · 16:01 Europe/Zurich inside that hour. Weather code 3 (overcast), cloud 100%, 22.0°C, is_day 1. Masters re-rendered at 1920×1270, 864×1270, and 1080×2110 with a 190px #0e0e12 label bar. Status Candidate. Not an approval.",
+  "sha256_16x9": "3b0f1edff799bcd837cd01e7a9848f138b29706805eed6018929fe2d2ef70f96",
+  "sha256_4x5": "44f0095d7311eb61bc2f35d3e2087d7dbcb96df485e50271af5fc757045f1108",
   "reverted_at": "2026-09-25T12:43:26.283715+00:00",
   "qc_notes": [
     {
       "at": "2026-09-25T12:43:26.283715+00:00",
       "by": "Cosmo QC",
       "note": "Approval withdrawn 2026-09-25 (Cosmo QC): the weather metadata was a shared/batch Open-Meteo retrieval (retrieval timestamp 2026-09-24T14:00:42Z identical across 16 scenes), failing Gate 2 under the confirmed standing policy — one HTTP fetch per scene, one recorded retrieval timestamp per scene; identical-to-the-second timestamps across scenes = shared retrieval. Rework: fetch Open-Meteo fresh per scene (own HTTP request, own recorded timestamp), scenario hour inside the model-valid hour; update the approvals note with the new retrieval evidence; re-push masters only if on-image text must change. Scene stays Candidate until Cosmo QC re-audits."
+    },
+    {
+      "at": "2026-09-27T17:29:46Z",
+      "by": "builder",
+      "note": "Builder weather rework 2026-09-27 for CH-01-078. Own Open-Meteo archive GET, HTTP Date Sun, 27 Sep 2026 16:55:58 GMT, retrieved 2026-09-27T16:55:58Z, valid 2026-09-24T16:00 Europe/Zurich, model-valid hour 16:00–16:59, scenario 24 September 2026 · 16:01 Europe/Zurich inside that hour. Weather code 3 (overcast), cloud 100%, 22.0°C, is_day 1. Masters re-rendered at 1920×1270, 864×1270, and 1080×2110 with a 190px #0e0e12 label bar. Status Candidate. Not an approval."
     }
-  ]
+  ],
+  "file_9x16": "library/world/Switzerland/Neuchâtel/ch-01-078-9x16.png",
+  "sha256_9x16": "f9b840cc02598299655f409a2d538faedc3154346afbf7e8c09e7713dd2be734",
+  "open_meteo": {
+    "retrieved_utc": "2026-09-27T16:55:58Z",
+    "http_date": "Sun, 27 Sep 2026 16:55:58 GMT",
+    "valid": "2026-09-24T16:00",
+    "model_valid_hour": "16:00–16:59",
+    "scenario_minute": "16:01",
+    "weather_code": 3,
+    "cloud_cover": 100,
+    "temperature_2m": 22.0,
+    "apparent_temperature": 20.6,
+    "wind_speed_10m": 6.7,
+    "wind_direction_10m": 294,
+    "relative_humidity_2m": 42,
+    "precipitation": 0.0,
+    "is_day": 1,
+    "elevation": 467.0,
+    "latitude": 46.99226,
+    "longitude": 6.92699
+  }
 }

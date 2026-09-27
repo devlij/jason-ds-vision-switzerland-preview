@@ -12,18 +12,43 @@
   "file_4x5": "library/world/Switzerland/Lenzburg/ch-01-070-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Approved",
-  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
-  "approval_basis": "Gate 1 PASS: Lenzburg Castle with its tower and long ranges crowns the forested hill, town rooftops gathered at the base — a recognizable, plausible viewpoint of the Lenzburg landmark. Clean framing, no artifacts. Gate 2 PASS: 1920x1080 / 864x1080 sha-matched. On-image: 'Lenzburg Castle, Lenzburg', 'Scenario: 24 September 2026 · 16:01 Europe/Zurich', 'AI-generated artistic interpretation · Not a photograph.' and exact 'Jason D's Vision' (curly apostrophe) bottom-right — legible, unobtrusive. Weather: per-scene Open-Meteo retrieval 2026-09-25T21:45:26Z for the scene's coordinates, valid window 2026-09-24T16:00 Europe/Zurich covering the scenario hour; timestamp unique to this scene to the second. Gate 3 PASS: text-prompt-only, no photographic input. Gate 4 DOCUMENTED: no people or logos visible; historic castle, public landmark — commercial call is Jason's. Gate 5 PASS: no open blockers.",
-  "approved_at": "2026-09-26T02:38:45.468319+00:00",
-  "sha256_16x9": "543cce9b90706df6f0fb2d288d9d04d8cb38bebff7d68154c74b80f26df50ae0",
-  "sha256_4x5": "5151d81c1a96b8bb912bdab18ba316dc1bb4c28226335e0522de258ea9dfba39",
+  "approval_status": "Candidate",
+  "qc_status": "Candidate · weather rework 2026-09-27 · not approved",
+  "approval_basis": "Builder weather rework 2026-09-27 for CH-01-070. Own Open-Meteo archive GET, HTTP Date Sun, 27 Sep 2026 16:55:47 GMT, retrieved 2026-09-27T16:55:47Z, valid 2026-09-24T16:00 Europe/Zurich, model-valid hour 16:00–16:59, scenario 24 September 2026 · 16:01 Europe/Zurich inside that hour. Weather code 3 (overcast), cloud 100%, 20.3°C, is_day 1. Masters re-rendered at 1920×1270, 864×1270, and 1080×2110 with a 190px #0e0e12 label bar. Status Candidate. Not an approval.",
+  "sha256_16x9": "69e9275f55852a679556d40fe9d574489fbce58bd119cddd3e8bedeb83bac29b",
+  "sha256_4x5": "370fd6658bcc967134b87c7e449d5f583664fa142d3984f29138dc551f3c01f3",
   "reverted_at": "2026-09-25T12:43:06.347076+00:00",
   "qc_notes": [
     {
       "at": "2026-09-25T12:43:06.347076+00:00",
       "by": "Cosmo QC",
       "note": "Approval withdrawn 2026-09-25 (Cosmo QC): the weather metadata was a shared/batch Open-Meteo retrieval (retrieval timestamp 2026-09-24T14:00:42Z identical across 16 scenes), failing Gate 2 under the confirmed standing policy — one HTTP fetch per scene, one recorded retrieval timestamp per scene; identical-to-the-second timestamps across scenes = shared retrieval. Rework: fetch Open-Meteo fresh per scene (own HTTP request, own recorded timestamp), scenario hour inside the model-valid hour; update the approvals note with the new retrieval evidence; re-push masters only if on-image text must change. Scene stays Candidate until Cosmo QC re-audits."
+    },
+    {
+      "at": "2026-09-27T17:29:46Z",
+      "by": "builder",
+      "note": "Builder weather rework 2026-09-27 for CH-01-070. Own Open-Meteo archive GET, HTTP Date Sun, 27 Sep 2026 16:55:47 GMT, retrieved 2026-09-27T16:55:47Z, valid 2026-09-24T16:00 Europe/Zurich, model-valid hour 16:00–16:59, scenario 24 September 2026 · 16:01 Europe/Zurich inside that hour. Weather code 3 (overcast), cloud 100%, 20.3°C, is_day 1. Masters re-rendered at 1920×1270, 864×1270, and 1080×2110 with a 190px #0e0e12 label bar. Status Candidate. Not an approval."
     }
-  ]
+  ],
+  "file_9x16": "library/world/Switzerland/Lenzburg/ch-01-070-9x16.png",
+  "sha256_9x16": "1a04a13b2f2410947635ea87b2b5d728353972b18aab4366ccfad96cad6d5062",
+  "open_meteo": {
+    "retrieved_utc": "2026-09-27T16:55:47Z",
+    "http_date": "Sun, 27 Sep 2026 16:55:47 GMT",
+    "valid": "2026-09-24T16:00",
+    "model_valid_hour": "16:00–16:59",
+    "scenario_minute": "16:01",
+    "weather_code": 3,
+    "cloud_cover": 100,
+    "temperature_2m": 20.3,
+    "apparent_temperature": 17.8,
+    "wind_speed_10m": 13.0,
+    "wind_direction_10m": 292,
+    "relative_humidity_2m": 44,
+    "precipitation": 0.0,
+    "is_day": 1,
+    "elevation": 495.0,
+    "latitude": 47.38738,
+    "longitude": 8.18548
+  }
 }
