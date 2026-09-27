@@ -12,7 +12,7 @@
   "file_4x5": "library/world/Switzerland/Hospental/ch-01-358-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate",
+  "approval_status": "Approved",
   "daylight_variant": {
     "variant_of_entry_id": "CH-01-358",
     "derived_from": "Live gallery night master library/world/Switzerland/Hospental/ch-01-358-16x9.png (16:9) and library/world/Switzerland/Hospental/ch-01-358-4x5.png (4:5) of the same scene; not an independently modelled weather or lighting scenario",
@@ -54,5 +54,10 @@
       "by": "Cosmo QC",
       "note": "Gate 2 hold resolved and cleared: re-downloaded the 4:5 master via the authoritative git blob API (sha256 35baad7e..., identical to the hold note's recorded sha, so the repo bytes are unchanged) and inspected it directly — it is a valid 864x1080 PNG showing a clean night scene of the Hospental Tower with wooden chalets on both sides under a starry sky, signature/caption/disclosure all legible. The 2026-09-26 scan-line-noise diagnosis was a viewer rendering artifact, not file corruption. Full 5/5 re-audit on the unchanged masters: visual PASS (inter-format subject agreement — both formats show the same stone tower with pyramidal roof, chalets, night sky), technical PASS (exact dims, signature, caption 'Hospental Tower, Hospental', scenario '24 September 2026 · 23:46 Europe/Zurich' inside the model-valid hour 23:00-23:59, Open-Meteo retrieval 2026-09-25T23:49:04Z unique to this scene), originality PASS (evidence card documents AI generation, no photographic inputs reported), commercial PASS (no people, logos, or recognizable private property), publication PASS."
     }
-  ]
+  ],
+  "qc_status": "Approved · Cosmo QC 5/5 · Night",
+  "approval_basis": "Hospental Tower, Hospental — night scene under a starry sky, the square stone tower with pyramidal roof flanked by wooden chalets. Gate 1 PASS: both formats depict the same subject from plausible tourist viewpoints with clean framing and no artifacts; inter-format subject agreement confirmed. Gate 2 PASS: exact 1920x1080 / 864x1080 masters, exact 'Jason D's Vision' signature, caption, scenario timestamp '24 September 2026 · 23:46 Europe/Zurich' (inside the model-valid hour 23:00-23:59), and AI disclosure all verified on-image; Open-Meteo retrieval 2026-09-25T23:49:04Z (clear, 9.7°C, is_day 0) unique to this scene across the approvals notes. The 2026-09-26 Gate-2 hold is resolved: the 4:5 master (sha256 35baad7e...) is a valid PNG with clean content — the earlier corruption diagnosis was a rendering artifact, repo bytes unchanged. Gate 3 PASS: evidence card documents AI generation with no photographic inputs. Gate 4 PASS: no people, logos, or recognizable private property — public tower and village chalets. Gate 5 PASS: card fields complete.",
+  "approved_at": "2026-09-27T12:39:02.190559+00:00",
+  "sha256_16x9": "7baae46fca528c8569ebd530570e3c0337bde54769f367512d81a4af0537e173",
+  "sha256_4x5": "35baad7efcf596c1ae73e68bd80b0741def35457a4c319094b77092afb455022"
 }
