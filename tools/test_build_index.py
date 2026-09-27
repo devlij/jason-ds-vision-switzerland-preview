@@ -108,8 +108,9 @@ def test_status_class_follows_approval_status_text() -> None:
     assert 'class="status ${esc(status.toLowerCase())}"' in html
     assert 'class="status candidate"' not in html
     assert "dataset.src45" not in html
-    # Approval text is copied through, not rewritten.
-    assert scenes[0]["approval_status"] == "Approved"
+    # Approval text is copied through, not rewritten. CH-01-001 stays the
+    # weather rework's Candidate status.
+    assert scenes[0]["approval_status"] == "Candidate"
 
 
 def test_page_javascript_matches_python_related_order() -> None:
