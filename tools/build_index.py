@@ -147,8 +147,26 @@ def publishable_scenes(manifests: list[dict], exists=master_exists) -> list[dict
             path = source.get(field) or ""
             if exists(path):
                 scene[field] = path
+        # Daylight masters are recorded under daylight_variant.files, not as
+        # top-level file_*_day keys. Publish both formats only when each file
+        # is on disk, so the card never offers a control for a missing master.
+        if "file_16x9_day" not in scene or "file_4x5_day" not in scene:
+            day16, day45 = daylight_pair(source)
+            if exists(day16) and exists(day45):
+                scene["file_16x9_day"] = day16
+                scene["file_4x5_day"] = day45
         scenes.append(scene)
     return scenes
+
+
+def daylight_pair(source: dict) -> tuple[str, str]:
+    variant = source.get("daylight_variant")
+    if not isinstance(variant, dict):
+        return "", ""
+    files = variant.get("files")
+    if not isinstance(files, dict):
+        return "", ""
+    return str(files.get("16x9") or ""), str(files.get("4x5") or "")
 
 
 def phase1_meta(scenes: list[dict], tags: dict[str, dict], exists=master_exists) -> dict:
