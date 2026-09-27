@@ -1,3 +1,4 @@
 User-agent: *
 Allow: /
 Sitemap: https://devlij.github.io/jason-ds-vision-switzerland-preview/sitemap.xml
+Sitemap: https://devlij.github.io/jason-ds-vision-switzerland-preview/image-sitemap.xml
