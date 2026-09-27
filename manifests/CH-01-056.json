@@ -12,18 +12,43 @@
   "file_4x5": "library/world/Switzerland/Filisur/ch-01-056-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Approved",
-  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
-  "approval_basis": "Gate 1 PASS: 16:9 master clearly shows the curved stone-arched Landwasser Viaduct spanning the forested gorge, its track curving into the cliffside tunnel portal at frame right — a recognizable, plausible tourist viewpoint of the Filisur landmark (review-level; noting ~9 visible spans versus the real six, not a glaring misconfiguration). Clean framing, no artifacts. Gate 2 PASS: both masters mechanically verified 1920x1080 / 864x1080 with matching sha256. On-image text verified: exact caption 'Landwasser Viaduct, Filisur', scenario line 'Scenario: 24 September 2026 · 15:41 Europe/Zurich', disclosure 'AI-generated artistic interpretation · Not a photograph.' bottom-left on the dark scrim, and exact 'Jason D's Vision' signature with curly apostrophe bottom-right — legible, unobtrusive. Weather cross-check: builder note records a per-scene Open-Meteo retrieval at 2026-09-25T21:45:08Z (per-location request for the viaduct's coordinates), valid window 2026-09-24T15:30 Europe/Zurich covering the scenario hour; this retrieval timestamp is unique to this scene — no other scene shares it to the second, satisfying the one-retrieval-per-scene law. Gate 3 PASS: note documents text-prompt-only lineage; no photographic input reported. Gate 4 DOCUMENTED: no people or logos visible in the masters; the viaduct is a public historic structure — no chain certified clean, commercial call is Jason's. Gate 5 PASS: no open blockers.",
-  "approved_at": "2026-09-26T02:34:11.223427+00:00",
-  "sha256_16x9": "4b57f4531444e0fdd217e187c5c5a7e8466d5af68a06a4f5ab9469f92a0512c3",
-  "sha256_4x5": "058e07862c0dc5a8b107e97a768a807e2f88473837530f102452a03d6969b7ea",
+  "approval_status": "Candidate",
+  "qc_status": "Candidate · weather rework 2026-09-27 · not approved",
+  "approval_basis": "Builder weather rework 2026-09-27 for CH-01-056. Own Open-Meteo archive GET, HTTP Date Sun, 27 Sep 2026 16:53:55 GMT, retrieved 2026-09-27T16:53:55Z, valid 2026-09-24T15:00 Europe/Zurich, model-valid hour 15:00–15:59, scenario 24 September 2026 · 15:41 Europe/Zurich inside that hour. Weather code 3 (overcast), cloud 93%, 20.7°C, is_day 1. Masters re-rendered at 1920×1270, 864×1270, and 1080×2110 with a 190px #0e0e12 label bar. Status Candidate. Not an approval.",
+  "sha256_16x9": "ddb5bc5351065224b3e094780fbc90b0013a3367e4fdfa57ae915bffb0062904",
+  "sha256_4x5": "f21d730f5ec95daf376b84082cf6db079be168c5edc5eb82d3903656744f78ec",
   "reverted_at": "2026-09-25T12:42:26.319253+00:00",
   "qc_notes": [
     {
       "at": "2026-09-25T12:42:26.319253+00:00",
       "by": "Cosmo QC",
       "note": "Approval withdrawn 2026-09-25 (Cosmo QC): the weather metadata was a shared/batch Open-Meteo retrieval (retrieval timestamp 2026-09-24T13:37:01Z identical across 16 scenes), failing Gate 2 under the confirmed standing policy — one HTTP fetch per scene, one recorded retrieval timestamp per scene; identical-to-the-second timestamps across scenes = shared retrieval. Rework: fetch Open-Meteo fresh per scene (own HTTP request, own recorded timestamp), scenario hour inside the model-valid hour; update the approvals note with the new retrieval evidence; re-push masters only if on-image text must change. Scene stays Candidate until Cosmo QC re-audits."
+    },
+    {
+      "at": "2026-09-27T17:23:48Z",
+      "by": "builder",
+      "note": "Builder weather rework 2026-09-27 for CH-01-056. Own Open-Meteo archive GET, HTTP Date Sun, 27 Sep 2026 16:53:55 GMT, retrieved 2026-09-27T16:53:55Z, valid 2026-09-24T15:00 Europe/Zurich, model-valid hour 15:00–15:59, scenario 24 September 2026 · 15:41 Europe/Zurich inside that hour. Weather code 3 (overcast), cloud 93%, 20.7°C, is_day 1. Masters re-rendered at 1920×1270, 864×1270, and 1080×2110 with a 190px #0e0e12 label bar. Status Candidate. Not an approval."
     }
-  ]
+  ],
+  "file_9x16": "library/world/Switzerland/Filisur/ch-01-056-9x16.png",
+  "sha256_9x16": "2f63c90b0995bda21e23807114df7807a09d7c73192084903e6a28c2273fbd35",
+  "open_meteo": {
+    "retrieved_utc": "2026-09-27T16:53:55Z",
+    "http_date": "Sun, 27 Sep 2026 16:53:55 GMT",
+    "valid": "2026-09-24T15:00",
+    "model_valid_hour": "15:00–15:59",
+    "scenario_minute": "15:41",
+    "weather_code": 3,
+    "cloud_cover": 93,
+    "temperature_2m": 20.7,
+    "apparent_temperature": 18.5,
+    "wind_speed_10m": 10.8,
+    "wind_direction_10m": 358,
+    "relative_humidity_2m": 41,
+    "precipitation": 0.0,
+    "is_day": 1,
+    "elevation": 1043.0,
+    "latitude": 46.6808,
+    "longitude": 9.6758
+  }
 }

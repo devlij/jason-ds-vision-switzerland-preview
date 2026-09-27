@@ -12,18 +12,43 @@
   "file_4x5": "library/world/Switzerland/Oberdorf/ch-01-049-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Approved",
-  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
-  "approval_basis": "Gates 1–5 PASS. Gate 1 (visual, review-based): the Weissenstein Jura ridge crest beside the hotel, green-to-tawny late-September pasture, the Mittelland opening to the south with the Alpine chain fading in the haze, soft overcast light, clean framing, no artifacts. Gate 2 (technical): masters mechanically verified 1920x1080/864x1080; on-image caption 'Weissenstein, Oberdorf', scenario '24 September 2026 · 15:39 Europe/Zurich', disclosure 'AI-generated artistic interpretation · Not a photograph.', signature 'Jason D's Vision' (curly apostrophe) all exact and legible. Weather retrieval 2026-09-25T21:44:59Z with matching HTTP Date, unique to the second across all 365 CH notes (zero duplicates); model-valid hour 15:00–15:59 contains the 15:39 scenario; separate request for the Weissenstein cell (model elevation ~1267 m), overcast, 15.7°C. Gate 3: text-prompt-only lineage, no photographic inputs reported. Gate 4: no prominent identifiable people, no focal logos — documented only. Gate 5: publication ready, no blockers.",
-  "approved_at": "2026-09-26T01:39:49.846125+00:00",
-  "sha256_16x9": "71163ce3173b04e3e4a3bc9af019257b8cc201e39a40e90a9c3c24575af11aa6",
-  "sha256_4x5": "11af9bb2af833c1343371f634a27d3b3796ab40afcf37d5ea247740c6b00cc01",
+  "approval_status": "Candidate",
+  "qc_status": "Candidate · weather rework 2026-09-27 · not approved",
+  "approval_basis": "Builder weather rework 2026-09-27 for CH-01-049. Own Open-Meteo archive GET, HTTP Date Sun, 27 Sep 2026 16:53:45 GMT, retrieved 2026-09-27T16:53:45Z, valid 2026-09-24T15:00 Europe/Zurich, model-valid hour 15:00–15:59, scenario 24 September 2026 · 15:39 Europe/Zurich inside that hour. Weather code 3 (overcast), cloud 100%, 14.8°C, is_day 1. Masters re-rendered at 1920×1270, 864×1270, and 1080×2110 with a 190px #0e0e12 label bar. Status Candidate. Not an approval.",
+  "sha256_16x9": "ddfcf10f0171120c0ee9131a7e89bc5eb8f7aa9710351bd1f535eff61b73b114",
+  "sha256_4x5": "70f3b97b876cf2d7ada5c14b1334b76a271f81cab41bada644639741915b2628",
   "reverted_at": "2026-09-25T12:42:06.718719+00:00",
   "qc_notes": [
     {
       "at": "2026-09-25T12:42:06.718719+00:00",
       "by": "Cosmo QC",
       "note": "Approval withdrawn 2026-09-25 (Cosmo QC): the weather metadata was a shared/batch Open-Meteo retrieval (retrieval timestamp 2026-09-24T13:37:01Z identical across 16 scenes), failing Gate 2 under the confirmed standing policy — one HTTP fetch per scene, one recorded retrieval timestamp per scene; identical-to-the-second timestamps across scenes = shared retrieval. Rework: fetch Open-Meteo fresh per scene (own HTTP request, own recorded timestamp), scenario hour inside the model-valid hour; update the approvals note with the new retrieval evidence; re-push masters only if on-image text must change. Scene stays Candidate until Cosmo QC re-audits."
+    },
+    {
+      "at": "2026-09-27T17:23:48Z",
+      "by": "builder",
+      "note": "Builder weather rework 2026-09-27 for CH-01-049. Own Open-Meteo archive GET, HTTP Date Sun, 27 Sep 2026 16:53:45 GMT, retrieved 2026-09-27T16:53:45Z, valid 2026-09-24T15:00 Europe/Zurich, model-valid hour 15:00–15:59, scenario 24 September 2026 · 15:39 Europe/Zurich inside that hour. Weather code 3 (overcast), cloud 100%, 14.8°C, is_day 1. Masters re-rendered at 1920×1270, 864×1270, and 1080×2110 with a 190px #0e0e12 label bar. Status Candidate. Not an approval."
     }
-  ]
+  ],
+  "file_9x16": "library/world/Switzerland/Oberdorf/ch-01-049-9x16.png",
+  "sha256_9x16": "64f04c9228bd895a47b773fc2d9bceb93795c3aef86329c12d9f49aa732a8b22",
+  "open_meteo": {
+    "retrieved_utc": "2026-09-27T16:53:45Z",
+    "http_date": "Sun, 27 Sep 2026 16:53:45 GMT",
+    "valid": "2026-09-24T15:00",
+    "model_valid_hour": "15:00–15:59",
+    "scenario_minute": "15:39",
+    "weather_code": 3,
+    "cloud_cover": 100,
+    "temperature_2m": 14.8,
+    "apparent_temperature": 11.8,
+    "wind_speed_10m": 10.5,
+    "wind_direction_10m": 297,
+    "relative_humidity_2m": 48,
+    "precipitation": 0.0,
+    "is_day": 1,
+    "elevation": 1267.0,
+    "latitude": 47.252,
+    "longitude": 7.5065
+  }
 }

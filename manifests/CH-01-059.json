@@ -12,18 +12,43 @@
   "file_4x5": "library/world/Switzerland/Davos/ch-01-059-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Approved",
-  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
-  "approval_basis": "Gate 1 PASS: the lakeside promenade path with its wooden railing runs along Lake Davos past golden autumn larches, the town of Davos spread across the far shore beneath snow-dusted peaks — a recognizable, plausible viewpoint of the Davosersee. Clean framing, no artifacts. Gate 2 PASS: 1920x1080 / 864x1080 sha-matched. On-image: 'Lake Davos, Davos', 'Scenario: 24 September 2026 · 15:44 Europe/Zurich', 'AI-generated artistic interpretation · Not a photograph.' and exact 'Jason D's Vision' (curly apostrophe) bottom-right — legible, unobtrusive. Weather: per-scene Open-Meteo retrieval 2026-09-25T21:45:12Z for the scene's coordinates, valid window 2026-09-24T15:30 Europe/Zurich covering the scenario hour; timestamp unique to this scene to the second. Gate 3 PASS: text-prompt-only, no photographic input. Gate 4 DOCUMENTED: no people or logos visible; public lakeshore — commercial call is Jason's. Gate 5 PASS: no open blockers.",
-  "approved_at": "2026-09-26T02:35:52.247261+00:00",
-  "sha256_16x9": "1e594f3f63431965900f8c6c7fcbc98d7269999c38fac698ad1f87b152c8a5ad",
-  "sha256_4x5": "a43b56dae2e51edb76508137c9b1fec098f6a084a9a93d386de68abc173b5e70",
+  "approval_status": "Candidate",
+  "qc_status": "Candidate · weather rework 2026-09-27 · not approved",
+  "approval_basis": "Builder weather rework 2026-09-27 for CH-01-059. Own Open-Meteo archive GET, HTTP Date Sun, 27 Sep 2026 16:53:59 GMT, retrieved 2026-09-27T16:53:59Z, valid 2026-09-24T15:00 Europe/Zurich, model-valid hour 15:00–15:59, scenario 24 September 2026 · 15:44 Europe/Zurich inside that hour. Weather code 3 (overcast), cloud 86%, 15.0°C, is_day 1. Masters re-rendered at 1920×1270, 864×1270, and 1080×2110 with a 190px #0e0e12 label bar. Status Candidate. Not an approval.",
+  "sha256_16x9": "f6af7d5ba90b6e927198f51dfa277618aad90efcd28517c478535e2f7ea1d168",
+  "sha256_4x5": "ae21308bd0eba8efa607e177f57606729d8d6d173b01439a3c42bc302bd19280",
   "reverted_at": "2026-09-25T12:42:34.124619+00:00",
   "qc_notes": [
     {
       "at": "2026-09-25T12:42:34.124619+00:00",
       "by": "Cosmo QC",
       "note": "Approval withdrawn 2026-09-25 (Cosmo QC): the weather metadata was a shared/batch Open-Meteo retrieval (retrieval timestamp 2026-09-24T13:37:01Z identical across 16 scenes), failing Gate 2 under the confirmed standing policy — one HTTP fetch per scene, one recorded retrieval timestamp per scene; identical-to-the-second timestamps across scenes = shared retrieval. Rework: fetch Open-Meteo fresh per scene (own HTTP request, own recorded timestamp), scenario hour inside the model-valid hour; update the approvals note with the new retrieval evidence; re-push masters only if on-image text must change. Scene stays Candidate until Cosmo QC re-audits."
+    },
+    {
+      "at": "2026-09-27T17:23:48Z",
+      "by": "builder",
+      "note": "Builder weather rework 2026-09-27 for CH-01-059. Own Open-Meteo archive GET, HTTP Date Sun, 27 Sep 2026 16:53:59 GMT, retrieved 2026-09-27T16:53:59Z, valid 2026-09-24T15:00 Europe/Zurich, model-valid hour 15:00–15:59, scenario 24 September 2026 · 15:44 Europe/Zurich inside that hour. Weather code 3 (overcast), cloud 86%, 15.0°C, is_day 1. Masters re-rendered at 1920×1270, 864×1270, and 1080×2110 with a 190px #0e0e12 label bar. Status Candidate. Not an approval."
     }
-  ]
+  ],
+  "file_9x16": "library/world/Switzerland/Davos/ch-01-059-9x16.png",
+  "sha256_9x16": "4412072a6ddf17bb0d30899abb7dcfb80763daccf569c27ca3d437424b9508d4",
+  "open_meteo": {
+    "retrieved_utc": "2026-09-27T16:53:59Z",
+    "http_date": "Sun, 27 Sep 2026 16:53:59 GMT",
+    "valid": "2026-09-24T15:00",
+    "model_valid_hour": "15:00–15:59",
+    "scenario_minute": "15:44",
+    "weather_code": 3,
+    "cloud_cover": 86,
+    "temperature_2m": 15.0,
+    "apparent_temperature": 12.4,
+    "wind_speed_10m": 10.3,
+    "wind_direction_10m": 325,
+    "relative_humidity_2m": 50,
+    "precipitation": 0.0,
+    "is_day": 1,
+    "elevation": 1569.0,
+    "latitude": 46.8145,
+    "longitude": 9.846
+  }
 }
