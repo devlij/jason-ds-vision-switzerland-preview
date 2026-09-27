@@ -6,13 +6,13 @@
   "caption": "Lake St. Moritz, St. Moritz",
   "scenario_label": "24 September 2026 · 14:40 Europe/Zurich",
   "composition": "Engadin lakeshore looking across Lake St. Moritz toward the town and peaks · AI-generated artistic interpretation",
-  "description": "Lake St. Moritz fills the foreground, with the town climbing the slope and high Engadin peaks behind it. Late September here is early autumn: larches are still mostly green with only the first gold, and the town is not under winter snow. Residual snow is limited to the higher summits. The Open-Meteo model for this high cell is fully overcast.",
+  "description": "Lake St. Moritz fills the foreground, with the town climbing the slope and high Engadin peaks behind it. Late September here is early autumn: larches are still mostly green with only the first gold, and the town is not under winter snow. Residual snow is limited to the higher summits. The Open-Meteo model for this high cell is partly cloudy.",
   "alt_text": "AI-generated artistic interpretation of Lake St. Moritz and the Engadin town under cloud",
   "file_16x9": "library/world/Switzerland/St. Moritz/ch-01-010-16x9.png",
   "file_4x5": "library/world/Switzerland/St. Moritz/ch-01-010-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Approved",
+  "approval_status": "Candidate",
   "qc_notes": [
     {
       "at": "2026-09-25T04:34:23.415609+00:00",
@@ -53,12 +53,37 @@
       "at": "2026-09-25T22:43:41.141300+00:00",
       "by": "Cosmo QC",
       "note": "Gate 2 shared-retrieval hold RESOLVED: the build agent landed the per-scene weather rework (approvals/BATCH-CH-01-001-087-rework.txt plus the per-scene note). approvals/CH-01-010.md now records Open-Meteo retrieval 2026-09-25T21:42:54Z, a separate request for this scene's coordinates — verified unique to the second across all 87 reworked scenes; the baked scenario 24 September 2026 · 14:40 Europe/Zurich sits inside the model-valid hour 14:00–14:59 Europe/Zurich. Cosmo re-audited against authoritative blob downloads: gates 1–5 PASS, all masters at exact dimensions, exact caption/scenario/signature/disclosure on-image. Hold cleared; ready for approval."
+    },
+    {
+      "at": "2026-09-27T17:07:06Z",
+      "by": "builder",
+      "note": "Builder weather rework 2026-09-27 for CH-01-010. Own Open-Meteo archive GET, HTTP Date Sun, 27 Sep 2026 16:51:10 GMT, retrieved 2026-09-27T16:51:10Z, valid 2026-09-24T14:00 Europe/Zurich, model-valid hour 14:00–14:59, scenario 24 September 2026 · 14:40 Europe/Zurich inside that hour. Weather code 2 (partly cloudy), cloud 74%, 14.2°C, is_day 1. Masters re-rendered at 1920×1270, 864×1270, and 1080×2110 with a 190px #0e0e12 label bar. Status Candidate. Not an approval."
     }
   ],
-  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
-  "approval_basis": "Lake St. Moritz, St. Moritz — Gate 1 PASS: the town stretches along the lakeshore with hotel buildings among early-autumn larch forest, the dark lake filling the foreground, and snow-dusted rocky peaks behind under broken cloud with bright patches — consistent with the modelled code 1 mainly-clear weather at 1833 m cell elevation. Gate 2 PASS: exact 1920x1080/864x1080 masters from authoritative blob downloads; exact Jason D's Vision signature bottom-right, caption 'Lake St. Moritz, St. Moritz', scenario '24 September 2026 · 14:40 Europe/Zurich', disclosure on the bottom gradient; scenario inside model-valid hour 14:00–14:59 Europe/Zurich, weather retrieved 2026-09-25T21:42:54Z, unique to this scene. Gate 3: text-prompt-only lineage, no photographic inputs reported. Gate 4: no prominent identifiable people or focal logos. Gate 5: no open blockers.",
-  "approved_at": "2026-09-25T22:43:44.105473+00:00",
-  "sha256_16x9": "16ca361b61f2fa7c180c32a3c35ccc109c4b2b18a93591f1c00ed3e22db46b2f",
-  "sha256_4x5": "b9bcca301520bcd92c302f2fc62bf4b80570c10bae39f83bfaed4aecf983da80",
-  "reverted_at": "2026-09-25T12:40:16.093790+00:00"
+  "qc_status": "Candidate · weather rework 2026-09-27 · not approved",
+  "approval_basis": "Builder weather rework 2026-09-27 for CH-01-010. Own Open-Meteo archive GET, HTTP Date Sun, 27 Sep 2026 16:51:10 GMT, retrieved 2026-09-27T16:51:10Z, valid 2026-09-24T14:00 Europe/Zurich, model-valid hour 14:00–14:59, scenario 24 September 2026 · 14:40 Europe/Zurich inside that hour. Weather code 2 (partly cloudy), cloud 74%, 14.2°C, is_day 1. Masters re-rendered at 1920×1270, 864×1270, and 1080×2110 with a 190px #0e0e12 label bar. Status Candidate. Not an approval.",
+  "sha256_16x9": "44ba0f9b3c73b3ec99c21456cb080b95c81ab3fd6bfbffc07c8fb1c67857a63e",
+  "sha256_4x5": "248c26c83b70f3eab945e5496ced5163c26fa8257964939c32d46c3be0172021",
+  "reverted_at": "2026-09-25T12:40:16.093790+00:00",
+  "file_9x16": "library/world/Switzerland/St. Moritz/ch-01-010-9x16.png",
+  "sha256_9x16": "9a44c8cd8c4463e7b9f863ecd1f9c609a11bf155a36f902ed13446f8b67373d5",
+  "open_meteo": {
+    "retrieved_utc": "2026-09-27T16:51:10Z",
+    "http_date": "Sun, 27 Sep 2026 16:51:10 GMT",
+    "valid": "2026-09-24T14:00",
+    "model_valid_hour": "14:00–14:59",
+    "scenario_minute": "14:40",
+    "weather_code": 2,
+    "cloud_cover": 74,
+    "temperature_2m": 14.2,
+    "apparent_temperature": 10.9,
+    "wind_speed_10m": 14.4,
+    "wind_direction_10m": 300,
+    "relative_humidity_2m": 45,
+    "precipitation": 0.0,
+    "is_day": 1,
+    "elevation": 1833.0,
+    "latitude": 46.497,
+    "longitude": 9.838
+  }
 }

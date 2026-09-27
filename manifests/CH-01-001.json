@@ -12,12 +12,11 @@
   "file_4x5": "library/world/Switzerland/Zermatt/ch-01-001-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Approved",
-  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
-  "approval_basis": "Matterhorn, Zermatt — Gate 1 PASS: the 16:9 master shows the asymmetric pyramidal Matterhorn rising right of frame with snow and ice on the upper faces and the Hörnli ridge falling to the right, the crevassed Gorner Glacier with gray moraines filling the middle ground, and rocky Gornergrat foreground with late-September tawny grass; plausible Gornergrat-terrace viewpoint, clean framing, no artifacts. Gate 2 PASS: exact 1920x1080/864x1080 masters verified from authoritative blob downloads; exact Jason D's Vision signature bottom-right, caption 'Matterhorn, Zermatt', scenario '24 September 2026 · 14:38 Europe/Zurich', and AI-generated artistic interpretation disclosure on a bottom gradient scrim, legible and not interfering with the image; scenario inside the model-valid hour 14:00–14:59 Europe/Zurich and weather retrieved 2026-09-25T21:42:38Z, unique to this scene across all 87 reworked notes. Gate 3: note documents text-prompt-only lineage, no photographic inputs reported. Gate 4: no prominent identifiable people or focal logos observed. Gate 5: no open blockers.",
-  "approved_at": "2026-09-25T22:42:39.006019+00:00",
-  "sha256_16x9": "517cf6d0e27b0719c9498b44d312d5a049aa07d172c02cba30c27e5220cb3390",
-  "sha256_4x5": "04ef00b3c1b3d99e9c20293fab70f768525a86c8f4d404f47cbb94235d26f47e",
+  "approval_status": "Candidate",
+  "qc_status": "Candidate · weather rework 2026-09-27 · not approved",
+  "approval_basis": "Builder weather rework 2026-09-27 for CH-01-001. Own Open-Meteo archive GET, HTTP Date Sun, 27 Sep 2026 16:50:58 GMT, retrieved 2026-09-27T16:50:58Z, valid 2026-09-24T14:00 Europe/Zurich, model-valid hour 14:00–14:59, scenario 24 September 2026 · 14:38 Europe/Zurich inside that hour. Weather code 3 (overcast), cloud 90%, 7.3°C, is_day 1. Masters re-rendered at 1920×1270, 864×1270, and 1080×2110 with a 190px #0e0e12 label bar. Status Candidate. Not an approval.",
+  "sha256_16x9": "bb57bc9769a2abdc5d714003045ea883bd3bde0cb9bfa4515496b63ac495c82a",
+  "sha256_4x5": "6e5a62ed964bda749daea259532d98868b5f761acebaeda4880bc2cbd775498d",
   "reverted_at": "2026-09-25T12:39:44.961974+00:00",
   "qc_notes": [
     {
@@ -54,6 +53,32 @@
       "at": "2026-09-25T22:42:34.643991+00:00",
       "by": "Cosmo QC",
       "note": "Gate 2 shared-retrieval hold RESOLVED: the build agent landed the per-scene weather rework (approvals/BATCH-CH-01-001-087-rework.txt plus the per-scene note). approvals/CH-01-001.md now records Open-Meteo retrieval 2026-09-25T21:42:38Z, a separate request for this scene's coordinates — verified unique to the second across all 87 reworked scenes; the baked scenario 24 September 2026 · 14:38 Europe/Zurich sits inside the model-valid hour 14:00–14:59 Europe/Zurich. Cosmo re-audited against authoritative blob downloads: gates 1–5 PASS, all masters at exact dimensions, exact caption/scenario/signature/disclosure on-image. Hold cleared; ready for approval."
+    },
+    {
+      "at": "2026-09-27T17:07:06Z",
+      "by": "builder",
+      "note": "Builder weather rework 2026-09-27 for CH-01-001. Own Open-Meteo archive GET, HTTP Date Sun, 27 Sep 2026 16:50:58 GMT, retrieved 2026-09-27T16:50:58Z, valid 2026-09-24T14:00 Europe/Zurich, model-valid hour 14:00–14:59, scenario 24 September 2026 · 14:38 Europe/Zurich inside that hour. Weather code 3 (overcast), cloud 90%, 7.3°C, is_day 1. Masters re-rendered at 1920×1270, 864×1270, and 1080×2110 with a 190px #0e0e12 label bar. Status Candidate. Not an approval."
     }
-  ]
+  ],
+  "file_9x16": "library/world/Switzerland/Zermatt/ch-01-001-9x16.png",
+  "sha256_9x16": "f76b8e71b22642439bd268fe5038f432066993d48dc6d1b10c0956d3fc49dec9",
+  "open_meteo": {
+    "retrieved_utc": "2026-09-27T16:50:58Z",
+    "http_date": "Sun, 27 Sep 2026 16:50:58 GMT",
+    "valid": "2026-09-24T14:00",
+    "model_valid_hour": "14:00–14:59",
+    "scenario_minute": "14:38",
+    "weather_code": 3,
+    "cloud_cover": 90,
+    "temperature_2m": 7.3,
+    "apparent_temperature": 3.8,
+    "wind_speed_10m": 9.7,
+    "wind_direction_10m": 338,
+    "relative_humidity_2m": 31,
+    "precipitation": 0.0,
+    "is_day": 1,
+    "elevation": 3057.0,
+    "latitude": 45.9834,
+    "longitude": 7.7826
+  }
 }

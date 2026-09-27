@@ -12,12 +12,11 @@
   "file_4x5": "library/world/Switzerland/Geneva/ch-01-004-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Approved",
-  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
-  "approval_basis": "Jet d'Eau, Geneva — Gate 1 PASS: a single tall vertical water plume rises from the small jet structure offshore in Lake Geneva seen from the Geneva quay, open lake water between quay and jet, low far shore, no flower clock or focal emblem — matches the geometry anchors; soft overcast light consistent with code 3. Gate 2 PASS: exact 1920x1080/864x1080 masters from authoritative blob downloads; exact Jason D's Vision signature bottom-right, caption 'Jet d'Eau, Geneva', scenario '24 September 2026 · 14:38 Europe/Zurich', disclosure on the bottom gradient scrim; scenario inside model-valid hour 14:00–14:59 Europe/Zurich, weather retrieved 2026-09-25T21:42:43Z, unique to this scene. Gate 3: text-prompt-only lineage, no photographic inputs reported. Gate 4: no prominent identifiable people or focal logos. Gate 5: no open blockers.",
-  "approved_at": "2026-09-25T22:43:01.148076+00:00",
-  "sha256_16x9": "e6153d9a28f1d181545c29c844463be3c50c2d53daf4dbe8656da24722ff67b5",
-  "sha256_4x5": "416f2875577302ce3ab80e22226d1dd4366650eae00b12c60539683991ed4f22",
+  "approval_status": "Candidate",
+  "qc_status": "Candidate · weather rework 2026-09-27 · not approved",
+  "approval_basis": "Builder weather rework 2026-09-27 for CH-01-004. Own Open-Meteo archive GET, HTTP Date Sun, 27 Sep 2026 16:51:02 GMT, retrieved 2026-09-27T16:51:02Z, valid 2026-09-24T14:00 Europe/Zurich, model-valid hour 14:00–14:59, scenario 24 September 2026 · 14:38 Europe/Zurich inside that hour. Weather code 3 (overcast), cloud 95%, 24.0°C, is_day 1. Masters re-rendered at 1920×1270, 864×1270, and 1080×2110 with a 190px #0e0e12 label bar. Status Candidate. Not an approval.",
+  "sha256_16x9": "4ad305178882df2ab3d62bbb5293e72eea8e5010ae3bf185a0c3feabc78fc428",
+  "sha256_4x5": "5ffc92723b7894e7fb86d9b12eb2326d45ef4a5fa86920520a7cb8d195c106f4",
   "reverted_at": "2026-09-25T12:39:49.895263+00:00",
   "qc_notes": [
     {
@@ -54,6 +53,32 @@
       "at": "2026-09-25T22:42:57.924086+00:00",
       "by": "Cosmo QC",
       "note": "Gate 2 shared-retrieval hold RESOLVED: the build agent landed the per-scene weather rework (approvals/BATCH-CH-01-001-087-rework.txt plus the per-scene note). approvals/CH-01-004.md now records Open-Meteo retrieval 2026-09-25T21:42:43Z, a separate request for this scene's coordinates — verified unique to the second across all 87 reworked scenes; the baked scenario 24 September 2026 · 14:38 Europe/Zurich sits inside the model-valid hour 14:00–14:59 Europe/Zurich. Cosmo re-audited against authoritative blob downloads: gates 1–5 PASS, all masters at exact dimensions, exact caption/scenario/signature/disclosure on-image. Hold cleared; ready for approval."
+    },
+    {
+      "at": "2026-09-27T17:07:06Z",
+      "by": "builder",
+      "note": "Builder weather rework 2026-09-27 for CH-01-004. Own Open-Meteo archive GET, HTTP Date Sun, 27 Sep 2026 16:51:02 GMT, retrieved 2026-09-27T16:51:02Z, valid 2026-09-24T14:00 Europe/Zurich, model-valid hour 14:00–14:59, scenario 24 September 2026 · 14:38 Europe/Zurich inside that hour. Weather code 3 (overcast), cloud 95%, 24.0°C, is_day 1. Masters re-rendered at 1920×1270, 864×1270, and 1080×2110 with a 190px #0e0e12 label bar. Status Candidate. Not an approval."
     }
-  ]
+  ],
+  "file_9x16": "library/world/Switzerland/Geneva/ch-01-004-9x16.png",
+  "sha256_9x16": "9c37e3b162abf678c90ac4dd7887e66843cacadbcfb8fea1f7ea6ef4872b4756",
+  "open_meteo": {
+    "retrieved_utc": "2026-09-27T16:51:02Z",
+    "http_date": "Sun, 27 Sep 2026 16:51:02 GMT",
+    "valid": "2026-09-24T14:00",
+    "model_valid_hour": "14:00–14:59",
+    "scenario_minute": "14:38",
+    "weather_code": 3,
+    "cloud_cover": 95,
+    "temperature_2m": 24.0,
+    "apparent_temperature": 23.6,
+    "wind_speed_10m": 2.6,
+    "wind_direction_10m": 155,
+    "relative_humidity_2m": 37,
+    "precipitation": 0.0,
+    "is_day": 1,
+    "elevation": 368.0,
+    "latitude": 46.2074,
+    "longitude": 6.156
+  }
 }

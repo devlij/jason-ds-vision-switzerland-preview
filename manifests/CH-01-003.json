@@ -12,12 +12,11 @@
   "file_4x5": "library/world/Switzerland/Interlaken/ch-01-003-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Approved",
-  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
-  "approval_basis": "Jungfrau, Interlaken — Gate 1 PASS: viewed from the Harder Kulm terrace looking south, the town sits in the valley between Lake Brienz at left and Lake Thun at right, with Eiger's dark wall at left, the Mönch in the center, and the snowier Jungfrau at right; cloud on the high faces under the overcast model, town not snow-covered — all geometry anchors present, clean framing, no artifacts. Gate 2 PASS: exact 1920x1080/864x1080 masters verified from the repo blobs; exact Jason D's Vision signature bottom-right, caption 'Jungfrau, Interlaken', scenario '24 September 2026 · 14:38 Europe/Zurich', disclosure on the bottom gradient; scenario inside model-valid hour 14:00–14:59 Europe/Zurich, weather retrieved 2026-09-25T21:42:42Z, unique to this scene. Gate 3: text-prompt-only lineage, no photographic inputs reported. Gate 4: no prominent people or focal logos. Gate 5: no open blockers.",
-  "approved_at": "2026-09-25T22:42:53.395679+00:00",
-  "sha256_16x9": "20c5038b18e616e819007fa081965151359b88fae6ab7fcb1a2819d13ca05f02",
-  "sha256_4x5": "f49cb40f54acae9652656e5ec78b2bda48a42fcb5d14d20d13858646a689a3b0",
+  "approval_status": "Candidate",
+  "qc_status": "Candidate · weather rework 2026-09-27 · not approved",
+  "approval_basis": "Builder weather rework 2026-09-27 for CH-01-003. Own Open-Meteo archive GET, HTTP Date Sun, 27 Sep 2026 16:51:01 GMT, retrieved 2026-09-27T16:51:01Z, valid 2026-09-24T14:00 Europe/Zurich, model-valid hour 14:00–14:59, scenario 24 September 2026 · 14:38 Europe/Zurich inside that hour. Weather code 3 (overcast), cloud 99%, 20.1°C, is_day 1. Masters re-rendered at 1920×1270, 864×1270, and 1080×2110 with a 190px #0e0e12 label bar. Status Candidate. Not an approval.",
+  "sha256_16x9": "e96e99a65974d40e67e879049d6b4002f3edf21904a083aec42f516f650beea1",
+  "sha256_4x5": "5763a01507fe4dfdb95c46afde889c5142b6ca2a7b53507503712ee3a2c6961d",
   "reverted_at": "2026-09-25T12:39:48.113663+00:00",
   "qc_notes": [
     {
@@ -54,6 +53,32 @@
       "at": "2026-09-25T22:42:50.043317+00:00",
       "by": "Cosmo QC",
       "note": "Gate 2 shared-retrieval hold RESOLVED: the build agent landed the per-scene weather rework (approvals/BATCH-CH-01-001-087-rework.txt plus the per-scene note). approvals/CH-01-003.md now records Open-Meteo retrieval 2026-09-25T21:42:42Z, a separate request for this scene's coordinates — verified unique to the second across all 87 reworked scenes; the baked scenario 24 September 2026 · 14:38 Europe/Zurich sits inside the model-valid hour 14:00–14:59 Europe/Zurich. Cosmo re-audited against authoritative blob downloads: gates 1–5 PASS, all masters at exact dimensions, exact caption/scenario/signature/disclosure on-image. Hold cleared; ready for approval."
+    },
+    {
+      "at": "2026-09-27T17:07:06Z",
+      "by": "builder",
+      "note": "Builder weather rework 2026-09-27 for CH-01-003. Own Open-Meteo archive GET, HTTP Date Sun, 27 Sep 2026 16:51:01 GMT, retrieved 2026-09-27T16:51:01Z, valid 2026-09-24T14:00 Europe/Zurich, model-valid hour 14:00–14:59, scenario 24 September 2026 · 14:38 Europe/Zurich inside that hour. Weather code 3 (overcast), cloud 99%, 20.1°C, is_day 1. Masters re-rendered at 1920×1270, 864×1270, and 1080×2110 with a 190px #0e0e12 label bar. Status Candidate. Not an approval."
     }
-  ]
+  ],
+  "file_9x16": "library/world/Switzerland/Interlaken/ch-01-003-9x16.png",
+  "sha256_9x16": "62de2cc98bad42f4a7050322ee8a93f45e41bc5401bf18e951a9eebf7cbd7a39",
+  "open_meteo": {
+    "retrieved_utc": "2026-09-27T16:51:01Z",
+    "http_date": "Sun, 27 Sep 2026 16:51:01 GMT",
+    "valid": "2026-09-24T14:00",
+    "model_valid_hour": "14:00–14:59",
+    "scenario_minute": "14:38",
+    "weather_code": 3,
+    "cloud_cover": 99,
+    "temperature_2m": 20.1,
+    "apparent_temperature": 19.1,
+    "wind_speed_10m": 7.0,
+    "wind_direction_10m": 310,
+    "relative_humidity_2m": 48,
+    "precipitation": 0.0,
+    "is_day": 1,
+    "elevation": 905.0,
+    "latitude": 46.6958,
+    "longitude": 7.8642
+  }
 }
