@@ -12,18 +12,43 @@
   "file_4x5": "library/world/Switzerland/Bern/ch-01-022-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Approved",
-  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
-  "approval_basis": "G1 visual (CH-01-022): symmetric neoclassical Bundeshaus facade with central dome viewed from the Bundesplatz, water feature in the foreground, square empty of people; overcast; clean framing. G2 technical: masters exact 1920×1080/864×1080 (sweep-verified, sha256 match); on-image caption 'Bundeshaus, Bern', scenario '24 September 2026 · 15:09 Europe/Zurich', 'AI-generated artistic interpretation · Not a photograph.' disclosure, and exact 'Jason D’s Vision' signature bottom-right — all legible on the gradient scrim. Weather: approvals/CH-01-022.md records Open-Meteo retrieval 2026-09-25T21:43:15Z, verified a singleton across all 365 repo notes (no shared/batch retrieval); scenario falls inside the model-valid hour 15:00–15:59. G3: text-prompt-only lineage, no photographic inputs reported. G4: no prominent identifiable people, no focal logos — documented only, final commercial call is Jason's. G5: no open blockers.",
-  "approved_at": "2026-09-25T23:45:46.258824+00:00",
-  "sha256_16x9": "1d55c8d3fd0cb56a2134b977b582fc4eb96ee6e5403690fd47e484a1032c7db6",
-  "sha256_4x5": "07d510b4f8c8426fdf5e3746ae55cb69f48c456f10361b77a648086bbd6fafe7",
+  "approval_status": "Candidate",
+  "qc_status": "Candidate · weather rework 2026-09-27 · not approved",
+  "approval_basis": "Builder weather rework 2026-09-27 for CH-01-022. Own Open-Meteo archive GET, HTTP Date Sun, 27 Sep 2026 16:51:27 GMT, retrieved 2026-09-27T16:51:27Z, valid 2026-09-24T15:00 Europe/Zurich, model-valid hour 15:00–15:59, scenario 24 September 2026 · 15:09 Europe/Zurich inside that hour. Weather code 3 (overcast), cloud 100%, 22.2°C, is_day 1. Masters re-rendered at 1920×1270, 864×1270, and 1080×2110 with a 190px #0e0e12 label bar. Status Candidate. Not an approval.",
+  "sha256_16x9": "440905022d6533eb608db59a76ee664b087508d4adbf8a53377d3af348c2c813",
+  "sha256_4x5": "c9c38ec5a5a463acf01b5edb2f98b93a170fd35d9bb729170f86d0df780204ad",
   "reverted_at": "2026-09-25T12:40:49.920095+00:00",
   "qc_notes": [
     {
       "at": "2026-09-25T12:40:49.920095+00:00",
       "by": "Cosmo QC",
       "note": "Approval withdrawn 2026-09-25 (Cosmo QC): the weather metadata was a shared/batch Open-Meteo retrieval (retrieval timestamp 2026-09-24T13:08:46Z identical across 16 scenes), failing Gate 2 under the confirmed standing policy — one HTTP fetch per scene, one recorded retrieval timestamp per scene; identical-to-the-second timestamps across scenes = shared retrieval. Rework: fetch Open-Meteo fresh per scene (own HTTP request, own recorded timestamp), scenario hour inside the model-valid hour; update the approvals note with the new retrieval evidence; re-push masters only if on-image text must change. Scene stays Candidate until Cosmo QC re-audits."
+    },
+    {
+      "at": "2026-09-27T17:13:27Z",
+      "by": "builder",
+      "note": "Builder weather rework 2026-09-27 for CH-01-022. Own Open-Meteo archive GET, HTTP Date Sun, 27 Sep 2026 16:51:27 GMT, retrieved 2026-09-27T16:51:27Z, valid 2026-09-24T15:00 Europe/Zurich, model-valid hour 15:00–15:59, scenario 24 September 2026 · 15:09 Europe/Zurich inside that hour. Weather code 3 (overcast), cloud 100%, 22.2°C, is_day 1. Masters re-rendered at 1920×1270, 864×1270, and 1080×2110 with a 190px #0e0e12 label bar. Status Candidate. Not an approval."
     }
-  ]
+  ],
+  "file_9x16": "library/world/Switzerland/Bern/ch-01-022-9x16.png",
+  "sha256_9x16": "3a7b8a6846b561727709e17a245e2ccf10a048b48bc5d8b84d49462c49256fe4",
+  "open_meteo": {
+    "retrieved_utc": "2026-09-27T16:51:27Z",
+    "http_date": "Sun, 27 Sep 2026 16:51:27 GMT",
+    "valid": "2026-09-24T15:00",
+    "model_valid_hour": "15:00–15:59",
+    "scenario_minute": "15:09",
+    "weather_code": 3,
+    "cloud_cover": 100,
+    "temperature_2m": 22.2,
+    "apparent_temperature": 20.0,
+    "wind_speed_10m": 9.5,
+    "wind_direction_10m": 291,
+    "relative_humidity_2m": 37,
+    "precipitation": 0.0,
+    "is_day": 1,
+    "elevation": 554.0,
+    "latitude": 46.9465,
+    "longitude": 7.4443
+  }
 }
