@@ -10,6 +10,7 @@
   "alt_text": "AI-generated artistic interpretation of the Pichoux gorge at night",
   "file_16x9": "library/world/Switzerland/Haute-Sorne/ch-01-365-16x9.png",
   "file_4x5": "library/world/Switzerland/Haute-Sorne/ch-01-365-4x5.png",
+  "file_9x16": "library/world/Switzerland/Haute-Sorne/ch-01-365-9x16.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
   "approval_status": "Candidate",
@@ -48,6 +49,11 @@
       "at": "2026-09-27T01:08:16.389207+00:00",
       "by": "Cosmo QC",
       "note": "Gate 1 hold: inter-format scenario disagreement — the 16:9 master is an overcast daylight scene while the 4:5 master is a night scene, against a 23:47 night scenario label; the two formats do not agree on the scenario time of day. Left Candidate pending rework."
+    },
+    {
+      "at": "2026-09-27T16:41:42.776988+00:00",
+      "by": "rerender",
+      "note": "Re-render for the recorded Gate 1 hold: inter-format scenario disagreement — the 16:9 master is an overcast daylight scene while the 4:5 master is a night scene, against a 23:47 night scenario label. All three new masters are night in the limestone gorge, dry, with no spraying springs. Scenario unchanged. Label-bar finish 1920×1270, 864×1270, 1080×2110. Still Candidate. Daylight variant files were not regenerated."
     }
   ]
 }

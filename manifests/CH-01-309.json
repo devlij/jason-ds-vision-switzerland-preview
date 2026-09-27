@@ -10,6 +10,7 @@
   "alt_text": "AI-generated artistic interpretation of the pilgrimage church in Glis at night",
   "file_16x9": "library/world/Switzerland/Brig-Glis/ch-01-309-16x9.png",
   "file_4x5": "library/world/Switzerland/Brig-Glis/ch-01-309-4x5.png",
+  "file_9x16": "library/world/Switzerland/Brig-Glis/ch-01-309-9x16.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
   "approval_status": "Candidate",
@@ -48,6 +49,11 @@
       "at": "2026-09-26T18:40:58.955823+00:00",
       "by": "Cosmo QC",
       "note": "Gate 1 hold: inter-format subject disagreement — the 16:9 master renders the Glis church's Romanesque tower with a crenellated flat top while the 4:5 master renders the same tower with a pointed spire and cross; the two formats do not agree on the tower's defining crown. Left Candidate pending rework."
+    },
+    {
+      "at": "2026-09-27T16:41:42.776988+00:00",
+      "by": "rerender",
+      "note": "Re-render for the recorded Gate 1 hold: inter-format subject disagreement — the 16:9 master renders the Glis church's Romanesque tower with a crenellated flat top while the 4:5 master renders the same tower with a pointed spire and cross. All three new masters share one square Romanesque tower with a steep four-sided pyramidal roof and a small cross, and the arcaded west porch. Night, scenario unchanged. Label-bar finish 1920×1270, 864×1270, 1080×2110. Still Candidate. Daylight variant files were not regenerated."
     }
   ]
 }

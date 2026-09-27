@@ -10,6 +10,7 @@
   "alt_text": "AI-generated artistic interpretation of the Gersau quay at night",
   "file_16x9": "library/world/Switzerland/Gersau/ch-01-354-16x9.png",
   "file_4x5": "library/world/Switzerland/Gersau/ch-01-354-4x5.png",
+  "file_9x16": "library/world/Switzerland/Gersau/ch-01-354-9x16.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
   "approval_status": "Candidate",
@@ -48,6 +49,11 @@
       "at": "2026-09-26T23:44:03.409732+00:00",
       "by": "Cosmo QC",
       "note": "Gate 1 hold: inter-format subject disagreement — the 16:9 master renders the Gersau church with a short pyramidal spire while the 4:5 master renders a tall slender needle spire on the same lakeside church tower; the two formats do not agree on the tower's defining form. Left Candidate pending rework."
+    },
+    {
+      "at": "2026-09-27T16:41:42.776988+00:00",
+      "by": "rerender",
+      "note": "Re-render for the recorded Gate 1 hold: inter-format subject disagreement — the 16:9 master renders the Gersau church with a short pyramidal spire while the 4:5 master renders a tall slender needle spire on the same lakeside church tower. All three new masters share one square tower with a dark baroque onion dome. Night, scenario unchanged. Label-bar finish 1920×1270, 864×1270, 1080×2110. Still Candidate. Daylight variant files were not regenerated."
     }
   ]
 }

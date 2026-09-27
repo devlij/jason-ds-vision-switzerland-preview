@@ -10,6 +10,7 @@
   "alt_text": "AI-generated artistic interpretation of the museum exterior and plaza above the Ouchy shore at night",
   "file_16x9": "library/world/Switzerland/Lausanne/ch-01-301-16x9.png",
   "file_4x5": "library/world/Switzerland/Lausanne/ch-01-301-4x5.png",
+  "file_9x16": "library/world/Switzerland/Lausanne/ch-01-301-9x16.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
   "approval_status": "Candidate",
@@ -48,6 +49,11 @@
       "at": "2026-09-26T18:40:53.312104+00:00",
       "by": "Cosmo QC",
       "note": "Gate 1 hold: inter-format subject disagreement — the 16:9 master shows the Olympic Museum as a long horizontal glazed slab on pilotis while the 4:5 master shows a compact white block with vertical fins; the two formats do not agree on the museum's architecture. Left Candidate pending rework."
+    },
+    {
+      "at": "2026-09-27T16:41:42.776988+00:00",
+      "by": "rerender",
+      "note": "Re-render for the recorded Gate 1 hold: inter-format subject disagreement — the 16:9 master shows the Olympic Museum as a long horizontal glazed slab on pilotis while the 4:5 master shows a compact white block with vertical fins. All three new masters share one low white museum in the park above the Ouchy shore: smooth white walls and horizontal window bands, no pilotis, no vertical fins, no rings, no wordmark. Night, overcast, scenario unchanged. Label-bar finish 1920×1270, 864×1270, 1080×2110. Still Candidate. Daylight variant files were not regenerated."
     }
   ]
 }
