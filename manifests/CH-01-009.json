@@ -12,12 +12,11 @@
   "file_4x5": "library/world/Switzerland/Montreux/ch-01-009-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Approved",
-  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
-  "approval_basis": "Chillon Castle, Montreux — Gate 1 PASS: the water castle sits on its rocky shore in Lake Geneva with its clustered towers and walled courtyard, the wooden footbridge along the right shore, autumn-foliaged trees at right, and misty snow-dusted mountains beyond; plausible lakeside viewpoint. Gate 2 PASS: exact 1920x1080/864x1080 masters verified from repo blobs; exact Jason D's Vision signature bottom-right, caption 'Chillon Castle, Montreux', scenario '24 September 2026 · 14:40 Europe/Zurich', disclosure on the bottom gradient; scenario inside model-valid hour 14:00–14:59 Europe/Zurich, weather retrieved 2026-09-25T21:42:52Z, unique to this scene. Gate 3: text-prompt-only lineage documented. Gate 4: no prominent people or focal logos. Gate 5: no open blockers.",
-  "approved_at": "2026-09-25T22:43:37.460413+00:00",
-  "sha256_16x9": "f8a6cb23c81743b0ec352f3383be283e694cf5863c5337448d4a79c138c5e571",
-  "sha256_4x5": "7af35728d8c95898dc5ae739e1de65d75032f1705fa8d1acf36c5c4fb83dbc76",
+  "approval_status": "Candidate",
+  "qc_status": "Candidate · weather rework 2026-09-27 · not approved",
+  "approval_basis": "Builder weather rework 2026-09-27 for CH-01-009. Own Open-Meteo archive GET, HTTP Date Sun, 27 Sep 2026 16:51:09 GMT, retrieved 2026-09-27T16:51:09Z, valid 2026-09-24T14:00 Europe/Zurich, model-valid hour 14:00–14:59, scenario 24 September 2026 · 14:40 Europe/Zurich inside that hour. Weather code 3 (overcast), cloud 94%, 23.3°C, is_day 1. Masters re-rendered at 1920×1270, 864×1270, and 1080×2110 with a 190px #0e0e12 label bar. Status Candidate. Not an approval.",
+  "sha256_16x9": "2324fc44309de04e4e40a2e50118b05a59789944b6466eb26c18e8d2f5a0d804",
+  "sha256_4x5": "baa9cd86d6db485d613c754e92645102d613104eb423a87d7adaf5d5b4f711ab",
   "reverted_at": "2026-09-25T12:40:13.601819+00:00",
   "qc_notes": [
     {
@@ -49,6 +48,32 @@
       "at": "2026-09-25T22:43:34.701126+00:00",
       "by": "Cosmo QC",
       "note": "Gate 2 shared-retrieval hold RESOLVED: the build agent landed the per-scene weather rework (approvals/BATCH-CH-01-001-087-rework.txt plus the per-scene note). approvals/CH-01-009.md now records Open-Meteo retrieval 2026-09-25T21:42:52Z, a separate request for this scene's coordinates — verified unique to the second across all 87 reworked scenes; the baked scenario 24 September 2026 · 14:40 Europe/Zurich sits inside the model-valid hour 14:00–14:59 Europe/Zurich. Cosmo re-audited against authoritative blob downloads: gates 1–5 PASS, all masters at exact dimensions, exact caption/scenario/signature/disclosure on-image. Hold cleared; ready for approval."
+    },
+    {
+      "at": "2026-09-27T17:07:06Z",
+      "by": "builder",
+      "note": "Builder weather rework 2026-09-27 for CH-01-009. Own Open-Meteo archive GET, HTTP Date Sun, 27 Sep 2026 16:51:09 GMT, retrieved 2026-09-27T16:51:09Z, valid 2026-09-24T14:00 Europe/Zurich, model-valid hour 14:00–14:59, scenario 24 September 2026 · 14:40 Europe/Zurich inside that hour. Weather code 3 (overcast), cloud 94%, 23.3°C, is_day 1. Masters re-rendered at 1920×1270, 864×1270, and 1080×2110 with a 190px #0e0e12 label bar. Status Candidate. Not an approval."
     }
-  ]
+  ],
+  "file_9x16": "library/world/Switzerland/Montreux/ch-01-009-9x16.png",
+  "sha256_9x16": "2942dca4e883ca0c27e28f98483a70b0695b785b01f8c1ddf6781e92cf54f4e3",
+  "open_meteo": {
+    "retrieved_utc": "2026-09-27T16:51:09Z",
+    "http_date": "Sun, 27 Sep 2026 16:51:09 GMT",
+    "valid": "2026-09-24T14:00",
+    "model_valid_hour": "14:00–14:59",
+    "scenario_minute": "14:40",
+    "weather_code": 3,
+    "cloud_cover": 94,
+    "temperature_2m": 23.3,
+    "apparent_temperature": 23.4,
+    "wind_speed_10m": 4.5,
+    "wind_direction_10m": 268,
+    "relative_humidity_2m": 50,
+    "precipitation": 0.0,
+    "is_day": 1,
+    "elevation": 368.0,
+    "latitude": 46.4142,
+    "longitude": 6.9274
+  }
 }

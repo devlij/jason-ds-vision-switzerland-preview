@@ -6,24 +6,49 @@
   "caption": "Lugano lakefront, Lugano",
   "scenario_label": "24 September 2026 · 14:40 Europe/Zurich",
   "composition": "Lugano lakefront promenade toward the lake, Monte Brè, and Monte San Salvatore · AI-generated artistic interpretation",
-  "description": "The Lugano lakefront promenade faces Lake Lugano, with palms and waterfront buildings in front of Monte Brè and Monte San Salvatore. Ticino vegetation is still green in late September. The mountains are close and partly softened by cloud. The Open-Meteo model for this afternoon is overcast, with little wind and no rain.",
+  "description": "The Lugano lakefront promenade faces Lake Lugano, with palms and waterfront buildings in front of Monte Brè and Monte San Salvatore. Ticino vegetation is still green in late September. The mountains are close and partly softened by cloud. The Open-Meteo model for this afternoon is partly cloudy, with little wind and no rain.",
   "alt_text": "AI-generated artistic interpretation of the Lugano lakefront with Monte Brè under cloud",
   "file_16x9": "library/world/Switzerland/Lugano/ch-01-012-16x9.png",
   "file_4x5": "library/world/Switzerland/Lugano/ch-01-012-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Approved",
-  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
-  "approval_basis": "G1 visual (CH-01-012): palm-lined promenade curving along Lake Lugano with Monte Brè and Monte San Salvatore framing the water, Ticino vegetation still green; overcast, clean framing, no artifacts. G2 technical: masters exact 1920×1080/864×1080 (sweep-verified, sha256 match); on-image caption 'Lugano lakefront, Lugano', scenario '24 September 2026 · 14:40 Europe/Zurich', 'AI-generated artistic interpretation · Not a photograph.' disclosure, and exact 'Jason D’s Vision' signature bottom-right — all legible on the gradient scrim. Weather: approvals/CH-01-012.md records Open-Meteo retrieval 2026-09-25T21:42:57Z, verified a singleton across all 365 repo notes (no shared/batch retrieval); scenario falls inside the model-valid hour 14:00–14:59. G3: text-prompt-only lineage, no photographic inputs reported. G4: no prominent identifiable people, no focal logos — documented only, final commercial call is Jason's. G5: no open blockers.",
-  "approved_at": "2026-09-25T23:44:52.369589+00:00",
-  "sha256_16x9": "7e4547127f347d625c7c5fd0fafb8e716989181473930f7e1af2cc6195fde87f",
-  "sha256_4x5": "9596d5a553a28a5ae76d683ffc8fda651aeccf32b3489408121f4c3afc0f71ea",
+  "approval_status": "Candidate",
+  "qc_status": "Candidate · weather rework 2026-09-27 · not approved",
+  "approval_basis": "Builder weather rework 2026-09-27 for CH-01-012. Own Open-Meteo archive GET, HTTP Date Sun, 27 Sep 2026 16:51:13 GMT, retrieved 2026-09-27T16:51:13Z, valid 2026-09-24T14:00 Europe/Zurich, model-valid hour 14:00–14:59, scenario 24 September 2026 · 14:40 Europe/Zurich inside that hour. Weather code 2 (partly cloudy), cloud 66%, 22.4°C, is_day 1. Masters re-rendered at 1920×1270, 864×1270, and 1080×2110 with a 190px #0e0e12 label bar. Status Candidate. Not an approval.",
+  "sha256_16x9": "263c93118c9db516b9bb973f2553fe6a4d1204379459687c2685ad1060e0e715",
+  "sha256_4x5": "1af24e48d8e4f0e4b752a755cb48c54aa2305272280809e16b787649493508b8",
   "reverted_at": "2026-09-25T12:40:20.954777+00:00",
   "qc_notes": [
     {
       "at": "2026-09-25T12:40:20.954777+00:00",
       "by": "Cosmo QC",
       "note": "Approval withdrawn 2026-09-25 (Cosmo QC): the weather metadata was a shared/batch Open-Meteo retrieval (retrieval timestamp 2026-09-24T12:40:09Z identical across 12 scenes), failing Gate 2 under the confirmed standing policy — one HTTP fetch per scene, one recorded retrieval timestamp per scene; identical-to-the-second timestamps across scenes = shared retrieval. Rework: fetch Open-Meteo fresh per scene (own HTTP request, own recorded timestamp), scenario hour inside the model-valid hour; update the approvals note with the new retrieval evidence; re-push masters only if on-image text must change. Scene stays Candidate until Cosmo QC re-audits."
+    },
+    {
+      "at": "2026-09-27T17:07:06Z",
+      "by": "builder",
+      "note": "Builder weather rework 2026-09-27 for CH-01-012. Own Open-Meteo archive GET, HTTP Date Sun, 27 Sep 2026 16:51:13 GMT, retrieved 2026-09-27T16:51:13Z, valid 2026-09-24T14:00 Europe/Zurich, model-valid hour 14:00–14:59, scenario 24 September 2026 · 14:40 Europe/Zurich inside that hour. Weather code 2 (partly cloudy), cloud 66%, 22.4°C, is_day 1. Masters re-rendered at 1920×1270, 864×1270, and 1080×2110 with a 190px #0e0e12 label bar. Status Candidate. Not an approval."
     }
-  ]
+  ],
+  "file_9x16": "library/world/Switzerland/Lugano/ch-01-012-9x16.png",
+  "sha256_9x16": "c06cbb389244ffdf8eba940526ed8d515d42202e9cbc620c4971bac58683fbad",
+  "open_meteo": {
+    "retrieved_utc": "2026-09-27T16:51:13Z",
+    "http_date": "Sun, 27 Sep 2026 16:51:13 GMT",
+    "valid": "2026-09-24T14:00",
+    "model_valid_hour": "14:00–14:59",
+    "scenario_minute": "14:40",
+    "weather_code": 2,
+    "cloud_cover": 66,
+    "temperature_2m": 22.4,
+    "apparent_temperature": 23.7,
+    "wind_speed_10m": 6.2,
+    "wind_direction_10m": 232,
+    "relative_humidity_2m": 62,
+    "precipitation": 0.0,
+    "is_day": 1,
+    "elevation": 286.0,
+    "latitude": 46.0037,
+    "longitude": 8.9511
+  }
 }

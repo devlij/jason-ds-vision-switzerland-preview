@@ -12,12 +12,11 @@
   "file_4x5": "library/world/Switzerland/Lucerne/ch-01-002-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Approved",
-  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
-  "approval_basis": "Chapel Bridge, Lucerne — Gate 1 PASS: the covered wooden bridge runs diagonally across the Reuss with its dark roof, flower boxes along the walkway, and the octagonal stone Water Tower standing in the river beside it; old-town facades and a church spire beyond the water, bridge shown intact with no fire damage or scaffolding, overcast light consistent with the modelled weather. Gate 2 PASS: exact 1920x1080/864x1080 masters from authoritative blob downloads; exact Jason D's Vision signature bottom-right, caption 'Chapel Bridge, Lucerne', scenario '24 September 2026 · 14:38 Europe/Zurich', and disclosure on the bottom gradient scrim; scenario inside the model-valid hour 14:00–14:59 Europe/Zurich, weather retrieved 2026-09-25T21:42:40Z, unique to this scene. Gate 3: text-prompt-only lineage documented, no photographic inputs reported. Gate 4: no prominent identifiable people or focal logos observed. Gate 5: no open blockers.",
-  "approved_at": "2026-09-25T22:42:46.172227+00:00",
-  "sha256_16x9": "3aafca9e08998ce394b9721d6ebe8fd73f2e6f25918837cced2814d842df8a67",
-  "sha256_4x5": "23a5156c63954a5325f3218e36c736723c3996eea3b56cd83ec0252ac9dd6f98",
+  "approval_status": "Candidate",
+  "qc_status": "Candidate · weather rework 2026-09-27 · not approved",
+  "approval_basis": "Builder weather rework 2026-09-27 for CH-01-002. Own Open-Meteo archive GET, HTTP Date Sun, 27 Sep 2026 16:50:59 GMT, retrieved 2026-09-27T16:50:59Z, valid 2026-09-24T14:00 Europe/Zurich, model-valid hour 14:00–14:59, scenario 24 September 2026 · 14:38 Europe/Zurich inside that hour. Weather code 3 (overcast), cloud 99%, 21.5°C, is_day 1. Masters re-rendered at 1920×1270, 864×1270, and 1080×2110 with a 190px #0e0e12 label bar. Status Candidate. Not an approval.",
+  "sha256_16x9": "0180e927cef2dca163e621b2b49a0f6b7929d374c8e678ba8658e9827384f741",
+  "sha256_4x5": "5496c58ab61451877a795ce4706ac85ee19b0311434877133d4858e83fe647b4",
   "reverted_at": "2026-09-25T12:39:46.508223+00:00",
   "qc_notes": [
     {
@@ -54,6 +53,32 @@
       "at": "2026-09-25T22:42:43.193735+00:00",
       "by": "Cosmo QC",
       "note": "Gate 2 shared-retrieval hold RESOLVED: the build agent landed the per-scene weather rework (approvals/BATCH-CH-01-001-087-rework.txt plus the per-scene note). approvals/CH-01-002.md now records Open-Meteo retrieval 2026-09-25T21:42:40Z, a separate request for this scene's coordinates — verified unique to the second across all 87 reworked scenes; the baked scenario 24 September 2026 · 14:38 Europe/Zurich sits inside the model-valid hour 14:00–14:59 Europe/Zurich. Cosmo re-audited against authoritative blob downloads: gates 1–5 PASS, all masters at exact dimensions, exact caption/scenario/signature/disclosure on-image. Hold cleared; ready for approval."
+    },
+    {
+      "at": "2026-09-27T17:07:06Z",
+      "by": "builder",
+      "note": "Builder weather rework 2026-09-27 for CH-01-002. Own Open-Meteo archive GET, HTTP Date Sun, 27 Sep 2026 16:50:59 GMT, retrieved 2026-09-27T16:50:59Z, valid 2026-09-24T14:00 Europe/Zurich, model-valid hour 14:00–14:59, scenario 24 September 2026 · 14:38 Europe/Zurich inside that hour. Weather code 3 (overcast), cloud 99%, 21.5°C, is_day 1. Masters re-rendered at 1920×1270, 864×1270, and 1080×2110 with a 190px #0e0e12 label bar. Status Candidate. Not an approval."
     }
-  ]
+  ],
+  "file_9x16": "library/world/Switzerland/Lucerne/ch-01-002-9x16.png",
+  "sha256_9x16": "df7f0c97829d5122a850ed3e1c08234ef32cd2b17fb351a04da358730e8c67cc",
+  "open_meteo": {
+    "retrieved_utc": "2026-09-27T16:50:59Z",
+    "http_date": "Sun, 27 Sep 2026 16:50:59 GMT",
+    "valid": "2026-09-24T14:00",
+    "model_valid_hour": "14:00–14:59",
+    "scenario_minute": "14:38",
+    "weather_code": 3,
+    "cloud_cover": 99,
+    "temperature_2m": 21.5,
+    "apparent_temperature": 21.1,
+    "wind_speed_10m": 6.4,
+    "wind_direction_10m": 317,
+    "relative_humidity_2m": 48,
+    "precipitation": 0.0,
+    "is_day": 1,
+    "elevation": 433.0,
+    "latitude": 47.0516,
+    "longitude": 8.3074
+  }
 }

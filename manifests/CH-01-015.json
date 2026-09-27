@@ -12,18 +12,43 @@
   "file_4x5": "library/world/Switzerland/Grindelwald/ch-01-015-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Approved",
-  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
-  "approval_basis": "G1 visual (CH-01-015): Eiger north face as a dark near-vertical wall with snow patches and cloud at the summit, green valley meadows and chalets below, flanking peaks west and east; no invented climbing infrastructure; clean framing. G2 technical: masters exact 1920×1080/864×1080 (sweep-verified, sha256 match); on-image caption 'Eiger, Grindelwald', scenario '24 September 2026 · 14:42 Europe/Zurich', 'AI-generated artistic interpretation · Not a photograph.' disclosure, and exact 'Jason D’s Vision' signature bottom-right — all legible on the gradient scrim. Weather: approvals/CH-01-015.md records Open-Meteo retrieval 2026-09-25T21:43:03Z, verified a singleton across all 365 repo notes (no shared/batch retrieval); scenario falls inside the model-valid hour 14:00–14:59. G3: text-prompt-only lineage, no photographic inputs reported. G4: no prominent identifiable people, no focal logos — documented only, final commercial call is Jason's. G5: no open blockers.",
-  "approved_at": "2026-09-25T23:45:14.286699+00:00",
-  "sha256_16x9": "196c764a0dc9b192cf6f00a62e8f01e055b7791229fa0a1ec5b75a936ffe8d1c",
-  "sha256_4x5": "2a556643c350c2a59e838ff637fa667ed4a084c5aece15ea09a6fea005f01148",
+  "approval_status": "Candidate",
+  "qc_status": "Candidate · weather rework 2026-09-27 · not approved",
+  "approval_basis": "Builder weather rework 2026-09-27 for CH-01-015. Own Open-Meteo archive GET, HTTP Date Sun, 27 Sep 2026 16:51:17 GMT, retrieved 2026-09-27T16:51:17Z, valid 2026-09-24T14:00 Europe/Zurich, model-valid hour 14:00–14:59, scenario 24 September 2026 · 14:42 Europe/Zurich inside that hour. Weather code 3 (overcast), cloud 98%, 19.5°C, is_day 1. Masters re-rendered at 1920×1270, 864×1270, and 1080×2110 with a 190px #0e0e12 label bar. Status Candidate. Not an approval.",
+  "sha256_16x9": "59fc6aa6ed6f266cc3dbf099d198852162940776396de1fde6b073072520e418",
+  "sha256_4x5": "8b7a0938782da5a23c673a509d48f2f3019bc6acd43b14ce7dfb510c7676a60a",
   "reverted_at": "2026-09-25T12:40:28.371866+00:00",
   "qc_notes": [
     {
       "at": "2026-09-25T12:40:28.371866+00:00",
       "by": "Cosmo QC",
       "note": "Approval withdrawn 2026-09-25 (Cosmo QC): the weather metadata was a shared/batch Open-Meteo retrieval (retrieval timestamp 2026-09-24T12:40:09Z identical across 12 scenes), failing Gate 2 under the confirmed standing policy — one HTTP fetch per scene, one recorded retrieval timestamp per scene; identical-to-the-second timestamps across scenes = shared retrieval. Rework: fetch Open-Meteo fresh per scene (own HTTP request, own recorded timestamp), scenario hour inside the model-valid hour; update the approvals note with the new retrieval evidence; re-push masters only if on-image text must change. Scene stays Candidate until Cosmo QC re-audits."
+    },
+    {
+      "at": "2026-09-27T17:07:06Z",
+      "by": "builder",
+      "note": "Builder weather rework 2026-09-27 for CH-01-015. Own Open-Meteo archive GET, HTTP Date Sun, 27 Sep 2026 16:51:17 GMT, retrieved 2026-09-27T16:51:17Z, valid 2026-09-24T14:00 Europe/Zurich, model-valid hour 14:00–14:59, scenario 24 September 2026 · 14:42 Europe/Zurich inside that hour. Weather code 3 (overcast), cloud 98%, 19.5°C, is_day 1. Masters re-rendered at 1920×1270, 864×1270, and 1080×2110 with a 190px #0e0e12 label bar. Status Candidate. Not an approval."
     }
-  ]
+  ],
+  "file_9x16": "library/world/Switzerland/Grindelwald/ch-01-015-9x16.png",
+  "sha256_9x16": "b9b2cb1a325580ada319eb2332e0794d633973d26bb0d7f6a79c112aa5da811c",
+  "open_meteo": {
+    "retrieved_utc": "2026-09-27T16:51:17Z",
+    "http_date": "Sun, 27 Sep 2026 16:51:17 GMT",
+    "valid": "2026-09-24T14:00",
+    "model_valid_hour": "14:00–14:59",
+    "scenario_minute": "14:42",
+    "weather_code": 3,
+    "cloud_cover": 98,
+    "temperature_2m": 19.5,
+    "apparent_temperature": 18.3,
+    "wind_speed_10m": 7.9,
+    "wind_direction_10m": 303,
+    "relative_humidity_2m": 48,
+    "precipitation": 0.0,
+    "is_day": 1,
+    "elevation": 1070.0,
+    "latitude": 46.6242,
+    "longitude": 8.0414
+  }
 }

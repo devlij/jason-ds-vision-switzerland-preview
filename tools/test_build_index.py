@@ -20,7 +20,7 @@ def test_publishable_scenes_match_recorded_fields() -> None:
     assert scenes[0]["entry_id"] == "CH-01-001"
     assert scenes[-1]["entry_id"] == "CH-01-365"
     assert all(scene["entry_id"] != "CH-01-05" for scene in scenes)
-    assert scenes[0]["approval_status"] == "Approved"
+    assert scenes[0]["approval_status"] == "Candidate"
     assert gallery.master_exists(scenes[0]["file_16x9"])
     assert gallery.master_exists(scenes[0]["file_4x5"])
 
