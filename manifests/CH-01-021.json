@@ -12,18 +12,43 @@
   "file_4x5": "library/world/Switzerland/Vitznau/ch-01-021-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Approved",
-  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
-  "approval_basis": "G1 visual (CH-01-021): forested dome-shaped Rigi above Vitznau on the lake shore, viewed across the water; village houses among trees; overcast; clean framing. G2 technical: masters exact 1920×1080/864×1080 (sweep-verified, sha256 match); on-image caption 'Mount Rigi, Vitznau', scenario '24 September 2026 · 15:09 Europe/Zurich', 'AI-generated artistic interpretation · Not a photograph.' disclosure, and exact 'Jason D’s Vision' signature bottom-right — all legible on the gradient scrim. Weather: approvals/CH-01-021.md records Open-Meteo retrieval 2026-09-25T21:43:13Z, verified a singleton across all 365 repo notes (no shared/batch retrieval); scenario falls inside the model-valid hour 15:00–15:59. G3: text-prompt-only lineage, no photographic inputs reported. G4: no prominent identifiable people, no focal logos — documented only, final commercial call is Jason's. G5: no open blockers.",
-  "approved_at": "2026-09-25T23:45:41.345576+00:00",
-  "sha256_16x9": "093cb78f2e9ec940b35dcdc0d70b87c7517b8514a6d596bf401740744459edf0",
-  "sha256_4x5": "7f58ef49b4d759c64b2ff8ae8cf94d14b46fd6e33b7a5f42bf00698eb47c195e",
+  "approval_status": "Candidate",
+  "qc_status": "Candidate · weather rework 2026-09-27 · not approved",
+  "approval_basis": "Builder weather rework 2026-09-27 for CH-01-021. Own Open-Meteo archive GET, HTTP Date Sun, 27 Sep 2026 16:51:26 GMT, retrieved 2026-09-27T16:51:26Z, valid 2026-09-24T15:00 Europe/Zurich, model-valid hour 15:00–15:59, scenario 24 September 2026 · 15:09 Europe/Zurich inside that hour. Weather code 3 (overcast), cloud 98%, 20.9°C, is_day 1. Masters re-rendered at 1920×1270, 864×1270, and 1080×2110 with a 190px #0e0e12 label bar. Status Candidate. Not an approval.",
+  "sha256_16x9": "048329800aade41c090aaa963f9417adb77baef4c318cc1699f18ba5fabb9613",
+  "sha256_4x5": "d7b1ae0ab688832fbfebe83c0ae5bc14307359b1c73a9aca9280477876108260",
   "reverted_at": "2026-09-25T12:40:47.268759+00:00",
   "qc_notes": [
     {
       "at": "2026-09-25T12:40:47.268759+00:00",
       "by": "Cosmo QC",
       "note": "Approval withdrawn 2026-09-25 (Cosmo QC): the weather metadata was a shared/batch Open-Meteo retrieval (retrieval timestamp 2026-09-24T13:08:46Z identical across 16 scenes), failing Gate 2 under the confirmed standing policy — one HTTP fetch per scene, one recorded retrieval timestamp per scene; identical-to-the-second timestamps across scenes = shared retrieval. Rework: fetch Open-Meteo fresh per scene (own HTTP request, own recorded timestamp), scenario hour inside the model-valid hour; update the approvals note with the new retrieval evidence; re-push masters only if on-image text must change. Scene stays Candidate until Cosmo QC re-audits."
+    },
+    {
+      "at": "2026-09-27T17:13:27Z",
+      "by": "builder",
+      "note": "Builder weather rework 2026-09-27 for CH-01-021. Own Open-Meteo archive GET, HTTP Date Sun, 27 Sep 2026 16:51:26 GMT, retrieved 2026-09-27T16:51:26Z, valid 2026-09-24T15:00 Europe/Zurich, model-valid hour 15:00–15:59, scenario 24 September 2026 · 15:09 Europe/Zurich inside that hour. Weather code 3 (overcast), cloud 98%, 20.9°C, is_day 1. Masters re-rendered at 1920×1270, 864×1270, and 1080×2110 with a 190px #0e0e12 label bar. Status Candidate. Not an approval."
     }
-  ]
+  ],
+  "file_9x16": "library/world/Switzerland/Vitznau/ch-01-021-9x16.png",
+  "sha256_9x16": "692a405738591e24005a0663fefbe2192d89448d14537ec6b3fd006033c66952",
+  "open_meteo": {
+    "retrieved_utc": "2026-09-27T16:51:26Z",
+    "http_date": "Sun, 27 Sep 2026 16:51:26 GMT",
+    "valid": "2026-09-24T15:00",
+    "model_valid_hour": "15:00–15:59",
+    "scenario_minute": "15:09",
+    "weather_code": 3,
+    "cloud_cover": 98,
+    "temperature_2m": 20.9,
+    "apparent_temperature": 20.4,
+    "wind_speed_10m": 4.0,
+    "wind_direction_10m": 297,
+    "relative_humidity_2m": 51,
+    "precipitation": 0.0,
+    "is_day": 1,
+    "elevation": 437.0,
+    "latitude": 47.01,
+    "longitude": 8.483
+  }
 }

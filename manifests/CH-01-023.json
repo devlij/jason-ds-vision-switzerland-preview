@@ -12,18 +12,43 @@
   "file_4x5": "library/world/Switzerland/Wengen/ch-01-023-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Approved",
-  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
-  "approval_basis": "G1 visual (CH-01-023): car-free chalet village on green slopes with the white church's slender spire, Jungfrau massif looming in cloud behind; overcast; clean framing. G2 technical: masters exact 1920×1080/864×1080 (sweep-verified, sha256 match); on-image caption 'Wengen, Wengen', scenario '24 September 2026 · 15:09 Europe/Zurich', 'AI-generated artistic interpretation · Not a photograph.' disclosure, and exact 'Jason D’s Vision' signature bottom-right — all legible on the gradient scrim. Weather: approvals/CH-01-023.md records Open-Meteo retrieval 2026-09-25T21:43:17Z, verified a singleton across all 365 repo notes (no shared/batch retrieval); scenario falls inside the model-valid hour 15:00–15:59. G3: text-prompt-only lineage, no photographic inputs reported. G4: no prominent identifiable people, no focal logos — documented only, final commercial call is Jason's. G5: no open blockers.",
-  "approved_at": "2026-09-25T23:45:50.662821+00:00",
-  "sha256_16x9": "13390b2d21cbe37a8e34672212952a86fb6dc519cdc3251294f0f60daf14bca1",
-  "sha256_4x5": "419677229eca6269661cefa55500303f6f216a8b4c9780363deef47ddd3d2041",
+  "approval_status": "Candidate",
+  "qc_status": "Candidate · weather rework 2026-09-27 · not approved",
+  "approval_basis": "Builder weather rework 2026-09-27 for CH-01-023. Own Open-Meteo archive GET, HTTP Date Sun, 27 Sep 2026 16:51:29 GMT, retrieved 2026-09-27T16:51:29Z, valid 2026-09-24T15:00 Europe/Zurich, model-valid hour 15:00–15:59, scenario 24 September 2026 · 15:09 Europe/Zurich inside that hour. Weather code 3 (overcast), cloud 96%, 17.4°C, is_day 1. Masters re-rendered at 1920×1270, 864×1270, and 1080×2110 with a 190px #0e0e12 label bar. Status Candidate. Not an approval.",
+  "sha256_16x9": "08abd6c9b2b5331be8f460ef10b5471026628cefba0c9f52bc964bc21f428d3a",
+  "sha256_4x5": "fffb9fd0ea34f27f1705e11f5d664aaab0b4de2e91041073e858c33757fee70d",
   "reverted_at": "2026-09-25T12:40:52.602381+00:00",
   "qc_notes": [
     {
       "at": "2026-09-25T12:40:52.602381+00:00",
       "by": "Cosmo QC",
       "note": "Approval withdrawn 2026-09-25 (Cosmo QC): the weather metadata was a shared/batch Open-Meteo retrieval (retrieval timestamp 2026-09-24T13:08:46Z identical across 16 scenes), failing Gate 2 under the confirmed standing policy — one HTTP fetch per scene, one recorded retrieval timestamp per scene; identical-to-the-second timestamps across scenes = shared retrieval. Rework: fetch Open-Meteo fresh per scene (own HTTP request, own recorded timestamp), scenario hour inside the model-valid hour; update the approvals note with the new retrieval evidence; re-push masters only if on-image text must change. Scene stays Candidate until Cosmo QC re-audits."
+    },
+    {
+      "at": "2026-09-27T17:13:27Z",
+      "by": "builder",
+      "note": "Builder weather rework 2026-09-27 for CH-01-023. Own Open-Meteo archive GET, HTTP Date Sun, 27 Sep 2026 16:51:29 GMT, retrieved 2026-09-27T16:51:29Z, valid 2026-09-24T15:00 Europe/Zurich, model-valid hour 15:00–15:59, scenario 24 September 2026 · 15:09 Europe/Zurich inside that hour. Weather code 3 (overcast), cloud 96%, 17.4°C, is_day 1. Masters re-rendered at 1920×1270, 864×1270, and 1080×2110 with a 190px #0e0e12 label bar. Status Candidate. Not an approval."
     }
-  ]
+  ],
+  "file_9x16": "library/world/Switzerland/Wengen/ch-01-023-9x16.png",
+  "sha256_9x16": "bd17c05467c2e9591ba0242d1d81c98facaf7d39075ecdaa29cc790eeeea51f7",
+  "open_meteo": {
+    "retrieved_utc": "2026-09-27T16:51:29Z",
+    "http_date": "Sun, 27 Sep 2026 16:51:29 GMT",
+    "valid": "2026-09-24T15:00",
+    "model_valid_hour": "15:00–15:59",
+    "scenario_minute": "15:09",
+    "weather_code": 3,
+    "cloud_cover": 96,
+    "temperature_2m": 17.4,
+    "apparent_temperature": 15.9,
+    "wind_speed_10m": 4.1,
+    "wind_direction_10m": 311,
+    "relative_humidity_2m": 49,
+    "precipitation": 0.0,
+    "is_day": 1,
+    "elevation": 1282.0,
+    "latitude": 46.6054,
+    "longitude": 7.921
+  }
 }

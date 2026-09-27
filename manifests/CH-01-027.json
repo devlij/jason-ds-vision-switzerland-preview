@@ -12,18 +12,43 @@
   "file_4x5": "library/world/Switzerland/Zurich/ch-01-027-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Approved",
-  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
-  "approval_basis": "Gate 1: Uetliberg lookout tower at frame left, panorama over Zurich and Lake Zurich from forested hilltop, plausible tourist viewpoint, no artifacts. Gate 2: exact 1920x1080/864x1080, signature bottom-right, caption 'Uetliberg, Zurich' + scenario '24 September 2026 · 15:09 Europe/Zurich' + AI disclosure verified on-image; Open-Meteo retrieved 2026-09-25T21:43:24Z, per-scene and unique across all 87 CH notes. Gate 3: note states text-prompt-only, no photographic inputs. Gate 4: no people, logos, or private property visible — documented only, Jason's final call.",
-  "approved_at": "2026-09-26T00:53:27.576900+00:00",
-  "sha256_16x9": "4be3b43056c2f174d2595ecde52d9215bfdd07c3b26029a6d01f8d825af45510",
-  "sha256_4x5": "1c2b7219f318448dd2627b70d6ca42c44253bd38be1f49b5839b683ec2062530",
+  "approval_status": "Candidate",
+  "qc_status": "Candidate · weather rework 2026-09-27 · not approved",
+  "approval_basis": "Builder weather rework 2026-09-27 for CH-01-027. Own Open-Meteo archive GET, HTTP Date Sun, 27 Sep 2026 16:51:34 GMT, retrieved 2026-09-27T16:51:34Z, valid 2026-09-24T15:00 Europe/Zurich, model-valid hour 15:00–15:59, scenario 24 September 2026 · 15:09 Europe/Zurich inside that hour. Weather code 3 (overcast), cloud 98%, 19.5°C, is_day 1. Masters re-rendered at 1920×1270, 864×1270, and 1080×2110 with a 190px #0e0e12 label bar. Status Candidate. Not an approval.",
+  "sha256_16x9": "d1108825d03bcad758c133e6941fede2a65e254ac6846837b81451bfe2d8d11d",
+  "sha256_4x5": "228e580c1337c38832a23be69856957baed4665ad7c1e2ebd72c4dfbd2af87ad",
   "reverted_at": "2026-09-25T12:41:02.455091+00:00",
   "qc_notes": [
     {
       "at": "2026-09-25T12:41:02.455091+00:00",
       "by": "Cosmo QC",
       "note": "Approval withdrawn 2026-09-25 (Cosmo QC): the weather metadata was a shared/batch Open-Meteo retrieval (retrieval timestamp 2026-09-24T13:08:46Z identical across 16 scenes), failing Gate 2 under the confirmed standing policy — one HTTP fetch per scene, one recorded retrieval timestamp per scene; identical-to-the-second timestamps across scenes = shared retrieval. Rework: fetch Open-Meteo fresh per scene (own HTTP request, own recorded timestamp), scenario hour inside the model-valid hour; update the approvals note with the new retrieval evidence; re-push masters only if on-image text must change. Scene stays Candidate until Cosmo QC re-audits."
+    },
+    {
+      "at": "2026-09-27T17:13:27Z",
+      "by": "builder",
+      "note": "Builder weather rework 2026-09-27 for CH-01-027. Own Open-Meteo archive GET, HTTP Date Sun, 27 Sep 2026 16:51:34 GMT, retrieved 2026-09-27T16:51:34Z, valid 2026-09-24T15:00 Europe/Zurich, model-valid hour 15:00–15:59, scenario 24 September 2026 · 15:09 Europe/Zurich inside that hour. Weather code 3 (overcast), cloud 98%, 19.5°C, is_day 1. Masters re-rendered at 1920×1270, 864×1270, and 1080×2110 with a 190px #0e0e12 label bar. Status Candidate. Not an approval."
     }
-  ]
+  ],
+  "file_9x16": "library/world/Switzerland/Zurich/ch-01-027-9x16.png",
+  "sha256_9x16": "8df855bdec929271bbcd420d9a664f3624a6e2f96b95591f5787d49d6a5b8800",
+  "open_meteo": {
+    "retrieved_utc": "2026-09-27T16:51:34Z",
+    "http_date": "Sun, 27 Sep 2026 16:51:34 GMT",
+    "valid": "2026-09-24T15:00",
+    "model_valid_hour": "15:00–15:59",
+    "scenario_minute": "15:09",
+    "weather_code": 3,
+    "cloud_cover": 98,
+    "temperature_2m": 19.5,
+    "apparent_temperature": 16.4,
+    "wind_speed_10m": 13.1,
+    "wind_direction_10m": 269,
+    "relative_humidity_2m": 39,
+    "precipitation": 0.0,
+    "is_day": 1,
+    "elevation": 866.0,
+    "latitude": 47.3494,
+    "longitude": 8.4913
+  }
 }
