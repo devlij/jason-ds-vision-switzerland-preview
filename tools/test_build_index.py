@@ -23,6 +23,11 @@ def test_publishable_scenes_match_recorded_fields() -> None:
     assert scenes[0]["approval_status"] == "Candidate"
     assert gallery.master_exists(scenes[0]["file_16x9"])
     assert gallery.master_exists(scenes[0]["file_4x5"])
+    assert scenes[0]["image_alt"] == (
+        "AI-generated artistic interpretation of the Matterhorn from the Gornergrat railway terrace above Zermatt"
+        " — Matterhorn, Zermatt"
+    )
+    assert gallery.phase1_meta(scenes, gallery.load_tags())["CH-01-001"][5] == scenes[0]["image_alt"]
 
 
 def test_related_is_region_first_then_mood_then_id() -> None:

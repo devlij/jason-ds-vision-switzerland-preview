@@ -292,9 +292,10 @@
 
   <script>
   /* Phase 1 competitive features (ported from the Spain pilot, 2026-09-26).
-     SWITZERLAND_META: entry_id -> [region, day|night, mood-tags, 16x9 thumb, caption].
+     SWITZERLAND_META: entry_id -> [region, day|night, mood-tags, 16x9 thumb, caption, image alt].
      Thumb is the scene's own 16x9 master as served by this page (repo-relative
-     from the site root); every path was verified to exist in the repo. */
+     from the site root); every path was verified to exist in the repo.
+     Image alt is `{caption} — {site}, {City}`. */
   var SWITZERLAND_META = __PHASE1_META__;
   function relatedFor(id){
     var me = SWITZERLAND_META[id];
@@ -367,7 +368,7 @@
             var t = document.getElementById(rid);
             if (t){ location.hash = '#' + rid; t.scrollIntoView({block: 'nearest'}); }
           });
-          var im = document.createElement('img'); im.loading = 'lazy'; im.src = m[3]; im.alt = m[4];
+          var im = document.createElement('img'); im.loading = 'lazy'; im.src = m[3]; im.alt = m[5] || m[4];
           var sp = document.createElement('span'); sp.textContent = m[4];
           a.appendChild(im); a.appendChild(sp); row.appendChild(a);
         });
@@ -458,7 +459,7 @@
         card.innerHTML = `
           ${file16 ? `<div class="preview">
             <a class="thumb" href="${esc(file16)}">
-              <img src="${esc(file16)}" alt="${esc(s.alt_text)}" loading="lazy" data-src-16="${esc(file16)}"${imgExtra} />
+              <img src="${esc(file16)}" alt="${esc(s.image_alt)}" loading="lazy" data-src-16="${esc(file16)}"${imgExtra} />
             </a>
           </div>` : ""}
           ${formats.length ? `<div class="fmt-tabs" role="group" aria-label="Image size">
@@ -613,12 +614,13 @@
          slideshow (no dataset access on digit-bearing attributes) */
       items=visibleCards().map(function(c){
         var t=c.querySelector('.caption');
+        var imEl=c.querySelector('a.thumb img');
         var daySfx=dayUsed(c,lbFormat)?' \u2014 \u2600 Daylight variant':'';
-        return{src:cardSrc(c,lbFormat),cap:(t?t.textContent:'')+daySfx};
+        return{src:cardSrc(c,lbFormat),cap:(t?t.textContent:'')+daySfx,alt:(imEl&&imEl.alt)||''};
       }).filter(function(x){return x.src;});
       if(!items.length)return;
       idx=(i+items.length)%items.length;
-      img.src=items[idx].src;img.alt=items[idx].cap;cap.textContent=items[idx].cap;
+      img.src=items[idx].src;img.alt=items[idx].alt||items[idx].cap;cap.textContent=items[idx].cap;
       count.textContent=(idx+1)+' / '+items.length;
       overlay.classList.add('open');overlay.setAttribute('aria-hidden','false');document.body.style.overflow='hidden';
     }

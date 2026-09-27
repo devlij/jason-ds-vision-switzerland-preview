@@ -131,6 +131,19 @@ def infer_daynight(scene: dict) -> str:
     return "day"
 
 
+def image_alt(scene: dict) -> str:
+    """Gallery img alt: `{caption} — {site}, {City}`.
+
+    The descriptive caption is alt_text. The place title is the scene caption,
+    which is already `site, City` (for example "Matterhorn, Zermatt").
+    """
+    place = str(scene.get("caption") or "").strip()
+    caption = str(scene.get("alt_text") or "").strip()
+    if caption and place:
+        return f"{caption} — {place}"
+    return caption or place
+
+
 def publishable_scenes(manifests: list[dict], exists=master_exists) -> list[dict]:
     scenes: list[dict] = []
     for source in manifests:
@@ -155,6 +168,7 @@ def publishable_scenes(manifests: list[dict], exists=master_exists) -> list[dict
             if exists(day16) and exists(day45):
                 scene["file_16x9_day"] = day16
                 scene["file_4x5_day"] = day45
+        scene["image_alt"] = image_alt(source)
         scenes.append(scene)
     return scenes
 
@@ -170,7 +184,7 @@ def daylight_pair(source: dict) -> tuple[str, str]:
 
 
 def phase1_meta(scenes: list[dict], tags: dict[str, dict], exists=master_exists) -> dict:
-    """entry_id -> [region, day|night, mood-tags, 16x9 thumb, caption].
+    """entry_id -> [region, day|night, mood-tags, 16x9 thumb, caption, image alt].
 
     Scenes whose 16:9 master is missing are omitted, so related thumbs and the
     day/night and mood filters never point at a file that is not on disk.
@@ -188,6 +202,7 @@ def phase1_meta(scenes: list[dict], tags: dict[str, dict], exists=master_exists)
             tag.get("moods") or "",
             thumb,
             scene.get("caption") or "",
+            scene.get("image_alt") or image_alt(scene),
         ]
     return meta
 
@@ -243,6 +258,14 @@ def main() -> None:
     html = render_index(scenes, meta)
     (ROOT / "index.html").write_text(html, encoding="utf-8")
     print(f"wrote index.html with {len(scenes)} scenes and {len(meta)} phase-1 records")
+    from build_image_sitemap import write_sitemap
+
+    stats = write_sitemap()
+    print(
+        "wrote image-sitemap.xml "
+        f"scenes={stats['scenes']} images={stats['images']} "
+        f"16:9={stats['formats']['16:9']} 4:5={stats['formats']['4:5']} 9:16={stats['formats']['9:16']}"
+    )
 
 
 if __name__ == "__main__":
