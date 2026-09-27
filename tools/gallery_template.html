@@ -468,7 +468,7 @@
           <div class="card-body">
             <div class="status-row">
               <div class="entry-id">${esc(s.entry_id)}</div>
-              <span class="status candidate">${esc(status)}</span>
+              <span class="status ${esc(status.toLowerCase())}">${esc(status)}</span>
             </div>
             <h3 class="caption">${esc(s.caption)}</h3>
             <p class="scenario" data-scenario="${esc(s.scenario_label)}">Scenario: ${esc(s.scenario_label)}</p>

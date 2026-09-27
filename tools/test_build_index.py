@@ -82,6 +82,36 @@ def test_regenerated_html_keeps_phase1_and_is_stable() -> None:
     assert "var SWITZERLAND_META = {};" in lean
 
 
+def test_daylight_pair_is_published_only_when_both_masters_exist() -> None:
+    scenes = gallery.publishable_scenes(gallery.load_manifests())
+    by_id = {scene["entry_id"]: scene for scene in scenes}
+    lit = by_id["CH-01-297"]
+    assert lit["file_16x9_day"].endswith("ch-01-297-daylight-16x9.png")
+    assert lit["file_4x5_day"].endswith("ch-01-297-daylight-4x5.png")
+    assert gallery.master_exists(lit["file_16x9_day"])
+    assert gallery.master_exists(lit["file_4x5_day"])
+    assert "file_16x9_day" not in by_id["CH-01-001"]
+    assert lit["approval_status"] == "Approved"
+
+    def exists(path: str) -> bool:
+        return path.endswith("ch-01-297-daylight-16x9.png")
+
+    published = gallery.publishable_scenes(gallery.load_manifests(), exists)
+    partial = {scene["entry_id"]: scene for scene in published}["CH-01-297"]
+    assert "file_16x9_day" not in partial
+    assert "file_4x5_day" not in partial
+
+
+def test_status_class_follows_approval_status_text() -> None:
+    scenes = gallery.publishable_scenes(gallery.load_manifests())
+    html = gallery.render_index(scenes, gallery.phase1_meta(scenes, gallery.load_tags()))
+    assert 'class="status ${esc(status.toLowerCase())}"' in html
+    assert 'class="status candidate"' not in html
+    assert "dataset.src45" not in html
+    # Approval text is copied through, not rewritten.
+    assert scenes[0]["approval_status"] == "Approved"
+
+
 def test_page_javascript_matches_python_related_order() -> None:
     scenes = gallery.publishable_scenes(gallery.load_manifests())
     meta = gallery.phase1_meta(scenes, gallery.load_tags())
@@ -135,6 +165,8 @@ def main() -> None:
     test_publishable_scenes_match_recorded_fields()
     test_related_is_region_first_then_mood_then_id()
     test_missing_master_is_omitted_from_scene_and_related()
+    test_daylight_pair_is_published_only_when_both_masters_exist()
+    test_status_class_follows_approval_status_text()
     test_regenerated_html_keeps_phase1_and_is_stable()
     test_page_javascript_matches_python_related_order()
     print("phase-1 generator tests passed")
