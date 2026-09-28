@@ -12,7 +12,7 @@
   "file_4x5": "library/world/Switzerland/Gruyères/ch-01-008-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate",
+  "approval_status": "Approved",
   "qc_notes": [
     {
       "at": "2026-09-25T04:34:21.739714+00:00",
@@ -55,10 +55,10 @@
       "note": "Builder weather rework 2026-09-27 for CH-01-008. Own Open-Meteo archive GET, HTTP Date Sun, 27 Sep 2026 16:51:08 GMT, retrieved 2026-09-27T16:51:08Z, valid 2026-09-24T14:00 Europe/Zurich, model-valid hour 14:00–14:59, scenario 24 September 2026 · 14:40 Europe/Zurich inside that hour. Weather code 3 (overcast), cloud 100%, 20.6°C, is_day 1. Masters re-rendered at 1920×1270, 864×1270, and 1080×2110 with a 190px #0e0e12 label bar. Status Candidate. Not an approval."
     }
   ],
-  "qc_status": "Candidate · weather rework 2026-09-27 · not approved",
-  "approval_basis": "Builder weather rework 2026-09-27 for CH-01-008. Own Open-Meteo archive GET, HTTP Date Sun, 27 Sep 2026 16:51:08 GMT, retrieved 2026-09-27T16:51:08Z, valid 2026-09-24T14:00 Europe/Zurich, model-valid hour 14:00–14:59, scenario 24 September 2026 · 14:40 Europe/Zurich inside that hour. Weather code 3 (overcast), cloud 100%, 20.6°C, is_day 1. Masters re-rendered at 1920×1270, 864×1270, and 1080×2110 with a 190px #0e0e12 label bar. Status Candidate. Not an approval.",
-  "sha256_16x9": "ec26cda0e9eb6dc09a9d4c0562eaa52a13a59f487c3db9c7e30610514c8c7946",
-  "sha256_4x5": "b063fbac00f04f82c3b3d508ba8847baadbe2557d1df74bf54c14ffb4ec1355b",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "Open-Meteo retrieval 2026-09-27T16:51:08Z (unique to the second, repo-wide verified, 2026-09-27) — Gate 2 hardened-weather law satisfied. CH-01-008: Gruyères Castle, Gruyères. G1: the castle with its round towers on the hilltop above the cobbled old-town street, forested Fribourg foothills behind. G2: dims exact; 'Gruyères Castle, Gruyères' / 14:40. G3–G5 clear.",
+  "sha256_16x9": "56b0c5c64ff3951894cab002bbac47de5ec35ca42f78a58e1f01a17dd66be069",
+  "sha256_4x5": "c8a73a922427d663012b8d4535e08e1b541d7192c61bda358b5081cc26c66955",
   "reverted_at": "2026-09-25T12:40:11.070345+00:00",
   "file_9x16": "library/world/Switzerland/Gruyères/ch-01-008-9x16.png",
   "sha256_9x16": "2c49d254a4369c73dc3c6a6ee3bc5103d58bf0d1f2b2145b2e2469b0eb5b2313",
@@ -80,5 +80,6 @@
     "elevation": 811.0,
     "latitude": 46.5834,
     "longitude": 7.0837
-  }
+  },
+  "approved_at": "2026-09-28T01:03:34.034331+00:00"
 }
