@@ -12,11 +12,11 @@
   "file_4x5": "library/world/Switzerland/Lucerne/ch-01-020-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate",
-  "qc_status": "Candidate · weather rework 2026-09-27 · not approved",
-  "approval_basis": "Builder weather rework 2026-09-27 for CH-01-020. Own Open-Meteo archive GET, HTTP Date Sun, 27 Sep 2026 16:51:24 GMT, retrieved 2026-09-27T16:51:24Z, valid 2026-09-24T15:00 Europe/Zurich, model-valid hour 15:00–15:59, scenario 24 September 2026 · 15:08 Europe/Zurich inside that hour. Weather code 3 (overcast), cloud 99%, 21.4°C, is_day 1. Masters re-rendered at 1920×1270, 864×1270, and 1080×2110 with a 190px #0e0e12 label bar. Status Candidate. Not an approval.",
-  "sha256_16x9": "5e5e2e5a07c3133132c78b96c4a74a6bb2e53247c5f76a99f28e3a6d46877df9",
-  "sha256_4x5": "e810cce8fd45811fcae6760ce6e3583ab33b29c157587558906a0cfa9cc5fe67",
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "Approved · Cosmo QC 5/5 · Daylight. Gate 1: jagged rocky Pilatus massif with snow patches rising over Lake Lucerne, shoreline town at its foot — recognizable from the lakeside viewpoint; clean, no artifacts. Gate 2: dims verified; on-bar 'Mount Pilatus, Lucerne', 'Scenario: 24 September 2026 · 15:08 Europe/Zurich', disclosure + signature; retrieval 2026-09-27T16:51:24Z unique, 15:08 inside 15:00-15:59, code 3/99%/21.4°C. Gate 3: text-prompt-only lineage. Gate 4: no people, no logos. Gate 5: no blockers.",
+  "sha256_16x9": "47042a29c7199976270b1a56f5fedbc88efc8ef95b9ccae6207e1416a1c91c6b",
+  "sha256_4x5": "931f087a81118828bfd6334cb4f4edc83b41e8c281385e1003fd6ee8d535bb8b",
   "reverted_at": "2026-09-25T12:40:44.738358+00:00",
   "qc_notes": [
     {
@@ -50,5 +50,6 @@
     "elevation": 434.0,
     "latitude": 47.0532,
     "longitude": 8.3125
-  }
+  },
+  "approved_at": "2026-09-28T12:27:02.000322+00:00"
 }
