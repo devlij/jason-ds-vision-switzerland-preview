@@ -12,11 +12,11 @@
   "file_4x5": "library/world/Switzerland/Brienz/ch-01-025-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate",
-  "qc_status": "Candidate · weather rework 2026-09-27 · not approved",
-  "approval_basis": "Builder weather rework 2026-09-27 for CH-01-025. Own Open-Meteo archive GET, HTTP Date Sun, 27 Sep 2026 16:51:31 GMT, retrieved 2026-09-27T16:51:31Z, valid 2026-09-24T15:00 Europe/Zurich, model-valid hour 15:00–15:59, scenario 24 September 2026 · 15:09 Europe/Zurich inside that hour. Weather code 3 (overcast), cloud 100%, 21.8°C, is_day 1. Masters re-rendered at 1920×1270, 864×1270, and 1080×2110 with a 190px #0e0e12 label bar. Status Candidate. Not an approval.",
-  "sha256_16x9": "a402d87280c1f46206903e77274f4cbd2ffa1fea43f2c4bc85646a7eefd48065",
-  "sha256_4x5": "1c7f62412a8cb5d6c1e0ca2da5f1c11ef2d343b5e29b664909138b72c2287d66",
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "Approved · Cosmo QC 5/5 · Daylight. Gate 1: Brienz's lakeside village with church spire, wooden boathouses at the water's edge, Lake Brienz, cloud-capped mountains behind — correct identity; clean framing. Gate 2: dims verified; on-bar 'Brienz, Brienz', 'Scenario: 24 September 2026 · 15:09 Europe/Zurich', disclosure + signature; retrieval 2026-09-27T16:51:31Z unique, 15:09 inside 15:00-15:59, code 3/100%/21.8°C. Gate 3: text-prompt-only lineage. Gate 4: no identifiable people, no logos. Gate 5: no blockers.",
+  "sha256_16x9": "b92d0bfd430d47f94991c0e97dcb213cb73dcc873c9c7731c4adbc20f972268d",
+  "sha256_4x5": "50b41e0e34858f0aec3a58c382bec8c785da44c9fe80c51d4f1f5078ff809df6",
   "reverted_at": "2026-09-25T12:40:57.283244+00:00",
   "qc_notes": [
     {
@@ -50,5 +50,6 @@
     "elevation": 569.0,
     "latitude": 46.754,
     "longitude": 8.0315
-  }
+  },
+  "approved_at": "2026-09-28T12:32:17.490944+00:00"
 }
