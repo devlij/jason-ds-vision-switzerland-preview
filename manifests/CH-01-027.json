@@ -12,11 +12,11 @@
   "file_4x5": "library/world/Switzerland/Zurich/ch-01-027-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate",
-  "qc_status": "Candidate · weather rework 2026-09-27 · not approved",
-  "approval_basis": "Builder weather rework 2026-09-27 for CH-01-027. Own Open-Meteo archive GET, HTTP Date Sun, 27 Sep 2026 16:51:34 GMT, retrieved 2026-09-27T16:51:34Z, valid 2026-09-24T15:00 Europe/Zurich, model-valid hour 15:00–15:59, scenario 24 September 2026 · 15:09 Europe/Zurich inside that hour. Weather code 3 (overcast), cloud 98%, 19.5°C, is_day 1. Masters re-rendered at 1920×1270, 864×1270, and 1080×2110 with a 190px #0e0e12 label bar. Status Candidate. Not an approval.",
-  "sha256_16x9": "d1108825d03bcad758c133e6941fede2a65e254ac6846837b81451bfe2d8d11d",
-  "sha256_4x5": "228e580c1337c38832a23be69856957baed4665ad7c1e2ebd72c4dfbd2af87ad",
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "Approved · Cosmo QC 5/5 · Daylight. Gate 1: Uetliberg summit viewpoint with railing, panoramic view over Zurich and the lake under a low cloud band — correct identity; clean framing. Gate 2: dims verified; on-bar 'Uetliberg, Zurich', 'Scenario: 24 September 2026 · 15:09 Europe/Zurich', disclosure + signature; retrieval 2026-09-27T16:51:34Z unique, 15:09 inside 15:00-15:59, code 3/98%/19.5°C. Gate 3: text-prompt-only lineage. Gate 4: no people, no logos. Gate 5: no blockers.",
+  "sha256_16x9": "ce0a6c39a762eb47a57768032ed9bc1ce2484add65209556912cc6093cfcc3eb",
+  "sha256_4x5": "b09fd69fe31d647dadddb137fb7625268d3e9dc97ccbab55ca22424f60dafdb5",
   "reverted_at": "2026-09-25T12:41:02.455091+00:00",
   "qc_notes": [
     {
@@ -50,5 +50,6 @@
     "elevation": 866.0,
     "latitude": 47.3494,
     "longitude": 8.4913
-  }
+  },
+  "approved_at": "2026-09-28T12:34:22.952899+00:00"
 }
