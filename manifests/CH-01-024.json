@@ -12,7 +12,7 @@
   "file_4x5": "library/world/Switzerland/Mürren/ch-01-024-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate",
+  "approval_status": "Approved",
   "qc_notes": [
     {
       "at": "2026-09-25T06:32:24.343091+00:00",
@@ -35,11 +35,11 @@
       "note": "Builder weather rework 2026-09-27 for CH-01-024. Own Open-Meteo archive GET, HTTP Date Sun, 27 Sep 2026 16:51:30 GMT, retrieved 2026-09-27T16:51:30Z, valid 2026-09-24T15:00 Europe/Zurich, model-valid hour 15:00–15:59, scenario 24 September 2026 · 15:09 Europe/Zurich inside that hour. Weather code 3 (overcast), cloud 99%, 15.5°C, is_day 1. Masters re-rendered at 1920×1270, 864×1270, and 1080×2110 with a 190px #0e0e12 label bar. Status Candidate. Not an approval."
     }
   ],
-  "qc_status": "Candidate · weather rework 2026-09-27 · not approved",
-  "approval_basis": "Builder weather rework 2026-09-27 for CH-01-024. Own Open-Meteo archive GET, HTTP Date Sun, 27 Sep 2026 16:51:30 GMT, retrieved 2026-09-27T16:51:30Z, valid 2026-09-24T15:00 Europe/Zurich, model-valid hour 15:00–15:59, scenario 24 September 2026 · 15:09 Europe/Zurich inside that hour. Weather code 3 (overcast), cloud 99%, 15.5°C, is_day 1. Masters re-rendered at 1920×1270, 864×1270, and 1080×2110 with a 190px #0e0e12 label bar. Status Candidate. Not an approval.",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "Approved · Cosmo QC 5/5 · Daylight. Gate 1: Mürren's chalets along a village path with the church, Schilthorn massif behind in cloud — correct identity; clean framing, no artifacts. Gate 2: dims verified; on-bar 'Mürren, Mürren', 'Scenario: 24 September 2026 · 15:09 Europe/Zurich', disclosure + signature; retrieval 2026-09-27T16:51:30Z unique, 15:09 inside 15:00-15:59, code 3/99%/15.5°C. Prior 2026-09-25 mechanical FAIL was cleared same-day by a re-check PASS note; no open holds. Gate 3: text-prompt-only lineage. Gate 4: no identifiable people, no logos. Gate 5: no blockers.",
   "reverted_at": "2026-09-25T12:40:54.887591+00:00",
-  "sha256_16x9": "2168c6bb990821139c686fc0ba68e98fb745be80fe25ce00eb4e3a06fac31b1f",
-  "sha256_4x5": "76d035a8d00e03dda3e8867eb74ebe43aea72c4c283ac070e363a4df840efc36",
+  "sha256_16x9": "5816494355ee8b36de22d7f894da7c3421f72edcf1e94a356cc0ce30b83118cb",
+  "sha256_4x5": "0b67a22a124f5ba6a3e9731d5c29576e5a9350fd173b3eb04bcb3802520a3369",
   "file_9x16": "library/world/Switzerland/Mürren/ch-01-024-9x16.png",
   "sha256_9x16": "e0c6083cf10340ced049c365396d90318cb6bf84c764170b45c3d65b59ebf840",
   "open_meteo": {
@@ -60,5 +60,6 @@
     "elevation": 1658.0,
     "latitude": 46.5594,
     "longitude": 7.8923
-  }
+  },
+  "approved_at": "2026-09-28T12:31:15.354915+00:00"
 }
