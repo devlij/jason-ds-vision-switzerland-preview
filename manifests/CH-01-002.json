@@ -12,11 +12,11 @@
   "file_4x5": "library/world/Switzerland/Lucerne/ch-01-002-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate",
-  "qc_status": "Candidate · weather rework 2026-09-27 · not approved",
-  "approval_basis": "Builder weather rework 2026-09-27 for CH-01-002. Own Open-Meteo archive GET, HTTP Date Sun, 27 Sep 2026 16:50:59 GMT, retrieved 2026-09-27T16:50:59Z, valid 2026-09-24T14:00 Europe/Zurich, model-valid hour 14:00–14:59, scenario 24 September 2026 · 14:38 Europe/Zurich inside that hour. Weather code 3 (overcast), cloud 99%, 21.5°C, is_day 1. Masters re-rendered at 1920×1270, 864×1270, and 1080×2110 with a 190px #0e0e12 label bar. Status Candidate. Not an approval.",
-  "sha256_16x9": "0180e927cef2dca163e621b2b49a0f6b7929d374c8e678ba8658e9827384f741",
-  "sha256_4x5": "5496c58ab61451877a795ce4706ac85ee19b0311434877133d4858e83fe647b4",
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "Open-Meteo retrieval 2026-09-27T16:50:59Z (unique to the second, repo-wide verified, 2026-09-27) — Gate 2 hardened-weather law satisfied. CH-01-002: Chapel Bridge, Lucerne. G1: covered wooden Kapellbrücke spanning the Reuss, octagonal stone Wasserturm at the bend, Lucerne old-town façades with the St. Peter's spire behind, flower boxes along the bridge rail — north-bank viewpoint. G2: dims exact; 'Chapel Bridge, Lucerne' / '24 September 2026 · 14:38 Europe/Zurich'. G3–G5 clear.",
+  "sha256_16x9": "fb8507a86e6fdcb13424a966cfef479a98f5d7d0c68cc97d4f57cbdca2d7eae2",
+  "sha256_4x5": "503191f1dc833e3e03581e37aa4f3e728b4500818200878cce221aba877b0459",
   "reverted_at": "2026-09-25T12:39:46.508223+00:00",
   "qc_notes": [
     {
@@ -80,5 +80,6 @@
     "elevation": 433.0,
     "latitude": 47.0516,
     "longitude": 8.3074
-  }
+  },
+  "approved_at": "2026-09-28T01:03:04.312407+00:00"
 }
