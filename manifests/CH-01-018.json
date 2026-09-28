@@ -12,11 +12,11 @@
   "file_4x5": "library/world/Switzerland/Bettmeralp/ch-01-018-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate",
-  "qc_status": "Candidate · weather rework 2026-09-27 · not approved",
-  "approval_basis": "Builder weather rework 2026-09-27 for CH-01-018. Own Open-Meteo archive GET, HTTP Date Sun, 27 Sep 2026 16:51:22 GMT, retrieved 2026-09-27T16:51:22Z, valid 2026-09-24T15:00 Europe/Zurich, model-valid hour 15:00–15:59, scenario 24 September 2026 · 15:08 Europe/Zurich inside that hour. Weather code 3 (overcast), cloud 95%, 16.4°C, is_day 1. Masters re-rendered at 1920×1270, 864×1270, and 1080×2110 with a 190px #0e0e12 label bar. Status Candidate. Not an approval.",
-  "sha256_16x9": "5f01f58de34c2a256f9937e01cc92034b49fc282ae5652da16d06e17deec6451",
-  "sha256_4x5": "257ac0c3591173dad1933d066d11012b684eb5dbaef90c770604bf17879bdc47",
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "Approved · Cosmo QC 5/5 · Daylight. Gate 1: Great Aletsch Glacier as a long ice stream with dark medial moraine and a broad curve, cloud-shrouded peaks closing the head, rocky Bettmerhorn ridge foreground — recognizable, clean framing. Gate 2: dims verified; on-bar 'Aletsch Glacier, Bettmeralp', 'Scenario: 24 September 2026 · 15:08 Europe/Zurich', disclosure + signature; retrieval 2026-09-27T16:51:22Z unique, 15:08 inside 15:00-15:59, code 3/95%/16.4°C matching flat gray light on the ice. Gate 3: text-prompt-only lineage. Gate 4: no people, no logos. Gate 5: no blockers.",
+  "sha256_16x9": "a2972c30636005a3b54c02ca677d2f50e3419dddb0835cf0307db2ddc4f165f2",
+  "sha256_4x5": "aa7bb34a4b132cfee1fe20a561d49930642944c74dcf78177523f5cd4f32bf63",
   "reverted_at": "2026-09-25T12:40:39.816348+00:00",
   "qc_notes": [
     {
@@ -50,5 +50,6 @@
     "elevation": 2042.0,
     "latitude": 46.3909,
     "longitude": 8.0758
-  }
+  },
+  "approved_at": "2026-09-28T12:24:56.177384+00:00"
 }
