@@ -12,11 +12,11 @@
   "file_4x5": "library/world/Switzerland/Lauterbrunnen/ch-01-007-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate",
-  "qc_status": "Candidate · weather rework 2026-09-27 · not approved",
-  "approval_basis": "Builder weather rework 2026-09-27 for CH-01-007. Own Open-Meteo archive GET, HTTP Date Sun, 27 Sep 2026 16:51:06 GMT, retrieved 2026-09-27T16:51:06Z, valid 2026-09-24T14:00 Europe/Zurich, model-valid hour 14:00–14:59, scenario 24 September 2026 · 14:40 Europe/Zurich inside that hour. Weather code 3 (overcast), cloud 98%, 21.3°C, is_day 1. Masters re-rendered at 1920×1270, 864×1270, and 1080×2110 with a 190px #0e0e12 label bar. Status Candidate. Not an approval.",
-  "sha256_16x9": "01fd29626475409d785b010cdfb80e1ad4b160d1a83262d7d863f8dd03dbc991",
-  "sha256_4x5": "1dac0d5e4e19d350f1079f695d3a9d5748476c9caa1b467b0d8a88c1434be972",
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "Open-Meteo retrieval 2026-09-27T16:51:06Z (unique to the second, repo-wide verified, 2026-09-27) — Gate 2 hardened-weather law satisfied. CH-01-007: Staubbach Falls, Lauterbrunnen. G1: Staubbach's tall free-fall stream down the cliff face above the valley, Lauterbrunnen village chalets and the white church spire at its base; 4:5 tightens on the fall and village street, same subject. G2: dims exact; 'Staubbach Falls, Lauterbrunnen' / 14:40. G3–G5 clear.",
+  "sha256_16x9": "7cf29cc8d04a2bbcfc359d022afaab0147bca7232aa6657a5171ed4c66138d26",
+  "sha256_4x5": "c563ef2e4087fd6765f2edd7a06135256bbf755e86445e5093421f4cd44e7ef0",
   "reverted_at": "2026-09-25T12:40:08.159760+00:00",
   "qc_notes": [
     {
@@ -75,5 +75,6 @@
     "elevation": 799.0,
     "latitude": 46.5932,
     "longitude": 7.9087
-  }
+  },
+  "approved_at": "2026-09-28T01:03:29.146158+00:00"
 }
