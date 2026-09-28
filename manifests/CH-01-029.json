@@ -12,11 +12,11 @@
   "file_4x5": "library/world/Switzerland/Geneva/ch-01-029-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate",
-  "qc_status": "Candidate · weather rework 2026-09-27 · not approved",
-  "approval_basis": "Builder weather rework 2026-09-27 for CH-01-029. Own Open-Meteo archive GET, HTTP Date Sun, 27 Sep 2026 16:53:17 GMT, retrieved 2026-09-27T16:53:17Z, valid 2026-09-24T15:00 Europe/Zurich, model-valid hour 15:00–15:59, scenario 24 September 2026 · 15:09 Europe/Zurich inside that hour. Weather code 3 (overcast), cloud 99%, 25.1°C, is_day 1. Masters re-rendered at 1920×1270, 864×1270, and 1080×2110 with a 190px #0e0e12 label bar. Status Candidate. Not an approval.",
-  "sha256_16x9": "c73e1303b2c3cd020656e96912b992b63d2f6754fcf76764128c599692a37bdd",
-  "sha256_4x5": "fcc984f121f6aa01a79f3d98e147a2136beea65ca6068dc075d175ff548f6dad",
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "Approved · Cosmo QC 5/5 · Daylight. Gate 1: St. Pierre Cathedral with its neo-classical columned portico and Gothic north tower with spire, Geneva old town around it — correct identity; clean framing. Gate 2: dims verified; on-bar 'St. Pierre Cathedral, Geneva', 'Scenario: 24 September 2026 · 15:09 Europe/Zurich', disclosure + signature; retrieval 2026-09-27T16:53:17Z unique, 15:09 inside 15:00-15:59, code 3/99%/25.1°C. Gate 3: text-prompt-only lineage. Gate 4: no people, no logos. Gate 5: no blockers.",
+  "sha256_16x9": "792e2df6f98000595530e309200a91af7fbfc4bb01e861ce90015fc88d34abff",
+  "sha256_4x5": "c4c78dc0b7a25720f5dba07df04a166dafe39c62ccf24a3634f748c7529c6539",
   "reverted_at": "2026-09-25T12:41:07.377884+00:00",
   "qc_notes": [
     {
@@ -50,5 +50,6 @@
     "elevation": 408.0,
     "latitude": 46.2012,
     "longitude": 6.1483
-  }
+  },
+  "approved_at": "2026-09-28T12:36:28.527132+00:00"
 }
