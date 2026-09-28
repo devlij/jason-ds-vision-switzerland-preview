@@ -12,11 +12,11 @@
   "file_4x5": "library/world/Switzerland/Interlaken/ch-01-003-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate",
-  "qc_status": "Candidate · weather rework 2026-09-27 · not approved",
-  "approval_basis": "Builder weather rework 2026-09-27 for CH-01-003. Own Open-Meteo archive GET, HTTP Date Sun, 27 Sep 2026 16:51:01 GMT, retrieved 2026-09-27T16:51:01Z, valid 2026-09-24T14:00 Europe/Zurich, model-valid hour 14:00–14:59, scenario 24 September 2026 · 14:38 Europe/Zurich inside that hour. Weather code 3 (overcast), cloud 99%, 20.1°C, is_day 1. Masters re-rendered at 1920×1270, 864×1270, and 1080×2110 with a 190px #0e0e12 label bar. Status Candidate. Not an approval.",
-  "sha256_16x9": "e96e99a65974d40e67e879049d6b4002f3edf21904a083aec42f516f650beea1",
-  "sha256_4x5": "5763a01507fe4dfdb95c46afde889c5142b6ca2a7b53507503712ee3a2c6961d",
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "Open-Meteo retrieval 2026-09-27T16:51:01Z (unique to the second, repo-wide verified, 2026-09-27) — Gate 2 hardened-weather law satisfied. CH-01-003: Jungfrau, Interlaken. G1: Interlaken town spread between Lake Thun and Lake Brienz in the valley floor, snow-capped Jungfrau massif (Eiger/Mönch shoulders) rising behind under overcast — plausible high viewpoint. G2: dims exact; 'Jungfrau, Interlaken' / 14:38. G3–G5 clear.",
+  "sha256_16x9": "913ce4f2203264eca0c7be0888a53c8618e09f470ff2a8009b7fc2cf6aa7ce1f",
+  "sha256_4x5": "9709e7ecbde51277a85661b45e548f3e3b125d42c140f459f33a8f9842cef23a",
   "reverted_at": "2026-09-25T12:39:48.113663+00:00",
   "qc_notes": [
     {
@@ -80,5 +80,6 @@
     "elevation": 905.0,
     "latitude": 46.6958,
     "longitude": 7.8642
-  }
+  },
+  "approved_at": "2026-09-28T01:03:09.510871+00:00"
 }
