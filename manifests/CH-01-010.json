@@ -12,7 +12,7 @@
   "file_4x5": "library/world/Switzerland/St. Moritz/ch-01-010-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate",
+  "approval_status": "Approved",
   "qc_notes": [
     {
       "at": "2026-09-25T04:34:23.415609+00:00",
@@ -60,10 +60,10 @@
       "note": "Builder weather rework 2026-09-27 for CH-01-010. Own Open-Meteo archive GET, HTTP Date Sun, 27 Sep 2026 16:51:10 GMT, retrieved 2026-09-27T16:51:10Z, valid 2026-09-24T14:00 Europe/Zurich, model-valid hour 14:00–14:59, scenario 24 September 2026 · 14:40 Europe/Zurich inside that hour. Weather code 2 (partly cloudy), cloud 74%, 14.2°C, is_day 1. Masters re-rendered at 1920×1270, 864×1270, and 1080×2110 with a 190px #0e0e12 label bar. Status Candidate. Not an approval."
     }
   ],
-  "qc_status": "Candidate · weather rework 2026-09-27 · not approved",
-  "approval_basis": "Builder weather rework 2026-09-27 for CH-01-010. Own Open-Meteo archive GET, HTTP Date Sun, 27 Sep 2026 16:51:10 GMT, retrieved 2026-09-27T16:51:10Z, valid 2026-09-24T14:00 Europe/Zurich, model-valid hour 14:00–14:59, scenario 24 September 2026 · 14:40 Europe/Zurich inside that hour. Weather code 2 (partly cloudy), cloud 74%, 14.2°C, is_day 1. Masters re-rendered at 1920×1270, 864×1270, and 1080×2110 with a 190px #0e0e12 label bar. Status Candidate. Not an approval.",
-  "sha256_16x9": "44ba0f9b3c73b3ec99c21456cb080b95c81ab3fd6bfbffc07c8fb1c67857a63e",
-  "sha256_4x5": "248c26c83b70f3eab945e5496ced5163c26fa8257964939c32d46c3be0172021",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "Open-Meteo retrieval 2026-09-27T16:51:10Z (unique to the second, repo-wide verified, 2026-09-27) — Gate 2 hardened-weather law satisfied. CH-01-010: Lake St. Moritz, St. Moritz. G1: the lake with the town on the far shore and the Piz Nair range behind, partly-blue sky consistent with recorded weather code 2 / 74% cloud. G2: dims exact; 'Lake St. Moritz, St. Moritz' / 14:40. G3–G5 clear.",
+  "sha256_16x9": "cbf55784befdefe8203954f41db6324c60ee749a8ee205fb744212ef6a66c19c",
+  "sha256_4x5": "ea4428d1d98fc3339de51e843670e8382f78c32daf9dbca8a0941860830dacc9",
   "reverted_at": "2026-09-25T12:40:16.093790+00:00",
   "file_9x16": "library/world/Switzerland/St. Moritz/ch-01-010-9x16.png",
   "sha256_9x16": "9a44c8cd8c4463e7b9f863ecd1f9c609a11bf155a36f902ed13446f8b67373d5",
@@ -85,5 +85,6 @@
     "elevation": 1833.0,
     "latitude": 46.497,
     "longitude": 9.838
-  }
+  },
+  "approved_at": "2026-09-28T01:03:43.067039+00:00"
 }
