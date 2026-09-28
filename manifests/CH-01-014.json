@@ -12,11 +12,11 @@
   "file_4x5": "library/world/Switzerland/Thun/ch-01-014-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate",
-  "qc_status": "Candidate · weather rework 2026-09-27 · not approved",
-  "approval_basis": "Builder weather rework 2026-09-27 for CH-01-014. Own Open-Meteo archive GET, HTTP Date Sun, 27 Sep 2026 16:51:16 GMT, retrieved 2026-09-27T16:51:16Z, valid 2026-09-24T14:00 Europe/Zurich, model-valid hour 14:00–14:59, scenario 24 September 2026 · 14:42 Europe/Zurich inside that hour. Weather code 3 (overcast), cloud 100%, 21.6°C, is_day 1. Masters re-rendered at 1920×1270, 864×1270, and 1080×2110 with a 190px #0e0e12 label bar. Status Candidate. Not an approval.",
-  "sha256_16x9": "98a12694137ecf5928fdfe5444535991fd3754cc667f1307615dc651eab52b4c",
-  "sha256_4x5": "6a5798f566058acb8633723a2a4c55e5c3bad144c4d27b50fd4652bc88ac6ce6",
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "Open-Meteo retrieval 2026-09-27T16:51:16Z (unique to the second, repo-wide verified, 2026-09-27) — Gate 2 hardened-weather law satisfied. CH-01-014: Thun Castle, Thun. G1: the massive white keep with four corner turrets above the old town rooftops, the Aare and snow peaks behind. G2: dims exact; 'Thun Castle, Thun' / 14:42. G3–G5 clear.",
+  "sha256_16x9": "05732f862bf1d2660d2451009b71be151b25db731c29821acbe882754c4357fe",
+  "sha256_4x5": "be901da187ed64939010637a0688365901fbabcfe9d5738ca060c927212fbb3d",
   "reverted_at": "2026-09-25T12:40:25.780701+00:00",
   "qc_notes": [
     {
@@ -50,5 +50,6 @@
     "elevation": 567.0,
     "latitude": 46.7584,
     "longitude": 7.6298
-  }
+  },
+  "approved_at": "2026-09-28T01:04:02.080770+00:00"
 }
