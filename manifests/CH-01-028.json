@@ -12,11 +12,11 @@
   "file_4x5": "library/world/Switzerland/Rapperswil/ch-01-028-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate",
-  "qc_status": "Candidate · weather rework 2026-09-27 · not approved",
-  "approval_basis": "Builder weather rework 2026-09-27 for CH-01-028. Own Open-Meteo archive GET, HTTP Date Sun, 27 Sep 2026 16:51:35 GMT, retrieved 2026-09-27T16:51:35Z, valid 2026-09-24T15:00 Europe/Zurich, model-valid hour 15:00–15:59, scenario 24 September 2026 · 15:09 Europe/Zurich inside that hour. Weather code 3 (overcast), cloud 97%, 22.8°C, is_day 1. Masters re-rendered at 1920×1270, 864×1270, and 1080×2110 with a 190px #0e0e12 label bar. Status Candidate. Not an approval.",
-  "sha256_16x9": "086adddff38f0fe4363b01e8d1fb0dc346c279a8a5d12314ee8b1cc95161fd7e",
-  "sha256_4x5": "0b688fdcdbe962403e8e4201b3541038a215029c55343b40a5da6513b0bfdc6d",
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "Approved · Cosmo QC 5/5 · Daylight. Gate 1: Rapperswil Castle with three towers on the rocky promontory, St. John's church spire, old town houses, Lake Zurich with the wooden footbridge — correct identity; clean framing. Gate 2: dims verified; on-bar 'Rapperswil Castle, Rapperswil', 'Scenario: 24 September 2026 · 15:09 Europe/Zurich', disclosure + signature; retrieval 2026-09-27T16:51:35Z unique, 15:09 inside 15:00-15:59, code 3/97%/22.8°C. Gate 3: text-prompt-only lineage. Gate 4: no identifiable people, no logos. Gate 5: no blockers.",
+  "sha256_16x9": "f2bc549b9ca03956c5ba0b4341c56c968f1d406814ffb1c63d1a3eb343261b80",
+  "sha256_4x5": "5fd743262b1503b348c44f87db44b2bda51890a0face9563a2a69aa5a945980c",
   "reverted_at": "2026-09-25T12:41:04.832327+00:00",
   "qc_notes": [
     {
@@ -50,5 +50,6 @@
     "elevation": 423.0,
     "latitude": 47.2269,
     "longitude": 8.8157
-  }
+  },
+  "approved_at": "2026-09-28T12:35:26.106101+00:00"
 }
