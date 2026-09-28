@@ -12,11 +12,11 @@
   "file_4x5": "library/world/Switzerland/Zurich/ch-01-026-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate",
-  "qc_status": "Candidate · weather rework 2026-09-27 · not approved",
-  "approval_basis": "Builder weather rework 2026-09-27 for CH-01-026. Own Open-Meteo archive GET, HTTP Date Sun, 27 Sep 2026 16:51:33 GMT, retrieved 2026-09-27T16:51:33Z, valid 2026-09-24T15:00 Europe/Zurich, model-valid hour 15:00–15:59, scenario 24 September 2026 · 15:09 Europe/Zurich inside that hour. Weather code 3 (overcast), cloud 98%, 22.1°C, is_day 1. Masters re-rendered at 1920×1270, 864×1270, and 1080×2110 with a 190px #0e0e12 label bar. Status Candidate. Not an approval.",
-  "sha256_16x9": "359eafb977c884222d9e10ca6c1871db6d526c52e3c5576968d190271f1aba1d",
-  "sha256_4x5": "3f9df7b2f9af63ea13d6fe1f18692d12fda579994ccf07dd4415da3062c27963",
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "Approved · Cosmo QC 5/5 · Daylight. Gate 1: Grossmünster's twin-towered Romanesque church with apse and stonework on the Münsterhof plaza — correct identity; clean framing, no artifacts. Gate 2: dims verified; on-bar 'Grossmünster, Zurich', 'Scenario: 24 September 2026 · 15:09 Europe/Zurich', disclosure + signature; retrieval 2026-09-27T16:51:33Z unique, 15:09 inside 15:00-15:59, code 3/98%/22.1°C. Gate 3: text-prompt-only lineage. Gate 4: no people, no logos. Gate 5: no blockers.",
+  "sha256_16x9": "74ff05fbb1430fb30fc418c909f484a2e501e46ce41dd7325c89b5158e1f6a56",
+  "sha256_4x5": "485d8e6817708a295fa40b09760add9e9166d0cf8c4d88f1e57ae3113c59be34",
   "reverted_at": "2026-09-25T12:40:59.849680+00:00",
   "qc_notes": [
     {
@@ -50,5 +50,6 @@
     "elevation": 426.0,
     "latitude": 47.3702,
     "longitude": 8.5443
-  }
+  },
+  "approved_at": "2026-09-28T12:33:19.156113+00:00"
 }
