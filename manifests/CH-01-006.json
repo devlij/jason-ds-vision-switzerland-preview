@@ -12,11 +12,11 @@
   "file_4x5": "library/world/Switzerland/Zurich/ch-01-006-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate",
-  "qc_status": "Candidate · weather rework 2026-09-27 · not approved",
-  "approval_basis": "Builder weather rework 2026-09-27 for CH-01-006. Own Open-Meteo archive GET, HTTP Date Sun, 27 Sep 2026 16:51:05 GMT, retrieved 2026-09-27T16:51:05Z, valid 2026-09-24T14:00 Europe/Zurich, model-valid hour 14:00–14:59, scenario 24 September 2026 · 14:40 Europe/Zurich inside that hour. Weather code 3 (overcast), cloud 91%, 22.2°C, is_day 1. Masters re-rendered at 1920×1270, 864×1270, and 1080×2110 with a 190px #0e0e12 label bar. Status Candidate. Not an approval.",
-  "sha256_16x9": "c073f1fe1ecfe45f0d8690d78defb2eaa2a3552a1570a003e614f3d83a6dd9fa",
-  "sha256_4x5": "1c41fe8a19e94462876c8d07b7d702419341e6a3043645e1e19ba944e8253406",
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "Open-Meteo retrieval 2026-09-27T16:51:05Z (unique to the second, repo-wide verified, 2026-09-27) — Gate 2 hardened-weather law satisfied. CH-01-006: Limmatquai, Zurich. G1: Limmat riverfront with the Grossmünster's twin towers, historic guild houses along the Limmatquai, bridge at frame edge. G2: dims exact; 'Limmatquai, Zurich' / 14:40. G3–G5 clear.",
+  "sha256_16x9": "3560593c9bfd977869654cc2afa3c41f19a0f0e1daada121cd2c150ba548eec5",
+  "sha256_4x5": "ad8392304b5b1bdf4774948a58670b88b4de2d805f3feec02008d2d2d8d6c3c3",
   "reverted_at": "2026-09-25T12:40:05.625559+00:00",
   "qc_notes": [
     {
@@ -75,5 +75,6 @@
     "elevation": 405.0,
     "latitude": 47.3695,
     "longitude": 8.5428
-  }
+  },
+  "approved_at": "2026-09-28T01:03:24.367787+00:00"
 }
