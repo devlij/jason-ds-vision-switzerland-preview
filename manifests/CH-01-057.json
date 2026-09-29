@@ -12,9 +12,9 @@
   "file_4x5": "library/world/Switzerland/Chur/ch-01-057-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate",
-  "qc_status": "Candidate · weather rework 2026-09-27 · not approved",
-  "approval_basis": "Builder weather rework 2026-09-27 for CH-01-057. Own Open-Meteo archive GET, HTTP Date Sun, 27 Sep 2026 16:53:56 GMT, retrieved 2026-09-27T16:53:56Z, valid 2026-09-24T15:00 Europe/Zurich, model-valid hour 15:00–15:59, scenario 24 September 2026 · 15:44 Europe/Zurich inside that hour. Weather code 3 (overcast), cloud 92%, 22.9°C, is_day 1. Masters re-rendered at 1920×1270, 864×1270, and 1080×2110 with a 190px #0e0e12 label bar. Status Candidate. Not an approval.",
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "street, church tower and hilltop Hof compose the classic Chur frame; label bar exact; per-scene retrieval 2026-09-27T16:53:56Z unique; Art. 50 chunks present, 2026-09-27.",
   "sha256_16x9": "e548347454667451dacba7fca0db382feacd67f26ca6696dbbc8286e88681b2f",
   "sha256_4x5": "feee278913796433327ae99f819d29e4010798e7e0dda786f1cd1fc749268cda",
   "reverted_at": "2026-09-25T12:42:28.759683+00:00",
@@ -50,5 +50,6 @@
     "elevation": 600.0,
     "latitude": 46.8499,
     "longitude": 9.5329
-  }
+  },
+  "approved_at": "2026-09-29T19:14:10.691275+00:00"
 }
