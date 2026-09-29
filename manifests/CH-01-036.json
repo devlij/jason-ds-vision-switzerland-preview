@@ -12,9 +12,9 @@
   "file_4x5": "library/world/Switzerland/Andermatt/ch-01-036-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate",
-  "qc_status": "Candidate · weather rework 2026-09-27 · not approved",
-  "approval_basis": "Builder weather rework 2026-09-27 for CH-01-036. Own Open-Meteo archive GET, HTTP Date Sun, 27 Sep 2026 16:53:27 GMT, retrieved 2026-09-27T16:53:27Z, valid 2026-09-24T15:00 Europe/Zurich, model-valid hour 15:00–15:59, scenario 24 September 2026 · 15:27 Europe/Zurich inside that hour. Weather code 3 (overcast), cloud 95%, 16.0°C, is_day 1. Masters re-rendered at 1920×1270, 864×1270, and 1080×2110 with a 190px #0e0e12 label bar. Status Candidate. Not an approval.",
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "Gate 1: Schöllenen Gorge with the stone arch Devil's Bridge over the foaming Reuss, the higher modern road span above, granite walls - recognizably Devil's Bridge, Andermatt from a plausible tourist viewpoint; clean framing, no artifacts, no glaring misconfiguration. Gate 2: dims exact per sweep (1920x1270 / 864x1080); 190px label bar baked under the photo with exact caption 'Devil's Bridge, Andermatt', scenario '24 September 2026 · 15:27 Europe/Zurich', AI disclosure, 'Jason D\\'s Vision' (curly apostrophe) + 'Jason A. Devlin' script signature; zero text over the photo area. 4:5 master compared against 16:9 for subject-identity agreement. Per-scene Open-Meteo retrieval 2026-09-27T16:53:27Z, unique to the second repo-wide (full 365-note scan 2026-09-29); scenario inside the 15:00-15:59 model-valid hour; model code 3 / cloud 95% matches the overcast frame. Gate 3: text-prompt-only lineage per notes, no photographic inputs reported. Gate 4: no prominent people, focal logos, or private property visible (documented only). Gate 5: no open blockers.",
   "sha256_16x9": "5b7934b895b4ad923267c6d20a0b2ac75f5fdfe6e414c0a69340996378c61086",
   "sha256_4x5": "9ddf31bd8882fa6b401ab06f3595ca0438421630fef8786bf5c5455f92d9312f",
   "reverted_at": "2026-09-25T12:41:29.340152+00:00",
@@ -50,5 +50,6 @@
     "elevation": 1443.0,
     "latitude": 46.6474,
     "longitude": 8.5903
-  }
+  },
+  "approved_at": "2026-09-29T12:58:49.432775+00:00"
 }
