@@ -32,8 +32,8 @@
       "4x5": "library/world/Switzerland/Tenero-Contra/ch-01-325-daylight-4x5.png"
     },
     "sha256": {
-      "16x9": "f638bbb2f604591de298fc65a434838786f8d9f3a749f89554df3829ec09f474",
-      "4x5": "088840aca05fd8068fe513d546b8a86f51bbdf50353e6b6eb58731969b56411e"
+      "16x9": "211928f3f9864a457f7bf9ccd408e114995d4f6e95eefb5469c768f2efa5eb21",
+      "4x5": "1def57387d7d447d5a5f412aacd49a59dba839cabbb966e744d281b0b61bae77"
     },
     "created_date": "2026-09-26",
     "on_image_caption": "Contra Dam, Tenero-Contra",
@@ -46,6 +46,6 @@
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "Gate 1: the 16:9 master shows the Contra Dam — the curved concrete arch dam face filling a rocky gorge under a starry sky; plausible tourist view, clean framing, no artifacts; the 4:5 master shows the same arch dam with its reservoir from above with no defining-feature disagreement. Gate 2: sweep-verified exact 1920×1080 / 864×1080; on-image caption 'Contra Dam, Tenero-Contra', scenario '24 September 2026 · 23:09 Europe/Zurich', 'AI-generated artistic interpretation · Not a photograph.' disclosure bottom-left on gradient scrim; exact 'Jason D's Vision' (curly apostrophe) bottom-right; weather retrieval unique to this scene at 2026-09-25T23:48:31Z, separate request for Contra coords, model-valid hour 23:00–23:59 contains the 23:09 scenario (code 0 clear — matches the starfield). Gate 3: builder note documents text-prompt-only lineage, no photographic inputs. Gate 4: no people or logos; public infrastructure — documented only. Gate 5: no open blockers.",
   "approved_at": "2026-09-26T20:38:19.555568+00:00",
-  "sha256_16x9": "aca70308bfcd37a8aa5f25491802b2c6d9357212ad98b28045f5822d51452fc0",
-  "sha256_4x5": "8ed858eedf5ab75b3877dce91f54c16fe31b62702bfdfdec964ef7c555ec8e85"
+  "sha256_16x9": "62b0e3a1e2ee05fd8105cb96065f5f3fd5d67c87270b848356525e8493e352ff",
+  "sha256_4x5": "69f52bc8575c96d4ed00e4ed71fbdaaf291f03265cec571a3e9664568def16aa"
 }

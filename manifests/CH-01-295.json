@@ -32,8 +32,8 @@
       "4x5": "library/world/Switzerland/Prangins/ch-01-295-daylight-4x5.png"
     },
     "sha256": {
-      "16x9": "09a47477351c4d757eb73635bc88574dc30c2e76a2bdec83a19eaae70d324b77",
-      "4x5": "1dd069f7048c704438326f402be30c5012d350ae6dd7cab91760838772325b68"
+      "16x9": "4ea24881451a397d62f27d54555dc6c72fcf0b7bdc49ca073888560d91110978",
+      "4x5": "403c3bd04c8f0903b5ba4b1dbf16952f6c72e72996bb1debcee8a63a0f36b5a9"
     },
     "created_date": "2026-09-25",
     "on_image_caption": "Prangins Castle, Prangins",
@@ -46,6 +46,6 @@
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "Gate 1: night view of Prangins Castle, the floodlit baroque chateau with shuttered windows above formal parterre gardens and gravel paths, lake visible beyond the trees right; plausible garden viewpoint. Gate 2: exact 1920x1080/864x1080; caption 'Prangins Castle, Prangins', scenario '24 September 2026 - 22:30 Europe/Zurich', disclosure and signature verified on-image; weather retrieved 2026-09-25T23:48:01Z, unique repo-wide, valid hour 22:00-22:59 matches scenario. Gate 3: text-prompt-only lineage per note. Gate 4: no people or logos visible (documented only).",
   "approved_at": "2026-09-26T17:43:24.056429+00:00",
-  "sha256_16x9": "001aef9b4343d37424e5e3d0c82986213261299544664e77da686d1ec540de10",
-  "sha256_4x5": "a4bff3d8f3b4076478aaca3a4ee75229b5bbf8ee4bc2370e719fed53b1121a43"
+  "sha256_16x9": "eb98ff3e1d18460f81cb783958538b1d9be442cf939abf46f40db456b9526e0c",
+  "sha256_4x5": "b80410f9e94532fea60f2a649e65af5bdc6eae2fa5bd34f0783fcc35f36082fe"
 }

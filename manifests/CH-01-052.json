@@ -15,8 +15,8 @@
   "approval_status": "Candidate",
   "qc_status": "Candidate · weather rework 2026-09-27 · not approved",
   "approval_basis": "Builder weather rework 2026-09-27 for CH-01-052. Own Open-Meteo archive GET, HTTP Date Sun, 27 Sep 2026 16:53:49 GMT, retrieved 2026-09-27T16:53:49Z, valid 2026-09-24T15:00 Europe/Zurich, model-valid hour 15:00–15:59, scenario 24 September 2026 · 15:40 Europe/Zurich inside that hour. Weather code 3 (overcast), cloud 94%, 21.2°C, is_day 1. Masters re-rendered at 1920×1270, 864×1270, and 1080×2110 with a 190px #0e0e12 label bar. Status Candidate. Not an approval.",
-  "sha256_16x9": "6169582dca550aaee4514ca0f9ef10a3d9b721c6e6552c6d5f16db060ac451f4",
-  "sha256_4x5": "3634093de07a416b6b40c9b684e7749ad3fa8b132337ba9012db6106c3488757",
+  "sha256_16x9": "de6d92206ced14d655f4a34076c759b378f4b343db3db6ea1121c307fee770d5",
+  "sha256_4x5": "92e926cb9f788524737ecb2c6f679f15b85c81c16c601fa6a84aecad4aafa813",
   "reverted_at": "2026-09-25T12:42:16.574954+00:00",
   "qc_notes": [
     {
@@ -31,7 +31,7 @@
     }
   ],
   "file_9x16": "library/world/Switzerland/Stein am Rhein/ch-01-052-9x16.png",
-  "sha256_9x16": "e767e8713e5654bbb9fd8d5790f6be53988920befa475fd317722cd657239a79",
+  "sha256_9x16": "5dfd492e2544abc6215b4617f10ba1d29ddac0d38b4dec8f062914b8d805ddc7",
   "open_meteo": {
     "retrieved_utc": "2026-09-27T16:53:49Z",
     "http_date": "Sun, 27 Sep 2026 16:53:49 GMT",

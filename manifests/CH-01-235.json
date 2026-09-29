@@ -16,6 +16,6 @@
   "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
   "approval_basis": "Gate 1: St. Martin in Altdorf — pale classicist church front with tower, small St. Anna chapel, churchyard and old-town houses closing Kirchplatz — recognizably the Altdorf parish church. Gate 2: on-image caption 'St. Martin, Altdorf', scenario '24 September 2026 · 19:03 Europe/Zurich' inside the model-valid hour; per-scene retrieval 2026-09-25T23:45:58Z replaced by the scene's own unique 2026-09-25T23:46:00Z retrieval, code 3 overcast matching the rendered sky; dims verified; signature and disclosure present. Gate 3: text-prompt-only lineage. Gate 4: no prominent people or focal logos; documented-only. Gate 5: no open blockers.",
   "approved_at": "2026-09-26T13:35:29.900810+00:00",
-  "sha256_16x9": "b0d3d44e507eab9bd67603d197041336db2499f8e1e546cd72c6746eda9b93f6",
-  "sha256_4x5": "a2c6f4a056fdf017f4d1112d93ed13be8d08e0d8f154cb165ea65e62e31748ca"
+  "sha256_16x9": "9be79460525397c59cbbfa136ae7f808992fe92006cf936db09316e4f2fc5ee5",
+  "sha256_4x5": "d2fbe1f4119841c39287c85b39ad0527201a39041a3ebe4239994090a59b0a2e"
 }

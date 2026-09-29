@@ -32,8 +32,8 @@
       "4x5": "library/world/Switzerland/Saint-Prex/ch-01-298-daylight-4x5.png"
     },
     "sha256": {
-      "16x9": "8646931ac05293f9e4dae20aa590ba0116c2c2a5cd8dd297bca4f753c7c68582",
-      "4x5": "ca843c9df3aec5ba76d0e5ffd301dadc60e1e58833ada04c3fb3ddcf19519b4c"
+      "16x9": "ad8a1f6e4b9f693b1846bb3949a3fa084d4fad4460d99852d405282c1f69115b",
+      "4x5": "3911d74629204b6fa7d769966108e7662785f6953636d127388ed5d78406ea90"
     },
     "created_date": "2026-09-25",
     "on_image_caption": "St. Prex, Saint-Prex",
@@ -46,6 +46,6 @@
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "Gate 1 PASS: lakeside bourg of Saint-Prex at night — Notre-Dame church tower with lit belfry above the shore, old houses with lit windows, small landing with two boats and light reflections on the water. Gate 2 PASS: exact dims; caption 'St. Prex, Saint-Prex', scenario 24 Sep 2026 22:30 Europe/Zurich, disclosure, signature exact; retrieval 2026-09-25T23:48:04Z unique repo-wide, scenario inside model hour. Gate 3 PASS: text-prompt-only per note. Gate 4: no identifiable people, generic boats, no logos.",
   "approved_at": "2026-09-26T19:34:30.633333+00:00",
-  "sha256_16x9": "7f77565b5ea0d18b50dfd90263b47b772b32da29856055bb501ceceb8c42f166",
-  "sha256_4x5": "47f510c9805cca209ed89b352840c9b9fcb2262145398c60913bbdbdeb4e2370"
+  "sha256_16x9": "1d6317aa83b90862f480df5a89d1f73c39f2ea0c3524bef77fa27e81402633e1",
+  "sha256_4x5": "e74f4c1df4db558c7539090d6b255b56fabc325a3ba7d8551a11c1ef1ac71584"
 }

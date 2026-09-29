@@ -15,8 +15,8 @@
   "approval_status": "Candidate",
   "qc_status": "Candidate · weather rework 2026-09-27 · not approved",
   "approval_basis": "Builder weather rework 2026-09-27 for CH-01-064. Own Open-Meteo archive GET, HTTP Date Sun, 27 Sep 2026 16:55:39 GMT, retrieved 2026-09-27T16:55:39Z, valid 2026-09-24T15:00 Europe/Zurich, model-valid hour 15:00–15:59, scenario 24 September 2026 · 15:44 Europe/Zurich inside that hour. Weather code 3 (overcast), cloud 100%, 17.5°C, is_day 1. Masters re-rendered at 1920×1270, 864×1270, and 1080×2110 with a 190px #0e0e12 label bar. Status Candidate. Not an approval.",
-  "sha256_16x9": "0be9bb960dfb95cf4395324ad19af83b08b90325541b68833b1262ef97ded09e",
-  "sha256_4x5": "1053b641d51c0a723c872640b56bdd91627c0fe27abbf1f70cc202f8b5f258b4",
+  "sha256_16x9": "74f6ef82f23465c9f6cd1752786095d2be398efdb635331f5f4e683e577a33a8",
+  "sha256_4x5": "a27ab77e3f09da2b0c8da5c33874f8e6a49b1d5dd93c92ca325226079aa332c5",
   "reverted_at": "2026-09-25T12:42:47.270189+00:00",
   "qc_notes": [
     {
@@ -31,7 +31,7 @@
     }
   ],
   "file_9x16": "library/world/Switzerland/Noiraigue/ch-01-064-9x16.png",
-  "sha256_9x16": "8f20fbe9a4283456b4bdadb115de2faf3f64f2424afa10f69cc1ed43a0b464e2",
+  "sha256_9x16": "65fcd9a479ba4936fe85c3cf4e056831e7761aecec75b07bebbbdfc7351ac61c",
   "open_meteo": {
     "retrieved_utc": "2026-09-27T16:55:39Z",
     "http_date": "Sun, 27 Sep 2026 16:55:39 GMT",

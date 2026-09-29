@@ -15,8 +15,8 @@
   "approval_status": "Approved",
   "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
   "approval_basis": "Open-Meteo retrieval 2026-09-27T16:51:13Z (unique to the second, repo-wide verified, 2026-09-27) — Gate 2 hardened-weather law satisfied. CH-01-012: Lugano lakefront, Lugano. G1: palm-lined lakeside promenade, Lake Lugano and the Monte Brè ridge, partly-blue sky matching weather code 2 / 66% cloud. G2: dims exact; 'Lugano lakefront, Lugano' / 14:40. G3–G5 clear.",
-  "sha256_16x9": "0e90fc6bc2113bbce69a3c44e9099d3ecd7d20f79c44e6ebe59ad422fe76bfed",
-  "sha256_4x5": "63dee4094a9856f5583c048e18fd0808e4ad9174c93315e2c9a4d8c5c3f000f4",
+  "sha256_16x9": "64edf61c207b7fea257c9de017ad7daa3989bec66d8406dec84109173676ec6f",
+  "sha256_4x5": "3026d3e292e82165f78bd1e7883163f26445f475401e9641121232ef9b59d445",
   "reverted_at": "2026-09-25T12:40:20.954777+00:00",
   "qc_notes": [
     {
@@ -31,7 +31,7 @@
     }
   ],
   "file_9x16": "library/world/Switzerland/Lugano/ch-01-012-9x16.png",
-  "sha256_9x16": "c06cbb389244ffdf8eba940526ed8d515d42202e9cbc620c4971bac58683fbad",
+  "sha256_9x16": "23f3e409baccb3d53e272eb73a702ae40970181b6f8f3ad31607ef8902999e20",
   "open_meteo": {
     "retrieved_utc": "2026-09-27T16:51:13Z",
     "http_date": "Sun, 27 Sep 2026 16:51:13 GMT",

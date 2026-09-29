@@ -15,8 +15,8 @@
   "approval_status": "Approved",
   "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
   "approval_basis": "Open-Meteo retrieval 2026-09-27T16:51:09Z (unique to the second, repo-wide verified, 2026-09-27) — Gate 2 hardened-weather law satisfied. CH-01-009: Chillon Castle, Montreux. G1: the lakeside castle with its bridge, towers and crenellation on Lake Geneva, snow-dusted Savoy Alps across the water. G2: dims exact; 'Chillon Castle, Montreux' / 14:40. G3–G5 clear.",
-  "sha256_16x9": "82babd7ee61fe55b46dc11df7e5216fb1b9b0a6f2dd9806a5f02fd481d860b68",
-  "sha256_4x5": "42c1451e7e37ca3cb6b5b1eac89d93261a4467529daec668be60e17e59c05ade",
+  "sha256_16x9": "f362a80a91342775bb7a1c6275ed060e1ebf595e8cdbeb5b99ede03e081b8447",
+  "sha256_4x5": "ce7a55aaf0a66b940610a0985f34dc8c40509f385e5c1cbe95a700d8033a3dd0",
   "reverted_at": "2026-09-25T12:40:13.601819+00:00",
   "qc_notes": [
     {
@@ -56,7 +56,7 @@
     }
   ],
   "file_9x16": "library/world/Switzerland/Montreux/ch-01-009-9x16.png",
-  "sha256_9x16": "2942dca4e883ca0c27e28f98483a70b0695b785b01f8c1ddf6781e92cf54f4e3",
+  "sha256_9x16": "4ed3f24145d731e69ca2c0252604ef8bc9718d2d621ac7afbedf5350f135c8a4",
   "open_meteo": {
     "retrieved_utc": "2026-09-27T16:51:09Z",
     "http_date": "Sun, 27 Sep 2026 16:51:09 GMT",

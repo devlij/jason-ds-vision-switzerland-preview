@@ -32,8 +32,8 @@
       "4x5": "library/world/Switzerland/Sierre/ch-01-312-daylight-4x5.png"
     },
     "sha256": {
-      "16x9": "535a8e5e774c725bb07e70e13772ff4dadf19e64c2d6bba988d71c072a3f23f5",
-      "4x5": "8f932b28fe071105e29ca125c75be7777bf3751abc0a25c3190ec0069931d827"
+      "16x9": "09923abca0e15c7c25c28017973da74437f52b056d143305a7ba927cb9da4534",
+      "4x5": "dd4b85bba5c2e3be5a2835f344f0b87b5345f09c479b9bd083d33995ece053cc"
     },
     "created_date": "2026-09-26",
     "on_image_caption": "Hôtel de Ville, Sierre",
@@ -46,6 +46,6 @@
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "Gate 1 PASS: Sierre Hotel de Ville at night — three-storey 17th-century patrician house, stone facade, balcony, mansard windows, mature trees on the pedestrian square, street lamps; no vineyard slope, no fronton wording visible. Gate 2 PASS: exact dims; caption 'Hotel de Ville, Sierre', scenario 24 Sep 2026 22:51 Europe/Zurich, disclosure, signature exact; retrieval 2026-09-25T23:48:18Z unique repo-wide, scenario inside model hour. Gate 3 PASS: text-prompt-only per note. Gate 4: no people, no logos.",
   "approved_at": "2026-09-26T19:36:57.044891+00:00",
-  "sha256_16x9": "9577d5b29bc9bec7f98b05f96d1fabd4cd8f375d4a11947f08c9c4efba3bb5ff",
-  "sha256_4x5": "b85d6241c6d0490081cb22155cceb7d50bb127007a2f94701e60edc5309c110e"
+  "sha256_16x9": "ca1c23f0eba6696f233b9eaa6e8e68e36dd9420126155cddfbd6bcd08f7b5d77",
+  "sha256_4x5": "63d906f8ff3335f7431f198c66ad497bf7fc1e3ca7c35c508ca48a02994ec81c"
 }

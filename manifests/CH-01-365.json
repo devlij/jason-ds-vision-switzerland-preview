@@ -33,8 +33,8 @@
       "4x5": "library/world/Switzerland/Haute-Sorne/ch-01-365-daylight-4x5.png"
     },
     "sha256": {
-      "16x9": "946dd2fed5dc451fdb8a4deae559e1c08fffd8b7cc04e22621f2d5b61a05028b",
-      "4x5": "6537346c2d3609fb0faf6b7533d7a047e2a5a5a0f2cbe730941ed88281f0936c"
+      "16x9": "ac5e18f47438e159c3c0646c8b59ca561a2887bf96c7f87282a14a6a5a0b28c4",
+      "4x5": "c0ba88215783b937de3d713d71fd1411d15e96b6054525f5abe4e889be55431b"
     },
     "created_date": "2026-09-26",
     "on_image_caption": "Pichoux Gorge, Haute-Sorne",
@@ -55,5 +55,8 @@
       "by": "rerender",
       "note": "Re-render for the recorded Gate 1 hold: inter-format scenario disagreement — the 16:9 master is an overcast daylight scene while the 4:5 master is a night scene, against a 23:47 night scenario label. All three new masters are night in the limestone gorge, dry, with no spraying springs. Scenario unchanged. Label-bar finish 1920×1270, 864×1270, 1080×2110. Still Candidate. Daylight variant files were not regenerated."
     }
-  ]
+  ],
+  "sha256_16x9": "7ed94adf0030429acaa2aa95cb573702ec6e37a23a6e55e985f2b3b86bda63ba",
+  "sha256_4x5": "c5a4f5e30396cbbd53b18c172db45429a87a8588c8d17c2dfe8501639050a307",
+  "sha256_9x16": "2491aea5cc45542c5602af084af3bb722c15d19a850580c1fcc3450f2f398d2d"
 }

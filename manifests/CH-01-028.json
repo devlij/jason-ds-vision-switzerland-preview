@@ -15,8 +15,8 @@
   "approval_status": "Approved",
   "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
   "approval_basis": "Approved · Cosmo QC 5/5 · Daylight. Gate 1: Rapperswil Castle with three towers on the rocky promontory, St. John's church spire, old town houses, Lake Zurich with the wooden footbridge — correct identity; clean framing. Gate 2: dims verified; on-bar 'Rapperswil Castle, Rapperswil', 'Scenario: 24 September 2026 · 15:09 Europe/Zurich', disclosure + signature; retrieval 2026-09-27T16:51:35Z unique, 15:09 inside 15:00-15:59, code 3/97%/22.8°C. Gate 3: text-prompt-only lineage. Gate 4: no identifiable people, no logos. Gate 5: no blockers.",
-  "sha256_16x9": "f2bc549b9ca03956c5ba0b4341c56c968f1d406814ffb1c63d1a3eb343261b80",
-  "sha256_4x5": "5fd743262b1503b348c44f87db44b2bda51890a0face9563a2a69aa5a945980c",
+  "sha256_16x9": "16e26a7b9da08b1b39e5df97e25b8f43bc59d1adbbd3381f78c86c472608d92a",
+  "sha256_4x5": "2e95b106d7149756cb2ef62925f2069a8136a83d96ad249016b81f5b1d361bf4",
   "reverted_at": "2026-09-25T12:41:04.832327+00:00",
   "qc_notes": [
     {
@@ -31,7 +31,7 @@
     }
   ],
   "file_9x16": "library/world/Switzerland/Rapperswil/ch-01-028-9x16.png",
-  "sha256_9x16": "3253eb44bcf8d2491ab2f908a6c4bce2e275e8d8a988233a3d18b23fd3bc4a09",
+  "sha256_9x16": "8f9d625a564afd6726fc5573beb58b9ddbfc56691098f556fd8b5fbc95332958",
   "open_meteo": {
     "retrieved_utc": "2026-09-27T16:51:35Z",
     "http_date": "Sun, 27 Sep 2026 16:51:35 GMT",

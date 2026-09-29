@@ -32,8 +32,8 @@
       "4x5": "library/world/Switzerland/Weesen/ch-01-353-daylight-4x5.png"
     },
     "sha256": {
-      "16x9": "20b9170c43048250a489a730b2cbc66f687b516564b22ccf34eb8ed8dfd4f2c1",
-      "4x5": "926e18aadaf01981b8f7e357cc9832d1e7d80ca4c13e006c53584189593be31a"
+      "16x9": "ff3da4a481231a0d49bf8321ed7b8aee981777a59c4646424e297fc81d3c97ff",
+      "4x5": "8e647b69f3c5d0f8466ecb98d8cab9f3638504f5817ee6ee1c33e20ad654c9c8"
     },
     "created_date": "2026-09-26",
     "on_image_caption": "Weesen, Weesen",
@@ -46,6 +46,6 @@
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "Gate 1 — 16:9 master shows Weesen at night from the waterfront: the old Städtli on the water with the lit church on the Büel, and the Churfirsten cliffs running east along the south shore under a starry sky — matches the anchors (west end of Walensee where the Linth canal leaves the lake, old town on the water, Churfirsten cliffs, churches on the Büel; not Walenstadt). 4:5 crop shows the same waterfront, church, and cliff wall — no inter-format subject disagreement. Gate 2 — exact 1920x1080 / 864x1080 masters; on-image caption 'Weesen, Weesen', scenario '24 September 2026 · 23:46 Europe/Zurich', disclosure and exact curly-apostrophe 'Jason D's Vision' signature legible on the scrim. Weather per approvals note: Open-Meteo retrieved 2026-09-25T23:48:59Z, unique per-scene timestamp across the 27-scene candidate window, model-valid hour covering the scenario time with per-scene coordinates. Gate 3 — text-prompt-only lineage documented, no photographic inputs. Gate 4 — no visible people, logos, or recognizable private property; documented only.",
   "approved_at": "2026-09-26T22:34:39.425466+00:00",
-  "sha256_16x9": "5a4169451684b909f8036e1db4cf09d37303b100e290b5531fb54b0a30bbd6ec",
-  "sha256_4x5": "3c345e51eda6a3723cf8dda19c98937a1f40d9ff42d79700479131fc860fe567"
+  "sha256_16x9": "351776410852dc61e063c814c487ee7ae7de3230f3c349fb24935897d7ccd8fb",
+  "sha256_4x5": "53063799bcd350652e1f4ba10284037e1a373ad3fdec76de50df59d5cafa7bdb"
 }

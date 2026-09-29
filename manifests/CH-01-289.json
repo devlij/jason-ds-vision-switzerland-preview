@@ -32,8 +32,8 @@
       "4x5": "library/world/Switzerland/Geneva/ch-01-289-daylight-4x5.png"
     },
     "sha256": {
-      "16x9": "62a4c4823f8304ac18ee764943560e7b8b2adf8fc6e654bbc2fb71515f52a40b",
-      "4x5": "8a3fb7454578ba4b98e5d7e72261cdb285d0c65414a1357e01ee35b95f957606"
+      "16x9": "a26644d82bc6af4324fb70ed206d09404773acff7e86d6cc5c8e9ff44408bebc",
+      "4x5": "dc959148d303632ef6c51edd905bc36505b69a04b5f30505ae2bad44db786195"
     },
     "created_date": "2026-09-25",
     "on_image_caption": "Quai du Mont-Blanc, Geneva",
@@ -46,6 +46,6 @@
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "Gate 1: night view along Quai du Mont-Blanc in Geneva with the plane-tree avenue, lamp-lit promenade, stone quay and railing, and a floodlit building across the dark lake; plausible lakeside-walk viewpoint. Gate 2: exact 1920x1080/864x1080; caption 'Quai du Mont-Blanc, Geneva', scenario '24 September 2026 - 22:30 Europe/Zurich', disclosure and signature verified on-image; weather retrieved 2026-09-25T23:47:55Z, unique repo-wide, valid hour 22:00-22:59 matches scenario. Gate 3: text-prompt-only lineage per note. Gate 4: no identifiable people or logos (documented only).",
   "approved_at": "2026-09-26T17:42:45.377564+00:00",
-  "sha256_16x9": "1fad49254439d6adb43bfc34c27f144f971ccd2a23b8d5fef55006d3a192c5b6",
-  "sha256_4x5": "c8279ccfdb06c3ff052a57560b646bfe4222eb2ff6244b10d9d7f1522dc51266"
+  "sha256_16x9": "d8c1ad57e4a7488c77b0207c5906aacea6436ef86fe0df34d333e7d4784281bd",
+  "sha256_4x5": "049a1130a96ff243ae7553baf50da357f01408110a753d9b71ffe87cf7acdf87"
 }

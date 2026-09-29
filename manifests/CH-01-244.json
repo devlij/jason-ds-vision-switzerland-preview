@@ -16,6 +16,6 @@
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "Gate 1: wooden Axalp chalets and the modest inn on the tawny pasture above dark Lake Brienz with its far-shore lights, heavy overcast, no snow, no aircraft, no rebuilt grand hotel. Gate 2: exact 1920x1080/864x1080; signature; caption 'Axalp, Brienz' + scenario '24 September 2026 · 19:20 Europe/Zurich' + disclosure legible; retrieval 2026-09-25T23:46:09Z unique per-scene (repo-wide scan clean), valid 19:15 hour covers scenario. Gate 3: text-prompt-only lineage. Gate 4: no visible people or logos.",
   "approved_at": "2026-09-26T15:13:08.102666+00:00",
-  "sha256_16x9": "3e8a3e7cfeee977976103480ef9d74e75e80050f5846e82293a619af0f18d280",
-  "sha256_4x5": "4eb27adca85255047eaf4f03dd21bd79bbdc2774771e5db2c7b76706fbdb90db"
+  "sha256_16x9": "291bc3c9bf612da1dd917e8436a64383034cd5bb6c92eb7068ea8c0dad362039",
+  "sha256_4x5": "15242ed0c2ee7ddc478bc76d7f1a9c937d951039bbfd0298f9f8c645e9ee3c1c"
 }

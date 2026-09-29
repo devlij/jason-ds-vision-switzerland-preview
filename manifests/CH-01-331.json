@@ -32,8 +32,8 @@
       "4x5": "library/world/Switzerland/Valangin/ch-01-331-daylight-4x5.png"
     },
     "sha256": {
-      "16x9": "225d796485b5ffb47a2831b5224a047ce4bcfbaedb065e82662620b5ce975693",
-      "4x5": "71ae5bcfcc711d4b24b27a1a944f7a9af7a9112770f232d2e8b5fafd52d1a2fd"
+      "16x9": "5816dfddf8925eeb24783a0b15d1fdb8e47dd03eb087757fbf0e2a438638b072",
+      "4x5": "9e7ceb02f910300a9dbf2c7b3a0cf68301b2bfb463960dcea5df93f170f94ffa"
     },
     "created_date": "2026-09-26",
     "on_image_caption": "Valangin Castle, Valangin",
@@ -46,6 +46,6 @@
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "Gate 1: Valangin Castle on its rocky spur above the Seyon at night — stone buildings with the defining round tower, lit windows against dark cloud, matching the note's own description; both formats agree on the round tower and rocky spur (inter-format check). Gate 2: 1920×1080/864×1080 exact; caption 'Valangin Castle, Valangin', scenario '24 September 2026 · 23:10 Europe/Zurich', 'Jason D’s Vision' signature bottom-right and 'AI-generated artistic interpretation · Not a photograph.' bottom-left legible; Open-Meteo weather retrieved 2026-09-25T23:48:37Z, per-scene unique across all 39 candidates, valid slot 23:00 consistent with 23:10 scenario. Gate 3: note documents text-prompt-only lineage, no photo inputs. Gate 4: castle is a historic public site; no people or logos visible. Gate 5: no blockers.",
   "approved_at": "2026-09-26T21:33:04.632428+00:00",
-  "sha256_16x9": "8c643391c4c7eb209cfe662325235b50c292afb2c0891efa6116fe4422af8bb7",
-  "sha256_4x5": "c489f37c5af4128aa0bdeae8682ae48576b0ad4fed4e98f2b618e80133cddb69"
+  "sha256_16x9": "a00bae18cf7e87be98d03e3e6857ddcdbd66c191d65108a7af784782272886f1",
+  "sha256_4x5": "df6a6e1532bf18c8439368965314b38e09dfb84c6e7df6912f28a0a5cd531469"
 }

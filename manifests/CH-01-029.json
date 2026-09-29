@@ -15,8 +15,8 @@
   "approval_status": "Approved",
   "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
   "approval_basis": "Approved · Cosmo QC 5/5 · Daylight. Gate 1: St. Pierre Cathedral with its neo-classical columned portico and Gothic north tower with spire, Geneva old town around it — correct identity; clean framing. Gate 2: dims verified; on-bar 'St. Pierre Cathedral, Geneva', 'Scenario: 24 September 2026 · 15:09 Europe/Zurich', disclosure + signature; retrieval 2026-09-27T16:53:17Z unique, 15:09 inside 15:00-15:59, code 3/99%/25.1°C. Gate 3: text-prompt-only lineage. Gate 4: no people, no logos. Gate 5: no blockers.",
-  "sha256_16x9": "792e2df6f98000595530e309200a91af7fbfc4bb01e861ce90015fc88d34abff",
-  "sha256_4x5": "c4c78dc0b7a25720f5dba07df04a166dafe39c62ccf24a3634f748c7529c6539",
+  "sha256_16x9": "9854505425797ab79a7742e88b43bbe9bf8e2faef75badd1c5415a33048fd682",
+  "sha256_4x5": "d7aae3e39df5d00eb823e1ede0812ffc8c9d4fb54dc3a81063919430d87b1c83",
   "reverted_at": "2026-09-25T12:41:07.377884+00:00",
   "qc_notes": [
     {
@@ -31,7 +31,7 @@
     }
   ],
   "file_9x16": "library/world/Switzerland/Geneva/ch-01-029-9x16.png",
-  "sha256_9x16": "6cedc9654bb6a5bf41f2dde89dfca6e60dcb1c73f7f85344779d5982104c8745",
+  "sha256_9x16": "ffc50533c454c202dc309570c7805c3b46dcc9b1921ad045b7098ea7d011b37e",
   "open_meteo": {
     "retrieved_utc": "2026-09-27T16:53:17Z",
     "http_date": "Sun, 27 Sep 2026 16:53:17 GMT",

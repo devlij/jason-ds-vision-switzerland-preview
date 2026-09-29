@@ -32,8 +32,8 @@
       "4x5": "library/world/Switzerland/Lausanne/ch-01-299-daylight-4x5.png"
     },
     "sha256": {
-      "16x9": "7ff75382124a5b65256fc547d8be5658e7ceafd58083db2765b43aeaeff237cd",
-      "4x5": "eda2755e5c8a8465513f1abf77fd7c86e5b68fd0322ba4b8ae5498f8d57277b9"
+      "16x9": "1a21ee5be202e19f63a0784bcd70a5a994b0a54562ed64b8a6b951b18d754beb",
+      "4x5": "5057f6c08e7665087ffa247ebfb8bb4b38d5a4d87a43d6855cf969e5fed9dbb8"
     },
     "created_date": "2026-09-25",
     "on_image_caption": "Escaliers du Marché, Lausanne",
@@ -46,6 +46,6 @@
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "Gate 1 PASS: foot of the Escaliers du Marché at night — covered wooden stair structure with warm lantern light ascending left, steep cobbled lane beside tall old houses with shutters, overcast sky; matches the 1717–1719 covered-stairs anchors, no shop lettering. Gate 2 PASS: exact dims; caption 'Escaliers du Marché, Lausanne', scenario 24 Sep 2026 22:30 Europe/Zurich, disclosure, signature exact; retrieval 2026-09-25T23:48:05Z unique repo-wide, scenario inside model hour. Gate 3 PASS: text-prompt-only per note. Gate 4: no people, no logos.",
   "approved_at": "2026-09-26T19:34:35.630017+00:00",
-  "sha256_16x9": "a151da5a7df44035822df89b46b32a3279cb33e75e2e6c59297fbf6dceaa9780",
-  "sha256_4x5": "6f71566d626b3c40c39d7a5dfc2991016e28e7606faa0ff2c74ca7b37be2b92b"
+  "sha256_16x9": "6b9655c2de1c89056fe42db59bd15053109f8efca8ddd1e9ca37c5bd22af8046",
+  "sha256_4x5": "2ea57758deeecaf9376c3cf584c11438b40b6b122814e39a6fa629e26bc425d3"
 }

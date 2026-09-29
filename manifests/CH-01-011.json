@@ -15,8 +15,8 @@
   "approval_status": "Approved",
   "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
   "approval_basis": "Open-Meteo retrieval 2026-09-27T16:51:12Z (unique to the second, repo-wide verified, 2026-09-27) — Gate 2 hardened-weather law satisfied. CH-01-011: Appenzell, Appenzell. G1: painted timber facades of the village square, parish church spire, Säntis massif backdrop — correct Appenzell idiom. G2: dims exact; 'Appenzell, Appenzell' / 14:40; prior shared-retrieval revert superseded by the per-scene rework. G3–G5 clear.",
-  "sha256_16x9": "c9d2dea5d2d0e8447a7b82df9f89dac64a3edbbca3cf850dc5e0e2d47db5f97c",
-  "sha256_4x5": "ca7f5af3fa330befd371670eb15b64055d04f6444d4076cc9e58d063e3b47e5b",
+  "sha256_16x9": "a846e16c0c3841f2b0b2e09b6616acf2564613b465cd28716fedce668593e0c8",
+  "sha256_4x5": "7bd7b0dc0883f123be9a2b26aac29a06ebcf1288e0ad68650a6dc69d791ace0d",
   "reverted_at": "2026-09-25T12:40:18.535016+00:00",
   "qc_notes": [
     {
@@ -31,7 +31,7 @@
     }
   ],
   "file_9x16": "library/world/Switzerland/Appenzell/ch-01-011-9x16.png",
-  "sha256_9x16": "e0535d197812adbc3845800912d325cca508a7647cd7dddcc3bc062ae1ef6c9f",
+  "sha256_9x16": "f6085d1eb593350063448b2c41d2d9c0bfe211ba7c44e993e06529b864ec80c9",
   "open_meteo": {
     "retrieved_utc": "2026-09-27T16:51:12Z",
     "http_date": "Sun, 27 Sep 2026 16:51:12 GMT",

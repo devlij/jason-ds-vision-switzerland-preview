@@ -15,8 +15,8 @@
   "approval_status": "Approved",
   "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
   "approval_basis": "Approved · Cosmo QC 5/5 · Daylight. Gate 1: Uetliberg summit viewpoint with railing, panoramic view over Zurich and the lake under a low cloud band — correct identity; clean framing. Gate 2: dims verified; on-bar 'Uetliberg, Zurich', 'Scenario: 24 September 2026 · 15:09 Europe/Zurich', disclosure + signature; retrieval 2026-09-27T16:51:34Z unique, 15:09 inside 15:00-15:59, code 3/98%/19.5°C. Gate 3: text-prompt-only lineage. Gate 4: no people, no logos. Gate 5: no blockers.",
-  "sha256_16x9": "ce0a6c39a762eb47a57768032ed9bc1ce2484add65209556912cc6093cfcc3eb",
-  "sha256_4x5": "b09fd69fe31d647dadddb137fb7625268d3e9dc97ccbab55ca22424f60dafdb5",
+  "sha256_16x9": "6b53929afbe59e28150177f537c41d05e2560307f3f4ca8df4e773a2df51abd4",
+  "sha256_4x5": "2df0a8581ecfed542130384c7eb54b31b1ee00e9dcda4c8c98d63ad641b7cfb6",
   "reverted_at": "2026-09-25T12:41:02.455091+00:00",
   "qc_notes": [
     {
@@ -31,7 +31,7 @@
     }
   ],
   "file_9x16": "library/world/Switzerland/Zurich/ch-01-027-9x16.png",
-  "sha256_9x16": "8df855bdec929271bbcd420d9a664f3624a6e2f96b95591f5787d49d6a5b8800",
+  "sha256_9x16": "49f2e582f4d0b9376fec8e4acd3365d28ad37af859796e28ec9bb9920c799100",
   "open_meteo": {
     "retrieved_utc": "2026-09-27T16:51:34Z",
     "http_date": "Sun, 27 Sep 2026 16:51:34 GMT",

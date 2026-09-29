@@ -32,8 +32,8 @@
       "4x5": "library/world/Switzerland/Basel/ch-01-332-daylight-4x5.png"
     },
     "sha256": {
-      "16x9": "eb03d474bc2df10916ea5d10ddd5645012e82e10822d86dd3e8628bffe5d2975",
-      "4x5": "93bdae5b973035ed5bef071de7c207ec886fbc9f6e8d10e5c00fcbc5daaf90ee"
+      "16x9": "08998c885fc014e13ff4f5b598ecc6b1813896c7cea446f7ec14acd492994eed",
+      "4x5": "e51163b592044a25ac40b274c771b6d65be51d985dee3e71527fef6e437ad36b"
     },
     "created_date": "2026-09-26",
     "on_image_caption": "Spalentor, Basel",
@@ -46,6 +46,6 @@
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "Gate 1: Basel's Spalentor city gate at night — two round towers flanking a taller central tower with pointed roof, lit stonework against dark cloud, matching the build-agent description (two round towers + taller central pointed tower); both formats agree on that defining arrangement. Gate 2: 1920×1080/864×1080 exact; caption 'Spalentor, Basel', scenario '24 September 2026 · 23:10 Europe/Zurich', 'Jason D’s Vision' signature bottom-right and 'AI-generated artistic interpretation · Not a photograph.' bottom-left legible; Open-Meteo weather retrieved 2026-09-25T23:48:38Z, per-scene unique across all 39 candidates, valid slot 23:00 consistent with 23:10 scenario. Gate 3: note documents text-prompt-only lineage, no photo inputs. Gate 4: historic public monument; no people or logos. Gate 5: no blockers.",
   "approved_at": "2026-09-26T21:33:12.706632+00:00",
-  "sha256_16x9": "e727e4a44b4e68e39d5d227d93ec7bc57e5bf96818a7fc3e1da49df47b157727",
-  "sha256_4x5": "ab65b2378340af4ad4a120053baa55828ff6d123a62091970f27ae4dcceb2944"
+  "sha256_16x9": "3bf6933789f44314268debf60c4cece6561ac0b020118a87345a3d3edde1d133",
+  "sha256_4x5": "541be305862f3268f1b95a18dd7b6cfd1651df59b1445ba026def3b6ccc174d7"
 }

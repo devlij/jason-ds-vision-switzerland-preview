@@ -15,8 +15,8 @@
   "approval_status": "Candidate",
   "qc_status": "Candidate · weather rework 2026-09-27 · not approved",
   "approval_basis": "Builder weather rework 2026-09-27 for CH-01-061. Own Open-Meteo archive GET, HTTP Date Sun, 27 Sep 2026 16:54:02 GMT, retrieved 2026-09-27T16:54:02Z, valid 2026-09-24T15:00 Europe/Zurich, model-valid hour 15:00–15:59, scenario 24 September 2026 · 15:44 Europe/Zurich inside that hour. Weather code 2 (partly cloudy), cloud 77%, 22.4°C, is_day 1. Masters re-rendered at 1920×1270, 864×1270, and 1080×2110 with a 190px #0e0e12 label bar. Status Candidate. Not an approval.",
-  "sha256_16x9": "7ebc4f8b776308049ffd4fda9d92c128ea04ad25a7d89e94289d2e13e4aa04c7",
-  "sha256_4x5": "32dc05d7443ca2dbd3e9734dbb802df2762d672b1190ddb07084b17c3e3240fd",
+  "sha256_16x9": "fc05ce6dc2bb3acfcab6992da01623ae09edb4d3755de268fc6871e37a266822",
+  "sha256_4x5": "6a4cdfcfd7222321c3ed5c03cbc8543d8d9d8cf4e20deafdecd4f065e5b8b32c",
   "reverted_at": "2026-09-25T12:42:39.481543+00:00",
   "qc_notes": [
     {
@@ -31,7 +31,7 @@
     }
   ],
   "file_9x16": "library/world/Switzerland/Bellinzona/ch-01-061-9x16.png",
-  "sha256_9x16": "87d903f5e70519169e9e6033ca18a99107f93cea77e07458f1469ebf63bf2d4d",
+  "sha256_9x16": "7f2f9ac3b1e1146a99e4327a485fd694f3169e71696ee382c4a548d99b77224b",
   "open_meteo": {
     "retrieved_utc": "2026-09-27T16:54:02Z",
     "http_date": "Sun, 27 Sep 2026 16:54:02 GMT",

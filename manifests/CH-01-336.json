@@ -32,8 +32,8 @@
       "4x5": "library/world/Switzerland/Hauterive/ch-01-336-daylight-4x5.png"
     },
     "sha256": {
-      "16x9": "1dda39f062a05bc3ab04535953987b4f23a670261b115f727ce205b27a9a0709",
-      "4x5": "ad09acfed5cc1ae9dd7842ce12880b928176e9d97952fe6e4e15d30ce8d8b1af"
+      "16x9": "1540ebf327c6e1a2fb12bf621dcf3afbe6727fdb69a301ea0d949998c02aacae",
+      "4x5": "12dd633399d45032fbc5f9dc91b2f14fedf24b5f957d93eba91ae6c5b39bcb94"
     },
     "created_date": "2026-09-26",
     "on_image_caption": "Hauterive Abbey, Hauterive",
@@ -46,6 +46,6 @@
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "Gate 1: Hauterive Abbey on the Sarine bend — plain stone Cistercian church with its small tower and cloister arcade, cliff rising behind, river in the foreground; both formats agree on the church-with-tower, cloister, and cliff. Gate 2: 1920×1080/864×1080 exact; caption 'Hauterive Abbey, Hauterive', scenario '24 September 2026 · 23:10 Europe/Zurich', 'Jason D’s Vision' signature bottom-right and 'AI-generated artistic interpretation · Not a photograph.' bottom-left legible; Open-Meteo weather retrieved 2026-09-25T23:48:42Z, per-scene unique across all 39 candidates, valid slot 23:00 consistent with 23:10 scenario. Gate 3: note documents text-prompt-only lineage, no photo inputs. Gate 4: historic abbey site; no people or logos. Gate 5: no blockers.",
   "approved_at": "2026-09-26T21:33:49.379181+00:00",
-  "sha256_16x9": "9d48bf2ad9ac0ec35e7c7707ad0a4306a2a30baedf0f5293a77365a8500a7799",
-  "sha256_4x5": "4c57fecf7a85f73ca8abf4cfed4d5ba52623bce2a6c6a26a1c72126c3270f695"
+  "sha256_16x9": "efb65fd06e72d70cf59b50e3087d254a0f8893e1465ef1e7772b056e0678dc24",
+  "sha256_4x5": "749cbbe84b6bcb43be17186ba022a4575b316fa49fa4f42dcc8d95a0fa98e8b4"
 }

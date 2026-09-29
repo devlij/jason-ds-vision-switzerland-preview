@@ -32,8 +32,8 @@
       "4x5": "library/world/Switzerland/Leuk/ch-01-311-daylight-4x5.png"
     },
     "sha256": {
-      "16x9": "488ca25920ca49686a2852d7c29b87b8b877502c81e7733c342b7298e607553a",
-      "4x5": "c3bf1e2cb39ba19b0870ec630bcdb67197d3386c7bc77e40d5e62a980b8f085a"
+      "16x9": "fa8715fa8a08acb7ad2dec85f167882c4f41372e8881f5678a0af319bf2c419c",
+      "4x5": "78ebb529b3867504bdbc1126ea44114294ac22f795574b81cc0faf2fa3c78129"
     },
     "created_date": "2026-09-26",
     "on_image_caption": "Leuk Castle, Leuk",
@@ -46,6 +46,6 @@
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "Gate 1 PASS: Leuk Castle at night seen from below — square main tower with lit windows, irregular ring wall, rectangular residential wings, town roofs dark below; matches the anchors (square tower, ring wall, castle above town, not the Gemmi cliff). Gate 2 PASS: exact dims; caption 'Leuk Castle, Leuk', scenario 24 Sep 2026 22:51 Europe/Zurich, disclosure, signature exact; retrieval 2026-09-25T23:48:17Z unique repo-wide, scenario inside model hour. Gate 3 PASS: text-prompt-only per note. Gate 4: no people, no logos.",
   "approved_at": "2026-09-26T19:36:49.976686+00:00",
-  "sha256_16x9": "7f6b492036b79eff5f55fdbb1f997f5ee281834a88771cde645a87e21ae17b39",
-  "sha256_4x5": "ecceadca53001cbb5dc4b57d0e0ade5be7285499fb4b086909f5c4552fbe228d"
+  "sha256_16x9": "375815e3af21f4f5e40876637179d0b39ff8f23087ed85272cc21eede02248eb",
+  "sha256_4x5": "ca5c7efe429ec83ff9c0a540a21d5b0d47b05da9a335e011256ec2c4f220afaa"
 }

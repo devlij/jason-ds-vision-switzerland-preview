@@ -32,8 +32,8 @@
       "4x5": "library/world/Switzerland/Montreux/ch-01-346-daylight-4x5.png"
     },
     "sha256": {
-      "16x9": "e1b52cfaa89132ca2958db5f6b9b3ff1517bcd00271b16366f981122414cfbcf",
-      "4x5": "76e20b0c42dad91b20510c74a578245562eaff256e646f9475c5450ffebbd89b"
+      "16x9": "6f979616b9bdaa8aedb0a2488431db44b1d5be50ec8bb0247f4fc6d0f5cca2c6",
+      "4x5": "bcb62c6dea895da446e96781068994df63a18d7a494dd21c4a434307a1399815"
     },
     "created_date": "2026-09-26",
     "on_image_caption": "Les Avants, Montreux",
@@ -46,6 +46,6 @@
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "Gate 1 — 16:9 master shows the hamlet of Les Avants at night: a lane of wooden chalets with warm lit windows receding along a dark road, meadows and bare trees on the mountain slope — matches the anchors (lane of wooden chalets, meadows rather than the lake quay) and the independent description. 4:5 crop shows the same chalet lane — no inter-format subject disagreement. Gate 2 — exact 1920x1080 / 864x1080 masters; on-image caption 'Les Avants, Montreux', scenario '24 September 2026 · 23:28 Europe/Zurich', disclosure and exact curly-apostrophe 'Jason D's Vision' signature legible on the scrim. Weather per approvals note: Open-Meteo retrieved 2026-09-25T23:48:52Z, unique per-scene timestamp across the 27-scene candidate window, model-valid hour covering the scenario time with per-scene coordinates. Gate 3 — text-prompt-only lineage documented, no photographic inputs. Gate 4 — no visible people, logos, or recognizable private property; documented only.",
   "approved_at": "2026-09-26T22:33:42.505306+00:00",
-  "sha256_16x9": "73cbfaff12bbd18ce19cf0832100f42e3481d30be989f49536ffb66d063b18eb",
-  "sha256_4x5": "8c26dd3d75ae2aaed6e63a5fc9df916ca119ba5dcc611d5bcd03da2089c87842"
+  "sha256_16x9": "87cb3788d27329e27b433072183aea622e2c2fa6e31e2e0c0bf7032fd57e7e4f",
+  "sha256_4x5": "143ab2eb02a7dc4b5a640638a86d471b021aca71dde446f66a2515d8176eb90a"
 }

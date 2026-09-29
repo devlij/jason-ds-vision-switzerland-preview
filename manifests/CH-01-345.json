@@ -33,8 +33,8 @@
       "4x5": "library/world/Switzerland/Veytaux/ch-01-345-daylight-4x5.png"
     },
     "sha256": {
-      "16x9": "c76787f300deeb26a72820cda0e759f72a28e44e5249dd8474e91ce314c81c5e",
-      "4x5": "9fb7d4b43a2d1b7f4c6da9062528ed5d86506e497a4dfcee0cb94047c367cdaa"
+      "16x9": "3f07c7802ea94100f928684ec82c8f73e4e4b015f73d7ec301ba8fef6c5e98fa",
+      "4x5": "e0a05bb4b6426a975800655b440bdc0c3beda3a9cf8586301d7ba4cdeffefbfd"
     },
     "created_date": "2026-09-26",
     "on_image_caption": "Rochers-de-Naye, Veytaux",
@@ -55,5 +55,8 @@
       "by": "rerender",
       "note": "Re-render for the recorded Gate 1 hold: inter-format subject disagreement — the 16:9 master shows the summit building as a long low modern block with a row of lit windows while the 4:5 master shows a small square stone hut with a pitched stone roof. All three new masters share one plain stone-and-timber summit house with a pitched roof on the rocky ridge, night, no snowfield. Scenario unchanged. Label-bar finish 1920×1270, 864×1270, 1080×2110. Still Candidate. Daylight variant files were not regenerated."
     }
-  ]
+  ],
+  "sha256_16x9": "04c90bdcd677e991a44f3fdaa4ed3b05246c17985208c9eccb6589d1bba7be4c",
+  "sha256_4x5": "dbdf1810ffe5778fc12aab74589839cb860193ad3a6938d4fda6b0336a340f44",
+  "sha256_9x16": "3cc7575de7e12f9161fe281dcabb51fc5d3dd647770728f7524ef80ffefaec56"
 }

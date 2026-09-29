@@ -33,8 +33,8 @@
       "4x5": "library/world/Switzerland/Gersau/ch-01-354-daylight-4x5.png"
     },
     "sha256": {
-      "16x9": "274d6c5802241feab0e4bb81e8ad49da5ecd67eb1c4ed30849ecb42febd7f06c",
-      "4x5": "8362445728ede70ea7606800023e227fde91ed734eca013f5ffe26fed2d4c856"
+      "16x9": "83659fb88138de7cb638f7a8dd728028d270ba2fddf012a154ff74aec3ff109b",
+      "4x5": "64c145e466859aec4fbcb923badd4f83b2921615ea176ee2ee1f5289cf03be09"
     },
     "created_date": "2026-09-26",
     "on_image_caption": "Gersau, Gersau",
@@ -55,5 +55,8 @@
       "by": "rerender",
       "note": "Re-render for the recorded Gate 1 hold: inter-format subject disagreement — the 16:9 master renders the Gersau church with a short pyramidal spire while the 4:5 master renders a tall slender needle spire on the same lakeside church tower. All three new masters share one square tower with a dark baroque onion dome. Night, scenario unchanged. Label-bar finish 1920×1270, 864×1270, 1080×2110. Still Candidate. Daylight variant files were not regenerated."
     }
-  ]
+  ],
+  "sha256_16x9": "c03d4574f2a4912535c2e1eeeccfd6da7efdf1fd1d1e56f5f637c014e702639a",
+  "sha256_4x5": "67f6bf0c38715ac6a91339a67b0f5314b2cc38ae55f83fcb7c658587c74ab2aa",
+  "sha256_9x16": "5ba8caa43452800047026f34e94312ea0e0878d5c778d3734231b1416972125d"
 }

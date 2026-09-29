@@ -32,8 +32,8 @@
       "4x5": "library/world/Switzerland/Bosco-Gurin/ch-01-359-daylight-4x5.png"
     },
     "sha256": {
-      "16x9": "6672fdaef18b46989e38d7e7c26123df635ed7c7801032105a8923db2da337d7",
-      "4x5": "25af7fcadac9c91865b796aa0eef454fb722e0627dbfafa94174e1c9ecbebc00"
+      "16x9": "ec284513b981f2a60545aecb32095842c52336c641b9a17e3de170d4a5ba0293",
+      "4x5": "a479983f79e59804d13f6d42ab21c00b96e0b80f7d3a4205b722154cd3a53c1f"
     },
     "created_date": "2026-09-26",
     "on_image_caption": "Bosco Gurin, Bosco/Gurin",
@@ -46,6 +46,6 @@
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "Gate 1: stone church with spire on a tawny rise above a cluster of dark wooden Walser chalets, mountains behind — matches the anchors (Bosco Gurin Walser village, stone church); both formats agree on church, chalets and mountain setting. Gate 2: exact 1920x1080 and 864x1080; caption 'Bosco Gurin, Bosco/Gurin', scenario '24 September 2026 · 23:46 Europe/Zurich', disclosure 'AI-generated artistic interpretation · Not a photograph.' and signature 'Jason D\\u2019s Vision' legible on the bottom scrim; scenario 23:46 inside the model-valid 23:45 step; weather retrieved 2026-09-25T23:49:05Z, verified unique across all 365 Switzerland note files. Gate 3: approvals note records text-prompt-only lineage, no photographic inputs. Gate 4: no identifiable people, no logos or focal artwork — documented only, final commercial call is Jason's. Gate 5: all gates closed.",
   "approved_at": "2026-09-26T23:42:37.712923+00:00",
-  "sha256_16x9": "4f8b1f30410d7d70d79d98d7250ee6c3e9994f5cfbf2316e3970634024b372cf",
-  "sha256_4x5": "690842784c355938b556ea5ab93014dd5a8a7c9a252bff02bc28d5b64e6f07fd"
+  "sha256_16x9": "67ad9cbe7198508ac296e260d09cd586b09b3e38d51bb2a7fe13491dcbb432f8",
+  "sha256_4x5": "a7b7c9f73381580654f4172037c8d6ce2541219b2c630af3841f44d8e572aad9"
 }

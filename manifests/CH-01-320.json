@@ -32,8 +32,8 @@
       "4x5": "library/world/Switzerland/Kandersteg/ch-01-320-daylight-4x5.png"
     },
     "sha256": {
-      "16x9": "b34e4cbdcdb3adff6e76ad33ef3eb8aebe40b7543b8f41d3c738a75e95e736fc",
-      "4x5": "8573af5ae7885a4e64c3aa9ac17d0696a022961716d359c0f0a27971eaed366a"
+      "16x9": "760e4fb6a223d379efc2685c1eb9456b85a9995b2a0c4a6547d942f7c8415b09",
+      "4x5": "9e1ca45c9dfa51beb5c69cc3f2c9b36e2a8e7250b19ce4d22a738bd45cfcd80f"
     },
     "created_date": "2026-09-26",
     "on_image_caption": "Oeschinensee, Kandersteg",
@@ -46,6 +46,6 @@
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "Gate 1: the 16:9 master shows Oeschinensee at night — a still alpine lake ringed by rugged peaks with a lit mountain hut on the shore under broken cloud; plausible tourist view, clean framing, no artifacts; the 4:5 master shows the same lake, peaks, and lit hut with no defining-feature disagreement. Gate 2: sweep-verified exact 1920×1080 / 864×1080; on-image caption 'Oeschinensee, Kandersteg', scenario '24 September 2026 · 22:52 Europe/Zurich', 'AI-generated artistic interpretation · Not a photograph.' disclosure bottom-left on gradient scrim; exact 'Jason D's Vision' (curly apostrophe) bottom-right; weather retrieval unique to this scene at 2026-09-25T23:48:26Z, separate request for Oeschinensee coords, model-valid hour 22:00–22:59 contains the 22:52 scenario (code 3 overcast, 9.8°C, 75% cloud — matches the brooding cloudscape). Gate 3: builder note documents text-prompt-only lineage, no photographic inputs. Gate 4: no people or logos; natural landmark — documented only. Gate 5: no open blockers.",
   "approved_at": "2026-09-26T20:36:53.215174+00:00",
-  "sha256_16x9": "e633b771cd2305dfcb75718f3894564702ea940ad4028011964337c9be6dd209",
-  "sha256_4x5": "c3379ce097561fa60ca52bfc3326a623cd5c25b397ea8267ecfd1fc017ea3c5e"
+  "sha256_16x9": "be590d3e2e7bc6e97390ff5cc3c5319e0159171a6347052a1b3d7fe7789c8cd1",
+  "sha256_4x5": "b6c5fb69efcad27dbc29ec237f9de71102bb59ce2fdd789b9207928565b23ed5"
 }

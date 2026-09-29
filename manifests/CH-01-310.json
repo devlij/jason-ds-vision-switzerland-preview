@@ -32,8 +32,8 @@
       "4x5": "library/world/Switzerland/Visperterminen/ch-01-310-daylight-4x5.png"
     },
     "sha256": {
-      "16x9": "40e72e12b9edc46c9d756faeae63ef3c3ecbf49f154939fc3e284fcfae7c2ac4",
-      "4x5": "5ba07c63b233e146e9f0d82715d7c4aaffa2125ac19e7cb7fe2f72cd0255dbc5"
+      "16x9": "49f4163a4dadb17447400605018d8adcf76be57a0632c89e2fbf7b3a659f7380",
+      "4x5": "39a1ec9864d76e59dabb03b8eba6dc59754ed85c5fac9347b081d45f152b0f85"
     },
     "created_date": "2026-09-26",
     "on_image_caption": "Visperterminen, Visperterminen",
@@ -46,6 +46,6 @@
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "Gate 1: 16:9 shows Visperterminen village with the St. Theodul church — stone tower with pointed spire — among dark wooden houses, stone-walled vineyard terraces with yellowing vines below, a lit lane curving in; 4:5 shows the same spired tower with clock among the same wooden houses, stone steps, yellowing vines. Formats agree on the defining tower. Clean framing, no artifacts. Gate 2: exact 1920x1080 and 864x1080 masters; on-image caption 'Visperterminen, Visperterminen', scenario '24 September 2026 · 22:51 Europe/Zurich', disclosure 'AI-generated artistic interpretation · Not a photograph.', and 'Jason D\\u2019s Vision' signature verified. Weather retrieval 2026-09-25T23:48:16Z is unique to this scene to the second; scenario 22:51 falls inside the model-valid hour 22:00–22:59. Gate 3: build-agent note documents text-prompt-only lineage, no photographic inputs. Gate 4: no prominent people or logos; no readable cellar name. Gate 5: no open blockers.",
   "approved_at": "2026-09-26T18:40:36.898217+00:00",
-  "sha256_16x9": "9282382e1b9c11f33a9704cb143db9fb744199bd3ad9958be6446924b9c1cf09",
-  "sha256_4x5": "6d8b75f60bb0e6b0345dd41e8c7da1fe11771246e319808e5049e03596f5ba4b"
+  "sha256_16x9": "e33e6b6fd97498fb0d842d2b42e946ac6b46b3b9395eb462c0104ebd390180dc",
+  "sha256_4x5": "7976d76c202be24028e10e956b76a3af3be3d8e04fc662cd3c511a9224b98078"
 }

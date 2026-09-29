@@ -33,8 +33,8 @@
       "4x5": "library/world/Switzerland/Brig-Glis/ch-01-309-daylight-4x5.png"
     },
     "sha256": {
-      "16x9": "12d72b1579a662a3fa524d479c3d37ce36bef21a3e90a746a79c82ffcdeda66d",
-      "4x5": "be496f00dca8457b75bf5e70eef6752bb8dba60b7b624189e0f2a7bf782c9c9a"
+      "16x9": "9f5d686b1f1f264482da8fe485c6c6640898e057c0f3a1beea74a540126e3390",
+      "4x5": "7bc8487df3e3552cbe8cd64a3a0bfc5f3e426636190f0bad27987ab77a794a21"
     },
     "created_date": "2026-09-26",
     "on_image_caption": "Glis Church, Brig-Glis",
@@ -55,5 +55,8 @@
       "by": "rerender",
       "note": "Re-render for the recorded Gate 1 hold: inter-format subject disagreement — the 16:9 master renders the Glis church's Romanesque tower with a crenellated flat top while the 4:5 master renders the same tower with a pointed spire and cross. All three new masters share one square Romanesque tower with a steep four-sided pyramidal roof and a small cross, and the arcaded west porch. Night, scenario unchanged. Label-bar finish 1920×1270, 864×1270, 1080×2110. Still Candidate. Daylight variant files were not regenerated."
     }
-  ]
+  ],
+  "sha256_16x9": "742f2b377875a215802589eab2f4c72838fbad59285772391fd463463572b0b0",
+  "sha256_4x5": "1ea3feb43181d034d8a8b540947bade4e9ab214c41a0a0f93da35fb85502fc96",
+  "sha256_9x16": "38b23f15b0272168498d7f4fd3b3b95ac1c64e1aeadbc2aa547f7ca378e6a57a"
 }

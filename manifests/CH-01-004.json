@@ -15,8 +15,8 @@
   "approval_status": "Approved",
   "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
   "approval_basis": "Open-Meteo retrieval 2026-09-27T16:51:02Z (unique to the second, repo-wide verified, 2026-09-27) — Gate 2 hardened-weather law satisfied. CH-01-004: Jet d'Eau, Geneva. G1: the tall water jet standing in Lake Geneva seen from the stone quay, Mont Blanc shoreline behind under gray stratus. G2: dims exact; 'Jet d'Eau, Geneva' / 14:38. G3–G5 clear.",
-  "sha256_16x9": "620a067c67bb80191d5b069c7d7d6cfd568bad3d87ea782100e27c3cd3af3fc0",
-  "sha256_4x5": "1cae12be691cbfa6aab8200007d938ec2259971179b84283b141bfef17bcc228",
+  "sha256_16x9": "af5e299b8bd28ca7bdb07d1815e6e6e263e2d0d2a992cec372a03c0911552895",
+  "sha256_4x5": "49e4c7f32103c40d050c463f7c53457dea347feff76fd8d692744d67ddc6e0a0",
   "reverted_at": "2026-09-25T12:39:49.895263+00:00",
   "qc_notes": [
     {
@@ -61,7 +61,7 @@
     }
   ],
   "file_9x16": "library/world/Switzerland/Geneva/ch-01-004-9x16.png",
-  "sha256_9x16": "9c37e3b162abf678c90ac4dd7887e66843cacadbcfb8fea1f7ea6ef4872b4756",
+  "sha256_9x16": "a175d57f921617e5fb4f901e0b65f25c73735a823ea0cff224799b2ed7700d10",
   "open_meteo": {
     "retrieved_utc": "2026-09-27T16:51:02Z",
     "http_date": "Sun, 27 Sep 2026 16:51:02 GMT",

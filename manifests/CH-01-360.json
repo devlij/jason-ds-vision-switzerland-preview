@@ -32,8 +32,8 @@
       "4x5": "library/world/Switzerland/Riva San Vitale/ch-01-360-daylight-4x5.png"
     },
     "sha256": {
-      "16x9": "8fe33aa2d0b341f6ae2de4979265a039de474caf5541c5232b70b2f155e4b155",
-      "4x5": "94040a579b913cb87bc9927b55cee05399728693ac6c42b4a09e7fe0974c07b4"
+      "16x9": "1d9349a45819d78f0b54899cd2bfb4e45ac8059cf200d7ff52a468bed0eb9512",
+      "4x5": "e3cf3b944bad8b8cb02e3dc75f357f14377492a04e979b925eac20a41138affe"
     },
     "created_date": "2026-09-26",
     "on_image_caption": "Baptistery, Riva San Vitale",
@@ -46,6 +46,6 @@
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "Gate 1: octagonal stone baptistery with cupola in the foreground, church with bell tower behind, cypress trees — matches the anchors (Riva San Vitale baptistery, cupola); both formats agree on baptistery, tower and cypresses. Gate 2: exact 1920x1080 and 864x1080; caption 'Baptistery, Riva San Vitale', scenario '24 September 2026 · 23:46 Europe/Zurich', disclosure 'AI-generated artistic interpretation · Not a photograph.' and signature 'Jason D\\u2019s Vision' legible on the bottom scrim; scenario 23:46 inside the model-valid 23:45 step; weather retrieved 2026-09-25T23:49:06Z, verified unique across all 365 Switzerland note files. Gate 3: approvals note records text-prompt-only lineage, no photographic inputs. Gate 4: no identifiable people, no logos or focal artwork — documented only, final commercial call is Jason's. Gate 5: all gates closed.",
   "approved_at": "2026-09-26T23:42:54.430945+00:00",
-  "sha256_16x9": "886854a89642805f45c07cb77cba40b95a1848e0388c2e10cd219153c546d2e4",
-  "sha256_4x5": "c1e804e3e46408d42e3e70124f34352b5d8c90d86c21557daaad0521c0e1ca4e"
+  "sha256_16x9": "41ef1a2d0b10e74cde4e2669f3c9e83ef45e7c6fb69058118d9471bae638c2a7",
+  "sha256_4x5": "2971c6889ed395ce29c6d17298877d50ac899f0bc38fcc4250ba7f57913bc84d"
 }

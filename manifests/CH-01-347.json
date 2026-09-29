@@ -32,8 +32,8 @@
       "4x5": "library/world/Switzerland/La Tour-de-Peilz/ch-01-347-daylight-4x5.png"
     },
     "sha256": {
-      "16x9": "11ac62101238e22cd203543c33ff423a7aca298b94cb12614e31cbb6a287f097",
-      "4x5": "5733bf869b73796883afb399fca63c1f6f4a80fc3770d1cd7cdd4d6c0c8b9d26"
+      "16x9": "18304e85d3c7f1ec3fcb00b611bb324d221c18a6341ed2a01785141af15ce2fa",
+      "4x5": "7f2bfd58bad954eef952a140a66a5614e40be1d40a8870da63c74e2c3dc9ef48"
     },
     "created_date": "2026-09-26",
     "on_image_caption": "La Tour-de-Peilz Castle, La Tour-de-Peilz",
@@ -46,6 +46,6 @@
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "Gate 1 — 16:9 master shows the castle of La Tour-de-Peilz at night on Lake Geneva: the round stone keep with lower walls lit warm on the water, a small quay with bollards and a plane tree in the foreground; matches the anchors (round stone keep, lower walls, quay). 4:5 crop shows the same round keep, walls, and plane trees — no inter-format subject disagreement. Gate 2 — exact 1920x1080 / 864x1080 masters; on-image caption 'La Tour-de-Peilz Castle, La Tour-de-Peilz', scenario '24 September 2026 · 23:28 Europe/Zurich', disclosure and exact curly-apostrophe 'Jason D's Vision' signature legible on the scrim. Weather per approvals note: Open-Meteo retrieved 2026-09-25T23:48:53Z, unique per-scene timestamp across the 27-scene candidate window, model-valid hour covering the scenario time with per-scene coordinates. Gate 3 — text-prompt-only lineage documented, no photographic inputs. Gate 4 — no visible people, logos, or recognizable private property; documented only.",
   "approved_at": "2026-09-26T22:33:50.538957+00:00",
-  "sha256_16x9": "4b4540d8cfd2f9a8da02c5ca8cae0198608aaa79266e8299fdd6dd3eb0dc267e",
-  "sha256_4x5": "6afc504d6922c766800e6eb9e8e398c42988a883c0ae2c52d3a2b5b5551820e0"
+  "sha256_16x9": "3b2f14e18d436f1c41bbf02446b228a2e071ab89aee2a210c429556e45842364",
+  "sha256_4x5": "d443bd2fca85a368253b5dbea3431e1ee544d4b70d822ec54a722caa72df1ee7"
 }

@@ -16,6 +16,6 @@
   "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
   "approval_basis": "Gate 1: Rheinfelden from the river — the old town's continuous red-roofed riverside front with its stone tower and archway, stone embankment walls, the Rhine running calm in the foreground and wooded hills beyond; overcast light matching the model. Gate 2: exact masters; on-image 'Rheinfelden, Rheinfelden', scenario '24 September 2026 · 16:37 Europe/Zurich', disclosure and curly-apostrophe signature verified. Retrieval 2026-09-25T23:40:38Z scene-unique; 16:37 inside the note's 16:00–16:59 model-valid hour. Gate 3: text-prompt-only, no photographic inputs. Gate 4: no people, no logos or readable marks; commercial call stays Jason's. Gate 5: ready.",
   "approved_at": "2026-09-26T04:37:13.638780+00:00",
-  "sha256_16x9": "7f6c986fa9ff690ed83294a271e48b0e369ae577b76a0701a29d575fb1e7cb44",
-  "sha256_4x5": "e72ce811b116921f898af4b5eb0376406e974aafd314c56a8b159e75d563515b"
+  "sha256_16x9": "4ace36efe49d57783577288eb53cceeda362d6f00929a502cb66b580993cc9e2",
+  "sha256_4x5": "01219f6819e030b6b45fe1e64f66f1dbe1190697faae01da39234604dcffc73f"
 }

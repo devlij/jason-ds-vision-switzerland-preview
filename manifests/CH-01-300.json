@@ -32,8 +32,8 @@
       "4x5": "library/world/Switzerland/Lausanne/ch-01-300-daylight-4x5.png"
     },
     "sha256": {
-      "16x9": "28a5e1e5e1a86f75979bb3fe9872405d7a6415c696d6833ecfd6c479686dc27d",
-      "4x5": "b475d791977d602e18dc0cd070496c93b8e580635d82254a3d1a9b3c227e2599"
+      "16x9": "6b3cf94ee4cb6ea7f0ca1af9fe2948e3274567123c2564d6ebed0b373bd6f12f",
+      "4x5": "726520f78a8a9f7b8a321acb7dc32ce2aa3cc17827294ad9e5880a38bac872e6"
     },
     "created_date": "2026-09-25",
     "on_image_caption": "Flon, Lausanne",
@@ -46,6 +46,6 @@
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "Gate 1 PASS: Flon district at night — converted brick warehouse buildings left, concrete industrial blocks right, massive concrete bridge crossing above the old riverbed valley, sparse lit windows; reads as the former industrial valley below street level, no cathedral. Gate 2 PASS: exact dims; caption 'Flon, Lausanne', scenario 24 Sep 2026 22:30 Europe/Zurich, disclosure, signature exact; retrieval 2026-09-25T23:48:06Z unique repo-wide, scenario inside model hour. Gate 3 PASS: text-prompt-only per note. Gate 4: no people, no readable brand.",
   "approved_at": "2026-09-26T19:34:40.706510+00:00",
-  "sha256_16x9": "304499240295d8ab613da1b1eaf803b664bf2e4c3aa1a1a5a08576d0768d0ab4",
-  "sha256_4x5": "d05f12e72eee8fd433915cdf207029eb3b1c366dfa52fd60a029d77b4ef3ae2a"
+  "sha256_16x9": "598909439a6f4851e7ad7d640ce14feebf9a1eabf96ac3de4fc38ac92d68ebb2",
+  "sha256_4x5": "7afac7eaf77f5d7f349299dd81959d561980732efa7f845d611d770a2385609b"
 }

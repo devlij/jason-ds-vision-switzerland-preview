@@ -16,6 +16,6 @@
   "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
   "approval_basis": "Gate 1 PASS: Arth's white baroque parish church with onion tower standing on the south shore of Lake Zug, stone quay in the foreground and hazy mountains across the water, plausible lakeshore tourist viewpoint, clean framing, no artifacts. Gate 2 PASS: mechanical 1920x1080/864x1080 verified; on-image caption 'Arth, Arth', scenario '24 September 2026 · 17:33 Europe/Zurich', disclosure 'AI-generated artistic interpretation · Not a photograph.' bottom-left and exact 'Jason D's Vision' signature bottom-right, legible on the gradient scrim; note records a separate Open-Meteo retrieval at 2026-09-25T23:42:34Z unique repo-wide to this scene, valid for the model hour covering the scenario. Gate 3: text-prompt-only lineage, no photographic inputs reported. Gate 4: no people, logos, or recognizable private property (documented only). Gate 5: no open blockers.",
   "approved_at": "2026-09-26T08:39:47.863974+00:00",
-  "sha256_16x9": "5bbf4767d1c2bf73c723c64c39ed435027c516eff7a72641f1a742210941a8f4",
-  "sha256_4x5": "923f17adaeacbf51704a4ca3fdfdcf935fc16c4cdf7c3db123e6670e34138321"
+  "sha256_16x9": "1d8f2304b18bed786eed16208cba7960ab55bfd7ba7d5d189d25491b84179e3b",
+  "sha256_4x5": "d065219ced8838b6db60759f0c7ef0e6f3102c00a0ead7dd82b3b0fcf28cd5df"
 }

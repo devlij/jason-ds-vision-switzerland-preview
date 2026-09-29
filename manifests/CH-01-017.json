@@ -15,8 +15,8 @@
   "approval_status": "Approved",
   "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
   "approval_basis": "Approved · Cosmo QC 5/5 · Daylight. Gate 1: Allalinhorn as a snow-and-ice summit massif on a high ridge (not a lone pyramid), crevassed Fee Glacier curving through the middle ground, rocky Längfluh foreground — matches the note's geometry anchors; clean, no artifacts. Gate 2: dims verified; on-bar 'Allalinhorn, Saas-Fee', 'Scenario: 24 September 2026 · 15:08 Europe/Zurich', disclosure + signature; retrieval 2026-09-27T16:51:20Z unique, scenario 15:08 inside 15:00-15:59, code 3/84%/5.9°C consistent with flat diffuse light. Gate 3: text-prompt-only lineage. Gate 4: no people, no logos. Gate 5: no blockers.",
-  "sha256_16x9": "9d73879a2f4f5ec6caa12dae8be0da8042c5ce867453730784790421f92f159f",
-  "sha256_4x5": "aa35d81598869609453391659212711fc373af92e2854e3a1fe20e6ef20d72a8",
+  "sha256_16x9": "a04fb883bbe2870f06c056430fe9c1ad68ea3f01e6c41899511a241c18dd66d6",
+  "sha256_4x5": "87aaddbd4840e82e48dd72377af3a293dad22bbdc88632f8c6210a992096bb8d",
   "reverted_at": "2026-09-25T12:40:37.300716+00:00",
   "qc_notes": [
     {
@@ -31,7 +31,7 @@
     }
   ],
   "file_9x16": "library/world/Switzerland/Saas-Fee/ch-01-017-9x16.png",
-  "sha256_9x16": "2a1e985aa5840e69003e9e5ddb1a66c38da529694ddbc33358633cdfa3853cd0",
+  "sha256_9x16": "12b5381a3d0f8afff38596efa1fd243c9e2dec8044ce8d1fcef8b7512fb3fb45",
   "open_meteo": {
     "retrieved_utc": "2026-09-27T16:51:20Z",
     "http_date": "Sun, 27 Sep 2026 16:51:20 GMT",

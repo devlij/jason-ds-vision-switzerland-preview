@@ -16,6 +16,6 @@
   "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
   "approval_basis": "Gate 1: Montreux lakefront promenade with palms and late-season flower beds, Belle Époque hotel fronts with no readable names, Lake Geneva, hazy serrated Dents du Midi ridge across the water; no castle, no statue as subject. Gate 2: caption 'Montreux lakefront, Montreux', scenario '24 September 2026 · 17:14 Europe/Zurich', disclosure and curly-apostrophe signature exact on bottom gradient; per-scene Open-Meteo retrieval 2026-09-25T23:42:19Z verified unique across all 373 repo notes, valid hour 17:00-17:59 covers 17:14. Gate 3: text-prompt-only, no photographic inputs reported. Gate 4: no prominent people, no focal logos (internal note only). Gate 5: no open blockers.",
   "approved_at": "2026-09-26T07:36:49.302447+00:00",
-  "sha256_16x9": "243beea2b021e9831292a84f9dffb718201e95195c2509f78feaab1fbb250454",
-  "sha256_4x5": "38ae4341f3cbc8afa2c1c948036ab253a889546a8d58449ed712396c80f721dc"
+  "sha256_16x9": "6f7ca4530f47c611a0e4e1fab52d95e665d9da6ba02d1191197264313b5bea91",
+  "sha256_4x5": "55a883e39bd65c345cc393fd0f888b34f0080e6bddebba93226198a87be39ce4"
 }

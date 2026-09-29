@@ -32,8 +32,8 @@
       "4x5": "library/world/Switzerland/Cevio/ch-01-323-daylight-4x5.png"
     },
     "sha256": {
-      "16x9": "174719552e979874eccadde52d1e2b5ca38251e2b7f164e366a6ea9e9b3705e6",
-      "4x5": "094f7aa17690814d29442d0cf8efe32b5f144c6a87a45f768c66586e4cecbc18"
+      "16x9": "9ac74466cc9a6c47e2bba45d9012e1aa4c7726e66769e8f0ee041098fbd3151a",
+      "4x5": "5c34b28916d11ad6a4c95853c3524747a92e47aa6e5009daead2daabd5d87279"
     },
     "created_date": "2026-09-26",
     "on_image_caption": "Foroglio, Cevio",
@@ -46,6 +46,6 @@
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "Gate 1: the 16:9 master shows Foroglio — the famous waterfall plunging beside the lamplit stone village of Cevio under a starry sky; plausible tourist view, clean framing, no artifacts; the 4:5 master shows the same waterfall and stone rooftops with no defining-feature disagreement. Gate 2: sweep-verified exact 1920×1080 / 864×1080; on-image caption 'Foroglio, Cevio', scenario '24 September 2026 · 23:09 Europe/Zurich', 'AI-generated artistic interpretation · Not a photograph.' disclosure bottom-left on gradient scrim; exact 'Jason D's Vision' (curly apostrophe) bottom-right; weather retrieval unique to this scene at 2026-09-25T23:48:29Z, separate request for Foroglio coords, model-valid hour 23:00–23:59 contains the 23:09 scenario (code 1 mainly clear, 0% cloud — matches the starry sky). Gate 3: builder note documents text-prompt-only lineage, no photographic inputs. Gate 4: no people or logos; public village — documented only. Gate 5: no open blockers.",
   "approved_at": "2026-09-26T20:37:45.127192+00:00",
-  "sha256_16x9": "a322966841b15c407eb453185ae5cf9a4d7e6c852e70ae0693548a37b9d2668a",
-  "sha256_4x5": "045ea2fab6d4f39f85a859ba3b8d39a196a5c4c32345d3f3de5d60d04c5611d8"
+  "sha256_16x9": "0e44a9417a283d1e4ccb4e02d8298928cdb0a2525cb0665d7680d4c46e72d7f1",
+  "sha256_4x5": "1d0f1551c6d789abebd6ef02da08e9ebfc9dc99fb68a511da636684fde3683c5"
 }

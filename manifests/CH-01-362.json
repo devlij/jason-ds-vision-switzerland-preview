@@ -32,8 +32,8 @@
       "4x5": "library/world/Switzerland/Surses/ch-01-362-daylight-4x5.png"
     },
     "sha256": {
-      "16x9": "a2d8a38da63dac0b41f03e1af9506b629329b7daa3612224d113adaac8eebcee",
-      "4x5": "cba017c29f215a2a50e66d8e3588581754e5bd6a9c4a38726dffcb1771e524f9"
+      "16x9": "3158d79e3bfe4450cfdecdcd07fac63a4bcd2397d7d46cc41048c13cdba5998d",
+      "4x5": "423ceb1623609590ece7f6fb1b1b84a6d6874209a53c9facea84f2a8aa35e5b9"
     },
     "created_date": "2026-09-26",
     "on_image_caption": "Savognin, Surses",
@@ -46,6 +46,6 @@
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "Gate 1: white church with a tall needle spire in a valley village of dark chalets, jagged peak rising behind — matches the anchors (Savognin church, Surses valley); both formats agree on the church, village and peak. Gate 2: exact 1920x1080 and 864x1080; caption 'Savognin, Surses', scenario '24 September 2026 · 23:46 Europe/Zurich', disclosure 'AI-generated artistic interpretation · Not a photograph.' and signature 'Jason D\\u2019s Vision' legible on the bottom scrim; scenario 23:46 inside the model-valid 23:45 step; weather retrieved 2026-09-25T23:49:08Z, verified unique across all 365 Switzerland note files. Gate 3: approvals note records text-prompt-only lineage, no photographic inputs. Gate 4: no identifiable people, no logos or focal artwork — documented only, final commercial call is Jason's. Gate 5: all gates closed.",
   "approved_at": "2026-09-26T23:43:26.650517+00:00",
-  "sha256_16x9": "207a29240e45b860aec7a4721110abe00c6a563d5a86738c1fd887eec93ee13f",
-  "sha256_4x5": "ebc99416c2b0886b48bc8ed40a968a8901a332de7e5d172db9174e87346b668d"
+  "sha256_16x9": "0317f301393900cb986664b7bd4b1be244f957420230d3bb498f9178387cb364",
+  "sha256_4x5": "783adf1a1276ee5d5c4848ef0dc8c094c9f9d66443f87c45ede5401e3f006679"
 }

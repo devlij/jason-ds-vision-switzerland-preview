@@ -15,8 +15,8 @@
   "approval_status": "Candidate",
   "qc_status": "Candidate · weather rework 2026-09-27 · not approved",
   "approval_basis": "Builder weather rework 2026-09-27 for CH-01-070. Own Open-Meteo archive GET, HTTP Date Sun, 27 Sep 2026 16:55:47 GMT, retrieved 2026-09-27T16:55:47Z, valid 2026-09-24T16:00 Europe/Zurich, model-valid hour 16:00–16:59, scenario 24 September 2026 · 16:01 Europe/Zurich inside that hour. Weather code 3 (overcast), cloud 100%, 20.3°C, is_day 1. Masters re-rendered at 1920×1270, 864×1270, and 1080×2110 with a 190px #0e0e12 label bar. Status Candidate. Not an approval.",
-  "sha256_16x9": "69e9275f55852a679556d40fe9d574489fbce58bd119cddd3e8bedeb83bac29b",
-  "sha256_4x5": "370fd6658bcc967134b87c7e449d5f583664fa142d3984f29138dc551f3c01f3",
+  "sha256_16x9": "475d04ca7553eeeafd704eb7ff528bc20d2f1fe1c2a25bd7da6bfd4a0f2b21d2",
+  "sha256_4x5": "be999cb274049b2dd8c5505aa6690fed4b404ac2e626342edd91220d8e74178f",
   "reverted_at": "2026-09-25T12:43:06.347076+00:00",
   "qc_notes": [
     {
@@ -31,7 +31,7 @@
     }
   ],
   "file_9x16": "library/world/Switzerland/Lenzburg/ch-01-070-9x16.png",
-  "sha256_9x16": "1a04a13b2f2410947635ea87b2b5d728353972b18aab4366ccfad96cad6d5062",
+  "sha256_9x16": "e15487cc1239a40532abd89f14fdf25417def6fad31309d949c261664a13f3fd",
   "open_meteo": {
     "retrieved_utc": "2026-09-27T16:55:47Z",
     "http_date": "Sun, 27 Sep 2026 16:55:47 GMT",

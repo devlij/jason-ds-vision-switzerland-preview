@@ -16,6 +16,6 @@
   "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
   "approval_basis": "Gate 1: the Waldenburg ruin's broken medieval masonry and window voids crowning the rocky Rehag ridge, the small town's red roofs spreading across the valley floor far below — matches the ~170 m-above-town vantage, clean framing. Gate 2: exact masters; caption 'Waldenburg Ruin, Waldenburg', scenario '24 September 2026 · 17:51 Europe/Zurich', disclosure and signature legible bottom band. Retrieval 2026-09-25T23:43:55Z unique to this scene (coords 47.38164, 7.75317), scenario inside model-valid hour. Gate 3: text-prompt-only. Gate 4: no people or logos (documented only). Gate 5: no open blockers.",
   "approved_at": "2026-09-26T09:36:36.691173+00:00",
-  "sha256_16x9": "867dcec0d212d3a5dfa4be9a8efc1e8823f29a36547f2c6728145ad6f4a9ac20",
-  "sha256_4x5": "c97bfcc7afc1891d67101c0b45c3d41a566cad4fb3ac144c0690b74e11c75cc6"
+  "sha256_16x9": "03f8f3be9ecbb5d54898cb3696972ee4000623a139bf619aabca1975e7c82993",
+  "sha256_4x5": "dc020fdf150e627fab1fa8864a51f78a34dfba0d65312285690fa4c50c03e369"
 }

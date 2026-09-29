@@ -32,8 +32,8 @@
       "4x5": "library/world/Switzerland/Crans-Montana/ch-01-313-daylight-4x5.png"
     },
     "sha256": {
-      "16x9": "d2c718d15d9e6dde048ff8f67fe1888c08e16a2e5c1e20e36b50dd977b68eb2b",
-      "4x5": "d36e0ec0380a54de8049167f1bb5e2cfdeae26279005dd5629259f6710e8409a"
+      "16x9": "5aa8a096735931f5c8c1783d3562e6f1ab233bf96a7a6fc2189b0facea27f220",
+      "4x5": "ef851a5151d02e18f3eb09adf9ba655c0895dc36b225d23913b2aef10f4e9c93"
     },
     "created_date": "2026-09-26",
     "on_image_caption": "Lac de la Moubra, Crans-Montana",
@@ -46,6 +46,6 @@
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "Gate 1 PASS: Lac de la Moubra at night — small still lake with fir reflections, lit path lamps along the far shore, shore path and tawny late-September grass in the foreground; no swimmers, no boats, no readable beach-club names. Gate 2 PASS: exact dims; caption 'Lac de la Moubra, Crans-Montana', scenario 24 Sep 2026 22:52 Europe/Zurich, disclosure, signature exact; retrieval 2026-09-25T23:48:19Z unique repo-wide, scenario inside model hour. Gate 3 PASS: text-prompt-only per note. Gate 4: no people, no logos.",
   "approved_at": "2026-09-26T19:37:01.398019+00:00",
-  "sha256_16x9": "8090942dfa3461b32cd6a8c33d1f62a0b76b2cad26332c9ea2f3913bf46e541b",
-  "sha256_4x5": "11b5ae93d5d3dc67e6fbb7e5f624fedccafdf891f8460c50c484c90c59a7c93f"
+  "sha256_16x9": "5ca2f659c8db964577645d4d82c68dee78af63414bd8822664f79219f70ecf89",
+  "sha256_4x5": "7d812ef7a416b25ec01bf067a8fa0246315646e2cbe0fa1e27f6ea3dc2a271e3"
 }

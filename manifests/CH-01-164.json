@@ -16,6 +16,6 @@
   "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
   "approval_basis": "Gate 1: cobbled Rue du Village flanked by sun-darkened larch houses and stilted granaries on stone posts, the white church with slender spire at the vanishing point under heavy overcast — Grimentz's wooden-village character is unmistakable, clean framing. Gate 2: exact masters; caption 'Grimentz, Grimentz', scenario '24 September 2026 · 17:50 Europe/Zurich', disclosure and curly-apostrophe signature legible. Retrieval 2026-09-25T23:43:46Z unique to this scene (coords 46.18034, 7.57602), scenario inside model-valid hour. Gate 3: text-prompt-only lineage. Gate 4: no people or logos (documented only). Gate 5: no open blockers.",
   "approved_at": "2026-09-26T09:35:08.750877+00:00",
-  "sha256_16x9": "a09751dd2a6bdb742e865e32118b869fcc1d2d8ea111f805d78e8036c7231c80",
-  "sha256_4x5": "8db43179af023fac62dcb8a7a280ea59f30f699a5b73a047c6ab895fc22f43d1"
+  "sha256_16x9": "18a9f8bfda480ac2ea63bc8898f18190e72629e1a9645bc89ce0ca75122c0b5f",
+  "sha256_4x5": "4c6d101244428eb3f438a5374070c02d09e8dfc0cc3543c10cfc3d0c609da935"
 }

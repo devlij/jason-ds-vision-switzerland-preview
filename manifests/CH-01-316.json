@@ -32,8 +32,8 @@
       "4x5": "library/world/Switzerland/Lauterbrunnen/ch-01-316-daylight-4x5.png"
     },
     "sha256": {
-      "16x9": "42bd31a61d73769e975c99eb5fea8ecd845653d9eba01db612ebcfcdeb522fb7",
-      "4x5": "60aedbeef3685ed33a7aa90d6c50c35c288fac7662cf173f10601c4a0ffb2b3b"
+      "16x9": "e534ca910a59590fde15ad0c2b429cd3c25e6fbcdc96c0883cd0242ce1791d5a",
+      "4x5": "f2300049957748365b8c710d86897dc8b031100dc9681ea2ee8c7ae0f3b8b1bf"
     },
     "created_date": "2026-09-26",
     "on_image_caption": "Allmendhubel, Lauterbrunnen",
@@ -46,6 +46,6 @@
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "Gate 1 PASS: Allmendhubel summit at night — small wooden summit building on tawny grass, dark north-wall ridges and valley lights (Mueren valley) below, low cloud over the peaks; matches the summit-terrace-above-Mueren anchors. Gate 2 PASS: exact dims; caption 'Allmendhubel, Lauterbrunnen', scenario 24 Sep 2026 22:52 Europe/Zurich, disclosure, signature exact; retrieval 2026-09-25T23:48:22Z unique repo-wide, scenario inside model hour. Gate 3 PASS: text-prompt-only per note. Gate 4: no people, no logos.",
   "approved_at": "2026-09-26T19:37:15.088226+00:00",
-  "sha256_16x9": "b814b3eb742dc1ca0a861bab60fbb81311a4d83df5c366cd8c77b635200fa051",
-  "sha256_4x5": "c67c4f56fb327e0ecfaa9dfaa02ca8a35e457be82949cf6f34e7827d16646b10"
+  "sha256_16x9": "a4fb5aca525ce1b1cf2528f24ff16844e981bc2af435d9bbffac80060505925b",
+  "sha256_4x5": "1841482b5c146068eb6c77331d90ccd08f565dda7ee7694b9d95e4e37920626c"
 }

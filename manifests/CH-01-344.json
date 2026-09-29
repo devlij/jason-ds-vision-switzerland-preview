@@ -32,8 +32,8 @@
       "4x5": "library/world/Switzerland/Buchs/ch-01-344-daylight-4x5.png"
     },
     "sha256": {
-      "16x9": "bb4b47dd643693c70c6a905cfc2e3eab3e4c959277cb8ec8564beb37a4f6c11f",
-      "4x5": "dc76ec740697b14b3c63df816d181a5a78f5153d5b541f71bcdd44fd54645ef9"
+      "16x9": "43aeb923098ca9f65402234f8772a61a0df0e808941c536cddb3e634b41f29ed",
+      "4x5": "700492248fab990df39622f3e1aa056e99545ff58a1d4711a9842d1f9d0149ef"
     },
     "created_date": "2026-09-26",
     "on_image_caption": "Rhine bank, Buchs",
@@ -46,6 +46,6 @@
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "Gate 1 — 16:9 master shows the Alpine Rhine bank at Buchs at night: grassy embankment path curving along the dark river in the foreground, the lit town behind on the left, dark hills on the far shore; matches the documented viewpoint on the Swiss embankment. 4:5 crop shows the same grassy bank path and lit far shore — no inter-format subject disagreement. Gate 2 — exact 1920x1080 / 864x1080 masters; on-image caption 'Rhine bank, Buchs', scenario '24 September 2026 · 23:28 Europe/Zurich', disclosure and exact curly-apostrophe 'Jason D's Vision' signature legible on the scrim. Weather per approvals note: Open-Meteo retrieved 2026-09-25T23:48:50Z, unique per-scene timestamp across the 27-scene candidate window, model-valid hour covering the scenario time with per-scene coordinates. Gate 3 — text-prompt-only lineage documented, no photographic inputs. Gate 4 — no visible people, logos, or recognizable private property; documented only.",
   "approved_at": "2026-09-26T22:33:33.803713+00:00",
-  "sha256_16x9": "47ba48aac114fc7a910973ed64fe6d597828ed0d132b72aabf57bde70e32f788",
-  "sha256_4x5": "2a9e0bd9fc6187a9c0f542764c97356c60583ec740c5867a76c972a047cb81c4"
+  "sha256_16x9": "da7aa7d6ca12aff8229b3e960689f7d7bf06e3ecb2cb6d4550a9b5bfa386492e",
+  "sha256_4x5": "d049ce780078c4ecf10495ba51746a014acac60852bd82ef193dffb10b300445"
 }

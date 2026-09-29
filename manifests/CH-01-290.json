@@ -32,8 +32,8 @@
       "4x5": "library/world/Switzerland/Geneva/ch-01-290-daylight-4x5.png"
     },
     "sha256": {
-      "16x9": "dc5089e3dfb1f861914ac54c7db71210a44918a473f8cc9acee4004a873cab05",
-      "4x5": "934e159069d056fbe8c40e7157be3354a6c86e586d700b96c3e156349537c3f4"
+      "16x9": "3ee9757c16b8bc061ec60f281b2bd0892dac4a8c66bffbd276a64747d1ea6a2c",
+      "4x5": "6d4175b892bea3349c542a6f1851b39a785cbf87e176893db48d4a243c57352d"
     },
     "created_date": "2026-09-25",
     "on_image_caption": "Parc des Bastions, Geneva",
@@ -46,6 +46,6 @@
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "Gate 1: night view in Parc des Bastions with the lamp-lit tree avenue, manicured lawn, and the floodlit neoclassical university building with the old city wall to the left; plausible park-path viewpoint. Gate 2: exact 1920x1080/864x1080; caption 'Parc des Bastions, Geneva', scenario '24 September 2026 - 22:30 Europe/Zurich', disclosure and signature verified on-image; weather retrieved 2026-09-25T23:47:56Z, unique repo-wide, valid hour 22:00-22:59 matches scenario. Gate 3: text-prompt-only lineage per note. Gate 4: no people or logos visible (documented only).",
   "approved_at": "2026-09-26T17:42:52.227124+00:00",
-  "sha256_16x9": "8e8656e47c471889dc1122c4d72fddce1fd5e487cc94e58125236c9a629b7cac",
-  "sha256_4x5": "56f5c6caad3610aefe23de04a0e870e578c6eae3af2d323554630ff3a9ef940d"
+  "sha256_16x9": "68e0f915ca546200a79138945326868a4d16c70d9cec7702532f3e7e1d84cd51",
+  "sha256_4x5": "1bafc1863a7890f7834d72f61765bbd409b6051936e1dc24a050754f752d5da6"
 }

@@ -32,8 +32,8 @@
       "4x5": "library/world/Switzerland/Lauterbrunnen/ch-01-315-daylight-4x5.png"
     },
     "sha256": {
-      "16x9": "34a0f3f8d70043e0a61be4f10cc17fb431954f34e2caab1b57a32475d2a77977",
-      "4x5": "dbe76261aea8bb3cb2b334b91100410a42e30378bfed5870a6ac3ca6db8e8429"
+      "16x9": "f47f9b65dceeb006df39f2985ae40a7d4c2587d26cfd1b0cb4d2e7f60a282df1",
+      "4x5": "df135db4d675d5706fb2ee2945cfa3be23588202f209841d34ba297637bf4b84"
     },
     "created_date": "2026-09-26",
     "on_image_caption": "Wengernalp, Lauterbrunnen",
@@ -46,6 +46,6 @@
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "Gate 1 PASS: Wengernalp at night — dark mountain hotel with lit windows, railway tracks curving in from the left, tawny alpine meadows, snow-dusted high wall lost in cloud behind; matches the rail-stop anchors, distinct from Wengen and Kleine Scheidegg. Gate 2 PASS: exact dims; caption 'Wengernalp, Lauterbrunnen', scenario 24 Sep 2026 22:52 Europe/Zurich, disclosure, signature exact; retrieval 2026-09-25T23:48:21Z unique repo-wide, scenario inside model hour. Gate 3 PASS: text-prompt-only per note. Gate 4: no people, no logos.",
   "approved_at": "2026-09-26T19:37:10.365685+00:00",
-  "sha256_16x9": "23143264756bc31f3c2488b3ffc26c26564eb5f3cd22ab7043ed1c1ea417b1c0",
-  "sha256_4x5": "7896e2128b04c32ac56f870c5d75f94785c53df5817f30eb6e592968115e4fdd"
+  "sha256_16x9": "1f4ee67951ed4dca3eee2d5bdf3812a8c5d65a235ce3b23014cb14e5cdc86abb",
+  "sha256_4x5": "4292bc0f29ce2c44e540ddf62d819d042a0aa94b211e51d6bd37bb7680e73889"
 }

@@ -32,8 +32,8 @@
       "4x5": "library/world/Switzerland/Wasserauen/ch-01-341-daylight-4x5.png"
     },
     "sha256": {
-      "16x9": "1629bcc6303606a8034eff9b7e09679b915dbacfefe6d3b950c7b0ec1294f614",
-      "4x5": "af2f8a18154c12d8b72e18b8539c372938aa3c7f3428555ececa97460e461beb"
+      "16x9": "b8fe6804a4eb511acb8be235587b23abb6ec392f2fe89cab38de3ba9112fc501",
+      "4x5": "44f251d395a07dfac7cbbf9ab5c8fd1b03e13701c4f488ad79d5947e580d92b7"
     },
     "created_date": "2026-09-26",
     "on_image_caption": "Ebenalp, Wasserauen",
@@ -46,6 +46,6 @@
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "Gate 1: Ebenalp above Wasserauen — the wooden Berggasthaus Äscher built into the limestone overhang, lit windows, cliff path with railings and steep drop beside it; both formats agree on the hut-under-overhang identity (inter-format check). Gate 2: 1920×1080/864×1080 exact; caption 'Ebenalp, Wasserauen', scenario '24 September 2026 · 23:28 Europe/Zurich', 'Jason D’s Vision' signature bottom-right and 'AI-generated artistic interpretation · Not a photograph.' bottom-left legible; Open-Meteo weather retrieved 2026-09-25T23:48:47Z, per-scene unique across all 39 candidates, valid slot 23:15 consistent with 23:28 scenario. Gate 3: note documents text-prompt-only lineage, no photo inputs. Gate 4: mountain guesthouse on a public trail; no people or logos. Gate 5: no blockers.",
   "approved_at": "2026-09-26T21:34:38.618893+00:00",
-  "sha256_16x9": "a9b99c9c81cd890f4c304d8c954307089f652fd3d97ab808effd42ff2bb5ad4a",
-  "sha256_4x5": "b1258b595dc22029b8151122e4ff828760795f29573a5b9230bda69cf50c7e76"
+  "sha256_16x9": "b627f2ec442cbfd51f78432445c1bc57336a7e55f5ba209cf28bdffc1a16451d",
+  "sha256_4x5": "76d934c4e2a3f373d5e062743218ed970dc3200ec6482a022126247d87b681f3"
 }

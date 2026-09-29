@@ -15,8 +15,8 @@
   "approval_status": "Candidate",
   "qc_status": "Candidate · weather rework 2026-09-27 · not approved",
   "approval_basis": "Builder weather rework 2026-09-27 for CH-01-079. Own Open-Meteo archive GET, HTTP Date Sun, 27 Sep 2026 16:55:59 GMT, retrieved 2026-09-27T16:55:59Z, valid 2026-09-24T16:00 Europe/Zurich, model-valid hour 16:00–16:59, scenario 24 September 2026 · 16:01 Europe/Zurich inside that hour. Weather code 3 (overcast), cloud 100%, 17.6°C, is_day 1. Masters re-rendered at 1920×1270, 864×1270, and 1080×2110 with a 190px #0e0e12 label bar. Status Candidate. Not an approval.",
-  "sha256_16x9": "66de6df5299a7ab7099ffb2d84bcf773f3857f669804662eb5f7774c979b849e",
-  "sha256_4x5": "ed01b95bcb42c3a9d5615ecc66ed0e86607bb8bc1b0e27b6c9cb96d6f5e80a2e",
+  "sha256_16x9": "57be77bf6a0f2965e01485ad9ad4d9736b43da2fa9428b58da8831b29ff36a2f",
+  "sha256_4x5": "5327184329a4481b204487ef130be4e1116e991efb9abd70193c977782b9ad87",
   "reverted_at": "2026-09-25T12:43:28.665550+00:00",
   "qc_notes": [
     {
@@ -31,7 +31,7 @@
     }
   ],
   "file_9x16": "library/world/Switzerland/La Chaux-de-Fonds/ch-01-079-9x16.png",
-  "sha256_9x16": "6097b542cdb84c13328b31f816df2228788e2ce16f6bd6cda821ece538863c71",
+  "sha256_9x16": "19c9a2521007a5486cb0035da7082b76295393277ce0cff2d5329fe608ebf0d5",
   "open_meteo": {
     "retrieved_utc": "2026-09-27T16:55:59Z",
     "http_date": "Sun, 27 Sep 2026 16:55:59 GMT",

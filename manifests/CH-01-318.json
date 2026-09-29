@@ -32,8 +32,8 @@
       "4x5": "library/world/Switzerland/Interlaken/ch-01-318-daylight-4x5.png"
     },
     "sha256": {
-      "16x9": "e7deae82cbb049c4084fb2d5da8e88a55d379d70c694947ae709df199f46f87a",
-      "4x5": "cb0b3f2b5ff3f87d4e64969d0e6a382743dd25169c5034d27bde323e3478a974"
+      "16x9": "e4848a49bf0dfb55dcc80192ba3141d80e027078b90ddf0ebd6af64b4ed9c8d2",
+      "4x5": "e55b52ac2bcf11eaeb741d4eb05120c1c5364abead0a89d7211789d2d9d09fbd"
     },
     "created_date": "2026-09-26",
     "on_image_caption": "Interlaken Castle, Interlaken",
@@ -46,6 +46,6 @@
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "Gate 1: the 16:9 master shows Interlaken Castle's stone keep with crenellations and pointed-roof church tower across a lamplit cobbled courtyard under an overcast night sky — a plausible tourist view, clean framing, no artifacts; the 4:5 master shows the same castle complex from a courtyard angle (tall gothic-windowed tower with pointed roof) with no defining-feature disagreement. Gate 2: sweep-verified exact 1920×1080 / 864×1080; on-image caption 'Interlaken Castle, Interlaken', scenario '24 September 2026 · 22:52 Europe/Zurich', 'AI-generated artistic interpretation · Not a photograph.' disclosure bottom-left on gradient scrim; exact 'Jason D's Vision' (curly apostrophe) bottom-right; weather retrieval unique to this scene at 2026-09-25T23:48:24Z, separate request for Interlaken coords, model-valid hour 22:00–22:59 contains the 22:52 scenario (code 3 overcast, 12.9°C — matches the cloudy night sky). Gate 3: builder note documents text-prompt-only lineage, no photographic inputs. Gate 4: no people or logos visible; historic public site — documented only. Gate 5: no open blockers.",
   "approved_at": "2026-09-26T20:36:12.761448+00:00",
-  "sha256_16x9": "09c7195ed29eb4f47e16ee63dc0b8007102d57a1d7c23ff4ead28a6efd776a52",
-  "sha256_4x5": "d0e802b0a5dc44aa42a34f748f1463e0f911218ca5dd5eddbff24b4ea29b3960"
+  "sha256_16x9": "b37fff68d8e26deb04348c0b444a57a635030236dea9064eef88bb9804da1139",
+  "sha256_4x5": "261240ab141586cef54b65a14be735726275ca6cf3404531461b296f9d37c1e0"
 }

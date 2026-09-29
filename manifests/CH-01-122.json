@@ -16,6 +16,6 @@
   "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
   "approval_basis": "Gate 1: tree-lined Höheweg promenade with grand hotel fronts, the open Höhematte meadow, and the Jungfrau aligned at the valley end — the Interlaken frame. Gate 2: masters 1920x1080/864x1080 exact; on-image caption 'Höheweg, Interlaken', scenario '24 September 2026 · 16:57 Europe/Zurich', disclosure and signature 'Jason D’s Vision' legible on the gradient scrim. Weather retrieved 2026-09-25T23:41:01Z, unique to this scene across the 101-145 window; model-valid hour 16:00-16:59 matches the scenario. Gate 3: text-prompt-only lineage, no photographic inputs per note. Gate 4: no people, no logos — documented only. Gate 5: no open blockers.",
   "approved_at": "2026-09-26T06:35:59.924270+00:00",
-  "sha256_16x9": "d77cc48c6d96358e254df1e447b907803c89cac8bda13be450ad900911e966b3",
-  "sha256_4x5": "cf6a4de1952cfa6932ef7ea462c54ebf437284aa24abf64731c40aea6ccb906e"
+  "sha256_16x9": "023ce28308de9ee374f840ff728b11c6083069bb6b4a751a950cdeeeae2861ab",
+  "sha256_4x5": "88011a4075c80b5f6444c01ae238ed702ab9d4d572458eb6ca8f327ebe412d48"
 }

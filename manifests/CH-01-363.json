@@ -32,8 +32,8 @@
       "4x5": "library/world/Switzerland/Scuol/ch-01-363-daylight-4x5.png"
     },
     "sha256": {
-      "16x9": "ffb203125e6c4d45b863a927ce5436c65599f5c59dbeb348364868be92bd4549",
-      "4x5": "5c9ae2c5d6a66d8dcdeb75f53391ee6f5640e5c9d803ed5024b3b30df8750012"
+      "16x9": "96a8ff58dd6a493dffbebb0b26c94b70939f0f5b0e01e218aad3e7527bb9c300",
+      "4x5": "f0167fdfa0f034bafc472d06fa2e9e09b48d102d4ff30d089998e87dc871221c"
     },
     "created_date": "2026-09-26",
     "on_image_caption": "Tarasp Castle, Scuol",
@@ -46,6 +46,6 @@
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "Gate 1: floodlit white castle complex on a rocky hill with the onion-domed church beside it, retaining walls below — matches the anchors (Tarasp Castle on its crag, municipality Scuol); both formats agree on the castle, church and hill. Gate 2: exact 1920x1080 and 864x1080; caption 'Tarasp Castle, Scuol', scenario '24 September 2026 · 23:47 Europe/Zurich', disclosure 'AI-generated artistic interpretation · Not a photograph.' and signature 'Jason D\\u2019s Vision' legible on the bottom scrim; scenario 23:47 sits inside the model-valid 23:00-23:59 hour at the 23:45 step; weather retrieved 2026-09-25T23:49:09Z, verified unique across all 365 Switzerland note files. Gate 3: approvals note records text-prompt-only lineage, no photographic inputs. Gate 4: no identifiable people, no logos or focal artwork — documented only, final commercial call is Jason's. Gate 5: all gates closed.",
   "approved_at": "2026-09-26T23:43:49.403848+00:00",
-  "sha256_16x9": "a51c88c7732559f3ee65e511a63d94e45da8abb03a3c0233e58891471b7978fc",
-  "sha256_4x5": "73042cd000790ef74066f63669c6f3d27a8b0d5741a10509f3dc5946c577baa8"
+  "sha256_16x9": "802fcca85a9c9db3c1f4c76b1c0d51c46f3d78c7ddb249d869ff7882f1902308",
+  "sha256_4x5": "c66a04f8e91102e0ef3144282efa5dba84547a4bfa228529c7af61896421ba39"
 }

@@ -15,8 +15,8 @@
   "approval_status": "Candidate",
   "qc_status": "Candidate · weather rework 2026-09-27 · not approved",
   "approval_basis": "Builder weather rework 2026-09-27 for CH-01-062. Own Open-Meteo archive GET, HTTP Date Sun, 27 Sep 2026 16:54:03 GMT, retrieved 2026-09-27T16:54:03Z, valid 2026-09-24T15:00 Europe/Zurich, model-valid hour 15:00–15:59, scenario 24 September 2026 · 15:44 Europe/Zurich inside that hour. Weather code 2 (partly cloudy), cloud 79%, 22.9°C, is_day 1. Masters re-rendered at 1920×1270, 864×1270, and 1080×2110 with a 190px #0e0e12 label bar. Status Candidate. Not an approval.",
-  "sha256_16x9": "feb1cd4b338c8805f6c6453573c1ba25be23f03f9ca0f4b559155824ea6dd336",
-  "sha256_4x5": "c077d8166f12ffe0781bb6c06a4d25487abb3e6ae96576cd8655c88c664f97ce",
+  "sha256_16x9": "ef61271c6140c1b12fdb6b73c60165168ce9ccd613613956ab6ccb19a33714c5",
+  "sha256_4x5": "4c56f0b6804b8d9cae1a832faefe6f4035e2fd2f51b1078915703c5e7f3441fa",
   "reverted_at": "2026-09-25T12:42:42.115877+00:00",
   "qc_notes": [
     {
@@ -31,7 +31,7 @@
     }
   ],
   "file_9x16": "library/world/Switzerland/Ascona/ch-01-062-9x16.png",
-  "sha256_9x16": "bf10537d13d8c830e1355676d42e1ff5bbbc5e64e0e567859cdbba162d977c81",
+  "sha256_9x16": "7e5b1a52706a0ae49245bdebb7c284cfb8aef405a44f41103fa78453ef1d4305",
   "open_meteo": {
     "retrieved_utc": "2026-09-27T16:54:03Z",
     "http_date": "Sun, 27 Sep 2026 16:54:03 GMT",

@@ -32,8 +32,8 @@
       "4x5": "library/world/Switzerland/Bourg-en-Lavaux/ch-01-303-daylight-4x5.png"
     },
     "sha256": {
-      "16x9": "f7847ee154f3ea196e7b902ffb685610ad7790add11902ff577fcf14defd5ca0",
-      "4x5": "e13b4c77a7a80d7ce4e099581c13bd2cbd74c92cf3486316aa003a1e56921479"
+      "16x9": "10e1dc68bed77ac895804f4a30f0ab5dffc987e90276059d6a508abef6c93449",
+      "4x5": "f86c24dae6cf371c11214827d57ec615d27f06ed12d959453dcb0c10c964bf42"
     },
     "created_date": "2026-09-25",
     "on_image_caption": "Cully, Bourg-en-Lavaux",
@@ -46,6 +46,6 @@
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "Gate 1: 16:9 and 4:5 both render the Cully waterfront — a row of arcaded stone houses with warm-lit arches, the small port with moored boats, and golden vineyard terraces rising directly behind the roofs; the two formats agree on subject and setting. Plausible lakeside viewpoint, clean framing, no artifacts. Gate 2: exact 1920x1080 and 864x1080 masters; on-image caption 'Cully, Bourg-en-Lavaux', scenario '24 September 2026 · 22:31 Europe/Zurich', disclosure 'AI-generated artistic interpretation · Not a photograph.', and 'Jason D’s Vision' signature verified on the masters. Weather retrieval 2026-09-25T23:48:09Z is unique to this scene to the second; scenario 22:31 falls inside the model-valid hour 22:00–22:59. Gate 3: build-agent note documents text-prompt-only lineage, no photographic inputs. Gate 4: no prominent people or logos; public waterfront. Gate 5: no open blockers.",
   "approved_at": "2026-09-26T18:38:11.319696+00:00",
-  "sha256_16x9": "b04a59fedf12c87ddcb1340f70c3d672a3b55f787210ffa94244ca98d7bb6adc",
-  "sha256_4x5": "e2d1e6d535a5947aeaeb07b44c7dfe74ff51e6b024f5462b391253815f3fbab9"
+  "sha256_16x9": "f54954b3e03e146196d8cfd67ef60aa47af27ec85c96ab5d07656ee6d6386a01",
+  "sha256_4x5": "ae5a6d08c065f0df6c2d54df746205c79f9be0aa14eed0d21b11cd869cc9911b"
 }

@@ -15,8 +15,8 @@
   "approval_status": "Approved",
   "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
   "approval_basis": "Open-Meteo retrieval 2026-09-27T16:51:15Z (unique to the second, repo-wide verified, 2026-09-27) — Gate 2 hardened-weather law satisfied. CH-01-013: Mittlere Brücke, Basel. G1: the stone bridge over the Rhine with the Basel Minster's red-sandstone twin spires and green copper roof beyond. G2: dims exact; 'Mittlere Brücke, Basel' / '24 September 2026 · 14:41 Europe/Zurich'. G3–G5 clear.",
-  "sha256_16x9": "e36e0fa1c5b635f33cdab4bfd6020f529bfedc4bb1073bf7ec4970c7c1d3824c",
-  "sha256_4x5": "fbd972caead1ad352e4ba375eb2b90049c1e55513708b9cf04379c09e06f4a21",
+  "sha256_16x9": "2ff26ab9f79f6693b005fbb802140d75f18111f8e68be075873521772f47fa09",
+  "sha256_4x5": "7d68677965f7f64118228c4b669fc06259d1f93a2834de6a3623cf34b8e4dc03",
   "reverted_at": "2026-09-25T12:40:23.161663+00:00",
   "qc_notes": [
     {
@@ -31,7 +31,7 @@
     }
   ],
   "file_9x16": "library/world/Switzerland/Basel/ch-01-013-9x16.png",
-  "sha256_9x16": "08c8efdbf84f3c8f564f993360bb4c5fd64f8a7958571c0def5a91fb95796838",
+  "sha256_9x16": "3dd17e32d55e92f81a23d75c6b6e454a80c9090c478782423c09ffba224847d3",
   "open_meteo": {
     "retrieved_utc": "2026-09-27T16:51:15Z",
     "http_date": "Sun, 27 Sep 2026 16:51:15 GMT",

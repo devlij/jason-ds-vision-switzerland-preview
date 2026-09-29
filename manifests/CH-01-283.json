@@ -16,6 +16,6 @@
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "Gate 1: night view of Faulensee from the lake with the white church and its slender spire among lit chalets, forested hillside rising behind, reflections on calm water; plausible shoreline viewpoint. Gate 2: exact 1920x1080/864x1080; caption 'Faulensee, Spiez', scenario '24 September 2026 - 19:57 Europe/Zurich', disclosure and signature verified on-image; weather retrieved 2026-09-25T23:47:49Z, unique repo-wide, valid hour 19:00-19:59 matches scenario. Gate 3: text-prompt-only lineage per note. Gate 4: no people or logos visible (documented only).",
   "approved_at": "2026-09-26T17:42:17.504917+00:00",
-  "sha256_16x9": "5a900ea077d129b60d354cd282018bed421df5197fdc9997a91e7a88cc60ac0b",
-  "sha256_4x5": "10ad03146af299ee413273fe8ca63c6c433659d38cf556bd72245713b9f51cb4"
+  "sha256_16x9": "8372e4cb3f35c2a64a765b138aa7c50b86b31bbcbd660c6eca7d9710ec98dabd",
+  "sha256_4x5": "531db9478653baf91d5f9626f91510a8bfe74ef353df147f305052d438f74716"
 }

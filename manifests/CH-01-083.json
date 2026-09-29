@@ -15,8 +15,8 @@
   "approval_status": "Candidate",
   "qc_status": "Candidate · weather rework 2026-09-27 · not approved",
   "approval_basis": "Builder weather rework 2026-09-27 for CH-01-083. Own Open-Meteo archive GET, HTTP Date Sun, 27 Sep 2026 16:56:05 GMT, retrieved 2026-09-27T16:56:05Z, valid 2026-09-24T16:00 Europe/Zurich, model-valid hour 16:00–16:59, scenario 24 September 2026 · 16:14 Europe/Zurich inside that hour. Weather code 3 (overcast), cloud 100%, 19.6°C, is_day 1. Masters re-rendered at 1920×1270, 864×1270, and 1080×2110 with a 190px #0e0e12 label bar. Status Candidate. Not an approval.",
-  "sha256_16x9": "fc51396dad7c0be4ceaae2da00cbbb6f17c9aaf26ea2a64ca20ade5b1904842f",
-  "sha256_4x5": "091b3c8b4029d5099ad4880a6ce4f2e86131fcdb3b50d260eb23c7a9bef16449",
+  "sha256_16x9": "96eee6f6e238d1592d7960d45e6671a39b35b86ea745409db29d44af885e7401",
+  "sha256_4x5": "c0a170ca4c493e345ddbc8c69424d0e908d96220ad4cb98bdf8d2e76a7feea40",
   "reverted_at": "2026-09-25T12:43:43.016195+00:00",
   "qc_notes": [
     {
@@ -31,7 +31,7 @@
     }
   ],
   "file_9x16": "library/world/Switzerland/Delémont/ch-01-083-9x16.png",
-  "sha256_9x16": "3490304f46c29b0fdd815baf1c32397de5aa05e6358db799cc3b7db4b30be864",
+  "sha256_9x16": "16c4ea8e7ca0a124467d20cefc6a3a657bd107f5341eae9170d32df63f3c075d",
   "open_meteo": {
     "retrieved_utc": "2026-09-27T16:56:05Z",
     "http_date": "Sun, 27 Sep 2026 16:56:05 GMT",

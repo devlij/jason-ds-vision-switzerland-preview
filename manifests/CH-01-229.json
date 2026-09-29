@@ -16,6 +16,6 @@
   "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
   "approval_basis": "Gate 1: Regensberg's medieval hill town — round bergfried with steep conical roof rising above half-timbered houses and tile roofs, open fields falling away — recognizably Regensberg. Gate 2: on-image caption 'Regensberg, Regensberg', scenario '24 September 2026 · 19:03 Europe/Zurich' inside the 19:00–19:59 model hour; per-scene retrieval 2026-09-25T23:45:54Z, unique, code 3 overcast matching the rendered sky; dims verified; signature and disclosure present. Gate 3: text-prompt-only lineage. Gate 4: no prominent people or focal logos; documented-only. Gate 5: no open blockers.",
   "approved_at": "2026-09-26T13:35:02.410839+00:00",
-  "sha256_16x9": "c7434689291b947604fbc16130fca4e2d9e863b96bad321dbd74f1afa73f2ced",
-  "sha256_4x5": "6b99214c42d7df4c012e18b6be8df874c1d6d2729507473130cc329c020bdfdc"
+  "sha256_16x9": "9ed2af52d5bc41b9221295605a93be9e6e7fccd8ecdd158425438ece8b64ddcc",
+  "sha256_4x5": "4107f18d30a2ee7d7f42327ef90f0b4d294281c27b25c5ee8a43dfc8f6b0fc3f"
 }

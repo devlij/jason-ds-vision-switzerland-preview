@@ -15,8 +15,8 @@
   "approval_status": "Candidate",
   "qc_status": "Candidate · weather rework 2026-09-27 · not approved",
   "approval_basis": "Builder weather rework 2026-09-27 for CH-01-041. Own Open-Meteo archive GET, HTTP Date Sun, 27 Sep 2026 16:53:34 GMT, retrieved 2026-09-27T16:53:34Z, valid 2026-09-24T15:00 Europe/Zurich, model-valid hour 15:00–15:59, scenario 24 September 2026 · 15:28 Europe/Zurich inside that hour. Weather code 3 (overcast), cloud 98%, 17.8°C, is_day 1. Masters re-rendered at 1920×1270, 864×1270, and 1080×2110 with a 190px #0e0e12 label bar. Status Candidate. Not an approval.",
-  "sha256_16x9": "072ec289ae039e42f2b5447afb7c1982d492f67980588e97df3a457c4de6f320",
-  "sha256_4x5": "b66ac4b9b6bcf8fe8b1e7d0b3263344ef84af318ee550dda4e78b62e9ee7e213",
+  "sha256_16x9": "7bf24615cef2a27fe65dce14be4ca6817abfe2e6a0275b28223fc21c3ad163ab",
+  "sha256_4x5": "51a7cca0aff3b029858ae623018f78ebae00b8714137fe08d6a4d33f0559a8f3",
   "reverted_at": "2026-09-25T12:41:41.919583+00:00",
   "qc_notes": [
     {
@@ -31,7 +31,7 @@
     }
   ],
   "file_9x16": "library/world/Switzerland/Engelberg/ch-01-041-9x16.png",
-  "sha256_9x16": "e910b336959530320ad04a73b2bc2b37c2404f6a1efa10af0202f263e1dd385f",
+  "sha256_9x16": "e8e7fb2fa95b4e01fde7dc8ced70de6bc72f127e97258dd1e0344b68748a46da",
   "open_meteo": {
     "retrieved_utc": "2026-09-27T16:53:34Z",
     "http_date": "Sun, 27 Sep 2026 16:53:34 GMT",

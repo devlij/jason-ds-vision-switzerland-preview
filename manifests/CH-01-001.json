@@ -15,8 +15,8 @@
   "approval_status": "Approved",
   "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
   "approval_basis": "Open-Meteo retrieval 2026-09-27T16:50:58Z (unique to the second, repo-wide verified, 2026-09-27) — Gate 2 hardened-weather law satisfied. CH-01-001: Matterhorn, Zermatt. G1: pyramidal horn with snow/ice on upper faces, Hörnli ridge falling right of the peak, crevassed Gorner Glacier with gray moraine in the middle ground, tawny late-September rock/grass foreground — Gornergrat-terrace southwest viewpoint. G2: dims exact; bar 'Matterhorn, Zermatt' / '24 September 2026 · 14:38 Europe/Zurich'; old shared FAIL resolved via 2026-09-25 RESOLVED note. G3 text-prompt-only; G4 no people/logos; G5 clear.",
-  "sha256_16x9": "793e1b296d19ee5ae18b9bcc6781dff7376eedd9460a785cfa6c9d47ee715ebf",
-  "sha256_4x5": "ebc85274cfd5f39f19b1c2058286e48dc52827311b54f99d68202997070988fd",
+  "sha256_16x9": "4f2fd74ea3008d597c92ceb76678ca99ba43386c0de910d2ccf567728e9d6ea6",
+  "sha256_4x5": "a699591695cde8e9bdba367258deb4c4c89b170a1926954aa2a8a1f645d6c4be",
   "reverted_at": "2026-09-25T12:39:44.961974+00:00",
   "qc_notes": [
     {
@@ -61,7 +61,7 @@
     }
   ],
   "file_9x16": "library/world/Switzerland/Zermatt/ch-01-001-9x16.png",
-  "sha256_9x16": "f76b8e71b22642439bd268fe5038f432066993d48dc6d1b10c0956d3fc49dec9",
+  "sha256_9x16": "59721da286136ff72a97aa3a1b62581cf78f136de4cf40019d8e7756b4f317e2",
   "open_meteo": {
     "retrieved_utc": "2026-09-27T16:50:58Z",
     "http_date": "Sun, 27 Sep 2026 16:50:58 GMT",

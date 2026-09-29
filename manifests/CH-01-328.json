@@ -32,8 +32,8 @@
       "4x5": "library/world/Switzerland/Bregaglia/ch-01-328-daylight-4x5.png"
     },
     "sha256": {
-      "16x9": "b6eda61bd43707b8964d18b6a142d53ef785690b2778d4192bab9ca055d6a429",
-      "4x5": "37335dab56471c880b938e18250d754fb05458ad1f6b68f0a808799effe785c0"
+      "16x9": "95ec41dcd90afdcbeefcec3be6b72867741b07f36c27e82c1c68a5595ba38159",
+      "4x5": "16cbc8789161574f411e53d7da1f0d2a670d85528561fe757df71b34b18fccc9"
     },
     "created_date": "2026-09-26",
     "on_image_caption": "Soglio, Bregaglia",
@@ -46,6 +46,6 @@
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "Gate 1: the 16:9 master shows Soglio — stone houses with lamplit windows along a cobbled lane beneath the jagged Sciora peaks under a starry sky; plausible tourist view, clean framing, no artifacts; the 4:5 master shows the same village nestled below the peaks with no defining-feature disagreement. Gate 2: sweep-verified exact 1920×1080 / 864×1080; on-image caption 'Soglio, Bregaglia', scenario '24 September 2026 · 23:10 Europe/Zurich', 'AI-generated artistic interpretation · Not a photograph.' disclosure bottom-left on gradient scrim; exact 'Jason D's Vision' (curly apostrophe) bottom-right; weather retrieval unique to this scene at 2026-09-25T23:48:34Z, separate request for Soglio coords, model-valid hour 23:00–23:59 contains the 23:10 scenario (code 0 clear — matches the starfield). Gate 3: builder note documents text-prompt-only lineage, no photographic inputs. Gate 4: no people or logos; public village — documented only. Gate 5: no open blockers.",
   "approved_at": "2026-09-26T20:39:17.524540+00:00",
-  "sha256_16x9": "6982509849f390a871e2472278916ddbbd00f76742fc01da95a0c4bb72e465b8",
-  "sha256_4x5": "a197da6884d90319191139cc96c8f222e660759d403eb02900f77c55e2cb65e4"
+  "sha256_16x9": "908d63d914fb66a67ea598c7038f09a64b266d14cf293ecf0540ddd6dc1f8910",
+  "sha256_4x5": "d96d6031cc78f045249dbc9a149f884eeb33730100edf3172ce0121b6903ad49"
 }

@@ -16,6 +16,6 @@
   "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
   "approval_basis": "Gate 1: Monte San Salvatore summit — small stone chapel with dark cupola beside the funicular arrival terrace on the steep cone, Lugano and the branching lake spread below toward Monte Brè; chestnut woodland below and broken cloud matching the documented partly-cloudy model. Gate 2: exact masters; on-image 'Monte San Salvatore, Lugano', scenario '24 September 2026 · 16:17 Europe/Zurich', disclosure and signature verified in both corners. Retrieval 2026-09-25T23:40:30Z unique to this scene; 16:17 falls inside the note's 16:00–16:59 model-valid hour. Gate 3: text-prompt-only generation, no photographic inputs. Gate 4: no people, no station logo; commercial call remains Jason's. Gate 5: ready.",
   "approved_at": "2026-09-26T04:35:37.463748+00:00",
-  "sha256_16x9": "1335b0dbeabecb6ffc75b8a54060904f7dc7b9cae9b168d966b1d04753947046",
-  "sha256_4x5": "f4bcfa527e904b0d84ef7db9751f951209123680486358794985bfc79432b2fd"
+  "sha256_16x9": "933315c88e17af91668a8f6ea9283acdb875be8e7522444aba73b87962888f3e",
+  "sha256_4x5": "e961980c1f1872838daca0e6ec5d88e2ca56fb6d4b2e4498038eb992cb46a271"
 }

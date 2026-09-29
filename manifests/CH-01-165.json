@@ -16,6 +16,6 @@
   "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
   "approval_basis": "Gate 1: Zinal spread across a high meadow at the head of the Val de Zinal — stone church with squat tower center frame, wooden chalets, larch trees, the Imperial Crown snow wall behind — matches the independent description, no artifacts. Gate 2: exact masters; caption 'Zinal, Zinal', scenario '24 September 2026 · 17:50 Europe/Zurich', disclosure and signature legible bottom band. Retrieval 2026-09-25T23:43:47Z unique to this scene (coords 46.13629, 7.62680), scenario inside model-valid hour. Gate 3: text-prompt-only. Gate 4: no people/logos (documented only). Gate 5: no open blockers.",
   "approved_at": "2026-09-26T09:35:12.863226+00:00",
-  "sha256_16x9": "3fa5448e25eb9de03b700cfe2aa103949b994bb85681ce048bb6bfeb5c336778",
-  "sha256_4x5": "8cf23545deacca4359d2ac8133b742760a53f9238e00e80d05a403a40e1dbb8a"
+  "sha256_16x9": "66edd1ce90ba5c6bb21960d1ca99c2723983e593842fc577ebfc4502585edf30",
+  "sha256_4x5": "6be18713d5799c068cef22722c4938be53795eaf5eb23c512adba6e20af1298f"
 }

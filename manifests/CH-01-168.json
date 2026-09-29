@@ -16,6 +16,6 @@
   "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
   "approval_basis": "Gate 1: the Savoyard square castle of Morges on its lake quay — four round corner towers with slate spires, pale stone walls, Lake Geneva in the foreground and the Savoy mountains across the water — matches the 1286-1291 keep's known arrangement. Gate 2: exact masters; caption 'Morges, Morges', scenario '24 September 2026 · 17:50 Europe/Zurich', disclosure and signature legible. Retrieval 2026-09-25T23:43:50Z unique to this scene (coords 46.50669, 6.49670), scenario inside model-valid hour. Gate 3: text-prompt-only lineage. Gate 4: no people or logos (documented only). Gate 5: no open blockers.",
   "approved_at": "2026-09-26T09:35:50.287741+00:00",
-  "sha256_16x9": "9699cf1a3a91710e37a4af88b6f3ada9b790106c26d1e37815c729b6f7a3ec3e",
-  "sha256_4x5": "73a42e92921e434c090dbefb646ac2ef2fa19448a81a3a05356b28ca111af66b"
+  "sha256_16x9": "3e2e9edfe237e77cb5cb84b311aa9dd690125720886d6499c313f8bb681e7133",
+  "sha256_4x5": "5fe0ca9b21cc0eb1da368761626e38620c74a52eff8df6473e9aca7f0cb05581"
 }

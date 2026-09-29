@@ -38,10 +38,10 @@
   "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
   "approval_basis": "Approved · Cosmo QC 5/5 · Daylight. Gate 1: Mürren's chalets along a village path with the church, Schilthorn massif behind in cloud — correct identity; clean framing, no artifacts. Gate 2: dims verified; on-bar 'Mürren, Mürren', 'Scenario: 24 September 2026 · 15:09 Europe/Zurich', disclosure + signature; retrieval 2026-09-27T16:51:30Z unique, 15:09 inside 15:00-15:59, code 3/99%/15.5°C. Prior 2026-09-25 mechanical FAIL was cleared same-day by a re-check PASS note; no open holds. Gate 3: text-prompt-only lineage. Gate 4: no identifiable people, no logos. Gate 5: no blockers.",
   "reverted_at": "2026-09-25T12:40:54.887591+00:00",
-  "sha256_16x9": "5816494355ee8b36de22d7f894da7c3421f72edcf1e94a356cc0ce30b83118cb",
-  "sha256_4x5": "0b67a22a124f5ba6a3e9731d5c29576e5a9350fd173b3eb04bcb3802520a3369",
+  "sha256_16x9": "a7a99c0c03b63ba164da49e83efc5145b590e723649f92a4ea0e719c031769db",
+  "sha256_4x5": "40631994675af1ec27c9b50da4402f9d2cf42ea68fabeba10617608ffe6d5221",
   "file_9x16": "library/world/Switzerland/Mürren/ch-01-024-9x16.png",
-  "sha256_9x16": "e0c6083cf10340ced049c365396d90318cb6bf84c764170b45c3d65b59ebf840",
+  "sha256_9x16": "8529859ddb5c9ca9573810bc6396ccf21d9ef5dbf6d9a5a840d9f098328a39d6",
   "open_meteo": {
     "retrieved_utc": "2026-09-27T16:51:30Z",
     "http_date": "Sun, 27 Sep 2026 16:51:30 GMT",

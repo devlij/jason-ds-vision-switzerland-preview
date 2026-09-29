@@ -32,8 +32,8 @@
       "4x5": "library/world/Switzerland/Meyrin/ch-01-292-daylight-4x5.png"
     },
     "sha256": {
-      "16x9": "735079c889c4bc87149c47ba0db4e71e3cad84b1fe46caf76aaefa2ecae194fd",
-      "4x5": "e7f4dce10d4a5c96fb525ed94569f81cf914d7db7f73e2676b7324086f57aba9"
+      "16x9": "f3f70d33e1f181ca066889ebb10821c19e33681e10ca118997b140fc79e3a437",
+      "4x5": "4ad4dcbcabdd7c0c69ca08e2d9aa6dca7a011bc13f2d6905d7a34c67f9c98383"
     },
     "created_date": "2026-09-25",
     "on_image_caption": "CERN Globe, Meyrin",
@@ -46,6 +46,6 @@
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "Gate 1: night view of the CERN Globe of Science and Innovation in Meyrin, the large wooden slatted sphere glowing from within on the plaza between campus buildings; the defining slatted-globe geometry matches the real structure. Gate 2: exact 1920x1080/864x1080; caption 'CERN Globe, Meyrin', scenario '24 September 2026 - 22:30 Europe/Zurich', disclosure and signature verified on-image; weather retrieved 2026-09-25T23:47:58Z, unique repo-wide, valid hour 22:00-22:59 matches scenario. Gate 3: text-prompt-only lineage per note. Gate 4: no people or logos visible (documented only).",
   "approved_at": "2026-09-26T17:43:04.998611+00:00",
-  "sha256_16x9": "1c83d3f995af4667aafa5461b302acf87ab9303c3fffa9c00bdfcaca870a9c2a",
-  "sha256_4x5": "b876328ee361b82e8a6ab60d83224f30e70fc994d0531275ef3f02589096b3a5"
+  "sha256_16x9": "bc57e24f210e8bf19c94f1164572fe59afee5e22610c4844f5aa59c6b0a6211f",
+  "sha256_4x5": "2358a9f7f22b0a7b029730fa08c8298d91b5ccc74f49ec4a7d64f626224ae2c1"
 }

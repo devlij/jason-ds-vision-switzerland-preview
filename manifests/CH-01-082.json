@@ -15,8 +15,8 @@
   "approval_status": "Candidate",
   "qc_status": "Candidate · weather rework 2026-09-27 · not approved",
   "approval_basis": "Builder weather rework 2026-09-27 for CH-01-082. Own Open-Meteo archive GET, HTTP Date Sun, 27 Sep 2026 16:56:03 GMT, retrieved 2026-09-27T16:56:03Z, valid 2026-09-24T16:00 Europe/Zurich, model-valid hour 16:00–16:59, scenario 24 September 2026 · 16:14 Europe/Zurich inside that hour. Weather code 3 (overcast), cloud 100%, 17.9°C, is_day 1. Masters re-rendered at 1920×1270, 864×1270, and 1080×2110 with a 190px #0e0e12 label bar. Status Candidate. Not an approval.",
-  "sha256_16x9": "10615362c685d1d40d66b3f3c131958a7b39446bf001fa499748ad4081f3de86",
-  "sha256_4x5": "aaff54753e3257922424ea7000bf59efe0763928d694cfe4d692b4774640d781",
+  "sha256_16x9": "fd5c51f4459aa7c1c6b09038717f309302a84a83c45da50f431b48398f5f8aea",
+  "sha256_4x5": "cff12818622e727e3bd20cbb5408560a8305042589085f38e4dbf3c1b7303533",
   "reverted_at": "2026-09-25T12:43:40.572629+00:00",
   "qc_notes": [
     {
@@ -31,7 +31,7 @@
     }
   ],
   "file_9x16": "library/world/Switzerland/Glarus/ch-01-082-9x16.png",
-  "sha256_9x16": "9f729d3487373b7310cec9aa873a6b79132a3b603e69dfc75725dbaac6434b33",
+  "sha256_9x16": "3482cfb69eb970690071d497c1355905e76e79c64860eac5bd657db6ae472dbb",
   "open_meteo": {
     "retrieved_utc": "2026-09-27T16:56:03Z",
     "http_date": "Sun, 27 Sep 2026 16:56:03 GMT",

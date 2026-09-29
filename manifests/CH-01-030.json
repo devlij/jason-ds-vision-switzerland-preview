@@ -15,8 +15,8 @@
   "approval_status": "Approved",
   "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
   "approval_basis": "Approved · Cosmo QC 5/5 · Daylight. Gate 1: Fribourg Cathedral with tall Gothic spire on the cliff over the Sarine, old town houses, the Grand-Pont bridge — correct identity; clean framing, no artifacts. Gate 2: dims verified; on-bar 'Fribourg Cathedral, Fribourg', 'Scenario: 24 September 2026 · 15:09 Europe/Zurich', disclosure + signature; retrieval 2026-09-27T16:53:19Z unique, 15:09 inside 15:00-15:59, code 3/100%/21.9°C. Gate 3: text-prompt-only lineage. Gate 4: no identifiable people, no logos. Gate 5: no blockers.",
-  "sha256_16x9": "28489ff63569fcc9627ffe027b7ff0fe27a42ba291eb34940bca468271856cb3",
-  "sha256_4x5": "6fa93fd65e406426d20e61c7acdd15f119a3aa27911e502afd6713735427f306",
+  "sha256_16x9": "d0f238574164e9393679a2d1fe74071ba4059db604173a6a8a41c9c69e8b9db8",
+  "sha256_4x5": "f97521c341a7f585e304132b3f28b45577469f8ebf0dd8d6d85445f7240af5c1",
   "reverted_at": "2026-09-25T12:41:09.752532+00:00",
   "qc_notes": [
     {
@@ -31,7 +31,7 @@
     }
   ],
   "file_9x16": "library/world/Switzerland/Fribourg/ch-01-030-9x16.png",
-  "sha256_9x16": "e44e4402161f950927dff876241e941c8912f8f01c40dbe3de2d2c91dc90c5b7",
+  "sha256_9x16": "904b618e8cb6b98dc9003a2376c2b195b5422f0f299012f622db6823f6df875f",
   "open_meteo": {
     "retrieved_utc": "2026-09-27T16:53:19Z",
     "http_date": "Sun, 27 Sep 2026 16:53:19 GMT",

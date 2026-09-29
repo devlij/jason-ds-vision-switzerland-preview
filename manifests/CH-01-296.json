@@ -32,8 +32,8 @@
       "4x5": "library/world/Switzerland/Gland/ch-01-296-daylight-4x5.png"
     },
     "sha256": {
-      "16x9": "5937e708fa7c1b8d97e742b6f83448b30499d81e9631326a2671df47d281629b",
-      "4x5": "7142116751c16d2baa2ec25998b49e1751b03ea9930dd60e749b11bf2d7c0215"
+      "16x9": "d877e6319b64c8b71c2fa89f7a5276795226f4aeb02c90cd35959bbf02c13ca0",
+      "4x5": "5805a03b05a2dc125812b75e65d48bac9fe78fd6888866ba7fd22c96ff8b4b26"
     },
     "created_date": "2026-09-25",
     "on_image_caption": "Gland, Gland",
@@ -46,6 +46,6 @@
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "Gate 1 PASS: night street in Gland with the reformed church tower and gable on the right, lit street lamps, houses and trees along a curving road — plausible town-center tourist view. Gate 2 PASS: 1920x1080 + 864x1080 exact; caption 'Gland, Gland', scenario '24 September 2026 · 22:30 Europe/Zurich', disclosure and Jason D's Vision signature all exact and legible; weather retrieval 2026-09-25T23:48:02Z unique to this scene (repo-wide uniqueness scan 280–365), scenario falls inside the model-valid hour. Gate 3 PASS: text-prompt-only lineage, no photographic inputs per note. Gate 4: no people or logos visible; ordinary houses documented only.",
   "approved_at": "2026-09-26T19:34:20.642143+00:00",
-  "sha256_16x9": "7bbfc7ced775f65879734b7c0396d93a7374daf32a13993ced673fd19a3f83bd",
-  "sha256_4x5": "11a81e15fbf0325ec4e68ab943daf336519bb0bfa0a29fb914296785ac883af6"
+  "sha256_16x9": "e1bcd9c637fc6fda40b98b8fc22a952dcd1d68790640eba32ab9b86b23ac7b77",
+  "sha256_4x5": "2f4f126ac5e559e1260ef914b3d2ae7280771ea66bfe91f82484d1c017157aee"
 }

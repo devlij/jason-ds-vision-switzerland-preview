@@ -32,8 +32,8 @@
       "4x5": "library/world/Switzerland/Nyon/ch-01-294-daylight-4x5.png"
     },
     "sha256": {
-      "16x9": "d6211bafc04b72cf05e809728101e7fbc9365596848e121bd3ccb1ec2d574c87",
-      "4x5": "0a1f8d225f405300a7e6b221c89c3aeffdf37b72e29d62bd10e8d7519b6a2a57"
+      "16x9": "8c694609b27a67791a17f55f77faa338c57252fa581fc08c6c4bf3d00a925caf",
+      "4x5": "d2dcec8f5cb779d774cd7185b062d3eddd066c4b5ddc1b623339858c8a86aa24"
     },
     "created_date": "2026-09-25",
     "on_image_caption": "Nyon lakefront, Nyon",
@@ -46,6 +46,6 @@
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "Gate 1: night view on the Nyon lakefront pier with the stone quay, mooring posts and lamps receding into the dark lake, distant shoreline lights across the water, moored boats right; plausible pier viewpoint. Gate 2: exact 1920x1080/864x1080; caption 'Nyon lakefront, Nyon', scenario '24 September 2026 - 22:30 Europe/Zurich', disclosure and signature verified on-image; weather retrieved 2026-09-25T23:48:00Z, unique repo-wide, valid hour 22:00-22:59 matches scenario. Gate 3: text-prompt-only lineage per note. Gate 4: no people or logos visible (documented only).",
   "approved_at": "2026-09-26T17:43:17.451207+00:00",
-  "sha256_16x9": "594b6de9b9b7b674a92ed2f75929d919e195569c58b497e1ec35881680b1d5c1",
-  "sha256_4x5": "69af9aadaf4e5594a3cc7f841dccf286b1c1c6b65217702455d88f323583af64"
+  "sha256_16x9": "4367fd79592d56266aac2511ab022f12d73a1fb95792a227f8d87ae80a3566a2",
+  "sha256_4x5": "0031fdda9a3b17c1b03f80131472d4d677b62237867509ee59380eb7713f6358"
 }

@@ -16,6 +16,6 @@
   "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
   "approval_basis": "Gate 1: Schloss Kyburg on its wooded spur — tall stone keep with steep roof, roofed wings, village and mixed late-September woods below — recognizably a preserved hilltop castle. Gate 2: on-image caption 'Kyburg Castle, Kyburg', scenario '24 September 2026 · 19:02 Europe/Zurich' inside the model-valid hour; per-scene retrieval 2026-09-25T23:45:53Z, unique, code 3 overcast matching the grey rendered sky; dims verified; signature and disclosure legible. Gate 3: text-prompt-only lineage. Gate 4: no prominent people or focal logos; documented-only. Gate 5: no open blockers.",
   "approved_at": "2026-09-26T13:34:08.899583+00:00",
-  "sha256_16x9": "5179376614e74622e54146cab1af0084bb3699a845b70e995e3b71020983a97b",
-  "sha256_4x5": "3e9dac49f6824353d709ae6f2fa17d3ee8c5bf7e1f9dd71cf3534e51f1cbd47d"
+  "sha256_16x9": "1a8e5819e68624093482931317a5fc2a450006ae194012306d8a082f976c2782",
+  "sha256_4x5": "1511d7b2e9d5ee8198877382c881166588a720940d401e14f165142fbb1eb9d0"
 }

@@ -15,8 +15,8 @@
   "approval_status": "Approved",
   "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
   "approval_basis": "Open-Meteo retrieval 2026-09-27T16:51:04Z (unique to the second, repo-wide verified, 2026-09-27) — Gate 2 hardened-weather law satisfied. CH-01-005: Zytglogge, Bern. G1: the medieval clock tower with its astronomical dial and spire centered at the end of a cobbled arcade street, Bern's covered arcades both sides. G2: dims exact; 'Zytglogge, Bern' / '24 September 2026 · 14:40 Europe/Zurich'. G3–G5 clear.",
-  "sha256_16x9": "a4882173f0b0ed6ebbc820492a06fd6f13269a6e0553a1c4bb4dcee826cbfab7",
-  "sha256_4x5": "e916662285dc73c767cbcb2a177a683b7f5eecd54ede83acfca3f02f8da4862d",
+  "sha256_16x9": "5706a244db9789b0ed786cfee13c9ddd8ac016fe0cdccdc3466b8adf59c40f6a",
+  "sha256_4x5": "ce0b5a034daa4b5497316d2b6ecfffb59cf45a80725a0b034a915b16267205d0",
   "reverted_at": "2026-09-25T12:40:02.980598+00:00",
   "qc_notes": [
     {
@@ -56,7 +56,7 @@
     }
   ],
   "file_9x16": "library/world/Switzerland/Bern/ch-01-005-9x16.png",
-  "sha256_9x16": "38f049047524e9e132dc68f7232723012750247f9deb1bda561a8412c2943af9",
+  "sha256_9x16": "ea710049526d2e1d12f1847270faf73fa16dbfb9da4e87dbb41c95bff2e4fa65",
   "open_meteo": {
     "retrieved_utc": "2026-09-27T16:51:04Z",
     "http_date": "Sun, 27 Sep 2026 16:51:04 GMT",

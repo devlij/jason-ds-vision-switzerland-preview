@@ -33,8 +33,8 @@
       "4x5": "library/world/Switzerland/Saignelégier/ch-01-364-daylight-4x5.png"
     },
     "sha256": {
-      "16x9": "507618072291c3f876f08efe81c1723c62d392c865fa208d327e2fd411818a19",
-      "4x5": "6bca505cc55e873dd480824459f58e2fe2275dcf7189de2dc66245be08c1bfdf"
+      "16x9": "d3f5560ccfd9fd499b8ee17c41861f9b42f537008651dfda8b8978ace69b47e7",
+      "4x5": "be112a4e6290f540769e81841ca13a339654f9022023480abefa0dd7866ce795"
     },
     "created_date": "2026-09-26",
     "on_image_caption": "Étang de la Gruère, Saignelégier",
@@ -55,5 +55,8 @@
       "by": "rerender",
       "note": "Re-render for the recorded Gate 1 hold: inter-format scenario disagreement — the 16:9 master is a night scene matching the 23:47 scenario while the 4:5 master is an overcast daylight scene of the same bog pond. All three new masters are the same overcast night of the bog pond. Scenario unchanged. Label-bar finish 1920×1270, 864×1270, 1080×2110. Still Candidate. Daylight variant files were not regenerated."
     }
-  ]
+  ],
+  "sha256_16x9": "ff662075fd2643cf0615b2019961e49e467d3e29c390d49ddfef48680b92792f",
+  "sha256_4x5": "7a7c5090422adab8c77487f29d69f5a10fbc842375e273c033168e627d88bea1",
+  "sha256_9x16": "cfffc1e208468d717f6fd9d24d271c167ba143d9a6fc0a37e9a50e848a74b9ef"
 }

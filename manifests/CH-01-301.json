@@ -33,8 +33,8 @@
       "4x5": "library/world/Switzerland/Lausanne/ch-01-301-daylight-4x5.png"
     },
     "sha256": {
-      "16x9": "4cba3b438bdb1457d3ad9fe57e1a1774458e1d2e1a06ba88921582831921ec99",
-      "4x5": "095221f5b24cda97de56638cfa3dc013f39c8842641bf9d22c0855e9eaa6b818"
+      "16x9": "12130ff93f1439fef129f3f83761e3c6bc5473b9e5d9de5fd028d343e2ae3c47",
+      "4x5": "0640b2410061fab69ce8c60f2cae5f1fd9aa9891ef8c90090dd3abaf13c2e5c8"
     },
     "created_date": "2026-09-25",
     "on_image_caption": "Olympic Museum, Lausanne",
@@ -55,5 +55,8 @@
       "by": "rerender",
       "note": "Re-render for the recorded Gate 1 hold: inter-format subject disagreement — the 16:9 master shows the Olympic Museum as a long horizontal glazed slab on pilotis while the 4:5 master shows a compact white block with vertical fins. All three new masters share one low white museum in the park above the Ouchy shore: smooth white walls and horizontal window bands, no pilotis, no vertical fins, no rings, no wordmark. Night, overcast, scenario unchanged. Label-bar finish 1920×1270, 864×1270, 1080×2110. Still Candidate. Daylight variant files were not regenerated."
     }
-  ]
+  ],
+  "sha256_16x9": "b2a6a38384965279b0e1acc444a642a4a96fed2b11a5ed2678eab812dd0f336d",
+  "sha256_4x5": "796eb5fdafea0ee0c8b822454bb4e49014dd83cb2a2095f98d27acb0afb3fed4",
+  "sha256_9x16": "25c657099dd9ea724a8e88244aeeea6958d3835c63a3173c25a7836a141281bc"
 }

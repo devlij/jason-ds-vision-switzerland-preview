@@ -16,6 +16,6 @@
   "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
   "approval_basis": "Gate 1: Romont Castle exterior with round towers and high curtain walls crowning the hill town, old-town roofs below — the Glâne frame, stonework exterior only. Gate 2: masters 1920x1080/864x1080 exact; on-image caption 'Romont Castle, Romont', scenario '24 September 2026 · 16:57 Europe/Zurich', disclosure and signature 'Jason D’s Vision' legible on the gradient scrim. Weather retrieved 2026-09-25T23:41:05Z, unique to this scene across the 101-145 window; model-valid hour 16:00-16:59 matches the scenario. Gate 3: text-prompt-only lineage, no photographic inputs per note. Gate 4: no people, no logos — documented only. Gate 5: no open blockers.",
   "approved_at": "2026-09-26T06:36:59.638935+00:00",
-  "sha256_16x9": "096701438d78272feef4f32ac973ed411bbe6f6fd6b9f3e9697bd727b0ded0f0",
-  "sha256_4x5": "f8a01102f81324ecec2cebcbc1420a9debee39bdf983fe525b22fa25db533d3e"
+  "sha256_16x9": "03b5310eb90c5c603fb21ed4a97b0c039da4dec61e0961c687dbdc549db7085e",
+  "sha256_4x5": "325adda007cbe6e1c14374c53bb9e494b01ed48ad0fd7f2318f6a72a94cc13a9"
 }

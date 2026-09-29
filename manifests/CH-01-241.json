@@ -16,6 +16,6 @@
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "Gate 1: Steinsee at blue-hour night with the low pass hotel's lit windows, the road along the shore, and the pale Stein Glacier tongue above — twilight sky with stars, matching the note's night/solar-altitude -1° calculation; not Wassen, not Grimsel. Gate 2: exact dims; signature 'Jason D's Vision'; caption 'Susten Pass, Innertkirchen' + scenario '24 September 2026 · 19:20 Europe/Zurich' + disclosure on scrim; retrieval 2026-09-25T23:46:06Z unique per-scene (repo-wide scan: no duplicate timestamps), valid 19:15 hour covers the 19:20 scenario. Gate 3: text-prompt-only. Gate 4: no people, no logos.",
   "approved_at": "2026-09-26T15:12:52.819397+00:00",
-  "sha256_16x9": "990cd6c92be2ef9afe85ee4a74fdbaf50068c092e15da905afb9d3c04cb8abea",
-  "sha256_4x5": "2d1d57ec1f9c65e47576ec2e6a92e7272a686a966613b8f75cd4113e3a2b2de1"
+  "sha256_16x9": "bbb1739bbbc59139f5ee578c5680332ccff1733df1a33958e3c222448bdd8ecf",
+  "sha256_4x5": "8f4a3e4298228965502fa41a4a9b76bbf74b3f8d1739af669d85d9edc27ee869"
 }

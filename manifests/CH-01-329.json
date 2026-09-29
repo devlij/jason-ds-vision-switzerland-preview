@@ -32,8 +32,8 @@
       "4x5": "library/world/Switzerland/Val Müstair/ch-01-329-daylight-4x5.png"
     },
     "sha256": {
-      "16x9": "0a7960b400008ed5df42be6580d9a81e2b8741978db8b6ef85905e4063353e2f",
-      "4x5": "27a06826c6bf972d70bfdf29d7432d46a0deb21a76589fe95cdc4fb3f4038ec4"
+      "16x9": "10e017e4704a2d0d6b111c31b107851438638ba9ce25bcd6b02f1a6a870e6137",
+      "4x5": "72d0f3482c181cf3cd98b6ae346c5380df62ac58906b33f2989c2b5487f7a58b"
     },
     "created_date": "2026-09-26",
     "on_image_caption": "Müstair Abbey, Val Müstair",
@@ -46,6 +46,6 @@
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "Gate 1: the 16:9 master shows Müstair Abbey — the white Carolingian monastery complex with its stone tower and arched cloister windows in Val Müstair at night under broken cloud; plausible tourist view, clean framing, no artifacts; the 4:5 master shows the same white abbey church and tower with no defining-feature disagreement. Gate 2: sweep-verified exact 1920×1080 / 864×1080; on-image caption 'Müstair Abbey, Val Müstair', scenario '24 September 2026 · 23:10 Europe/Zurich', 'AI-generated artistic interpretation · Not a photograph.' disclosure bottom-left on gradient scrim; exact 'Jason D's Vision' (curly apostrophe) bottom-right; weather retrieval unique to this scene at 2026-09-25T23:48:35Z, separate request for Müstair coords, model-valid hour 23:00–23:59 contains the 23:10 scenario (code 1 mainly clear, 55% cloud — matches the drifting clouds). Gate 3: builder note documents text-prompt-only lineage, no photographic inputs. Gate 4: no people or logos; historic UNESCO-site abbey — documented only. Gate 5: no open blockers.",
   "approved_at": "2026-09-26T20:39:36.877173+00:00",
-  "sha256_16x9": "87ce88460534302a12546e0414531577d30fa179f19dddbecce9252fe1c1d050",
-  "sha256_4x5": "49f865d69cbd68958f97138b80743b6786d9e0e9ea22a772d37e7d4a4d35fe74"
+  "sha256_16x9": "3c09ce35bff078d0e01c0a7ca9af289455c1c7667ec6f457ef8003db5475d0f0",
+  "sha256_4x5": "9a965b1f6a49da4121999eb94000488200dc844173929532198dbe8da8e7ff37"
 }

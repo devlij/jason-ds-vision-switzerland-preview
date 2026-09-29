@@ -15,8 +15,8 @@
   "approval_status": "Candidate",
   "qc_status": "Candidate · weather rework 2026-09-27 · not approved",
   "approval_basis": "Builder weather rework 2026-09-27 for CH-01-058. Own Open-Meteo archive GET, HTTP Date Sun, 27 Sep 2026 16:53:57 GMT, retrieved 2026-09-27T16:53:57Z, valid 2026-09-24T15:00 Europe/Zurich, model-valid hour 15:00–15:59, scenario 24 September 2026 · 15:44 Europe/Zurich inside that hour. Weather code 2 (partly cloudy), cloud 52%, 10.6°C, is_day 1. Masters re-rendered at 1920×1270, 864×1270, and 1080×2110 with a 190px #0e0e12 label bar. Status Candidate. Not an approval.",
-  "sha256_16x9": "f2488a55f3ae3761b4c47ee6450f84953f3b645ee6a10e9dddda1e221827115c",
-  "sha256_4x5": "80346e83241004ba5091da7c816217c261abbd6f53fcd3168c87fc399d73b3cf",
+  "sha256_16x9": "66d2dec4985c44225919ea38c83a66006ded3436f994b62c632b201b9adf8f00",
+  "sha256_4x5": "ba0f48ece84d13fc6386b747e2e3c5eae1452ad059c79211d52214bcad309b38",
   "reverted_at": "2026-09-25T12:42:31.452136+00:00",
   "qc_notes": [
     {
@@ -31,7 +31,7 @@
     }
   ],
   "file_9x16": "library/world/Switzerland/Poschiavo/ch-01-058-9x16.png",
-  "sha256_9x16": "e3882a9c976d64d7bc6db44a2557b30ab1747d6f2697cec366c6d6c2196d2b71",
+  "sha256_9x16": "fc166c87b2726136ca14a10dc0387ee7580be9d3ca17228231256021e9ea6654",
   "open_meteo": {
     "retrieved_utc": "2026-09-27T16:53:57Z",
     "http_date": "Sun, 27 Sep 2026 16:53:57 GMT",

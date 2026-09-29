@@ -16,6 +16,6 @@
   "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
   "approval_basis": "Gate 1: Bahnhofstrasse looking south — wide straight boulevard, central tram tracks, early-autumn plane trees on both sides, even commercial facades and Lake Zurich with the far shore closing the axis; overcast light matches the documented model conditions. Gate 2: exact-dimension masters; on-image 'Bahnhofstrasse, Zurich', scenario '24 September 2026 · 16:17 Europe/Zurich', disclosure and 'Jason D's Vision' signature correct in both corners. Retrieval 2026-09-25T23:40:27Z unique to this scene; scenario inside the 16:00–16:59 model-valid hour. Gate 3: text-prompt-only generation. Gate 4: only tiny distant figures at the lake end, no readable shop names or logos; commercial call stays Jason's. Gate 5: no blockers.",
   "approved_at": "2026-09-26T04:35:02.320639+00:00",
-  "sha256_16x9": "a0d9602563ba9187571e0822a2ce4327ad8160eafa186e45d171c535e3aa23af",
-  "sha256_4x5": "953abc05d79a3ea5f52874065f46ddf73d38164eb862237074ebbbcca6a25bb4"
+  "sha256_16x9": "58e1cfdadaacf110337ae2f62166fcf1ca2af3b83a9f139b5e67739cbe1a4384",
+  "sha256_4x5": "64bf2d44fcad192c91fc0b337d521413a20fe0ac2c01d3e3a367bd94e738211a"
 }

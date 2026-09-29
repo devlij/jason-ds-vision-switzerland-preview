@@ -32,8 +32,8 @@
       "4x5": "library/world/Switzerland/Boudry/ch-01-337-daylight-4x5.png"
     },
     "sha256": {
-      "16x9": "89ff28cbf43b3b32bb8bcd740e29d1aa7ac9258848ad56a12072f4d8c3c8750a",
-      "4x5": "0fab941bc6bc7801ab6798ba4ce19c76d00d5d0bc58f6a66a2b3a2bd00c7eed7"
+      "16x9": "b846e36c64267b87ea5f11b34084b6b3352eeb5702b55507d1fdd2ac92a62e14",
+      "4x5": "274952e9c71e66a94a7601e7dc862f830629169c4a7a1ec33f9f02f4fb20ba94"
     },
     "created_date": "2026-09-26",
     "on_image_caption": "Boudry Castle, Boudry",
@@ -46,6 +46,6 @@
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "Gate 1: Boudry Castle on its spur above the Areuse — stone castle with the defining round tower, old-town roofs below, autumn vineyard slopes in the foreground; both formats agree on the round tower, spur, and old town (inter-format check). Gate 2: 1920×1080/864×1080 exact; caption 'Boudry Castle, Boudry', scenario '24 September 2026 · 23:27 Europe/Zurich', 'Jason D’s Vision' signature bottom-right and 'AI-generated artistic interpretation · Not a photograph.' bottom-left legible; Open-Meteo weather retrieved 2026-09-25T23:48:43Z, per-scene unique across all 39 candidates, valid slot 23:15 consistent with 23:27 scenario. Gate 3: note documents text-prompt-only lineage, no photo inputs. Gate 4: historic castle; no people or logos. Gate 5: no blockers.",
   "approved_at": "2026-09-26T21:34:03.291368+00:00",
-  "sha256_16x9": "beac3d5eab73aa6db6c69d76ecb818fd6abbb8ae2f27c73efa2b99db0d6a06dc",
-  "sha256_4x5": "c2ebdfce88d0862664f374a56064c248fcf01acbb843b81e307db7ae01f690bf"
+  "sha256_16x9": "c64fd0c9bc5a633ddbefdc511bb4c014c47137bbf7a5226c9a911800c79788db",
+  "sha256_4x5": "b30541e632de0af849980c22ebaa943dde2c927c3ec172d87ab9cbe58a61b74e"
 }

@@ -15,8 +15,8 @@
   "approval_status": "Approved",
   "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
   "approval_basis": "Approved · Cosmo QC 5/5 · Daylight. Gate 1: symmetrical neoclassical Bundeshaus with central dome and portico, Bundesplatz with the circular fountain in front — correct identity; clean, no artifacts. Gate 2: dims verified; on-bar 'Bundeshaus, Bern', 'Scenario: 24 September 2026 · 15:09 Europe/Zurich', disclosure + signature; retrieval 2026-09-27T16:51:27Z unique, 15:09 inside 15:00-15:59, code 3/100%/22.2°C matching the flat overcast light. Gate 3: text-prompt-only lineage. Gate 4: no people, no logos. Gate 5: no blockers.",
-  "sha256_16x9": "9f097f29ca88c6fe310cbda31942e4bfaf119c656913d73c0fedee35bcbdcaee",
-  "sha256_4x5": "70a4184e749cfee532ca2cba415ba15e612ebfc84485184ab989584b6736d3b6",
+  "sha256_16x9": "59f44d0b3745016682f370ce285c34f744b08fb7c464dd926804b86a34ed10f4",
+  "sha256_4x5": "925fd8dbe79bfb8b0f5b969ec13079562eeb672e34c54b5faf29b0b58e2f3bcc",
   "reverted_at": "2026-09-25T12:40:49.920095+00:00",
   "qc_notes": [
     {
@@ -31,7 +31,7 @@
     }
   ],
   "file_9x16": "library/world/Switzerland/Bern/ch-01-022-9x16.png",
-  "sha256_9x16": "3a7b8a6846b561727709e17a245e2ccf10a048b48bc5d8b84d49462c49256fe4",
+  "sha256_9x16": "989f0bbff7f35e6ee88a42ea797efab32b7b30ed9f0aed724a5afc54a5f72858",
   "open_meteo": {
     "retrieved_utc": "2026-09-27T16:51:27Z",
     "http_date": "Sun, 27 Sep 2026 16:51:27 GMT",

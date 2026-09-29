@@ -32,8 +32,8 @@
       "4x5": "library/world/Switzerland/Zermatt/ch-01-305-daylight-4x5.png"
     },
     "sha256": {
-      "16x9": "79b69b2063a260b219b1813898311d7e8f7545594976451024e0675f7536d88b",
-      "4x5": "e1d3d25feb2a092b0f68aefb1651aead09a1edd74dab46856a10ce64b6c5cc9e"
+      "16x9": "8c2ef12615309e79f8bc6fbccca1f4373af0db4ca96356997cb362e488b6acd2",
+      "4x5": "1ad5cfaea6e60786863a077aacd86024a24b39230d312b6cf9fc947907a8701e"
     },
     "created_date": "2026-09-26",
     "on_image_caption": "Hinterdorf, Zermatt",
@@ -46,6 +46,6 @@
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "Gate 1: 16:9 shows the cobbled Hinterdorfstrasse lane flanked by dark wooden storehouses raised on stone staddle pillars, one warm window glowing; 4:5 shows the same barn quarter — dark timber granaries on stone pillars with warm windows and stone-tiled roofs. Formats agree; no Matterhorn, as the note specifies. Clean framing, no artifacts. Gate 2: exact 1920x1080 and 864x1080 masters; on-image caption 'Hinterdorf, Zermatt', scenario '24 September 2026 · 22:51 Europe/Zurich', disclosure 'AI-generated artistic interpretation · Not a photograph.', and 'Jason D’s Vision' signature verified. Weather retrieval 2026-09-25T23:48:11Z is unique to this scene to the second; scenario 22:51 falls inside the model-valid hour 22:00–22:59. Gate 3: build-agent note documents text-prompt-only lineage, no photographic inputs. Gate 4: no prominent people, no cars (car-free quarter honored), no logos. Gate 5: no open blockers.",
   "approved_at": "2026-09-26T18:38:23.086117+00:00",
-  "sha256_16x9": "6ae92a82bbc1615d2056fa9aa9e7fafd545159e9752b799cbdd3201263f592e4",
-  "sha256_4x5": "a73eda937792d76340e16e7ebbae620dd9db4acb2bd4c825eb4d90d55f69f946"
+  "sha256_16x9": "e5606032b200cee2adbdad2b7ccb95b18c91e411f60e8471776ac6bd96a2a669",
+  "sha256_4x5": "56b95599dd6baba7d234b058da6a1631141f9db5dc3394c4ecda0e3bd066e628"
 }

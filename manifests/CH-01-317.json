@@ -32,8 +32,8 @@
       "4x5": "library/world/Switzerland/Grindelwald/ch-01-317-daylight-4x5.png"
     },
     "sha256": {
-      "16x9": "7825703aa4e739a6f37fcdd8f4b8bd9ce5dc0fd328cc68d5bd92bbe83cabcc90",
-      "4x5": "7793fde1347d189b11f32b067b468e88d65a72a8c1f472358631650107aded22"
+      "16x9": "001b62c96f8a648bd1b50cfa757190bc34f6f02c603bf1c33c4ec7414652d10f",
+      "4x5": "80df406ab4d5f6cd71c037363dfa6278c40e949e04ac5b8c71c92f0cf2a604d7"
     },
     "created_date": "2026-09-26",
     "on_image_caption": "Parish Church, Grindelwald",
@@ -46,6 +46,6 @@
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "Gate 1 PASS: Grindelwald parish church at night — stone hall church of 1793-95 with polygonal choir, tall tower with spire, lit windows, parsonage house beside, mountains under a starry sky; Eiger wall not the subject as required. Gate 2 PASS: exact dims; caption 'Parish Church, Grindelwald', scenario 24 Sep 2026 22:52 Europe/Zurich, disclosure, signature exact; retrieval 2026-09-25T23:48:23Z unique repo-wide, scenario inside model hour. Gate 3 PASS: text-prompt-only per note. Gate 4: no people, no logos.",
   "approved_at": "2026-09-26T19:37:19.470922+00:00",
-  "sha256_16x9": "dd4106312717754ae3ff976742725e66cc2b48305889274196a52daf58308eda",
-  "sha256_4x5": "cddfae2f6002554cd421820beddd3dac83308f554a52e08d03640f79106bd9a8"
+  "sha256_16x9": "c32f9f82266b1d73d4535b0389d17a3285cdfb5a1d0dd2fe3761d42bbf2fa2c2",
+  "sha256_4x5": "522c442c6ac5abae6df1d18feb118f47c17225c63fc1c8dbb7062a0c66d4fb61"
 }

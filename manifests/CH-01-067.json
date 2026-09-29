@@ -15,8 +15,8 @@
   "approval_status": "Candidate",
   "qc_status": "Candidate · weather rework 2026-09-27 · not approved",
   "approval_basis": "Builder weather rework 2026-09-27 for CH-01-067. Own Open-Meteo archive GET, HTTP Date Sun, 27 Sep 2026 16:55:43 GMT, retrieved 2026-09-27T16:55:43Z, valid 2026-09-24T16:00 Europe/Zurich, model-valid hour 16:00–16:59, scenario 24 September 2026 · 16:00 Europe/Zurich inside that hour. Weather code 3 (overcast), cloud 100%, 17.4°C, is_day 1. Masters re-rendered at 1920×1270, 864×1270, and 1080×2110 with a 190px #0e0e12 label bar. Status Candidate. Not an approval.",
-  "sha256_16x9": "faf43449aa1554df9cb005d564d59b30244375acd3c3fdd83396cf8e3c02d281",
-  "sha256_4x5": "b1d6cb1d6da909e5c421a29b8a69822712aa1af883f296004a4e65e2855acc17",
+  "sha256_16x9": "7ad9100a9723568f5d7ff1a312f6a3e454017b56b38e028d4837b5e68fe21420",
+  "sha256_4x5": "ddfce249d44023580aa9ba871b8e0f1d6097d202b4be4ce32d63f3eda62dab06",
   "reverted_at": "2026-09-25T12:42:58.705261+00:00",
   "qc_notes": [
     {
@@ -31,7 +31,7 @@
     }
   ],
   "file_9x16": "library/world/Switzerland/Heiden/ch-01-067-9x16.png",
-  "sha256_9x16": "76b42d96fbb16b82a50d44d0dad4c4dc2383c791f0b489910053f516bb3881d5",
+  "sha256_9x16": "d895f1f29a91c30c79f6172c87c4c970018deacdf182b9d783ff24fe0c7e855f",
   "open_meteo": {
     "retrieved_utc": "2026-09-27T16:55:43Z",
     "http_date": "Sun, 27 Sep 2026 16:55:43 GMT",

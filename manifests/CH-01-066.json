@@ -15,8 +15,8 @@
   "approval_status": "Candidate",
   "qc_status": "Candidate · weather rework 2026-09-27 · not approved",
   "approval_basis": "Builder weather rework 2026-09-27 for CH-01-066. Own Open-Meteo archive GET, HTTP Date Sun, 27 Sep 2026 16:55:41 GMT, retrieved 2026-09-27T16:55:41Z, valid 2026-09-24T16:00 Europe/Zurich, model-valid hour 16:00–16:59, scenario 24 September 2026 · 16:00 Europe/Zurich inside that hour. Weather code 3 (overcast), cloud 100%, 16.7°C, is_day 1. Masters re-rendered at 1920×1270, 864×1270, and 1080×2110 with a 190px #0e0e12 label bar. Status Candidate. Not an approval.",
-  "sha256_16x9": "685786fadf3459ef2d091a6c3e6e3fec9b96263cae7adf998c06b210535eb09e",
-  "sha256_4x5": "4a3d19e29264d26b8de465e982769bbf02e8c2d58cab3aa3e6a078d8a34fe389",
+  "sha256_16x9": "027d9a4bf88038b6ee93c6c5014d8f8033cd6229a111d976dee2fc974fa615b0",
+  "sha256_4x5": "c92968ede2cd390957e14b5cd0eaa8f95c68b751d565d2e60a38f4648afd5f74",
   "reverted_at": "2026-09-25T12:42:56.278549+00:00",
   "qc_notes": [
     {
@@ -31,7 +31,7 @@
     }
   ],
   "file_9x16": "library/world/Switzerland/Urnäsch/ch-01-066-9x16.png",
-  "sha256_9x16": "5aac182a1b6a1d3efabc56ec3b43e67d69c5134836729733c0e254e25d5fc2f3",
+  "sha256_9x16": "0ca01b0700fbbcf783e135b75c02098aaf513010c0a7f1185d87e950e1c25310",
   "open_meteo": {
     "retrieved_utc": "2026-09-27T16:55:41Z",
     "http_date": "Sun, 27 Sep 2026 16:55:41 GMT",

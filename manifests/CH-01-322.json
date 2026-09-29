@@ -32,8 +32,8 @@
       "4x5": "library/world/Switzerland/Bellinzona/ch-01-322-daylight-4x5.png"
     },
     "sha256": {
-      "16x9": "fcab32becc0b8104e06f44ff3fdfa1170c5f4c872989e24e64e4cc493c52df94",
-      "4x5": "470c6da23d04263d1b1a578261a6b06ad55f4b4440949024526d816abaca3189"
+      "16x9": "d8a417351c8a5e37051a5847646dd3c7ade9101158d4685adc9129ca410edfae",
+      "4x5": "23854b6dc0fa1153ab7f7c7093574405322e3805b6efe37bb08902e3c61b0328"
     },
     "created_date": "2026-09-26",
     "on_image_caption": "Sasso Corbaro, Bellinzona",
@@ -46,6 +46,6 @@
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "Gate 1: the 16:9 master shows Sasso Corbaro — a two-tower stone hilltop fortress on a rocky knoll above the lit city of Bellinzona under a starry sky; plausible tourist view, clean framing, no artifacts; the 4:5 master shows the same two-tower fortress on its knoll with no defining-feature disagreement. Gate 2: sweep-verified exact 1920×1080 / 864×1080; on-image caption 'Sasso Corbaro, Bellinzona', scenario '24 September 2026 · 23:09 Europe/Zurich', 'AI-generated artistic interpretation · Not a photograph.' disclosure bottom-left on gradient scrim; exact 'Jason D's Vision' (curly apostrophe) bottom-right; weather retrieval unique to this scene at 2026-09-25T23:48:28Z, separate request for Bellinzona coords, model-valid hour 23:00–23:59 contains the 23:09 scenario (code 0 clear — matches the starfield). Gate 3: builder note documents text-prompt-only lineage, no photographic inputs. Gate 4: no people or logos; historic public fortress — documented only. Gate 5: no open blockers.",
   "approved_at": "2026-09-26T20:37:28.398464+00:00",
-  "sha256_16x9": "692603391baa5aeeb44cdba9f4c8488bd5002156043343e6c1ec8d02194528dd",
-  "sha256_4x5": "009799391726e099c8caad938e013bf539327c38db7f7cf333333ce475d86167"
+  "sha256_16x9": "742683f55439108c0eac77d604b5361e98e946abe9b9f37647427c62ffb3e6dd",
+  "sha256_4x5": "dd206def7d27d5a009d21c8ce72ce8fc74553a351a4f8ba787d1238fcee613ee"
 }

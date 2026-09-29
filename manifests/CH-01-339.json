@@ -32,8 +32,8 @@
       "4x5": "library/world/Switzerland/Solothurn/ch-01-339-daylight-4x5.png"
     },
     "sha256": {
-      "16x9": "ffcf2acf753133849a2ac9f60ca94a36f267c139f6176a4b87c8553e5f984b14",
-      "4x5": "0ce130f229a62981153c28adcb6b06b6d706bc43c5ec5b9d2d30e02ec9c0e8ec"
+      "16x9": "b37879fa3485989999fbfa3d88f242882b8be7db677138dbd00a09013f1ba6ac",
+      "4x5": "2e300ef375c8003695eafcf7611ec90abce0f05598692c8da1890ef9294d1729"
     },
     "created_date": "2026-09-26",
     "on_image_caption": "Zeitglockenturm, Solothurn",
@@ -46,6 +46,6 @@
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "Gate 1: the Zeitglockenturm in Solothurn's Hauptgasse — medieval clock tower with two illuminated clock faces between pale baroque house fronts, lantern-lit street; both formats agree on the clock tower with lit faces and the flanking baroque fronts. Gate 2: 1920×1080/864×1080 exact; caption 'Zeitglockenturm, Solothurn', scenario '24 September 2026 · 23:28 Europe/Zurich', 'Jason D’s Vision' signature bottom-right and 'AI-generated artistic interpretation · Not a photograph.' bottom-left legible; Open-Meteo weather retrieved 2026-09-25T23:48:45Z, per-scene unique across all 39 candidates, valid slot 23:15 consistent with 23:28 scenario. Gate 3: note documents text-prompt-only lineage, no photo inputs. Gate 4: public clock tower and street; no people or logos. Gate 5: no blockers.",
   "approved_at": "2026-09-26T21:34:20.547224+00:00",
-  "sha256_16x9": "ac0215eaf653efc42b9a7f2fdeed6bd40656635738330a767c6bfa008f1cb98d",
-  "sha256_4x5": "24f694a9dab0acee28987c34a1311979fad0229748ae72370702e063eead205d"
+  "sha256_16x9": "f2366eba633f3bff926c342b1ce675a57a2bc2409cd0e7d57be568e0c1ec19f3",
+  "sha256_4x5": "7d42a936afd18cbe9ad894a8536e82eaaa2f340dcd7dc1553637e615e81df3af"
 }

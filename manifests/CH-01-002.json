@@ -15,8 +15,8 @@
   "approval_status": "Approved",
   "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
   "approval_basis": "Open-Meteo retrieval 2026-09-27T16:50:59Z (unique to the second, repo-wide verified, 2026-09-27) — Gate 2 hardened-weather law satisfied. CH-01-002: Chapel Bridge, Lucerne. G1: covered wooden Kapellbrücke spanning the Reuss, octagonal stone Wasserturm at the bend, Lucerne old-town façades with the St. Peter's spire behind, flower boxes along the bridge rail — north-bank viewpoint. G2: dims exact; 'Chapel Bridge, Lucerne' / '24 September 2026 · 14:38 Europe/Zurich'. G3–G5 clear.",
-  "sha256_16x9": "fb8507a86e6fdcb13424a966cfef479a98f5d7d0c68cc97d4f57cbdca2d7eae2",
-  "sha256_4x5": "503191f1dc833e3e03581e37aa4f3e728b4500818200878cce221aba877b0459",
+  "sha256_16x9": "81b8dd7de34e2ba7adaf717cdcfe05ee4967b75243089e68febec7bfbd5f3e3c",
+  "sha256_4x5": "c26772abc798470bd6b853e97794c62afa7dda7d55ad40ca801100deeed2b707",
   "reverted_at": "2026-09-25T12:39:46.508223+00:00",
   "qc_notes": [
     {
@@ -61,7 +61,7 @@
     }
   ],
   "file_9x16": "library/world/Switzerland/Lucerne/ch-01-002-9x16.png",
-  "sha256_9x16": "df7f0c97829d5122a850ed3e1c08234ef32cd2b17fb351a04da358730e8c67cc",
+  "sha256_9x16": "0d10ed177163e54c4d48cdba2ded25dca8e502eb8b08f26a516dcce18b24f9fc",
   "open_meteo": {
     "retrieved_utc": "2026-09-27T16:50:59Z",
     "http_date": "Sun, 27 Sep 2026 16:50:59 GMT",

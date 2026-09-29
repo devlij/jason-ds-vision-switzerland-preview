@@ -15,8 +15,8 @@
   "approval_status": "Approved",
   "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
   "approval_basis": "Open-Meteo retrieval 2026-09-27T16:51:17Z (unique to the second, repo-wide verified, 2026-09-27) — Gate 2 hardened-weather law satisfied. CH-01-015: Eiger, Grindelwald. G1: the Eiger north face looming over Grindelwald's chalet-dotted meadows; 4:5 tighter on the face, same subject. G2: dims exact; 'Eiger, Grindelwald' / 14:42. G3–G5 clear.",
-  "sha256_16x9": "335cd4f6d63ed12bf417991dcbb5bfae2125a2c34c5d93f45d47d44695443c6e",
-  "sha256_4x5": "107e9a6b4a64effa8f4607beb6b57c3241ff8e843a5f67acc0e0a2a02ffb559d",
+  "sha256_16x9": "2fa5f08dbedf185d6f6455d695cf690c3e28bb80c3a6964778691d750bf8c1ae",
+  "sha256_4x5": "73dc794199f823d8994a7bce5dc756bc7208219009ccdb848b6138623c00f6a9",
   "reverted_at": "2026-09-25T12:40:28.371866+00:00",
   "qc_notes": [
     {
@@ -31,7 +31,7 @@
     }
   ],
   "file_9x16": "library/world/Switzerland/Grindelwald/ch-01-015-9x16.png",
-  "sha256_9x16": "b9b2cb1a325580ada319eb2332e0794d633973d26bb0d7f6a79c112aa5da811c",
+  "sha256_9x16": "78fbaf5b61c6413fa787184c12df071a6cd04df57fb691d798cfea7dc7cf2d61",
   "open_meteo": {
     "retrieved_utc": "2026-09-27T16:51:17Z",
     "http_date": "Sun, 27 Sep 2026 16:51:17 GMT",

@@ -32,8 +32,8 @@
       "4x5": "library/world/Switzerland/Geneva/ch-01-291-daylight-4x5.png"
     },
     "sha256": {
-      "16x9": "ccefae00019935d5488f1ab3564c160c3ca92051b5d11b1f388769d058efd671",
-      "4x5": "d48594bcb0e62dbc46610bfea6211131425253094b727202e96d5e7b7895644c"
+      "16x9": "709f391bce36e29c7b81fd83506847eb0005dc15c5b992691ef87a21be4b58c2",
+      "4x5": "c4538a9f4f391ab0b79fae8a36832f3f1a345f895c6b1bdc9d7a7953d57f2788"
     },
     "created_date": "2026-09-25",
     "on_image_caption": "Promenade de la Treille, Geneva",
@@ -46,6 +46,6 @@
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "Gate 1: night view on the Promenade de la Treille with the long wooden bench under the chestnut canopy, lamp-lit terrace walk and city lights beyond the parapet; plausible terrace viewpoint. Gate 2: exact 1920x1080/864x1080; caption 'Promenade de la Treille, Geneva', scenario '24 September 2026 - 22:30 Europe/Zurich', disclosure and signature verified on-image; weather retrieved 2026-09-25T23:47:57Z, unique repo-wide, valid hour 22:00-22:59 matches scenario. Gate 3: text-prompt-only lineage per note. Gate 4: no people or logos visible (documented only).",
   "approved_at": "2026-09-26T17:42:58.592662+00:00",
-  "sha256_16x9": "17ade88bd2bff4a09e34dc75034d3b71abe2fc797871f18ebb9dbd1779c1ed2b",
-  "sha256_4x5": "32b7d483a3a16eb324a201d1825815846d754e166d480a52112eb330532bff94"
+  "sha256_16x9": "6aa19a0ba41f4407cda05f9920bd4a1d9718607deebbbe72224d0204a7c2d456",
+  "sha256_4x5": "1da374cf68861b67b41bcbf1cb5401ff20e5cb636d2d519d66c7437512a8cce8"
 }

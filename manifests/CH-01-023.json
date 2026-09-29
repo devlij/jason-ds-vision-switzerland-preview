@@ -15,8 +15,8 @@
   "approval_status": "Approved",
   "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
   "approval_basis": "Approved · Cosmo QC 5/5 · Daylight. Gate 1: Wengen's chalet village with church spire, snow-dusted rock wall behind in cloud, early autumn foliage — correct car-free-village identity; clean framing. Gate 2: dims verified; on-bar 'Wengen, Wengen', 'Scenario: 24 September 2026 · 15:09 Europe/Zurich', disclosure + signature; retrieval 2026-09-27T16:51:29Z unique, 15:09 inside 15:00-15:59, code 3/96%/17.4°C. Gate 3: text-prompt-only lineage. Gate 4: no identifiable people, no logos. Gate 5: no blockers.",
-  "sha256_16x9": "05e6e3b2dee6ec5465d30a8d6c72ad71820948e0a1faa19043b8ac67fc38b198",
-  "sha256_4x5": "beb24f0ff5d98f1e36a5538d4a26b2d1b19d419298b102cd877e9869410f9f35",
+  "sha256_16x9": "2fe7c738cbdcd4aa7970cb41430ed764453869882138e68541b7f7c8ed7676ca",
+  "sha256_4x5": "3569cab0572c5df472336aabe98c7e723f5310ff5dd32d06e838e298c97c3e3f",
   "reverted_at": "2026-09-25T12:40:52.602381+00:00",
   "qc_notes": [
     {
@@ -31,7 +31,7 @@
     }
   ],
   "file_9x16": "library/world/Switzerland/Wengen/ch-01-023-9x16.png",
-  "sha256_9x16": "bd17c05467c2e9591ba0242d1d81c98facaf7d39075ecdaa29cc790eeeea51f7",
+  "sha256_9x16": "39d82b17271737f480028c8e0bb6e7fafa4ae535bf79170bfcf0cf7d0b78b3b0",
   "open_meteo": {
     "retrieved_utc": "2026-09-27T16:51:29Z",
     "http_date": "Sun, 27 Sep 2026 16:51:29 GMT",

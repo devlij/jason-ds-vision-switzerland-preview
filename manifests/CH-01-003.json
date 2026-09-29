@@ -15,8 +15,8 @@
   "approval_status": "Approved",
   "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
   "approval_basis": "Open-Meteo retrieval 2026-09-27T16:51:01Z (unique to the second, repo-wide verified, 2026-09-27) — Gate 2 hardened-weather law satisfied. CH-01-003: Jungfrau, Interlaken. G1: Interlaken town spread between Lake Thun and Lake Brienz in the valley floor, snow-capped Jungfrau massif (Eiger/Mönch shoulders) rising behind under overcast — plausible high viewpoint. G2: dims exact; 'Jungfrau, Interlaken' / 14:38. G3–G5 clear.",
-  "sha256_16x9": "913ce4f2203264eca0c7be0888a53c8618e09f470ff2a8009b7fc2cf6aa7ce1f",
-  "sha256_4x5": "9709e7ecbde51277a85661b45e548f3e3b125d42c140f459f33a8f9842cef23a",
+  "sha256_16x9": "967697e793ea287ae7442f2197f945be0cdcf00263e702dfc5e258b051f2e830",
+  "sha256_4x5": "e745616a097a81e3827595ea46932e7b66fe55ff2fa81a2ebcdf97dc6df3986e",
   "reverted_at": "2026-09-25T12:39:48.113663+00:00",
   "qc_notes": [
     {
@@ -61,7 +61,7 @@
     }
   ],
   "file_9x16": "library/world/Switzerland/Interlaken/ch-01-003-9x16.png",
-  "sha256_9x16": "62de2cc98bad42f4a7050322ee8a93f45e41bc5401bf18e951a9eebf7cbd7a39",
+  "sha256_9x16": "1f0adba4439b71bfbebf3a2d703b8d430ec2fa37ea8072f1145e93318594c34c",
   "open_meteo": {
     "retrieved_utc": "2026-09-27T16:51:01Z",
     "http_date": "Sun, 27 Sep 2026 16:51:01 GMT",

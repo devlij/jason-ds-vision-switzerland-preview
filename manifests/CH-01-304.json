@@ -32,8 +32,8 @@
       "4x5": "library/world/Switzerland/Chexbres/ch-01-304-daylight-4x5.png"
     },
     "sha256": {
-      "16x9": "e67cdbca3a1fd08bc550d327ddc30bd6132080ebdbeb50f65e1ad6c2660d6bbe",
-      "4x5": "a31559396617c9919e8eec924bbdabbe2b18cd5bc093bce67ffbd43622623c1b"
+      "16x9": "a729c5b6f2ccc72cae9f06e29e3a3ce8deaf6f9f57c7e24aee3bb87233d09509",
+      "4x5": "819f93ccd52e7a2001dad74dbb6c78c7e00946c3a6f33c2ef4da5c018a9a01b2"
     },
     "created_date": "2026-09-25",
     "on_image_caption": "Chexbres, Chexbres",
@@ -46,6 +46,6 @@
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "Gate 1: 16:9 shows the Chexbres balcony village clustered around the church with its tall slender spire, Lake Geneva beyond and vines falling below the street; 4:5 shows the same slender-spired church with golden vineyard rows leading to it — formats agree on the defining tower. Clean framing, no artifacts. Gate 2: exact 1920x1080 and 864x1080 masters; on-image caption 'Chexbres, Chexbres', scenario '24 September 2026 · 22:31 Europe/Zurich', disclosure 'AI-generated artistic interpretation · Not a photograph.', and 'Jason D’s Vision' signature verified. Weather retrieval 2026-09-25T23:48:10Z is unique to this scene to the second; scenario 22:31 falls inside the model-valid hour 22:00–22:59. Gate 3: build-agent note documents text-prompt-only lineage, no photographic inputs. Gate 4: no prominent people or logos; village houses generic. Gate 5: no open blockers.",
   "approved_at": "2026-09-26T18:38:15.882858+00:00",
-  "sha256_16x9": "6cff672d24857ab96830a2586019a10735eabe4e44a975002f4fb81004ad5f9a",
-  "sha256_4x5": "273985d37944470a71d5c5754de631293186f433c285a5379a2b52199ee8493f"
+  "sha256_16x9": "2c2e2601356da3603e19c26de7f51e672e9a125cf3e489d0b2aa53d2312161fc",
+  "sha256_4x5": "b2a60557aafbc8787cfecb274178e0000c5ec8dba6efbf69d522c2a25a6926e8"
 }

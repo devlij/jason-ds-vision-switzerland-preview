@@ -32,8 +32,8 @@
       "4x5": "library/world/Switzerland/Täsch/ch-01-306-daylight-4x5.png"
     },
     "sha256": {
-      "16x9": "994d86c98530ba1ea28c252c4a4ab95e0c1183d74552979c47748bd40f25e3b3",
-      "4x5": "c2269add52269d3b2dd26b52c9825fc70ba89b4db43135657bbe3aa14f195d87"
+      "16x9": "e2ec99d439814a3f47f68653f282bf2092d8b4f42228e8df678b93f163a18c5e",
+      "4x5": "736644715a883994fcd20315c9b1d0b155901bc3067ad5aca734648b92c3c6d6"
     },
     "created_date": "2026-09-26",
     "on_image_caption": "Täsch, Täsch",
@@ -46,6 +46,6 @@
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "Gate 1: 16:9 shows the valley lane through Täsch with dark wooden houses and the parish church — lit stone tower with a tall dark spire — at the bend; 4:5 shows the same church tower with tall dark spire among the same wooden houses. Formats agree on the defining tower. Clean framing, no artifacts. Gate 2: exact 1920x1080 and 864x1080 masters; on-image caption 'Täsch, Täsch', scenario '24 September 2026 · 22:51 Europe/Zurich', disclosure 'AI-generated artistic interpretation · Not a photograph.', and 'Jason D’s Vision' signature verified. Weather retrieval 2026-09-25T23:48:12Z is unique to this scene to the second; scenario 22:51 falls inside the model-valid hour 22:00–22:59. Gate 3: build-agent note documents text-prompt-only lineage, no photographic inputs. Gate 4: no prominent people or logos; no branded car terminal. Gate 5: no open blockers.",
   "approved_at": "2026-09-26T18:38:30.754415+00:00",
-  "sha256_16x9": "ca3554b386782da3253ad69ebb5640b9a41d5c2cbdd7e296fc890d9c03235e2d",
-  "sha256_4x5": "c56d42db1d3aa9fa041a9b16d3fc29f57ada97ccfe2a83ae8672d8ba81cb5a96"
+  "sha256_16x9": "eace53d494cdf25d65523459cf4af143a93f129bc5795c711f3be5efa5e9dd8f",
+  "sha256_4x5": "edbe418857e416afce12bad39dfc7c4e80dc3b2bdf3fe2807d1cc6a5ae8d6e31"
 }

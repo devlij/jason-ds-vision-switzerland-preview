@@ -32,8 +32,8 @@
       "4x5": "library/world/Switzerland/Sisikon/ch-01-357-daylight-4x5.png"
     },
     "sha256": {
-      "16x9": "ef8909582b8bc79705b9c979867c6f127c15fc4f84ade0881427d3195d1ecd1c",
-      "4x5": "788e1b3d231d0bddc43f96f5c6dd93cd669ef8dc5941df8eb6013dbc0cd06665"
+      "16x9": "7adcd74fb295def20e3f5f0017d028d75910998df84c49853ec09e73c80dc51c",
+      "4x5": "2c8f5d9db68eef482be13a32de25114e884b1428c737f2896dcf9c4ca136ccc1"
     },
     "created_date": "2026-09-26",
     "on_image_caption": "Tell Chapel, Sisikon",
@@ -46,6 +46,6 @@
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "Gate 1: small pale chapel with pitched roof on a rock ledge at the lake edge, tall dark cliff (Axenberg) behind, windows dark — matches the anchors (Tell Chapel, Tellsplatte, no frescoes, no statue); both formats agree on the chapel-on-ledge subject. Gate 2: exact 1920x1080 and 864x1080; caption 'Tell Chapel, Sisikon', scenario '24 September 2026 · 23:46 Europe/Zurich', disclosure 'AI-generated artistic interpretation · Not a photograph.' and signature 'Jason D\\u2019s Vision' legible on the bottom scrim; scenario 23:46 inside the model-valid 23:45 step; weather retrieved 2026-09-25T23:49:03Z, verified unique across all 365 Switzerland note files. Gate 3: approvals note records text-prompt-only lineage, no photographic inputs. Gate 4: no identifiable people, no logos or focal artwork — documented only, final commercial call is Jason's. Gate 5: all gates closed.",
   "approved_at": "2026-09-26T23:42:13.754479+00:00",
-  "sha256_16x9": "ce7891f0bf35694e0405bab2fb5a88c8e37966550b7a2f904620cee89d2c12da",
-  "sha256_4x5": "658fd96931b04b892e8461bf98151085bdde60507396bb5c56a3b42535bf5902"
+  "sha256_16x9": "e264a19bb7aa31f033759d6377aa2e75c35112e68ea9ea0a6217a9492e86d924",
+  "sha256_4x5": "eafde867510a42fa885bff74544a4e6fd2f05884195b4dcf4edc2d158d181412"
 }

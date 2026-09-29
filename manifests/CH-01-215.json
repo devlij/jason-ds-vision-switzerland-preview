@@ -16,6 +16,6 @@
   "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
   "approval_basis": "Gate 1: small pale pilgrimage chapel with dark roof on a narrow limestone spur beneath the ruined medieval keep and square Tour Sainte-Anne, Birs river and railway far below in the gorge — the Vorbourg chapel-and-ruin, correctly not the Delémont baroque château, clean framing. Gate 2: exact 1920x1080/864x1080 masters; on-image caption 'Vorbourg, Delémont' and scenario '24 September 2026 · 18:46 Europe/Zurich'; curly-apostrophe signature bottom-right; disclosure present; per-scene Open-Meteo retrieval 2026-09-25T23:45:39Z (unique second), scenario inside 18:00–18:59 model hour, overcast gorge light matches code 3. Gate 3: text-prompt-only lineage, no photographic input. Gate 4: no people/logos visible — documented only. Gate 5: no open blockers.",
   "approved_at": "2026-09-26T12:34:38.490637+00:00",
-  "sha256_16x9": "e9a9fd73ecc6863a103976a31c1f592caa8bb96d9ae208782fc22e306d803335",
-  "sha256_4x5": "7afdd87db14740e0d8fa266e5e39ae79f089f8983e0486c174836880f6b1fe59"
+  "sha256_16x9": "45d1130715f6160cef97ab78cbec9c7bb370bf1d723932f7af2b02da440d20bf",
+  "sha256_4x5": "9ff21987afbb16e7d4f48f9f8d4e4817de231ad9fe2c85c6b8a59eb5b7b98f5e"
 }

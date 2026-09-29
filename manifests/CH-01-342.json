@@ -32,8 +32,8 @@
       "4x5": "library/world/Switzerland/St. Gallen/ch-01-342-daylight-4x5.png"
     },
     "sha256": {
-      "16x9": "7c202a9c76168128e53001d7a5a70443109ea2f3ab2fba31a13ee97a6a48a695",
-      "4x5": "64dd0468cb5497eee186831d409fb45088ef11bf11cbf712fc35194f511f0c12"
+      "16x9": "0f8326a98db5c639dcb6bde9dc5005a9c9b752888145e588a674830989928843",
+      "4x5": "530956f9f35a83c7b242f22a1c3012ce68882080650ed26e57a4d21f1cef89c6"
     },
     "created_date": "2026-09-26",
     "on_image_caption": "St. Laurenzen, St. Gallen",
@@ -46,6 +46,6 @@
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "Gate 1 — 16:9 master shows the neo-Gothic stone church of St. Laurenzen at night from the Marktgasse: single square-shafted tower with octagonal upper stage and pointed helm, patterned colored glazed-tile nave roof, lit street lamps; matches all three geometry anchors (single spire, not the abbey's baroque towers; glazed-tile roof; windows dark). 4:5 crop shows the same tower and helm — no inter-format subject disagreement. Gate 2 — both masters exact 1920x1080 / 864x1080; on-image caption 'St. Laurenzen, St. Gallen', scenario '24 September 2026 · 23:28 Europe/Zurich', disclosure 'AI-generated artistic interpretation · Not a photograph.' and exact curly-apostrophe 'Jason D's Vision' signature all legible on the gradient scrim without covering the architecture. Weather per approvals note: Open-Meteo retrieved 2026-09-25T23:48:48Z for 47.42440, 9.37706, model-valid hour 23:00-23:59 Europe/Zurich covering the scenario time; timestamp unique to the second across the full 27-scene candidate window. Gate 3 — build notes document text-prompt-only lineage, no photographic inputs. Gate 4 — no visible people, logos, or recognizable private property; documented only, final commercial call is Jason's.",
   "approved_at": "2026-09-26T22:33:13.334763+00:00",
-  "sha256_16x9": "8e2ce63da38eca40a5df279d62aee57839d70229ab790229755d3365472b0597",
-  "sha256_4x5": "ba045222fb43f2c41900a6327b9fa0c0828a8b93e852ff606edc43403e534f00"
+  "sha256_16x9": "ac144b790e1aeba06fee284bf6d37eee4d78365679ce657ab3bc86f21b2dc3dd",
+  "sha256_4x5": "0fda0afa4ff8406408bab6e40df17cd80b1ebe8f514830004c8e2048903f725b"
 }

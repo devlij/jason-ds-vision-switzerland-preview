@@ -32,8 +32,8 @@
       "4x5": "library/world/Switzerland/Bern/ch-01-352-daylight-4x5.png"
     },
     "sha256": {
-      "16x9": "67287025d462dac2c1b181422cb545cfc83fc177e195b524b6c61a9c0627c230",
-      "4x5": "7351ea63e4772c0708635627fe84560c19b85a140085fee8c193daae7987a4a2"
+      "16x9": "4e8b7c43eded3c109eff7c97f0f537738ec26649eac245e2dfd3f7a833244591",
+      "4x5": "89136c881c2b10396dbb69d701477da3cd42de1a3de3a1d36c776138fbe87112"
     },
     "created_date": "2026-09-26",
     "on_image_caption": "Kirchenfeld Bridge, Bern",
@@ -46,6 +46,6 @@
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "Gate 1 — 16:9 master shows the Kirchenfeld Bridge at night from the riverbank: two riveted iron arches spanning the Aare with stone piers and the 1883 high deck, lit buildings on the far bank, reflections on the water — matches the anchors (two riveted iron arches, seen from the riverbank). 4:5 crop shows the same arches, piers, and deck — no inter-format subject disagreement. Gate 2 — exact 1920x1080 / 864x1080 masters; on-image caption 'Kirchenfeld Bridge, Bern', scenario '24 September 2026 · 23:28 Europe/Zurich', disclosure and exact curly-apostrophe 'Jason D's Vision' signature legible on the scrim. Weather per approvals note: Open-Meteo retrieved 2026-09-25T23:48:58Z, unique per-scene timestamp across the 27-scene candidate window, model-valid hour covering the scenario time with per-scene coordinates. Gate 3 — text-prompt-only lineage documented, no photographic inputs. Gate 4 — no visible people, logos, or recognizable private property; documented only.",
   "approved_at": "2026-09-26T22:34:31.588311+00:00",
-  "sha256_16x9": "4248eb6d1db3b6b197a2739ea80d67be21ed6645b202bc3b15abbc2e823a5d5b",
-  "sha256_4x5": "3735ee9866a367b0e3056f87f93498166fa110896bda89d1f6c9f602555225d4"
+  "sha256_16x9": "f1a10988501963bd415f0ef84cbccb1e03b09a0381f44edc7eae6fb14f1ef22d",
+  "sha256_4x5": "57305303a3f1fd3a586e37aceeff820e7828a1403ef75f490b75b4ed846e3664"
 }

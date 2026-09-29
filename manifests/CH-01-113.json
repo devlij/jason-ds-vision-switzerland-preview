@@ -16,6 +16,6 @@
   "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
   "approval_basis": "Gate 1: tree-lined Brunnen lakeside quay with a covered steamer landing projecting into Lake Lucerne, open water and forested ridges across, town hotels set back from the shore — matches anchors, no readable hotel name. Gate 2: caption 'Brunnen, Brunnen' and 'Scenario: 24 September 2026 · 16:56 Europe/Zurich' exact; signature bottom-right; disclosure present. Weather verified: Open-Meteo retrieved 2026-09-25T23:40:52Z, unique to this scene, model hour 16:00–16:59 with the 16:45 step covers 16:56; overcast code 3 matches. Gate 3: text-prompt-only, no photographic inputs. Gate 4: no people, no logos (documented only). Gate 5: clear.",
   "approved_at": "2026-09-26T05:34:56.577125+00:00",
-  "sha256_16x9": "ffead69bf980e7c3e2013f9ff55c4c73ee79e6cf7b25cc4dbfe6be62e8305e58",
-  "sha256_4x5": "b4b367ea8eb1a92359c302ff7af86a220aec63730e42e9e8e03660fb18ec1324"
+  "sha256_16x9": "c00aa418f42abb3c305d46d794fff381003485448d839aea76261f3a764bca19",
+  "sha256_4x5": "e39291d61c9aea912f5055d32be76b25e47a43a91f901341a32d532d075a20eb"
 }

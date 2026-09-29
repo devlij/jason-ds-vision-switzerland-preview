@@ -15,8 +15,8 @@
   "approval_status": "Approved",
   "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
   "approval_basis": "Approved · Cosmo QC 5/5 · Daylight. Gate 1: Vitznau on the lakeshore, forested Rigi massif with rocky summit ridge behind, the Vitznau-Rigi cog-railway line visible on the slope — correct identity; clean framing. Gate 2: dims verified; on-bar 'Mount Rigi, Vitznau', 'Scenario: 24 September 2026 · 15:09 Europe/Zurich', disclosure + signature; retrieval 2026-09-27T16:51:26Z unique, 15:09 inside 15:00-15:59, code 3/98%/20.9°C. Gate 3: text-prompt-only lineage. Gate 4: no identifiable people, no logos. Gate 5: no blockers.",
-  "sha256_16x9": "d31c1ea5583c5a05c5c92702780070e95c99beacebc443c3cd7a575a43f4fbc1",
-  "sha256_4x5": "b8272445bf3518569d68b150f7d58bae3d9952bc58c518a3a390c09f2eff11db",
+  "sha256_16x9": "0b634137b61212a21c1479b7ab7104ab094e8818f8c463a5ed85c112de5c8365",
+  "sha256_4x5": "a17a2d883714fbcac8143b68b361d185ee43ca2a28a2bc7c59dc14993bc78d71",
   "reverted_at": "2026-09-25T12:40:47.268759+00:00",
   "qc_notes": [
     {
@@ -31,7 +31,7 @@
     }
   ],
   "file_9x16": "library/world/Switzerland/Vitznau/ch-01-021-9x16.png",
-  "sha256_9x16": "692a405738591e24005a0663fefbe2192d89448d14537ec6b3fd006033c66952",
+  "sha256_9x16": "a5d9d4bdd88a60260b95720256151b1da3706c657997b81f71c90ea3ee722f82",
   "open_meteo": {
     "retrieved_utc": "2026-09-27T16:51:26Z",
     "http_date": "Sun, 27 Sep 2026 16:51:26 GMT",

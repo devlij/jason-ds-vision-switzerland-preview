@@ -32,8 +32,8 @@
       "4x5": "library/world/Switzerland/Scuol/ch-01-361-daylight-4x5.png"
     },
     "sha256": {
-      "16x9": "0225fc5cef37023ca5948c9f6c5ff88d71dedad480e1eeb93165f658592e5d0b",
-      "4x5": "56dc6e69a47cd7f98fd92b4eab8b1e05c06bc8c329ed241c1031eaf53d5394ed"
+      "16x9": "da6c09ee6c1ace5d009a726512633912417dba57aa4a63efda71641507546de7",
+      "4x5": "c6522c38a527325573dc1b6d875eb734c676244adcb0c71895bd51caa4a46cd4"
     },
     "created_date": "2026-09-26",
     "on_image_caption": "Ardez, Scuol",
@@ -46,6 +46,6 @@
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "Gate 1: sgraffito-decorated Engadin houses below, castle ruin on the rocky crag above — matches the anchors (Ardez village, ruin above the village); both formats agree on the sgraffito houses and the crag-top ruin. Gate 2: exact 1920x1080 and 864x1080; caption 'Ardez, Scuol', scenario '24 September 2026 · 23:46 Europe/Zurich', disclosure 'AI-generated artistic interpretation · Not a photograph.' and signature 'Jason D\\u2019s Vision' legible on the bottom scrim; scenario 23:46 inside the model-valid 23:45 step; weather retrieved 2026-09-25T23:49:07Z, verified unique across all 365 Switzerland note files. Gate 3: approvals note records text-prompt-only lineage, no photographic inputs. Gate 4: no identifiable people, no logos or focal artwork — documented only, final commercial call is Jason's. Gate 5: all gates closed.",
   "approved_at": "2026-09-26T23:43:07.884524+00:00",
-  "sha256_16x9": "b65695591c0c6df4eef9647c3ee58f266878f3ce09014fe7e47ce0d89b6dbed4",
-  "sha256_4x5": "648b3b300be766a251f76411a3bdf025595799bfd1a5cdf820761569f13590c0"
+  "sha256_16x9": "dd62fc975b45dc1f88c93f074a0c425a24b17e0ff1a528f3c52bac827330b464",
+  "sha256_4x5": "7a3fc835a18570f573a5e1f287849541afc7f7f6e15ee12cfad3bad35c407882"
 }

@@ -32,8 +32,8 @@
       "4x5": "library/world/Switzerland/Thun/ch-01-319-daylight-4x5.png"
     },
     "sha256": {
-      "16x9": "2d850bda09793d552948b6680de63a7751c4cbdc47731a19125fbe01e570eeb0",
-      "4x5": "30dedd5a19e97c8bdf9cafd3415a9db2d3401d01e468e4578d241885d1a84bed"
+      "16x9": "426e866f1d1663fadd8f307fd54850f29b41a4fff861a74f9c35f283ba0c0849",
+      "4x5": "ecebedb0a268404d9e89f3067a473b1d14432e1845fcc7fb351318b71dc73adc"
     },
     "created_date": "2026-09-26",
     "on_image_caption": "Aarequai, Thun",
@@ -46,6 +46,6 @@
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "Gate 1: the 16:9 master shows the Aarequai in Thun at night — a lamplit riverside promenade with plane trees, historic facades, and warm reflections on the Aare under a heavy overcast sky; plausible tourist viewpoint, clean framing, no artifacts; the 4:5 master shows the same promenade from a different angle with no defining-feature disagreement. Gate 2: sweep-verified exact 1920×1080 / 864×1080; on-image caption 'Aarequai, Thun', scenario '24 September 2026 · 22:52 Europe/Zurich', 'AI-generated artistic interpretation · Not a photograph.' disclosure bottom-left on gradient scrim; exact 'Jason D's Vision' (curly apostrophe) bottom-right; weather retrieval unique to this scene at 2026-09-25T23:48:25Z, separate request for Thun coords, model-valid hour 22:00–22:59 contains the 22:52 scenario (code 3 overcast, 13.7°C — matches the cloudy night sky). Gate 3: builder note documents text-prompt-only lineage, no photographic inputs. Gate 4: no people or logos visible; public promenade — documented only. Gate 5: no open blockers.",
   "approved_at": "2026-09-26T20:36:34.291443+00:00",
-  "sha256_16x9": "b0a80a7d43fb7048b3e29201c25b834ac58ebc12f23660b021232a3288427349",
-  "sha256_4x5": "5324af23e0697918582f57bd83c9dd43d780aadd1886c061568a20be9297707e"
+  "sha256_16x9": "5ae75d10a93d0b8aebde87f71653948f7b8ebf5426d089ec61c1a9714ca209e9",
+  "sha256_4x5": "fc168f62f9fded8cb53ee2a684ad48617d6a24d7d0255e0dd1b813e9be61847a"
 }

@@ -32,8 +32,8 @@
       "4x5": "library/world/Switzerland/Ronco sopra Ascona/ch-01-326-daylight-4x5.png"
     },
     "sha256": {
-      "16x9": "4450eb6b852ef002127fce3daf0d82779803eb617d41fbf817227d69bfe3b2ec",
-      "4x5": "3f2c89392e5207adab47aafb04b870239404177e8a43da9bedd64afc82e08439"
+      "16x9": "2d42b4fd1bad99601d12568934db67bbd97e0cbefc743af4b8252c557b1b2f3a",
+      "4x5": "9437eb5c5675a1af5ca3c6326eac8b13461dd7204778f88c32d01cab7b91ab11"
     },
     "created_date": "2026-09-26",
     "on_image_caption": "Ronco sopra Ascona, Ronco sopra Ascona",
@@ -46,6 +46,6 @@
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "Gate 1: the 16:9 master shows Ronco sopra Ascona — a stone hillside village with a tall church tower and terracotta roofs above Lago Maggiore at night, windows lamplit under a starry sky; plausible tourist view, clean framing, no artifacts; the 4:5 master shows the same village and tower over the lake with no defining-feature disagreement. Gate 2: sweep-verified exact 1920×1080 / 864×1080; on-image caption 'Ronco sopra Ascona, Ronco sopra Ascona', scenario '24 September 2026 · 23:09 Europe/Zurich', 'AI-generated artistic interpretation · Not a photograph.' disclosure bottom-left on gradient scrim; exact 'Jason D's Vision' (curly apostrophe) bottom-right; weather retrieval unique to this scene at 2026-09-25T23:48:32Z, separate request for Ronco coords, model-valid hour 23:00–23:59 contains the 23:09 scenario (code 0 clear — matches the starry sky). Gate 3: builder note documents text-prompt-only lineage, no photographic inputs. Gate 4: no people or logos; public village — documented only. Gate 5: no open blockers.",
   "approved_at": "2026-09-26T20:38:36.790990+00:00",
-  "sha256_16x9": "f53f62b2ac8ae867164ee628cc7953ee5f3b931015f88d30c1d968fa91c20a59",
-  "sha256_4x5": "87397f6c7f236b787cc14fc29ba47004121ebd6e7689d5f192aa67a86c32dc89"
+  "sha256_16x9": "a9bdc0d3dbd30249469d53f03f56de641f72e50e2f490422766222d03238654c",
+  "sha256_4x5": "762935a802715d24abe4961081f1aeb2e226c9bc05158bd4c015be7e3f6a08c9"
 }

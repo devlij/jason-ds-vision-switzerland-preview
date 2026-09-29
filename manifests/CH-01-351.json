@@ -32,8 +32,8 @@
       "4x5": "library/world/Switzerland/Bern/ch-01-351-daylight-4x5.png"
     },
     "sha256": {
-      "16x9": "263f52f143a2ed21b7c6512b821a88dbd148dd053776e29a6bea2091c4f22bad",
-      "4x5": "d62e33aa533aad6b1e78f9fdf9be30599e91b4a0e5c492e4ba93063089e591ac"
+      "16x9": "e3fb630be244bd3a4f059c0748fcb701ec4576fa939384785a2b59381e031075",
+      "4x5": "cc5397b5973a9b475a6bd1303dcf5e62806bc73f9cd1a699d42890d774d40713"
     },
     "created_date": "2026-09-26",
     "on_image_caption": "Bern Minster, Bern",
@@ -46,6 +46,6 @@
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "Gate 1 — 16:9 master shows Bern Minster at night closing Münsterplatz: the single Gothic sandstone tower, rectangular below and octagonal above with an openwork spire, three west portals, and the long nave under cloud — matches the anchors (one Gothic sandstone tower, rectangular below / octagonal above, openwork spire). 4:5 crop shows the same west front and tower — no inter-format subject disagreement. Gate 2 — exact 1920x1080 / 864x1080 masters; on-image caption 'Bern Minster, Bern', scenario '24 September 2026 · 23:28 Europe/Zurich', disclosure and exact curly-apostrophe 'Jason D's Vision' signature legible on the scrim. Weather per approvals note: Open-Meteo retrieved 2026-09-25T23:48:57Z, unique per-scene timestamp across the 27-scene candidate window, model-valid hour covering the scenario time with per-scene coordinates. Gate 3 — text-prompt-only lineage documented, no photographic inputs. Gate 4 — no visible people, logos, or recognizable private property; documented only.",
   "approved_at": "2026-09-26T22:34:23.142107+00:00",
-  "sha256_16x9": "11fe8737c4ea108e1abfd4879240286dec9da72cc0a38a2a5eab225d37df0804",
-  "sha256_4x5": "b006fa5caa58738892fcc51f89ef8d8318294895488168c9d90c803ca0acb4eb"
+  "sha256_16x9": "a45581bffbfd5c2bf9c6167b850cd847f946ab4355c5b20378e07ab78c81d1e1",
+  "sha256_4x5": "0fa3902f67748fbb4af32f2e7ab7eb28ecdc2363cad98d03c70b65db03d74f71"
 }

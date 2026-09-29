@@ -15,8 +15,8 @@
   "approval_status": "Approved",
   "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
   "approval_basis": "Approved · Cosmo QC 5/5 · Daylight. Gate 1: Brienz's lakeside village with church spire, wooden boathouses at the water's edge, Lake Brienz, cloud-capped mountains behind — correct identity; clean framing. Gate 2: dims verified; on-bar 'Brienz, Brienz', 'Scenario: 24 September 2026 · 15:09 Europe/Zurich', disclosure + signature; retrieval 2026-09-27T16:51:31Z unique, 15:09 inside 15:00-15:59, code 3/100%/21.8°C. Gate 3: text-prompt-only lineage. Gate 4: no identifiable people, no logos. Gate 5: no blockers.",
-  "sha256_16x9": "b92d0bfd430d47f94991c0e97dcb213cb73dcc873c9c7731c4adbc20f972268d",
-  "sha256_4x5": "50b41e0e34858f0aec3a58c382bec8c785da44c9fe80c51d4f1f5078ff809df6",
+  "sha256_16x9": "f2a27a244b61368fcabab1914c1a6bb0f32ccf313a09c200aa080b3be6fa2b1f",
+  "sha256_4x5": "36bc4f53cd9de8c189ced4d3856eccd77cd51157abd347b6a6b71992a9dece60",
   "reverted_at": "2026-09-25T12:40:57.283244+00:00",
   "qc_notes": [
     {
@@ -31,7 +31,7 @@
     }
   ],
   "file_9x16": "library/world/Switzerland/Brienz/ch-01-025-9x16.png",
-  "sha256_9x16": "a9fc30f13ab795c379cfe1b84ca76a675c73f719a78029ff98b0eb387c173fc0",
+  "sha256_9x16": "be03902d09176f03d60f9486059c12c20ff86f8772d62b5021b76ae220d228ae",
   "open_meteo": {
     "retrieved_utc": "2026-09-27T16:51:31Z",
     "http_date": "Sun, 27 Sep 2026 16:51:31 GMT",

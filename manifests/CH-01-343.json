@@ -32,8 +32,8 @@
       "4x5": "library/world/Switzerland/Walenstadt/ch-01-343-daylight-4x5.png"
     },
     "sha256": {
-      "16x9": "f213832dc06284e69952f8f6492f26ebc5275ca40ec1396b2645ed41df93dfdd",
-      "4x5": "bacb5ca46cc8f3612a81aa1d42a0ac92a99afafe708720e414ec93e08e334c43"
+      "16x9": "5611f237bbadf80494f0d92d5e892e563c45b9991f7f729c199c7d99a47bba4d",
+      "4x5": "89ea6932e17fe6e7022c41b5c909322154b57ab34cdf02c89812f6485cd836c1"
     },
     "created_date": "2026-09-26",
     "on_image_caption": "Walenstadt, Walenstadt",
@@ -46,6 +46,6 @@
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "Gate 1 — 16:9 master shows Walenstadt at night from the town shore: lit lakeside promenade with lamps and trees in the left foreground, town lights scattered along the far shore, and the dark limestone wall of the Churfirsten rising across the frame; matches the geometry anchors (east end of Walensee, Churfirsten wall). 4:5 crop shows the same cliff wall over the lit shore — no inter-format subject disagreement. Gate 2 — exact 1920x1080 / 864x1080 masters; on-image caption 'Walenstadt, Walenstadt', scenario '24 September 2026 · 23:28 Europe/Zurich', disclosure and exact curly-apostrophe 'Jason D's Vision' signature legible on the scrim. Weather per approvals note: Open-Meteo retrieved 2026-09-25T23:48:49Z, unique per-scene timestamp across the 27-scene candidate window, model-valid hour covering the scenario time with per-scene coordinates. Gate 3 — text-prompt-only lineage documented, no photographic inputs. Gate 4 — no visible people, logos, or recognizable private property; documented only.",
   "approved_at": "2026-09-26T22:33:25.681797+00:00",
-  "sha256_16x9": "7f0e6178d62198a6287151c380c7b71a2dd08f52821078e34571def2f42c4455",
-  "sha256_4x5": "68648e13d991e8e7c13a7ae127553d2750c80d93c7b5c1d886b797a5c2cbcb68"
+  "sha256_16x9": "048a7605a97890052816b85ef6bccb3333094c1f01dc6dd5a8debd88cb7319fe",
+  "sha256_4x5": "f2ab5da068d29420a46d9a62ae4f34e5a416f7e96158309373c3064d7ee4d456"
 }

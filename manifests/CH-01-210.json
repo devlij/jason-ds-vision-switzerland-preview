@@ -16,6 +16,6 @@
   "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
   "approval_basis": "Gate 1: large cream-white quadrangular palace-castle with regular window rows, steep dark roofs and square corner towers, park lawn and mature trees in front with a glimpse of lake beyond — recognizably Colombier Castle from the south lawn, clean framing. Gate 2: exact 1920x1080/864x1080 masters; on-image caption 'Colombier Castle, Colombier' and scenario '24 September 2026 · 18:45 Europe/Zurich'; curly-apostrophe signature bottom-right; disclosure legible; per-scene Open-Meteo retrieval 2026-09-25T23:45:34Z (unique second), scenario inside model-valid 18:00–18:59 hour, overcast sky matches code 3. Gate 3: text-prompt-only lineage, no photographic input. Gate 4: no people/logos visible — documented only. Gate 5: no open blockers.",
   "approved_at": "2026-09-26T12:34:16.186139+00:00",
-  "sha256_16x9": "53e6bc3bc5144392c0ec3713143363adff6b2b858d9f543fdf77e21325eed3c1",
-  "sha256_4x5": "0fd2d0a99a68b5392aded564e8385bd40126c92252703f89e1f8f0488f42e757"
+  "sha256_16x9": "013d254010475a6a95fee4cf252001d9090af31ee3ef5410394a3e0f5d3c91b5",
+  "sha256_4x5": "e2401430b83b3fd43562740d1420e08e78b5d3e061414ac16f4ee4b0ec1a9ae1"
 }

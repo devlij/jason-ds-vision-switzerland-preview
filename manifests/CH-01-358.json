@@ -32,8 +32,8 @@
       "4x5": "library/world/Switzerland/Hospental/ch-01-358-daylight-4x5.png"
     },
     "sha256": {
-      "16x9": "6c09014d48c7865d86d853ef2979a229331ba529e7cf7a8db8c0724756a769be",
-      "4x5": "8c0531ca8882f1d34040c3c8e34e40302603a3ac09e65f3489e8807a80a64f52"
+      "16x9": "4d8ca90132179a595b7a08c76e73260afe09bf483ed0a254f597c05c51270748",
+      "4x5": "b0d7853197aed1a142b3ea7a923826af9370767cd377f1cd6dc3503459b8dbd7"
     },
     "created_date": "2026-09-26",
     "on_image_caption": "Hospental Tower, Hospental",
@@ -58,6 +58,6 @@
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "Hospental Tower, Hospental — night scene under a starry sky, the square stone tower with pyramidal roof flanked by wooden chalets. Gate 1 PASS: both formats depict the same subject from plausible tourist viewpoints with clean framing and no artifacts; inter-format subject agreement confirmed. Gate 2 PASS: exact 1920x1080 / 864x1080 masters, exact 'Jason D's Vision' signature, caption, scenario timestamp '24 September 2026 · 23:46 Europe/Zurich' (inside the model-valid hour 23:00-23:59), and AI disclosure all verified on-image; Open-Meteo retrieval 2026-09-25T23:49:04Z (clear, 9.7°C, is_day 0) unique to this scene across the approvals notes. The 2026-09-26 Gate-2 hold is resolved: the 4:5 master (sha256 35baad7e...) is a valid PNG with clean content — the earlier corruption diagnosis was a rendering artifact, repo bytes unchanged. Gate 3 PASS: evidence card documents AI generation with no photographic inputs. Gate 4 PASS: no people, logos, or recognizable private property — public tower and village chalets. Gate 5 PASS: card fields complete.",
   "approved_at": "2026-09-27T12:39:02.190559+00:00",
-  "sha256_16x9": "7baae46fca528c8569ebd530570e3c0337bde54769f367512d81a4af0537e173",
-  "sha256_4x5": "35baad7efcf596c1ae73e68bd80b0741def35457a4c319094b77092afb455022"
+  "sha256_16x9": "a088fcd687f75387e040809db7879b39fc5c639669f2686c77977d3f919daad0",
+  "sha256_4x5": "447a5e992314c9840c060f8f9e8244777693624e59279d7fbf6cefc28734f687"
 }

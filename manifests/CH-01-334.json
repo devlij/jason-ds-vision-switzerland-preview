@@ -32,8 +32,8 @@
       "4x5": "library/world/Switzerland/Zurich/ch-01-334-daylight-4x5.png"
     },
     "sha256": {
-      "16x9": "a19cb3fdf3dec3bbc4047f76dc05bb7d2d8aa36f39db8dbdbacdf0b5aa6fbb56",
-      "4x5": "58c53df0a4de5b611881073ca7bb14edf30624488b177a4cd9c5b71a829dcf1b"
+      "16x9": "891c74b4e0808feb142e8f4ccb65915008cb7676b12de3ff639d1fbaa4215e1a",
+      "4x5": "6196b5dc251822edc00b2613fdc54834c2a8e22566569698ff086b243ea46636"
     },
     "created_date": "2026-09-26",
     "on_image_caption": "St. Peter, Zurich",
@@ -46,6 +46,6 @@
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "Gate 1: St. Peter's clock tower on its Zurich hill at night — stone tower with two large illuminated Roman-numeral clock faces and a tall spire, city lights and the lake haze below; both formats agree on the single clock tower with big faces and spire. Gate 2: 1920×1080/864×1080 exact; caption 'St. Peter, Zurich', scenario '24 September 2026 · 23:10 Europe/Zurich', 'Jason D’s Vision' signature bottom-right and 'AI-generated artistic interpretation · Not a photograph.' bottom-left legible; Open-Meteo weather retrieved 2026-09-25T23:48:40Z, per-scene unique across all 39 candidates, valid slot 23:00 consistent with 23:10 scenario. Gate 3: note documents text-prompt-only lineage, no photo inputs. Gate 4: public parish church; no people or logos. Gate 5: no blockers.",
   "approved_at": "2026-09-26T21:33:31.955723+00:00",
-  "sha256_16x9": "41700ebeaa2aed5da16c1b8003dcce67e8e8c384bbab122bd817ec7341dbe2c5",
-  "sha256_4x5": "5ba0b3fcb332b545336a19970b2a36d653164194e7537238cf85a13bc2caa8a7"
+  "sha256_16x9": "dddc38311344ff0d5af3455249ef5e22be2ee6d8dcc0d1031a27bef1dd929a0b",
+  "sha256_4x5": "6d305d9c68030449a6b6b26c62988264de2d94d89e64c4f112d9c501ed500814"
 }

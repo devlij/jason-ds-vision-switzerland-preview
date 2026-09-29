@@ -32,8 +32,8 @@
       "4x5": "library/world/Switzerland/Versoix/ch-01-293-daylight-4x5.png"
     },
     "sha256": {
-      "16x9": "fcbba2bca06ce2943a6f25ed4cebafca42b3268881102b32fc3899083a22c79c",
-      "4x5": "3dbf1a78cc79891475ec328f5ea3420ed268560f47bb41a3f00da717b644d21d"
+      "16x9": "2e1ead1b39bfefb75a5ce8305866f93f0d6e68ce80022304b07985e6516cdc7e",
+      "4x5": "bd33b9502c9c3d2689b39787a0d140b6b62c4b306ed12b7d2f6e44aa955a0022"
     },
     "created_date": "2026-09-25",
     "on_image_caption": "Versoix, Versoix",
@@ -46,6 +46,6 @@
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "Gate 1: night harbor view at Versoix with moored motorboats in the foreground, the lit church tower and lakeside houses behind the stone quay, Lake Geneva stretching right; plausible quay viewpoint. Gate 2: exact 1920x1080/864x1080; caption 'Versoix, Versoix', scenario '24 September 2026 - 22:30 Europe/Zurich', disclosure and signature verified on-image; weather retrieved 2026-09-25T23:47:59Z, unique repo-wide, valid hour 22:00-22:59 matches scenario. Gate 3: text-prompt-only lineage per note. Gate 4: no identifiable people or logos (documented only).",
   "approved_at": "2026-09-26T17:43:11.332329+00:00",
-  "sha256_16x9": "d6abecea4e06b98771e56873146b66475593d4a3ee5106ad155b835d65e91ecc",
-  "sha256_4x5": "405e80499a78f8f5897a373f118d4a11fd802770698867bdc9de296cef0be25a"
+  "sha256_16x9": "69ed239bdcd9a7e7f305f099a6a07239429bc6ba00c99a21295b59393fc9e202",
+  "sha256_4x5": "cf76867eb7e0a1690b123773ebc98e7cc36a45aa13756bab9b029c622c247369"
 }

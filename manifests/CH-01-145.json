@@ -16,6 +16,6 @@
   "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
   "approval_basis": "Gate 1: Lake Cauma with turquoise water held in forest on the Flims rockslide debris, wooded island, steep wooded slide slopes, north shore path in foreground; no village street, no limestone cliff as subject. Gate 2: caption 'Lake Cauma, Flims', scenario '24 September 2026 · 17:33 Europe/Zurich', disclosure and curly-apostrophe signature exact on bottom gradient; per-scene Open-Meteo retrieval 2026-09-25T23:42:25Z verified unique across all 373 repo notes, valid hour 17:00-17:59 (17:30 step) covers 17:33. Gate 3: text-prompt-only, no photographic inputs reported. Gate 4: no prominent people, no focal logos (internal note only). Gate 5: no open blockers.",
   "approved_at": "2026-09-26T07:38:30.873016+00:00",
-  "sha256_16x9": "f943cbe6cadd03688c3e817d05b97bec7bdef7f62e629637122e8f7d0c309b23",
-  "sha256_4x5": "b961766111dccceca914172d23999b451b610c5e0678b01b53cfbfd71e8a01e0"
+  "sha256_16x9": "9f4f59ec8bf99c57835e49d965042b9480e86dc2de2d375eff77b8af730ca4ff",
+  "sha256_4x5": "7ccc1250bb7c066af3efefefb3d1af99e6109ae9c77114fa9c1598d126b0b57f"
 }

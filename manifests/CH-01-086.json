@@ -15,8 +15,8 @@
   "approval_status": "Candidate",
   "qc_status": "Candidate · weather rework 2026-09-27 · not approved",
   "approval_basis": "Builder weather rework 2026-09-27 for CH-01-086. Own Open-Meteo archive GET, HTTP Date Sun, 27 Sep 2026 16:56:09 GMT, retrieved 2026-09-27T16:56:09Z, valid 2026-09-24T16:00 Europe/Zurich, model-valid hour 16:00–16:59, scenario 24 September 2026 · 16:17 Europe/Zurich inside that hour. Weather code 3 (overcast), cloud 100%, 20.2°C, is_day 1. Masters re-rendered at 1920×1270, 864×1270, and 1080×2110 with a 190px #0e0e12 label bar. Status Candidate. Not an approval.",
-  "sha256_16x9": "4bb30511174bffd502d342aaa4476a128765a6bb45789553ea753d2506b0ac8b",
-  "sha256_4x5": "bad40b56626cccddcbf748be210d048d05b401b956a0f9aba53020991600561a",
+  "sha256_16x9": "5c996bcc45bd63bd16c8c46388694b57204f43bc962be9f44c272b968e0af564",
+  "sha256_4x5": "e44a883a1cdfa9fb38dca1914dacf426be5d80435ceeb129e5095024d6aa0f70",
   "reverted_at": "2026-09-25T12:43:50.264150+00:00",
   "qc_notes": [
     {
@@ -31,7 +31,7 @@
     }
   ],
   "file_9x16": "library/world/Switzerland/Sarnen/ch-01-086-9x16.png",
-  "sha256_9x16": "84d1024ffd2fb4bfe85c687d7db493ba4453a47c30c0b47c0cbeb896e0b86b7d",
+  "sha256_9x16": "f2dd8d24e3896cb4180d1aea6b6f0ab29cadf72b9eafce6a70747b777387c9b0",
   "open_meteo": {
     "retrieved_utc": "2026-09-27T16:56:09Z",
     "http_date": "Sun, 27 Sep 2026 16:56:09 GMT",

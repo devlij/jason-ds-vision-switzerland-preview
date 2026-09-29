@@ -15,8 +15,8 @@
   "approval_status": "Approved",
   "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
   "approval_basis": "Approved · Cosmo QC 5/5 · Daylight. Gate 1: wide Rhine Falls breaking around the central rock, Schloss Laufen (half-timbered + tower) on the left cliff, Schloss Wörth on the right bank, visitor railing bottom-left — recognizable, clean framing, no artifacts; overcast gray sky. Gate 2: 1920x1270/864x1270/1080x2110 verified; on-bar 'Rhine Falls, Schaffhausen', 'Scenario: 24 September 2026 · 14:42 Europe/Zurich', 'AI-generated artistic interpretation · Not a photograph.', curly-apostrophe Jason D's Vision + Jason A. Devlin script; per-scene weather retrieval 2026-09-27T16:51:19Z (unique repo-wide), scenario 14:42 inside model-valid hour 14:00-14:59, code 3/88% cloud/21.7°C matching the diffuse overcast. Gate 3: notes document text-prompt-only lineage, no photographic inputs. Gate 4: no identifiable people, no logos; public landmarks only. Gate 5: no blockers.",
-  "sha256_16x9": "a03a88231174c8034912c05bb3228d3926dae40c4ef16302dd29c614c2f473b9",
-  "sha256_4x5": "4008476bf484b4138a6800f64f5424aea34a19cb3873bee4a6bffc24c7490ef1",
+  "sha256_16x9": "e743349f97af053eccc1a78c26b4dff6d5bdee201b9848714026893bc4d80002",
+  "sha256_4x5": "c59630eee7efd8d442650c2d58a2e9e6990c8eb9be874d8a2a4a51e691299de3",
   "reverted_at": "2026-09-25T12:40:30.723066+00:00",
   "qc_notes": [
     {
@@ -31,7 +31,7 @@
     }
   ],
   "file_9x16": "library/world/Switzerland/Schaffhausen/ch-01-016-9x16.png",
-  "sha256_9x16": "74a48baaa46026dcf163e4cf363dfbf256cce6a6686832f68449afc431d83411",
+  "sha256_9x16": "b5619d7012ddeb5429da67cd5369441b238436c291c455a5f6080efd3af60121",
   "open_meteo": {
     "retrieved_utc": "2026-09-27T16:51:19Z",
     "http_date": "Sun, 27 Sep 2026 16:51:19 GMT",

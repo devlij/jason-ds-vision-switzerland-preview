@@ -15,8 +15,8 @@
   "approval_status": "Candidate",
   "qc_status": "Candidate · weather rework 2026-09-27 · not approved",
   "approval_basis": "Builder weather rework 2026-09-27 for CH-01-035. Own Open-Meteo archive GET, HTTP Date Sun, 27 Sep 2026 16:53:26 GMT, retrieved 2026-09-27T16:53:26Z, valid 2026-09-24T15:00 Europe/Zurich, model-valid hour 15:00–15:59, scenario 24 September 2026 · 15:27 Europe/Zurich inside that hour. Weather code 3 (overcast), cloud 96%, 16.1°C, is_day 1. Masters re-rendered at 1920×1270, 864×1270, and 1080×2110 with a 190px #0e0e12 label bar. Status Candidate. Not an approval.",
-  "sha256_16x9": "8df3ce3ab9a5a558b096be45cb7411af5fa48a3860ff72421512d4f2db66bec1",
-  "sha256_4x5": "dfd613e905ca4921ea1b935e2da5011cbbd49c1a7892dbd93d7ad364fdd5355c",
+  "sha256_16x9": "7e5364eda3879a0c786379dd387700d02808e3f0ca40db819e348a01f55a22e4",
+  "sha256_4x5": "7d5464504eda14627509c7a4ae58fb7fe19787c866839c8f89e855bf12008e9f",
   "reverted_at": "2026-09-25T12:41:26.889101+00:00",
   "qc_notes": [
     {
@@ -31,7 +31,7 @@
     }
   ],
   "file_9x16": "library/world/Switzerland/Andermatt/ch-01-035-9x16.png",
-  "sha256_9x16": "aed3204b37f169dcb6f7ecdc22e91496356cc5a40978e6d6b1d3531bd85ae0a9",
+  "sha256_9x16": "de455a89a8956054de6bd3bef56fd8c4a5814a090b412fd2fb8c653bb392ec8b",
   "open_meteo": {
     "retrieved_utc": "2026-09-27T16:53:26Z",
     "http_date": "Sun, 27 Sep 2026 16:53:26 GMT",

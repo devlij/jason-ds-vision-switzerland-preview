@@ -32,8 +32,8 @@
       "4x5": "library/world/Switzerland/Lauterbrunnen/ch-01-314-daylight-4x5.png"
     },
     "sha256": {
-      "16x9": "dbd03cbdbd07e5b37b07bb2b8e0d7ab6bf4769a9c72bbfcc3a782a46a4f25a41",
-      "4x5": "805e207c92954e58e0de91fedc22e9a2bcc5f9e78c9c41479fbaace78ec9ef20"
+      "16x9": "1b851a0679740ce311c6faecf1ac91ff5dd7897f6bb2bfbf25f0689063033b68",
+      "4x5": "b347f0ad0ab2d738f054f87f68956c62bf50f3f920333f450644bcccd6bc2eb4"
     },
     "created_date": "2026-09-26",
     "on_image_caption": "Isenfluh, Lauterbrunnen",
@@ -46,6 +46,6 @@
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "Gate 1 PASS: Isenfluh hamlet at night — lit wooden chalets on the terrace above the valley, valley lights and dark mountain ridges beyond, balcony railing in the foreground; plausible lane-in-the-hamlet view, Staubbach cliff not the subject. Gate 2 PASS: exact dims; caption 'Isenfluh, Lauterbrunnen', scenario 24 Sep 2026 22:52 Europe/Zurich, disclosure, signature exact; retrieval 2026-09-25T23:48:20Z unique repo-wide, scenario inside model hour. Gate 3 PASS: text-prompt-only per note. Gate 4: no people, no logos.",
   "approved_at": "2026-09-26T19:37:05.870879+00:00",
-  "sha256_16x9": "5a78fec4e57628c498981cb6173c69afd65ee365a537422258fb6ee7595e39f8",
-  "sha256_4x5": "265b7d4cb9df2448dc6de73a4e781bfa8796306ad1ccbc152e4d0434b9de834f"
+  "sha256_16x9": "21768fc4f7dabfecc0e43e8e1aee914f50dda5b92e4e544d2e05ba581c2fbc6c",
+  "sha256_4x5": "a013e768ccf8e278bf7218b49c0e6ea7ec7f95b105039c7c752fc1996399eeb0"
 }

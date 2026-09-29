@@ -32,8 +32,8 @@
       "4x5": "library/world/Switzerland/St. Niklaus/ch-01-307-daylight-4x5.png"
     },
     "sha256": {
-      "16x9": "14161e8d7a9b4f44ef91a5459a0289ae0b121b74477d24d12657087e57317d1c",
-      "4x5": "496d5b9af0afe488c8bfb37c61028841e19bc22c03df1a9180942afb84ec5f74"
+      "16x9": "35e146aaea9d1668e15d69df7aae54f4ae1a82bb92ac704a2e89533f531d4198",
+      "4x5": "f275ae746af748445d8568025cdbf737b3c7ce0a296959ee8ec57737da6cfdfa"
     },
     "created_date": "2026-09-26",
     "on_image_caption": "St. Niklaus, St. Niklaus",
@@ -46,6 +46,6 @@
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "Gate 1: both formats render the 1965 white church body beside the older stone tower with its baroque onion-dome crown (1726) above the village houses of St. Niklaus — matching the note's geometry anchors exactly; no giant seasonal St Nicholas figure. Formats agree on the defining tower. Clean framing, no artifacts. Gate 2: exact 1920x1080 and 864x1080 masters; on-image caption 'St. Niklaus, St. Niklaus', scenario '24 September 2026 · 22:51 Europe/Zurich', disclosure 'AI-generated artistic interpretation · Not a photograph.', and 'Jason D’s Vision' signature verified. Weather retrieval 2026-09-25T23:48:13Z is unique to this scene to the second; scenario 22:51 falls inside the model-valid hour 22:00–22:59. Gate 3: build-agent note documents text-prompt-only lineage, no photographic inputs. Gate 4: no prominent people or logos; no readable signs. Gate 5: no open blockers.",
   "approved_at": "2026-09-26T18:38:38.718922+00:00",
-  "sha256_16x9": "35ce64d00030a2b514b5e6c4a1364f44c5b1a9b70451ff2a5e395531f7a06397",
-  "sha256_4x5": "e13afbac383501b81a834957328416b7e96e2427fbf543cf990a5d142f86d485"
+  "sha256_16x9": "29113351476af6125e2a2c21fa4e17762b9e5a5fb1ad6b9114cab6a2c99ae475",
+  "sha256_4x5": "3b8ddcad8375bcc6ae61285b9d6aecee48af67af367f684b2007a43f4e4cdadc"
 }

@@ -15,8 +15,8 @@
   "approval_status": "Candidate",
   "qc_status": "Candidate · weather rework 2026-09-27 · not approved",
   "approval_basis": "Builder weather rework 2026-09-27 for CH-01-074. Own Open-Meteo archive GET, HTTP Date Sun, 27 Sep 2026 16:55:52 GMT, retrieved 2026-09-27T16:55:52Z, valid 2026-09-24T16:00 Europe/Zurich, model-valid hour 16:00–16:59, scenario 24 September 2026 · 16:01 Europe/Zurich inside that hour. Weather code 3 (overcast), cloud 99%, 20.0°C, is_day 1. Masters re-rendered at 1920×1270, 864×1270, and 1080×2110 with a 190px #0e0e12 label bar. Status Candidate. Not an approval.",
-  "sha256_16x9": "29c8e3ad17ef5a25138aee670d7411a0c553c58b947b735c8037c0409ed204c1",
-  "sha256_4x5": "2cc8a149efa127484690ab946602c5ce7e73e045970db661eae5ef6c24fe5170",
+  "sha256_16x9": "8beb1659bd79ba7bb6fc078dfba7cc9898035879c5385f22485998be7668db32",
+  "sha256_4x5": "6dcdc37889f5e6f399249eb0afbedf5fc5cd60d1b443e8c33b77f98a9e3c782f",
   "reverted_at": "2026-09-25T12:43:16.487832+00:00",
   "qc_notes": [
     {
@@ -31,7 +31,7 @@
     }
   ],
   "file_9x16": "library/world/Switzerland/Steckborn/ch-01-074-9x16.png",
-  "sha256_9x16": "25089ca0c6b6d6abc200bb5329dc0192b3a8b59d8a9730770062a7044de41a2a",
+  "sha256_9x16": "55c3a98eadb1d468da3c63f0ee6269672824ebf5e174643917b014436d3c84d4",
   "open_meteo": {
     "retrieved_utc": "2026-09-27T16:55:52Z",
     "http_date": "Sun, 27 Sep 2026 16:55:52 GMT",

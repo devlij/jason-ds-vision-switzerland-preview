@@ -32,8 +32,8 @@
       "4x5": "library/world/Switzerland/Neunkirch/ch-01-340-daylight-4x5.png"
     },
     "sha256": {
-      "16x9": "98a10b19bf76bc71a43141251658ade13ed90dbc90383f943fe158f83905c79f",
-      "4x5": "b0561546b92a149a3391939fab527e5972e88c5e505302ebef28b22da428ae0e"
+      "16x9": "0a23c67414856ef1e5809c8336e25d51040ccfe6cd6bc258315fedf4f1666975",
+      "4x5": "26d11bcf6dfe09a01a1b167caeca743002518e161effd34abf4292294f626c7c"
     },
     "created_date": "2026-09-26",
     "on_image_caption": "Neunkirch, Neunkirch",
@@ -46,6 +46,6 @@
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "Gate 1: Neunkirch's Vordergasse running straight between plastered and half-timbered houses toward the Obertorturm, lit church above the roofs at night — matches the note's rectangular-planned-town description; both formats agree on the half-timbered street leading to the Obertorturm. Gate 2: 1920×1080/864×1080 exact; caption 'Neunkirch, Neunkirch', scenario '24 September 2026 · 23:28 Europe/Zurich', 'Jason D’s Vision' signature bottom-right and 'AI-generated artistic interpretation · Not a photograph.' bottom-left legible; Open-Meteo weather retrieved 2026-09-25T23:48:46Z, per-scene unique across all 39 candidates, valid slot 23:15 consistent with 23:28 scenario. Gate 3: note documents text-prompt-only lineage, no photo inputs. Gate 4: public townscape; no people or logos. Gate 5: no blockers.",
   "approved_at": "2026-09-26T21:34:28.853256+00:00",
-  "sha256_16x9": "e9c755f0572690ff8ad677435753c3608ba73107c7fb1d1187ac8c77e7a51198",
-  "sha256_4x5": "3bdae598dd41130b9d9143c9e9bf73a0fb0f54adf8af591bdb79e97a2dc296a6"
+  "sha256_16x9": "f9c9c007871dba8ec0ffc2f5df274e260fbad5a1f92c8f02b245e6a317b91be2",
+  "sha256_4x5": "83ac6fa6d7e6d11ab7101ceb34c916f8a4158300e3016131939113fab0808125"
 }

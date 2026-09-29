@@ -32,8 +32,8 @@
       "4x5": "library/world/Switzerland/Locarno/ch-01-324-daylight-4x5.png"
     },
     "sha256": {
-      "16x9": "6766d965de4f2d3631ae5abe038c16d513ee849cd5ca52e07e9d3d0d498f247b",
-      "4x5": "c9a62d78e82d107b0d5ec532c1602109cafbd3e2086849dc288c48e937d738f6"
+      "16x9": "3a61f585b9633a1d56b42231fa83c8e8cfcf8d79d4b3754974d2cc5b6fd31ed3",
+      "4x5": "f5ac8b0354a00d3df8dc8b94e74c3854f6af792cd2492b981ab72f00cda3d429"
     },
     "created_date": "2026-09-26",
     "on_image_caption": "Castello Visconteo, Locarno",
@@ -46,6 +46,6 @@
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "Gate 1: the 16:9 master shows Castello Visconteo in Locarno — a floodlit crenellated stone castle block rising from dark gardens under a starry sky; plausible tourist view, clean framing, no artifacts; the 4:5 master shows the same crenellated floodlit block with arched windows with no defining-feature disagreement. Gate 2: sweep-verified exact 1920×1080 / 864×1080; on-image caption 'Castello Visconteo, Locarno', scenario '24 September 2026 · 23:09 Europe/Zurich', 'AI-generated artistic interpretation · Not a photograph.' disclosure bottom-left on gradient scrim; exact 'Jason D's Vision' (curly apostrophe) bottom-right; weather retrieval unique to this scene at 2026-09-25T23:48:30Z, separate request for Locarno coords, model-valid hour 23:00–23:59 contains the 23:09 scenario (code 0 clear, 19.4°C — matches the starry night). Gate 3: builder note documents text-prompt-only lineage, no photographic inputs. Gate 4: no people or logos; historic public castle — documented only. Gate 5: no open blockers.",
   "approved_at": "2026-09-26T20:38:02.543762+00:00",
-  "sha256_16x9": "6a472d9ca510212db010718d966a427bcd91a69b3462325ddc8314ee772fc66a",
-  "sha256_4x5": "7dc45be213adf4b8bb2e1666c9e6175c5f393ed10b5a387581ecef747ee0aae4"
+  "sha256_16x9": "7d1e2e38da7065efbc0973d25090938faa24919b9a4a16d780ca80ba40340d39",
+  "sha256_4x5": "4062ec3303484b6f3377cd9e9769a98682daaf883e07a35d58425673879e2b2e"
 }

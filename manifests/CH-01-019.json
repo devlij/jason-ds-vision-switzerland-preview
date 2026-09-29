@@ -15,8 +15,8 @@
   "approval_status": "Approved",
   "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
   "approval_basis": "Approved · Cosmo QC 5/5 · Daylight. Gate 1: fortified Valère Basilica on the left hill, Tourbillon castle ruins on the right hill, Sion's town spread below — the two-hill identity is correct; clean framing, overcast. Gate 2: dims verified; on-bar 'Valère Basilica, Sion', 'Scenario: 24 September 2026 · 15:08 Europe/Zurich', disclosure + signature; retrieval 2026-09-27T16:51:23Z unique, 15:08 inside 15:00-15:59, code 3/83%/25.3°C. Gate 3: text-prompt-only lineage. Gate 4: no identifiable people, no logos. Gate 5: no blockers.",
-  "sha256_16x9": "9b9d60e767929139be8080f6ba4545d1df11c4ec2df4948dcea77787fc285f11",
-  "sha256_4x5": "1d9124a95e4634541bfb20d64937b50f9df1ea88d914aac533000bd9962b6b12",
+  "sha256_16x9": "858556918594f61015c1da2bf33b96fb45c1ff762ecf8d1f89ba64daa6c246f7",
+  "sha256_4x5": "934157561c1b4d529c2f32161abad065a098096a9d500cf39ad811ee9ddf8561",
   "reverted_at": "2026-09-25T12:40:42.280493+00:00",
   "qc_notes": [
     {
@@ -31,7 +31,7 @@
     }
   ],
   "file_9x16": "library/world/Switzerland/Sion/ch-01-019-9x16.png",
-  "sha256_9x16": "9d7c727d4ebcc1c1405ef9d84443df7b928ae81da6551756498e56c10442578f",
+  "sha256_9x16": "8ce482d03d40ebe12b012765f2696ae48c6c986243393a232c931d2db1a8fde6",
   "open_meteo": {
     "retrieved_utc": "2026-09-27T16:51:23Z",
     "http_date": "Sun, 27 Sep 2026 16:51:23 GMT",

@@ -32,8 +32,8 @@
       "4x5": "library/world/Switzerland/Lauerz/ch-01-356-daylight-4x5.png"
     },
     "sha256": {
-      "16x9": "8a5e337e0fcbe1b6f539105ab35a7a0e14d52cfa5d66ee013aecbac48519dd4b",
-      "4x5": "7668c2a5c027abcf462b92d895ce91cfa0079e23d43d80a8943264f8181d4feb"
+      "16x9": "07d08c64e56d6c8c4b0e35f32aa8b531bbca666c58bb953aa3509cb8f763f5e2",
+      "4x5": "49af421ca6463b9d8d6653a15d37bbedf324370e00fdc3004e6d4fc453517baf"
     },
     "created_date": "2026-09-26",
     "on_image_caption": "Schwanau, Lauerz",
@@ -46,6 +46,6 @@
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "Gate 1: wooded island with low stone ruin walls and a small chapel among the trees, twin Mythen silhouette beyond across the water — matches the anchors (Schwanau island, ruined medieval castle, chapel); the 4:5 master agrees on island, ruin walls, chapel and twin peaks. Gate 2: exact 1920x1080 and 864x1080; caption 'Schwanau, Lauerz', scenario '24 September 2026 · 23:46 Europe/Zurich', disclosure 'AI-generated artistic interpretation · Not a photograph.' and signature 'Jason D\\u2019s Vision' legible on the bottom scrim; scenario 23:46 inside the model-valid 23:45 step; weather retrieved 2026-09-25T23:49:02Z, verified unique across all 365 Switzerland note files. Gate 3: approvals note records text-prompt-only lineage, no photographic inputs. Gate 4: no identifiable people, no logos or focal artwork — documented only, final commercial call is Jason's. Gate 5: all gates closed.",
   "approved_at": "2026-09-26T23:41:55.691075+00:00",
-  "sha256_16x9": "a013e242b9d58a6ffd7038d2acd2f745f3896a7b847870f5b55d03c7fbeb713f",
-  "sha256_4x5": "639ac782bf393af0b45aaeb735f4dfb50df49ab2e57b81253db798a50340d376"
+  "sha256_16x9": "203e87a3b0951d86b75082c5d2d6604bf28687bd49974e8f678acb00c6b858c7",
+  "sha256_4x5": "2712cc1571525ed954cc8e8897b97ee0582baaeec8558b49ceca183ce654b227"
 }

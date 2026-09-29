@@ -32,8 +32,8 @@
       "4x5": "library/world/Switzerland/Arlesheim/ch-01-333-daylight-4x5.png"
     },
     "sha256": {
-      "16x9": "90ddea1e782a932f150e052b844a95c0ac26b801175ff0086dbdc9e99c658d83",
-      "4x5": "8f8664a26ba1712dab3358fb5b8339d838c98449bffd3073c0bece2ae2f0e368"
+      "16x9": "adcd64fe8c0d918049f47c2fd20c518393e5b32b2032640c915c40d786de4605",
+      "4x5": "add0cb73897ee311944bd61b1a4387d6738f6b1e6cbde6d73eab49b2abc2d155"
     },
     "created_date": "2026-09-26",
     "on_image_caption": "Arlesheim Cathedral, Arlesheim",
@@ -46,6 +46,6 @@
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "Gate 1: Arlesheim Cathedral closing Domplatz — yellow-white baroque front with two towers carrying light-green spires, floodlit against dark cloud, matching the note's description (two towers, light-green roofs, yellow-white baroque front); both formats agree on the twin green spires. Gate 2: 1920×1080/864×1080 exact; caption 'Arlesheim Cathedral, Arlesheim', scenario '24 September 2026 · 23:10 Europe/Zurich', 'Jason D’s Vision' signature bottom-right and 'AI-generated artistic interpretation · Not a photograph.' bottom-left legible; Open-Meteo weather retrieved 2026-09-25T23:48:39Z, per-scene unique across all 39 candidates, valid slot 23:00 consistent with 23:10 scenario. Gate 3: note documents text-prompt-only lineage, no photo inputs. Gate 4: public church on the square; no people or logos. Gate 5: no blockers.",
   "approved_at": "2026-09-26T21:33:22.199991+00:00",
-  "sha256_16x9": "ff048b246659f0128a79c49f69d46a1bb5f940d5a8e58e1164fef1be7e0f137d",
-  "sha256_4x5": "748d04d2f16a4a2dcb2cb339a66a61705a5e34a90bc1a6f41c4e33b133c6f347"
+  "sha256_16x9": "54ac905b9faeb02b8a49d2d1d628517a187721a3852908c8ec8174d1b6bdbe08",
+  "sha256_4x5": "188f1e516a913c45bce71275def3f4d25354e24fd709e69b858a15645db16d51"
 }

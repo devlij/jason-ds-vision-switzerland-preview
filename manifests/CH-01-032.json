@@ -15,8 +15,8 @@
   "approval_status": "Candidate",
   "qc_status": "Candidate · weather rework 2026-09-27 · not approved",
   "approval_basis": "Builder weather rework 2026-09-27 for CH-01-032. Own Open-Meteo archive GET, HTTP Date Sun, 27 Sep 2026 16:53:21 GMT, retrieved 2026-09-27T16:53:21Z, valid 2026-09-24T15:00 Europe/Zurich, model-valid hour 15:00–15:59, scenario 24 September 2026 · 15:09 Europe/Zurich inside that hour. Weather code 2 (partly cloudy), cloud 79%, 22.9°C, is_day 1. Masters re-rendered at 1920×1270, 864×1270, and 1080×2110 with a 190px #0e0e12 label bar. Status Candidate. Not an approval.",
-  "sha256_16x9": "cf56119e5ad42d19ba0dd4150759a9436cf16f52d1f80f386050276f21747ee2",
-  "sha256_4x5": "ae9aa04dfc984e5af2ffe5b5a26a79474698563e5c7c9d551f6973c00434d934",
+  "sha256_16x9": "ff3644bc03ae51d49a37e077ef3aec68fc94936f123dd5ab93fed9c3d699184c",
+  "sha256_4x5": "bf3ff93acee5e84b0ed3a4867939adf81a5345c19dc4d900c8c067d7b281ec1e",
   "reverted_at": "2026-09-25T12:41:14.946024+00:00",
   "qc_notes": [
     {
@@ -31,7 +31,7 @@
     }
   ],
   "file_9x16": "library/world/Switzerland/Locarno/ch-01-032-9x16.png",
-  "sha256_9x16": "17709bb573bf4a1fc6934085eb0393c1377ac8094545e71e8556c5b60d014508",
+  "sha256_9x16": "f1b7a12e3f4974d52129103b6e224f1b37bc7fec1f178940916813ad83aba6f4",
   "open_meteo": {
     "retrieved_utc": "2026-09-27T16:53:21Z",
     "http_date": "Sun, 27 Sep 2026 16:53:21 GMT",

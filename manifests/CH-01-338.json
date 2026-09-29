@@ -32,8 +32,8 @@
       "4x5": "library/world/Switzerland/Le Locle/ch-01-338-daylight-4x5.png"
     },
     "sha256": {
-      "16x9": "a6147bbce97860136cf33c0fed5d6fd6c52c4620a4e422204daf87c0f979c268",
-      "4x5": "26ee695e25be276f096bd767e041b1ff87d4baec15d9fe58a5f534a87a5f65b0"
+      "16x9": "217a95fd0f3338f42fce1a1614deb892f24e743a5df018281c03fc204c4a11cc",
+      "4x5": "dfe0c6cb771d76a824459ccbc00da6c01b125e53b85061fcba338f7e953f7b34"
     },
     "created_date": "2026-09-26",
     "on_image_caption": "Lac des Brenets, Le Locle",
@@ -46,6 +46,6 @@
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "Gate 1: Lac des Brenets from the Swiss landing — narrow dark lake between limestone walls fading into night fog, small boats at the wooden and stone landings; both formats agree on the gorge lake, boats, and fog. Gate 2: 1920×1080/864×1080 exact; caption 'Lac des Brenets, Le Locle', scenario '24 September 2026 · 23:27 Europe/Zurich', 'Jason D’s Vision' signature bottom-right and 'AI-generated artistic interpretation · Not a photograph.' bottom-left legible; Open-Meteo weather retrieved 2026-09-25T23:48:44Z, per-scene unique across all 39 candidates, valid slot 23:15 consistent with 23:27 scenario. Gate 3: note documents text-prompt-only lineage, no photo inputs. Gate 4: natural landscape; no people or logos. Gate 5: no blockers.",
   "approved_at": "2026-09-26T21:34:11.613245+00:00",
-  "sha256_16x9": "43cc5800664a06726152802a9507ebb1c51975399fc50f16e4cab19cd38ad8c8",
-  "sha256_4x5": "deaa4e8c599c71fe86f97c43bdda9e0b7bba8017786f4382797b0d550f737262"
+  "sha256_16x9": "e275f19a1c201fee08c4884a9cf4fd34ad5b49571b00dbb239b04784f07c9239",
+  "sha256_4x5": "d7822e2fc5ac2d6db46ef7718affebcba3c8849be86c5e2127b0def3b6f7aa89"
 }
