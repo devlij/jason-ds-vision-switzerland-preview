@@ -12,9 +12,9 @@
   "file_4x5": "library/world/Switzerland/Lungern/ch-01-042-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate",
-  "qc_status": "Candidate · weather rework 2026-09-27 · not approved",
-  "approval_basis": "Builder weather rework 2026-09-27 for CH-01-042. Own Open-Meteo archive GET, HTTP Date Sun, 27 Sep 2026 16:53:35 GMT, retrieved 2026-09-27T16:53:35Z, valid 2026-09-24T15:00 Europe/Zurich, model-valid hour 15:00–15:59, scenario 24 September 2026 · 15:28 Europe/Zurich inside that hour. Weather code 3 (overcast), cloud 100%, 21.0°C, is_day 1. Masters re-rendered at 1920×1270, 864×1270, and 1080×2110 with a 190px #0e0e12 label bar. Status Candidate. Not an approval.",
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "Gate 1: village along Lake Lungern with St. Katharina church spire, wooden chalets, lake reflections, forested mountains, overcast - recognizably Lungern, Lungern from a plausible tourist viewpoint; clean framing, no artifacts, no glaring misconfiguration. Gate 2: dims exact per sweep (1920x1270 / 864x1080); 190px label bar baked under the photo with exact caption 'Lungern, Lungern', scenario '24 September 2026 · 15:28 Europe/Zurich', AI disclosure, 'Jason D\\'s Vision' (curly apostrophe) + 'Jason A. Devlin' script signature; zero text over the photo area. 4:5 master compared against 16:9 for subject-identity agreement. Per-scene Open-Meteo retrieval 2026-09-27T16:53:35Z, unique to the second repo-wide (full 365-note scan 2026-09-29); scenario inside the 15:00-15:59 model-valid hour; model code 3 / cloud 100% matches the overcast frame. Gate 3: text-prompt-only lineage per notes, no photographic inputs reported. Gate 4: no prominent people, focal logos, or private property visible (documented only). Gate 5: no open blockers.",
   "sha256_16x9": "4fcb13c2f05ed43cf3c58910e25a5e4b8fd118ca9fa38527f2ffab0cfa1dac90",
   "sha256_4x5": "690057073196fceb06784a368849e5e2303625b1550e2415846a45ce86fb89c0",
   "reverted_at": "2026-09-25T12:41:44.347680+00:00",
@@ -50,5 +50,6 @@
     "elevation": 710.0,
     "latitude": 46.7856,
     "longitude": 8.1594
-  }
+  },
+  "approved_at": "2026-09-29T12:59:21.881780+00:00"
 }
