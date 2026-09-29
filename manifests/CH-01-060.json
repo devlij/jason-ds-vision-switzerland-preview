@@ -12,9 +12,9 @@
   "file_4x5": "library/world/Switzerland/Orselina/ch-01-060-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate",
-  "qc_status": "Candidate · weather rework 2026-09-27 · not approved",
-  "approval_basis": "Builder weather rework 2026-09-27 for CH-01-060. Own Open-Meteo archive GET, HTTP Date Sun, 27 Sep 2026 16:54:00 GMT, retrieved 2026-09-27T16:54:00Z, valid 2026-09-24T15:00 Europe/Zurich, model-valid hour 15:00–15:59, scenario 24 September 2026 · 15:45 Europe/Zurich inside that hour. Weather code 2 (partly cloudy), cloud 79%, 21.8°C, is_day 1. Masters re-rendered at 1920×1270, 864×1270, and 1080×2110 with a 190px #0e0e12 label bar. Status Candidate. Not an approval.",
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "the sanctuary, bell tower, crag, town and lake compose the classic Orselina panorama; label bar exact; per-scene retrieval 2026-09-27T16:54:00Z unique; Art. 50 chunks present, 2026-09-27.",
   "sha256_16x9": "1863e43dbb0c184a373d8e636e45e4c697a95a36354d86fbd790bebdf6beb8a4",
   "sha256_4x5": "08f428587f47467d6810420cf98b5c61f7c41b8acf22dea37558a408f31212fd",
   "reverted_at": "2026-09-25T12:42:36.916313+00:00",
@@ -50,5 +50,6 @@
     "elevation": 380.0,
     "latitude": 46.1753,
     "longitude": 8.7931
-  }
+  },
+  "approved_at": "2026-09-29T19:14:27.587302+00:00"
 }
