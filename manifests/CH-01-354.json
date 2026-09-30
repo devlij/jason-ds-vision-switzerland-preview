@@ -13,7 +13,7 @@
   "file_9x16": "library/world/Switzerland/Gersau/ch-01-354-9x16.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate",
+  "approval_status": "Approved",
   "daylight_variant": {
     "variant_of_entry_id": "CH-01-354",
     "derived_from": "Live gallery night master library/world/Switzerland/Gersau/ch-01-354-16x9.png (16:9) and library/world/Switzerland/Gersau/ch-01-354-4x5.png (4:5) of the same scene; not an independently modelled weather or lighting scenario",
@@ -63,5 +63,8 @@
   ],
   "sha256_16x9": "c03d4574f2a4912535c2e1eeeccfd6da7efdf1fd1d1e56f5f637c014e702639a",
   "sha256_4x5": "67f6bf0c38715ac6a91339a67b0f5314b2cc38ae55f83fcb7c658587c74ab2aa",
-  "sha256_9x16": "5ba8caa43452800047026f34e94312ea0e0878d5c778d3734231b1416972125d"
+  "sha256_9x16": "5ba8caa43452800047026f34e94312ea0e0878d5c778d3734231b1416972125d",
+  "qc_status": "Approved",
+  "approval_basis": "G1: Gersau at night — the church tower with onion dome and slender needle spire, lit belfry, over the lamp-lit lakeside town with reflections on the water; hold resolved (re-render unified both formats on the dome-and-needle tower — verified). G2: 16:9 1920×1270, baked bar with caption 'Gersau, Gersau', scenario '24 September 2026 · 23:46 Europe/Zurich', disclosure + signature; weather retrieval 2026-09-25T23:49:00Z unique to this scene, valid 23:45 hour contains 23:46; Art. 50 chunks present. G3: text-prompt-only. G4: no people/logos. G5: clear.",
+  "approved_at": "2026-09-30T13:41:54.642490+00:00"
 }
