@@ -12,9 +12,9 @@
   "file_4x5": "library/world/Switzerland/Bellinzona/ch-01-061-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate",
-  "qc_status": "Candidate · weather rework 2026-09-27 · not approved",
-  "approval_basis": "Builder weather rework 2026-09-27 for CH-01-061. Own Open-Meteo archive GET, HTTP Date Sun, 27 Sep 2026 16:54:02 GMT, retrieved 2026-09-27T16:54:02Z, valid 2026-09-24T15:00 Europe/Zurich, model-valid hour 15:00–15:59, scenario 24 September 2026 · 15:44 Europe/Zurich inside that hour. Weather code 2 (partly cloudy), cloud 77%, 22.4°C, is_day 1. Masters re-rendered at 1920×1270, 864×1270, and 1080×2110 with a 190px #0e0e12 label bar. Status Candidate. Not an approval.",
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "White-walled Castelgrande fortress with two towers crowns a rocky outcrop above old-town rooftops in a plausible tourist viewpoint. Label bar verified on-image: \"Castelgrande, Bellinzona\", \"Scenario: 24 September 2026 · 15:44 Europe/Zurich\", \"AI-generated artistic interpretation · Not a photograph\", curly-apostrophe \"Jason D's Vision\" + script \"Jason A. Devlin\". Weather retrieval 2026-09-27T16:54:02Z unique to the second across the 30-scene build window, separate GET for 46.1928,9.0230, scenario minute 15:44 inside model-valid hour 15:00–15:59 (code 2, 77% cloud — partly-cloudy sky on-image consistent). Text-prompt-only per note. No people/logos.",
   "sha256_16x9": "fc05ce6dc2bb3acfcab6992da01623ae09edb4d3755de268fc6871e37a266822",
   "sha256_4x5": "6a4cdfcfd7222321c3ed5c03cbc8543d8d9d8cf4e20deafdecd4f065e5b8b32c",
   "reverted_at": "2026-09-25T12:42:39.481543+00:00",
@@ -50,5 +50,6 @@
     "elevation": 270.0,
     "latitude": 46.1928,
     "longitude": 9.023
-  }
+  },
+  "approved_at": "2026-09-30T01:20:41.046866+00:00"
 }
