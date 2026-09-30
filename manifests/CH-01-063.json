@@ -12,9 +12,9 @@
   "file_4x5": "library/world/Switzerland/Lausanne/ch-01-063-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate",
-  "qc_status": "Candidate · weather rework 2026-09-27 · not approved",
-  "approval_basis": "Builder weather rework 2026-09-27 for CH-01-063. Own Open-Meteo archive GET, HTTP Date Sun, 27 Sep 2026 16:54:04 GMT, retrieved 2026-09-27T16:54:04Z, valid 2026-09-24T15:00 Europe/Zurich, model-valid hour 15:00–15:59, scenario 24 September 2026 · 15:44 Europe/Zurich inside that hour. Weather code 3 (overcast), cloud 98%, 23.0°C, is_day 1. Masters re-rendered at 1920×1270, 864×1270, and 1080×2110 with a 190px #0e0e12 label bar. Status Candidate. Not an approval.",
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "Gothic cathedral crowns the Cité hill with ONE completed belfry and spire (not a twin-tower facade, matching the geometry anchor), flying buttresses, old-town roofs, Lake Geneva beyond, fully overcast sky. Label bar verified on-image: \"Lausanne Cathedral, Lausanne\", \"Scenario: 24 September 2026 · 15:44 Europe/Zurich\", disclosure, signature. Weather retrieval 2026-09-27T16:54:04Z unique to the second, separate GET for 46.5227,6.6348, scenario 15:44 inside 15:00–15:59 (code 3, 98% cloud — overcast sky consistent). Text-prompt-only per note. No people/logos.",
   "sha256_16x9": "4ccd2d5d5ce010e2bc899f74531ea6a1ed8fce9be531738cf9db9464118c0638",
   "sha256_4x5": "42a628e2306fd4ffa89309c6afa65bc4a50cea2254d55fb021c3945bbba777ac",
   "reverted_at": "2026-09-25T12:42:44.596760+00:00",
@@ -50,5 +50,6 @@
     "elevation": 527.0,
     "latitude": 46.5227,
     "longitude": 6.6348
-  }
+  },
+  "approved_at": "2026-09-30T01:20:53.251764+00:00"
 }
