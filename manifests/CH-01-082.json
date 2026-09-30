@@ -12,9 +12,9 @@
   "file_4x5": "library/world/Switzerland/Glarus/ch-01-082-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate",
-  "qc_status": "Candidate · weather rework 2026-09-27 · not approved",
-  "approval_basis": "Builder weather rework 2026-09-27 for CH-01-082. Own Open-Meteo archive GET, HTTP Date Sun, 27 Sep 2026 16:56:03 GMT, retrieved 2026-09-27T16:56:03Z, valid 2026-09-24T16:00 Europe/Zurich, model-valid hour 16:00–16:59, scenario 24 September 2026 · 16:14 Europe/Zurich inside that hour. Weather code 3 (overcast), cloud 100%, 17.9°C, is_day 1. Masters re-rendered at 1920×1270, 864×1270, and 1080×2110 with a 190px #0e0e12 label bar. Status Candidate. Not an approval.",
+  "approval_status": "Approved",
+  "qc_status": "Approved",
+  "approval_basis": "G1: Klöntalersee valley lake with the Glärnisch massif wall along the southern shore, chalets and hamlets on the green shoreline, cloud on the summit — the classic valley-lake view. G2: 16:9 1920×1270, baked 190px bar with exact caption 'Klöntalersee, Glarus', scenario '24 September 2026 · 16:14 Europe/Zurich', AI-disclosure and curly-apostrophe Jason D's Vision + Jason A. Devlin signature, legible; weather retrieval 2026-09-27T16:56:03Z unique to this scene, valid 2026-09-24T16:00 Europe/Zurich hour contains the scenario, WMO 3 overcast/100% matching the grey lake image; Art. 50 chunks present (Comment embedded 2026-09-27). G3: text-prompt-only lineage, no photographic inputs documented. G4: no people/logos, lake and hillside farms — documented. G5: clear.",
   "sha256_16x9": "fd5c51f4459aa7c1c6b09038717f309302a84a83c45da50f431b48398f5f8aea",
   "sha256_4x5": "cff12818622e727e3bd20cbb5408560a8305042589085f38e4dbf3c1b7303533",
   "reverted_at": "2026-09-25T12:43:40.572629+00:00",
@@ -50,5 +50,6 @@
     "elevation": 842.0,
     "latitude": 47.02556,
     "longitude": 8.98056
-  }
+  },
+  "approved_at": "2026-09-30T13:41:04.177052+00:00"
 }
