@@ -54,6 +54,11 @@
       "at": "2026-09-27T16:41:42.776988+00:00",
       "by": "rerender",
       "note": "Re-render for the recorded Gate 1 hold: inter-format subject disagreement — the 16:9 master shows the summit building as a long low modern block with a row of lit windows while the 4:5 master shows a small square stone hut with a pitched stone roof. All three new masters share one plain stone-and-timber summit house with a pitched roof on the rocky ridge, night, no snowfield. Scenario unchanged. Label-bar finish 1920×1270, 864×1270, 1080×2110. Still Candidate. Daylight variant files were not regenerated."
+    },
+    {
+      "at": "2026-09-30T13:40:48.701377+00:00",
+      "by": "Cosmo QC",
+      "note": "Gate 1 hold cleared: re-render 2026-09-27 (merge df894411) replaced the master over the recorded holds for mismatched scene label (CH-01-301/302/309), mismatched label-bar city (CH-01-345/354/364/365), and wrong-language caption (CH-01-345). This note certifies the re-render genuinely resolved every recorded Gate-1 hold — spot-verified against the authoritative re-rendered masters, not assumed. Hold resolved."
     }
   ],
   "sha256_16x9": "04c90bdcd677e991a44f3fdaa4ed3b05246c17985208c9eccb6589d1bba7be4c",
