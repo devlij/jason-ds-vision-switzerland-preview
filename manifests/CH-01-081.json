@@ -12,9 +12,9 @@
   "file_4x5": "library/world/Switzerland/Glarus/ch-01-081-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate",
-  "qc_status": "Candidate · weather rework 2026-09-27 · not approved",
-  "approval_basis": "Builder weather rework 2026-09-27 for CH-01-081. Own Open-Meteo archive GET, HTTP Date Sun, 27 Sep 2026 16:56:02 GMT, retrieved 2026-09-27T16:56:02Z, valid 2026-09-24T16:00 Europe/Zurich, model-valid hour 16:00–16:59, scenario 24 September 2026 · 16:14 Europe/Zurich inside that hour. Weather code 3 (overcast), cloud 100%, 20.2°C, is_day 1. Masters re-rendered at 1920×1270, 864×1270, and 1080×2110 with a 190px #0e0e12 label bar. Status Candidate. Not an approval.",
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "G1: Glarus — Stadtkirche's tall pointed tower over the town roofs with the Glärnisch massif filling the frame behind, cloud catching the summit; G2: 16:9 1920×1270, baked bar with caption 'Glarus, Glarus', scenario '24 September 2026 · 16:14 Europe/Zurich', disclosure + signature; weather retrieval 2026-09-27T16:56:02Z unique to this scene, valid 16:00 hour contains scenario, WMO 3 overcast/100% matching the cloud-draped peaks; G3: text-prompt-only; G4: no people/logos; G5: clear.",
   "sha256_16x9": "2a501389d082862ca3cb6d6a1265b890fc7087335f19eb34f6bb6c27ccd53881",
   "sha256_4x5": "c8a036a2e04ecac7c9c9831adf51dce63972e1b6a2f1f60cb53a50e0a5a1e718",
   "reverted_at": "2026-09-25T12:43:38.247210+00:00",
@@ -50,5 +50,6 @@
     "elevation": 481.0,
     "latitude": 47.04028,
     "longitude": 9.06556
-  }
+  },
+  "approved_at": "2026-09-30T07:24:27.912953+00:00"
 }
