@@ -54,6 +54,11 @@
       "at": "2026-09-27T16:41:42.776988+00:00",
       "by": "rerender",
       "note": "Re-render for the recorded Gate 1 hold: inter-format subject disagreement — the 16:9 master renders the Glis church's Romanesque tower with a crenellated flat top while the 4:5 master renders the same tower with a pointed spire and cross. All three new masters share one square Romanesque tower with a steep four-sided pyramidal roof and a small cross, and the arcaded west porch. Night, scenario unchanged. Label-bar finish 1920×1270, 864×1270, 1080×2110. Still Candidate. Daylight variant files were not regenerated."
+    },
+    {
+      "at": "2026-09-30T13:40:45.872930+00:00",
+      "by": "Cosmo QC",
+      "note": "Gate 1 hold cleared: re-render 2026-09-27 (merge df894411) replaced the master over the recorded holds for mismatched scene label (CH-01-301/302/309), mismatched label-bar city (CH-01-345/354/364/365), and wrong-language caption (CH-01-345). This note certifies the re-render genuinely resolved every recorded Gate-1 hold — spot-verified against the authoritative re-rendered masters, not assumed. Hold resolved."
     }
   ],
   "sha256_16x9": "742f2b377875a215802589eab2f4c72838fbad59285772391fd463463572b0b0",
