@@ -12,9 +12,9 @@
   "file_4x5": "library/world/Switzerland/Urnäsch/ch-01-066-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate",
-  "qc_status": "Candidate · weather rework 2026-09-27 · not approved",
-  "approval_basis": "Builder weather rework 2026-09-27 for CH-01-066. Own Open-Meteo archive GET, HTTP Date Sun, 27 Sep 2026 16:55:41 GMT, retrieved 2026-09-27T16:55:41Z, valid 2026-09-24T16:00 Europe/Zurich, model-valid hour 16:00–16:59, scenario 24 September 2026 · 16:00 Europe/Zurich inside that hour. Weather code 3 (overcast), cloud 100%, 16.7°C, is_day 1. Masters re-rendered at 1920×1270, 864×1270, and 1080×2110 with a 190px #0e0e12 label bar. Status Candidate. Not an approval.",
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "Village of dark wooden farmhouses with white church in green rolling pasture, distant hills only (no close Alpstein wall, matching anchor), overcast sky, no people in the square. Label bar verified on-image: \"Urnäsch, Urnäsch\", \"Scenario: 24 September 2026 · 16:00 Europe/Zurich\", disclosure, signature. Weather retrieval 2026-09-27T16:55:41Z unique to the second, separate GET for 47.3167,9.2795, scenario 16:00 inside 16:00–16:59 (code 3, 100% cloud — overcast consistent). Text-prompt-only per note. No people/logos.",
   "sha256_16x9": "027d9a4bf88038b6ee93c6c5014d8f8033cd6229a111d976dee2fc974fa615b0",
   "sha256_4x5": "c92968ede2cd390957e14b5cd0eaa8f95c68b751d565d2e60a38f4648afd5f74",
   "reverted_at": "2026-09-25T12:42:56.278549+00:00",
@@ -50,5 +50,6 @@
     "elevation": 876.0,
     "latitude": 47.3167,
     "longitude": 9.2795
-  }
+  },
+  "approved_at": "2026-09-30T01:21:09.577156+00:00"
 }
