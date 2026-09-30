@@ -12,9 +12,9 @@
   "file_4x5": "library/world/Switzerland/Laufen/ch-01-085-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate",
-  "qc_status": "Candidate · weather rework 2026-09-27 · not approved",
-  "approval_basis": "Builder weather rework 2026-09-27 for CH-01-085. Own Open-Meteo archive GET, HTTP Date Sun, 27 Sep 2026 16:56:07 GMT, retrieved 2026-09-27T16:56:07Z, valid 2026-09-24T16:00 Europe/Zurich, model-valid hour 16:00–16:59, scenario 24 September 2026 · 16:17 Europe/Zurich inside that hour. Weather code 3 (overcast), cloud 100%, 20.2°C, is_day 1. Masters re-rendered at 1920×1270, 864×1270, and 1080×2110 with a 190px #0e0e12 label bar. Status Candidate. Not an approval.",
+  "approval_status": "Approved",
+  "qc_status": "Approved",
+  "approval_basis": "G1: Laufen old town — cobbled street through the half-timbered gate tower toward the baroque Stadtkirche with its tall tower, stone and timber houses both sides; plausible tourist street view. G2: 16:9 1920×1270, baked bar with caption 'Laufen, Laufen', scenario '24 September 2026 · 16:17 Europe/Zurich', disclosure + signature legible; weather retrieval 2026-09-27T16:56:07Z unique to this scene, valid 16:00 hour contains the scenario, WMO 3 overcast matching the image; Art. 50 chunks present. G3: text-prompt-only. G4: no people/logos. G5: clear.",
   "sha256_16x9": "936e7606494f2b877458f8baf528496351d3b67d173203ec842836a09927a863",
   "sha256_4x5": "875f154df5aea6162f4c9630048ba3da6c5fdca2ea5d2fa45b3d34ce2a5fea12",
   "reverted_at": "2026-09-25T12:43:47.815104+00:00",
@@ -50,5 +50,6 @@
     "elevation": 354.0,
     "latitude": 47.42193,
     "longitude": 7.49946
-  }
+  },
+  "approved_at": "2026-09-30T13:41:18.764478+00:00"
 }
