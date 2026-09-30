@@ -12,9 +12,9 @@
   "file_4x5": "library/world/Switzerland/Aarau/ch-01-069-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate",
-  "qc_status": "Candidate · weather rework 2026-09-27 · not approved",
-  "approval_basis": "Builder weather rework 2026-09-27 for CH-01-069. Own Open-Meteo archive GET, HTTP Date Sun, 27 Sep 2026 16:55:45 GMT, retrieved 2026-09-27T16:55:45Z, valid 2026-09-24T16:00 Europe/Zurich, model-valid hour 16:00–16:59, scenario 24 September 2026 · 16:01 Europe/Zurich inside that hour. Weather code 3 (overcast), cloud 100%, 20.7°C, is_day 1. Masters re-rendered at 1920×1270, 864×1270, and 1080×2110 with a 190px #0e0e12 label bar. Status Candidate. Not an approval.",
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "Narrow old-town street with wide painted eaves/frescoes carrying no legible lettering (per anchor), leading to the stone Oberer Turm with steep pyramidal roof, overcast sky. Label bar verified on-image: \"Aarau Old Town, Aarau\", \"Scenario: 24 September 2026 · 16:01 Europe/Zurich\", disclosure, signature. 4:5 crop spot-checked: same tower and frescoed eaves (inter-format subject agreement). Weather retrieval 2026-09-27T16:55:45Z unique to the second, separate GET for 47.3925,8.0442, scenario 16:01 inside 16:00–16:59 (code 3, 100% cloud — overcast consistent). Text-prompt-only per note. No people/logos.",
   "sha256_16x9": "33729b2c42f61d48fc34ee69c3d021d1a7b24622de573ce94ceaa71cb775e4e4",
   "sha256_4x5": "b4f3980d9f29704748ae4d234e50f0b4ef5d7afb1118f539646e4a052b1f2033",
   "reverted_at": "2026-09-25T12:43:03.867739+00:00",
@@ -50,5 +50,6 @@
     "elevation": 390.0,
     "latitude": 47.3925,
     "longitude": 8.0442
-  }
+  },
+  "approved_at": "2026-09-30T01:21:24.439338+00:00"
 }
