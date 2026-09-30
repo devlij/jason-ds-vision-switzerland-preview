@@ -17,5 +17,7 @@
   "approval_basis": "Gate 1: stone-house lane with church tower and the valley opening east, matching the note's independent description of Zernez. Gate 2: masters 1920x1080/864x1080 exact; on-image caption 'Zernez, Zernez', scenario '24 September 2026 · 16:56 Europe/Zurich', disclosure 'AI-generated artistic interpretation · Not a photograph.', signature 'Jason D’s Vision' — all legible on the gradient scrim. Weather retrieved 2026-09-25T23:40:56Z, unique to this scene across the 101-145 window; model-valid hour 16:00-16:59 matches the scenario. Gate 3: text-prompt-only lineage, no photographic inputs per note. Gate 4: no people, no logos — documented only. Gate 5: no open blockers.",
   "approved_at": "2026-09-26T06:35:17.768692+00:00",
   "sha256_16x9": "f758ed80b1635f6baaa40ec2fdbc84f3e9dfbde3cbbe6d0464768553837ae90f",
-  "sha256_4x5": "980524ccb5ddc2c6be2ffc828feb5b25d846434f164e46c8a0eecc3727bd9b73"
+  "sha256_4x5": "980524ccb5ddc2c6be2ffc828feb5b25d846434f164e46c8a0eecc3727bd9b73",
+  "file_9x16": "library/world/Switzerland/Zernez/ch-01-117-9x16.png",
+  "sha256_9x16": "34a3a7246cb594fd1f19115b09bb882671ba2a3e9b12e26a2c19426d2fb8622e"
 }

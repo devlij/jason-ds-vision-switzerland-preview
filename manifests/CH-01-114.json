@@ -17,5 +17,7 @@
   "approval_basis": "Gate 1: small Flüelen harbor at the south end of the Urnersee with the Reuss delta, steep Axen cliffs rising on the east, village roofs behind the shore — matches anchors, no Tell statue, no chapel on the cliff. Gate 2: caption 'Flüelen, Flüelen' and 'Scenario: 24 September 2026 · 16:56 Europe/Zurich' exact; signature bottom-right; disclosure present. Weather verified: Open-Meteo retrieved 2026-09-25T23:40:53Z, unique to this scene, model hour with the 16:45 step covers 16:56; overcast code 3 matches. Gate 3: text-prompt-only, no photographic inputs. Gate 4: no people, no logos (documented only). Gate 5: clear.",
   "approved_at": "2026-09-26T05:35:01.376758+00:00",
   "sha256_16x9": "455363ca3e7a27b8a5b7927807a6cc386146fbeb9f74086a5e5b78e3e6b28b80",
-  "sha256_4x5": "293bfddc05cc68e781798d7bd6ae1110adc0167d168cb974cb5e8e976e27d1b8"
+  "sha256_4x5": "293bfddc05cc68e781798d7bd6ae1110adc0167d168cb974cb5e8e976e27d1b8",
+  "file_9x16": "library/world/Switzerland/Flüelen/ch-01-114-9x16.png",
+  "sha256_9x16": "10c8d11c84d34d6c5b2770db0c5926acbde6e2104a95f7531570570d0e506502"
 }

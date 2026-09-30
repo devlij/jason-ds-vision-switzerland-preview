@@ -17,5 +17,7 @@
   "approval_basis": "Gate 1: high village of dark-wood chalets at altitude, tawny late-September meadows, streets free of snow, snow-bearing Combin massif beyond — matches anchors, no readable resort name. Gate 2: caption 'Verbier, Verbier' and 'Scenario: 24 September 2026 · 16:38 Europe/Zurich' exact; signature bottom-right; disclosure present. Weather verified: Open-Meteo retrieved 2026-09-25T23:40:44Z, unique to this scene, model hour covers 16:38; partly-cloudy code 2 matches the blue sky with cumulus. Gate 3: text-prompt-only, no photographic inputs. Gate 4: no people, no logos (documented only). Gate 5: clear.",
   "approved_at": "2026-09-26T05:33:32.217857+00:00",
   "sha256_16x9": "5cbd7907f6d3cdc50698dcb1adc78c38d43a7f47db9b13a9fcbeb488b2905362",
-  "sha256_4x5": "5ceaabe782ad6d3421ebfdffea938438422b36fb60957106341800568278089e"
+  "sha256_4x5": "5ceaabe782ad6d3421ebfdffea938438422b36fb60957106341800568278089e",
+  "file_9x16": "library/world/Switzerland/Verbier/ch-01-105-9x16.png",
+  "sha256_9x16": "0fbe479eb58f82ed3b8376ef885368cfdd844785decc25e8241d848c1da64c3e"
 }

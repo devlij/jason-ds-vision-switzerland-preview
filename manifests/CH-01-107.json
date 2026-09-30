@@ -17,5 +17,7 @@
   "approval_basis": "Gate 1: village street of Engadin stone houses leading to a church tower, larch woods mostly green with only a first hint of gold, Bernina foothills behind roofs — matches anchors, no hotel name. Gate 2: caption 'Pontresina, Pontresina' and 'Scenario: 24 September 2026 · 16:38 Europe/Zurich' exact; signature bottom-right; disclosure present. Weather verified: Open-Meteo retrieved 2026-09-25T23:40:46Z, unique to this scene, model hour covers 16:38; mainly-clear code 1 matches the bright sky. Gate 3: text-prompt-only, no photographic inputs. Gate 4: no people, no logos (documented only). Gate 5: clear.",
   "approved_at": "2026-09-26T05:33:41.907967+00:00",
   "sha256_16x9": "f02bf6d62ca3182446c1318d70ae22b9c30a95e74a47bce2ef9eed062638bcbc",
-  "sha256_4x5": "34941814aa1ad386032d3957e0fd00501a7473c9fdf74c4d9bbc8d19cf137d7a"
+  "sha256_4x5": "34941814aa1ad386032d3957e0fd00501a7473c9fdf74c4d9bbc8d19cf137d7a",
+  "file_9x16": "library/world/Switzerland/Pontresina/ch-01-107-9x16.png",
+  "sha256_9x16": "0059a515a0982231c2ae200fe2a59b2b3371a7f699a09e9c27f219e3ee894ea1"
 }
