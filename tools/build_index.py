@@ -66,6 +66,10 @@ PHASE1_MARKERS = (
     "card.id = s.entry_id",
     "G-PDJ4WSS725",
     "getAttribute('data-src-45')",
+    'class="home-link"',
+    'href="https://jdvision.org/"',
+    ".home-link{font-weight:700}",
+    "&#8962; Home",
 )
 
 
@@ -238,6 +242,20 @@ def render_index(scenes: list[dict], meta: dict) -> str:
     return html
 
 
+def _assert_home_link(html: str) -> None:
+    """Keep the Home control first in the switcher so a rebuild cannot drop it."""
+    nav_start = html.find('<nav class="country-switch"')
+    nav_end = html.find("</nav>", nav_start)
+    nav = html[nav_start:nav_end] if nav_start >= 0 else ""
+    home = '<a class="home-link" href="https://jdvision.org/">&#8962; Home</a>'
+    inner = nav.split(">", 1)[1] if ">" in nav else ""
+    if not inner.lstrip().startswith(home):
+        raise SystemExit("home link must be the first country-switch item and point at https://jdvision.org/")
+    between = inner.lstrip()[len(home):inner.lstrip().find('href="https://germany.jdvision.org/"')]
+    if between.count('<span class="sep"') != 1:
+        raise SystemExit("home link must be followed by the switcher separator")
+
+
 def assert_phase1(html: str) -> None:
     if "dataset.src45" in html or "dataset.src16" in html:
         raise SystemExit("refusing dataset.src accessors")
@@ -248,6 +266,7 @@ def assert_phase1(html: str) -> None:
         raise SystemExit("related thumbs are not guarded against missing masters")
     if "const file16 = s.file_16x9 || \"\"" not in html:
         raise SystemExit("card render does not skip a missing 16:9 master")
+    _assert_home_link(html)
 
 
 def main() -> None:
