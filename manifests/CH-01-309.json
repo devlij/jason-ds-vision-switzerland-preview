@@ -13,7 +13,7 @@
   "file_9x16": "library/world/Switzerland/Brig-Glis/ch-01-309-9x16.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate",
+  "approval_status": "Approved",
   "daylight_variant": {
     "variant_of_entry_id": "CH-01-309",
     "derived_from": "Live gallery night master library/world/Switzerland/Brig-Glis/ch-01-309-16x9.png (16:9) and library/world/Switzerland/Brig-Glis/ch-01-309-4x5.png (4:5) of the same scene; not an independently modelled weather or lighting scenario",
@@ -63,5 +63,8 @@
   ],
   "sha256_16x9": "742f2b377875a215802589eab2f4c72838fbad59285772391fd463463572b0b0",
   "sha256_4x5": "1ea3feb43181d034d8a8b540947bade4e9ab214c41a0a0f93da35fb85502fc96",
-  "sha256_9x16": "38b23f15b0272168498d7f4fd3b3b95ac1c64e1aeadbc2aa547f7ca378e6a57a"
+  "sha256_9x16": "38b23f15b0272168498d7f4fd3b3b95ac1c64e1aeadbc2aa547f7ca378e6a57a",
+  "qc_status": "Approved",
+  "approval_basis": "G1: Glis Church, Brig-Glis at night — stone tower with pointed spire and cross, lit belfry windows, arcaded church front on the square; hold resolved (re-render unified both formats on the spire-and-cross tower — verified). G2: 16:9 1920×1270, baked bar with caption 'Glis Church, Brig-Glis', scenario '24 September 2026 · 22:51 Europe/Zurich', disclosure + signature; weather retrieval 2026-09-25T23:48:15Z unique to this scene, valid 22:45 hour contains 22:51; Art. 50 chunks present. G3: text-prompt-only. G4: no people/logos. G5: clear.",
+  "approved_at": "2026-09-30T13:41:44.171518+00:00"
 }
