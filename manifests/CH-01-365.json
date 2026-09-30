@@ -13,7 +13,7 @@
   "file_9x16": "library/world/Switzerland/Haute-Sorne/ch-01-365-9x16.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate",
+  "approval_status": "Approved",
   "daylight_variant": {
     "variant_of_entry_id": "CH-01-365",
     "derived_from": "Live gallery night master library/world/Switzerland/Haute-Sorne/ch-01-365-16x9.png (16:9) and library/world/Switzerland/Haute-Sorne/ch-01-365-4x5.png (4:5) of the same scene; not an independently modelled weather or lighting scenario",
@@ -63,5 +63,8 @@
   ],
   "sha256_16x9": "7ed94adf0030429acaa2aa95cb573702ec6e37a23a6e55e985f2b3b86bda63ba",
   "sha256_4x5": "c5a4f5e30396cbbd53b18c172db45429a87a8588c8d17c2dfe8501639050a307",
-  "sha256_9x16": "2491aea5cc45542c5602af084af3bb722c15d19a850580c1fcc3450f2f398d2d"
+  "sha256_9x16": "2491aea5cc45542c5602af084af3bb722c15d19a850580c1fcc3450f2f398d2d",
+  "qc_status": "Approved",
+  "approval_basis": "G1: Pichoux Gorge at night — the road running along the river between sheer limestone cliffs under a black sky; hold resolved (old day/night split replaced — both formats now night gorge, verified). G2: 16:9 1920×1270, baked bar with caption 'Pichoux Gorge, Haute-Sorne', scenario '24 September 2026 · 23:47 Europe/Zurich', disclosure + signature; weather retrieval 2026-09-25T23:49:11Z unique to this scene, valid 23:45 hour contains 23:47; Art. 50 chunks present. G3: text-prompt-only. G4: no people/logos. G5: clear.",
+  "approved_at": "2026-09-30T13:42:05.088945+00:00"
 }
