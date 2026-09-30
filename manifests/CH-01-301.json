@@ -13,7 +13,7 @@
   "file_9x16": "library/world/Switzerland/Lausanne/ch-01-301-9x16.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate",
+  "approval_status": "Approved",
   "daylight_variant": {
     "variant_of_entry_id": "CH-01-301",
     "derived_from": "Live gallery night master library/world/Switzerland/Lausanne/ch-01-301-16x9.png (16:9) and library/world/Switzerland/Lausanne/ch-01-301-4x5.png (4:5) of the same scene; not an independently modelled weather or lighting scenario",
@@ -63,5 +63,8 @@
   ],
   "sha256_16x9": "b2a6a38384965279b0e1acc444a642a4a96fed2b11a5ed2678eab812dd0f336d",
   "sha256_4x5": "796eb5fdafea0ee0c8b822454bb4e49014dd83cb2a2095f98d27acb0afb3fed4",
-  "sha256_9x16": "25c657099dd9ea724a8e88244aeeea6958d3835c63a3173c25a7836a141281bc"
+  "sha256_9x16": "25c657099dd9ea724a8e88244aeeea6958d3835c63a3173c25a7836a141281bc",
+  "qc_status": "Approved",
+  "approval_basis": "G1: Olympic Museum, Lausanne at night — long white modernist horizontal block with two dark window bands, floodlit, trees and lake reflections in the foreground; Gate-1 hold (old 4:5 showed a different compact block) resolved by the 2026-09-27 re-render — Cosmo re-verified 16:9 vs 4:5: same building form, same night scenario. G2: 16:9 1920×1270, baked bar with caption 'Olympic Museum, Lausanne', scenario '24 September 2026 · 22:30 Europe/Zurich', disclosure + signature legible; weather retrieval 2026-09-25T23:48:07Z unique to this scene, valid 2026-09-24T22:30 hour contains the scenario; Art. 50 chunks present, Comment embedded 2026-09-27 (re-render date). G3: 16:9 text-prompt-only; 4:5/9:16 reframes of it — no photographic inputs documented. G4: no people/logos, public museum. G5: clear.",
+  "approved_at": "2026-09-30T13:41:34.493443+00:00"
 }
