@@ -12,9 +12,9 @@
   "file_4x5": "library/world/Switzerland/Carouge/ch-01-077-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate",
-  "qc_status": "Candidate · weather rework 2026-09-27 · not approved",
-  "approval_basis": "Builder weather rework 2026-09-27 for CH-01-077. Own Open-Meteo archive GET, HTTP Date Sun, 27 Sep 2026 16:55:56 GMT, retrieved 2026-09-27T16:55:56Z, valid 2026-09-24T16:00 Europe/Zurich, model-valid hour 16:00–16:59, scenario 24 September 2026 · 16:01 Europe/Zurich inside that hour. Weather code 3 (overcast), cloud 93%, 25.5°C, is_day 1. Masters re-rendered at 1920×1270, 864×1270, and 1080×2110 with a 190px #0e0e12 label bar. Status Candidate. Not an approval.",
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "G1: Carouge's market square — neoclassical Sainte-Croix church front centered, arcades and warm plaster facades on both sides, cobbled square in the foreground; G2: 16:9 1920×1270, baked 190px bar with caption 'Carouge, Carouge', scenario '24 September 2026 · 16:01 Europe/Zurich', AI-disclosure, Jason D's Vision + signature legible; weather retrieval 2026-09-27T16:55:56Z unique to this scene, valid 16:00 hour contains scenario, WMO 3 overcast/93% matching the grey sky; G3: text-prompt-only, no photographic inputs; G4: no people/logos, public square; G5: clear.",
   "sha256_16x9": "78e9d39b5f1be2a410199ac5f5e51f2f1cd857fed1249ceba78ca3537f0269de",
   "sha256_4x5": "8524b18008ed408c37cfed78434adf791819daa18ebe939c8b234f95019d985b",
   "reverted_at": "2026-09-25T12:43:23.859626+00:00",
@@ -50,5 +50,6 @@
     "elevation": 387.0,
     "latitude": 46.1834,
     "longitude": 6.14
-  }
+  },
+  "approved_at": "2026-09-30T07:24:09.770768+00:00"
 }
