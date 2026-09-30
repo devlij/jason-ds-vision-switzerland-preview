@@ -12,9 +12,9 @@
   "file_4x5": "library/world/Switzerland/Noiraigue/ch-01-064-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate",
-  "qc_status": "Candidate · weather rework 2026-09-27 · not approved",
-  "approval_basis": "Builder weather rework 2026-09-27 for CH-01-064. Own Open-Meteo archive GET, HTTP Date Sun, 27 Sep 2026 16:55:39 GMT, retrieved 2026-09-27T16:55:39Z, valid 2026-09-24T15:00 Europe/Zurich, model-valid hour 15:00–15:59, scenario 24 September 2026 · 15:44 Europe/Zurich inside that hour. Weather code 3 (overcast), cloud 100%, 17.5°C, is_day 1. Masters re-rendered at 1920×1270, 864×1270, and 1080×2110 with a 190px #0e0e12 label bar. Status Candidate. Not an approval.",
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "Sheer layered limestone cirque wall arcs across the frame with forested floor below, fully overcast sky — recognizably the Creux du Van amphitheatre. Label bar verified on-image: \"Creux du Van, Noiraigue\", \"Scenario: 24 September 2026 · 15:44 Europe/Zurich\", disclosure, signature. Weather retrieval 2026-09-27T16:55:39Z unique to the second, separate GET for 46.9358,6.7265, scenario 15:44 inside 15:00–15:59 (code 3, 100% cloud — overcast consistent). Text-prompt-only per note. No people/logos.",
   "sha256_16x9": "74f6ef82f23465c9f6cd1752786095d2be398efdb635331f5f4e683e577a33a8",
   "sha256_4x5": "a27ab77e3f09da2b0c8da5c33874f8e6a49b1d5dd93c92ca325226079aa332c5",
   "reverted_at": "2026-09-25T12:42:47.270189+00:00",
@@ -50,5 +50,6 @@
     "elevation": 1159.0,
     "latitude": 46.9358,
     "longitude": 6.7265
-  }
+  },
+  "approved_at": "2026-09-30T01:20:58.232550+00:00"
 }
