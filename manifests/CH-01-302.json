@@ -13,7 +13,7 @@
   "file_9x16": "library/world/Switzerland/Lutry/ch-01-302-9x16.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate",
+  "approval_status": "Approved",
   "daylight_variant": {
     "variant_of_entry_id": "CH-01-302",
     "derived_from": "Live gallery night master library/world/Switzerland/Lutry/ch-01-302-16x9.png (16:9) and library/world/Switzerland/Lutry/ch-01-302-4x5.png (4:5) of the same scene; not an independently modelled weather or lighting scenario",
@@ -63,5 +63,8 @@
   ],
   "sha256_16x9": "b37b2b3798e1fad7fa8ec6ddced37dad5d7811da2850d5e9c9527da1f79babee",
   "sha256_4x5": "c44de4b97139e68f57c144a70152782856db70a586737285ca005200bd4481af",
-  "sha256_9x16": "b5b6cebec1caf606c740bdc7e4a880f77bda3714c290e1999f61d9c4b66265b3"
+  "sha256_9x16": "b5b6cebec1caf606c740bdc7e4a880f77bda3714c290e1999f61d9c4b66265b3",
+  "qc_status": "Approved",
+  "approval_basis": "G1: Lutry at night — waterfront houses with lit windows reflected in the lake, the stone church tower with short pyramidal spire and clock, vineyard hill behind; hold resolved (2026-09-27 re-render unified both formats on the pyramidal spire — verified by Cosmo). G2: 16:9 1920×1270, baked bar with caption 'Lutry, Lutry', scenario '24 September 2026 · 22:31 Europe/Zurich', disclosure + signature; weather retrieval 2026-09-25T23:48:08Z unique to this scene, valid 22:30 hour contains 22:31; Art. 50 chunks present. G3: text-prompt-only lineage. G4: no people/logos. G5: clear.",
+  "approved_at": "2026-09-30T13:41:39.100249+00:00"
 }
