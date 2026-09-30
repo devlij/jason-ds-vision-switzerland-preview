@@ -54,6 +54,11 @@
       "at": "2026-09-27T16:41:42.776988+00:00",
       "by": "rerender",
       "note": "Re-render for the recorded Gate 1 hold: inter-format subject disagreement — the 16:9 master renders the Lutry church with a short stout dark spire while the 4:5 master renders a tall slender needle spire on the same town church. All three new masters share one square stone tower with a steep pyramidal tile roof, not a stub and not a needle. Night, overcast, scenario unchanged. Label-bar finish 1920×1270, 864×1270, 1080×2110. Still Candidate. Daylight variant files were not regenerated."
+    },
+    {
+      "at": "2026-09-30T13:40:43.982593+00:00",
+      "by": "Cosmo QC",
+      "note": "Gate 1 hold cleared: re-render 2026-09-27 (merge df894411) replaced the master over the recorded holds for mismatched scene label (CH-01-301/302/309), mismatched label-bar city (CH-01-345/354/364/365), and wrong-language caption (CH-01-345). This note certifies the re-render genuinely resolved every recorded Gate-1 hold — spot-verified against the authoritative re-rendered masters, not assumed. Hold resolved."
     }
   ],
   "sha256_16x9": "b37b2b3798e1fad7fa8ec6ddced37dad5d7811da2850d5e9c9527da1f79babee",
