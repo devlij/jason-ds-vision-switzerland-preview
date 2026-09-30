@@ -13,7 +13,7 @@
   "file_9x16": "library/world/Switzerland/Veytaux/ch-01-345-9x16.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate",
+  "approval_status": "Approved",
   "daylight_variant": {
     "variant_of_entry_id": "CH-01-345",
     "derived_from": "Live gallery night master library/world/Switzerland/Veytaux/ch-01-345-16x9.png (16:9) and library/world/Switzerland/Veytaux/ch-01-345-4x5.png (4:5) of the same scene; not an independently modelled weather or lighting scenario",
@@ -63,5 +63,8 @@
   ],
   "sha256_16x9": "04c90bdcd677e991a44f3fdaa4ed3b05246c17985208c9eccb6589d1bba7be4c",
   "sha256_4x5": "dbdf1810ffe5778fc12aab74589839cb860193ad3a6938d4fda6b0336a340f44",
-  "sha256_9x16": "3cc7575de7e12f9161fe281dcabb51fc5d3dd647770728f7524ef80ffefaec56"
+  "sha256_9x16": "3cc7575de7e12f9161fe281dcabb51fc5d3dd647770728f7524ef80ffefaec56",
+  "qc_status": "Approved",
+  "approval_basis": "G1: Rochers-de-Naye at night — small square stone summit hut with pitched roof and lit windows on the rocky summit, Lake Geneva far below in the dark; hold resolved (re-render unified both formats on the stone-hut form — verified). G2: 16:9 1920×1270, baked bar with caption 'Rochers-de-Naye, Veytaux', scenario '24 September 2026 · 23:29 Europe/Zurich', disclosure + signature; weather retrieval 2026-09-25T23:48:51Z unique to this scene, valid 23:15 hour contains 23:29; Art. 50 chunks present. G3: text-prompt-only. G4: no people/logos. G5: clear.",
+  "approved_at": "2026-09-30T13:41:49.729028+00:00"
 }
