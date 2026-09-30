@@ -12,9 +12,9 @@
   "file_4x5": "library/world/Switzerland/Vevey/ch-01-076-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate",
-  "qc_status": "Candidate · weather rework 2026-09-27 · not approved",
-  "approval_basis": "Builder weather rework 2026-09-27 for CH-01-076. Own Open-Meteo archive GET, HTTP Date Sun, 27 Sep 2026 16:55:55 GMT, retrieved 2026-09-27T16:55:55Z, valid 2026-09-24T16:00 Europe/Zurich, model-valid hour 16:00–16:59, scenario 24 September 2026 · 16:01 Europe/Zurich inside that hour. Weather code 3 (overcast), cloud 99%, 23.2°C, is_day 1. Masters re-rendered at 1920×1270, 864×1270, and 1080×2110 with a 190px #0e0e12 label bar. Status Candidate. Not an approval.",
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "G1: Vevey from the lakeside — Saint-Martin tower with old-town roofs in the left foreground, Lake Geneva filling the mid-frame, the Alps with early snow across the water, quay plane trees just beginning to turn; G2: 16:9 1920×1270, baked 190px bar with exact caption 'Vevey, Vevey', scenario '24 September 2026 · 16:01 Europe/Zurich', AI-disclosure, curly-apostrophe Jason D's Vision + Jason A. Devlin signature, legible; weather retrieval 2026-09-27T16:55:55Z unique to this scene, valid 2026-09-24T16:00 Europe/Zurich hour contains the scenario, WMO 3 overcast/99% matching the cloudy lake image; G3: text-prompt-only, no photographic inputs documented; G4: no people/logos/private property, public waterfront; G5: clear.",
   "sha256_16x9": "100f81d828caa9ac3ee45639e6ae26769f75cf34bc953e7a1bf1c8f38bb45994",
   "sha256_4x5": "83dd694a36c3051b822a147de676370eb236cbcc72cf608c80a89072aa6e37b7",
   "reverted_at": "2026-09-25T12:43:21.156192+00:00",
@@ -50,5 +50,6 @@
     "elevation": 384.0,
     "latitude": 46.4608,
     "longitude": 6.8428
-  }
+  },
+  "approved_at": "2026-09-30T07:24:03.825958+00:00"
 }
