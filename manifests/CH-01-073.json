@@ -12,9 +12,9 @@
   "file_4x5": "library/world/Switzerland/Salenstein/ch-01-073-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate",
-  "qc_status": "Candidate · weather rework 2026-09-27 · not approved",
-  "approval_basis": "Builder weather rework 2026-09-27 for CH-01-073. Own Open-Meteo archive GET, HTTP Date Sun, 27 Sep 2026 16:55:51 GMT, retrieved 2026-09-27T16:55:51Z, valid 2026-09-24T16:00 Europe/Zurich, model-valid hour 16:00–16:59, scenario 24 September 2026 · 16:01 Europe/Zurich inside that hour. Weather code 3 (overcast), cloud 98%, 19.1°C, is_day 1. Masters re-rendered at 1920×1270, 864×1270, and 1080×2110 with a 190px #0e0e12 label bar. Status Candidate. Not an approval.",
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "Neoclassical white manor with mansard roof in parkland above Lake Constance, far shore beyond, overcast sky. Label bar verified on-image: \"Arenenberg, Salenstein\", \"Scenario: 24 September 2026 · 16:01 Europe/Zurich\", disclosure, signature. Weather retrieval 2026-09-27T16:55:51Z unique to the second, separate GET for 47.67278,9.05917, scenario 16:01 inside 16:00–16:59 (code 3, 98% cloud — overcast consistent). Text-prompt-only per note. No people/logos.",
   "sha256_16x9": "e183470dc8c947da2d302c05400c4720cc4e556cc2e5b5822c08850b651d9f7e",
   "sha256_4x5": "62aaa7a1de31a17d0ab4345ff8e848f4832d6e544cc1c4f02b742c5904d493ee",
   "reverted_at": "2026-09-25T12:43:13.901045+00:00",
@@ -50,5 +50,6 @@
     "elevation": 430.0,
     "latitude": 47.67278,
     "longitude": 9.05917
-  }
+  },
+  "approved_at": "2026-09-30T01:21:44.712992+00:00"
 }
