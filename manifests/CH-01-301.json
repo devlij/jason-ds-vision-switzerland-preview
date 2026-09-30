@@ -54,6 +54,11 @@
       "at": "2026-09-27T16:41:42.776988+00:00",
       "by": "rerender",
       "note": "Re-render for the recorded Gate 1 hold: inter-format subject disagreement — the 16:9 master shows the Olympic Museum as a long horizontal glazed slab on pilotis while the 4:5 master shows a compact white block with vertical fins. All three new masters share one low white museum in the park above the Ouchy shore: smooth white walls and horizontal window bands, no pilotis, no vertical fins, no rings, no wordmark. Night, overcast, scenario unchanged. Label-bar finish 1920×1270, 864×1270, 1080×2110. Still Candidate. Daylight variant files were not regenerated."
+    },
+    {
+      "at": "2026-09-30T13:40:40.869156+00:00",
+      "by": "Cosmo QC",
+      "note": "Gate 1 hold cleared: re-render 2026-09-27 (merge df894411) replaced the master over the recorded holds for mismatched scene label (CH-01-301/302/309), mismatched label-bar city (CH-01-345/354/364/365), and wrong-language caption (CH-01-345). This note certifies the re-render genuinely resolved every recorded Gate-1 hold — spot-verified against the authoritative re-rendered masters, not assumed. Hold resolved."
     }
   ],
   "sha256_16x9": "b2a6a38384965279b0e1acc444a642a4a96fed2b11a5ed2678eab812dd0f336d",
