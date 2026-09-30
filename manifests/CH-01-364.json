@@ -13,7 +13,7 @@
   "file_9x16": "library/world/Switzerland/Saignelégier/ch-01-364-9x16.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate",
+  "approval_status": "Approved",
   "daylight_variant": {
     "variant_of_entry_id": "CH-01-364",
     "derived_from": "Live gallery night master library/world/Switzerland/Saignelégier/ch-01-364-16x9.png (16:9) and library/world/Switzerland/Saignelégier/ch-01-364-4x5.png (4:5) of the same scene; not an independently modelled weather or lighting scenario",
@@ -63,5 +63,8 @@
   ],
   "sha256_16x9": "ff662075fd2643cf0615b2019961e49e467d3e29c390d49ddfef48680b92792f",
   "sha256_4x5": "7a7c5090422adab8c77487f29d69f5a10fbc842375e273c033168e627d88bea1",
-  "sha256_9x16": "cfffc1e208468d717f6fd9d24d271c167ba143d9a6fc0a37e9a50e848a74b9ef"
+  "sha256_9x16": "cfffc1e208468d717f6fd9d24d271c167ba143d9a6fc0a37e9a50e848a74b9ef",
+  "qc_status": "Approved",
+  "approval_basis": "G1: Étang de la Gruère at night — dark bog pond mirroring pines under cloud, the shore path in the foreground; hold resolved (old daylight 4:5 replaced — both formats now night, verified). G2: 16:9 1920×1270, baked bar with caption 'Étang de la Gruère, Saignelégier', scenario '24 September 2026 · 23:47 Europe/Zurich', disclosure + signature; weather retrieval 2026-09-25T23:49:10Z unique to this scene, valid 23:45 hour contains 23:47; Art. 50 chunks present. G3: text-prompt-only. G4: no people/logos. G5: clear.",
+  "approved_at": "2026-09-30T13:41:59.851078+00:00"
 }
