@@ -12,9 +12,9 @@
   "file_4x5": "library/world/Switzerland/Herisau/ch-01-065-4x5.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
-  "approval_status": "Candidate",
-  "qc_status": "Candidate · weather rework 2026-09-27 · not approved",
-  "approval_basis": "Builder weather rework 2026-09-27 for CH-01-065. Own Open-Meteo archive GET, HTTP Date Sun, 27 Sep 2026 16:55:40 GMT, retrieved 2026-09-27T16:55:40Z, valid 2026-09-24T16:00 Europe/Zurich, model-valid hour 16:00–16:59, scenario 24 September 2026 · 16:00 Europe/Zurich inside that hour. Weather code 3 (overcast), cloud 100%, 17.7°C, is_day 1. Masters re-rendered at 1920×1270, 864×1270, and 1080×2110 with a 190px #0e0e12 label bar. Status Candidate. Not an approval.",
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "Reformed church with bulbous onion-cupola tower (octagonal helmet per anchor) on the Platz with plastered merchant houses, no interior shown, overcast sky. Label bar verified on-image: \"Herisau, Herisau\", \"Scenario: 24 September 2026 · 16:00 Europe/Zurich\", disclosure, signature. Weather retrieval 2026-09-27T16:55:40Z unique to the second, separate GET for 47.38584,9.27928, scenario 16:00 inside 16:00–16:59 (code 3, 100% cloud — overcast consistent). Text-prompt-only per note. No people/logos.",
   "sha256_16x9": "f7bc351b51ad831738b83471c9c4c59dfa450b586b3846eccc49c4db8490fcd4",
   "sha256_4x5": "78bf08d9ba746cf4c2ce77a283c2b253af880f8479dc1ae0b29e8c80dafbf0b6",
   "reverted_at": "2026-09-25T12:42:53.832402+00:00",
@@ -50,5 +50,6 @@
     "elevation": 770.0,
     "latitude": 47.38584,
     "longitude": 9.27928
-  }
+  },
+  "approved_at": "2026-09-30T01:21:03.484769+00:00"
 }
