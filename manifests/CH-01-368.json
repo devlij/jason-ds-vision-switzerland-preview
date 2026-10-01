@@ -1,0 +1,33 @@
+{
+  "entry_id": "CH-01-368",
+  "country": "Switzerland",
+  "region": "Valais",
+  "city": "Zermatt",
+  "caption": "Matterhorn at sunrise, Zermatt",
+  "scenario_label": "1 October 2026 · 07:35 Europe/Zurich",
+  "composition": "Hörnlihütte trail viewpoint with the Matterhorn catching sunrise alpenglow · AI-generated artistic interpretation",
+  "description": "Sunrise alpenglow: the Matterhorn's east face glowing warm gold-pink, snow lit on the upper faces; a rugged rocky ridge trail with scree and sparse alpine grass winds through the foreground — dark rock ridges fall away below the peak, no glacier beneath the mountain. Soft dawn sky.",
+  "alt_text": "AI-generated artistic interpretation of the Matterhorn at sunrise alpenglow from the Hörnlihütte trail",
+  "file_16x9": "library/world/Switzerland/Zermatt/ch-01-368-16x9.png",
+  "file_4x5": "library/world/Switzerland/Zermatt/ch-01-368-4x5.png",
+  "file_9x16": "library/world/Switzerland/Zermatt/ch-01-368-9x16.png",
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "Open-Meteo retrieval 2026-10-01T21:03:36Z (unique to the second, Matterhorn repair batch, 2026-10-01) — Gate 2 hardened-weather law satisfied. CH-01-368: Matterhorn at sunrise, Zermatt. G1: Sunrise alpenglow: the Matterhorn's east face glowing warm gold-pink, snow lit on the upper faces; a rugged rocky ridge trail with scree and sparse alpine grass winds through the foreground — dark rock ridges fall away below the peak, no glacier beneath the mountain. Soft dawn sky. G2: dims exact 1920x1270/864x1270/1080x2110; bar 'Matterhorn at sunrise, Zermatt' / '1 October 2026 · 07:35 Europe/Zurich'; Art.50 chunks embedded. G3 text-prompt-only generation, no reference imagery; G4 no people/logos; G5 captions/signature/disclosure verified on the finished master.",
+  "sha256_16x9": "57dbc9a682816d38007df565c93285ad493596a3c9ebe581e0b8d427b0e744dd",
+  "sha256_4x5": "e04cb7d3fa5cd4560c433ca85ada9d4a2ff64a9d90df30f962b66c8a2ebf83dc",
+  "sha256_9x16": "375116066d48dc7e9cfca578a9173149cd3085db2ab40290efd0de432221b549",
+  "open_meteo": {
+    "provider": "Open-Meteo",
+    "retrieved_at": "2026-10-01T21:03:36Z",
+    "valid_at": "2026-10-01T23:00",
+    "temperature_2m": 11.5,
+    "weather_code": 3,
+    "cloud_cover": 100,
+    "wind_speed_10m": 2.2,
+    "note": "Model data from Open-Meteo, retrieved at build time as the build reference — not a verified on-site observation. The depicted scenario is a daytime artistic interpretation."
+  },
+  "approved_at": "2026-10-01T21:10:00Z"
+}

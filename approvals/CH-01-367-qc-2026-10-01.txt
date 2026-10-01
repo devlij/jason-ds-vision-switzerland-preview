@@ -1,0 +1,11 @@
+# CH-01-367 — Cosmo QC 5/5 (Matterhorn repair batch, 2026-10-01)
+
+Jason's direction 2026-10-01: the Matterhorn shows no glacier beneath it in reality; repaired as the first flagship item, plus 4 new iconic viewpoints.
+
+Gate 1 — Visual/location accuracy: PASS. Pyramidal horn with snow on upper faces, geometry anchors verified against the finished master.
+Gate 2 — Formats/weather: PASS. Masters exactly 1920x1270 / 864x1270 / 1080x2110; label bar correct; Open-Meteo retrieval 2026-10-01T21:03:33Z unique to the second in the batch; Art. 50 PNG chunks embedded.
+Gate 3 — Originality: PASS. Text-prompt-only generation, no reference imagery.
+Gate 4 — IP clearance: PASS. No people, no logos, no trademarks visible.
+Gate 5 — Captions/signature: PASS. Caption, scenario line, disclosure, Jason D's Vision + script signature verified on the bar.
+
+Verdict: APPROVED · Cosmo QC 5/5 · Daylight

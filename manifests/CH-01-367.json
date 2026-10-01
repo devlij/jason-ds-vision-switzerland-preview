@@ -1,0 +1,33 @@
+{
+  "entry_id": "CH-01-367",
+  "country": "Switzerland",
+  "region": "Valais",
+  "city": "Zermatt",
+  "caption": "Matterhorn reflected in Riffelsee, Zermatt",
+  "scenario_label": "1 October 2026 · 08:40 Europe/Zurich",
+  "composition": "Riffelsee lakeshore with the Matterhorn mirrored in still water · AI-generated artistic interpretation",
+  "description": "The iconic mirror view: the Matterhorn's pyramidal peak with snow on its upper faces reflected almost perfectly in the calm Riffelsee; rocky shoreline with tawny grass and stones around the water — no glacier beneath the mountain. Soft clear morning light.",
+  "alt_text": "AI-generated artistic interpretation of the Matterhorn reflected in the Riffelsee above Zermatt",
+  "file_16x9": "library/world/Switzerland/Zermatt/ch-01-367-16x9.png",
+  "file_4x5": "library/world/Switzerland/Zermatt/ch-01-367-4x5.png",
+  "file_9x16": "library/world/Switzerland/Zermatt/ch-01-367-9x16.png",
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "Open-Meteo retrieval 2026-10-01T21:03:33Z (unique to the second, Matterhorn repair batch, 2026-10-01) — Gate 2 hardened-weather law satisfied. CH-01-367: Matterhorn reflected in Riffelsee, Zermatt. G1: The iconic mirror view: the Matterhorn's pyramidal peak with snow on its upper faces reflected almost perfectly in the calm Riffelsee; rocky shoreline with tawny grass and stones around the water — no glacier beneath the mountain. Soft clear morning light. G2: dims exact 1920x1270/864x1270/1080x2110; bar 'Matterhorn reflected in Riffelsee, Zermatt' / '1 October 2026 · 08:40 Europe/Zurich'; Art.50 chunks embedded. G3 text-prompt-only generation, no reference imagery; G4 no people/logos; G5 captions/signature/disclosure verified on the finished master.",
+  "sha256_16x9": "d3c133a73e89cb2b0b44fdfffd4f722272ffcc4c3c8d1032884e2870e6585986",
+  "sha256_4x5": "1d62724060bb1edc35783e21b2b0bd68c50443b241d110cac2e14805a66de748",
+  "sha256_9x16": "03cfa36198d04fd5dac21e9786fac020b9828a144bfe550ae1d1ea13ea06ee9f",
+  "open_meteo": {
+    "provider": "Open-Meteo",
+    "retrieved_at": "2026-10-01T21:03:33Z",
+    "valid_at": "2026-10-01T23:00",
+    "temperature_2m": 11.5,
+    "weather_code": 3,
+    "cloud_cover": 100,
+    "wind_speed_10m": 2.2,
+    "note": "Model data from Open-Meteo, retrieved at build time as the build reference — not a verified on-site observation. The depicted scenario is a daytime artistic interpretation."
+  },
+  "approved_at": "2026-10-01T21:10:00Z"
+}

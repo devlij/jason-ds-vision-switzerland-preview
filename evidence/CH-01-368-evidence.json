@@ -1,0 +1,20 @@
+{
+  "entry_id": "CH-01-368",
+  "site": "Matterhorn",
+  "city": "Zermatt",
+  "camera_viewpoint": "Hörnlihütte trail (approx. 46.0267, 7.7556), looking east toward the peak at sunrise.",
+  "references": [
+    "https://www.myswitzerland.com/en-ie/destinations/matterhorn-symbol-for-switzerland/",
+    "https://en.wikipedia.org/wiki/Matterhorn"
+  ],
+  "geometry_anchors": [
+    "Matterhorn catching golden-pink alpenglow on its east face",
+    "Rocky ridge trail winding through the foreground",
+    "Dark rock ridges falling away below the peak"
+  ],
+  "weather": "Model data from Open-Meteo, retrieved 2026-10-01T21:03:36Z, valid 2026-10-01T23:00 — not a verified on-site observation.",
+  "solar": "Sunrise alpenglow, pale pink-gold dawn sky.",
+  "independent_description": "Sunrise alpenglow: the Matterhorn's east face glowing warm gold-pink, snow lit on the upper faces; a rugged rocky ridge trail with scree and sparse alpine grass winds through the foreground — dark rock ridges fall away below the peak, no glacier beneath the mountain. Soft dawn sky.",
+  "source_use_notes": "Text-prompt-only AI generation; no reference imagery used. Glacier deliberately excluded beneath the peak per Jason's 2026-10-01 direction (no glacier under the Matterhorn in reality).",
+  "generated_at": "2026-10-01 ~21:00-21:05 UTC (evening Europe/Zurich)"
+}

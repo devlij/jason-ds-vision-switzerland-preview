@@ -1,0 +1,20 @@
+{
+  "entry_id": "CH-01-367",
+  "site": "Matterhorn",
+  "city": "Zermatt",
+  "camera_viewpoint": "Riffelsee shore (approx. 46.0437, 7.7639), looking southwest across the lake.",
+  "references": [
+    "https://www.myswitzerland.com/en-ie/destinations/matterhorn-symbol-for-switzerland/",
+    "https://en.wikipedia.org/wiki/Matterhorn"
+  ],
+  "geometry_anchors": [
+    "Matterhorn mirrored in the still lake, lower half of frame",
+    "Rocky shoreline with tawny grass framing the water",
+    "Peak centered above its own reflection"
+  ],
+  "weather": "Model data from Open-Meteo, retrieved 2026-10-01T21:03:33Z, valid 2026-10-01T23:00 — not a verified on-site observation.",
+  "solar": "Soft morning daylight, pale clear sky.",
+  "independent_description": "The iconic mirror view: the Matterhorn's pyramidal peak with snow on its upper faces reflected almost perfectly in the calm Riffelsee; rocky shoreline with tawny grass and stones around the water — no glacier beneath the mountain. Soft clear morning light.",
+  "source_use_notes": "Text-prompt-only AI generation; no reference imagery used. Glacier deliberately excluded beneath the peak per Jason's 2026-10-01 direction (no glacier under the Matterhorn in reality).",
+  "generated_at": "2026-10-01 ~21:00-21:05 UTC (evening Europe/Zurich)"
+}

@@ -1,0 +1,20 @@
+{
+  "entry_id": "CH-01-001",
+  "site": "Matterhorn",
+  "city": "Zermatt",
+  "camera_viewpoint": "Gornergrat railway terrace (approx. 46.0227, 7.7499), looking southwest toward the Matterhorn.",
+  "references": [
+    "https://www.myswitzerland.com/en-ie/destinations/matterhorn-symbol-for-switzerland/",
+    "https://en.wikipedia.org/wiki/Matterhorn"
+  ],
+  "geometry_anchors": [
+    "Matterhorn centered as the pyramidal horn, snow on upper faces",
+    "Hörnli ridge falling to the right of the peak",
+    "Rocky foreground slope with boulders and tawny grass, Gornergrat railway line visible lower-right"
+  ],
+  "weather": "Model data from Open-Meteo, retrieved 2026-10-01T21:03:26Z, valid 2026-10-01T23:00 — not a verified on-site observation.",
+  "solar": "Mid-afternoon daylight, partly cloudy sky.",
+  "independent_description": "From the Gornergrat railway terrace, looking southwest, the Matterhorn rises as a dark pyramidal horn with snow and ice on the upper faces and the Hörnli ridge falling to the right. Below the peak: rugged rocky ridges, scree and tawny late-season alpine grass — no glacier beneath the mountain (repaired 2026-10-01 per Jason's direction: no glacier under the Matterhorn in reality). No new construction is shown.",
+  "source_use_notes": "Text-prompt-only AI generation; no reference imagery used. Glacier deliberately excluded beneath the peak per Jason's 2026-10-01 direction (no glacier under the Matterhorn in reality).",
+  "generated_at": "2026-10-01 ~21:00-21:05 UTC (evening Europe/Zurich)"
+}

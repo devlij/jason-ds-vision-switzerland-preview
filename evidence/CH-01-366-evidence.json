@@ -1,0 +1,20 @@
+{
+  "entry_id": "CH-01-366",
+  "site": "Matterhorn",
+  "city": "Zermatt",
+  "camera_viewpoint": "Zermatt village viewpoint (approx. 46.0207, 7.7491), looking south up the valley.",
+  "references": [
+    "https://www.myswitzerland.com/en-ie/destinations/matterhorn-symbol-for-switzerland/",
+    "https://en.wikipedia.org/wiki/Matterhorn"
+  ],
+  "geometry_anchors": [
+    "Matterhorn centered above the village rooftops",
+    "Traditional wooden chalets in the lower frame",
+    "Green meadows and forested slopes between village and peak"
+  ],
+  "weather": "Model data from Open-Meteo, retrieved 2026-10-01T21:03:29Z, valid 2026-10-01T23:00 — not a verified on-site observation.",
+  "solar": "Bright midday daylight, blue sky with scattered clouds.",
+  "independent_description": "The classic postcard view: the Matterhorn's pyramidal peak centered above the dark-wooden chalets of Zermatt, green alpine meadows and forested then rocky slopes rising toward the peak — no glacier beneath the mountain. Bright midday light under a blue sky with scattered clouds.",
+  "source_use_notes": "Text-prompt-only AI generation; no reference imagery used. Glacier deliberately excluded beneath the peak per Jason's 2026-10-01 direction (no glacier under the Matterhorn in reality).",
+  "generated_at": "2026-10-01 ~21:00-21:05 UTC (evening Europe/Zurich)"
+}

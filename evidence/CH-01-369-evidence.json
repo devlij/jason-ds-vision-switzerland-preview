@@ -1,0 +1,20 @@
+{
+  "entry_id": "CH-01-369",
+  "site": "Matterhorn",
+  "city": "Zermatt",
+  "camera_viewpoint": "Unterrothorn summit area (approx. 46.0222, 7.7944), looking southwest across the valley.",
+  "references": [
+    "https://www.myswitzerland.com/en-ie/destinations/matterhorn-symbol-for-switzerland/",
+    "https://en.wikipedia.org/wiki/Matterhorn"
+  ],
+  "geometry_anchors": [
+    "Matterhorn across the valley, right of center",
+    "Rocky foreground ridge with snow patches and tawny grass",
+    "Deep valley falling away between viewpoint and peak"
+  ],
+  "weather": "Model data from Open-Meteo, retrieved 2026-10-01T21:03:38Z, valid 2026-10-01T23:00 — not a verified on-site observation.",
+  "solar": "Bright afternoon daylight, dramatic clouds around the summit.",
+  "independent_description": "From the Unterrothorn, the Matterhorn rises across a wide alpine panorama, snow on its upper faces, dramatic clouds wrapping the summit; rocky foreground ridge with patches of snow and tawny grass, the deep valley falling away between viewer and peak — no glacier beneath the mountain. Bright afternoon light.",
+  "source_use_notes": "Text-prompt-only AI generation; no reference imagery used. Glacier deliberately excluded beneath the peak per Jason's 2026-10-01 direction (no glacier under the Matterhorn in reality).",
+  "generated_at": "2026-10-01 ~21:00-21:05 UTC (evening Europe/Zurich)"
+}

@@ -1,0 +1,33 @@
+{
+  "entry_id": "CH-01-366",
+  "country": "Switzerland",
+  "region": "Valais",
+  "city": "Zermatt",
+  "caption": "Matterhorn above Zermatt, Zermatt",
+  "scenario_label": "1 October 2026 · 11:05 Europe/Zurich",
+  "composition": "Zermatt village rooftops looking up the valley toward the Matterhorn · AI-generated artistic interpretation",
+  "description": "The classic postcard view: the Matterhorn's pyramidal peak centered above the dark-wooden chalets of Zermatt, green alpine meadows and forested then rocky slopes rising toward the peak — no glacier beneath the mountain. Bright midday light under a blue sky with scattered clouds.",
+  "alt_text": "AI-generated artistic interpretation of the Matterhorn rising above the village of Zermatt",
+  "file_16x9": "library/world/Switzerland/Zermatt/ch-01-366-16x9.png",
+  "file_4x5": "library/world/Switzerland/Zermatt/ch-01-366-4x5.png",
+  "file_9x16": "library/world/Switzerland/Zermatt/ch-01-366-9x16.png",
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "Open-Meteo retrieval 2026-10-01T21:03:29Z (unique to the second, Matterhorn repair batch, 2026-10-01) — Gate 2 hardened-weather law satisfied. CH-01-366: Matterhorn above Zermatt, Zermatt. G1: The classic postcard view: the Matterhorn's pyramidal peak centered above the dark-wooden chalets of Zermatt, green alpine meadows and forested then rocky slopes rising toward the peak — no glacier beneath the mountain. Bright midday light under a blue sky with scattered clouds. G2: dims exact 1920x1270/864x1270/1080x2110; bar 'Matterhorn above Zermatt, Zermatt' / '1 October 2026 · 11:05 Europe/Zurich'; Art.50 chunks embedded. G3 text-prompt-only generation, no reference imagery; G4 no people/logos; G5 captions/signature/disclosure verified on the finished master.",
+  "sha256_16x9": "f5a0dc100226ae76bcaf533e3daeb47659ce430056cd5c6b63c8bde6bef484a4",
+  "sha256_4x5": "185898d65fb119b06dbf458224d7b00788a955bf43c076099e7d3f488994cb72",
+  "sha256_9x16": "c449d1ab0df343cecc36ec805de8781bf1f6e28301e50d652a7e2ca4d0ef72ce",
+  "open_meteo": {
+    "provider": "Open-Meteo",
+    "retrieved_at": "2026-10-01T21:03:29Z",
+    "valid_at": "2026-10-01T23:00",
+    "temperature_2m": 11.5,
+    "weather_code": 3,
+    "cloud_cover": 100,
+    "wind_speed_10m": 2.2,
+    "note": "Model data from Open-Meteo, retrieved at build time as the build reference — not a verified on-site observation. The depicted scenario is a daytime artistic interpretation."
+  },
+  "approved_at": "2026-10-01T21:10:00Z"
+}

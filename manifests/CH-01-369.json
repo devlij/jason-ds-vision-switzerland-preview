@@ -1,0 +1,33 @@
+{
+  "entry_id": "CH-01-369",
+  "country": "Switzerland",
+  "region": "Valais",
+  "city": "Zermatt",
+  "caption": "Matterhorn from Rothorn, Zermatt",
+  "scenario_label": "1 October 2026 · 15:50 Europe/Zurich",
+  "composition": "Unterrothorn viewpoint panorama with the Matterhorn across the valley · AI-generated artistic interpretation",
+  "description": "From the Unterrothorn, the Matterhorn rises across a wide alpine panorama, snow on its upper faces, dramatic clouds wrapping the summit; rocky foreground ridge with patches of snow and tawny grass, the deep valley falling away between viewer and peak — no glacier beneath the mountain. Bright afternoon light.",
+  "alt_text": "AI-generated artistic interpretation of the Matterhorn from the Unterrothorn viewpoint above Zermatt",
+  "file_16x9": "library/world/Switzerland/Zermatt/ch-01-369-16x9.png",
+  "file_4x5": "library/world/Switzerland/Zermatt/ch-01-369-4x5.png",
+  "file_9x16": "library/world/Switzerland/Zermatt/ch-01-369-9x16.png",
+  "license_badge": "Free · no credit needed",
+  "license_anchor": "#license",
+  "approval_status": "Approved",
+  "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
+  "approval_basis": "Open-Meteo retrieval 2026-10-01T21:03:38Z (unique to the second, Matterhorn repair batch, 2026-10-01) — Gate 2 hardened-weather law satisfied. CH-01-369: Matterhorn from Rothorn, Zermatt. G1: From the Unterrothorn, the Matterhorn rises across a wide alpine panorama, snow on its upper faces, dramatic clouds wrapping the summit; rocky foreground ridge with patches of snow and tawny grass, the deep valley falling away between viewer and peak — no glacier beneath the mountain. Bright afternoon light. G2: dims exact 1920x1270/864x1270/1080x2110; bar 'Matterhorn from Rothorn, Zermatt' / '1 October 2026 · 15:50 Europe/Zurich'; Art.50 chunks embedded. G3 text-prompt-only generation, no reference imagery; G4 no people/logos; G5 captions/signature/disclosure verified on the finished master.",
+  "sha256_16x9": "6f21393a3e8575bfe8eb95d6d27b8a2bf5632d5b8b9e5e2d969bfec5b7d5bf1b",
+  "sha256_4x5": "0a13aa9a89116af95d692cafe9fa4a441b74b1eabf81e3d3e0110a974e858198",
+  "sha256_9x16": "58a2d27a737cf6391aedc196c5839ef69721c8c380b23d58db5e8dd37f368579",
+  "open_meteo": {
+    "provider": "Open-Meteo",
+    "retrieved_at": "2026-10-01T21:03:38Z",
+    "valid_at": "2026-10-01T23:00",
+    "temperature_2m": 11.5,
+    "weather_code": 3,
+    "cloud_cover": 100,
+    "wind_speed_10m": 2.2,
+    "note": "Model data from Open-Meteo, retrieved at build time as the build reference — not a verified on-site observation. The depicted scenario is a daytime artistic interpretation."
+  },
+  "approved_at": "2026-10-01T21:10:00Z"
+}

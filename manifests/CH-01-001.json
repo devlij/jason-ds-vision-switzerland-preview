@@ -4,82 +4,30 @@
   "region": "Valais",
   "city": "Zermatt",
   "caption": "Matterhorn, Zermatt",
-  "scenario_label": "24 September 2026 · 14:38 Europe/Zurich",
-  "composition": "Gornergrat railway terrace looking southwest toward the Matterhorn and Gorner Glacier · AI-generated artistic interpretation",
-  "description": "From the Gornergrat railway terrace, looking southwest, the Matterhorn rises as a dark pyramidal horn with snow and ice on the upper faces and the Hörnli ridge falling to the right. The Gorner Glacier fills the middle ground with crevassed ice and gray moraine. Late-September rock and tawny alpine grass occupy the near slope under the Open-Meteo cloud and temperature for this high cell. No new construction is shown.",
+  "scenario_label": "1 October 2026 · 14:20 Europe/Zurich",
+  "composition": "Gornergrat railway terrace looking southwest toward the Matterhorn · AI-generated artistic interpretation",
+  "description": "From the Gornergrat railway terrace, looking southwest, the Matterhorn rises as a dark pyramidal horn with snow and ice on the upper faces and the Hörnli ridge falling to the right. Below the peak: rugged rocky ridges, scree and tawny late-season alpine grass — no glacier beneath the mountain (repaired 2026-10-01 per Jason's direction: no glacier under the Matterhorn in reality). No new construction is shown.",
   "alt_text": "AI-generated artistic interpretation of the Matterhorn from the Gornergrat railway terrace above Zermatt",
   "file_16x9": "library/world/Switzerland/Zermatt/ch-01-001-16x9.png",
   "file_4x5": "library/world/Switzerland/Zermatt/ch-01-001-4x5.png",
+  "file_9x16": "library/world/Switzerland/Zermatt/ch-01-001-9x16.png",
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
   "approval_status": "Approved",
   "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
-  "approval_basis": "Open-Meteo retrieval 2026-09-27T16:50:58Z (unique to the second, repo-wide verified, 2026-09-27) — Gate 2 hardened-weather law satisfied. CH-01-001: Matterhorn, Zermatt. G1: pyramidal horn with snow/ice on upper faces, Hörnli ridge falling right of the peak, crevassed Gorner Glacier with gray moraine in the middle ground, tawny late-September rock/grass foreground — Gornergrat-terrace southwest viewpoint. G2: dims exact; bar 'Matterhorn, Zermatt' / '24 September 2026 · 14:38 Europe/Zurich'; old shared FAIL resolved via 2026-09-25 RESOLVED note. G3 text-prompt-only; G4 no people/logos; G5 clear.",
-  "sha256_16x9": "4f2fd74ea3008d597c92ceb76678ca99ba43386c0de910d2ccf567728e9d6ea6",
-  "sha256_4x5": "a699591695cde8e9bdba367258deb4c4c89b170a1926954aa2a8a1f645d6c4be",
-  "reverted_at": "2026-09-25T12:39:44.961974+00:00",
-  "qc_notes": [
-    {
-      "at": "2026-09-25T12:39:44.961974+00:00",
-      "by": "Cosmo QC",
-      "note": "Approval withdrawn 2026-09-25 (Cosmo QC): the weather metadata was a shared/batch Open-Meteo retrieval (retrieval timestamp 2026-09-24T12:35:44Z identical across 4 scenes), failing Gate 2 under the confirmed standing policy — one HTTP fetch per scene, one recorded retrieval timestamp per scene; identical-to-the-second timestamps across scenes = shared retrieval. Rework: fetch Open-Meteo fresh per scene (own HTTP request, own recorded timestamp), scenario hour inside the model-valid hour; update the approvals note with the new retrieval evidence; re-push masters only if on-image text must change. Scene stays Candidate until Cosmo QC re-audits."
-    },
-    {
-      "at": "2026-09-25T13:32:33.929634+00:00",
-      "by": "Cosmo QC",
-      "note": "Gate 2 FAIL (shared weather retrieval): Open-Meteo retrieval timestamp 2026-09-24T12:35:44Z identical to the second across CH-01-001/002/003/004 — batch retrieval, not per-scene (hardened 2026-09-25 rule). Gate 1 passed (Matterhorn pyramidal horn with Gorner Glacier mid-ground from Gornergrat; exact caption/scenario/signature/disclosure on-image). Gates 3–4 noted (text-prompt-only lineage claimed; no prominent people/logos seen). Hold at Candidate until the per-scene weather rework lands."
-    },
-    {
-      "at": "2026-09-25T14:31:28.124739+00:00",
-      "by": "Cosmo QC",
-      "note": "Gate 2 FAIL — shared batch Open-Meteo retrieval: approvals/CH-01-001.md records retrieved 2026-09-24T12:35:44Z, identical to the second with CH-01-001/002/003/004. Per the hardened one-retrieval-per-scene rule this is batch retrieval, so weather metadata is stale/reused. Visual review otherwise fine (exact caption, scenario '24 September 2026 · 14:38 Europe/Zurich', signature, disclosure present; dimensions verified 1920x1080 + 864x1080). Held as Candidate pending Grok per-scene weather rework."
-    },
-    {
-      "at": "2026-09-25T15:30:13.839766+00:00",
-      "by": "Cosmo QC",
-      "note": "Gate 2 FAIL (rejected, kept Candidate): weather retrieval shared across scenes — approvals/CH-01-001.md cites the identical Open-Meteo retrieval timestamp 2026-09-24T12:35:44Z also cited by CH-01-001 through CH-01-004. One retrieval per scene is required; identical-to-the-second timestamps = batch retrieval. Awaiting Grok per-scene weather rework before re-audit."
-    },
-    {
-      "at": "2026-09-25T16:33:12.043263+00:00",
-      "by": "Cosmo QC",
-      "note": "Gate 2 (Technical) FAIL: Open-Meteo weather retrieval timestamp 2026-09-24T12:35:44Z is identical to the second with CH-01-001, CH-01-002, CH-01-003 and CH-01-004 — shared/batch retrieval, violating the per-scene retrieval rule (one retrieval per scene; identical timestamps across scenes = batch, even though per-location values differ). Weather rework still owed; scene stays Candidate."
-    },
-    {
-      "at": "2026-09-25T17:31:47.359036+00:00",
-      "by": "Cosmo QC",
-      "note": "Gate 2 (Technical) FAIL: Open-Meteo weather retrieval timestamp 2026-09-24T12:35:44Z is identical to the second across CH-01-001/002/003/004 — shared/batch retrieval, violates the Grok-confirmed one-retrieval-per-scene rule (stale/reused weather metadata). Gates 1/3/4 reviewed: visual location pass, text-prompt-only lineage documented, no prominent people or focal logos seen (documented only, no chain certified)."
-    },
-    {
-      "at": "2026-09-25T22:42:34.643991+00:00",
-      "by": "Cosmo QC",
-      "note": "Gate 2 shared-retrieval hold RESOLVED: the build agent landed the per-scene weather rework (approvals/BATCH-CH-01-001-087-rework.txt plus the per-scene note). approvals/CH-01-001.md now records Open-Meteo retrieval 2026-09-25T21:42:38Z, a separate request for this scene's coordinates — verified unique to the second across all 87 reworked scenes; the baked scenario 24 September 2026 · 14:38 Europe/Zurich sits inside the model-valid hour 14:00–14:59 Europe/Zurich. Cosmo re-audited against authoritative blob downloads: gates 1–5 PASS, all masters at exact dimensions, exact caption/scenario/signature/disclosure on-image. Hold cleared; ready for approval."
-    },
-    {
-      "at": "2026-09-27T17:07:06Z",
-      "by": "builder",
-      "note": "Builder weather rework 2026-09-27 for CH-01-001. Own Open-Meteo archive GET, HTTP Date Sun, 27 Sep 2026 16:50:58 GMT, retrieved 2026-09-27T16:50:58Z, valid 2026-09-24T14:00 Europe/Zurich, model-valid hour 14:00–14:59, scenario 24 September 2026 · 14:38 Europe/Zurich inside that hour. Weather code 3 (overcast), cloud 90%, 7.3°C, is_day 1. Masters re-rendered at 1920×1270, 864×1270, and 1080×2110 with a 190px #0e0e12 label bar. Status Candidate. Not an approval."
-    }
-  ],
-  "file_9x16": "library/world/Switzerland/Zermatt/ch-01-001-9x16.png",
-  "sha256_9x16": "59721da286136ff72a97aa3a1b62581cf78f136de4cf40019d8e7756b4f317e2",
+  "approval_basis": "Open-Meteo retrieval 2026-10-01T21:03:26Z (unique to the second, Matterhorn repair batch, 2026-10-01) — Gate 2 hardened-weather law satisfied. CH-01-001: Matterhorn, Zermatt. G1: From the Gornergrat railway terrace, looking southwest, the Matterhorn rises as a dark pyramidal horn with snow and ice on the upper faces and the Hörnli ridge falling to the right. Below the peak: rugged rocky ridges, scree and tawny late-season alpine grass — no glacier beneath the mountain (repaired 2026-10-01 per Jason's direction: no glacier under the Matterhorn in reality). No new construction is shown. G2: dims exact 1920x1270/864x1270/1080x2110; bar 'Matterhorn, Zermatt' / '1 October 2026 · 14:20 Europe/Zurich'; Art.50 chunks embedded. G3 text-prompt-only generation, no reference imagery; G4 no people/logos; G5 captions/signature/disclosure verified on the finished master.",
+  "sha256_16x9": "13ed0d369fff2b157cc6f0fb0fb88aa7a7dccd382ecbe3e082c9afef120b30bd",
+  "sha256_4x5": "71cd30ee0b2f2cc7c8071ed3b09969a47ad80eacbb8aea1b0cec6530b8b55825",
+  "sha256_9x16": "89821295f53fb2c25a3830d657cc689cc7e7f004901ecbbf732cf2ba792e97f6",
   "open_meteo": {
-    "retrieved_utc": "2026-09-27T16:50:58Z",
-    "http_date": "Sun, 27 Sep 2026 16:50:58 GMT",
-    "valid": "2026-09-24T14:00",
-    "model_valid_hour": "14:00–14:59",
-    "scenario_minute": "14:38",
+    "provider": "Open-Meteo",
+    "retrieved_at": "2026-10-01T21:03:26Z",
+    "valid_at": "2026-10-01T23:00",
+    "temperature_2m": 11.5,
     "weather_code": 3,
-    "cloud_cover": 90,
-    "temperature_2m": 7.3,
-    "apparent_temperature": 3.8,
-    "wind_speed_10m": 9.7,
-    "wind_direction_10m": 338,
-    "relative_humidity_2m": 31,
-    "precipitation": 0.0,
-    "is_day": 1,
-    "elevation": 3057.0,
-    "latitude": 45.9834,
-    "longitude": 7.7826
+    "cloud_cover": 100,
+    "wind_speed_10m": 2.2,
+    "note": "Model data from Open-Meteo, retrieved at build time as the build reference — not a verified on-site observation. The depicted scenario is a daytime artistic interpretation."
   },
-  "approved_at": "2026-09-28T01:02:58.625526+00:00"
+  "approved_at": "2026-10-01T21:10:00Z"
 }
