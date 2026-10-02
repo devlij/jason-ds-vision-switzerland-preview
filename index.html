@@ -155,6 +155,11 @@
     .flag-chip.flag-fr { background: linear-gradient(to right,#0055A4 0 33.34%,#fff 0 66.67%,#EF4135 0); }
     .flag-chip.flag-gr { background: repeating-linear-gradient(to bottom,#0D5EAF 0 3px,#fff 0 6px); }
     .flag-chip.flag-nl { background: linear-gradient(to bottom,#AE1C28 0 33.34%,#fff 0 66.67%,#21468B 0); }.flag-chip.flag-no,.flag-no{background:linear-gradient(#00205B,#00205B) center/100% 20% no-repeat,linear-gradient(#00205B,#00205B) center/22% 100% no-repeat,linear-gradient(#fff,#fff) center/100% 38% no-repeat,linear-gradient(#fff,#fff) center/40% 100% no-repeat,#BA0C2F}.flag-chip.flag-dk,.flag-dk{background:linear-gradient(to bottom,transparent 38%,#fff 38%,#fff 62%,transparent 62%),linear-gradient(to right,transparent 28%,#fff 28%,#fff 44%,transparent 44%),#C8102E}.flag-chip.flag-ch,.flag-ch{background:linear-gradient(#fff,#fff) center/45% 22% no-repeat,linear-gradient(#fff,#fff) center/22% 65% no-repeat,#DA291C}
+    .flag-chip.flag-fi { background: linear-gradient(to bottom, transparent 40%, #002F6C 40%, #002F6C 60%, transparent 60%), linear-gradient(to right, transparent 28%, #002F6C 28%, #002F6C 44%, transparent 44%), #fff; }
+    .flag-chip.flag-se { background: linear-gradient(to bottom, transparent 40%, #FECC02 40%, #FECC02 60%, transparent 60%), linear-gradient(to right, transparent 28%, #FECC02 28%, #FECC02 44%, transparent 44%), #006AA7; }
+    .flag-chip.flag-ie { background: linear-gradient(to right, #169B62 0 33.34%, #fff 0 66.67%, #FF883E 0); }
+    .flag-chip.flag-gb { background: linear-gradient(to bottom, transparent 44%, #C8102E 44%, #C8102E 56%, transparent 56%), linear-gradient(to right, transparent 46%, #C8102E 46%, #C8102E 54%, transparent 54%), linear-gradient(to bottom, transparent 40%, #fff 40%, #fff 60%, transparent 60%), linear-gradient(to right, transparent 42%, #fff 42%, #fff 58%, transparent 58%), #012169; }
+    .country-switch .current { color: var(--text); font-weight: 600; }
     .lb { position: fixed; inset: 0; z-index: 60; display: none; align-items: center; justify-content: center; background: rgba(20, 13, 13, 0.93); }
     .lb.open { display: flex; }
     .lb figure { margin: 0; max-width: 94vw; display: flex; flex-direction: column; align-items: center; }
@@ -223,24 +228,36 @@
     <p class="pointer">Every image is free to use — no credit required. See <a href="#license">license</a> below.</p>
     <h1><span class="flag" aria-hidden="true"><svg viewBox="0 0 27 18" xmlns="http://www.w3.org/2000/svg"><rect width="27" height="18" fill="#DA291C"/><g fill="#fff"><rect x="11" y="3" width="5" height="12"/><rect x="7.5" y="6.5" width="12" height="5"/></g></svg></span>Jason D’s Vision — Switzerland</h1>
     <p class="qc-count" id="qc-count"></p>
-    <nav class="country-switch" aria-label="Country galleries"><a class="home-link" href="https://jdvision.org/">&#8962; Home</a><span class="sep" aria-hidden="true">|</span>
+    <nav class="country-switch" aria-label="Country galleries">
+      <a class="home-link" href="https://jdvision.org/">&#8962; Home</a>
+      <span class="sep" aria-hidden="true">|</span>
       <a href="https://germany.jdvision.org/"><span class="flag-chip flag-de" aria-hidden="true"></span>Germany</a>
       <span class="sep" aria-hidden="true">|</span>
       <a href="https://italy.jdvision.org/"><span class="flag-chip flag-it" aria-hidden="true"></span>Italy</a>
       <span class="sep" aria-hidden="true">|</span>
       <a href="https://france.jdvision.org/"><span class="flag-chip flag-fr" aria-hidden="true"></span>France</a>
       <span class="sep" aria-hidden="true">|</span>
-      <a href="https://greece.jdvision.org/"><span class="flag-chip flag-gr" aria-hidden="true"></span>Greece</a>
-      <span class="sep" aria-hidden="true">|</span>
       <a href="https://spain.jdvision.org/"><span class="flag-chip flag-es" aria-hidden="true"></span>Spain</a>
       <span class="sep" aria-hidden="true">|</span>
-      <a href="https://devlij.github.io/jason-ds-vision-norway-preview/"><span class="flag-chip flag-no" aria-hidden="true"></span>Norway</a>
+      <a href="https://greece.jdvision.org/"><span class="flag-chip flag-gr" aria-hidden="true"></span>Greece</a>
       <span class="sep" aria-hidden="true">|</span>
-      <a href="https://devlij.github.io/jason-ds-vision-denmark-preview/"><span class="flag-chip flag-dk" aria-hidden="true"></span>Denmark</a>
+      <a href="https://norway.jdvision.org/"><span class="flag-chip flag-no" aria-hidden="true"></span>Norway</a>
       <span class="sep" aria-hidden="true">|</span>
-      <span aria-current="page"><span class="flag-chip" aria-hidden="true"><svg viewBox="0 0 27 18" xmlns="http://www.w3.org/2000/svg"><rect width="27" height="18" fill="#DA291C"/><g fill="#fff"><rect x="11" y="3" width="5" height="12"/><rect x="7.5" y="6.5" width="12" height="5"/></g></svg></span>Switzerland</span>
+      <a href="https://denmark.jdvision.org/"><span class="flag-chip flag-dk" aria-hidden="true"></span>Denmark</a>
+      <span class="sep" aria-hidden="true">|</span>
+      <a href="https://netherlands.jdvision.org/"><span class="flag-chip flag-nl" aria-hidden="true"></span>Netherlands</a>
+      <span class="sep" aria-hidden="true">|</span>
+      <a href="https://devlij.github.io/jason-ds-vision-finland-preview/"><span class="flag-chip flag-fi" aria-hidden="true"></span>Finland</a>
+      <span class="sep" aria-hidden="true">|</span>
+      <a href="https://sweden.jdvision.org/"><span class="flag-chip flag-se" aria-hidden="true"></span>Sweden</a>
+      <span class="sep" aria-hidden="true">|</span>
+      <a href="https://ireland.jdvision.org/"><span class="flag-chip flag-ie" aria-hidden="true"></span>Ireland</a>
+      <span class="sep" aria-hidden="true">|</span>
+      <a href="https://uk.jdvision.org/"><span class="flag-chip flag-gb" aria-hidden="true"></span>United Kingdom</a>
+      <span class="sep" aria-hidden="true">|</span>
+      <span class="current" aria-current="page"><span class="flag-chip" aria-hidden="true"><svg viewBox="0 0 27 18" xmlns="http://www.w3.org/2000/svg"><rect width="27" height="18" fill="#DA291C"/><g fill="#fff"><rect x="11" y="3" width="5" height="12"/><rect x="7.5" y="6.5" width="12" height="5"/></g></svg></span>Switzerland</span>
     </nav>
-    <p class="sub">Preview gallery · Country → Region → City · Candidate scenes until an independent QC pass</p>
+    <p class="sub" id="gallery-lead">Preview gallery · Country → Region → City</p>
   </header>
 <div class="wotd" id="wotd" lang="gsw">
   <span class="kicker">Wort vom Tag · Word of the day</span>
@@ -7028,8 +7045,21 @@
       noResults.style.display = filtered.length ? 'none' : 'block';
       countEl.textContent = filtered.length + ' scene' + (filtered.length === 1 ? '' : 's');
       const approvedN = SCENES.filter(function (x) { return x.approval_status === "Approved"; }).length;
+      const waitingN = SCENES.length - approvedN;
       const qcCountEl = document.getElementById("qc-count");
-      if (qcCountEl) { qcCountEl.textContent = approvedN + " of " + SCENES.length + " independently approved \u00b7 " + (SCENES.length - approvedN) + " awaiting QC"; }
+      if (qcCountEl) {
+        qcCountEl.textContent = waitingN
+          ? approvedN + " of " + SCENES.length + " independently approved \u00b7 " + waitingN + " awaiting QC"
+          : approvedN + " of " + SCENES.length + " independently approved";
+      }
+      const leadEl = document.getElementById("gallery-lead");
+      if (leadEl) {
+        let lead = "Preview gallery \u00b7 Country \u2192 Region \u2192 City";
+        if (approvedN === 0) lead += " \u00b7 Candidate scenes until an independent QC pass";
+        else if (waitingN === 0) lead += " \u00b7 " + approvedN + " independently approved";
+        else lead += " \u00b7 " + approvedN + " independently approved \u00b7 " + waitingN + " candidate until an independent QC pass";
+        leadEl.textContent = lead;
+      }
       for (const s of filtered) {
         const card = document.createElement('article');
         card.className = 'card';
@@ -7040,7 +7070,10 @@
         const day16 = s.file_16x9_day || "";
         const day45 = s.file_4x5_day || "";
         const day916 = s.file_9x16_day || "";
-        const dayReady = !!day16 && (!file45 || !!day45) && (!file916 || !!day916);
+        // 16:9 and 4:5 daylight masters are enough. A 9:16 night file must not
+        // hide the toggle: no 9:16 daylight master is invented, and A9 does not
+        // regenerate the existing daylight files.
+        const dayReady = !!day16 && (!file45 || !!day45);
         const status = s.approval_status || 'Candidate';
         const formats = [];
         if (file16) formats.push("16x9");
@@ -7102,10 +7135,15 @@
         const dfmt = ftab ? ftab.getAttribute('data-format') : '16x9';
         const dlink = dcard.querySelector('a.thumb');
         const dimg = dlink && dlink.querySelector('img');
+        let shownDay = false;
         if (dimg && dlink) {
           const dkey = dfmt === '4x5' ? (isDay ? 'data-src-45-day' : 'data-src-45') : dfmt === '9x16' ? (isDay ? 'data-src-916-day' : 'data-src-916') : (isDay ? 'data-src-16-day' : 'data-src-16');
           const dnext = dimg.getAttribute(dkey);
-          if (dnext) { dimg.src = dnext; dlink.href = dnext; }
+          if (dnext) {
+            dimg.src = dnext;
+            dlink.href = dnext;
+            shownDay = isDay;
+          }
         }
         dcard.querySelectorAll('a.download').forEach((a) => {
           const f = a.getAttribute('data-dl');
@@ -7114,7 +7152,7 @@
           if (u) a.href = u;
         });
         const sc = dcard.querySelector('p.scenario');
-        if (sc) sc.textContent = isDay ? '\u2600 Daylight variant \u00b7 derived from the night interpretation' : 'Scenario: ' + sc.getAttribute('data-scenario');
+        if (sc) sc.textContent = shownDay ? '\u2600 Daylight variant \u00b7 derived from the night interpretation' : 'Scenario: ' + sc.getAttribute('data-scenario');
         return;
       }
       const tab = event.target.closest('.fmt-tab');
@@ -7145,6 +7183,9 @@
       }
       link.classList.toggle('tall', fmt === '4x5');
       link.classList.toggle('tall916', fmt === '9x16');
+      const daySrc = fmt === '4x5' ? img.getAttribute('data-src-45-day') : fmt === '9x16' ? img.getAttribute('data-src-916-day') : img.getAttribute('data-src-16-day');
+      const sc = card.querySelector('p.scenario');
+      if (sc) sc.textContent = (useDay && daySrc && next === daySrc) ? '\u2600 Daylight variant \u00b7 derived from the night interpretation' : 'Scenario: ' + (sc.getAttribute('data-scenario') || '');
     });
     q.addEventListener('input', render);
     region.addEventListener('change', render);
