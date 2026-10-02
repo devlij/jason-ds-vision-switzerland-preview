@@ -99,6 +99,7 @@
     .fmt-tab.is-active {
       background: var(--accent); border-color: var(--accent); color: var(--bg); font-weight: 700;
     }
+    .fmt-tab:disabled, .fmt-tab.is-disabled { opacity: 0.4; cursor: default; }
     .day-tab {
       display: inline-block; background: #243049; color: var(--text);
       border-radius: 8px; padding: 0.4rem 0.7rem; font-size: 0.85rem; border: 1px solid var(--line);
@@ -7040,7 +7041,8 @@
         const day16 = s.file_16x9_day || "";
         const day45 = s.file_4x5_day || "";
         const day916 = s.file_9x16_day || "";
-        const dayReady = !!day16 && (!file45 || !!day45) && (!file916 || !!day916);
+        // A night 9:16 without a daylight 9:16 must not hide this control.
+        const dayReady = !!day16 && (!file45 || !!day45);
         const status = s.approval_status || 'Candidate';
         const formats = [];
         if (file16) formats.push("16x9");
@@ -7098,10 +7100,21 @@
         dtab.classList.toggle('is-active', isDay);
         dtab.setAttribute('aria-pressed', isDay ? 'true' : 'false');
         dtab.setAttribute('data-daynight', isDay ? 'day' : 'night');
-        const ftab = dcard.querySelector('.fmt-tab.is-active');
-        const dfmt = ftab ? ftab.getAttribute('data-format') : '16x9';
         const dlink = dcard.querySelector('a.thumb');
         const dimg = dlink && dlink.querySelector('img');
+        const t916 = dcard.querySelector('.fmt-tab[data-format="9x16"]');
+        if (t916) {
+          const day916src = dimg && dimg.getAttribute('data-src-916-day');
+          const hide916 = isDay && !day916src;
+          t916.disabled = hide916;
+          t916.classList.toggle('is-disabled', hide916);
+          if (hide916 && t916.classList.contains('is-active')) {
+            const t16 = dcard.querySelector('.fmt-tab[data-format="16x9"]') || dcard.querySelector('.fmt-tab[data-format="4x5"]');
+            if (t16) t16.click();
+          }
+        }
+        const ftab = dcard.querySelector('.fmt-tab.is-active');
+        const dfmt = ftab ? ftab.getAttribute('data-format') : '16x9';
         if (dimg && dlink) {
           const dkey = dfmt === '4x5' ? (isDay ? 'data-src-45-day' : 'data-src-45') : dfmt === '9x16' ? (isDay ? 'data-src-916-day' : 'data-src-916') : (isDay ? 'data-src-16-day' : 'data-src-16');
           const dnext = dimg.getAttribute(dkey);
@@ -7118,7 +7131,7 @@
         return;
       }
       const tab = event.target.closest('.fmt-tab');
-      if (!tab) return;
+      if (!tab || tab.disabled) return;
       event.preventDefault();
       event.stopPropagation();
       const card = tab.closest('.card');
