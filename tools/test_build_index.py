@@ -106,6 +106,18 @@ def test_daylight_pair_is_published_only_when_both_masters_exist() -> None:
     assert "file_16x9_day" not in partial
     assert "file_4x5_day" not in partial
 
+    # CH-01-301 has daylight 16:9 and 4:5 plus a night 9:16 and no daylight 9:16.
+    # The card still offers the daylight toggle; the 9:16 tab is disabled while it is on.
+    both = by_id["CH-01-301"]
+    assert both["file_16x9_day"].endswith("ch-01-301-daylight-16x9.png")
+    assert both["file_4x5_day"].endswith("ch-01-301-daylight-4x5.png")
+    assert both["file_9x16"].endswith("ch-01-301-9x16.png")
+    assert "file_9x16_day" not in both
+    html = gallery.render_index(scenes, gallery.phase1_meta(scenes, gallery.load_tags()))
+    assert "const dayReady = !!day16 && (!file45 || !!day45);" in html
+    assert "(!file916 || !!day916)" not in html
+    assert "t916.disabled = hide916;" in html
+
 
 def test_status_class_follows_approval_status_text() -> None:
     scenes = gallery.publishable_scenes(gallery.load_manifests())
