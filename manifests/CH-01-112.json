@@ -17,5 +17,7 @@
   "approval_basis": "Gate 1: small stone and farm village of Soubey on a bend of the Doubs with a modest river bridge and wooded Jura slopes, no cliff amphitheatre — matches anchors. Gate 2: caption 'Soubey, Soubey' and 'Scenario: 24 September 2026 · 16:38 Europe/Zurich' exact; signature bottom-right; disclosure present. Weather verified: Open-Meteo retrieved 2026-09-25T23:40:51Z, unique to this scene, model hour covers 16:38; overcast code 3 matches. Gate 3: text-prompt-only, no photographic inputs. Gate 4: no people, no logos (documented only). Gate 5: clear.",
   "approved_at": "2026-09-26T05:34:30.427467+00:00",
   "sha256_16x9": "2db09330ee19c79385478c44821ad475fc4e8ec8b8242db59350721ca56a580f",
-  "sha256_4x5": "380d2e7620b6d8cec6adde0318a470180d50a96cc6797e7a38bd7ba4362107d4"
+  "sha256_4x5": "380d2e7620b6d8cec6adde0318a470180d50a96cc6797e7a38bd7ba4362107d4",
+  "file_9x16": "library/world/Switzerland/Soubey/ch-01-112-9x16.png",
+  "sha256_9x16": "0c7cab7e54fea247081b63e36ce0c8bf055dea3a810b852523e8ab9e698377c2"
 }

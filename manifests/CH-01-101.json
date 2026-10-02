@@ -17,5 +17,7 @@
   "approval_basis": "Gate 1: the master shows the upper Reichenbach Fall as a narrow plunge into a rocky cauldron with several smaller drops below in a forested gorge — matches the documented anchors. Gate 2: caption 'Reichenbach Falls, Schattenhalb' and 'Scenario: 24 September 2026 · 16:37 Europe/Zurich' exact on-image; 'Jason D's Vision' signature bottom-right; disclosure present. Weather claim verified: Open-Meteo retrieved 2026-09-25T23:40:40Z, unique to this scene, model-valid hour 16:00–16:59 covers the 16:37 scenario. Gate 3: note claims text-prompt-only, no photographic inputs. Gate 4: no people, no logos (documented only). Gate 5: clear.",
   "approved_at": "2026-09-26T05:32:20.560949+00:00",
   "sha256_16x9": "753f486a8c4adecd9a321de355b14d6c611c5a58ed9dc0d271525d1edc80a67c",
-  "sha256_4x5": "6dd308f40675263c3a6150d388e54fcf312ef891da05c1d357962a68602cc3d8"
+  "sha256_4x5": "6dd308f40675263c3a6150d388e54fcf312ef891da05c1d357962a68602cc3d8",
+  "file_9x16": "library/world/Switzerland/Schattenhalb/ch-01-101-9x16.png",
+  "sha256_9x16": "62b053a33e4f8421454980a2ec73743310a52b87d82e09fc445bb920e4aba8b5"
 }

@@ -17,5 +17,7 @@
   "approval_basis": "Gate 1: Baden from the Limmat — the long dark covered wooden bridge crossing the river, old town roofs massed beneath the wooded hill crowned by the ruined stone keep; late-September green with first turning leaves under overcast sky. Gate 2: exact masters; on-image 'Baden, Baden', scenario '24 September 2026 · 16:37 Europe/Zurich', disclosure and curly-apostrophe signature confirmed. Retrieval 2026-09-25T23:40:37Z unique to this scene; 16:37 inside the note's 16:00–16:59 model-valid hour. Gate 3: text-prompt-only generation. Gate 4: no people, no logos; commercial call remains Jason's. Gate 5: no blockers.",
   "approved_at": "2026-09-26T04:36:52.553343+00:00",
   "sha256_16x9": "233fb1694dbeb83c8802a91dd1b62312a6a0dc495e90d30590d6fb72f8593b2a",
-  "sha256_4x5": "61afd62fc91b15e07b81cd779f257cf1b80048dc414d86439cacf549cddc5df7"
+  "sha256_4x5": "61afd62fc91b15e07b81cd779f257cf1b80048dc414d86439cacf549cddc5df7",
+  "file_9x16": "library/world/Switzerland/Baden/ch-01-098-9x16.png",
+  "sha256_9x16": "e1015fbf1fa5c5c5ab443269af41141b6c4c419681373d0657a27e913d6a9e75"
 }

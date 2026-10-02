@@ -17,5 +17,7 @@
   "approval_basis": "Gate 1: Meiringen in its steep valley — village of dark chalet roofs with the stone parish church spire at its center, towering rock walls and green forest closing the valley on both sides, the Hasli valley narrowing beyond under overcast cloud. Gate 2: exact masters; on-image 'Meiringen, Meiringen', scenario '24 September 2026 · 16:37 Europe/Zurich', disclosure and curly-apostrophe signature confirmed. Retrieval 2026-09-25T23:40:39Z unique to this scene; 16:37 falls inside the note's 16:00–16:59 model-valid hour. Gate 3: text-prompt-only generation. Gate 4: no people, logos, or readable signage; commercial clearance is Jason's. Gate 5: no blockers.",
   "approved_at": "2026-09-26T04:37:18.815106+00:00",
   "sha256_16x9": "b36cb09cb25217f3eee0f40a8200f448ae607c2633b3a9cec5a00b56295cf1dd",
-  "sha256_4x5": "11a40db9d7ccf26e9ce88ab06d72ec74396349878ffca5cb3fe9fa7d096d462f"
+  "sha256_4x5": "11a40db9d7ccf26e9ce88ab06d72ec74396349878ffca5cb3fe9fa7d096d462f",
+  "file_9x16": "library/world/Switzerland/Meiringen/ch-01-100-9x16.png",
+  "sha256_9x16": "50a2b7032aa39afdeab0a73065fb2b9c666d2ef3c9ab89c0b3eaa401d03e4a87"
 }

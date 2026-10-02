@@ -17,5 +17,7 @@
   "approval_basis": "Gate 1: Sphinx rock with its observatory building and round terrace on permanent snow and ice, the Jungfrau and Mönch peaks on the saddle, the Jungfraufirn leading south — matches anchors, no readable names, no crane. Gate 2: caption 'Jungfraujoch, Fieschertal' and 'Scenario: 24 September 2026 · 16:37 Europe/Zurich' exact; signature bottom-right; disclosure present. Weather verified: Open-Meteo retrieved 2026-09-25T23:40:43Z, unique to this scene, model hour covers 16:37. Gate 3: text-prompt-only, no photographic inputs. Gate 4: no people, no logos (documented only). Gate 5: clear.",
   "approved_at": "2026-09-26T05:32:59.938144+00:00",
   "sha256_16x9": "06c4368b3b6ee49323dbd81e477be06f44de673179126517a47effd12c5650cd",
-  "sha256_4x5": "080463fc6ca343aaeb2ab3cb1b706257bc373bd633fe85e75f2c76e30e5f3174"
+  "sha256_4x5": "080463fc6ca343aaeb2ab3cb1b706257bc373bd633fe85e75f2c76e30e5f3174",
+  "file_9x16": "library/world/Switzerland/Fieschertal/ch-01-104-9x16.png",
+  "sha256_9x16": "d9ca9779678b8f2c2b47c3e0d51563d6070d795132b1e1946dd66244ced8a836"
 }
