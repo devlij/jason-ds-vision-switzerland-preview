@@ -13,6 +13,38 @@
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
   "approval_status": "Approved",
+  "daylight_variant": {
+    "variant_of_entry_id": "CH-01-128",
+    "derived_from": "Text-prompt-only photorealistic daylight plate of the same place. Not image-anchored on the published master. Europe/Zurich was night on 4 October 2026, so this plate has no scenario timestamp and no weather line.",
+    "source_night": {
+      "16x9": {
+        "path": "library/world/Switzerland/Payerne/ch-01-128-16x9.png",
+        "sha256": "410176cef82f7d7deb7af4d4b8358355a74ebe342618370ce53d996dc307f768"
+      },
+      "4x5": {
+        "path": "library/world/Switzerland/Payerne/ch-01-128-4x5.png",
+        "sha256": "f8d8068e069bbd3c479cfb04345aa906e0ad83dbeb6932005aabf883c0941d2c"
+      },
+      "recorded": "SHA-256 of the published masters immediately before this daylight batch. Post-write hashes are identical; published masters were not rewritten."
+    },
+    "files": {
+      "16x9": "library/world/Switzerland/Payerne/ch-01-128-daylight-16x9.png",
+      "4x5": "library/world/Switzerland/Payerne/ch-01-128-daylight-4x5.png",
+      "9x16": "library/world/Switzerland/Payerne/ch-01-128-daylight-9x16.png"
+    },
+    "sha256": {
+      "16x9": "491ff65bfc0cc262725ff87cc904f0ca9ff883200780ba0ee5a4d3b335b7657a",
+      "4x5": "881a1c99666abbf26aae38c27a424133f585bb8c97f0e1efabbb06951e96394c",
+      "9x16": "4f91f45693ee83002634ee6645c7fa51c81089c4907f00bfa43e13ba8e2fad70"
+    },
+    "created_date": "2026-10-04",
+    "on_image_caption": "Payerne Abbey, Payerne",
+    "on_image_signature": "Jason D’s Vision",
+    "on_image_disclosure": "AI-generated artistic interpretation · Not a photograph.",
+    "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
+    "derivative_disclosure": "Daylight companion plate for the gallery daylight control. Text-prompt only. No weather claim. No scenario timestamp on the variant. The scene scenario_label is unchanged and is not a daylight weather assertion.",
+    "note": "Photorealistic daylight plate generated text-prompt-only on 2026-10-04. Not derived by relighting the published master and not image-anchored on it. No live daytime weather reading was available. The plate carries no scenario timestamp and no weather line. Published masters were not rewritten."
+  },
   "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
   "approval_basis": "Gate 1: the abbey church of Payerne — the great Romanesque basilica with long nave and square tower, the stone exterior on the market square. Gate 2: masters 1920x1080/864x1080 exact; on-image caption 'Payerne Abbey, Payerne', scenario '24 September 2026 · 16:57 Europe/Zurich', disclosure and signature 'Jason D’s Vision' legible on the gradient scrim. Weather retrieved 2026-09-25T23:41:07Z, unique to this scene across the 101-145 window; model-valid hour 16:00-16:59 matches the scenario. Gate 3: text-prompt-only lineage, no photographic inputs per note. Gate 4: no people, no logos — documented only. Gate 5: no open blockers.",
   "approved_at": "2026-09-26T06:37:12.696227+00:00",

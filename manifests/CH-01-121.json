@@ -13,6 +13,38 @@
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
   "approval_status": "Approved",
+  "daylight_variant": {
+    "variant_of_entry_id": "CH-01-121",
+    "derived_from": "Text-prompt-only photorealistic daylight plate of the same place. Not image-anchored on the published master. Europe/Zurich was night on 4 October 2026, so this plate has no scenario timestamp and no weather line.",
+    "source_night": {
+      "16x9": {
+        "path": "library/world/Switzerland/Evolène/ch-01-121-16x9.png",
+        "sha256": "6471c5cd0881509ffa84cb639eb998a93df26baca6d517ce3df59240ebe23813"
+      },
+      "4x5": {
+        "path": "library/world/Switzerland/Evolène/ch-01-121-4x5.png",
+        "sha256": "5aa37bd59a61e132ac73f34442ea5aa1960dedf34059e22a267644f734060b9f"
+      },
+      "recorded": "SHA-256 of the published masters immediately before this daylight batch. Post-write hashes are identical; published masters were not rewritten."
+    },
+    "files": {
+      "16x9": "library/world/Switzerland/Evolène/ch-01-121-daylight-16x9.png",
+      "4x5": "library/world/Switzerland/Evolène/ch-01-121-daylight-4x5.png",
+      "9x16": "library/world/Switzerland/Evolène/ch-01-121-daylight-9x16.png"
+    },
+    "sha256": {
+      "16x9": "01218aec894e9f1d9de82d57dad3e10b29537761ab444dfb494da2ab21c23a6e",
+      "4x5": "464ad569c2dd3ff297c6386c99ca75012097bedf0647c69ba6136826be8ef961",
+      "9x16": "0699ef7ffa3d7a9e836e4cdd10771879fefc7d02d9228202433b2d39d9f7ec10"
+    },
+    "created_date": "2026-10-04",
+    "on_image_caption": "Evolène, Evolène",
+    "on_image_signature": "Jason D’s Vision",
+    "on_image_disclosure": "AI-generated artistic interpretation · Not a photograph.",
+    "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
+    "derivative_disclosure": "Daylight companion plate for the gallery daylight control. Text-prompt only. No weather claim. No scenario timestamp on the variant. The scene scenario_label is unchanged and is not a daylight weather assertion.",
+    "note": "Photorealistic daylight plate generated text-prompt-only on 2026-10-04. Not derived by relighting the published master and not image-anchored on it. No live daytime weather reading was available. The plate carries no scenario timestamp and no weather line. Published masters were not rewritten."
+  },
   "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
   "approval_basis": "Gate 1: dark timber houses on stone bases with mazots on staddle stones along the lane, cloud-wreathed Valais peaks — the Evolène frame, not Zermatt. Gate 2: masters 1920x1080/864x1080 exact; on-image caption 'Evolène, Evolène', scenario '24 September 2026 · 16:57 Europe/Zurich', disclosure and signature 'Jason D’s Vision' legible on the gradient scrim. Weather retrieved 2026-09-25T23:41:00Z, unique to this scene across the 101-145 window; model-valid hour 16:00-16:59 matches the scenario. Gate 3: text-prompt-only lineage, no photographic inputs per note. Gate 4: no people, no logos — documented only. Gate 5: no open blockers.",
   "approved_at": "2026-09-26T06:35:55.512848+00:00",

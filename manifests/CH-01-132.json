@@ -13,6 +13,38 @@
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
   "approval_status": "Approved",
+  "daylight_variant": {
+    "variant_of_entry_id": "CH-01-132",
+    "derived_from": "Text-prompt-only photorealistic daylight plate of the same place. Not image-anchored on the published master. Europe/Zurich was night on 4 October 2026, so this plate has no scenario timestamp and no weather line.",
+    "source_night": {
+      "16x9": {
+        "path": "library/world/Switzerland/Laax/ch-01-132-16x9.png",
+        "sha256": "08145564979cbcb296046fa3450ac835206b3ec818ba440203c66248a90a71bc"
+      },
+      "4x5": {
+        "path": "library/world/Switzerland/Laax/ch-01-132-4x5.png",
+        "sha256": "ee8010bd0ee1ee49336f849f966b613762a05f8097c3c6f5e64a8ffe9319b921"
+      },
+      "recorded": "SHA-256 of the published masters immediately before this daylight batch. Post-write hashes are identical; published masters were not rewritten."
+    },
+    "files": {
+      "16x9": "library/world/Switzerland/Laax/ch-01-132-daylight-16x9.png",
+      "4x5": "library/world/Switzerland/Laax/ch-01-132-daylight-4x5.png",
+      "9x16": "library/world/Switzerland/Laax/ch-01-132-daylight-9x16.png"
+    },
+    "sha256": {
+      "16x9": "9d13944606edc8efd716e0080e677d06eefab9f882ceb35608b2add67261f580",
+      "4x5": "e8a4b8c052f04c364adb6134c86a13bea7c9cc78c6d704eab007f4d148260ac6",
+      "9x16": "417beeb46e5d13bf3512bb0b67258e9edd486a1e167e7d4a81843a678800b134"
+    },
+    "created_date": "2026-10-04",
+    "on_image_caption": "Laax, Laax",
+    "on_image_signature": "Jason D’s Vision",
+    "on_image_disclosure": "AI-generated artistic interpretation · Not a photograph.",
+    "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
+    "derivative_disclosure": "Daylight companion plate for the gallery daylight control. Text-prompt only. No weather claim. No scenario timestamp on the variant. The scene scenario_label is unchanged and is not a daylight weather assertion.",
+    "note": "Photorealistic daylight plate generated text-prompt-only on 2026-10-04. Not derived by relighting the published master and not image-anchored on it. No live daytime weather reading was available. The plate carries no scenario timestamp and no weather line. Published masters were not rewritten."
+  },
   "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
   "approval_basis": "Gate 1: Laax Dorf with baroque church of Saint Gallus and Saint Otmar, onion-domed tower beside the village, small Lag Grond lake with reflections in foreground, southern peaks; no Flimserstein wall, no cable-car station. Gate 2: caption 'Laax, Laax', scenario '24 September 2026 · 17:14 Europe/Zurich', disclosure and curly-apostrophe signature exact on bottom gradient; per-scene Open-Meteo retrieval 2026-09-25T23:41:11Z verified unique across all 373 repo notes, valid hour 17:00-17:59 covers 17:14. Gate 3: text-prompt-only, no photographic inputs reported. Gate 4: no prominent people, no focal logos (internal note only). Gate 5: no open blockers.",
   "approved_at": "2026-09-26T07:34:46.585541+00:00",

@@ -13,6 +13,38 @@
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
   "approval_status": "Approved",
+  "daylight_variant": {
+    "variant_of_entry_id": "CH-01-125",
+    "derived_from": "Text-prompt-only photorealistic daylight plate of the same place. Not image-anchored on the published master. Europe/Zurich was night on 4 October 2026, so this plate has no scenario timestamp and no weather line.",
+    "source_night": {
+      "16x9": {
+        "path": "library/world/Switzerland/Grindelwald/ch-01-125-16x9.png",
+        "sha256": "94f3323954f8f85ec7ba3111d982e6733d541410168a8ff6d385558fb9ccc6a5"
+      },
+      "4x5": {
+        "path": "library/world/Switzerland/Grindelwald/ch-01-125-4x5.png",
+        "sha256": "73da308a0b37bd2e2f0a1c5f2aec6d8c1c86cf66da1c4493ead8d0f8e0034c6a"
+      },
+      "recorded": "SHA-256 of the published masters immediately before this daylight batch. Post-write hashes are identical; published masters were not rewritten."
+    },
+    "files": {
+      "16x9": "library/world/Switzerland/Grindelwald/ch-01-125-daylight-16x9.png",
+      "4x5": "library/world/Switzerland/Grindelwald/ch-01-125-daylight-4x5.png",
+      "9x16": "library/world/Switzerland/Grindelwald/ch-01-125-daylight-9x16.png"
+    },
+    "sha256": {
+      "16x9": "417ed6042083e5980ca5f5c9ad3717fcae83ef2a7958cc7cee3b544926ff627a",
+      "4x5": "bf6f5911b3ad813947026a96160e604ad6af36f5b2b438801b15b47f0cc14d79",
+      "9x16": "63353b200897a03c1ed1bdabb8e6c6b5d4b922665416f114d3849fe730fc8526"
+    },
+    "created_date": "2026-10-04",
+    "on_image_caption": "First, Grindelwald",
+    "on_image_signature": "Jason D’s Vision",
+    "on_image_disclosure": "AI-generated artistic interpretation · Not a photograph.",
+    "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
+    "derivative_disclosure": "Daylight companion plate for the gallery daylight control. Text-prompt only. No weather claim. No scenario timestamp on the variant. The scene scenario_label is unchanged and is not a daylight weather assertion.",
+    "note": "Photorealistic daylight plate generated text-prompt-only on 2026-10-04. Not derived by relighting the published master and not image-anchored on it. No live daytime weather reading was available. The plate carries no scenario timestamp and no weather line. Published masters were not rewritten."
+  },
   "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
   "approval_basis": "Gate 1: First station terrace and metal cliff walkway on the Schwarzhorn slopes above Grindelwald at 2168m, Bernese Oberland peaks beyond. Gate 2: masters 1920x1080/864x1080 exact; on-image caption 'First, Grindelwald', scenario '24 September 2026 · 16:57 Europe/Zurich', disclosure and signature 'Jason D’s Vision' legible on the gradient scrim. Weather retrieved 2026-09-25T23:41:04Z, unique to this scene across the 101-145 window; model-valid hour 16:00-16:59 matches the scenario. Gate 3: text-prompt-only lineage, no photographic inputs per note. Gate 4: no people, no logos — documented only. Gate 5: no open blockers.",
   "approved_at": "2026-09-26T06:36:34.465032+00:00",

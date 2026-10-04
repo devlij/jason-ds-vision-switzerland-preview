@@ -13,6 +13,38 @@
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
   "approval_status": "Approved",
+  "daylight_variant": {
+    "variant_of_entry_id": "CH-01-135",
+    "derived_from": "Text-prompt-only photorealistic daylight plate of the same place. Not image-anchored on the published master. Europe/Zurich was night on 4 October 2026, so this plate has no scenario timestamp and no weather line.",
+    "source_night": {
+      "16x9": {
+        "path": "library/world/Switzerland/Rorschach/ch-01-135-16x9.png",
+        "sha256": "6f1821a9ee588cbf21d164a71ddd62595aab444737e76dc83d93cffedf60955d"
+      },
+      "4x5": {
+        "path": "library/world/Switzerland/Rorschach/ch-01-135-4x5.png",
+        "sha256": "4babc9edcb162f2b2ea8f5d8e48122744ac3f2b30f08cc817d4c9aed1030c911"
+      },
+      "recorded": "SHA-256 of the published masters immediately before this daylight batch. Post-write hashes are identical; published masters were not rewritten."
+    },
+    "files": {
+      "16x9": "library/world/Switzerland/Rorschach/ch-01-135-daylight-16x9.png",
+      "4x5": "library/world/Switzerland/Rorschach/ch-01-135-daylight-4x5.png",
+      "9x16": "library/world/Switzerland/Rorschach/ch-01-135-daylight-9x16.png"
+    },
+    "sha256": {
+      "16x9": "8881faa28b94d09b7eba992be8b073d85ec47c8f5a11e32717206ab352cf8c63",
+      "4x5": "5e1e967005e5bb5e76052107e03849223a1464bac9d1a435b69e56c8d85b1cdb",
+      "9x16": "ef69a8adb1f0f220f8804e37ba575c716d4a301be6c72b7da9d0f64ddc9603fb"
+    },
+    "created_date": "2026-10-04",
+    "on_image_caption": "Rorschach, Rorschach",
+    "on_image_signature": "Jason D’s Vision",
+    "on_image_disclosure": "AI-generated artistic interpretation · Not a photograph.",
+    "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
+    "derivative_disclosure": "Daylight companion plate for the gallery daylight control. Text-prompt only. No weather claim. No scenario timestamp on the variant. The scene scenario_label is unchanged and is not a daylight weather assertion.",
+    "note": "Photorealistic daylight plate generated text-prompt-only on 2026-10-04. Not derived by relighting the published master and not image-anchored on it. No live daytime weather reading was available. The plate carries no scenario timestamp and no weather line. Published masters were not rewritten."
+  },
   "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
   "approval_basis": "Gate 1: Rorschach harbor quay with long pale Kornhaus granary, marina with sailboats, open Lake Constance to a low far shore, no readable boat names; overcast light matching model code 3/100% cover. Gate 2: caption 'Rorschach, Rorschach', scenario '24 September 2026 · 17:14 Europe/Zurich', disclosure and curly-apostrophe signature exact on bottom gradient; per-scene Open-Meteo retrieval 2026-09-25T23:42:15Z verified unique across all 373 repo notes, valid hour 17:00-17:59 covers 17:14. Gate 3: text-prompt-only, no photographic inputs reported. Gate 4: no prominent people, no focal logos (internal note only). Gate 5: no open blockers.",
   "approved_at": "2026-09-26T07:35:35.383958+00:00",
