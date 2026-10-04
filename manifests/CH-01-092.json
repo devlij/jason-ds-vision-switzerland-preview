@@ -13,6 +13,38 @@
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
   "approval_status": "Approved",
+  "daylight_variant": {
+    "variant_of_entry_id": "CH-01-092",
+    "derived_from": "Text-prompt-only photorealistic daylight plate of the same place. Not image-anchored on the published master. Europe/Zurich was night on 4 October 2026, so this plate has no scenario timestamp and no weather line.",
+    "source_night": {
+      "16x9": {
+        "path": "library/world/Switzerland/Nyon/ch-01-092-16x9.png",
+        "sha256": "8647f5cbf0d15f7bc833932a6225e0acf4b33239cb4ce71e9f895d3f06a19396"
+      },
+      "4x5": {
+        "path": "library/world/Switzerland/Nyon/ch-01-092-4x5.png",
+        "sha256": "dbb2730c80a18f5604df67b064d1db907545deca7c7fedf485fcc5329d00d0e9"
+      },
+      "recorded": "SHA-256 of the published masters immediately before this daylight batch. Post-write hashes are identical; published masters were not rewritten."
+    },
+    "files": {
+      "16x9": "library/world/Switzerland/Nyon/ch-01-092-daylight-16x9.png",
+      "4x5": "library/world/Switzerland/Nyon/ch-01-092-daylight-4x5.png",
+      "9x16": "library/world/Switzerland/Nyon/ch-01-092-daylight-9x16.png"
+    },
+    "sha256": {
+      "16x9": "a11fcbe7b0f82aad37ecae2958bc52739911e597c409206386952b5f51560437",
+      "4x5": "2e9c4da843e244c84cd73491246c537277655ee82c99b20bb2e762fc82faca60",
+      "9x16": "74c31d76ca60e54508cc1b5efee65bd39cecacb6bc645bc839f121ec9de3d691"
+    },
+    "created_date": "2026-10-04",
+    "on_image_caption": "Nyon Castle, Nyon",
+    "on_image_signature": "Jason D’s Vision",
+    "on_image_disclosure": "AI-generated artistic interpretation · Not a photograph.",
+    "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
+    "derivative_disclosure": "Daylight companion plate for the gallery daylight control. Text-prompt only. No weather claim. No scenario timestamp on the variant. The scene scenario_label is unchanged and is not a daylight weather assertion.",
+    "note": "Photorealistic daylight plate generated text-prompt-only on 2026-10-04. Not derived by relighting the published master and not image-anchored on it. No live daytime weather reading was available. The plate carries no scenario timestamp and no weather line. Published masters were not rewritten."
+  },
   "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
   "approval_basis": "Gate 1: Nyon Castle from the Lake Geneva quay — white château with round corner towers built directly against the water, old-town roofs rising behind, the far shore of the lake under a fully overcast sky matching the documented 100% cloud model. Gate 2: exact masters; on-image 'Nyon Castle, Nyon', scenario '24 September 2026 · 16:17 Europe/Zurich', disclosure and curly-apostrophe signature confirmed. Retrieval 2026-09-25T23:40:31Z scene-unique; scenario inside the note's 16:00–16:59 model-valid hour. Gate 3: text-prompt-only, no photographic inputs per note. Gate 4: no people, no readable banner; commercial clearance stays Jason's. Gate 5: no blockers.",
   "approved_at": "2026-09-26T04:35:41.668900+00:00",

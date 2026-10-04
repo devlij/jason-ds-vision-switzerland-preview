@@ -13,6 +13,38 @@
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
   "approval_status": "Approved",
+  "daylight_variant": {
+    "variant_of_entry_id": "CH-01-120",
+    "derived_from": "Text-prompt-only photorealistic daylight plate of the same place. Not image-anchored on the published master. Europe/Zurich was night on 4 October 2026, so this plate has no scenario timestamp and no weather line.",
+    "source_night": {
+      "16x9": {
+        "path": "library/world/Switzerland/Champéry/ch-01-120-16x9.png",
+        "sha256": "376f4be95ba8e51db950b790360e3de48e48774190ac2dc1dcd27355bc4626b9"
+      },
+      "4x5": {
+        "path": "library/world/Switzerland/Champéry/ch-01-120-4x5.png",
+        "sha256": "7c36004c5f0591ce82607cd7ab60a98f4b46770d2e4f829a0e3b333e640d9f60"
+      },
+      "recorded": "SHA-256 of the published masters immediately before this daylight batch. Post-write hashes are identical; published masters were not rewritten."
+    },
+    "files": {
+      "16x9": "library/world/Switzerland/Champéry/ch-01-120-daylight-16x9.png",
+      "4x5": "library/world/Switzerland/Champéry/ch-01-120-daylight-4x5.png",
+      "9x16": "library/world/Switzerland/Champéry/ch-01-120-daylight-9x16.png"
+    },
+    "sha256": {
+      "16x9": "85969f117fbe06bb79113f6eb569b83e1911ff1050d838330a3cb4f70318d51e",
+      "4x5": "6b8e163dc1602bba5f56413ed18f920f0a7d9b6becd87bf8d132f3f8f600a8b7",
+      "9x16": "9eb0e1c3da0fe4ae5a118dfc82aa1f118f6af7ce783f39e206f818f9b086a8c6"
+    },
+    "created_date": "2026-10-04",
+    "on_image_caption": "Champéry, Champéry",
+    "on_image_signature": "Jason D’s Vision",
+    "on_image_disclosure": "AI-generated artistic interpretation · Not a photograph.",
+    "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
+    "derivative_disclosure": "Daylight companion plate for the gallery daylight control. Text-prompt only. No weather claim. No scenario timestamp on the variant. The scene scenario_label is unchanged and is not a daylight weather assertion.",
+    "note": "Photorealistic daylight plate generated text-prompt-only on 2026-10-04. Not derived by relighting the published master and not image-anchored on it. No live daytime weather reading was available. The plate carries no scenario timestamp and no weather line. Published masters were not rewritten."
+  },
   "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
   "approval_basis": "Gate 1: village chalets beneath the limestone teeth of the Dents du Midi — the signature Champéry backdrop. Gate 2: masters 1920x1080/864x1080 exact; on-image caption 'Champéry, Champéry', scenario '24 September 2026 · 16:56 Europe/Zurich', disclosure and signature 'Jason D’s Vision' legible on the gradient scrim. Weather retrieved 2026-09-25T23:40:59Z, unique to this scene across the 101-145 window; model-valid hour 16:00-16:59 matches the scenario. Gate 3: text-prompt-only lineage, no photographic inputs per note. Gate 4: no people, no logos — documented only. Gate 5: no open blockers.",
   "approved_at": "2026-09-26T06:35:51.148525+00:00",

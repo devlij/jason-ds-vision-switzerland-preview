@@ -13,6 +13,38 @@
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
   "approval_status": "Approved",
+  "daylight_variant": {
+    "variant_of_entry_id": "CH-01-104",
+    "derived_from": "Text-prompt-only photorealistic daylight plate of the same place. Not image-anchored on the published master. Europe/Zurich was night on 4 October 2026, so this plate has no scenario timestamp and no weather line.",
+    "source_night": {
+      "16x9": {
+        "path": "library/world/Switzerland/Fieschertal/ch-01-104-16x9.png",
+        "sha256": "06c4368b3b6ee49323dbd81e477be06f44de673179126517a47effd12c5650cd"
+      },
+      "4x5": {
+        "path": "library/world/Switzerland/Fieschertal/ch-01-104-4x5.png",
+        "sha256": "080463fc6ca343aaeb2ab3cb1b706257bc373bd633fe85e75f2c76e30e5f3174"
+      },
+      "recorded": "SHA-256 of the published masters immediately before this daylight batch. Post-write hashes are identical; published masters were not rewritten."
+    },
+    "files": {
+      "16x9": "library/world/Switzerland/Fieschertal/ch-01-104-daylight-16x9.png",
+      "4x5": "library/world/Switzerland/Fieschertal/ch-01-104-daylight-4x5.png",
+      "9x16": "library/world/Switzerland/Fieschertal/ch-01-104-daylight-9x16.png"
+    },
+    "sha256": {
+      "16x9": "1db8c10ce4c359d4463de492c374f76e0cab0c6aebdbeb8df11024021da9a6e5",
+      "4x5": "dc12837b298c4f34a410a63a74841f62cf31d270f3a5e8f28c4370ac48f30d16",
+      "9x16": "0184325f163d6ecbe2412b05bb30ef2d7cef6cc02141a838a4fee076c73c87d5"
+    },
+    "created_date": "2026-10-04",
+    "on_image_caption": "Jungfraujoch, Fieschertal",
+    "on_image_signature": "Jason D’s Vision",
+    "on_image_disclosure": "AI-generated artistic interpretation · Not a photograph.",
+    "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
+    "derivative_disclosure": "Daylight companion plate for the gallery daylight control. Text-prompt only. No weather claim. No scenario timestamp on the variant. The scene scenario_label is unchanged and is not a daylight weather assertion.",
+    "note": "Photorealistic daylight plate generated text-prompt-only on 2026-10-04. Not derived by relighting the published master and not image-anchored on it. No live daytime weather reading was available. The plate carries no scenario timestamp and no weather line. Published masters were not rewritten."
+  },
   "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
   "approval_basis": "Gate 1: Sphinx rock with its observatory building and round terrace on permanent snow and ice, the Jungfrau and Mönch peaks on the saddle, the Jungfraufirn leading south — matches anchors, no readable names, no crane. Gate 2: caption 'Jungfraujoch, Fieschertal' and 'Scenario: 24 September 2026 · 16:37 Europe/Zurich' exact; signature bottom-right; disclosure present. Weather verified: Open-Meteo retrieved 2026-09-25T23:40:43Z, unique to this scene, model hour covers 16:37. Gate 3: text-prompt-only, no photographic inputs. Gate 4: no people, no logos (documented only). Gate 5: clear.",
   "approved_at": "2026-09-26T05:32:59.938144+00:00",

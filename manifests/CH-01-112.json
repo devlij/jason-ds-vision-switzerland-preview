@@ -13,6 +13,38 @@
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
   "approval_status": "Approved",
+  "daylight_variant": {
+    "variant_of_entry_id": "CH-01-112",
+    "derived_from": "Text-prompt-only photorealistic daylight plate of the same place. Not image-anchored on the published master. Europe/Zurich was night on 4 October 2026, so this plate has no scenario timestamp and no weather line.",
+    "source_night": {
+      "16x9": {
+        "path": "library/world/Switzerland/Soubey/ch-01-112-16x9.png",
+        "sha256": "2db09330ee19c79385478c44821ad475fc4e8ec8b8242db59350721ca56a580f"
+      },
+      "4x5": {
+        "path": "library/world/Switzerland/Soubey/ch-01-112-4x5.png",
+        "sha256": "380d2e7620b6d8cec6adde0318a470180d50a96cc6797e7a38bd7ba4362107d4"
+      },
+      "recorded": "SHA-256 of the published masters immediately before this daylight batch. Post-write hashes are identical; published masters were not rewritten."
+    },
+    "files": {
+      "16x9": "library/world/Switzerland/Soubey/ch-01-112-daylight-16x9.png",
+      "4x5": "library/world/Switzerland/Soubey/ch-01-112-daylight-4x5.png",
+      "9x16": "library/world/Switzerland/Soubey/ch-01-112-daylight-9x16.png"
+    },
+    "sha256": {
+      "16x9": "a57998d6e55156298bc0fa61557b69448eef7e0649fed9248afe558f5f076d7e",
+      "4x5": "73ccfe45ef58de912b6961587bcfb1b58c98da457130257c6a5b255fe72fe210",
+      "9x16": "610c575e8163fa8c1d689a7e071e7de1b8b38331b21c36e5f2dde270e32f8de2"
+    },
+    "created_date": "2026-10-04",
+    "on_image_caption": "Soubey, Soubey",
+    "on_image_signature": "Jason D’s Vision",
+    "on_image_disclosure": "AI-generated artistic interpretation · Not a photograph.",
+    "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
+    "derivative_disclosure": "Daylight companion plate for the gallery daylight control. Text-prompt only. No weather claim. No scenario timestamp on the variant. The scene scenario_label is unchanged and is not a daylight weather assertion.",
+    "note": "Photorealistic daylight plate generated text-prompt-only on 2026-10-04. Not derived by relighting the published master and not image-anchored on it. No live daytime weather reading was available. The plate carries no scenario timestamp and no weather line. Published masters were not rewritten."
+  },
   "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
   "approval_basis": "Gate 1: small stone and farm village of Soubey on a bend of the Doubs with a modest river bridge and wooded Jura slopes, no cliff amphitheatre — matches anchors. Gate 2: caption 'Soubey, Soubey' and 'Scenario: 24 September 2026 · 16:38 Europe/Zurich' exact; signature bottom-right; disclosure present. Weather verified: Open-Meteo retrieved 2026-09-25T23:40:51Z, unique to this scene, model hour covers 16:38; overcast code 3 matches. Gate 3: text-prompt-only, no photographic inputs. Gate 4: no people, no logos (documented only). Gate 5: clear.",
   "approved_at": "2026-09-26T05:34:30.427467+00:00",

@@ -13,6 +13,38 @@
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
   "approval_status": "Approved",
+  "daylight_variant": {
+    "variant_of_entry_id": "CH-01-108",
+    "derived_from": "Text-prompt-only photorealistic daylight plate of the same place. Not image-anchored on the published master. Europe/Zurich was night on 4 October 2026, so this plate has no scenario timestamp and no weather line.",
+    "source_night": {
+      "16x9": {
+        "path": "library/world/Switzerland/Scuol/ch-01-108-16x9.png",
+        "sha256": "9e93aa4506fa46021d7ed7cb5fb85511283eb84c57e3559de44e4538a16ab5f8"
+      },
+      "4x5": {
+        "path": "library/world/Switzerland/Scuol/ch-01-108-4x5.png",
+        "sha256": "5e493ef501d37754f41766236670b0fe11f6d2729d77f13b7953099d7ee10c0a"
+      },
+      "recorded": "SHA-256 of the published masters immediately before this daylight batch. Post-write hashes are identical; published masters were not rewritten."
+    },
+    "files": {
+      "16x9": "library/world/Switzerland/Scuol/ch-01-108-daylight-16x9.png",
+      "4x5": "library/world/Switzerland/Scuol/ch-01-108-daylight-4x5.png",
+      "9x16": "library/world/Switzerland/Scuol/ch-01-108-daylight-9x16.png"
+    },
+    "sha256": {
+      "16x9": "5c4381228cca5aca8960bf9dd23aa3071ad46dedb6d6217f7b190d9da0b476ec",
+      "4x5": "6861bef84b217595094e832a6e63958dcd589e9197f2159390b90fd14f2f6401",
+      "9x16": "4fc818f6a76382bca96fb508a45ff838f64f8e7ae964fa9795a11ab38499920b"
+    },
+    "created_date": "2026-10-04",
+    "on_image_caption": "Scuol, Scuol",
+    "on_image_signature": "Jason D’s Vision",
+    "on_image_disclosure": "AI-generated artistic interpretation · Not a photograph.",
+    "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
+    "derivative_disclosure": "Daylight companion plate for the gallery daylight control. Text-prompt only. No weather claim. No scenario timestamp on the variant. The scene scenario_label is unchanged and is not a daylight weather assertion.",
+    "note": "Photorealistic daylight plate generated text-prompt-only on 2026-10-04. Not derived by relighting the published master and not image-anchored on it. No live daytime weather reading was available. The plate carries no scenario timestamp and no weather line. Published masters were not rewritten."
+  },
   "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
   "approval_basis": "Gate 1: white Engadin houses with sgraffito along the bank of the Inn, forested valley slopes, no snow on the town, larches not yet gold — matches anchors, no spa name. Gate 2: caption 'Scuol, Scuol' and 'Scenario: 24 September 2026 · 16:38 Europe/Zurich' exact; signature bottom-right; disclosure present. Weather verified: Open-Meteo retrieved 2026-09-25T23:40:47Z, unique to this scene, model hour covers 16:38; overcast code 3 matches. Gate 3: text-prompt-only, no photographic inputs. Gate 4: no people, no logos (documented only). Gate 5: clear.",
   "approved_at": "2026-09-26T05:33:46.299476+00:00",

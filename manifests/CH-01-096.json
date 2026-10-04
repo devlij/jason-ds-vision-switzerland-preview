@@ -13,6 +13,38 @@
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
   "approval_status": "Approved",
+  "daylight_variant": {
+    "variant_of_entry_id": "CH-01-096",
+    "derived_from": "Text-prompt-only photorealistic daylight plate of the same place. Not image-anchored on the published master. Europe/Zurich was night on 4 October 2026, so this plate has no scenario timestamp and no weather line.",
+    "source_night": {
+      "16x9": {
+        "path": "library/world/Switzerland/Crans-Montana/ch-01-096-16x9.png",
+        "sha256": "b7b5fb44903c8d5027b5ef4f1825aae0ecbb665f576ce7a3ac303468b6b675be"
+      },
+      "4x5": {
+        "path": "library/world/Switzerland/Crans-Montana/ch-01-096-4x5.png",
+        "sha256": "3562ac89fce2b9bb5b76839455a37d632e5f726bf59685971d913fbc4f2601c5"
+      },
+      "recorded": "SHA-256 of the published masters immediately before this daylight batch. Post-write hashes are identical; published masters were not rewritten."
+    },
+    "files": {
+      "16x9": "library/world/Switzerland/Crans-Montana/ch-01-096-daylight-16x9.png",
+      "4x5": "library/world/Switzerland/Crans-Montana/ch-01-096-daylight-4x5.png",
+      "9x16": "library/world/Switzerland/Crans-Montana/ch-01-096-daylight-9x16.png"
+    },
+    "sha256": {
+      "16x9": "b2a7ee18830a48f27f953cba612e4fe787c7bfce689b0a3820364535313cfa4a",
+      "4x5": "4142d1d1f7a546c8aa5824373f916520320d23533a3c1805f8939e58da650f8d",
+      "9x16": "e831771024350745377c44b8ba7c8462e4a34840e48f7beb203f53719f16a714"
+    },
+    "created_date": "2026-10-04",
+    "on_image_caption": "Crans-Montana, Crans-Montana",
+    "on_image_signature": "Jason D’s Vision",
+    "on_image_disclosure": "AI-generated artistic interpretation · Not a photograph.",
+    "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
+    "derivative_disclosure": "Daylight companion plate for the gallery daylight control. Text-prompt only. No weather claim. No scenario timestamp on the variant. The scene scenario_label is unchanged and is not a daylight weather assertion.",
+    "note": "Photorealistic daylight plate generated text-prompt-only on 2026-10-04. Not derived by relighting the published master and not image-anchored on it. No live daytime weather reading was available. The plate carries no scenario timestamp and no weather line. Published masters were not rewritten."
+  },
   "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
   "approval_basis": "Gate 1: Crans-Montana plateau — scattered wooden chalets on autumn pasture, the Rhône valley dropping away and the full Valais Alps arc with fresh snow under low cloud; overcast light matches the documented model conditions. Gate 2: exact masters; on-image 'Crans-Montana, Crans-Montana', scenario '24 September 2026 · 16:18 Europe/Zurich', disclosure and curly-apostrophe signature confirmed. Retrieval 2026-09-25T23:40:35Z unique to this scene; 16:18 inside the note's 16:00–16:59 model-valid hour. Gate 3: text-prompt-only generation, no photographic inputs. Gate 4: no people, no resort logos or signage; commercial call stays Jason's. Gate 5: no blockers.",
   "approved_at": "2026-09-26T04:36:44.517417+00:00",

@@ -13,6 +13,38 @@
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
   "approval_status": "Approved",
+  "daylight_variant": {
+    "variant_of_entry_id": "CH-01-111",
+    "derived_from": "Text-prompt-only photorealistic daylight plate of the same place. Not image-anchored on the published master. Europe/Zurich was night on 4 October 2026, so this plate has no scenario timestamp and no weather line.",
+    "source_night": {
+      "16x9": {
+        "path": "library/world/Switzerland/Laufen-Uhwiesen/ch-01-111-16x9.png",
+        "sha256": "f380d630a8cb90aaa420ec7a7e59a6b24ac62ff387eafd9d39dc9e3f69a91c83"
+      },
+      "4x5": {
+        "path": "library/world/Switzerland/Laufen-Uhwiesen/ch-01-111-4x5.png",
+        "sha256": "8840f4b33a65a3fa878547d65f579049e21b840945e33e583373ca46a5a1be95"
+      },
+      "recorded": "SHA-256 of the published masters immediately before this daylight batch. Post-write hashes are identical; published masters were not rewritten."
+    },
+    "files": {
+      "16x9": "library/world/Switzerland/Laufen-Uhwiesen/ch-01-111-daylight-16x9.png",
+      "4x5": "library/world/Switzerland/Laufen-Uhwiesen/ch-01-111-daylight-4x5.png",
+      "9x16": "library/world/Switzerland/Laufen-Uhwiesen/ch-01-111-daylight-9x16.png"
+    },
+    "sha256": {
+      "16x9": "4783526667a3372ca6a9a3e8a26bfec6908f4b739398474e09ec107d8efdaf07",
+      "4x5": "e8be0333afcce367ebb14223a6c707dbe74dfac12476e982e58ac6a1e90fc4ac",
+      "9x16": "bc503358420e8409410a1bacdcfaaafb36074f3deb8e82c38d96e289fc863e9f"
+    },
+    "created_date": "2026-10-04",
+    "on_image_caption": "Schloss Laufen, Laufen-Uhwiesen",
+    "on_image_signature": "Jason D’s Vision",
+    "on_image_disclosure": "AI-generated artistic interpretation · Not a photograph.",
+    "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
+    "derivative_disclosure": "Daylight companion plate for the gallery daylight control. Text-prompt only. No weather claim. No scenario timestamp on the variant. The scene scenario_label is unchanged and is not a daylight weather assertion.",
+    "note": "Photorealistic daylight plate generated text-prompt-only on 2026-10-04. Not derived by relighting the published master and not image-anchored on it. No live daytime weather reading was available. The plate carries no scenario timestamp and no weather line. Published masters were not rewritten."
+  },
   "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
   "approval_basis": "Gate 1: maintained medieval Schloss Laufen with its gate tower on the left-bank cliff, the broad Rhine Falls below with the mid-drop rock, and the iron railway bridge upstream — matches anchors, no readable name on the walls. Gate 2: caption 'Schloss Laufen, Laufen-Uhwiesen' and 'Scenario: 24 September 2026 · 16:38 Europe/Zurich' exact; signature bottom-right; disclosure present. Weather verified: Open-Meteo retrieved 2026-09-25T23:40:50Z, unique to this scene, model hour covers 16:38. Gate 3: text-prompt-only, no photographic inputs. Gate 4: no people, no logos (documented only). Gate 5: clear.",
   "approved_at": "2026-09-26T05:34:25.927251+00:00",
