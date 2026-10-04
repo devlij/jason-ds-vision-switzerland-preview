@@ -13,6 +13,42 @@
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
   "approval_status": "Approved",
+  "daylight_variant": {
+    "variant_of_entry_id": "CH-01-077",
+    "derived_from": "Text-prompt-only photorealistic daylight plate of the same place. Not image-anchored on the published master. Europe/Zurich was night on 4 October 2026, so this plate has no scenario timestamp and no weather line.",
+    "source_night": {
+      "16x9": {
+        "path": "library/world/Switzerland/Carouge/ch-01-077-16x9.png",
+        "sha256": "78e9d39b5f1be2a410199ac5f5e51f2f1cd857fed1249ceba78ca3537f0269de"
+      },
+      "4x5": {
+        "path": "library/world/Switzerland/Carouge/ch-01-077-4x5.png",
+        "sha256": "8524b18008ed408c37cfed78434adf791819daa18ebe939c8b234f95019d985b"
+      },
+      "9x16": {
+        "path": "library/world/Switzerland/Carouge/ch-01-077-9x16.png",
+        "sha256": "ce1701b57da11dabacc746793fbbc778570cdf9616ebfdfebe09c24a4cd43677"
+      },
+      "recorded": "SHA-256 of the published masters immediately before this daylight batch. Post-write hashes are identical; published masters were not rewritten."
+    },
+    "files": {
+      "16x9": "library/world/Switzerland/Carouge/ch-01-077-daylight-16x9.png",
+      "4x5": "library/world/Switzerland/Carouge/ch-01-077-daylight-4x5.png",
+      "9x16": "library/world/Switzerland/Carouge/ch-01-077-daylight-9x16.png"
+    },
+    "sha256": {
+      "16x9": "28b1818aad4d40b7cb2b6949a1717c49cfdc615c58f0c698a1f5fa84f040c300",
+      "4x5": "f99d4af36bbb03318381278c2605fc9c41a7c282637f9fea7662c4de43119b5b",
+      "9x16": "62dd773391d8c4534c13bf2441745509900583d9c326380e71f25693c4d47c8e"
+    },
+    "created_date": "2026-10-04",
+    "on_image_caption": "Carouge, Carouge",
+    "on_image_signature": "Jason D’s Vision",
+    "on_image_disclosure": "AI-generated artistic interpretation · Not a photograph.",
+    "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
+    "derivative_disclosure": "Daylight companion plate for the gallery daylight control. Text-prompt only. No weather claim. No scenario timestamp on the variant. The scene scenario_label is unchanged and is not a daylight weather assertion.",
+    "note": "Photorealistic daylight plate generated text-prompt-only on 2026-10-04. Not derived by relighting the published master and not image-anchored on it. No live daytime weather reading was available. The plate carries no scenario timestamp and no weather line. Published masters were not rewritten."
+  },
   "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
   "approval_basis": "G1: Carouge's market square — neoclassical Sainte-Croix church front centered, arcades and warm plaster facades on both sides, cobbled square in the foreground; G2: 16:9 1920×1270, baked 190px bar with caption 'Carouge, Carouge', scenario '24 September 2026 · 16:01 Europe/Zurich', AI-disclosure, Jason D's Vision + signature legible; weather retrieval 2026-09-27T16:55:56Z unique to this scene, valid 16:00 hour contains scenario, WMO 3 overcast/93% matching the grey sky; G3: text-prompt-only, no photographic inputs; G4: no people/logos, public square; G5: clear.",
   "sha256_16x9": "78e9d39b5f1be2a410199ac5f5e51f2f1cd857fed1249ceba78ca3537f0269de",

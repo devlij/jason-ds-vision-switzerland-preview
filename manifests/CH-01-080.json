@@ -13,6 +13,42 @@
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
   "approval_status": "Approved",
+  "daylight_variant": {
+    "variant_of_entry_id": "CH-01-080",
+    "derived_from": "Text-prompt-only photorealistic daylight plate of the same place. Not image-anchored on the published master. Europe/Zurich was night on 4 October 2026, so this plate has no scenario timestamp and no weather line.",
+    "source_night": {
+      "16x9": {
+        "path": "library/world/Switzerland/St-Ursanne/ch-01-080-16x9.png",
+        "sha256": "b8800c093a3ca7d525f6be8db77536f69c339a59da2085fe314a201791e43c3c"
+      },
+      "4x5": {
+        "path": "library/world/Switzerland/St-Ursanne/ch-01-080-4x5.png",
+        "sha256": "67a3f4e82845129483dad57e024ae8c7d08124545ba09476777a782a0da18f3c"
+      },
+      "9x16": {
+        "path": "library/world/Switzerland/St-Ursanne/ch-01-080-9x16.png",
+        "sha256": "72319da000291581a74344a01fc6ef4d16ecf4ccce4e9a05f62d9f83245ef4fc"
+      },
+      "recorded": "SHA-256 of the published masters immediately before this daylight batch. Post-write hashes are identical; published masters were not rewritten."
+    },
+    "files": {
+      "16x9": "library/world/Switzerland/St-Ursanne/ch-01-080-daylight-16x9.png",
+      "4x5": "library/world/Switzerland/St-Ursanne/ch-01-080-daylight-4x5.png",
+      "9x16": "library/world/Switzerland/St-Ursanne/ch-01-080-daylight-9x16.png"
+    },
+    "sha256": {
+      "16x9": "9645300c414c70a16f740ece5abdc9841666ab0733f6704592043449fc375de3",
+      "4x5": "b277c6e54d70fa4b58fb66252381c1b4e5e30ccd241d539f3ced3963fc08e34f",
+      "9x16": "0745910298b4acff696515c51df9a97bfe24fadad8ae93e35ee5c3457c88576d"
+    },
+    "created_date": "2026-10-04",
+    "on_image_caption": "St-Ursanne, St-Ursanne",
+    "on_image_signature": "Jason D’s Vision",
+    "on_image_disclosure": "AI-generated artistic interpretation · Not a photograph.",
+    "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
+    "derivative_disclosure": "Daylight companion plate for the gallery daylight control. Text-prompt only. No weather claim. No scenario timestamp on the variant. The scene scenario_label is unchanged and is not a daylight weather assertion.",
+    "note": "Photorealistic daylight plate generated text-prompt-only on 2026-10-04. Not derived by relighting the published master and not image-anchored on it. No live daytime weather reading was available. The plate carries no scenario timestamp and no weather line. Published masters were not rewritten."
+  },
   "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
   "approval_basis": "G1: St-Ursanne across the Doubs — four-arch stone bridge leading to the collegiate church tower inside the medieval walls, wooded gorge flanks; G2: 16:9 1920×1270, baked bar with caption 'St-Ursanne, St-Ursanne', scenario '24 September 2026 · 16:01 Europe/Zurich', disclosure + signature; weather retrieval 2026-09-27T16:56:01Z unique to this scene, valid 16:00 hour contains scenario, WMO 3 overcast/100%; G3: text-prompt-only; G4: no people/logos; G5: clear.",
   "sha256_16x9": "b8800c093a3ca7d525f6be8db77536f69c339a59da2085fe314a201791e43c3c",

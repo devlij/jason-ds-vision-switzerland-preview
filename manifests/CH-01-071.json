@@ -13,6 +13,42 @@
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
   "approval_status": "Approved",
+  "daylight_variant": {
+    "variant_of_entry_id": "CH-01-071",
+    "derived_from": "Text-prompt-only photorealistic daylight plate of the same place. Not image-anchored on the published master. Europe/Zurich was night on 4 October 2026, so this plate has no scenario timestamp and no weather line.",
+    "source_night": {
+      "16x9": {
+        "path": "library/world/Switzerland/Habsburg/ch-01-071-16x9.png",
+        "sha256": "9ae80632533934389474c6bf16be6e4537a16b7f577100475470b240a915ccb3"
+      },
+      "4x5": {
+        "path": "library/world/Switzerland/Habsburg/ch-01-071-4x5.png",
+        "sha256": "d6a60866c369c103d32dc132a9a4205bb0f25d44a3227892ca09d16257bc43bb"
+      },
+      "9x16": {
+        "path": "library/world/Switzerland/Habsburg/ch-01-071-9x16.png",
+        "sha256": "538822e58c4e35a967bfed793fe09420dc0b2e40ff84791b4735327d253246b0"
+      },
+      "recorded": "SHA-256 of the published masters immediately before this daylight batch. Post-write hashes are identical; published masters were not rewritten."
+    },
+    "files": {
+      "16x9": "library/world/Switzerland/Habsburg/ch-01-071-daylight-16x9.png",
+      "4x5": "library/world/Switzerland/Habsburg/ch-01-071-daylight-4x5.png",
+      "9x16": "library/world/Switzerland/Habsburg/ch-01-071-daylight-9x16.png"
+    },
+    "sha256": {
+      "16x9": "69a7354aa4b344fcaad3a423faf19ab306d00e169417d33073c86de89528db61",
+      "4x5": "3b523d2fe06ef0d98c009976e935e217fe364c5060ed631bbbf8720f8fb970be",
+      "9x16": "0aeaa8a51f30d2c587f9fd7d4450223c238761dbf4ff9be8477c1ca41c54daa2"
+    },
+    "created_date": "2026-10-04",
+    "on_image_caption": "Habsburg Castle, Habsburg",
+    "on_image_signature": "Jason D’s Vision",
+    "on_image_disclosure": "AI-generated artistic interpretation · Not a photograph.",
+    "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
+    "derivative_disclosure": "Daylight companion plate for the gallery daylight control. Text-prompt only. No weather claim. No scenario timestamp on the variant. The scene scenario_label is unchanged and is not a daylight weather assertion.",
+    "note": "Photorealistic daylight plate generated text-prompt-only on 2026-10-04. Not derived by relighting the published master and not image-anchored on it. No live daytime weather reading was available. The plate carries no scenario timestamp and no weather line. Published masters were not rewritten."
+  },
   "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
   "approval_basis": "Compact ancestral castle — large crenellated round tower, smaller tower, 13th-century residence block — with the front ruin kept low in frame, overcast sky. Label bar verified on-image: \"Habsburg Castle, Habsburg\", \"Scenario: 24 September 2026 · 16:01 Europe/Zurich\", disclosure, signature. Weather retrieval 2026-09-27T16:55:48Z unique to the second, separate GET for 47.4625,8.1808, scenario 16:01 inside 16:00–16:59 (code 3, 100% cloud — overcast consistent). Text-prompt-only per note. No people/logos.",
   "sha256_16x9": "9ae80632533934389474c6bf16be6e4537a16b7f577100475470b240a915ccb3",

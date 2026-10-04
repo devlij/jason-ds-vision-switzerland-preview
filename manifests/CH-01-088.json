@@ -13,6 +13,38 @@
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
   "approval_status": "Approved",
+  "daylight_variant": {
+    "variant_of_entry_id": "CH-01-088",
+    "derived_from": "Text-prompt-only photorealistic daylight plate of the same place. Not image-anchored on the published master. Europe/Zurich was night on 4 October 2026, so this plate has no scenario timestamp and no weather line.",
+    "source_night": {
+      "16x9": {
+        "path": "library/world/Switzerland/Zurich/ch-01-088-16x9.png",
+        "sha256": "58e1cfdadaacf110337ae2f62166fcf1ca2af3b83a9f139b5e67739cbe1a4384"
+      },
+      "4x5": {
+        "path": "library/world/Switzerland/Zurich/ch-01-088-4x5.png",
+        "sha256": "64bf2d44fcad192c91fc0b337d521413a20fe0ac2c01d3e3a367bd94e738211a"
+      },
+      "recorded": "SHA-256 of the published masters immediately before this daylight batch. Post-write hashes are identical; published masters were not rewritten."
+    },
+    "files": {
+      "16x9": "library/world/Switzerland/Zurich/ch-01-088-daylight-16x9.png",
+      "4x5": "library/world/Switzerland/Zurich/ch-01-088-daylight-4x5.png",
+      "9x16": "library/world/Switzerland/Zurich/ch-01-088-daylight-9x16.png"
+    },
+    "sha256": {
+      "16x9": "a5a190acb6a4b0224e0cebe348970f70d4c573c90edbeb8e15696863cd027f9e",
+      "4x5": "286283c5c7b5847ea90fbc399b41fc2a8d64e78d62922ccd8bc61bad99b54b31",
+      "9x16": "c16c67968744fac87215528ea1d072e21598975fbd0cb9abb861953382cf7833"
+    },
+    "created_date": "2026-10-04",
+    "on_image_caption": "Bahnhofstrasse, Zurich",
+    "on_image_signature": "Jason D’s Vision",
+    "on_image_disclosure": "AI-generated artistic interpretation · Not a photograph.",
+    "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
+    "derivative_disclosure": "Daylight companion plate for the gallery daylight control. Text-prompt only. No weather claim. No scenario timestamp on the variant. The scene scenario_label is unchanged and is not a daylight weather assertion.",
+    "note": "Photorealistic daylight plate generated text-prompt-only on 2026-10-04. Not derived by relighting the published master and not image-anchored on it. No live daytime weather reading was available. The plate carries no scenario timestamp and no weather line. Published masters were not rewritten."
+  },
   "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
   "approval_basis": "Gate 1: Bahnhofstrasse looking south — wide straight boulevard, central tram tracks, early-autumn plane trees on both sides, even commercial facades and Lake Zurich with the far shore closing the axis; overcast light matches the documented model conditions. Gate 2: exact-dimension masters; on-image 'Bahnhofstrasse, Zurich', scenario '24 September 2026 · 16:17 Europe/Zurich', disclosure and 'Jason D's Vision' signature correct in both corners. Retrieval 2026-09-25T23:40:27Z unique to this scene; scenario inside the 16:00–16:59 model-valid hour. Gate 3: text-prompt-only generation. Gate 4: only tiny distant figures at the lake end, no readable shop names or logos; commercial call stays Jason's. Gate 5: no blockers.",
   "approved_at": "2026-09-26T04:35:02.320639+00:00",

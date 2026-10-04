@@ -13,6 +13,42 @@
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
   "approval_status": "Approved",
+  "daylight_variant": {
+    "variant_of_entry_id": "CH-01-085",
+    "derived_from": "Text-prompt-only photorealistic daylight plate of the same place. Not image-anchored on the published master. Europe/Zurich was night on 4 October 2026, so this plate has no scenario timestamp and no weather line.",
+    "source_night": {
+      "16x9": {
+        "path": "library/world/Switzerland/Laufen/ch-01-085-16x9.png",
+        "sha256": "936e7606494f2b877458f8baf528496351d3b67d173203ec842836a09927a863"
+      },
+      "4x5": {
+        "path": "library/world/Switzerland/Laufen/ch-01-085-4x5.png",
+        "sha256": "875f154df5aea6162f4c9630048ba3da6c5fdca2ea5d2fa45b3d34ce2a5fea12"
+      },
+      "9x16": {
+        "path": "library/world/Switzerland/Laufen/ch-01-085-9x16.png",
+        "sha256": "63b6578d41b79ba339d32c9e79a8043950141003fdda170834eaa35daee7eb32"
+      },
+      "recorded": "SHA-256 of the published masters immediately before this daylight batch. Post-write hashes are identical; published masters were not rewritten."
+    },
+    "files": {
+      "16x9": "library/world/Switzerland/Laufen/ch-01-085-daylight-16x9.png",
+      "4x5": "library/world/Switzerland/Laufen/ch-01-085-daylight-4x5.png",
+      "9x16": "library/world/Switzerland/Laufen/ch-01-085-daylight-9x16.png"
+    },
+    "sha256": {
+      "16x9": "2561be1b27ede2389bbcfa22ffd1ad3869e1466373d6ef37b01539bd0ff22fc7",
+      "4x5": "e9e8f92b7fed629f258fb832f7497a011cec3c734c43069bd9f2b2f26347f1ef",
+      "9x16": "600fe4d7df60595468bb4c2c5ea6c2603ceaa32f16fb5d070275218dc59ea4cb"
+    },
+    "created_date": "2026-10-04",
+    "on_image_caption": "Laufen, Laufen",
+    "on_image_signature": "Jason D’s Vision",
+    "on_image_disclosure": "AI-generated artistic interpretation · Not a photograph.",
+    "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
+    "derivative_disclosure": "Daylight companion plate for the gallery daylight control. Text-prompt only. No weather claim. No scenario timestamp on the variant. The scene scenario_label is unchanged and is not a daylight weather assertion.",
+    "note": "Photorealistic daylight plate generated text-prompt-only on 2026-10-04. Not derived by relighting the published master and not image-anchored on it. No live daytime weather reading was available. The plate carries no scenario timestamp and no weather line. Published masters were not rewritten."
+  },
   "qc_status": "Approved",
   "approval_basis": "G1: Laufen old town — cobbled street through the half-timbered gate tower toward the baroque Stadtkirche with its tall tower, stone and timber houses both sides; plausible tourist street view. G2: 16:9 1920×1270, baked bar with caption 'Laufen, Laufen', scenario '24 September 2026 · 16:17 Europe/Zurich', disclosure + signature legible; weather retrieval 2026-09-27T16:56:07Z unique to this scene, valid 16:00 hour contains the scenario, WMO 3 overcast matching the image; Art. 50 chunks present. G3: text-prompt-only. G4: no people/logos. G5: clear.",
   "sha256_16x9": "936e7606494f2b877458f8baf528496351d3b67d173203ec842836a09927a863",

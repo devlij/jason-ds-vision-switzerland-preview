@@ -13,6 +13,42 @@
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
   "approval_status": "Approved",
+  "daylight_variant": {
+    "variant_of_entry_id": "CH-01-086",
+    "derived_from": "Text-prompt-only photorealistic daylight plate of the same place. Not image-anchored on the published master. Europe/Zurich was night on 4 October 2026, so this plate has no scenario timestamp and no weather line.",
+    "source_night": {
+      "16x9": {
+        "path": "library/world/Switzerland/Sarnen/ch-01-086-16x9.png",
+        "sha256": "5c996bcc45bd63bd16c8c46388694b57204f43bc962be9f44c272b968e0af564"
+      },
+      "4x5": {
+        "path": "library/world/Switzerland/Sarnen/ch-01-086-4x5.png",
+        "sha256": "e44a883a1cdfa9fb38dca1914dacf426be5d80435ceeb129e5095024d6aa0f70"
+      },
+      "9x16": {
+        "path": "library/world/Switzerland/Sarnen/ch-01-086-9x16.png",
+        "sha256": "f2dd8d24e3896cb4180d1aea6b6f0ab29cadf72b9eafce6a70747b777387c9b0"
+      },
+      "recorded": "SHA-256 of the published masters immediately before this daylight batch. Post-write hashes are identical; published masters were not rewritten."
+    },
+    "files": {
+      "16x9": "library/world/Switzerland/Sarnen/ch-01-086-daylight-16x9.png",
+      "4x5": "library/world/Switzerland/Sarnen/ch-01-086-daylight-4x5.png",
+      "9x16": "library/world/Switzerland/Sarnen/ch-01-086-daylight-9x16.png"
+    },
+    "sha256": {
+      "16x9": "93d19d30d2ba284d167dd22425fa2f7c38a591a21040ab8fad8ddc9d53e32195",
+      "4x5": "f9906f83a4226dd202c539ce79241a226db9d03d63dad05b9b4a3888ebb73e82",
+      "9x16": "84632145daae10579f0c72587a021c81dc50b5d08d590c16dd9e40b6a50b19b3"
+    },
+    "created_date": "2026-10-04",
+    "on_image_caption": "Sarnen, Sarnen",
+    "on_image_signature": "Jason D’s Vision",
+    "on_image_disclosure": "AI-generated artistic interpretation · Not a photograph.",
+    "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
+    "derivative_disclosure": "Daylight companion plate for the gallery daylight control. Text-prompt only. No weather claim. No scenario timestamp on the variant. The scene scenario_label is unchanged and is not a daylight weather assertion.",
+    "note": "Photorealistic daylight plate generated text-prompt-only on 2026-10-04. Not derived by relighting the published master and not image-anchored on it. No live daytime weather reading was available. The plate carries no scenario timestamp and no weather line. Published masters were not rewritten."
+  },
   "qc_status": "Approved",
   "approval_basis": "G1: Sarnen — the twin-towered baroque Kollegiatkirche above the lake promenade, broad staircases down to the water, forested hills behind; the defining Sarnen view. G2: 16:9 1920×1270, baked bar with caption 'Sarnen, Sarnen', scenario '24 September 2026 · 16:17 Europe/Zurich', disclosure + signature legible; weather retrieval 2026-09-27T16:56:09Z unique to this scene, valid 16:00 hour contains the scenario, WMO 3 overcast matching; Art. 50 chunks present. G3: text-prompt-only. G4: only parked cars noted, public lakeside — documented. G5: clear.",
   "sha256_16x9": "5c996bcc45bd63bd16c8c46388694b57204f43bc962be9f44c272b968e0af564",

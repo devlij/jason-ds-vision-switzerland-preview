@@ -13,6 +13,42 @@
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
   "approval_status": "Approved",
+  "daylight_variant": {
+    "variant_of_entry_id": "CH-01-087",
+    "derived_from": "Text-prompt-only photorealistic daylight plate of the same place. Not image-anchored on the published master. Europe/Zurich was night on 4 October 2026, so this plate has no scenario timestamp and no weather line.",
+    "source_night": {
+      "16x9": {
+        "path": "library/world/Switzerland/Zurich/ch-01-087-16x9.png",
+        "sha256": "81005a765e887dc42852d3c8455a5c22653f00b8a78f9dab1bd2ebf1c119e038"
+      },
+      "4x5": {
+        "path": "library/world/Switzerland/Zurich/ch-01-087-4x5.png",
+        "sha256": "157ddb6f8697c203f79131aef7830f03f96e083a91d89f2372b0c21be2e5017f"
+      },
+      "9x16": {
+        "path": "library/world/Switzerland/Zurich/ch-01-087-9x16.png",
+        "sha256": "ab576cc0eb2a95dd7ed370fef3e17da569af8a68ca80196e4c0d0b65af59aff3"
+      },
+      "recorded": "SHA-256 of the published masters immediately before this daylight batch. Post-write hashes are identical; published masters were not rewritten."
+    },
+    "files": {
+      "16x9": "library/world/Switzerland/Zurich/ch-01-087-daylight-16x9.png",
+      "4x5": "library/world/Switzerland/Zurich/ch-01-087-daylight-4x5.png",
+      "9x16": "library/world/Switzerland/Zurich/ch-01-087-daylight-9x16.png"
+    },
+    "sha256": {
+      "16x9": "d5403571fc26ca638dc6043907ba40b157481801049ebda205eb6d163105c607",
+      "4x5": "9376c50772efde6f8316e1fc2ed734cf772126bd471ff5661a12fbe53f0fda45",
+      "9x16": "7681189c650cd839771e81313b22f25372352dd9d859d8550478034df7edc6bf"
+    },
+    "created_date": "2026-10-04",
+    "on_image_caption": "Fraumünster, Zurich",
+    "on_image_signature": "Jason D’s Vision",
+    "on_image_disclosure": "AI-generated artistic interpretation · Not a photograph.",
+    "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
+    "derivative_disclosure": "Daylight companion plate for the gallery daylight control. Text-prompt only. No weather claim. No scenario timestamp on the variant. The scene scenario_label is unchanged and is not a daylight weather assertion.",
+    "note": "Photorealistic daylight plate generated text-prompt-only on 2026-10-04. Not derived by relighting the published master and not image-anchored on it. No live daytime weather reading was available. The plate carries no scenario timestamp and no weather line. Published masters were not rewritten."
+  },
   "qc_status": "Approved",
   "approval_basis": "G1: Fraumünster, Zurich — the church with its slender blue-green spire and Romanesque choir with rose window from Münsterhof square; unmistakable. G2: 16:9 1920×1270, baked bar with caption 'Fraumünster, Zurich', scenario '24 September 2026 · 16:17 Europe/Zurich', disclosure + signature legible; weather retrieval 2026-09-27T16:56:10Z unique to this scene, valid 16:00 hour contains the scenario, WMO 3 overcast matching; Art. 50 chunks present. G3: text-prompt-only. G4: no people/logos. G5: clear.",
   "sha256_16x9": "81005a765e887dc42852d3c8455a5c22653f00b8a78f9dab1bd2ebf1c119e038",

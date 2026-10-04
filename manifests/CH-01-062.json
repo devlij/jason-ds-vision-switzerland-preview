@@ -13,6 +13,42 @@
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
   "approval_status": "Approved",
+  "daylight_variant": {
+    "variant_of_entry_id": "CH-01-062",
+    "derived_from": "Text-prompt-only photorealistic daylight plate of the same place. Not image-anchored on the published master. Europe/Zurich was night on 4 October 2026, so this plate has no scenario timestamp and no weather line.",
+    "source_night": {
+      "16x9": {
+        "path": "library/world/Switzerland/Ascona/ch-01-062-16x9.png",
+        "sha256": "ef61271c6140c1b12fdb6b73c60165168ce9ccd613613956ab6ccb19a33714c5"
+      },
+      "4x5": {
+        "path": "library/world/Switzerland/Ascona/ch-01-062-4x5.png",
+        "sha256": "4c56f0b6804b8d9cae1a832faefe6f4035e2fd2f51b1078915703c5e7f3441fa"
+      },
+      "9x16": {
+        "path": "library/world/Switzerland/Ascona/ch-01-062-9x16.png",
+        "sha256": "7e5b1a52706a0ae49245bdebb7c284cfb8aef405a44f41103fa78453ef1d4305"
+      },
+      "recorded": "SHA-256 of the published masters immediately before this daylight batch. Post-write hashes are identical; published masters were not rewritten."
+    },
+    "files": {
+      "16x9": "library/world/Switzerland/Ascona/ch-01-062-daylight-16x9.png",
+      "4x5": "library/world/Switzerland/Ascona/ch-01-062-daylight-4x5.png",
+      "9x16": "library/world/Switzerland/Ascona/ch-01-062-daylight-9x16.png"
+    },
+    "sha256": {
+      "16x9": "b1ee463de482c6c5d0e76d6c82adf3eff5e95484fabef6f896e234d06eece2b1",
+      "4x5": "2d81e4d29a02c56c365cf9bafff54d043b84ef21719178e47a33008e95cea16a",
+      "9x16": "ee0725fe75cc5e693675176143603b78eea8566b526b80871d4374099c7acf47"
+    },
+    "created_date": "2026-10-04",
+    "on_image_caption": "Ascona, Ascona",
+    "on_image_signature": "Jason D’s Vision",
+    "on_image_disclosure": "AI-generated artistic interpretation · Not a photograph.",
+    "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
+    "derivative_disclosure": "Daylight companion plate for the gallery daylight control. Text-prompt only. No weather claim. No scenario timestamp on the variant. The scene scenario_label is unchanged and is not a daylight weather assertion.",
+    "note": "Photorealistic daylight plate generated text-prompt-only on 2026-10-04. Not derived by relighting the published master and not image-anchored on it. No live daytime weather reading was available. The plate carries no scenario timestamp and no weather line. Published masters were not rewritten."
+  },
   "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
   "approval_basis": "Palm-lined lakeside promenade with pastel waterfront buildings, slender campanile bell tower, lake and mountains beyond. Label bar verified on-image: \"Ascona, Ascona\", \"Scenario: 24 September 2026 · 15:44 Europe/Zurich\", disclosure, \"Jason D's Vision\" + \"Jason A. Devlin\". Weather retrieval 2026-09-27T16:54:03Z unique to the second, separate GET for 46.1545,8.7733, scenario 15:44 inside 15:00–15:59 (code 2, 79% cloud — broken-cloud sky consistent). Text-prompt-only per note. No people/logos.",
   "sha256_16x9": "ef61271c6140c1b12fdb6b73c60165168ce9ccd613613956ab6ccb19a33714c5",

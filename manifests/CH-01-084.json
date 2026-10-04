@@ -13,6 +13,42 @@
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
   "approval_status": "Approved",
+  "daylight_variant": {
+    "variant_of_entry_id": "CH-01-084",
+    "derived_from": "Text-prompt-only photorealistic daylight plate of the same place. Not image-anchored on the published master. Europe/Zurich was night on 4 October 2026, so this plate has no scenario timestamp and no weather line.",
+    "source_night": {
+      "16x9": {
+        "path": "library/world/Switzerland/Basel/ch-01-084-16x9.png",
+        "sha256": "acb4eedf2d1c2ea688bda52abb3de0f85e6d80d567c10ee2fe9c4da43be288e8"
+      },
+      "4x5": {
+        "path": "library/world/Switzerland/Basel/ch-01-084-4x5.png",
+        "sha256": "0004fd0264428c73c53bcf9250aa904dc5ffacf097ea2fe088df446ed5ae842f"
+      },
+      "9x16": {
+        "path": "library/world/Switzerland/Basel/ch-01-084-9x16.png",
+        "sha256": "f69087e98b6186b0aff8ead0a574144fb8cad31144cc944847e69e09f20e9c22"
+      },
+      "recorded": "SHA-256 of the published masters immediately before this daylight batch. Post-write hashes are identical; published masters were not rewritten."
+    },
+    "files": {
+      "16x9": "library/world/Switzerland/Basel/ch-01-084-daylight-16x9.png",
+      "4x5": "library/world/Switzerland/Basel/ch-01-084-daylight-4x5.png",
+      "9x16": "library/world/Switzerland/Basel/ch-01-084-daylight-9x16.png"
+    },
+    "sha256": {
+      "16x9": "a7bd60aeb870da5f70ea2509e15d4c7be53a3f2484b65a53787e2e515a445c68",
+      "4x5": "c8c34efaa43d505162155208e8de4c9ca32980710677f35cb8bccd354206f747",
+      "9x16": "16cdabaf03a3610db95bbc375d61604d92713d46d4c2e5cb42359a54ad497844"
+    },
+    "created_date": "2026-10-04",
+    "on_image_caption": "Basel Rathaus, Basel",
+    "on_image_signature": "Jason D’s Vision",
+    "on_image_disclosure": "AI-generated artistic interpretation · Not a photograph.",
+    "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
+    "derivative_disclosure": "Daylight companion plate for the gallery daylight control. Text-prompt only. No weather claim. No scenario timestamp on the variant. The scene scenario_label is unchanged and is not a daylight weather assertion.",
+    "note": "Photorealistic daylight plate generated text-prompt-only on 2026-10-04. Not derived by relighting the published master and not image-anchored on it. No live daytime weather reading was available. The plate carries no scenario timestamp and no weather line. Published masters were not rewritten."
+  },
   "qc_status": "Approved",
   "approval_basis": "G1: Basel Rathaus — red sandstone facade with white trim, ground-floor arcades and the clock tower with dark bulbous cupola over the Marktplatz cobbles; recognizably Basel's town hall (cupola read as stylized interpretation). G2: 16:9 1920×1270, baked bar with caption 'Basel Rathaus, Basel', scenario '24 September 2026 · 16:14 Europe/Zurich', disclosure + signature legible; weather retrieval 2026-09-27T16:56:06Z unique to this scene, valid 16:00 hour contains the scenario, WMO 3 overcast matching the grey sky; Art. 50 chunks present. G3: text-prompt-only. G4: no people/logos. G5: clear.",
   "sha256_16x9": "acb4eedf2d1c2ea688bda52abb3de0f85e6d80d567c10ee2fe9c4da43be288e8",

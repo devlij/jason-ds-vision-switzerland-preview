@@ -13,6 +13,42 @@
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
   "approval_status": "Approved",
+  "daylight_variant": {
+    "variant_of_entry_id": "CH-01-072",
+    "derived_from": "Text-prompt-only photorealistic daylight plate of the same place. Not image-anchored on the published master. Europe/Zurich was night on 4 October 2026, so this plate has no scenario timestamp and no weather line.",
+    "source_night": {
+      "16x9": {
+        "path": "library/world/Switzerland/Frauenfeld/ch-01-072-16x9.png",
+        "sha256": "faa42f7d132d94dca387da2cb0fb5cbfe6ac163b37f858f97f52534d04610f2f"
+      },
+      "4x5": {
+        "path": "library/world/Switzerland/Frauenfeld/ch-01-072-4x5.png",
+        "sha256": "1ee81d174f914c382280c6b345d18cf00645c47102772fcca760069cbbd80f98"
+      },
+      "9x16": {
+        "path": "library/world/Switzerland/Frauenfeld/ch-01-072-9x16.png",
+        "sha256": "7994c13dfd86da365677f27456fbb22c23021b32e2139670e41f60a4ff27428e"
+      },
+      "recorded": "SHA-256 of the published masters immediately before this daylight batch. Post-write hashes are identical; published masters were not rewritten."
+    },
+    "files": {
+      "16x9": "library/world/Switzerland/Frauenfeld/ch-01-072-daylight-16x9.png",
+      "4x5": "library/world/Switzerland/Frauenfeld/ch-01-072-daylight-4x5.png",
+      "9x16": "library/world/Switzerland/Frauenfeld/ch-01-072-daylight-9x16.png"
+    },
+    "sha256": {
+      "16x9": "53184d06217f1c5d409b96a7e14c0a3139762e28b89388cfeb51d087c9a83cb9",
+      "4x5": "071e9e344cde507d46847ab3820a5f76acbd4febd14e9628bae378dcb0880e95",
+      "9x16": "62d41a175804eab8738709022a5cb31ebac27dfd5bdcedc7e04ab3ebf2d8f9a9"
+    },
+    "created_date": "2026-10-04",
+    "on_image_caption": "Frauenfeld Castle, Frauenfeld",
+    "on_image_signature": "Jason D’s Vision",
+    "on_image_disclosure": "AI-generated artistic interpretation · Not a photograph.",
+    "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
+    "derivative_disclosure": "Daylight companion plate for the gallery daylight control. Text-prompt only. No weather claim. No scenario timestamp on the variant. The scene scenario_label is unchanged and is not a daylight weather assertion.",
+    "note": "Photorealistic daylight plate generated text-prompt-only on 2026-10-04. Not derived by relighting the published master and not image-anchored on it. No live daytime weather reading was available. The plate carries no scenario timestamp and no weather line. Published masters were not rewritten."
+  },
   "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
   "approval_basis": "Stone keep tower with half-timbered upper story above town houses beside a river, overcast sky, clean framing. Label bar verified on-image: \"Frauenfeld Castle, Frauenfeld\", \"Scenario: 24 September 2026 · 16:01 Europe/Zurich\", disclosure, signature. Weather retrieval 2026-09-27T16:55:50Z unique to the second, separate GET for 47.55528,8.89667, scenario 16:01 inside 16:00–16:59 (code 3, 100% cloud — overcast consistent). Text-prompt-only per note. No people/logos.",
   "sha256_16x9": "faa42f7d132d94dca387da2cb0fb5cbfe6ac163b37f858f97f52534d04610f2f",

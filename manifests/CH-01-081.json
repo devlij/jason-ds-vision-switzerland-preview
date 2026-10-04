@@ -13,6 +13,42 @@
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
   "approval_status": "Approved",
+  "daylight_variant": {
+    "variant_of_entry_id": "CH-01-081",
+    "derived_from": "Text-prompt-only photorealistic daylight plate of the same place. Not image-anchored on the published master. Europe/Zurich was night on 4 October 2026, so this plate has no scenario timestamp and no weather line.",
+    "source_night": {
+      "16x9": {
+        "path": "library/world/Switzerland/Glarus/ch-01-081-16x9.png",
+        "sha256": "2a501389d082862ca3cb6d6a1265b890fc7087335f19eb34f6bb6c27ccd53881"
+      },
+      "4x5": {
+        "path": "library/world/Switzerland/Glarus/ch-01-081-4x5.png",
+        "sha256": "c8a036a2e04ecac7c9c9831adf51dce63972e1b6a2f1f60cb53a50e0a5a1e718"
+      },
+      "9x16": {
+        "path": "library/world/Switzerland/Glarus/ch-01-081-9x16.png",
+        "sha256": "1f0e9feb8d857b34e39897752230f05949f0a72b3bf66f1d1ee60451a2648402"
+      },
+      "recorded": "SHA-256 of the published masters immediately before this daylight batch. Post-write hashes are identical; published masters were not rewritten."
+    },
+    "files": {
+      "16x9": "library/world/Switzerland/Glarus/ch-01-081-daylight-16x9.png",
+      "4x5": "library/world/Switzerland/Glarus/ch-01-081-daylight-4x5.png",
+      "9x16": "library/world/Switzerland/Glarus/ch-01-081-daylight-9x16.png"
+    },
+    "sha256": {
+      "16x9": "11fe6b3301a4bfb511b9654653991fc5ae1744ab43538317df65923fcbed32d7",
+      "4x5": "ea3926ef6ff01969fa4be47b05e41dd2e85b33859fb27bde017a9f3452e811ef",
+      "9x16": "6a6db6426975d76fb4931eac4d3487a7aa3ceacc29f75cada96804cdcaab47de"
+    },
+    "created_date": "2026-10-04",
+    "on_image_caption": "Glarus, Glarus",
+    "on_image_signature": "Jason D’s Vision",
+    "on_image_disclosure": "AI-generated artistic interpretation · Not a photograph.",
+    "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
+    "derivative_disclosure": "Daylight companion plate for the gallery daylight control. Text-prompt only. No weather claim. No scenario timestamp on the variant. The scene scenario_label is unchanged and is not a daylight weather assertion.",
+    "note": "Photorealistic daylight plate generated text-prompt-only on 2026-10-04. Not derived by relighting the published master and not image-anchored on it. No live daytime weather reading was available. The plate carries no scenario timestamp and no weather line. Published masters were not rewritten."
+  },
   "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
   "approval_basis": "G1: Glarus — Stadtkirche's tall pointed tower over the town roofs with the Glärnisch massif filling the frame behind, cloud catching the summit; G2: 16:9 1920×1270, baked bar with caption 'Glarus, Glarus', scenario '24 September 2026 · 16:14 Europe/Zurich', disclosure + signature; weather retrieval 2026-09-27T16:56:02Z unique to this scene, valid 16:00 hour contains scenario, WMO 3 overcast/100% matching the cloud-draped peaks; G3: text-prompt-only; G4: no people/logos; G5: clear.",
   "sha256_16x9": "2a501389d082862ca3cb6d6a1265b890fc7087335f19eb34f6bb6c27ccd53881",

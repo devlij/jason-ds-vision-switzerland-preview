@@ -13,6 +13,42 @@
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
   "approval_status": "Approved",
+  "daylight_variant": {
+    "variant_of_entry_id": "CH-01-073",
+    "derived_from": "Text-prompt-only photorealistic daylight plate of the same place. Not image-anchored on the published master. Europe/Zurich was night on 4 October 2026, so this plate has no scenario timestamp and no weather line.",
+    "source_night": {
+      "16x9": {
+        "path": "library/world/Switzerland/Salenstein/ch-01-073-16x9.png",
+        "sha256": "e183470dc8c947da2d302c05400c4720cc4e556cc2e5b5822c08850b651d9f7e"
+      },
+      "4x5": {
+        "path": "library/world/Switzerland/Salenstein/ch-01-073-4x5.png",
+        "sha256": "62aaa7a1de31a17d0ab4345ff8e848f4832d6e544cc1c4f02b742c5904d493ee"
+      },
+      "9x16": {
+        "path": "library/world/Switzerland/Salenstein/ch-01-073-9x16.png",
+        "sha256": "5a834c3e61627508b0974c0ca3427e2644102639214f923213e06f9f95d52cbe"
+      },
+      "recorded": "SHA-256 of the published masters immediately before this daylight batch. Post-write hashes are identical; published masters were not rewritten."
+    },
+    "files": {
+      "16x9": "library/world/Switzerland/Salenstein/ch-01-073-daylight-16x9.png",
+      "4x5": "library/world/Switzerland/Salenstein/ch-01-073-daylight-4x5.png",
+      "9x16": "library/world/Switzerland/Salenstein/ch-01-073-daylight-9x16.png"
+    },
+    "sha256": {
+      "16x9": "d052ba5a8fab5a49d23a83e91b5831403635981b7d507a627a8eecaecab18deb",
+      "4x5": "be817aeb49a2bc6cf3a357028b19b244bd59b9629c0e90a6cedd68d8d57d0e2e",
+      "9x16": "d08f016860fe9fdc0b3d2a7b0a12bc4d6f40c9e3b90742e6ff0716f04a9b0d6d"
+    },
+    "created_date": "2026-10-04",
+    "on_image_caption": "Arenenberg, Salenstein",
+    "on_image_signature": "Jason D’s Vision",
+    "on_image_disclosure": "AI-generated artistic interpretation · Not a photograph.",
+    "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
+    "derivative_disclosure": "Daylight companion plate for the gallery daylight control. Text-prompt only. No weather claim. No scenario timestamp on the variant. The scene scenario_label is unchanged and is not a daylight weather assertion.",
+    "note": "Photorealistic daylight plate generated text-prompt-only on 2026-10-04. Not derived by relighting the published master and not image-anchored on it. No live daytime weather reading was available. The plate carries no scenario timestamp and no weather line. Published masters were not rewritten."
+  },
   "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
   "approval_basis": "Neoclassical white manor with mansard roof in parkland above Lake Constance, far shore beyond, overcast sky. Label bar verified on-image: \"Arenenberg, Salenstein\", \"Scenario: 24 September 2026 · 16:01 Europe/Zurich\", disclosure, signature. Weather retrieval 2026-09-27T16:55:51Z unique to the second, separate GET for 47.67278,9.05917, scenario 16:01 inside 16:00–16:59 (code 3, 98% cloud — overcast consistent). Text-prompt-only per note. No people/logos.",
   "sha256_16x9": "e183470dc8c947da2d302c05400c4720cc4e556cc2e5b5822c08850b651d9f7e",

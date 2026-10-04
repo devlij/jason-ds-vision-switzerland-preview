@@ -13,6 +13,42 @@
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
   "approval_status": "Approved",
+  "daylight_variant": {
+    "variant_of_entry_id": "CH-01-078",
+    "derived_from": "Text-prompt-only photorealistic daylight plate of the same place. Not image-anchored on the published master. Europe/Zurich was night on 4 October 2026, so this plate has no scenario timestamp and no weather line.",
+    "source_night": {
+      "16x9": {
+        "path": "library/world/Switzerland/Neuchâtel/ch-01-078-16x9.png",
+        "sha256": "fb7dd0cf564b4f2c771491201ba55fb153f00e80db45750cef1c40f5b2a265dc"
+      },
+      "4x5": {
+        "path": "library/world/Switzerland/Neuchâtel/ch-01-078-4x5.png",
+        "sha256": "5c10faee5c80ef0162d5c7789e8145c535967aa920bbdbea8d027331760bad08"
+      },
+      "9x16": {
+        "path": "library/world/Switzerland/Neuchâtel/ch-01-078-9x16.png",
+        "sha256": "21af853a0b1d9f0330a1ead1dfabb29736afd38f49ada16a7ced2b56a51f3e0d"
+      },
+      "recorded": "SHA-256 of the published masters immediately before this daylight batch. Post-write hashes are identical; published masters were not rewritten."
+    },
+    "files": {
+      "16x9": "library/world/Switzerland/Neuchâtel/ch-01-078-daylight-16x9.png",
+      "4x5": "library/world/Switzerland/Neuchâtel/ch-01-078-daylight-4x5.png",
+      "9x16": "library/world/Switzerland/Neuchâtel/ch-01-078-daylight-9x16.png"
+    },
+    "sha256": {
+      "16x9": "4785e48e279029cd684aca7ae04f73c57434a2f8901b3993e8546e065dbd5b64",
+      "4x5": "83f6fe498ec03b692ed5e0bee0dd8f64ffeb524215ab5f66c182ba6d94bf7e42",
+      "9x16": "83ae460989fa302e088698ebf1704f5d82cc95bb1d6a4ab8d4068170e58fe21a"
+    },
+    "created_date": "2026-10-04",
+    "on_image_caption": "Neuchâtel Old Town, Neuchâtel",
+    "on_image_signature": "Jason D’s Vision",
+    "on_image_disclosure": "AI-generated artistic interpretation · Not a photograph.",
+    "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
+    "derivative_disclosure": "Daylight companion plate for the gallery daylight control. Text-prompt only. No weather claim. No scenario timestamp on the variant. The scene scenario_label is unchanged and is not a daylight weather assertion.",
+    "note": "Photorealistic daylight plate generated text-prompt-only on 2026-10-04. Not derived by relighting the published master and not image-anchored on it. No live daytime weather reading was available. The plate carries no scenario timestamp and no weather line. Published masters were not rewritten."
+  },
   "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
   "approval_basis": "G1: Neuchâtel hilltop — château and collegiate church read as one limestone group above the old-town roofs with the lake behind, the defining skyline view; G2: 16:9 1920×1270, baked bar with caption 'Neuchâtel Old Town, Neuchâtel', scenario '24 September 2026 · 16:01 Europe/Zurich', disclosure + signature legible; weather retrieval 2026-09-27T16:55:58Z unique to this scene, valid 16:00 hour contains scenario, WMO 3 overcast/100% matching the cloudy lake image; G3: text-prompt-only; G4: no people/logos, public landmark; G5: clear.",
   "sha256_16x9": "fb7dd0cf564b4f2c771491201ba55fb153f00e80db45750cef1c40f5b2a265dc",

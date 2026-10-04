@@ -13,6 +13,42 @@
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
   "approval_status": "Approved",
+  "daylight_variant": {
+    "variant_of_entry_id": "CH-01-061",
+    "derived_from": "Text-prompt-only photorealistic daylight plate of the same place. Not image-anchored on the published master. Europe/Zurich was night on 4 October 2026, so this plate has no scenario timestamp and no weather line.",
+    "source_night": {
+      "16x9": {
+        "path": "library/world/Switzerland/Bellinzona/ch-01-061-16x9.png",
+        "sha256": "fc05ce6dc2bb3acfcab6992da01623ae09edb4d3755de268fc6871e37a266822"
+      },
+      "4x5": {
+        "path": "library/world/Switzerland/Bellinzona/ch-01-061-4x5.png",
+        "sha256": "6a4cdfcfd7222321c3ed5c03cbc8543d8d9d8cf4e20deafdecd4f065e5b8b32c"
+      },
+      "9x16": {
+        "path": "library/world/Switzerland/Bellinzona/ch-01-061-9x16.png",
+        "sha256": "7f2f9ac3b1e1146a99e4327a485fd694f3169e71696ee382c4a548d99b77224b"
+      },
+      "recorded": "SHA-256 of the published masters immediately before this daylight batch. Post-write hashes are identical; published masters were not rewritten."
+    },
+    "files": {
+      "16x9": "library/world/Switzerland/Bellinzona/ch-01-061-daylight-16x9.png",
+      "4x5": "library/world/Switzerland/Bellinzona/ch-01-061-daylight-4x5.png",
+      "9x16": "library/world/Switzerland/Bellinzona/ch-01-061-daylight-9x16.png"
+    },
+    "sha256": {
+      "16x9": "d2f1af7ab284f47cf44e5785e0834593f92f68958b9c5200af5af091096299ec",
+      "4x5": "abb9d3728a9f0ecedcf3c3c61c01752205036c7729263c7549c2a67ef0098a50",
+      "9x16": "6e16768daf7781ac9be4fcdf4816d065feec8356b356e6ba444fdc1a9b0e3344"
+    },
+    "created_date": "2026-10-04",
+    "on_image_caption": "Castelgrande, Bellinzona",
+    "on_image_signature": "Jason D’s Vision",
+    "on_image_disclosure": "AI-generated artistic interpretation · Not a photograph.",
+    "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
+    "derivative_disclosure": "Daylight companion plate for the gallery daylight control. Text-prompt only. No weather claim. No scenario timestamp on the variant. The scene scenario_label is unchanged and is not a daylight weather assertion.",
+    "note": "Photorealistic daylight plate generated text-prompt-only on 2026-10-04. Not derived by relighting the published master and not image-anchored on it. No live daytime weather reading was available. The plate carries no scenario timestamp and no weather line. Published masters were not rewritten."
+  },
   "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
   "approval_basis": "White-walled Castelgrande fortress with two towers crowns a rocky outcrop above old-town rooftops in a plausible tourist viewpoint. Label bar verified on-image: \"Castelgrande, Bellinzona\", \"Scenario: 24 September 2026 · 15:44 Europe/Zurich\", \"AI-generated artistic interpretation · Not a photograph\", curly-apostrophe \"Jason D's Vision\" + script \"Jason A. Devlin\". Weather retrieval 2026-09-27T16:54:02Z unique to the second across the 30-scene build window, separate GET for 46.1928,9.0230, scenario minute 15:44 inside model-valid hour 15:00–15:59 (code 2, 77% cloud — partly-cloudy sky on-image consistent). Text-prompt-only per note. No people/logos.",
   "sha256_16x9": "fc05ce6dc2bb3acfcab6992da01623ae09edb4d3755de268fc6871e37a266822",

@@ -13,6 +13,42 @@
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
   "approval_status": "Approved",
+  "daylight_variant": {
+    "variant_of_entry_id": "CH-01-075",
+    "derived_from": "Text-prompt-only photorealistic daylight plate of the same place. Not image-anchored on the published master. Europe/Zurich was night on 4 October 2026, so this plate has no scenario timestamp and no weather line.",
+    "source_night": {
+      "16x9": {
+        "path": "library/world/Switzerland/Lausanne/ch-01-075-16x9.png",
+        "sha256": "d191aac2e121d120cc21ba23b44ab87e77c1018d59ca2885f7af296a0671dc45"
+      },
+      "4x5": {
+        "path": "library/world/Switzerland/Lausanne/ch-01-075-4x5.png",
+        "sha256": "c42917ef5a3ab4c20640f4abd154d804bc05d4ba72c7a02a221e0c9fe526a5ae"
+      },
+      "9x16": {
+        "path": "library/world/Switzerland/Lausanne/ch-01-075-9x16.png",
+        "sha256": "67f8e5b298f9bc09ed90c08e8916a19f4932dcf4c26fcc3c0351462ebf7a0d88"
+      },
+      "recorded": "SHA-256 of the published masters immediately before this daylight batch. Post-write hashes are identical; published masters were not rewritten."
+    },
+    "files": {
+      "16x9": "library/world/Switzerland/Lausanne/ch-01-075-daylight-16x9.png",
+      "4x5": "library/world/Switzerland/Lausanne/ch-01-075-daylight-4x5.png",
+      "9x16": "library/world/Switzerland/Lausanne/ch-01-075-daylight-9x16.png"
+    },
+    "sha256": {
+      "16x9": "63622a0707df0e337ef0f2f2eae2767d069c5513ea3219a25d3d44ff3e4a3c70",
+      "4x5": "80285363b2f61d72693d985b67e5e0bf10c7f99426c768456d06ed05c9358273",
+      "9x16": "44b7f34ccb826544e92d2a6cdf36712e05f51080170644c65b5521f56b867732"
+    },
+    "created_date": "2026-10-04",
+    "on_image_caption": "Ouchy, Lausanne",
+    "on_image_signature": "Jason D’s Vision",
+    "on_image_disclosure": "AI-generated artistic interpretation · Not a photograph.",
+    "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
+    "derivative_disclosure": "Daylight companion plate for the gallery daylight control. Text-prompt only. No weather claim. No scenario timestamp on the variant. The scene scenario_label is unchanged and is not a daylight weather assertion.",
+    "note": "Photorealistic daylight plate generated text-prompt-only on 2026-10-04. Not derived by relighting the published master and not image-anchored on it. No live daytime weather reading was available. The plate carries no scenario timestamp and no weather line. Published masters were not rewritten."
+  },
   "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
   "approval_basis": "Square-towered Château d'Ouchy on the quay with marina sailboats, Lausanne rising behind the water, Alps across Lake Geneva under cloud, no readable steamer name or hotel sign, overcast sky. Label bar verified on-image: \"Ouchy, Lausanne\", \"Scenario: 24 September 2026 · 16:01 Europe/Zurich\", disclosure, signature. Weather retrieval 2026-09-27T16:55:54Z unique to the second, separate GET for 46.50707,6.62676, scenario 16:01 inside 16:00–16:59 (code 3, 99% cloud — overcast consistent). Text-prompt-only per note. No people/logos. ## Ready-to-paste approve commands (main agent, AFTER re-sweep + sha re-verify) NOTE: grok-qc-approve.py hard-guards refuse timestampless bases and open Gate holds — these bases carry recorded retrieval timestamps and no open holds exist. python3 ~/workspace/jason-d-vision/grok-qc-approve.py --country switzerland \"CH-01-061\" \"Approved · Cosmo QC 5/5 · Daylight\" \"<basis above>\" python3 ~/workspace/jason-d-vision/grok-qc-approve.py --country switzerland \"CH-01-062\" \"Approved · Cosmo QC 5/5 · Daylight\" \"<basis above>\" python3 ~/workspace/jason-d-vision/grok-qc-approve.py --country switzerland \"CH-01-063\" \"Approved · Cosmo QC 5/5 · Daylight\" \"<basis above>\" python3 ~/workspace/jason-d-vision/grok-qc-approve.py --country switzerland \"CH-01-064\" \"Approved · Cosmo QC 5/5 · Daylight\" \"<basis above>\" python3 ~/workspace/jason-d-vision/grok-qc-approve.py --country switzerland \"CH-01-065\" \"Approved · Cosmo QC 5/5 · Daylight\" \"<basis above>\" python3 ~/workspace/jason-d-vision/grok-qc-approve.py --country switzerland \"CH-01-066\" \"Approved · Cosmo QC 5/5 · Daylight\" \"<basis above>\" python3 ~/workspace/jason-d-vision/grok-qc-approve.py --country switzerland \"CH-01-067\" \"Approved · Cosmo QC 5/5 · Daylight\" \"<basis above>\" python3 ~/workspace/jason-d-vision/grok-qc-approve.py --country switzerland \"CH-01-068\" \"Approved · Cosmo QC 5/5 · Daylight\" \"<basis above>\" python3 ~/workspace/jason-d-vision/grok-qc-approve.py --country switzerland \"CH-01-069\" \"Approved · Cosmo QC 5/5 · Daylight\" \"<basis above>\" python3 ~/workspace/jason-d-vision/grok-qc-approve.py --country switzerland \"CH-01-070\" \"Approved · Cosmo QC 5/5 · Daylight\" \"<basis above>\" python3 ~/workspace/jason-d-vision/grok-qc-approve.py --country switzerland \"CH-01-071\" \"Approved · Cosmo QC 5/5 · Daylight\" \"<basis above>\" python3 ~/workspace/jason-d-vision/grok-qc-approve.py --country switzerland \"CH-01-072\" \"Approved · Cosmo QC 5/5 · Daylight\" \"<basis above>\" python3 ~/workspace/jason-d-vision/grok-qc-approve.py --country switzerland \"CH-01-073\" \"Approved · Cosmo QC 5/5 · Daylight\" \"<basis above>\" python3 ~/workspace/jason-d-vision/grok-qc-approve.py --country switzerland \"CH-01-074\" \"Approved · Cosmo QC 5/5 · Daylight\" \"<basis above>\" python3 ~/workspace/jason-d-vision/grok-qc-approve.py --country switzerland \"CH-01-075\" \"Approved · Cosmo QC 5/5 · Daylight\" \"<basis above>\"",
   "sha256_16x9": "d191aac2e121d120cc21ba23b44ab87e77c1018d59ca2885f7af296a0671dc45",
