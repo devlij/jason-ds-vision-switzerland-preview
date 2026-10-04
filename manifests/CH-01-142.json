@@ -13,6 +13,38 @@
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
   "approval_status": "Approved",
+  "daylight_variant": {
+    "variant_of_entry_id": "CH-01-142",
+    "derived_from": "Text-prompt-only photorealistic daylight plate of the same place. Not image-anchored on the published master. Europe/Zurich was night on 4 October 2026, so this plate has no scenario timestamp and no weather line.",
+    "source_night": {
+      "16x9": {
+        "path": "library/world/Switzerland/Visp/ch-01-142-16x9.png",
+        "sha256": "9eaefa10f33e9a6423140383339d0d8e1abe609143e2ad4785c0ccd51c23c449"
+      },
+      "4x5": {
+        "path": "library/world/Switzerland/Visp/ch-01-142-4x5.png",
+        "sha256": "5a626e3ad35b5fbd3bd0809c1a133c407c5f9985f4cf2fca74421f91ec2d9dbc"
+      },
+      "recorded": "SHA-256 of the published masters immediately before this daylight batch. Post-write hashes are identical; published masters were not rewritten."
+    },
+    "files": {
+      "16x9": "library/world/Switzerland/Visp/ch-01-142-daylight-16x9.png",
+      "4x5": "library/world/Switzerland/Visp/ch-01-142-daylight-4x5.png",
+      "9x16": "library/world/Switzerland/Visp/ch-01-142-daylight-9x16.png"
+    },
+    "sha256": {
+      "16x9": "96c2138df437dea0e97af7c064fdd80ca3baf69bc0d1a35ea5b3701660cb6056",
+      "4x5": "8e8bfd6b8ed5fd1574d1b172bd0c4741d93bce4199221f0dd3a33620f85e05a8",
+      "9x16": "fd1ea7b27b0335cfb1fa0a23f6f755958102540a32678f4bd45ef6a0e02299ce"
+    },
+    "created_date": "2026-10-04",
+    "on_image_caption": "Visp, Visp",
+    "on_image_signature": "Jason D’s Vision",
+    "on_image_disclosure": "AI-generated artistic interpretation · Not a photograph.",
+    "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
+    "derivative_disclosure": "Daylight companion plate for the gallery daylight control. Text-prompt only. No weather claim. No scenario timestamp on the variant. The scene scenario_label is unchanged and is not a daylight weather assertion.",
+    "note": "Photorealistic daylight plate generated text-prompt-only on 2026-10-04. Not derived by relighting the published master and not image-anchored on it. No live daytime weather reading was available. The plate carries no scenario timestamp and no weather line. Published masters were not rewritten."
+  },
   "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
   "approval_basis": "Gate 1: Visp old town with tall dark spire of Saint Martin over burgher houses, Vispa river at the town edge, valley slopes in broken cloud; no pyramidal Matterhorn as subject. Warm late-afternoon light matching model code 2/37% cover. Gate 2: caption 'Visp, Visp', scenario '24 September 2026 · 17:14 Europe/Zurich', disclosure and curly-apostrophe signature exact on bottom gradient; per-scene Open-Meteo retrieval 2026-09-25T23:42:22Z verified unique across all 373 repo notes, valid hour 17:00-17:59 covers 17:14. Gate 3: text-prompt-only, no photographic inputs reported. Gate 4: no prominent people, no focal logos (internal note only). Gate 5: no open blockers.",
   "approved_at": "2026-09-26T07:37:39.780971+00:00",

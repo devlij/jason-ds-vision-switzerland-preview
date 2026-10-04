@@ -13,6 +13,38 @@
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
   "approval_status": "Approved",
+  "daylight_variant": {
+    "variant_of_entry_id": "CH-01-130",
+    "derived_from": "Text-prompt-only photorealistic daylight plate of the same place. Not image-anchored on the published master. Europe/Zurich was night on 4 October 2026, so this plate has no scenario timestamp and no weather line.",
+    "source_night": {
+      "16x9": {
+        "path": "library/world/Switzerland/Vaz-Obervaz/ch-01-130-16x9.png",
+        "sha256": "49934e31909c9729fc12e97cec653c24168743d973bdc9db0fabe0370aa6ea64"
+      },
+      "4x5": {
+        "path": "library/world/Switzerland/Vaz-Obervaz/ch-01-130-4x5.png",
+        "sha256": "5e3bc176fec01afba857ca81e0beeaa58ebbea94119d9cc24d18327a726f5f46"
+      },
+      "recorded": "SHA-256 of the published masters immediately before this daylight batch. Post-write hashes are identical; published masters were not rewritten."
+    },
+    "files": {
+      "16x9": "library/world/Switzerland/Vaz-Obervaz/ch-01-130-daylight-16x9.png",
+      "4x5": "library/world/Switzerland/Vaz-Obervaz/ch-01-130-daylight-4x5.png",
+      "9x16": "library/world/Switzerland/Vaz-Obervaz/ch-01-130-daylight-9x16.png"
+    },
+    "sha256": {
+      "16x9": "2163ef5510e99c0e1e27055d1be140ec001818028967537c3c22a263b24214f7",
+      "4x5": "fd44dfaadb0a144f40977776cb58ae5b62ee014061cd1f1f32fb7a2624101de4",
+      "9x16": "ca3021df3404713c1b1c818bb74d27a98f8e2a7c0cf23884d901a71d1a68dbd0"
+    },
+    "created_date": "2026-10-04",
+    "on_image_caption": "Lenzerheide, Vaz/Obervaz",
+    "on_image_signature": "Jason D’s Vision",
+    "on_image_disclosure": "AI-generated artistic interpretation · Not a photograph.",
+    "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
+    "derivative_disclosure": "Daylight companion plate for the gallery daylight control. Text-prompt only. No weather claim. No scenario timestamp on the variant. The scene scenario_label is unchanged and is not a daylight weather assertion.",
+    "note": "Photorealistic daylight plate generated text-prompt-only on 2026-10-04. Not derived by relighting the published master and not image-anchored on it. No live daytime weather reading was available. The plate carries no scenario timestamp and no weather line. Published masters were not rewritten."
+  },
   "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
   "approval_basis": "Gate 1: Lenzerheide gathered around Heidsee beneath the Parpaner Rothorn — tawny late-September meadows, chalets with church, golden low sun glancing off the lake at 17:14. Gate 2: masters 1920x1080/864x1080 exact; on-image caption 'Lenzerheide, Vaz/Obervaz', scenario '24 September 2026 · 17:14 Europe/Zurich', disclosure and signature 'Jason D’s Vision' legible on the gradient scrim. Weather retrieved 2026-09-25T23:41:09Z, unique to this scene across the 101-145 window; model-valid hour 17:00 matches the 17:14 scenario. Gate 3: text-prompt-only lineage, no photographic inputs per note. Gate 4: no people, no logos — documented only. Gate 5: no open blockers.",
   "approved_at": "2026-09-26T06:37:41.577853+00:00",

@@ -13,6 +13,38 @@
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
   "approval_status": "Approved",
+  "daylight_variant": {
+    "variant_of_entry_id": "CH-01-145",
+    "derived_from": "Text-prompt-only photorealistic daylight plate of the same place. Not image-anchored on the published master. Europe/Zurich was night on 4 October 2026, so this plate has no scenario timestamp and no weather line.",
+    "source_night": {
+      "16x9": {
+        "path": "library/world/Switzerland/Flims/ch-01-145-16x9.png",
+        "sha256": "9f4f59ec8bf99c57835e49d965042b9480e86dc2de2d375eff77b8af730ca4ff"
+      },
+      "4x5": {
+        "path": "library/world/Switzerland/Flims/ch-01-145-4x5.png",
+        "sha256": "7ccc1250bb7c066af3efefefb3d1af99e6109ae9c77114fa9c1598d126b0b57f"
+      },
+      "recorded": "SHA-256 of the published masters immediately before this daylight batch. Post-write hashes are identical; published masters were not rewritten."
+    },
+    "files": {
+      "16x9": "library/world/Switzerland/Flims/ch-01-145-daylight-16x9.png",
+      "4x5": "library/world/Switzerland/Flims/ch-01-145-daylight-4x5.png",
+      "9x16": "library/world/Switzerland/Flims/ch-01-145-daylight-9x16.png"
+    },
+    "sha256": {
+      "16x9": "36c1f164fae089fc9c87007b55f1154b653be567cb3cdb1109d203c25c6a881c",
+      "4x5": "90cc980c881418826b61d2966a13c8a9cb4e8fbede597e2e766804f8ae67172f",
+      "9x16": "1f5e37110d3be1b9ba1e0c03c43131b34036734c7f1eca4e8cb4653d1bb81d82"
+    },
+    "created_date": "2026-10-04",
+    "on_image_caption": "Lake Cauma, Flims",
+    "on_image_signature": "Jason D’s Vision",
+    "on_image_disclosure": "AI-generated artistic interpretation · Not a photograph.",
+    "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
+    "derivative_disclosure": "Daylight companion plate for the gallery daylight control. Text-prompt only. No weather claim. No scenario timestamp on the variant. The scene scenario_label is unchanged and is not a daylight weather assertion.",
+    "note": "Photorealistic daylight plate generated text-prompt-only on 2026-10-04. Not derived by relighting the published master and not image-anchored on it. No live daytime weather reading was available. The plate carries no scenario timestamp and no weather line. Published masters were not rewritten."
+  },
   "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
   "approval_basis": "Gate 1: Lake Cauma with turquoise water held in forest on the Flims rockslide debris, wooded island, steep wooded slide slopes, north shore path in foreground; no village street, no limestone cliff as subject. Gate 2: caption 'Lake Cauma, Flims', scenario '24 September 2026 · 17:33 Europe/Zurich', disclosure and curly-apostrophe signature exact on bottom gradient; per-scene Open-Meteo retrieval 2026-09-25T23:42:25Z verified unique across all 373 repo notes, valid hour 17:00-17:59 (17:30 step) covers 17:33. Gate 3: text-prompt-only, no photographic inputs reported. Gate 4: no prominent people, no focal logos (internal note only). Gate 5: no open blockers.",
   "approved_at": "2026-09-26T07:38:30.873016+00:00",

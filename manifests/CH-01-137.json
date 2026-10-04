@@ -13,6 +13,38 @@
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
   "approval_status": "Approved",
+  "daylight_variant": {
+    "variant_of_entry_id": "CH-01-137",
+    "derived_from": "Text-prompt-only photorealistic daylight plate of the same place. Not image-anchored on the published master. Europe/Zurich was night on 4 October 2026, so this plate has no scenario timestamp and no weather line.",
+    "source_night": {
+      "16x9": {
+        "path": "library/world/Switzerland/Sargans/ch-01-137-16x9.png",
+        "sha256": "566a3ce3a60d78c543bd2d4e99d1c0118ca9d8d5d5a153ef020285a10d06fbbc"
+      },
+      "4x5": {
+        "path": "library/world/Switzerland/Sargans/ch-01-137-4x5.png",
+        "sha256": "42f0e380fe3aa6ff893da95ae65ef7924f9c95c0acf9a05568482d93214298e8"
+      },
+      "recorded": "SHA-256 of the published masters immediately before this daylight batch. Post-write hashes are identical; published masters were not rewritten."
+    },
+    "files": {
+      "16x9": "library/world/Switzerland/Sargans/ch-01-137-daylight-16x9.png",
+      "4x5": "library/world/Switzerland/Sargans/ch-01-137-daylight-4x5.png",
+      "9x16": "library/world/Switzerland/Sargans/ch-01-137-daylight-9x16.png"
+    },
+    "sha256": {
+      "16x9": "9377c8ab3af78ac538c93929390e183f2a367a0e24d1d24556b3bc6ea8cb269f",
+      "4x5": "7750f51efb09e24c914cc4fe55137db15aec50fb85963e88644412db83bf6b2d",
+      "9x16": "14f21f335a146a3b25fd50e6720279d9e3bceee77ad159960e138e04b08d2dcb"
+    },
+    "created_date": "2026-10-04",
+    "on_image_caption": "Sargans Castle, Sargans",
+    "on_image_signature": "Jason D’s Vision",
+    "on_image_disclosure": "AI-generated artistic interpretation · Not a photograph.",
+    "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
+    "derivative_disclosure": "Daylight companion plate for the gallery daylight control. Text-prompt only. No weather claim. No scenario timestamp on the variant. The scene scenario_label is unchanged and is not a daylight weather assertion.",
+    "note": "Photorealistic daylight plate generated text-prompt-only on 2026-10-04. Not derived by relighting the published master and not image-anchored on it. No live daytime weather reading was available. The plate carries no scenario timestamp and no weather line. Published masters were not rewritten."
+  },
   "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
   "approval_basis": "Gate 1: Sargans Castle with tall square keep and curtain walls on rocky spur, town roofs of Sargans below, Rhine valley opening beyond; no scaffolding, no readable banners; overcast light matching model code 3/100% cover. Gate 2: caption 'Sargans Castle, Sargans', scenario '24 September 2026 · 17:14 Europe/Zurich', disclosure and curly-apostrophe signature exact on bottom gradient; per-scene Open-Meteo retrieval 2026-09-25T23:42:17Z verified unique across all 373 repo notes, valid hour 17:00-17:59 covers 17:14. Gate 3: text-prompt-only, no photographic inputs reported. Gate 4: no prominent people, no focal logos (internal note only). Gate 5: no open blockers.",
   "approved_at": "2026-09-26T07:36:10.146795+00:00",

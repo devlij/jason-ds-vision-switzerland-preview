@@ -13,6 +13,38 @@
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
   "approval_status": "Approved",
+  "daylight_variant": {
+    "variant_of_entry_id": "CH-01-127",
+    "derived_from": "Text-prompt-only photorealistic daylight plate of the same place. Not image-anchored on the published master. Europe/Zurich was night on 4 October 2026, so this plate has no scenario timestamp and no weather line.",
+    "source_night": {
+      "16x9": {
+        "path": "library/world/Switzerland/Avenches/ch-01-127-16x9.png",
+        "sha256": "37b62a4ffd801d7a2fa54f3b04d25ef7889d09f9e0668b4249127e17499e8392"
+      },
+      "4x5": {
+        "path": "library/world/Switzerland/Avenches/ch-01-127-4x5.png",
+        "sha256": "06ee3b4f19da364027779d11f477543551b230eadd9a8aca707baef92d7cfb15"
+      },
+      "recorded": "SHA-256 of the published masters immediately before this daylight batch. Post-write hashes are identical; published masters were not rewritten."
+    },
+    "files": {
+      "16x9": "library/world/Switzerland/Avenches/ch-01-127-daylight-16x9.png",
+      "4x5": "library/world/Switzerland/Avenches/ch-01-127-daylight-4x5.png",
+      "9x16": "library/world/Switzerland/Avenches/ch-01-127-daylight-9x16.png"
+    },
+    "sha256": {
+      "16x9": "a75130c9b3a6ca5dd59559176f8bc1cf9b73b8769771eb42599001026e3829f6",
+      "4x5": "b5fbe957d34fd23afcec7515c7d7fd435a4dc6dfca145e5c9bad9b4ffe7e4c72",
+      "9x16": "b425362a908f251d473d263c86ae55eb0a508a21ed0f516a390779864f84e8e2"
+    },
+    "created_date": "2026-10-04",
+    "on_image_caption": "Avenches, Avenches",
+    "on_image_signature": "Jason D’s Vision",
+    "on_image_disclosure": "AI-generated artistic interpretation · Not a photograph.",
+    "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
+    "derivative_disclosure": "Daylight companion plate for the gallery daylight control. Text-prompt only. No weather claim. No scenario timestamp on the variant. The scene scenario_label is unchanged and is not a daylight weather assertion.",
+    "note": "Photorealistic daylight plate generated text-prompt-only on 2026-10-04. Not derived by relighting the published master and not image-anchored on it. No live daytime weather reading was available. The plate carries no scenario timestamp and no weather line. Published masters were not rewritten."
+  },
   "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
   "approval_basis": "Gate 1: the Roman amphitheatre of Aventicum — an oval of conserved stone with the medieval tower on one entrance, seen from outside the monument, Avenches in the distance. Gate 2: masters 1920x1080/864x1080 exact; on-image caption 'Avenches, Avenches', scenario '24 September 2026 · 16:57 Europe/Zurich', disclosure and signature 'Jason D’s Vision' legible on the gradient scrim. Weather retrieved 2026-09-25T23:41:06Z, unique to this scene across the 101-145 window; model-valid hour 16:00-16:59 matches the scenario. Gate 3: text-prompt-only lineage, no photographic inputs per note. Gate 4: no people, no logos — documented only. Gate 5: no open blockers.",
   "approved_at": "2026-09-26T06:37:06.454064+00:00",
