@@ -13,6 +13,38 @@
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
   "approval_status": "Approved",
+  "daylight_variant": {
+    "variant_of_entry_id": "CH-01-119",
+    "derived_from": "Text-prompt-only photorealistic daylight plate of the same place. Not image-anchored on the published master. Europe/Zurich was night on 4 October 2026, so this plate has no scenario timestamp and no weather line.",
+    "source_night": {
+      "16x9": {
+        "path": "library/world/Switzerland/Silvaplana/ch-01-119-16x9.png",
+        "sha256": "73204cb1262660bc9eb6833c263e0dc2f333b02073f66d37d93942ec756aacd5"
+      },
+      "4x5": {
+        "path": "library/world/Switzerland/Silvaplana/ch-01-119-4x5.png",
+        "sha256": "5dc05fc7e62f3ebfd798b47cc4bd33ce03af4a5f73044823ed9d3178c51fe1c5"
+      },
+      "recorded": "SHA-256 of the published masters immediately before this daylight batch. Post-write hashes are identical; published masters were not rewritten."
+    },
+    "files": {
+      "16x9": "library/world/Switzerland/Silvaplana/ch-01-119-daylight-16x9.png",
+      "4x5": "library/world/Switzerland/Silvaplana/ch-01-119-daylight-4x5.png",
+      "9x16": "library/world/Switzerland/Silvaplana/ch-01-119-daylight-9x16.png"
+    },
+    "sha256": {
+      "16x9": "7eba36eab5495380a88ef21191366c43c9909ed14b0af73374dd936812ee4983",
+      "4x5": "aff578f64d952c2882ecb545a62afd79131917ee8511752695dc16bc235428d0",
+      "9x16": "8064389398a51fb11f1c8c96bdc0815db89c32c40540c7cb9da11a78fa3a3e88"
+    },
+    "created_date": "2026-10-04",
+    "on_image_caption": "Silvaplana, Silvaplana",
+    "on_image_signature": "Jason D’s Vision",
+    "on_image_disclosure": "AI-generated artistic interpretation · Not a photograph.",
+    "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
+    "derivative_disclosure": "Daylight companion plate for the gallery daylight control. Text-prompt only. No weather claim. No scenario timestamp on the variant. The scene scenario_label is unchanged and is not a daylight weather assertion.",
+    "note": "Photorealistic daylight plate generated text-prompt-only on 2026-10-04. Not derived by relighting the published master and not image-anchored on it. No live daytime weather reading was available. The plate carries no scenario timestamp and no weather line. Published masters were not rewritten."
+  },
   "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
   "approval_basis": "Gate 1: lake shore with chalets and snow-dusted high Engadin ridges, wind-ruffled water running southwest — the Lej da Silvaplauna frame, not Lake St. Moritz. Gate 2: masters 1920x1080/864x1080 exact; on-image caption 'Silvaplana, Silvaplana', scenario '24 September 2026 · 16:56 Europe/Zurich', disclosure and signature 'Jason D’s Vision' legible on the gradient scrim. Weather retrieved 2026-09-25T23:40:58Z, unique to this scene across the 101-145 window; model-valid hour 16:00-16:59 matches the scenario. Gate 3: text-prompt-only lineage, no photographic inputs per note. Gate 4: no people, no logos — documented only. Gate 5: no open blockers.",
   "approved_at": "2026-09-26T06:35:27.118475+00:00",

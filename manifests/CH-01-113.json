@@ -13,6 +13,38 @@
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
   "approval_status": "Approved",
+  "daylight_variant": {
+    "variant_of_entry_id": "CH-01-113",
+    "derived_from": "Text-prompt-only photorealistic daylight plate of the same place. Not image-anchored on the published master. Europe/Zurich was night on 4 October 2026, so this plate has no scenario timestamp and no weather line.",
+    "source_night": {
+      "16x9": {
+        "path": "library/world/Switzerland/Brunnen/ch-01-113-16x9.png",
+        "sha256": "c00aa418f42abb3c305d46d794fff381003485448d839aea76261f3a764bca19"
+      },
+      "4x5": {
+        "path": "library/world/Switzerland/Brunnen/ch-01-113-4x5.png",
+        "sha256": "e39291d61c9aea912f5055d32be76b25e47a43a91f901341a32d532d075a20eb"
+      },
+      "recorded": "SHA-256 of the published masters immediately before this daylight batch. Post-write hashes are identical; published masters were not rewritten."
+    },
+    "files": {
+      "16x9": "library/world/Switzerland/Brunnen/ch-01-113-daylight-16x9.png",
+      "4x5": "library/world/Switzerland/Brunnen/ch-01-113-daylight-4x5.png",
+      "9x16": "library/world/Switzerland/Brunnen/ch-01-113-daylight-9x16.png"
+    },
+    "sha256": {
+      "16x9": "636f53a2ec4564ccb3e759fa5e7651c42c72a2638190793836806191e0deb1eb",
+      "4x5": "eac2613b759be5a8fd261c902b2d93f8b1aacadd66b6f4b92d8860e0a3827087",
+      "9x16": "c8501d01ed7ce6b0df6ea1ee117a05c3106ac2f4b190bdde12925712f50feb03"
+    },
+    "created_date": "2026-10-04",
+    "on_image_caption": "Brunnen, Brunnen",
+    "on_image_signature": "Jason D’s Vision",
+    "on_image_disclosure": "AI-generated artistic interpretation · Not a photograph.",
+    "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
+    "derivative_disclosure": "Daylight companion plate for the gallery daylight control. Text-prompt only. No weather claim. No scenario timestamp on the variant. The scene scenario_label is unchanged and is not a daylight weather assertion.",
+    "note": "Photorealistic daylight plate generated text-prompt-only on 2026-10-04. Not derived by relighting the published master and not image-anchored on it. No live daytime weather reading was available. The plate carries no scenario timestamp and no weather line. Published masters were not rewritten."
+  },
   "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
   "approval_basis": "Gate 1: tree-lined Brunnen lakeside quay with a covered steamer landing projecting into Lake Lucerne, open water and forested ridges across, town hotels set back from the shore — matches anchors, no readable hotel name. Gate 2: caption 'Brunnen, Brunnen' and 'Scenario: 24 September 2026 · 16:56 Europe/Zurich' exact; signature bottom-right; disclosure present. Weather verified: Open-Meteo retrieved 2026-09-25T23:40:52Z, unique to this scene, model hour 16:00–16:59 with the 16:45 step covers 16:56; overcast code 3 matches. Gate 3: text-prompt-only, no photographic inputs. Gate 4: no people, no logos (documented only). Gate 5: clear.",
   "approved_at": "2026-09-26T05:34:56.577125+00:00",

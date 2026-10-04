@@ -13,6 +13,38 @@
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
   "approval_status": "Approved",
+  "daylight_variant": {
+    "variant_of_entry_id": "CH-01-103",
+    "derived_from": "Text-prompt-only photorealistic daylight plate of the same place. Not image-anchored on the published master. Europe/Zurich was night on 4 October 2026, so this plate has no scenario timestamp and no weather line.",
+    "source_night": {
+      "16x9": {
+        "path": "library/world/Switzerland/Lauterbrunnen/ch-01-103-16x9.png",
+        "sha256": "ee0942c17e0110440345aa5099bba59a21a9d5aff169028263800b900591deda"
+      },
+      "4x5": {
+        "path": "library/world/Switzerland/Lauterbrunnen/ch-01-103-4x5.png",
+        "sha256": "48f9be557091bdbc9344c4a5352f36451a9b8247b36d0f21698aa275a2080dcf"
+      },
+      "recorded": "SHA-256 of the published masters immediately before this daylight batch. Post-write hashes are identical; published masters were not rewritten."
+    },
+    "files": {
+      "16x9": "library/world/Switzerland/Lauterbrunnen/ch-01-103-daylight-16x9.png",
+      "4x5": "library/world/Switzerland/Lauterbrunnen/ch-01-103-daylight-4x5.png",
+      "9x16": "library/world/Switzerland/Lauterbrunnen/ch-01-103-daylight-9x16.png"
+    },
+    "sha256": {
+      "16x9": "0b26e9ec2b920e26b51c01209a7847b5e81a906230b7aa999d30aa591b42affb",
+      "4x5": "a32690cd0319c9d55b2d9a1fa427f207531f43962a3ea310ae6212beede93c8c",
+      "9x16": "c13bf839352c51df19935da46379a7f7f57760223ea9ce4dd84961a168b1375a"
+    },
+    "created_date": "2026-10-04",
+    "on_image_caption": "Trümmelbach Falls, Lauterbrunnen",
+    "on_image_signature": "Jason D’s Vision",
+    "on_image_disclosure": "AI-generated artistic interpretation · Not a photograph.",
+    "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
+    "derivative_disclosure": "Daylight companion plate for the gallery daylight control. Text-prompt only. No weather claim. No scenario timestamp on the variant. The scene scenario_label is unchanged and is not a daylight weather assertion.",
+    "note": "Photorealistic daylight plate generated text-prompt-only on 2026-10-04. Not derived by relighting the published master and not image-anchored on it. No live daytime weather reading was available. The plate carries no scenario timestamp and no weather line. Published masters were not rewritten."
+  },
   "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
   "approval_basis": "Gate 1: glacial water churning down a polished limestone chute inside the cliff, visitor gallery with railing and warm lamps at left, spray and dim daylight — matches anchors, not the outdoor Staubbach veil. Gate 2: caption 'Trümmelbach Falls, Lauterbrunnen' and 'Scenario: 24 September 2026 · 16:37 Europe/Zurich' exact; signature bottom-right; disclosure present. Weather verified: Open-Meteo retrieved 2026-09-25T23:40:42Z, unique to this scene, model hour covers 16:37. Gate 3: text-prompt-only, no photographic inputs. Gate 4: no people, no logos (documented only). Gate 5: clear.",
   "approved_at": "2026-09-26T05:32:54.643104+00:00",

@@ -13,6 +13,38 @@
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
   "approval_status": "Approved",
+  "daylight_variant": {
+    "variant_of_entry_id": "CH-01-114",
+    "derived_from": "Text-prompt-only photorealistic daylight plate of the same place. Not image-anchored on the published master. Europe/Zurich was night on 4 October 2026, so this plate has no scenario timestamp and no weather line.",
+    "source_night": {
+      "16x9": {
+        "path": "library/world/Switzerland/Flüelen/ch-01-114-16x9.png",
+        "sha256": "455363ca3e7a27b8a5b7927807a6cc386146fbeb9f74086a5e5b78e3e6b28b80"
+      },
+      "4x5": {
+        "path": "library/world/Switzerland/Flüelen/ch-01-114-4x5.png",
+        "sha256": "293bfddc05cc68e781798d7bd6ae1110adc0167d168cb974cb5e8e976e27d1b8"
+      },
+      "recorded": "SHA-256 of the published masters immediately before this daylight batch. Post-write hashes are identical; published masters were not rewritten."
+    },
+    "files": {
+      "16x9": "library/world/Switzerland/Flüelen/ch-01-114-daylight-16x9.png",
+      "4x5": "library/world/Switzerland/Flüelen/ch-01-114-daylight-4x5.png",
+      "9x16": "library/world/Switzerland/Flüelen/ch-01-114-daylight-9x16.png"
+    },
+    "sha256": {
+      "16x9": "1ca8c1f23130b362e790e2f0925d3b8ae73197b65dabc6dd180e950bcda28f68",
+      "4x5": "c2ee7186a7b44f8287f8ad2198b7f0ccad0e1b51bf3543ee6299e56a7364261c",
+      "9x16": "30df3271fbb32f99cac7b4f9bd89be79225b9f873d93d0fcacb07b5c76541e9e"
+    },
+    "created_date": "2026-10-04",
+    "on_image_caption": "Flüelen, Flüelen",
+    "on_image_signature": "Jason D’s Vision",
+    "on_image_disclosure": "AI-generated artistic interpretation · Not a photograph.",
+    "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
+    "derivative_disclosure": "Daylight companion plate for the gallery daylight control. Text-prompt only. No weather claim. No scenario timestamp on the variant. The scene scenario_label is unchanged and is not a daylight weather assertion.",
+    "note": "Photorealistic daylight plate generated text-prompt-only on 2026-10-04. Not derived by relighting the published master and not image-anchored on it. No live daytime weather reading was available. The plate carries no scenario timestamp and no weather line. Published masters were not rewritten."
+  },
   "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
   "approval_basis": "Gate 1: small Flüelen harbor at the south end of the Urnersee with the Reuss delta, steep Axen cliffs rising on the east, village roofs behind the shore — matches anchors, no Tell statue, no chapel on the cliff. Gate 2: caption 'Flüelen, Flüelen' and 'Scenario: 24 September 2026 · 16:56 Europe/Zurich' exact; signature bottom-right; disclosure present. Weather verified: Open-Meteo retrieved 2026-09-25T23:40:53Z, unique to this scene, model hour with the 16:45 step covers 16:56; overcast code 3 matches. Gate 3: text-prompt-only, no photographic inputs. Gate 4: no people, no logos (documented only). Gate 5: clear.",
   "approved_at": "2026-09-26T05:35:01.376758+00:00",

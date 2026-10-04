@@ -13,6 +13,38 @@
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
   "approval_status": "Approved",
+  "daylight_variant": {
+    "variant_of_entry_id": "CH-01-105",
+    "derived_from": "Text-prompt-only photorealistic daylight plate of the same place. Not image-anchored on the published master. Europe/Zurich was night on 4 October 2026, so this plate has no scenario timestamp and no weather line.",
+    "source_night": {
+      "16x9": {
+        "path": "library/world/Switzerland/Verbier/ch-01-105-16x9.png",
+        "sha256": "5cbd7907f6d3cdc50698dcb1adc78c38d43a7f47db9b13a9fcbeb488b2905362"
+      },
+      "4x5": {
+        "path": "library/world/Switzerland/Verbier/ch-01-105-4x5.png",
+        "sha256": "5ceaabe782ad6d3421ebfdffea938438422b36fb60957106341800568278089e"
+      },
+      "recorded": "SHA-256 of the published masters immediately before this daylight batch. Post-write hashes are identical; published masters were not rewritten."
+    },
+    "files": {
+      "16x9": "library/world/Switzerland/Verbier/ch-01-105-daylight-16x9.png",
+      "4x5": "library/world/Switzerland/Verbier/ch-01-105-daylight-4x5.png",
+      "9x16": "library/world/Switzerland/Verbier/ch-01-105-daylight-9x16.png"
+    },
+    "sha256": {
+      "16x9": "9b014dbc567bd940c3785be6d51f5c13e365ad66487befdafe31f6e2d6389143",
+      "4x5": "6b238e15573417effef7f96007f45cc3818424ab02b0535feb32456a9974d99d",
+      "9x16": "58a4845db34f456ffb06108f53fcbb0993bdc3a1619f4cf46f02fab1c3a33575"
+    },
+    "created_date": "2026-10-04",
+    "on_image_caption": "Verbier, Verbier",
+    "on_image_signature": "Jason D’s Vision",
+    "on_image_disclosure": "AI-generated artistic interpretation · Not a photograph.",
+    "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
+    "derivative_disclosure": "Daylight companion plate for the gallery daylight control. Text-prompt only. No weather claim. No scenario timestamp on the variant. The scene scenario_label is unchanged and is not a daylight weather assertion.",
+    "note": "Photorealistic daylight plate generated text-prompt-only on 2026-10-04. Not derived by relighting the published master and not image-anchored on it. No live daytime weather reading was available. The plate carries no scenario timestamp and no weather line. Published masters were not rewritten."
+  },
   "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
   "approval_basis": "Gate 1: high village of dark-wood chalets at altitude, tawny late-September meadows, streets free of snow, snow-bearing Combin massif beyond — matches anchors, no readable resort name. Gate 2: caption 'Verbier, Verbier' and 'Scenario: 24 September 2026 · 16:38 Europe/Zurich' exact; signature bottom-right; disclosure present. Weather verified: Open-Meteo retrieved 2026-09-25T23:40:44Z, unique to this scene, model hour covers 16:38; partly-cloudy code 2 matches the blue sky with cumulus. Gate 3: text-prompt-only, no photographic inputs. Gate 4: no people, no logos (documented only). Gate 5: clear.",
   "approved_at": "2026-09-26T05:33:32.217857+00:00",

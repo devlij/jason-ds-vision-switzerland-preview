@@ -13,6 +13,38 @@
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
   "approval_status": "Approved",
+  "daylight_variant": {
+    "variant_of_entry_id": "CH-01-107",
+    "derived_from": "Text-prompt-only photorealistic daylight plate of the same place. Not image-anchored on the published master. Europe/Zurich was night on 4 October 2026, so this plate has no scenario timestamp and no weather line.",
+    "source_night": {
+      "16x9": {
+        "path": "library/world/Switzerland/Pontresina/ch-01-107-16x9.png",
+        "sha256": "f02bf6d62ca3182446c1318d70ae22b9c30a95e74a47bce2ef9eed062638bcbc"
+      },
+      "4x5": {
+        "path": "library/world/Switzerland/Pontresina/ch-01-107-4x5.png",
+        "sha256": "34941814aa1ad386032d3957e0fd00501a7473c9fdf74c4d9bbc8d19cf137d7a"
+      },
+      "recorded": "SHA-256 of the published masters immediately before this daylight batch. Post-write hashes are identical; published masters were not rewritten."
+    },
+    "files": {
+      "16x9": "library/world/Switzerland/Pontresina/ch-01-107-daylight-16x9.png",
+      "4x5": "library/world/Switzerland/Pontresina/ch-01-107-daylight-4x5.png",
+      "9x16": "library/world/Switzerland/Pontresina/ch-01-107-daylight-9x16.png"
+    },
+    "sha256": {
+      "16x9": "002a70674628e1e3d2d9a60218aefd63d654acd18d474cad92932bf74317c149",
+      "4x5": "c87310a5dfaa8adbe422306373d88ad418fadc87b4bf503567cbf4e71d0c92f1",
+      "9x16": "5b8b9d8cff08c96bbc12c81d6beed46ce8d76b7c1cc531777b224969632c7bdb"
+    },
+    "created_date": "2026-10-04",
+    "on_image_caption": "Pontresina, Pontresina",
+    "on_image_signature": "Jason D’s Vision",
+    "on_image_disclosure": "AI-generated artistic interpretation · Not a photograph.",
+    "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
+    "derivative_disclosure": "Daylight companion plate for the gallery daylight control. Text-prompt only. No weather claim. No scenario timestamp on the variant. The scene scenario_label is unchanged and is not a daylight weather assertion.",
+    "note": "Photorealistic daylight plate generated text-prompt-only on 2026-10-04. Not derived by relighting the published master and not image-anchored on it. No live daytime weather reading was available. The plate carries no scenario timestamp and no weather line. Published masters were not rewritten."
+  },
   "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
   "approval_basis": "Gate 1: village street of Engadin stone houses leading to a church tower, larch woods mostly green with only a first hint of gold, Bernina foothills behind roofs — matches anchors, no hotel name. Gate 2: caption 'Pontresina, Pontresina' and 'Scenario: 24 September 2026 · 16:38 Europe/Zurich' exact; signature bottom-right; disclosure present. Weather verified: Open-Meteo retrieved 2026-09-25T23:40:46Z, unique to this scene, model hour covers 16:38; mainly-clear code 1 matches the bright sky. Gate 3: text-prompt-only, no photographic inputs. Gate 4: no people, no logos (documented only). Gate 5: clear.",
   "approved_at": "2026-09-26T05:33:41.907967+00:00",
