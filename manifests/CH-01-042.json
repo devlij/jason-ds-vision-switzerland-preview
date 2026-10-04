@@ -13,6 +13,42 @@
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
   "approval_status": "Approved",
+  "daylight_variant": {
+    "variant_of_entry_id": "CH-01-042",
+    "derived_from": "Text-prompt-only photorealistic daylight plate of the same place. Not image-anchored on the published master. Europe/Zurich was night on 4 October 2026, so this plate has no scenario timestamp and no weather line.",
+    "source_night": {
+      "16x9": {
+        "path": "library/world/Switzerland/Lungern/ch-01-042-16x9.png",
+        "sha256": "4fcb13c2f05ed43cf3c58910e25a5e4b8fd118ca9fa38527f2ffab0cfa1dac90"
+      },
+      "4x5": {
+        "path": "library/world/Switzerland/Lungern/ch-01-042-4x5.png",
+        "sha256": "690057073196fceb06784a368849e5e2303625b1550e2415846a45ce86fb89c0"
+      },
+      "9x16": {
+        "path": "library/world/Switzerland/Lungern/ch-01-042-9x16.png",
+        "sha256": "1bd674c09b0980137c65e35d21f5700ca81c38906ea2d1a6df5cd5460e8c463e"
+      },
+      "recorded": "SHA-256 of the published masters immediately before this daylight batch. Post-write hashes are identical; published masters were not rewritten."
+    },
+    "files": {
+      "16x9": "library/world/Switzerland/Lungern/ch-01-042-daylight-16x9.png",
+      "4x5": "library/world/Switzerland/Lungern/ch-01-042-daylight-4x5.png",
+      "9x16": "library/world/Switzerland/Lungern/ch-01-042-daylight-9x16.png"
+    },
+    "sha256": {
+      "16x9": "acdbb40608bc838cfb3880b0c0ec6eb31189134b926e23c820e0b80d6002e981",
+      "4x5": "f8df185572ebd25156396209e0b8638e2360e3a98eaf65fffc8e89f4a34da3d5",
+      "9x16": "e7c703f257bbc659e52a018737c9ad94dd99f83bcf000913369f99412dd6cf9c"
+    },
+    "created_date": "2026-10-04",
+    "on_image_caption": "Lungern, Lungern",
+    "on_image_signature": "Jason D’s Vision",
+    "on_image_disclosure": "AI-generated artistic interpretation · Not a photograph.",
+    "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
+    "derivative_disclosure": "Daylight companion plate for the gallery daylight control. Text-prompt only. No weather claim. No scenario timestamp on the variant. The scene scenario_label is unchanged and is not a daylight weather assertion.",
+    "note": "Photorealistic daylight plate generated text-prompt-only on 2026-10-04. Not derived by relighting the published master and not image-anchored on it. No live daytime weather reading was available. The plate carries no scenario timestamp and no weather line. Published masters were not rewritten."
+  },
   "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
   "approval_basis": "Gate 1: village along Lake Lungern with St. Katharina church spire, wooden chalets, lake reflections, forested mountains, overcast - recognizably Lungern, Lungern from a plausible tourist viewpoint; clean framing, no artifacts, no glaring misconfiguration. Gate 2: dims exact per sweep (1920x1270 / 864x1080); 190px label bar baked under the photo with exact caption 'Lungern, Lungern', scenario '24 September 2026 · 15:28 Europe/Zurich', AI disclosure, 'Jason D\\'s Vision' (curly apostrophe) + 'Jason A. Devlin' script signature; zero text over the photo area. 4:5 master compared against 16:9 for subject-identity agreement. Per-scene Open-Meteo retrieval 2026-09-27T16:53:35Z, unique to the second repo-wide (full 365-note scan 2026-09-29); scenario inside the 15:00-15:59 model-valid hour; model code 3 / cloud 100% matches the overcast frame. Gate 3: text-prompt-only lineage per notes, no photographic inputs reported. Gate 4: no prominent people, focal logos, or private property visible (documented only). Gate 5: no open blockers.",
   "sha256_16x9": "4fcb13c2f05ed43cf3c58910e25a5e4b8fd118ca9fa38527f2ffab0cfa1dac90",

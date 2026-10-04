@@ -13,6 +13,42 @@
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
   "approval_status": "Approved",
+  "daylight_variant": {
+    "variant_of_entry_id": "CH-01-040",
+    "derived_from": "Text-prompt-only photorealistic daylight plate of the same place. Not image-anchored on the published master. Europe/Zurich was night on 4 October 2026, so this plate has no scenario timestamp and no weather line.",
+    "source_night": {
+      "16x9": {
+        "path": "library/world/Switzerland/Schwyz/ch-01-040-16x9.png",
+        "sha256": "c00f16d5687769039e72c5ef5767d6f72b90229eac2507fcf9bd9b808fcfecb6"
+      },
+      "4x5": {
+        "path": "library/world/Switzerland/Schwyz/ch-01-040-4x5.png",
+        "sha256": "7e2072150c6c1c515783c44a75c65c7d596bf230e6d6ad47390363df1aa7d5e3"
+      },
+      "9x16": {
+        "path": "library/world/Switzerland/Schwyz/ch-01-040-9x16.png",
+        "sha256": "64e9ab2a26905efc9ebb7cdc335882173210e51de145ebc0c18021bfd6a4b16e"
+      },
+      "recorded": "SHA-256 of the published masters immediately before this daylight batch. Post-write hashes are identical; published masters were not rewritten."
+    },
+    "files": {
+      "16x9": "library/world/Switzerland/Schwyz/ch-01-040-daylight-16x9.png",
+      "4x5": "library/world/Switzerland/Schwyz/ch-01-040-daylight-4x5.png",
+      "9x16": "library/world/Switzerland/Schwyz/ch-01-040-daylight-9x16.png"
+    },
+    "sha256": {
+      "16x9": "a74da36a72ddc36735b53d46ed3ceb117019317caa0976502f0f7d6766c294ff",
+      "4x5": "00683b698ac53bf090f1b4f03460569b370d3ee53ed62f4a987c9f1220b69ee5",
+      "9x16": "0d3141402181b58582752a67285f642bcfd962285ce734486ffb53b5541edcb6"
+    },
+    "created_date": "2026-10-04",
+    "on_image_caption": "Mythen, Schwyz",
+    "on_image_signature": "Jason D’s Vision",
+    "on_image_disclosure": "AI-generated artistic interpretation · Not a photograph.",
+    "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
+    "derivative_disclosure": "Daylight companion plate for the gallery daylight control. Text-prompt only. No weather claim. No scenario timestamp on the variant. The scene scenario_label is unchanged and is not a daylight weather assertion.",
+    "note": "Photorealistic daylight plate generated text-prompt-only on 2026-10-04. Not derived by relighting the published master and not image-anchored on it. No live daytime weather reading was available. The plate carries no scenario timestamp and no weather line. Published masters were not rewritten."
+  },
   "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
   "approval_basis": "Gate 1: twin rocky peaks of Grosser and Kleiner Mythen over Schwyz village and pastures, overcast - recognizably Mythen, Schwyz from a plausible tourist viewpoint; clean framing, no artifacts, no glaring misconfiguration. Gate 2: dims exact per sweep (1920x1270 / 864x1080); 190px label bar baked under the photo with exact caption 'Mythen, Schwyz', scenario '24 September 2026 · 15:28 Europe/Zurich', AI disclosure, 'Jason D\\'s Vision' (curly apostrophe) + 'Jason A. Devlin' script signature; zero text over the photo area. 4:5 master compared against 16:9 for subject-identity agreement. Per-scene Open-Meteo retrieval 2026-09-27T16:53:32Z, unique to the second repo-wide (full 365-note scan 2026-09-29); scenario inside the 15:00-15:59 model-valid hour; model code 3 / cloud 96% matches the overcast frame. Gate 3: text-prompt-only lineage per notes, no photographic inputs reported. Gate 4: no prominent people, focal logos, or private property visible (documented only). Gate 5: no open blockers.",
   "sha256_16x9": "c00f16d5687769039e72c5ef5767d6f72b90229eac2507fcf9bd9b808fcfecb6",

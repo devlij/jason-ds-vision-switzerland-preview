@@ -13,6 +13,42 @@
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
   "approval_status": "Approved",
+  "daylight_variant": {
+    "variant_of_entry_id": "CH-01-058",
+    "derived_from": "Text-prompt-only photorealistic daylight plate of the same place. Not image-anchored on the published master. Europe/Zurich was night on 4 October 2026, so this plate has no scenario timestamp and no weather line.",
+    "source_night": {
+      "16x9": {
+        "path": "library/world/Switzerland/Poschiavo/ch-01-058-16x9.png",
+        "sha256": "66d2dec4985c44225919ea38c83a66006ded3436f994b62c632b201b9adf8f00"
+      },
+      "4x5": {
+        "path": "library/world/Switzerland/Poschiavo/ch-01-058-4x5.png",
+        "sha256": "ba0f48ece84d13fc6386b747e2e3c5eae1452ad059c79211d52214bcad309b38"
+      },
+      "9x16": {
+        "path": "library/world/Switzerland/Poschiavo/ch-01-058-9x16.png",
+        "sha256": "fc166c87b2726136ca14a10dc0387ee7580be9d3ca17228231256021e9ea6654"
+      },
+      "recorded": "SHA-256 of the published masters immediately before this daylight batch. Post-write hashes are identical; published masters were not rewritten."
+    },
+    "files": {
+      "16x9": "library/world/Switzerland/Poschiavo/ch-01-058-daylight-16x9.png",
+      "4x5": "library/world/Switzerland/Poschiavo/ch-01-058-daylight-4x5.png",
+      "9x16": "library/world/Switzerland/Poschiavo/ch-01-058-daylight-9x16.png"
+    },
+    "sha256": {
+      "16x9": "d9b3ecb49e74969f7599c4f8a16b6bd242345f54979829828323d93f330e7eeb",
+      "4x5": "242163b86eca42e1f64c26f278529c9478e39af74270c2307c14924bea33a36d",
+      "9x16": "e772089f9f753cbce6f86324c7b8a3126c97c90f8b01c5de88f9e6af8d77b36b"
+    },
+    "created_date": "2026-10-04",
+    "on_image_caption": "Lago Bianco, Poschiavo",
+    "on_image_signature": "Jason D’s Vision",
+    "on_image_disclosure": "AI-generated artistic interpretation · Not a photograph.",
+    "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
+    "derivative_disclosure": "Daylight companion plate for the gallery daylight control. Text-prompt only. No weather claim. No scenario timestamp on the variant. The scene scenario_label is unchanged and is not a daylight weather assertion.",
+    "note": "Photorealistic daylight plate generated text-prompt-only on 2026-10-04. Not derived by relighting the published master and not image-anchored on it. No live daytime weather reading was available. The plate carries no scenario timestamp and no weather line. Published masters were not rewritten."
+  },
   "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
   "approval_basis": "the turquoise reservoir and rocky Bernina ring render cleanly with sky matching the partly-cloudy model; label bar exact; per-scene retrieval 2026-09-27T16:53:57Z unique; Art. 50 chunks present, 2026-09-27.",
   "sha256_16x9": "66d2dec4985c44225919ea38c83a66006ded3436f994b62c632b201b9adf8f00",

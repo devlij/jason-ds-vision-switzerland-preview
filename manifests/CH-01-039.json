@@ -13,6 +13,42 @@
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
   "approval_status": "Approved",
+  "daylight_variant": {
+    "variant_of_entry_id": "CH-01-039",
+    "derived_from": "Text-prompt-only photorealistic daylight plate of the same place. Not image-anchored on the published master. Europe/Zurich was night on 4 October 2026, so this plate has no scenario timestamp and no weather line.",
+    "source_night": {
+      "16x9": {
+        "path": "library/world/Switzerland/Seelisberg/ch-01-039-16x9.png",
+        "sha256": "358e31edeb9f27e7b4426eb04e14ed9f81459fc7af7b3505750297bd50e8103b"
+      },
+      "4x5": {
+        "path": "library/world/Switzerland/Seelisberg/ch-01-039-4x5.png",
+        "sha256": "17d0871c9a5492051a3a88320cbd7d382aabe4f078eb89b73e730276cf33c447"
+      },
+      "9x16": {
+        "path": "library/world/Switzerland/Seelisberg/ch-01-039-9x16.png",
+        "sha256": "68ab4876c297a4736cfe8ec107360445e0aae3f7b8952a03a150c033dcfb0aa3"
+      },
+      "recorded": "SHA-256 of the published masters immediately before this daylight batch. Post-write hashes are identical; published masters were not rewritten."
+    },
+    "files": {
+      "16x9": "library/world/Switzerland/Seelisberg/ch-01-039-daylight-16x9.png",
+      "4x5": "library/world/Switzerland/Seelisberg/ch-01-039-daylight-4x5.png",
+      "9x16": "library/world/Switzerland/Seelisberg/ch-01-039-daylight-9x16.png"
+    },
+    "sha256": {
+      "16x9": "393c29943fa30d8e391edc5849e9c25f612d197971e8090b9cd93e11788f2d1d",
+      "4x5": "dbcb7282f47c7056b9e6215cdf57cc1150a8914e87605595f2b2defc0850c811",
+      "9x16": "36a44305a974263e1bf583026f622a76f73f867c1c33e6b86391f794fdd41240"
+    },
+    "created_date": "2026-10-04",
+    "on_image_caption": "Rütli Meadow, Seelisberg",
+    "on_image_signature": "Jason D’s Vision",
+    "on_image_disclosure": "AI-generated artistic interpretation · Not a photograph.",
+    "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
+    "derivative_disclosure": "Daylight companion plate for the gallery daylight control. Text-prompt only. No weather claim. No scenario timestamp on the variant. The scene scenario_label is unchanged and is not a daylight weather assertion.",
+    "note": "Photorealistic daylight plate generated text-prompt-only on 2026-10-04. Not derived by relighting the published master and not image-anchored on it. No live daytime weather reading was available. The plate carries no scenario timestamp and no weather line. Published masters were not rewritten."
+  },
   "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
   "approval_basis": "Gate 1: meadow sloping to the Lake Uri landing with wooden pier, forested shore, cloud-capped mountains across - recognizably Rütli Meadow, Seelisberg from a plausible tourist viewpoint; clean framing, no artifacts, no glaring misconfiguration. Gate 2: dims exact per sweep (1920x1270 / 864x1080); 190px label bar baked under the photo with exact caption 'Rütli Meadow, Seelisberg', scenario '24 September 2026 · 15:28 Europe/Zurich', AI disclosure, 'Jason D\\'s Vision' (curly apostrophe) + 'Jason A. Devlin' script signature; zero text over the photo area. 4:5 master compared against 16:9 for subject-identity agreement. Per-scene Open-Meteo retrieval 2026-09-27T16:53:31Z, unique to the second repo-wide (full 365-note scan 2026-09-29); scenario inside the 15:00-15:59 model-valid hour; model code 3 / cloud 98% matches the overcast frame. Gate 3: text-prompt-only lineage per notes, no photographic inputs reported. Gate 4: no prominent people, focal logos, or private property visible (documented only). Gate 5: no open blockers.",
   "sha256_16x9": "358e31edeb9f27e7b4426eb04e14ed9f81459fc7af7b3505750297bd50e8103b",

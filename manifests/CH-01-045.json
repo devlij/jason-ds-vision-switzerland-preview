@@ -13,6 +13,42 @@
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
   "approval_status": "Approved",
+  "daylight_variant": {
+    "variant_of_entry_id": "CH-01-045",
+    "derived_from": "Text-prompt-only photorealistic daylight plate of the same place. Not image-anchored on the published master. Europe/Zurich was night on 4 October 2026, so this plate has no scenario timestamp and no weather line.",
+    "source_night": {
+      "16x9": {
+        "path": "library/world/Switzerland/Zug/ch-01-045-16x9.png",
+        "sha256": "3acd8f34e034e3691e1689f02ecc06b0facc61fffe44dd8398f9d2f53e0a9728"
+      },
+      "4x5": {
+        "path": "library/world/Switzerland/Zug/ch-01-045-4x5.png",
+        "sha256": "e1065e05174104cdf78587aa88dbe710d1957e5436dbd24011b2078ec02810c4"
+      },
+      "9x16": {
+        "path": "library/world/Switzerland/Zug/ch-01-045-9x16.png",
+        "sha256": "1ae57ff6f74851ede3804a84ee3e7e4374feacc6864c52913e388001efa6392a"
+      },
+      "recorded": "SHA-256 of the published masters immediately before this daylight batch. Post-write hashes are identical; published masters were not rewritten."
+    },
+    "files": {
+      "16x9": "library/world/Switzerland/Zug/ch-01-045-daylight-16x9.png",
+      "4x5": "library/world/Switzerland/Zug/ch-01-045-daylight-4x5.png",
+      "9x16": "library/world/Switzerland/Zug/ch-01-045-daylight-9x16.png"
+    },
+    "sha256": {
+      "16x9": "e575c082a764a240a98b5db580509d005ab54bef8de98a9eb0f76ffcfd0e1996",
+      "4x5": "ec013a3e389f3f8c2d7c3145d37ec948de44e766db30da3a30901b7ef4823240",
+      "9x16": "4c2e5914da71be6c15d338f088eb7da2fc377389f81a263f3d7f157710a6c9bf"
+    },
+    "created_date": "2026-10-04",
+    "on_image_caption": "Zug Old Town, Zug",
+    "on_image_signature": "Jason D’s Vision",
+    "on_image_disclosure": "AI-generated artistic interpretation · Not a photograph.",
+    "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
+    "derivative_disclosure": "Daylight companion plate for the gallery daylight control. Text-prompt only. No weather claim. No scenario timestamp on the variant. The scene scenario_label is unchanged and is not a daylight weather assertion.",
+    "note": "Photorealistic daylight plate generated text-prompt-only on 2026-10-04. Not derived by relighting the published master and not image-anchored on it. No live daytime weather reading was available. The plate carries no scenario timestamp and no weather line. Published masters were not rewritten."
+  },
   "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
   "approval_basis": "Gate 1: Zytturm clock tower with twin clock faces, arcaded old-town houses, opening toward Lake Zug with the wooded Zugerberg beyond, overcast - recognizably Zug Old Town, Zug from a plausible tourist viewpoint; clean framing, no artifacts, no glaring misconfiguration. Gate 2: dims exact per sweep (1920x1270 / 864x1080); 190px label bar baked under the photo with exact caption 'Zug Old Town, Zug', scenario '24 September 2026 · 15:28 Europe/Zurich', AI disclosure, 'Jason D\\'s Vision' (curly apostrophe) + 'Jason A. Devlin' script signature; zero text over the photo area. 4:5 master compared against 16:9 for subject-identity agreement. Per-scene Open-Meteo retrieval 2026-09-27T16:53:39Z, unique to the second repo-wide (full 365-note scan 2026-09-29); scenario inside the 15:00-15:59 model-valid hour; model code 3 / cloud 99% matches the overcast frame. Gate 3: text-prompt-only lineage per notes, no photographic inputs reported. Gate 4: no prominent people, focal logos, or private property visible (documented only). Gate 5: no open blockers.",
   "sha256_16x9": "3acd8f34e034e3691e1689f02ecc06b0facc61fffe44dd8398f9d2f53e0a9728",

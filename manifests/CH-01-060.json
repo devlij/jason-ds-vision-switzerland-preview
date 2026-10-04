@@ -13,6 +13,42 @@
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
   "approval_status": "Approved",
+  "daylight_variant": {
+    "variant_of_entry_id": "CH-01-060",
+    "derived_from": "Text-prompt-only photorealistic daylight plate of the same place. Not image-anchored on the published master. Europe/Zurich was night on 4 October 2026, so this plate has no scenario timestamp and no weather line.",
+    "source_night": {
+      "16x9": {
+        "path": "library/world/Switzerland/Orselina/ch-01-060-16x9.png",
+        "sha256": "1863e43dbb0c184a373d8e636e45e4c697a95a36354d86fbd790bebdf6beb8a4"
+      },
+      "4x5": {
+        "path": "library/world/Switzerland/Orselina/ch-01-060-4x5.png",
+        "sha256": "08f428587f47467d6810420cf98b5c61f7c41b8acf22dea37558a408f31212fd"
+      },
+      "9x16": {
+        "path": "library/world/Switzerland/Orselina/ch-01-060-9x16.png",
+        "sha256": "c5dcbfcd0faaf39cea568c1209557903e4adc2ef7dee3335ce12887e4eaaeded"
+      },
+      "recorded": "SHA-256 of the published masters immediately before this daylight batch. Post-write hashes are identical; published masters were not rewritten."
+    },
+    "files": {
+      "16x9": "library/world/Switzerland/Orselina/ch-01-060-daylight-16x9.png",
+      "4x5": "library/world/Switzerland/Orselina/ch-01-060-daylight-4x5.png",
+      "9x16": "library/world/Switzerland/Orselina/ch-01-060-daylight-9x16.png"
+    },
+    "sha256": {
+      "16x9": "fa27d1d6904dc5d1d7f9d7255977de3d94a2fcdb18b80b67a37885ee6614590d",
+      "4x5": "488d3b6f4cbe639e87e511c4121e99f33a42b9e5f7a5be6015930390d2553923",
+      "9x16": "8a916aefaf13487c822c26fd9c676eb905ddfe03c97797553e31a80617dd71d2"
+    },
+    "created_date": "2026-10-04",
+    "on_image_caption": "Madonna del Sasso, Orselina",
+    "on_image_signature": "Jason D’s Vision",
+    "on_image_disclosure": "AI-generated artistic interpretation · Not a photograph.",
+    "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
+    "derivative_disclosure": "Daylight companion plate for the gallery daylight control. Text-prompt only. No weather claim. No scenario timestamp on the variant. The scene scenario_label is unchanged and is not a daylight weather assertion.",
+    "note": "Photorealistic daylight plate generated text-prompt-only on 2026-10-04. Not derived by relighting the published master and not image-anchored on it. No live daytime weather reading was available. The plate carries no scenario timestamp and no weather line. Published masters were not rewritten."
+  },
   "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
   "approval_basis": "the sanctuary, bell tower, crag, town and lake compose the classic Orselina panorama; label bar exact; per-scene retrieval 2026-09-27T16:54:00Z unique; Art. 50 chunks present, 2026-09-27.",
   "sha256_16x9": "1863e43dbb0c184a373d8e636e45e4c697a95a36354d86fbd790bebdf6beb8a4",

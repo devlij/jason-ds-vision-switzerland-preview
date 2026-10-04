@@ -13,6 +13,42 @@
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
   "approval_status": "Approved",
+  "daylight_variant": {
+    "variant_of_entry_id": "CH-01-047",
+    "derived_from": "Text-prompt-only photorealistic daylight plate of the same place. Not image-anchored on the published master. Europe/Zurich was night on 4 October 2026, so this plate has no scenario timestamp and no weather line.",
+    "source_night": {
+      "16x9": {
+        "path": "library/world/Switzerland/Solothurn/ch-01-047-16x9.png",
+        "sha256": "c52da3345555a45e26c7b82f4564a107e253b9e89d0dcb0cd25aa1da26e4dd48"
+      },
+      "4x5": {
+        "path": "library/world/Switzerland/Solothurn/ch-01-047-4x5.png",
+        "sha256": "3c3134186c24f43c10a90cc0ccf1ad1f5dfc95ec0b8b8d27a6b67ae33a4e7e17"
+      },
+      "9x16": {
+        "path": "library/world/Switzerland/Solothurn/ch-01-047-9x16.png",
+        "sha256": "801b95c9164196db8b09175d0ffe1b282451f94dfe5a853e15bb3812686f4ff8"
+      },
+      "recorded": "SHA-256 of the published masters immediately before this daylight batch. Post-write hashes are identical; published masters were not rewritten."
+    },
+    "files": {
+      "16x9": "library/world/Switzerland/Solothurn/ch-01-047-daylight-16x9.png",
+      "4x5": "library/world/Switzerland/Solothurn/ch-01-047-daylight-4x5.png",
+      "9x16": "library/world/Switzerland/Solothurn/ch-01-047-daylight-9x16.png"
+    },
+    "sha256": {
+      "16x9": "537ecdfc6846abcb90c9d4560784a20563d67945d3bb915b60f55dffa5f8b195",
+      "4x5": "f153900b68a283d88ffbebea1c781642bb748251910cd72a6ab08f8bccf60fb7",
+      "9x16": "7088cba96dca847a6789f9421ca43a3d261a343abf9c1b323bcdd2cf83d7ebcd"
+    },
+    "created_date": "2026-10-04",
+    "on_image_caption": "St. Ursus Cathedral, Solothurn",
+    "on_image_signature": "Jason D’s Vision",
+    "on_image_disclosure": "AI-generated artistic interpretation · Not a photograph.",
+    "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
+    "derivative_disclosure": "Daylight companion plate for the gallery daylight control. Text-prompt only. No weather claim. No scenario timestamp on the variant. The scene scenario_label is unchanged and is not a daylight weather assertion.",
+    "note": "Photorealistic daylight plate generated text-prompt-only on 2026-10-04. Not derived by relighting the published master and not image-anchored on it. No live daytime weather reading was available. The plate carries no scenario timestamp and no weather line. Published masters were not rewritten."
+  },
   "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
   "approval_basis": "the cathedral's twin towers and grand staircase frame symmetrically with legible label bar (exact caption/scenario/disclosure/signature); per-scene retrieval 2026-09-27T16:53:42Z recorded and unique; overcast sky matches code 3/100%; Art. 50 chunks present, 2026-09-27.",
   "sha256_16x9": "c52da3345555a45e26c7b82f4564a107e253b9e89d0dcb0cd25aa1da26e4dd48",

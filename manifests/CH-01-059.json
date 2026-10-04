@@ -13,6 +13,42 @@
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
   "approval_status": "Approved",
+  "daylight_variant": {
+    "variant_of_entry_id": "CH-01-059",
+    "derived_from": "Text-prompt-only photorealistic daylight plate of the same place. Not image-anchored on the published master. Europe/Zurich was night on 4 October 2026, so this plate has no scenario timestamp and no weather line.",
+    "source_night": {
+      "16x9": {
+        "path": "library/world/Switzerland/Davos/ch-01-059-16x9.png",
+        "sha256": "1c889068bd0bf9aa16ab6435125102b5ef1cf6ec759caac0fe539681aad4ad89"
+      },
+      "4x5": {
+        "path": "library/world/Switzerland/Davos/ch-01-059-4x5.png",
+        "sha256": "6808e2c7aacf56666b3c003c9f34be19ef84585e1ba5638f177a57fa59e258e6"
+      },
+      "9x16": {
+        "path": "library/world/Switzerland/Davos/ch-01-059-9x16.png",
+        "sha256": "92a094b4265aff54cea1c7fb52fb4555fb6b38824a3171062100d188a4b516b3"
+      },
+      "recorded": "SHA-256 of the published masters immediately before this daylight batch. Post-write hashes are identical; published masters were not rewritten."
+    },
+    "files": {
+      "16x9": "library/world/Switzerland/Davos/ch-01-059-daylight-16x9.png",
+      "4x5": "library/world/Switzerland/Davos/ch-01-059-daylight-4x5.png",
+      "9x16": "library/world/Switzerland/Davos/ch-01-059-daylight-9x16.png"
+    },
+    "sha256": {
+      "16x9": "167207894166c9bcb562e7a69fee9f8a1c6e8b593f57b085e8071cb7d4a07b1a",
+      "4x5": "026c0a31ade9e2effbc065607ada1edbaa069e04e1180d55a029613823c6a2e8",
+      "9x16": "5d117ef057326d1662ea55db4967d2062d79e8da53e76322cb6a7dba57ccb955"
+    },
+    "created_date": "2026-10-04",
+    "on_image_caption": "Lake Davos, Davos",
+    "on_image_signature": "Jason D’s Vision",
+    "on_image_disclosure": "AI-generated artistic interpretation · Not a photograph.",
+    "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
+    "derivative_disclosure": "Daylight companion plate for the gallery daylight control. Text-prompt only. No weather claim. No scenario timestamp on the variant. The scene scenario_label is unchanged and is not a daylight weather assertion.",
+    "note": "Photorealistic daylight plate generated text-prompt-only on 2026-10-04. Not derived by relighting the published master and not image-anchored on it. No live daytime weather reading was available. The plate carries no scenario timestamp and no weather line. Published masters were not rewritten."
+  },
   "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
   "approval_basis": "path, pines, town and peaks compose a clean lakeside panorama; label bar exact; per-scene retrieval 2026-09-27T16:53:59Z unique; Art. 50 chunks present, 2026-09-27.",
   "sha256_16x9": "1c889068bd0bf9aa16ab6435125102b5ef1cf6ec759caac0fe539681aad4ad89",
