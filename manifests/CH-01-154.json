@@ -13,6 +13,38 @@
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
   "approval_status": "Approved",
+  "daylight_variant": {
+    "variant_of_entry_id": "CH-01-154",
+    "derived_from": "Text-prompt-only photorealistic daylight plate of the same place. Not image-anchored on the published master. Europe/Zurich was night on 4 October 2026, so this plate has no scenario timestamp and no weather line.",
+    "source_night": {
+      "16x9": {
+        "path": "library/world/Switzerland/Schaffhausen/ch-01-154-16x9.png",
+        "sha256": "c70248e328d94db36f8962b5e5a5da64d57fec03b336b6cd43972469af431357"
+      },
+      "4x5": {
+        "path": "library/world/Switzerland/Schaffhausen/ch-01-154-4x5.png",
+        "sha256": "2785a009145595939595014961412b25a9ee3e3f4859738810872a881ef4a685"
+      },
+      "recorded": "SHA-256 of the published masters immediately before this daylight batch. Post-write hashes are identical; published masters were not rewritten."
+    },
+    "files": {
+      "16x9": "library/world/Switzerland/Schaffhausen/ch-01-154-daylight-16x9.png",
+      "4x5": "library/world/Switzerland/Schaffhausen/ch-01-154-daylight-4x5.png",
+      "9x16": "library/world/Switzerland/Schaffhausen/ch-01-154-daylight-9x16.png"
+    },
+    "sha256": {
+      "16x9": "c2d9ddd5265167a9f8bed18765f403570e0f85f60c2050b28fa171caa946f83d",
+      "4x5": "7714a3f2f4c015725ad2710a1db491ee18014c78229430faf2787f5345bf849e",
+      "9x16": "570b2a01db011b1d23df1c72a6fd3c2afe8f724474de4fac990bc7ac854bbc9f"
+    },
+    "created_date": "2026-10-04",
+    "on_image_caption": "Fronwagplatz, Schaffhausen",
+    "on_image_signature": "Jason D’s Vision",
+    "on_image_disclosure": "AI-generated artistic interpretation · Not a photograph.",
+    "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
+    "derivative_disclosure": "Daylight companion plate for the gallery daylight control. Text-prompt only. No weather claim. No scenario timestamp on the variant. The scene scenario_label is unchanged and is not a daylight weather assertion.",
+    "note": "Photorealistic daylight plate generated text-prompt-only on 2026-10-04. Not derived by relighting the published master and not image-anchored on it. No live daytime weather reading was available. The plate carries no scenario timestamp and no weather line. Published masters were not rewritten."
+  },
   "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
   "approval_basis": "Gate 1 PASS: Schaffhausen's Fronwagplatz with the stone Fronwagturm clock tower and the ornate guild house flanked by gabled burgher houses under a grey sky, plausible square-level tourist viewpoint, clean framing, no artifacts. Gate 2 PASS: mechanical 1920x1080/864x1080 verified; on-image caption 'Fronwagplatz, Schaffhausen', scenario '24 September 2026 · 17:33 Europe/Zurich', disclosure 'AI-generated artistic interpretation · Not a photograph.' bottom-left and exact 'Jason D's Vision' signature bottom-right, legible on the gradient scrim; note records a separate Open-Meteo retrieval at 2026-09-25T23:42:35Z unique repo-wide to this scene, valid for the model hour covering the scenario. Gate 3: text-prompt-only lineage, no photographic inputs reported. Gate 4: no people, logos, or recognizable private property (documented only). Gate 5: no open blockers.",
   "approved_at": "2026-09-26T08:40:04.473977+00:00",

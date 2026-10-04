@@ -13,6 +13,38 @@
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
   "approval_status": "Approved",
+  "daylight_variant": {
+    "variant_of_entry_id": "CH-01-163",
+    "derived_from": "Text-prompt-only photorealistic daylight plate of the same place. Not image-anchored on the published master. Europe/Zurich was night on 4 October 2026, so this plate has no scenario timestamp and no weather line.",
+    "source_night": {
+      "16x9": {
+        "path": "library/world/Switzerland/Saas-Almagell/ch-01-163-16x9.png",
+        "sha256": "0abd50ba8af242f6c99b2bd3a88ae2ad6df4d85fcf0ac590a515ce5675af33b7"
+      },
+      "4x5": {
+        "path": "library/world/Switzerland/Saas-Almagell/ch-01-163-4x5.png",
+        "sha256": "5cab4f33b0f5b94b6d5fc20c3732ab4d516e269af98bf9e27ca5bfc683094bcc"
+      },
+      "recorded": "SHA-256 of the published masters immediately before this daylight batch. Post-write hashes are identical; published masters were not rewritten."
+    },
+    "files": {
+      "16x9": "library/world/Switzerland/Saas-Almagell/ch-01-163-daylight-16x9.png",
+      "4x5": "library/world/Switzerland/Saas-Almagell/ch-01-163-daylight-4x5.png",
+      "9x16": "library/world/Switzerland/Saas-Almagell/ch-01-163-daylight-9x16.png"
+    },
+    "sha256": {
+      "16x9": "bd244487c6c88cee49ab7e9790dfc296cd080a53ca39d55f98042a073c2b44a5",
+      "4x5": "8d06b76856be5280bb27031b9a3d8e93c60bcee335c129c12b456baa6738f43a",
+      "9x16": "da70f0b6d4ef48eb114586a23065093f536c432d59ba0e2bfab29d150959093f"
+    },
+    "created_date": "2026-10-04",
+    "on_image_caption": "Saas-Almagell, Saas-Almagell",
+    "on_image_signature": "Jason D’s Vision",
+    "on_image_disclosure": "AI-generated artistic interpretation · Not a photograph.",
+    "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
+    "derivative_disclosure": "Daylight companion plate for the gallery daylight control. Text-prompt only. No weather claim. No scenario timestamp on the variant. The scene scenario_label is unchanged and is not a daylight weather assertion.",
+    "note": "Photorealistic daylight plate generated text-prompt-only on 2026-10-04. Not derived by relighting the published master and not image-anchored on it. No live daytime weather reading was available. The plate carries no scenario timestamp and no weather line. Published masters were not rewritten."
+  },
   "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
   "approval_basis": "Gate 1: white church of St Barbara with stone tower beside the Saaser Vispa, sun-darkened larch chalets on the slope, autumn meadows — matches Saas-Almagell's village arrangement, no artifacts. Gate 2: exact masters (1920x1080, 864x1080); caption 'Saas-Almagell, Saas-Almagell', scenario '24 September 2026 · 17:50 Europe/Zurich', disclosure and 'Jason D's Vision' signature legible bottom band. Retrieval 2026-09-25T23:43:45Z unique to this scene (its own second, coordinates 46.09364, 7.95876), scenario inside model-valid hour. Gate 3: text-prompt-only, no photographic inputs. Gate 4: no people/logos visible (documented only). Gate 5: no open blockers.",
   "approved_at": "2026-09-26T09:35:04.761608+00:00",

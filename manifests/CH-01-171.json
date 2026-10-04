@@ -13,6 +13,38 @@
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
   "approval_status": "Approved",
+  "daylight_variant": {
+    "variant_of_entry_id": "CH-01-171",
+    "derived_from": "Text-prompt-only photorealistic daylight plate of the same place. Not image-anchored on the published master. Europe/Zurich was night on 4 October 2026, so this plate has no scenario timestamp and no weather line.",
+    "source_night": {
+      "16x9": {
+        "path": "library/world/Switzerland/Olten/ch-01-171-16x9.png",
+        "sha256": "d5718981153174cd4c78242e032c3b55ba5c850e3443a3fa53f1709d3bffa29d"
+      },
+      "4x5": {
+        "path": "library/world/Switzerland/Olten/ch-01-171-4x5.png",
+        "sha256": "70d55505f02802ab9621afa2998b5ab971fa6f25622417d80028b00e8132ea43"
+      },
+      "recorded": "SHA-256 of the published masters immediately before this daylight batch. Post-write hashes are identical; published masters were not rewritten."
+    },
+    "files": {
+      "16x9": "library/world/Switzerland/Olten/ch-01-171-daylight-16x9.png",
+      "4x5": "library/world/Switzerland/Olten/ch-01-171-daylight-4x5.png",
+      "9x16": "library/world/Switzerland/Olten/ch-01-171-daylight-9x16.png"
+    },
+    "sha256": {
+      "16x9": "be9e2e02d4ac79c249440fe773ed6adbeecca4c80126f2a0505f410585e37222",
+      "4x5": "660f7dd8fc943671595d776f73bb8d645d2f3604b37a4a0d2d011083a749e509",
+      "9x16": "cccf5a97fb045e9e6c0dcd4ff669ef18ec9e3ebf6e15c4b73002c707c1c5093d"
+    },
+    "created_date": "2026-10-04",
+    "on_image_caption": "Olten, Olten",
+    "on_image_signature": "Jason D’s Vision",
+    "on_image_disclosure": "AI-generated artistic interpretation · Not a photograph.",
+    "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
+    "derivative_disclosure": "Daylight companion plate for the gallery daylight control. Text-prompt only. No weather claim. No scenario timestamp on the variant. The scene scenario_label is unchanged and is not a daylight weather assertion.",
+    "note": "Photorealistic daylight plate generated text-prompt-only on 2026-10-04. Not derived by relighting the published master and not image-anchored on it. No live daytime weather reading was available. The plate carries no scenario timestamp and no weather line. Published masters were not rewritten."
+  },
   "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
   "approval_basis": "Gate 1: Olten's covered wooden Alte Brücke spanning the Aare on stone piers, the old-town row houses and a tall stone tower across the river, the bridge's truss and shingle roof rendered cleanly — consistent with the 1803 rebuilt crossing. Gate 2: exact masters; caption 'Olten, Olten', scenario '24 September 2026 · 17:51 Europe/Zurich', disclosure and signature legible bottom band. Retrieval 2026-09-25T23:43:53Z unique to this scene (coords 47.34948, 7.90520), scenario inside model-valid hour. Gate 3: text-prompt-only. Gate 4: no people or logos (documented only). Gate 5: no open blockers.",
   "approved_at": "2026-09-26T09:36:27.635379+00:00",

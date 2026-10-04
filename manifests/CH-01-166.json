@@ -13,6 +13,38 @@
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
   "approval_status": "Approved",
+  "daylight_variant": {
+    "variant_of_entry_id": "CH-01-166",
+    "derived_from": "Text-prompt-only photorealistic daylight plate of the same place. Not image-anchored on the published master. Europe/Zurich was night on 4 October 2026, so this plate has no scenario timestamp and no weather line.",
+    "source_night": {
+      "16x9": {
+        "path": "library/world/Switzerland/Aigle/ch-01-166-16x9.png",
+        "sha256": "895edfffe7a3f0a473896f06b1dcad709916fe1685c21605a1f5bdac8c77a8d2"
+      },
+      "4x5": {
+        "path": "library/world/Switzerland/Aigle/ch-01-166-4x5.png",
+        "sha256": "220028fec93800ca989b0b10c7a482c398576fca2e6abb32d677ec1a0524e070"
+      },
+      "recorded": "SHA-256 of the published masters immediately before this daylight batch. Post-write hashes are identical; published masters were not rewritten."
+    },
+    "files": {
+      "16x9": "library/world/Switzerland/Aigle/ch-01-166-daylight-16x9.png",
+      "4x5": "library/world/Switzerland/Aigle/ch-01-166-daylight-4x5.png",
+      "9x16": "library/world/Switzerland/Aigle/ch-01-166-daylight-9x16.png"
+    },
+    "sha256": {
+      "16x9": "aef7793f3f8a014c3397466f68f1dfe69895526a9faecc94580107e7b048b7cd",
+      "4x5": "045a5c6603d05728e016bbcc1fe1db545cfaa2aa5389966c695761dbc40537c8",
+      "9x16": "fcf9c8de0610781dccdac19c4b253a822fb5d1439d29d9d6aae0bd87c7ee13ad"
+    },
+    "created_date": "2026-10-04",
+    "on_image_caption": "Aigle Castle, Aigle",
+    "on_image_signature": "Jason D’s Vision",
+    "on_image_disclosure": "AI-generated artistic interpretation · Not a photograph.",
+    "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
+    "derivative_disclosure": "Daylight companion plate for the gallery daylight control. Text-prompt only. No weather claim. No scenario timestamp on the variant. The scene scenario_label is unchanged and is not a daylight weather assertion.",
+    "note": "Photorealistic daylight plate generated text-prompt-only on 2026-10-04. Not derived by relighting the published master and not image-anchored on it. No live daytime weather reading was available. The plate carries no scenario timestamp and no weather line. Published masters were not rewritten."
+  },
   "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
   "approval_basis": "Gate 1: Aigle Castle's stone enceinte with square keep and conical-roofed corner towers on the vineyard hill, autumn-tinged vines in the foreground, snow-flecked Chablais peaks behind — recognizably the Chablais castle above the Rhône plain. Gate 2: exact masters (1920x1080, 864x1080); caption 'Aigle Castle, Aigle', scenario '24 September 2026 · 17:50 Europe/Zurich', disclosure and curly-apostrophe 'Jason D's Vision' signature legible. Retrieval 2026-09-25T23:43:48Z unique to this scene (coords 46.31500, 6.97629), scenario inside model-valid hour. Gate 3: text-prompt-only lineage, no photographic inputs. Gate 4: no people or logos visible (documented only). Gate 5: no open blockers.",
   "approved_at": "2026-09-26T09:35:42.019036+00:00",
