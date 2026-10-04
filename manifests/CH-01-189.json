@@ -13,6 +13,38 @@
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
   "approval_status": "Approved",
+  "daylight_variant": {
+    "variant_of_entry_id": "CH-01-189",
+    "derived_from": "Text-prompt-only photorealistic daylight plate of the same place. Not image-anchored on the published master. Europe/Zurich was night on 4 October 2026, so this plate has no scenario timestamp and no weather line.",
+    "source_night": {
+      "16x9": {
+        "path": "library/world/Switzerland/Geneva/ch-01-189-16x9.png",
+        "sha256": "613384b22ced2db942da3ccf8b5a9336aba4d4bfeae36c95275556a56331a46f"
+      },
+      "4x5": {
+        "path": "library/world/Switzerland/Geneva/ch-01-189-4x5.png",
+        "sha256": "514d95337308c85599693b35996b5a993f8a26eea943fd00d513623647e50513"
+      },
+      "recorded": "SHA-256 of the published masters immediately before this daylight batch. Post-write hashes are identical; published masters were not rewritten."
+    },
+    "files": {
+      "16x9": "library/world/Switzerland/Geneva/ch-01-189-daylight-16x9.png",
+      "4x5": "library/world/Switzerland/Geneva/ch-01-189-daylight-4x5.png",
+      "9x16": "library/world/Switzerland/Geneva/ch-01-189-daylight-9x16.png"
+    },
+    "sha256": {
+      "16x9": "419bf813c8b1448f46c3f22fbc35b79573ea14eb84056587bc7285a08d5afdc2",
+      "4x5": "fecf9c00b401d917a2ea40e4b1efbe2730ff2726be5e275a2e958cdc915a9895",
+      "9x16": "ad996ca50d93dd0279529532838414e7d7258e0a973207dba5e44e69986c30f2"
+    },
+    "created_date": "2026-10-04",
+    "on_image_caption": "Plainpalais, Geneva",
+    "on_image_signature": "Jason D’s Vision",
+    "on_image_disclosure": "AI-generated artistic interpretation · Not a photograph.",
+    "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
+    "derivative_disclosure": "Daylight companion plate for the gallery daylight control. Text-prompt only. No weather claim. No scenario timestamp on the variant. The scene scenario_label is unchanged and is not a daylight weather assertion.",
+    "note": "Photorealistic daylight plate generated text-prompt-only on 2026-10-04. Not derived by relighting the published master and not image-anchored on it. No live daytime weather reading was available. The plate carries no scenario timestamp and no weather line. Published masters were not rewritten."
+  },
   "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
   "approval_basis": "Gate 1: the master shows the Plaine de Plainpalais in Geneva — the broad open gravel esplanade lined with rows of plane trees and edged by university and city blocks, inland ground with no lake in frame; not the old-town square and not Carouge, plausible esplanade viewpoint, clean framing, no artifacts. Gate 2: both masters exact dims (sweep-verified); caption 'Plainpalais, Geneva', scenario '24 September 2026 · 18:08 Europe/Zurich', AI disclosure legible on gradient; exact 'Jason D's Vision' signature bottom-right; weather retrieved 2026-09-25T23:44:11Z, unique repo-wide, valid 18:00–18:59 hour covering 18:08, partly cloudy code 2/57% matching the cloud-break sky. Gate 3: text-prompt-only lineage, no photographic inputs. Gate 4: no prominent person or focal logo — documented only. Gate 5: no open blockers.",
   "approved_at": "2026-09-26T10:37:40.974032+00:00",

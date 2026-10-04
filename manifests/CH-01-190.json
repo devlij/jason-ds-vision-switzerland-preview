@@ -13,6 +13,38 @@
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
   "approval_status": "Approved",
+  "daylight_variant": {
+    "variant_of_entry_id": "CH-01-190",
+    "derived_from": "Text-prompt-only photorealistic daylight plate of the same place. Not image-anchored on the published master. Europe/Zurich was night on 4 October 2026, so this plate has no scenario timestamp and no weather line.",
+    "source_night": {
+      "16x9": {
+        "path": "library/world/Switzerland/Basel/ch-01-190-16x9.png",
+        "sha256": "8571d54f1122714003b514169863e9894992d9f0c112dbc9d1a9829fa0168e96"
+      },
+      "4x5": {
+        "path": "library/world/Switzerland/Basel/ch-01-190-4x5.png",
+        "sha256": "9d48f6e27493b09d53cce8ffcd94ec446d92bbb3393fdd01b1cb3945f2d5b6de"
+      },
+      "recorded": "SHA-256 of the published masters immediately before this daylight batch. Post-write hashes are identical; published masters were not rewritten."
+    },
+    "files": {
+      "16x9": "library/world/Switzerland/Basel/ch-01-190-daylight-16x9.png",
+      "4x5": "library/world/Switzerland/Basel/ch-01-190-daylight-4x5.png",
+      "9x16": "library/world/Switzerland/Basel/ch-01-190-daylight-9x16.png"
+    },
+    "sha256": {
+      "16x9": "f4c69abb5c5312279669d00f271e21f5996e28a25c2f71f6f055741935238dff",
+      "4x5": "540846decf06ed9ebcbefe1ddde328df3e57be187a632f652d39e36c896703a8",
+      "9x16": "c7e951435abc0d5a529d452a1707d971b5901008362f1782c3b43dc3e3118b7e"
+    },
+    "created_date": "2026-10-04",
+    "on_image_caption": "Basel Rhine promenade, Basel",
+    "on_image_signature": "Jason D’s Vision",
+    "on_image_disclosure": "AI-generated artistic interpretation · Not a photograph.",
+    "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
+    "derivative_disclosure": "Daylight companion plate for the gallery daylight control. Text-prompt only. No weather claim. No scenario timestamp on the variant. The scene scenario_label is unchanged and is not a daylight weather assertion.",
+    "note": "Photorealistic daylight plate generated text-prompt-only on 2026-10-04. Not derived by relighting the published master and not image-anchored on it. No live daytime weather reading was available. The plate carries no scenario timestamp and no weather line. Published masters were not rewritten."
+  },
   "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
   "approval_basis": "Gate 1: the master shows the Unterer Rheinweg in Basel — the tree-lined stone quay looking downstream along the wide Rhine, with the small flat cable ferry on the water and city rooftops distant; no stone bridge, no minster facade, no painted town hall, correct subject framing, plausible quay viewpoint, clean framing, no artifacts. Gate 2: both masters exact dims (sweep-verified); caption 'Basel Rhine promenade, Basel', scenario '24 September 2026 · 18:08 Europe/Zurich', AI disclosure legible on gradient; exact 'Jason D's Vision' signature bottom-right; weather retrieved 2026-09-25T23:44:12Z, unique repo-wide, valid 18:00–18:59 hour covering 18:08, overcast code 3/92% matching the diffuse light. Gate 3: text-prompt-only lineage, no photographic inputs. Gate 4: no prominent person or focal logo — documented only. Gate 5: no open blockers.",
   "approved_at": "2026-09-26T10:37:54.878538+00:00",

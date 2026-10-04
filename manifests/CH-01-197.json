@@ -13,6 +13,38 @@
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
   "approval_status": "Approved",
+  "daylight_variant": {
+    "variant_of_entry_id": "CH-01-197",
+    "derived_from": "Text-prompt-only photorealistic daylight plate of the same place. Not image-anchored on the published master. Europe/Zurich was night on 4 October 2026, so this plate has no scenario timestamp and no weather line.",
+    "source_night": {
+      "16x9": {
+        "path": "library/world/Switzerland/Lugano/ch-01-197-16x9.png",
+        "sha256": "3034f76633570cef65c675db1afaf92ba871e254c9e98f4f32857b3c6c4e5d1f"
+      },
+      "4x5": {
+        "path": "library/world/Switzerland/Lugano/ch-01-197-4x5.png",
+        "sha256": "2ac066cc77843f8d92332beb3de52f1abbe380e8bc219ef743e21548a8fce2fd"
+      },
+      "recorded": "SHA-256 of the published masters immediately before this daylight batch. Post-write hashes are identical; published masters were not rewritten."
+    },
+    "files": {
+      "16x9": "library/world/Switzerland/Lugano/ch-01-197-daylight-16x9.png",
+      "4x5": "library/world/Switzerland/Lugano/ch-01-197-daylight-4x5.png",
+      "9x16": "library/world/Switzerland/Lugano/ch-01-197-daylight-9x16.png"
+    },
+    "sha256": {
+      "16x9": "c2036270dfb05e059491744688902e8f58fdc8b1bc9560f7af2487fbed33a2ab",
+      "4x5": "b194d0e05b1c210d60287e9a06197e7086b0ff318e931f02142faf66d217a142",
+      "9x16": "bf23b5fcf905d8043afa67204955209ac9ea3b22c731b925241f5a795a14c6b0"
+    },
+    "created_date": "2026-10-04",
+    "on_image_caption": "Parco Ciani, Lugano",
+    "on_image_signature": "Jason D’s Vision",
+    "on_image_disclosure": "AI-generated artistic interpretation · Not a photograph.",
+    "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
+    "derivative_disclosure": "Daylight companion plate for the gallery daylight control. Text-prompt only. No weather claim. No scenario timestamp on the variant. The scene scenario_label is unchanged and is not a daylight weather assertion.",
+    "note": "Photorealistic daylight plate generated text-prompt-only on 2026-10-04. Not derived by relighting the published master and not image-anchored on it. No live daytime weather reading was available. The plate carries no scenario timestamp and no weather line. Published masters were not rewritten."
+  },
   "qc_status": "Approved - Cosmo QC 5/5 - Daylight",
   "approval_basis": "Gate 1: master shows the neoclassical Villa Ciani with columned portico among giant plane trees and a cedar on the lake-edge lawn - plausible Parco Ciani park view on Lugano's shore. Gate 2: exact caption 'Parco Ciani, Lugano' and 'Scenario: 24 September 2026 - 18:28 Europe/Zurich' verified on-image with AI disclosure and curly-apostrophe Jason D's Vision signature; weather retrieval 2026-09-25T23:45:21Z unique repo-wide, valid model hour 2026-09-24T18:15 containing the 18:28 scenario. Gate 3: text-prompt-only, no photographic inputs. Gate 4: no identifiable people or focal logos - documented only. Gate 5: no open blockers.",
   "approved_at": "2026-09-26T11:39:03.408034+00:00",

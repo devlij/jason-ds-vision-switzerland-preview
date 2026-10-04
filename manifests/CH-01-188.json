@@ -13,6 +13,38 @@
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
   "approval_status": "Approved",
+  "daylight_variant": {
+    "variant_of_entry_id": "CH-01-188",
+    "derived_from": "Text-prompt-only photorealistic daylight plate of the same place. Not image-anchored on the published master. Europe/Zurich was night on 4 October 2026, so this plate has no scenario timestamp and no weather line.",
+    "source_night": {
+      "16x9": {
+        "path": "library/world/Switzerland/Geneva/ch-01-188-16x9.png",
+        "sha256": "1600d2657a0ee59ec7f3ee10d1f652bfb96da8aea9aa3f14225542d81993f716"
+      },
+      "4x5": {
+        "path": "library/world/Switzerland/Geneva/ch-01-188-4x5.png",
+        "sha256": "68f9ec5753665d39c705be2046e96e266b47a7412c40d951a0ff86d894489cba"
+      },
+      "recorded": "SHA-256 of the published masters immediately before this daylight batch. Post-write hashes are identical; published masters were not rewritten."
+    },
+    "files": {
+      "16x9": "library/world/Switzerland/Geneva/ch-01-188-daylight-16x9.png",
+      "4x5": "library/world/Switzerland/Geneva/ch-01-188-daylight-4x5.png",
+      "9x16": "library/world/Switzerland/Geneva/ch-01-188-daylight-9x16.png"
+    },
+    "sha256": {
+      "16x9": "035e697b5393ade36078247534775662419422f4a2e8fcf41f2ab78534f9567e",
+      "4x5": "46728db0550b224ef347baabf02aa2d7b265e3161e910ba1fcecb36b0cb1b04b",
+      "9x16": "f8a8578f9e9f6e4669eaa541240dfc2e9e86557f15e268cf66f24c414b33904b"
+    },
+    "created_date": "2026-10-04",
+    "on_image_caption": "Geneva Old Town, Geneva",
+    "on_image_signature": "Jason D’s Vision",
+    "on_image_disclosure": "AI-generated artistic interpretation · Not a photograph.",
+    "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
+    "derivative_disclosure": "Daylight companion plate for the gallery daylight control. Text-prompt only. No weather claim. No scenario timestamp on the variant. The scene scenario_label is unchanged and is not a daylight weather assertion.",
+    "note": "Photorealistic daylight plate generated text-prompt-only on 2026-10-04. Not derived by relighting the published master and not image-anchored on it. No live daytime weather reading was available. The plate carries no scenario timestamp and no weather line. Published masters were not rewritten."
+  },
   "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
   "approval_basis": "Gate 1: the master shows Place du Bourg-de-Four in Geneva Old Town — the sloping cobblestone square with the small marble fountain, surrounded by tall shuttered old-town facades; no cathedral west front, no Jet d'Eau, no Carouge street, plausible square viewpoint, clean framing, no artifacts. Gate 2: both masters exact dims (sweep-verified); caption 'Geneva Old Town, Geneva', scenario '24 September 2026 · 18:08 Europe/Zurich', AI disclosure legible on gradient; exact 'Jason D's Vision' signature bottom-right; weather retrieved 2026-09-25T23:44:10Z, unique repo-wide, valid 18:00–18:59 hour covering 18:08, partly cloudy code 2/57% matching the brighter cloud-break sky. Gate 3: text-prompt-only lineage, no photographic inputs. Gate 4: no prominent person or focal logo — documented only. Gate 5: no open blockers.",
   "approved_at": "2026-09-26T10:37:25.913437+00:00",

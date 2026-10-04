@@ -13,6 +13,38 @@
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
   "approval_status": "Approved",
+  "daylight_variant": {
+    "variant_of_entry_id": "CH-01-206",
+    "derived_from": "Text-prompt-only photorealistic daylight plate of the same place. Not image-anchored on the published master. Europe/Zurich was night on 4 October 2026, so this plate has no scenario timestamp and no weather line.",
+    "source_night": {
+      "16x9": {
+        "path": "library/world/Switzerland/Stein/ch-01-206-16x9.png",
+        "sha256": "23f63edebc5a8e56897aacbfa827e9006c30376eb9e24fe1be50a9183ccb7c28"
+      },
+      "4x5": {
+        "path": "library/world/Switzerland/Stein/ch-01-206-4x5.png",
+        "sha256": "4109892895ef01c43fc56eaafa59b011a8837331ad6ee45fb903185fcc69ef75"
+      },
+      "recorded": "SHA-256 of the published masters immediately before this daylight batch. Post-write hashes are identical; published masters were not rewritten."
+    },
+    "files": {
+      "16x9": "library/world/Switzerland/Stein/ch-01-206-daylight-16x9.png",
+      "4x5": "library/world/Switzerland/Stein/ch-01-206-daylight-4x5.png",
+      "9x16": "library/world/Switzerland/Stein/ch-01-206-daylight-9x16.png"
+    },
+    "sha256": {
+      "16x9": "1c55340298d1c9c214b49e2bfc9c2fb1f6919a4f48e7fa8d22a5b21888dd16ee",
+      "4x5": "90b24a17df9d5335861f3c1bc3f17dfae11adf085ec72f1ab4fcef6265848261",
+      "9x16": "ae6959ec982c99e287df8c8fb866f7d7164710384283429e448e2a73b41b9a05"
+    },
+    "created_date": "2026-10-04",
+    "on_image_caption": "Stein AR, Stein",
+    "on_image_signature": "Jason D’s Vision",
+    "on_image_disclosure": "AI-generated artistic interpretation · Not a photograph.",
+    "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
+    "derivative_disclosure": "Daylight companion plate for the gallery daylight control. Text-prompt only. No weather claim. No scenario timestamp on the variant. The scene scenario_label is unchanged and is not a daylight weather assertion.",
+    "note": "Photorealistic daylight plate generated text-prompt-only on 2026-10-04. Not derived by relighting the published master and not image-anchored on it. No live daytime weather reading was available. The plate carries no scenario timestamp and no weather line. Published masters were not rewritten."
+  },
   "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
   "approval_basis": "Gate 1: white 1749 Grubenmann reformed church with tall pointed spire over wooden Appenzell houses and green foothill pastures — a plausible Stein AR lane view, clean framing, no artifacts. Gate 2: masters 1920x1080/864x1080 exact; on-image caption 'Stein AR, Stein' and scenario '24 September 2026 · 18:28 Europe/Zurich' legible on the scrim; curly-apostrophe 'Jason D’s Vision' signature bottom-right; disclosure present; per-scene Open-Meteo retrieval 2026-09-25T23:45:30Z (unique second, repo-wide check clean), model-valid hour 18:00–18:59 contains the scenario, overcast code-3 sky rendered. Gate 3: builder notes record text-prompt-only lineage, no photographic input. Gate 4: no visible people, logos, or focal private property — documented only. Gate 5: no open blockers.",
   "approved_at": "2026-09-26T12:33:58.559592+00:00",

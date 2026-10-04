@@ -13,6 +13,38 @@
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
   "approval_status": "Approved",
+  "daylight_variant": {
+    "variant_of_entry_id": "CH-01-204",
+    "derived_from": "Text-prompt-only photorealistic daylight plate of the same place. Not image-anchored on the published master. Europe/Zurich was night on 4 October 2026, so this plate has no scenario timestamp and no weather line.",
+    "source_night": {
+      "16x9": {
+        "path": "library/world/Switzerland/Pfäfers/ch-01-204-16x9.png",
+        "sha256": "2c7991144c2026d4e02b772d24ef1befaff64363b5f877a315b59620e6c9f7a5"
+      },
+      "4x5": {
+        "path": "library/world/Switzerland/Pfäfers/ch-01-204-4x5.png",
+        "sha256": "6e90186bd4a9908835348c2a65903e83d153485ed2fec16ecfbd81a6d0997a62"
+      },
+      "recorded": "SHA-256 of the published masters immediately before this daylight batch. Post-write hashes are identical; published masters were not rewritten."
+    },
+    "files": {
+      "16x9": "library/world/Switzerland/Pfäfers/ch-01-204-daylight-16x9.png",
+      "4x5": "library/world/Switzerland/Pfäfers/ch-01-204-daylight-4x5.png",
+      "9x16": "library/world/Switzerland/Pfäfers/ch-01-204-daylight-9x16.png"
+    },
+    "sha256": {
+      "16x9": "3e3887c83263091f863a3429786f5bc224355c09119b78518e585d460310c550",
+      "4x5": "b734681701fdfac97b7e7d2aab4ed96672c12fc1a583480b07a685ef07aaf133",
+      "9x16": "a7f7336f563562c3d2947f9e0201e7b668836c2234973159c18c51796293a5c7"
+    },
+    "created_date": "2026-10-04",
+    "on_image_caption": "Tamina Gorge, Pfäfers",
+    "on_image_signature": "Jason D’s Vision",
+    "on_image_disclosure": "AI-generated artistic interpretation · Not a photograph.",
+    "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
+    "derivative_disclosure": "Daylight companion plate for the gallery daylight control. Text-prompt only. No weather claim. No scenario timestamp on the variant. The scene scenario_label is unchanged and is not a daylight weather assertion.",
+    "note": "Photorealistic daylight plate generated text-prompt-only on 2026-10-04. Not derived by relighting the published master and not image-anchored on it. No live daytime weather reading was available. The plate carries no scenario timestamp and no weather line. Published masters were not rewritten."
+  },
   "qc_status": "Approved - Cosmo QC 5/5 - Daylight",
   "approval_basis": "Gate 1: master shows the narrow Tamina Gorge with sheer rock walls closing overhead, the white baroque Bad Pfafers bath house wedged against the rock above the rushing Tamina, walkway railing along the water - plausible gorge interior view. Gate 2: exact caption 'Tamina Gorge, Pfafers' and 'Scenario: 24 September 2026 - 18:28 Europe/Zurich' verified on-image with AI disclosure and curly-apostrophe Jason D's Vision signature; weather retrieval 2026-09-25T23:45:28Z unique repo-wide, valid model hour 2026-09-24T18:15 containing the 18:28 scenario. Gate 3: text-prompt-only, no photographic inputs. Gate 4: no identifiable people or focal logos - documented only. Gate 5: no open blockers.",
   "approved_at": "2026-09-26T11:39:33.570488+00:00",

@@ -13,6 +13,38 @@
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
   "approval_status": "Approved",
+  "daylight_variant": {
+    "variant_of_entry_id": "CH-01-210",
+    "derived_from": "Text-prompt-only photorealistic daylight plate of the same place. Not image-anchored on the published master. Europe/Zurich was night on 4 October 2026, so this plate has no scenario timestamp and no weather line.",
+    "source_night": {
+      "16x9": {
+        "path": "library/world/Switzerland/Colombier/ch-01-210-16x9.png",
+        "sha256": "013d254010475a6a95fee4cf252001d9090af31ee3ef5410394a3e0f5d3c91b5"
+      },
+      "4x5": {
+        "path": "library/world/Switzerland/Colombier/ch-01-210-4x5.png",
+        "sha256": "e2401430b83b3fd43562740d1420e08e78b5d3e061414ac16f4ee4b0ec1a9ae1"
+      },
+      "recorded": "SHA-256 of the published masters immediately before this daylight batch. Post-write hashes are identical; published masters were not rewritten."
+    },
+    "files": {
+      "16x9": "library/world/Switzerland/Colombier/ch-01-210-daylight-16x9.png",
+      "4x5": "library/world/Switzerland/Colombier/ch-01-210-daylight-4x5.png",
+      "9x16": "library/world/Switzerland/Colombier/ch-01-210-daylight-9x16.png"
+    },
+    "sha256": {
+      "16x9": "95a1322d12097f96baa03845ead852ebf0260b8da5687139ed32400b6a6541c2",
+      "4x5": "64e07e021870bed591ddbf754f0b85578444c393f213a251c98c0b23aa32261d",
+      "9x16": "d58cf71c562b9f32b05fb67032de2e8ef7c9cc0742e2722e672e4a976677d75a"
+    },
+    "created_date": "2026-10-04",
+    "on_image_caption": "Colombier Castle, Colombier",
+    "on_image_signature": "Jason D’s Vision",
+    "on_image_disclosure": "AI-generated artistic interpretation · Not a photograph.",
+    "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
+    "derivative_disclosure": "Daylight companion plate for the gallery daylight control. Text-prompt only. No weather claim. No scenario timestamp on the variant. The scene scenario_label is unchanged and is not a daylight weather assertion.",
+    "note": "Photorealistic daylight plate generated text-prompt-only on 2026-10-04. Not derived by relighting the published master and not image-anchored on it. No live daytime weather reading was available. The plate carries no scenario timestamp and no weather line. Published masters were not rewritten."
+  },
   "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
   "approval_basis": "Gate 1: large cream-white quadrangular palace-castle with regular window rows, steep dark roofs and square corner towers, park lawn and mature trees in front with a glimpse of lake beyond — recognizably Colombier Castle from the south lawn, clean framing. Gate 2: exact 1920x1080/864x1080 masters; on-image caption 'Colombier Castle, Colombier' and scenario '24 September 2026 · 18:45 Europe/Zurich'; curly-apostrophe signature bottom-right; disclosure legible; per-scene Open-Meteo retrieval 2026-09-25T23:45:34Z (unique second), scenario inside model-valid 18:00–18:59 hour, overcast sky matches code 3. Gate 3: text-prompt-only lineage, no photographic input. Gate 4: no people/logos visible — documented only. Gate 5: no open blockers.",
   "approved_at": "2026-09-26T12:34:16.186139+00:00",

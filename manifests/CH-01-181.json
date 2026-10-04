@@ -13,6 +13,38 @@
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
   "approval_status": "Approved",
+  "daylight_variant": {
+    "variant_of_entry_id": "CH-01-181",
+    "derived_from": "Text-prompt-only photorealistic daylight plate of the same place. Not image-anchored on the published master. Europe/Zurich was night on 4 October 2026, so this plate has no scenario timestamp and no weather line.",
+    "source_night": {
+      "16x9": {
+        "path": "library/world/Switzerland/Hofstetten bei Brienz/ch-01-181-16x9.png",
+        "sha256": "47078e0f10e70ca20bb889afb8ba9cfaae5290e13307bec6c998de97c9713a53"
+      },
+      "4x5": {
+        "path": "library/world/Switzerland/Hofstetten bei Brienz/ch-01-181-4x5.png",
+        "sha256": "04017e6e4ded191dac3827f2b9f2d44ea5231b5c01482b73626b94ccfe9551d2"
+      },
+      "recorded": "SHA-256 of the published masters immediately before this daylight batch. Post-write hashes are identical; published masters were not rewritten."
+    },
+    "files": {
+      "16x9": "library/world/Switzerland/Hofstetten bei Brienz/ch-01-181-daylight-16x9.png",
+      "4x5": "library/world/Switzerland/Hofstetten bei Brienz/ch-01-181-daylight-4x5.png",
+      "9x16": "library/world/Switzerland/Hofstetten bei Brienz/ch-01-181-daylight-9x16.png"
+    },
+    "sha256": {
+      "16x9": "93dc332ef23b2c075bf9e7743d83a82c983fa52af82349266691e67508bc2b13",
+      "4x5": "ecf8f112a40bd6c706e9359aa717a462844d32c7666de5b5802cc40059fe9f80",
+      "9x16": "7abd1bae0c16a534582335bbabffaf13f45ed9246b0f4cff817406ea7fc149fd"
+    },
+    "created_date": "2026-10-04",
+    "on_image_caption": "Ballenberg, Hofstetten bei Brienz",
+    "on_image_signature": "Jason D’s Vision",
+    "on_image_disclosure": "AI-generated artistic interpretation · Not a photograph.",
+    "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
+    "derivative_disclosure": "Daylight companion plate for the gallery daylight control. Text-prompt only. No weather claim. No scenario timestamp on the variant. The scene scenario_label is unchanged and is not a daylight weather assertion.",
+    "note": "Photorealistic daylight plate generated text-prompt-only on 2026-10-04. Not derived by relighting the published master and not image-anchored on it. No live daytime weather reading was available. The plate carries no scenario timestamp and no weather line. Published masters were not rewritten."
+  },
   "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
   "approval_basis": "Gate 1: the master shows the Ballenberg open-air museum grounds — relocated historic dark-wood farmhouses and barns with shingle roofs along a winding gravel path, gardens and a fruit tree, forested hills behind; exterior only, closed doors, no interior exhibits and no readable signage, plausible path viewpoint, clean framing, no artifacts. Gate 2: both masters exact dims (sweep-verified); caption 'Ballenberg, Hofstetten bei Brienz', scenario '24 September 2026 · 18:08 Europe/Zurich', AI disclosure legible on gradient; exact 'Jason D's Vision' signature bottom-right; weather retrieved 2026-09-25T23:44:03Z, unique repo-wide, valid 18:00–18:59 hour covering 18:08, overcast code 3/100% matching the diffuse light. Gate 3: text-prompt-only lineage, no photographic inputs. Gate 4: no prominent person or focal logo — documented only. Gate 5: no open blockers.",
   "approved_at": "2026-09-26T10:35:46.299671+00:00",

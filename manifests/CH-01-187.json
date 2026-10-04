@@ -13,6 +13,38 @@
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
   "approval_status": "Approved",
+  "daylight_variant": {
+    "variant_of_entry_id": "CH-01-187",
+    "derived_from": "Text-prompt-only photorealistic daylight plate of the same place. Not image-anchored on the published master. Europe/Zurich was night on 4 October 2026, so this plate has no scenario timestamp and no weather line.",
+    "source_night": {
+      "16x9": {
+        "path": "library/world/Switzerland/Zurich/ch-01-187-16x9.png",
+        "sha256": "942e6ceb2428120f74389ca3195b02f7f91d5d690e979ba70adb4b4c393fb1f7"
+      },
+      "4x5": {
+        "path": "library/world/Switzerland/Zurich/ch-01-187-4x5.png",
+        "sha256": "ae9ffa6141deae1ba03e8fa19d46258758c17602e2ecf1bdf8a01b37104a4bfd"
+      },
+      "recorded": "SHA-256 of the published masters immediately before this daylight batch. Post-write hashes are identical; published masters were not rewritten."
+    },
+    "files": {
+      "16x9": "library/world/Switzerland/Zurich/ch-01-187-daylight-16x9.png",
+      "4x5": "library/world/Switzerland/Zurich/ch-01-187-daylight-4x5.png",
+      "9x16": "library/world/Switzerland/Zurich/ch-01-187-daylight-9x16.png"
+    },
+    "sha256": {
+      "16x9": "421f7d572dc5ade49fed1691667bb351556e0a4e58c2a8b367eeb7ccf39392d8",
+      "4x5": "199b208729e772da5b3a1cdb1a4903ee01ff8337e0351489b4e0ac7e38192f66",
+      "9x16": "2e98ff8015fca2ea6c46c57c8e67f6a2b8fb2bc04a522d9f2c8071e8a34d8c48"
+    },
+    "created_date": "2026-10-04",
+    "on_image_caption": "Lindenhof, Zurich",
+    "on_image_signature": "Jason D’s Vision",
+    "on_image_disclosure": "AI-generated artistic interpretation · Not a photograph.",
+    "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
+    "derivative_disclosure": "Daylight companion plate for the gallery daylight control. Text-prompt only. No weather claim. No scenario timestamp on the variant. The scene scenario_label is unchanged and is not a daylight weather assertion.",
+    "note": "Photorealistic daylight plate generated text-prompt-only on 2026-10-04. Not derived by relighting the published master and not image-anchored on it. No live daytime weather reading was available. The plate carries no scenario timestamp and no weather line. Published masters were not rewritten."
+  },
   "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
   "approval_basis": "Gate 1: the master shows the Lindenhof terrace — gravel public square under large lime trees with the stone fountain, tiled roofs dropping toward the Limmat, and distant church towers across the river; no standing castle on the hill, correct subject framing, plausible terrace viewpoint, clean framing, no artifacts. Gate 2: both masters exact dims (sweep-verified); caption 'Lindenhof, Zurich', scenario '24 September 2026 · 18:08 Europe/Zurich', AI disclosure legible on gradient; exact 'Jason D's Vision' signature bottom-right; weather retrieved 2026-09-25T23:44:09Z, unique repo-wide, valid 18:00–18:59 hour covering 18:08, overcast code 3/100% matching the diffuse light. Gate 3: text-prompt-only lineage, no photographic inputs. Gate 4: no prominent person or focal logo — documented only. Gate 5: no open blockers.",
   "approved_at": "2026-09-26T10:37:12.186600+00:00",
