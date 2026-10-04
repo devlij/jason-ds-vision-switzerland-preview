@@ -13,6 +13,42 @@
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
   "approval_status": "Approved",
+  "daylight_variant": {
+    "variant_of_entry_id": "CH-01-055",
+    "derived_from": "Text-prompt-only photorealistic daylight plate of the same place. Not image-anchored on the published master. Europe/Zurich was night on 4 October 2026, so this plate has no scenario timestamp and no weather line.",
+    "source_night": {
+      "16x9": {
+        "path": "library/world/Switzerland/St. Gallen/ch-01-055-16x9.png",
+        "sha256": "0c0c8460cd8b9a512fa5b968c3c7b8bc620a7fd9228cd95350944cdc5fdce62e"
+      },
+      "4x5": {
+        "path": "library/world/Switzerland/St. Gallen/ch-01-055-4x5.png",
+        "sha256": "8696707bf5f1ae62d316fcac4ae237b8287b23b5e522d7e4bb31da562a037bfc"
+      },
+      "9x16": {
+        "path": "library/world/Switzerland/St. Gallen/ch-01-055-9x16.png",
+        "sha256": "b10905571fb0eebfe834128aa418f03f97926fafec18ed5ee7aa49a81cda7231"
+      },
+      "recorded": "SHA-256 of the published masters immediately before this daylight batch. Post-write hashes are identical; published masters were not rewritten."
+    },
+    "files": {
+      "16x9": "library/world/Switzerland/St. Gallen/ch-01-055-daylight-16x9.png",
+      "4x5": "library/world/Switzerland/St. Gallen/ch-01-055-daylight-4x5.png",
+      "9x16": "library/world/Switzerland/St. Gallen/ch-01-055-daylight-9x16.png"
+    },
+    "sha256": {
+      "16x9": "5933142a21ca64f0b60be322424f8d9416f0b2290f3de9a9079e04701bc2374a",
+      "4x5": "1e822679703de8628596f634aeb4110a4b2ad5fd0532faf323398c33fec6b612",
+      "9x16": "53934a6faf4176d683cca111cae79c3179ce1e64c0a59e4184c04c1a5fe559fd"
+    },
+    "created_date": "2026-10-04",
+    "on_image_caption": "St. Gallen Abbey, St. Gallen",
+    "on_image_signature": "Jason D’s Vision",
+    "on_image_disclosure": "AI-generated artistic interpretation · Not a photograph.",
+    "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
+    "derivative_disclosure": "Daylight companion plate for the gallery daylight control. Text-prompt only. No weather claim. No scenario timestamp on the variant. The scene scenario_label is unchanged and is not a daylight weather assertion.",
+    "note": "Photorealistic daylight plate generated text-prompt-only on 2026-10-04. Not derived by relighting the published master and not image-anchored on it. No live daytime weather reading was available. The plate carries no scenario timestamp and no weather line. Published masters were not rewritten."
+  },
   "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
   "approval_basis": "the abbey's twin towers, green domes and courtyard facade render symmetrically and legibly; label bar exact; per-scene retrieval 2026-09-27T16:53:53Z unique; Art. 50 chunks present, 2026-09-27.",
   "sha256_16x9": "0c0c8460cd8b9a512fa5b968c3c7b8bc620a7fd9228cd95350944cdc5fdce62e",

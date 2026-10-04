@@ -13,6 +13,42 @@
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
   "approval_status": "Approved",
+  "daylight_variant": {
+    "variant_of_entry_id": "CH-01-064",
+    "derived_from": "Text-prompt-only photorealistic daylight plate of the same place. Not image-anchored on the published master. Europe/Zurich was night on 4 October 2026, so this plate has no scenario timestamp and no weather line.",
+    "source_night": {
+      "16x9": {
+        "path": "library/world/Switzerland/Noiraigue/ch-01-064-16x9.png",
+        "sha256": "74f6ef82f23465c9f6cd1752786095d2be398efdb635331f5f4e683e577a33a8"
+      },
+      "4x5": {
+        "path": "library/world/Switzerland/Noiraigue/ch-01-064-4x5.png",
+        "sha256": "a27ab77e3f09da2b0c8da5c33874f8e6a49b1d5dd93c92ca325226079aa332c5"
+      },
+      "9x16": {
+        "path": "library/world/Switzerland/Noiraigue/ch-01-064-9x16.png",
+        "sha256": "65fcd9a479ba4936fe85c3cf4e056831e7761aecec75b07bebbbdfc7351ac61c"
+      },
+      "recorded": "SHA-256 of the published masters immediately before this daylight batch. Post-write hashes are identical; published masters were not rewritten."
+    },
+    "files": {
+      "16x9": "library/world/Switzerland/Noiraigue/ch-01-064-daylight-16x9.png",
+      "4x5": "library/world/Switzerland/Noiraigue/ch-01-064-daylight-4x5.png",
+      "9x16": "library/world/Switzerland/Noiraigue/ch-01-064-daylight-9x16.png"
+    },
+    "sha256": {
+      "16x9": "94fb53ffdd033f6a47f4b1a936e5df8bde6d81fea88e9afbad02d5a2f43374ad",
+      "4x5": "d96c950896b3e82f376d75c9c1ab059e6f8b82e814442e5458033e0440186845",
+      "9x16": "57f1c30807a7a54af00ce124445a1a04381d57bbb83bf22444c36c7a7def66b5"
+    },
+    "created_date": "2026-10-04",
+    "on_image_caption": "Creux du Van, Noiraigue",
+    "on_image_signature": "Jason D’s Vision",
+    "on_image_disclosure": "AI-generated artistic interpretation · Not a photograph.",
+    "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
+    "derivative_disclosure": "Daylight companion plate for the gallery daylight control. Text-prompt only. No weather claim. No scenario timestamp on the variant. The scene scenario_label is unchanged and is not a daylight weather assertion.",
+    "note": "Photorealistic daylight plate generated text-prompt-only on 2026-10-04. Not derived by relighting the published master and not image-anchored on it. No live daytime weather reading was available. The plate carries no scenario timestamp and no weather line. Published masters were not rewritten."
+  },
   "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
   "approval_basis": "Sheer layered limestone cirque wall arcs across the frame with forested floor below, fully overcast sky — recognizably the Creux du Van amphitheatre. Label bar verified on-image: \"Creux du Van, Noiraigue\", \"Scenario: 24 September 2026 · 15:44 Europe/Zurich\", disclosure, signature. Weather retrieval 2026-09-27T16:55:39Z unique to the second, separate GET for 46.9358,6.7265, scenario 15:44 inside 15:00–15:59 (code 3, 100% cloud — overcast consistent). Text-prompt-only per note. No people/logos.",
   "sha256_16x9": "74f6ef82f23465c9f6cd1752786095d2be398efdb635331f5f4e683e577a33a8",

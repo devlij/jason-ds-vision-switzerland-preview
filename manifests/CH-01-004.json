@@ -13,6 +13,42 @@
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
   "approval_status": "Approved",
+  "daylight_variant": {
+    "variant_of_entry_id": "CH-01-004",
+    "derived_from": "Text-prompt-only photorealistic daylight plate of the same place. Not image-anchored on the published master. Europe/Zurich was night (Open-Meteo is_day 0 at 2026-10-04T23:00 Europe/Zurich), so this plate has no scenario timestamp and no weather line.",
+    "source_night": {
+      "16x9": {
+        "path": "library/world/Switzerland/Geneva/ch-01-004-16x9.png",
+        "sha256": "af5e299b8bd28ca7bdb07d1815e6e6e263e2d0d2a992cec372a03c0911552895"
+      },
+      "4x5": {
+        "path": "library/world/Switzerland/Geneva/ch-01-004-4x5.png",
+        "sha256": "49e4c7f32103c40d050c463f7c53457dea347feff76fd8d692744d67ddc6e0a0"
+      },
+      "9x16": {
+        "path": "library/world/Switzerland/Geneva/ch-01-004-9x16.png",
+        "sha256": "a175d57f921617e5fb4f901e0b65f25c73735a823ea0cff224799b2ed7700d10"
+      },
+      "recorded": "SHA-256 of the published masters immediately before this daylight batch. Post-write hashes are identical; published masters were not rewritten."
+    },
+    "files": {
+      "16x9": "library/world/Switzerland/Geneva/ch-01-004-daylight-16x9.png",
+      "4x5": "library/world/Switzerland/Geneva/ch-01-004-daylight-4x5.png",
+      "9x16": "library/world/Switzerland/Geneva/ch-01-004-daylight-9x16.png"
+    },
+    "sha256": {
+      "16x9": "e0cdd6fa2226f9fb82680dacf57a6ff88f3bc3a8ebd57cf2f8a39acca71afce6",
+      "4x5": "92d6f07336826ed665fd4e92ec2dd47af35ecfa98dce4c19b938106e7df55426",
+      "9x16": "c0865b7215f1fe347a04a2a1bb2001882efab02fb6955956b1d89c1ee0baf8d2"
+    },
+    "created_date": "2026-10-04",
+    "on_image_caption": "Jet d'Eau, Geneva",
+    "on_image_signature": "Jason D’s Vision",
+    "on_image_disclosure": "AI-generated artistic interpretation · Not a photograph.",
+    "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
+    "derivative_disclosure": "Daylight companion plate for the gallery daylight control. Text-prompt only. No weather claim. No scenario timestamp on the variant. The scene scenario_label is unchanged and is not a daylight weather assertion.",
+    "note": "Photorealistic daylight plate generated text-prompt-only on 2026-10-04. Not derived by relighting the published master and not image-anchored on it. No live daytime weather reading was available. The plate carries no scenario timestamp and no weather line. Published masters were not rewritten."
+  },
   "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
   "approval_basis": "Open-Meteo retrieval 2026-09-27T16:51:02Z (unique to the second, repo-wide verified, 2026-09-27) — Gate 2 hardened-weather law satisfied. CH-01-004: Jet d'Eau, Geneva. G1: the tall water jet standing in Lake Geneva seen from the stone quay, Mont Blanc shoreline behind under gray stratus. G2: dims exact; 'Jet d'Eau, Geneva' / 14:38. G3–G5 clear.",
   "sha256_16x9": "af5e299b8bd28ca7bdb07d1815e6e6e263e2d0d2a992cec372a03c0911552895",

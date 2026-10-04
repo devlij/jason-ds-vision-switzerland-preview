@@ -13,6 +13,42 @@
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
   "approval_status": "Approved",
+  "daylight_variant": {
+    "variant_of_entry_id": "CH-01-083",
+    "derived_from": "Text-prompt-only photorealistic daylight plate of the same place. Not image-anchored on the published master. Europe/Zurich was night on 4 October 2026, so this plate has no scenario timestamp and no weather line.",
+    "source_night": {
+      "16x9": {
+        "path": "library/world/Switzerland/Delémont/ch-01-083-16x9.png",
+        "sha256": "96eee6f6e238d1592d7960d45e6671a39b35b86ea745409db29d44af885e7401"
+      },
+      "4x5": {
+        "path": "library/world/Switzerland/Delémont/ch-01-083-4x5.png",
+        "sha256": "c0a170ca4c493e345ddbc8c69424d0e908d96220ad4cb98bdf8d2e76a7feea40"
+      },
+      "9x16": {
+        "path": "library/world/Switzerland/Delémont/ch-01-083-9x16.png",
+        "sha256": "16c4ea8e7ca0a124467d20cefc6a3a657bd107f5341eae9170d32df63f3c075d"
+      },
+      "recorded": "SHA-256 of the published masters immediately before this daylight batch. Post-write hashes are identical; published masters were not rewritten."
+    },
+    "files": {
+      "16x9": "library/world/Switzerland/Delémont/ch-01-083-daylight-16x9.png",
+      "4x5": "library/world/Switzerland/Delémont/ch-01-083-daylight-4x5.png",
+      "9x16": "library/world/Switzerland/Delémont/ch-01-083-daylight-9x16.png"
+    },
+    "sha256": {
+      "16x9": "febeaef3a3961abbb5e104ce6b810136f43a1fda1f38fb2dcaed306136786307",
+      "4x5": "540f841293ef105321f20fc9e9fa9417e05b349ba1c05bb6701016b66050f799",
+      "9x16": "74b4966e0784b80d764db45e946cbca19d942b2a2d8913129e28d31f63039476"
+    },
+    "created_date": "2026-10-04",
+    "on_image_caption": "Delémont, Delémont",
+    "on_image_signature": "Jason D’s Vision",
+    "on_image_disclosure": "AI-generated artistic interpretation · Not a photograph.",
+    "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
+    "derivative_disclosure": "Daylight companion plate for the gallery daylight control. Text-prompt only. No weather claim. No scenario timestamp on the variant. The scene scenario_label is unchanged and is not a daylight weather assertion.",
+    "note": "Photorealistic daylight plate generated text-prompt-only on 2026-10-04. Not derived by relighting the published master and not image-anchored on it. No live daytime weather reading was available. The plate carries no scenario timestamp and no weather line. Published masters were not rewritten."
+  },
   "qc_status": "Approved",
   "approval_basis": "G1: Delémont — the Château's baroque stone facade with mansard slate roof and dormers from the garden terrace, balustrade and parterre in the foreground; the town's landmark, plausible viewpoint. G2: 16:9 1920×1270, baked bar with caption 'Delémont, Delémont', scenario '24 September 2026 · 16:14 Europe/Zurich', disclosure + signature legible; weather retrieval 2026-09-27T16:56:05Z unique to this scene, valid 16:00 hour contains the scenario, WMO 3 overcast matching the grey sky; Art. 50 chunks present, Comment embedded 2026-09-27. G3: text-prompt-only, no photographic inputs. G4: no people/logos, public landmark. G5: clear.",
   "sha256_16x9": "96eee6f6e238d1592d7960d45e6671a39b35b86ea745409db29d44af885e7401",

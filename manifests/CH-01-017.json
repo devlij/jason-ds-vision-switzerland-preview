@@ -13,6 +13,42 @@
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
   "approval_status": "Approved",
+  "daylight_variant": {
+    "variant_of_entry_id": "CH-01-017",
+    "derived_from": "Text-prompt-only photorealistic daylight plate of the same place. Not image-anchored on the published master. Europe/Zurich was night (Open-Meteo is_day 0 at 2026-10-04T23:00 Europe/Zurich), so this plate has no scenario timestamp and no weather line.",
+    "source_night": {
+      "16x9": {
+        "path": "library/world/Switzerland/Saas-Fee/ch-01-017-16x9.png",
+        "sha256": "a04fb883bbe2870f06c056430fe9c1ad68ea3f01e6c41899511a241c18dd66d6"
+      },
+      "4x5": {
+        "path": "library/world/Switzerland/Saas-Fee/ch-01-017-4x5.png",
+        "sha256": "87aaddbd4840e82e48dd72377af3a293dad22bbdc88632f8c6210a992096bb8d"
+      },
+      "9x16": {
+        "path": "library/world/Switzerland/Saas-Fee/ch-01-017-9x16.png",
+        "sha256": "12b5381a3d0f8afff38596efa1fd243c9e2dec8044ce8d1fcef8b7512fb3fb45"
+      },
+      "recorded": "SHA-256 of the published masters immediately before this daylight batch. Post-write hashes are identical; published masters were not rewritten."
+    },
+    "files": {
+      "16x9": "library/world/Switzerland/Saas-Fee/ch-01-017-daylight-16x9.png",
+      "4x5": "library/world/Switzerland/Saas-Fee/ch-01-017-daylight-4x5.png",
+      "9x16": "library/world/Switzerland/Saas-Fee/ch-01-017-daylight-9x16.png"
+    },
+    "sha256": {
+      "16x9": "cb8f02df9e4475f658ae3396c6e6e51b36d32c74ed7c91b5c497d3132494865e",
+      "4x5": "ca6cc4e5348764a7f9a1eebd20a43c82d60dface1eaf722911defa3f047965f2",
+      "9x16": "1c789ec8e99e51b48245d9c043ff8bc6969038ee3da5a59cc48557fa9a619272"
+    },
+    "created_date": "2026-10-04",
+    "on_image_caption": "Allalinhorn, Saas-Fee",
+    "on_image_signature": "Jason D’s Vision",
+    "on_image_disclosure": "AI-generated artistic interpretation · Not a photograph.",
+    "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
+    "derivative_disclosure": "Daylight companion plate for the gallery daylight control. Text-prompt only. No weather claim. No scenario timestamp on the variant. The scene scenario_label is unchanged and is not a daylight weather assertion.",
+    "note": "Photorealistic daylight plate generated text-prompt-only on 2026-10-04. Not derived by relighting the published master and not image-anchored on it. No live daytime weather reading was available. The plate carries no scenario timestamp and no weather line. Published masters were not rewritten."
+  },
   "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
   "approval_basis": "Approved · Cosmo QC 5/5 · Daylight. Gate 1: Allalinhorn as a snow-and-ice summit massif on a high ridge (not a lone pyramid), crevassed Fee Glacier curving through the middle ground, rocky Längfluh foreground — matches the note's geometry anchors; clean, no artifacts. Gate 2: dims verified; on-bar 'Allalinhorn, Saas-Fee', 'Scenario: 24 September 2026 · 15:08 Europe/Zurich', disclosure + signature; retrieval 2026-09-27T16:51:20Z unique, scenario 15:08 inside 15:00-15:59, code 3/84%/5.9°C consistent with flat diffuse light. Gate 3: text-prompt-only lineage. Gate 4: no people, no logos. Gate 5: no blockers.",
   "sha256_16x9": "a04fb883bbe2870f06c056430fe9c1ad68ea3f01e6c41899511a241c18dd66d6",

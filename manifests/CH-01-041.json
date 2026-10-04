@@ -13,6 +13,42 @@
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
   "approval_status": "Approved",
+  "daylight_variant": {
+    "variant_of_entry_id": "CH-01-041",
+    "derived_from": "Text-prompt-only photorealistic daylight plate of the same place. Not image-anchored on the published master. Europe/Zurich was night on 4 October 2026, so this plate has no scenario timestamp and no weather line.",
+    "source_night": {
+      "16x9": {
+        "path": "library/world/Switzerland/Engelberg/ch-01-041-16x9.png",
+        "sha256": "7bf24615cef2a27fe65dce14be4ca6817abfe2e6a0275b28223fc21c3ad163ab"
+      },
+      "4x5": {
+        "path": "library/world/Switzerland/Engelberg/ch-01-041-4x5.png",
+        "sha256": "51a7cca0aff3b029858ae623018f78ebae00b8714137fe08d6a4d33f0559a8f3"
+      },
+      "9x16": {
+        "path": "library/world/Switzerland/Engelberg/ch-01-041-9x16.png",
+        "sha256": "e8e7fb2fa95b4e01fde7dc8ced70de6bc72f127e97258dd1e0344b68748a46da"
+      },
+      "recorded": "SHA-256 of the published masters immediately before this daylight batch. Post-write hashes are identical; published masters were not rewritten."
+    },
+    "files": {
+      "16x9": "library/world/Switzerland/Engelberg/ch-01-041-daylight-16x9.png",
+      "4x5": "library/world/Switzerland/Engelberg/ch-01-041-daylight-4x5.png",
+      "9x16": "library/world/Switzerland/Engelberg/ch-01-041-daylight-9x16.png"
+    },
+    "sha256": {
+      "16x9": "28ffeb2aca3fdda50f18cea63fb32e3e85950aa0d5ea61fd6f353c289c5f9582",
+      "4x5": "c1c1e8048c13324798644717f230ccddde2d04417b365f63a5f5ef9554e34a1d",
+      "9x16": "6cbc8652ef9a62157e67939f6fb75b27e3ca44ca28d4e5090cf6cfe78e9a41c1"
+    },
+    "created_date": "2026-10-04",
+    "on_image_caption": "Titlis, Engelberg",
+    "on_image_signature": "Jason D’s Vision",
+    "on_image_disclosure": "AI-generated artistic interpretation · Not a photograph.",
+    "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
+    "derivative_disclosure": "Daylight companion plate for the gallery daylight control. Text-prompt only. No weather claim. No scenario timestamp on the variant. The scene scenario_label is unchanged and is not a daylight weather assertion.",
+    "note": "Photorealistic daylight plate generated text-prompt-only on 2026-10-04. Not derived by relighting the published master and not image-anchored on it. No live daytime weather reading was available. The plate carries no scenario timestamp and no weather line. Published masters were not rewritten."
+  },
   "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
   "approval_basis": "Gate 1: snow-capped Titlis massif with glacier over the Engelberg valley town, forested slopes, overcast - recognizably Titlis, Engelberg from a plausible tourist viewpoint; clean framing, no artifacts, no glaring misconfiguration. Gate 2: dims exact per sweep (1920x1270 / 864x1080); 190px label bar baked under the photo with exact caption 'Titlis, Engelberg', scenario '24 September 2026 · 15:28 Europe/Zurich', AI disclosure, 'Jason D\\'s Vision' (curly apostrophe) + 'Jason A. Devlin' script signature; zero text over the photo area. 4:5 master compared against 16:9 for subject-identity agreement. Per-scene Open-Meteo retrieval 2026-09-27T16:53:34Z, unique to the second repo-wide (full 365-note scan 2026-09-29); scenario inside the 15:00-15:59 model-valid hour; model code 3 / cloud 98% matches the overcast frame. Gate 3: text-prompt-only lineage per notes, no photographic inputs reported. Gate 4: no prominent people, focal logos, or private property visible (documented only). Gate 5: no open blockers.",
   "sha256_16x9": "7bf24615cef2a27fe65dce14be4ca6817abfe2e6a0275b28223fc21c3ad163ab",

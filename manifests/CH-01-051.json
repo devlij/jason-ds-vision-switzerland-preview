@@ -13,6 +13,42 @@
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
   "approval_status": "Approved",
+  "daylight_variant": {
+    "variant_of_entry_id": "CH-01-051",
+    "derived_from": "Text-prompt-only photorealistic daylight plate of the same place. Not image-anchored on the published master. Europe/Zurich was night on 4 October 2026, so this plate has no scenario timestamp and no weather line.",
+    "source_night": {
+      "16x9": {
+        "path": "library/world/Switzerland/Schaffhausen/ch-01-051-16x9.png",
+        "sha256": "afa50acbd0d931dde888ea8e9dd847167deed89355751c2811a964226f42d2f6"
+      },
+      "4x5": {
+        "path": "library/world/Switzerland/Schaffhausen/ch-01-051-4x5.png",
+        "sha256": "4ab22cb65d2a7e349295d27c69a2d630ff112945ecdedf48b7d55043ef109004"
+      },
+      "9x16": {
+        "path": "library/world/Switzerland/Schaffhausen/ch-01-051-9x16.png",
+        "sha256": "f142f6d1edf7dbc710ba453c7e56ac5c769330817f492ecd38ba63ab94708d82"
+      },
+      "recorded": "SHA-256 of the published masters immediately before this daylight batch. Post-write hashes are identical; published masters were not rewritten."
+    },
+    "files": {
+      "16x9": "library/world/Switzerland/Schaffhausen/ch-01-051-daylight-16x9.png",
+      "4x5": "library/world/Switzerland/Schaffhausen/ch-01-051-daylight-4x5.png",
+      "9x16": "library/world/Switzerland/Schaffhausen/ch-01-051-daylight-9x16.png"
+    },
+    "sha256": {
+      "16x9": "7b7f90fc452044e52aad7631c37308e21066c9ec238a2b834b32a40ac66444fd",
+      "4x5": "207fe48140b3576aef7a131def07a3da7f59cb99899d4c9a164f19aca3952082",
+      "9x16": "edeee7adee23b82336db96559e801db4ab13bf84f96c473cedc1829cc25c75b2"
+    },
+    "created_date": "2026-10-04",
+    "on_image_caption": "Munot, Schaffhausen",
+    "on_image_signature": "Jason D’s Vision",
+    "on_image_disclosure": "AI-generated artistic interpretation · Not a photograph.",
+    "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
+    "derivative_disclosure": "Daylight companion plate for the gallery daylight control. Text-prompt only. No weather claim. No scenario timestamp on the variant. The scene scenario_label is unchanged and is not a daylight weather assertion.",
+    "note": "Photorealistic daylight plate generated text-prompt-only on 2026-10-04. Not derived by relighting the published master and not image-anchored on it. No live daytime weather reading was available. The plate carries no scenario timestamp and no weather line. Published masters were not rewritten."
+  },
   "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
   "approval_basis": "Munot's circular keep and walls dominate the hill exactly as the real fortress does; label bar exact; per-scene retrieval 2026-09-27T16:53:48Z unique; Art. 50 chunks present, 2026-09-27.",
   "sha256_16x9": "afa50acbd0d931dde888ea8e9dd847167deed89355751c2811a964226f42d2f6",

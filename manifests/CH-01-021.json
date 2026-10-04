@@ -13,6 +13,42 @@
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
   "approval_status": "Approved",
+  "daylight_variant": {
+    "variant_of_entry_id": "CH-01-021",
+    "derived_from": "Text-prompt-only photorealistic daylight plate of the same place. Not image-anchored on the published master. Europe/Zurich was night (Open-Meteo is_day 0 at 2026-10-04T23:00 Europe/Zurich), so this plate has no scenario timestamp and no weather line.",
+    "source_night": {
+      "16x9": {
+        "path": "library/world/Switzerland/Vitznau/ch-01-021-16x9.png",
+        "sha256": "0b634137b61212a21c1479b7ab7104ab094e8818f8c463a5ed85c112de5c8365"
+      },
+      "4x5": {
+        "path": "library/world/Switzerland/Vitznau/ch-01-021-4x5.png",
+        "sha256": "a17a2d883714fbcac8143b68b361d185ee43ca2a28a2bc7c59dc14993bc78d71"
+      },
+      "9x16": {
+        "path": "library/world/Switzerland/Vitznau/ch-01-021-9x16.png",
+        "sha256": "a5d9d4bdd88a60260b95720256151b1da3706c657997b81f71c90ea3ee722f82"
+      },
+      "recorded": "SHA-256 of the published masters immediately before this daylight batch. Post-write hashes are identical; published masters were not rewritten."
+    },
+    "files": {
+      "16x9": "library/world/Switzerland/Vitznau/ch-01-021-daylight-16x9.png",
+      "4x5": "library/world/Switzerland/Vitznau/ch-01-021-daylight-4x5.png",
+      "9x16": "library/world/Switzerland/Vitznau/ch-01-021-daylight-9x16.png"
+    },
+    "sha256": {
+      "16x9": "8866b721382198dc224d98b8fb08d13bc6b4f719af4edb29242880a95b18e96d",
+      "4x5": "72524046fc835817b432b934f57a2c584b588e6c8e7f6036214140c09c322ad9",
+      "9x16": "e7f167cee702d981888e7e8dc283fdd4160c48c27caf5a9eea9e2517bd66a213"
+    },
+    "created_date": "2026-10-04",
+    "on_image_caption": "Mount Rigi, Vitznau",
+    "on_image_signature": "Jason D’s Vision",
+    "on_image_disclosure": "AI-generated artistic interpretation · Not a photograph.",
+    "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
+    "derivative_disclosure": "Daylight companion plate for the gallery daylight control. Text-prompt only. No weather claim. No scenario timestamp on the variant. The scene scenario_label is unchanged and is not a daylight weather assertion.",
+    "note": "Photorealistic daylight plate generated text-prompt-only on 2026-10-04. Not derived by relighting the published master and not image-anchored on it. No live daytime weather reading was available. The plate carries no scenario timestamp and no weather line. Published masters were not rewritten."
+  },
   "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
   "approval_basis": "Approved · Cosmo QC 5/5 · Daylight. Gate 1: Vitznau on the lakeshore, forested Rigi massif with rocky summit ridge behind, the Vitznau-Rigi cog-railway line visible on the slope — correct identity; clean framing. Gate 2: dims verified; on-bar 'Mount Rigi, Vitznau', 'Scenario: 24 September 2026 · 15:09 Europe/Zurich', disclosure + signature; retrieval 2026-09-27T16:51:26Z unique, 15:09 inside 15:00-15:59, code 3/98%/20.9°C. Gate 3: text-prompt-only lineage. Gate 4: no identifiable people, no logos. Gate 5: no blockers.",
   "sha256_16x9": "0b634137b61212a21c1479b7ab7104ab094e8818f8c463a5ed85c112de5c8365",

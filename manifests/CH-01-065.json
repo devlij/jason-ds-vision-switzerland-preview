@@ -13,6 +13,42 @@
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
   "approval_status": "Approved",
+  "daylight_variant": {
+    "variant_of_entry_id": "CH-01-065",
+    "derived_from": "Text-prompt-only photorealistic daylight plate of the same place. Not image-anchored on the published master. Europe/Zurich was night on 4 October 2026, so this plate has no scenario timestamp and no weather line.",
+    "source_night": {
+      "16x9": {
+        "path": "library/world/Switzerland/Herisau/ch-01-065-16x9.png",
+        "sha256": "f7bc351b51ad831738b83471c9c4c59dfa450b586b3846eccc49c4db8490fcd4"
+      },
+      "4x5": {
+        "path": "library/world/Switzerland/Herisau/ch-01-065-4x5.png",
+        "sha256": "78bf08d9ba746cf4c2ce77a283c2b253af880f8479dc1ae0b29e8c80dafbf0b6"
+      },
+      "9x16": {
+        "path": "library/world/Switzerland/Herisau/ch-01-065-9x16.png",
+        "sha256": "4bf9e5ef3c9bebbc62a6d07b2098af059892e0ed38f399e9f96b872785e68463"
+      },
+      "recorded": "SHA-256 of the published masters immediately before this daylight batch. Post-write hashes are identical; published masters were not rewritten."
+    },
+    "files": {
+      "16x9": "library/world/Switzerland/Herisau/ch-01-065-daylight-16x9.png",
+      "4x5": "library/world/Switzerland/Herisau/ch-01-065-daylight-4x5.png",
+      "9x16": "library/world/Switzerland/Herisau/ch-01-065-daylight-9x16.png"
+    },
+    "sha256": {
+      "16x9": "2d3fc2aa977b05fcde54505c7e525d42ad05fad0703b01e354fb9f30733d0e23",
+      "4x5": "e46d2b9373da26744cb96449310f354329d8df351557dd09bf6bc03b14c4f116",
+      "9x16": "177ee81149f3a13f7a88933f6b80569c066b524df9ed0fa444f2ec10248705db"
+    },
+    "created_date": "2026-10-04",
+    "on_image_caption": "Herisau, Herisau",
+    "on_image_signature": "Jason D’s Vision",
+    "on_image_disclosure": "AI-generated artistic interpretation · Not a photograph.",
+    "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
+    "derivative_disclosure": "Daylight companion plate for the gallery daylight control. Text-prompt only. No weather claim. No scenario timestamp on the variant. The scene scenario_label is unchanged and is not a daylight weather assertion.",
+    "note": "Photorealistic daylight plate generated text-prompt-only on 2026-10-04. Not derived by relighting the published master and not image-anchored on it. No live daytime weather reading was available. The plate carries no scenario timestamp and no weather line. Published masters were not rewritten."
+  },
   "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
   "approval_basis": "Reformed church with bulbous onion-cupola tower (octagonal helmet per anchor) on the Platz with plastered merchant houses, no interior shown, overcast sky. Label bar verified on-image: \"Herisau, Herisau\", \"Scenario: 24 September 2026 · 16:00 Europe/Zurich\", disclosure, signature. Weather retrieval 2026-09-27T16:55:40Z unique to the second, separate GET for 47.38584,9.27928, scenario 16:00 inside 16:00–16:59 (code 3, 100% cloud — overcast consistent). Text-prompt-only per note. No people/logos.",
   "sha256_16x9": "f7bc351b51ad831738b83471c9c4c59dfa450b586b3846eccc49c4db8490fcd4",

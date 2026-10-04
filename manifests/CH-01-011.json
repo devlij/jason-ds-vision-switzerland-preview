@@ -13,6 +13,42 @@
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
   "approval_status": "Approved",
+  "daylight_variant": {
+    "variant_of_entry_id": "CH-01-011",
+    "derived_from": "Text-prompt-only photorealistic daylight plate of the same place. Not image-anchored on the published master. Europe/Zurich was night (Open-Meteo is_day 0 at 2026-10-04T23:00 Europe/Zurich), so this plate has no scenario timestamp and no weather line.",
+    "source_night": {
+      "16x9": {
+        "path": "library/world/Switzerland/Appenzell/ch-01-011-16x9.png",
+        "sha256": "a846e16c0c3841f2b0b2e09b6616acf2564613b465cd28716fedce668593e0c8"
+      },
+      "4x5": {
+        "path": "library/world/Switzerland/Appenzell/ch-01-011-4x5.png",
+        "sha256": "7bd7b0dc0883f123be9a2b26aac29a06ebcf1288e0ad68650a6dc69d791ace0d"
+      },
+      "9x16": {
+        "path": "library/world/Switzerland/Appenzell/ch-01-011-9x16.png",
+        "sha256": "f6085d1eb593350063448b2c41d2d9c0bfe211ba7c44e993e06529b864ec80c9"
+      },
+      "recorded": "SHA-256 of the published masters immediately before this daylight batch. Post-write hashes are identical; published masters were not rewritten."
+    },
+    "files": {
+      "16x9": "library/world/Switzerland/Appenzell/ch-01-011-daylight-16x9.png",
+      "4x5": "library/world/Switzerland/Appenzell/ch-01-011-daylight-4x5.png",
+      "9x16": "library/world/Switzerland/Appenzell/ch-01-011-daylight-9x16.png"
+    },
+    "sha256": {
+      "16x9": "ab0333312c825b521de65c0e339a2f4e064a3d138b65b41fa4e3b5bba2319029",
+      "4x5": "0f900c6688fbd7bfc4b84fe0894fdfe063a5b219cfc05d93d09f1c8f0a7d5eb3",
+      "9x16": "1008e3b4cc032d2f0ca5026802765bfbc6c3a57437411a0eee4795088f046751"
+    },
+    "created_date": "2026-10-04",
+    "on_image_caption": "Appenzell, Appenzell",
+    "on_image_signature": "Jason D’s Vision",
+    "on_image_disclosure": "AI-generated artistic interpretation · Not a photograph.",
+    "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
+    "derivative_disclosure": "Daylight companion plate for the gallery daylight control. Text-prompt only. No weather claim. No scenario timestamp on the variant. The scene scenario_label is unchanged and is not a daylight weather assertion.",
+    "note": "Photorealistic daylight plate generated text-prompt-only on 2026-10-04. Not derived by relighting the published master and not image-anchored on it. No live daytime weather reading was available. The plate carries no scenario timestamp and no weather line. Published masters were not rewritten."
+  },
   "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
   "approval_basis": "Open-Meteo retrieval 2026-09-27T16:51:12Z (unique to the second, repo-wide verified, 2026-09-27) — Gate 2 hardened-weather law satisfied. CH-01-011: Appenzell, Appenzell. G1: painted timber facades of the village square, parish church spire, Säntis massif backdrop — correct Appenzell idiom. G2: dims exact; 'Appenzell, Appenzell' / 14:40; prior shared-retrieval revert superseded by the per-scene rework. G3–G5 clear.",
   "sha256_16x9": "a846e16c0c3841f2b0b2e09b6616acf2564613b465cd28716fedce668593e0c8",

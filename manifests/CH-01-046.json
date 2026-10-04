@@ -13,6 +13,42 @@
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
   "approval_status": "Approved",
+  "daylight_variant": {
+    "variant_of_entry_id": "CH-01-046",
+    "derived_from": "Text-prompt-only photorealistic daylight plate of the same place. Not image-anchored on the published master. Europe/Zurich was night on 4 October 2026, so this plate has no scenario timestamp and no weather line.",
+    "source_night": {
+      "16x9": {
+        "path": "library/world/Switzerland/Murten/ch-01-046-16x9.png",
+        "sha256": "31ec96b47a2fb7809acd8c0b60e465a41e3b87e1888fe2241a4666aa1ce3ae05"
+      },
+      "4x5": {
+        "path": "library/world/Switzerland/Murten/ch-01-046-4x5.png",
+        "sha256": "c051f534adada30dadedc752a44133ac9c9cba6326e3706e58b7abeed9e77820"
+      },
+      "9x16": {
+        "path": "library/world/Switzerland/Murten/ch-01-046-9x16.png",
+        "sha256": "60579e7d2fde5e2e87c922d606435d2b53bca50bb090cf1df73666297858ec4a"
+      },
+      "recorded": "SHA-256 of the published masters immediately before this daylight batch. Post-write hashes are identical; published masters were not rewritten."
+    },
+    "files": {
+      "16x9": "library/world/Switzerland/Murten/ch-01-046-daylight-16x9.png",
+      "4x5": "library/world/Switzerland/Murten/ch-01-046-daylight-4x5.png",
+      "9x16": "library/world/Switzerland/Murten/ch-01-046-daylight-9x16.png"
+    },
+    "sha256": {
+      "16x9": "ccfb038ef3acd7fcdcaea51db57e2094892fbe2fd214b74c2cb89d676b603a59",
+      "4x5": "e6d18c70fb6c929d1bc65a4904c3834b5513b621a55c948d6930eb5806c97c6a",
+      "9x16": "a050197b5575b00e6141ccac2b44d180904e6e243d4ed99a309db9d7d8d151cf"
+    },
+    "created_date": "2026-10-04",
+    "on_image_caption": "Murten, Murten",
+    "on_image_signature": "Jason D’s Vision",
+    "on_image_disclosure": "AI-generated artistic interpretation · Not a photograph.",
+    "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
+    "derivative_disclosure": "Daylight companion plate for the gallery daylight control. Text-prompt only. No weather claim. No scenario timestamp on the variant. The scene scenario_label is unchanged and is not a daylight weather assertion.",
+    "note": "Photorealistic daylight plate generated text-prompt-only on 2026-10-04. Not derived by relighting the published master and not image-anchored on it. No live daytime weather reading was available. The plate carries no scenario timestamp and no weather line. Published masters were not rewritten."
+  },
   "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
   "approval_basis": "Murten's ring wall and rampart render cleanly with the castle above the roofs and the lake beyond, matching the documented viewpoint; the label bar carries the exact caption, scenario string, disclosure, curly-apostrophe signature and script name, verified at full resolution; per-scene Open-Meteo retrieval 2026-09-27T16:53:41Z is recorded and repo-wide unique; Art. 50 text chunks present with the true 2026-09-27 embedding date.",
   "sha256_16x9": "31ec96b47a2fb7809acd8c0b60e465a41e3b87e1888fe2241a4666aa1ce3ae05",

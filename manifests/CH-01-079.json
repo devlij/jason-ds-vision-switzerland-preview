@@ -13,6 +13,42 @@
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
   "approval_status": "Approved",
+  "daylight_variant": {
+    "variant_of_entry_id": "CH-01-079",
+    "derived_from": "Text-prompt-only photorealistic daylight plate of the same place. Not image-anchored on the published master. Europe/Zurich was night on 4 October 2026, so this plate has no scenario timestamp and no weather line.",
+    "source_night": {
+      "16x9": {
+        "path": "library/world/Switzerland/La Chaux-de-Fonds/ch-01-079-16x9.png",
+        "sha256": "57be77bf6a0f2965e01485ad9ad4d9736b43da2fa9428b58da8831b29ff36a2f"
+      },
+      "4x5": {
+        "path": "library/world/Switzerland/La Chaux-de-Fonds/ch-01-079-4x5.png",
+        "sha256": "5327184329a4481b204487ef130be4e1116e991efb9abd70193c977782b9ad87"
+      },
+      "9x16": {
+        "path": "library/world/Switzerland/La Chaux-de-Fonds/ch-01-079-9x16.png",
+        "sha256": "19c9a2521007a5486cb0035da7082b76295393277ce0cff2d5329fe608ebf0d5"
+      },
+      "recorded": "SHA-256 of the published masters immediately before this daylight batch. Post-write hashes are identical; published masters were not rewritten."
+    },
+    "files": {
+      "16x9": "library/world/Switzerland/La Chaux-de-Fonds/ch-01-079-daylight-16x9.png",
+      "4x5": "library/world/Switzerland/La Chaux-de-Fonds/ch-01-079-daylight-4x5.png",
+      "9x16": "library/world/Switzerland/La Chaux-de-Fonds/ch-01-079-daylight-9x16.png"
+    },
+    "sha256": {
+      "16x9": "02c7f560f03ea6ec29035d2a7a5b303c1b81838f2ffbe7a43d21ab588449ab07",
+      "4x5": "ae016d1f4aef6ac9769b75bce86ddf8c401601469478b21949ea26db95938ac7",
+      "9x16": "0175243b40ba14db6a1b837e15f9d49692203450458633fd27a58407089b3f2f"
+    },
+    "created_date": "2026-10-04",
+    "on_image_caption": "La Chaux-de-Fonds, La Chaux-de-Fonds",
+    "on_image_signature": "Jason D’s Vision",
+    "on_image_disclosure": "AI-generated artistic interpretation · Not a photograph.",
+    "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
+    "derivative_disclosure": "Daylight companion plate for the gallery daylight control. Text-prompt only. No weather claim. No scenario timestamp on the variant. The scene scenario_label is unchanged and is not a daylight weather assertion.",
+    "note": "Photorealistic daylight plate generated text-prompt-only on 2026-10-04. Not derived by relighting the published master and not image-anchored on it. No live daytime weather reading was available. The plate carries no scenario timestamp and no weather line. Published masters were not rewritten."
+  },
   "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
   "approval_basis": "G1: La Chaux-de-Fonds street wall — long straight run of pale 19th-century facades with even cornice lines receding to the vanishing point, the town's grid character; G2: 16:9 1920×1270, baked bar with caption 'La Chaux-de-Fonds, La Chaux-de-Fonds', scenario '24 September 2026 · 16:01 Europe/Zurich', disclosure + signature; weather retrieval 2026-09-27T16:55:59Z unique to this scene, valid 16:00 hour contains scenario, WMO 3 overcast/100%; G3: text-prompt-only; G4: no people/logos; G5: clear.",
   "sha256_16x9": "57be77bf6a0f2965e01485ad9ad4d9736b43da2fa9428b58da8831b29ff36a2f",

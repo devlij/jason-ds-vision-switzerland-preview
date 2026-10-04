@@ -168,19 +168,34 @@ def publishable_scenes(manifests: list[dict], exists=master_exists) -> list[dict
             if exists(day16) and exists(day45):
                 scene["file_16x9_day"] = day16
                 scene["file_4x5_day"] = day45
+        # 9:16 daylight is required before the gallery shows the daylight
+        # button on any card that already has a 9:16 master.
+        if "file_9x16_day" not in scene and scene.get("file_9x16"):
+            day916 = daylight_916(source)
+            if exists(day916):
+                scene["file_9x16_day"] = day916
         scene["image_alt"] = image_alt(source)
         scenes.append(scene)
     return scenes
 
 
-def daylight_pair(source: dict) -> tuple[str, str]:
+def _daylight_files(source: dict) -> dict:
     variant = source.get("daylight_variant")
     if not isinstance(variant, dict):
-        return "", ""
+        return {}
     files = variant.get("files")
     if not isinstance(files, dict):
-        return "", ""
+        return {}
+    return files
+
+
+def daylight_pair(source: dict) -> tuple[str, str]:
+    files = _daylight_files(source)
     return str(files.get("16x9") or ""), str(files.get("4x5") or "")
+
+
+def daylight_916(source: dict) -> str:
+    return str(_daylight_files(source).get("9x16") or "")
 
 
 def phase1_meta(scenes: list[dict], tags: dict[str, dict], exists=master_exists) -> dict:

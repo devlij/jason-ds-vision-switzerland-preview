@@ -13,6 +13,42 @@
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
   "approval_status": "Approved",
+  "daylight_variant": {
+    "variant_of_entry_id": "CH-01-037",
+    "derived_from": "Text-prompt-only photorealistic daylight plate of the same place. Not image-anchored on the published master. Europe/Zurich was night on 4 October 2026, so this plate has no scenario timestamp and no weather line.",
+    "source_night": {
+      "16x9": {
+        "path": "library/world/Switzerland/Airolo/ch-01-037-16x9.png",
+        "sha256": "2765a10459fe7acbcfc06dee505778e9732d03b71827ae29f64448e471bb41ba"
+      },
+      "4x5": {
+        "path": "library/world/Switzerland/Airolo/ch-01-037-4x5.png",
+        "sha256": "aaae07de09cc816cb6a65d290d1e563fcc2973fd4a68814f0e5d955f0e16afb0"
+      },
+      "9x16": {
+        "path": "library/world/Switzerland/Airolo/ch-01-037-9x16.png",
+        "sha256": "eed0c016b98066abb3fa0578c2776d04c293d263ee1529520b4971ff44322424"
+      },
+      "recorded": "SHA-256 of the published masters immediately before this daylight batch. Post-write hashes are identical; published masters were not rewritten."
+    },
+    "files": {
+      "16x9": "library/world/Switzerland/Airolo/ch-01-037-daylight-16x9.png",
+      "4x5": "library/world/Switzerland/Airolo/ch-01-037-daylight-4x5.png",
+      "9x16": "library/world/Switzerland/Airolo/ch-01-037-daylight-9x16.png"
+    },
+    "sha256": {
+      "16x9": "509de2d0188c2d5bf1b674bdd5a3a68936509e14ce9bb57074cad20e10fdcf87",
+      "4x5": "a63b50177543a70a8a9a5d4e3822767b257ff6126bf4bd95fa33ab559523a9ae",
+      "9x16": "5c00c4aced532f7d3c175927364b5126cb1bc2ab67caf93dae1b2d9f071d26db"
+    },
+    "created_date": "2026-10-04",
+    "on_image_caption": "Gotthard Pass, Airolo",
+    "on_image_signature": "Jason D’s Vision",
+    "on_image_disclosure": "AI-generated artistic interpretation · Not a photograph.",
+    "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
+    "derivative_disclosure": "Daylight companion plate for the gallery daylight control. Text-prompt only. No weather claim. No scenario timestamp on the variant. The scene scenario_label is unchanged and is not a daylight weather assertion.",
+    "note": "Photorealistic daylight plate generated text-prompt-only on 2026-10-04. Not derived by relighting the published master and not image-anchored on it. No live daytime weather reading was available. The plate carries no scenario timestamp and no weather line. Published masters were not rewritten."
+  },
   "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
   "approval_basis": "Gate 1: pass saddle at Lago della Piazza with the stone hospice, rocky alpine terrain under overcast - recognizably Gotthard Pass, Airolo from a plausible tourist viewpoint; clean framing, no artifacts, no glaring misconfiguration. Gate 2: dims exact per sweep (1920x1270 / 864x1080); 190px label bar baked under the photo with exact caption 'Gotthard Pass, Airolo', scenario '24 September 2026 · 15:27 Europe/Zurich', AI disclosure, 'Jason D\\'s Vision' (curly apostrophe) + 'Jason A. Devlin' script signature; zero text over the photo area. 4:5 master compared against 16:9 for subject-identity agreement. Per-scene Open-Meteo retrieval 2026-09-27T16:53:28Z, unique to the second repo-wide (full 365-note scan 2026-09-29); scenario inside the 15:00-15:59 model-valid hour; model code 3 / cloud 94% matches the overcast frame. Gate 3: text-prompt-only lineage per notes, no photographic inputs reported. Gate 4: no prominent people, focal logos, or private property visible (documented only). Gate 5: no open blockers.",
   "sha256_16x9": "2765a10459fe7acbcfc06dee505778e9732d03b71827ae29f64448e471bb41ba",

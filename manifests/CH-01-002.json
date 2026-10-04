@@ -13,6 +13,42 @@
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
   "approval_status": "Approved",
+  "daylight_variant": {
+    "variant_of_entry_id": "CH-01-002",
+    "derived_from": "Text-prompt-only photorealistic daylight plate of the same place. Not image-anchored on the published master. Europe/Zurich was night (Open-Meteo is_day 0 at 2026-10-04T23:00 Europe/Zurich), so this plate has no scenario timestamp and no weather line.",
+    "source_night": {
+      "16x9": {
+        "path": "library/world/Switzerland/Lucerne/ch-01-002-16x9.png",
+        "sha256": "81b8dd7de34e2ba7adaf717cdcfe05ee4967b75243089e68febec7bfbd5f3e3c"
+      },
+      "4x5": {
+        "path": "library/world/Switzerland/Lucerne/ch-01-002-4x5.png",
+        "sha256": "c26772abc798470bd6b853e97794c62afa7dda7d55ad40ca801100deeed2b707"
+      },
+      "9x16": {
+        "path": "library/world/Switzerland/Lucerne/ch-01-002-9x16.png",
+        "sha256": "0d10ed177163e54c4d48cdba2ded25dca8e502eb8b08f26a516dcce18b24f9fc"
+      },
+      "recorded": "SHA-256 of the published masters immediately before this daylight batch. Post-write hashes are identical; published masters were not rewritten."
+    },
+    "files": {
+      "16x9": "library/world/Switzerland/Lucerne/ch-01-002-daylight-16x9.png",
+      "4x5": "library/world/Switzerland/Lucerne/ch-01-002-daylight-4x5.png",
+      "9x16": "library/world/Switzerland/Lucerne/ch-01-002-daylight-9x16.png"
+    },
+    "sha256": {
+      "16x9": "b49b3455e0d7c74d58028190605ce26b01890a05a05513fd7b32c7ec0fff1a30",
+      "4x5": "bed61ccfd80a287704cd88ac0bb3ea77888b75591b59b53c3b06dfd6d4d788a4",
+      "9x16": "219aaddf093406208ae4865c026938f2003e78de2af2d94c6965d9d4148b3e7a"
+    },
+    "created_date": "2026-10-04",
+    "on_image_caption": "Chapel Bridge, Lucerne",
+    "on_image_signature": "Jason D’s Vision",
+    "on_image_disclosure": "AI-generated artistic interpretation · Not a photograph.",
+    "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
+    "derivative_disclosure": "Daylight companion plate for the gallery daylight control. Text-prompt only. No weather claim. No scenario timestamp on the variant. The scene scenario_label is unchanged and is not a daylight weather assertion.",
+    "note": "Photorealistic daylight plate generated text-prompt-only on 2026-10-04. Not derived by relighting the published master and not image-anchored on it. No live daytime weather reading was available. The plate carries no scenario timestamp and no weather line. Published masters were not rewritten."
+  },
   "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
   "approval_basis": "Open-Meteo retrieval 2026-09-27T16:50:59Z (unique to the second, repo-wide verified, 2026-09-27) — Gate 2 hardened-weather law satisfied. CH-01-002: Chapel Bridge, Lucerne. G1: covered wooden Kapellbrücke spanning the Reuss, octagonal stone Wasserturm at the bend, Lucerne old-town façades with the St. Peter's spire behind, flower boxes along the bridge rail — north-bank viewpoint. G2: dims exact; 'Chapel Bridge, Lucerne' / '24 September 2026 · 14:38 Europe/Zurich'. G3–G5 clear.",
   "sha256_16x9": "81b8dd7de34e2ba7adaf717cdcfe05ee4967b75243089e68febec7bfbd5f3e3c",

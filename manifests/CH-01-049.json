@@ -13,6 +13,42 @@
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
   "approval_status": "Approved",
+  "daylight_variant": {
+    "variant_of_entry_id": "CH-01-049",
+    "derived_from": "Text-prompt-only photorealistic daylight plate of the same place. Not image-anchored on the published master. Europe/Zurich was night on 4 October 2026, so this plate has no scenario timestamp and no weather line.",
+    "source_night": {
+      "16x9": {
+        "path": "library/world/Switzerland/Oberdorf/ch-01-049-16x9.png",
+        "sha256": "ddb7b5202b158e86dcad6d86c263ecd70dbd9e0bb73b1d5666c7dfac8bacec27"
+      },
+      "4x5": {
+        "path": "library/world/Switzerland/Oberdorf/ch-01-049-4x5.png",
+        "sha256": "80cd2a5772b65eddbe3a3e2071fe42ff80fd480870947401dd26a6a28bdd01bd"
+      },
+      "9x16": {
+        "path": "library/world/Switzerland/Oberdorf/ch-01-049-9x16.png",
+        "sha256": "f5418f3343fa25925ea21ba9214044b34270a6006d01428fa5cfba33234ac471"
+      },
+      "recorded": "SHA-256 of the published masters immediately before this daylight batch. Post-write hashes are identical; published masters were not rewritten."
+    },
+    "files": {
+      "16x9": "library/world/Switzerland/Oberdorf/ch-01-049-daylight-16x9.png",
+      "4x5": "library/world/Switzerland/Oberdorf/ch-01-049-daylight-4x5.png",
+      "9x16": "library/world/Switzerland/Oberdorf/ch-01-049-daylight-9x16.png"
+    },
+    "sha256": {
+      "16x9": "e25194ec276ca28b3bb8e2369c079a70eb743dba5b907093fcb84a753aae3ed9",
+      "4x5": "16ff509c30e4c15e7d23602ad22fe8f10b370623c2d87023687ebdc6e54b7755",
+      "9x16": "be55f0478b685d9d5e5c3d2487d0360e0be1adf456cd7366bedf7691ef8b634b"
+    },
+    "created_date": "2026-10-04",
+    "on_image_caption": "Weissenstein, Oberdorf",
+    "on_image_signature": "Jason D’s Vision",
+    "on_image_disclosure": "AI-generated artistic interpretation · Not a photograph.",
+    "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
+    "derivative_disclosure": "Daylight companion plate for the gallery daylight control. Text-prompt only. No weather claim. No scenario timestamp on the variant. The scene scenario_label is unchanged and is not a daylight weather assertion.",
+    "note": "Photorealistic daylight plate generated text-prompt-only on 2026-10-04. Not derived by relighting the published master and not image-anchored on it. No live daytime weather reading was available. The plate carries no scenario timestamp and no weather line. Published masters were not rewritten."
+  },
   "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
   "approval_basis": "ridge road, spruce forest and crest hotel compose a clean Jura panorama; label bar exact; per-scene retrieval 2026-09-27T16:53:45Z unique; Art. 50 chunks present, 2026-09-27.",
   "sha256_16x9": "ddb7b5202b158e86dcad6d86c263ecd70dbd9e0bb73b1d5666c7dfac8bacec27",

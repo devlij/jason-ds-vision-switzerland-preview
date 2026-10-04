@@ -13,6 +13,42 @@
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
   "approval_status": "Approved",
+  "daylight_variant": {
+    "variant_of_entry_id": "CH-01-007",
+    "derived_from": "Text-prompt-only photorealistic daylight plate of the same place. Not image-anchored on the published master. Europe/Zurich was night (Open-Meteo is_day 0 at 2026-10-04T23:00 Europe/Zurich), so this plate has no scenario timestamp and no weather line.",
+    "source_night": {
+      "16x9": {
+        "path": "library/world/Switzerland/Lauterbrunnen/ch-01-007-16x9.png",
+        "sha256": "e4f75cf3c77702b8f9bfbdb8019ede16566287a90442078e19bada74e59c73a7"
+      },
+      "4x5": {
+        "path": "library/world/Switzerland/Lauterbrunnen/ch-01-007-4x5.png",
+        "sha256": "8c75c901c7ca1f2717811e6f1b3427e2c22771b8c68d37b8156a19061f184189"
+      },
+      "9x16": {
+        "path": "library/world/Switzerland/Lauterbrunnen/ch-01-007-9x16.png",
+        "sha256": "8ebbebda5ba5cc7ffb44dde81db1c4bb16071b1dbc47a7a9b77a8e5669aa2ac8"
+      },
+      "recorded": "SHA-256 of the published masters immediately before this daylight batch. Post-write hashes are identical; published masters were not rewritten."
+    },
+    "files": {
+      "16x9": "library/world/Switzerland/Lauterbrunnen/ch-01-007-daylight-16x9.png",
+      "4x5": "library/world/Switzerland/Lauterbrunnen/ch-01-007-daylight-4x5.png",
+      "9x16": "library/world/Switzerland/Lauterbrunnen/ch-01-007-daylight-9x16.png"
+    },
+    "sha256": {
+      "16x9": "d37aa20e10fac4ad37c6fc916d4848bad3d8b8138e3dbbe5e1928ab64edeac69",
+      "4x5": "8333e90e54adccc143e1714f3b75af813e42639f681099eec6f755bc0495beb8",
+      "9x16": "8ccb1cb49df968606b82337065ef8bfc26e8649230a130a7fdb0790d227b137f"
+    },
+    "created_date": "2026-10-04",
+    "on_image_caption": "Staubbach Falls, Lauterbrunnen",
+    "on_image_signature": "Jason D’s Vision",
+    "on_image_disclosure": "AI-generated artistic interpretation · Not a photograph.",
+    "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
+    "derivative_disclosure": "Daylight companion plate for the gallery daylight control. Text-prompt only. No weather claim. No scenario timestamp on the variant. The scene scenario_label is unchanged and is not a daylight weather assertion.",
+    "note": "Photorealistic daylight plate generated text-prompt-only on 2026-10-04. Not derived by relighting the published master and not image-anchored on it. No live daytime weather reading was available. The plate carries no scenario timestamp and no weather line. Published masters were not rewritten."
+  },
   "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
   "approval_basis": "Open-Meteo retrieval 2026-09-27T16:51:06Z (unique to the second, repo-wide verified, 2026-09-27) — Gate 2 hardened-weather law satisfied. CH-01-007: Staubbach Falls, Lauterbrunnen. G1: Staubbach's tall free-fall stream down the cliff face above the valley, Lauterbrunnen village chalets and the white church spire at its base; 4:5 tightens on the fall and village street, same subject. G2: dims exact; 'Staubbach Falls, Lauterbrunnen' / 14:40. G3–G5 clear.",
   "sha256_16x9": "e4f75cf3c77702b8f9bfbdb8019ede16566287a90442078e19bada74e59c73a7",

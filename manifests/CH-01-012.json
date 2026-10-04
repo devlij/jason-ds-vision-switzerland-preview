@@ -13,6 +13,42 @@
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
   "approval_status": "Approved",
+  "daylight_variant": {
+    "variant_of_entry_id": "CH-01-012",
+    "derived_from": "Text-prompt-only photorealistic daylight plate of the same place. Not image-anchored on the published master. Europe/Zurich was night (Open-Meteo is_day 0 at 2026-10-04T23:00 Europe/Zurich), so this plate has no scenario timestamp and no weather line.",
+    "source_night": {
+      "16x9": {
+        "path": "library/world/Switzerland/Lugano/ch-01-012-16x9.png",
+        "sha256": "64edf61c207b7fea257c9de017ad7daa3989bec66d8406dec84109173676ec6f"
+      },
+      "4x5": {
+        "path": "library/world/Switzerland/Lugano/ch-01-012-4x5.png",
+        "sha256": "3026d3e292e82165f78bd1e7883163f26445f475401e9641121232ef9b59d445"
+      },
+      "9x16": {
+        "path": "library/world/Switzerland/Lugano/ch-01-012-9x16.png",
+        "sha256": "23f3e409baccb3d53e272eb73a702ae40970181b6f8f3ad31607ef8902999e20"
+      },
+      "recorded": "SHA-256 of the published masters immediately before this daylight batch. Post-write hashes are identical; published masters were not rewritten."
+    },
+    "files": {
+      "16x9": "library/world/Switzerland/Lugano/ch-01-012-daylight-16x9.png",
+      "4x5": "library/world/Switzerland/Lugano/ch-01-012-daylight-4x5.png",
+      "9x16": "library/world/Switzerland/Lugano/ch-01-012-daylight-9x16.png"
+    },
+    "sha256": {
+      "16x9": "864cf3c1959911ea149e61b2d3f9fc8a1c4afc7d44e193950ec531a19f10a232",
+      "4x5": "1150bbf30ae3ed31a3c2958f58b44988d1f1618df5adee08e42a845817f9ddea",
+      "9x16": "b053b2372884a9e3306b507c75efeb2480ceda71a70b3c1bb8f5c44c3c40c839"
+    },
+    "created_date": "2026-10-04",
+    "on_image_caption": "Lugano lakefront, Lugano",
+    "on_image_signature": "Jason D’s Vision",
+    "on_image_disclosure": "AI-generated artistic interpretation · Not a photograph.",
+    "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
+    "derivative_disclosure": "Daylight companion plate for the gallery daylight control. Text-prompt only. No weather claim. No scenario timestamp on the variant. The scene scenario_label is unchanged and is not a daylight weather assertion.",
+    "note": "Photorealistic daylight plate generated text-prompt-only on 2026-10-04. Not derived by relighting the published master and not image-anchored on it. No live daytime weather reading was available. The plate carries no scenario timestamp and no weather line. Published masters were not rewritten."
+  },
   "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
   "approval_basis": "Open-Meteo retrieval 2026-09-27T16:51:13Z (unique to the second, repo-wide verified, 2026-09-27) — Gate 2 hardened-weather law satisfied. CH-01-012: Lugano lakefront, Lugano. G1: palm-lined lakeside promenade, Lake Lugano and the Monte Brè ridge, partly-blue sky matching weather code 2 / 66% cloud. G2: dims exact; 'Lugano lakefront, Lugano' / 14:40. G3–G5 clear.",
   "sha256_16x9": "64edf61c207b7fea257c9de017ad7daa3989bec66d8406dec84109173676ec6f",

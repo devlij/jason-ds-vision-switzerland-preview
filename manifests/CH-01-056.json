@@ -13,6 +13,42 @@
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
   "approval_status": "Approved",
+  "daylight_variant": {
+    "variant_of_entry_id": "CH-01-056",
+    "derived_from": "Text-prompt-only photorealistic daylight plate of the same place. Not image-anchored on the published master. Europe/Zurich was night on 4 October 2026, so this plate has no scenario timestamp and no weather line.",
+    "source_night": {
+      "16x9": {
+        "path": "library/world/Switzerland/Filisur/ch-01-056-16x9.png",
+        "sha256": "c7adef69d71d883196d8e503cf054e59d0107a46317a26adf554729ace3fbfe4"
+      },
+      "4x5": {
+        "path": "library/world/Switzerland/Filisur/ch-01-056-4x5.png",
+        "sha256": "668106a8d6f4a602a841f7dd161bad9160bc3c8dd343b19962dff483aa938b1d"
+      },
+      "9x16": {
+        "path": "library/world/Switzerland/Filisur/ch-01-056-9x16.png",
+        "sha256": "3f8bed2e016b17d80de72bc0d4aaaf8b5c2d1709219e4afe821e1682a56335fb"
+      },
+      "recorded": "SHA-256 of the published masters immediately before this daylight batch. Post-write hashes are identical; published masters were not rewritten."
+    },
+    "files": {
+      "16x9": "library/world/Switzerland/Filisur/ch-01-056-daylight-16x9.png",
+      "4x5": "library/world/Switzerland/Filisur/ch-01-056-daylight-4x5.png",
+      "9x16": "library/world/Switzerland/Filisur/ch-01-056-daylight-9x16.png"
+    },
+    "sha256": {
+      "16x9": "50afc74387e1c4eb3d379871894a17233ae080acf3ee14a165369ceeef5c02ea",
+      "4x5": "4ee5ee5f9e0e0c3997095efa1382692f52c6d89a3e647a175c0b668360c79afd",
+      "9x16": "e626a69845b6ccebcd1e77b059a12af774a1937ac8b68a2a79555c921f1e51bf"
+    },
+    "created_date": "2026-10-04",
+    "on_image_caption": "Landwasser Viaduct, Filisur",
+    "on_image_signature": "Jason D’s Vision",
+    "on_image_disclosure": "AI-generated artistic interpretation · Not a photograph.",
+    "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
+    "derivative_disclosure": "Daylight companion plate for the gallery daylight control. Text-prompt only. No weather claim. No scenario timestamp on the variant. The scene scenario_label is unchanged and is not a daylight weather assertion.",
+    "note": "Photorealistic daylight plate generated text-prompt-only on 2026-10-04. Not derived by relighting the published master and not image-anchored on it. No live daytime weather reading was available. The plate carries no scenario timestamp and no weather line. Published masters were not rewritten."
+  },
   "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
   "approval_basis": "the curved viaduct and tunnel portal are architecturally faithful and artifact-free; label bar exact; per-scene retrieval 2026-09-27T16:53:55Z unique; Art. 50 chunks present, 2026-09-27.",
   "sha256_16x9": "c7adef69d71d883196d8e503cf054e59d0107a46317a26adf554729ace3fbfe4",

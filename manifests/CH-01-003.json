@@ -13,6 +13,42 @@
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
   "approval_status": "Approved",
+  "daylight_variant": {
+    "variant_of_entry_id": "CH-01-003",
+    "derived_from": "Text-prompt-only photorealistic daylight plate of the same place. Not image-anchored on the published master. Europe/Zurich was night (Open-Meteo is_day 0 at 2026-10-04T23:00 Europe/Zurich), so this plate has no scenario timestamp and no weather line.",
+    "source_night": {
+      "16x9": {
+        "path": "library/world/Switzerland/Interlaken/ch-01-003-16x9.png",
+        "sha256": "967697e793ea287ae7442f2197f945be0cdcf00263e702dfc5e258b051f2e830"
+      },
+      "4x5": {
+        "path": "library/world/Switzerland/Interlaken/ch-01-003-4x5.png",
+        "sha256": "e745616a097a81e3827595ea46932e7b66fe55ff2fa81a2ebcdf97dc6df3986e"
+      },
+      "9x16": {
+        "path": "library/world/Switzerland/Interlaken/ch-01-003-9x16.png",
+        "sha256": "1f0adba4439b71bfbebf3a2d703b8d430ec2fa37ea8072f1145e93318594c34c"
+      },
+      "recorded": "SHA-256 of the published masters immediately before this daylight batch. Post-write hashes are identical; published masters were not rewritten."
+    },
+    "files": {
+      "16x9": "library/world/Switzerland/Interlaken/ch-01-003-daylight-16x9.png",
+      "4x5": "library/world/Switzerland/Interlaken/ch-01-003-daylight-4x5.png",
+      "9x16": "library/world/Switzerland/Interlaken/ch-01-003-daylight-9x16.png"
+    },
+    "sha256": {
+      "16x9": "f4aaec37840381cffdb695af2c644178d8745bfb2e3e2b48cc82d4e162129fea",
+      "4x5": "e5562ca8df4af07db2bc78a5e45a89e097474262df254243684d41af41bcac5f",
+      "9x16": "539e5ffa5690f1457f795efbcef27a7c5bb592d11811d54aaf75f778fa7cd9e2"
+    },
+    "created_date": "2026-10-04",
+    "on_image_caption": "Jungfrau, Interlaken",
+    "on_image_signature": "Jason D’s Vision",
+    "on_image_disclosure": "AI-generated artistic interpretation · Not a photograph.",
+    "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
+    "derivative_disclosure": "Daylight companion plate for the gallery daylight control. Text-prompt only. No weather claim. No scenario timestamp on the variant. The scene scenario_label is unchanged and is not a daylight weather assertion.",
+    "note": "Photorealistic daylight plate generated text-prompt-only on 2026-10-04. Not derived by relighting the published master and not image-anchored on it. No live daytime weather reading was available. The plate carries no scenario timestamp and no weather line. Published masters were not rewritten."
+  },
   "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
   "approval_basis": "Open-Meteo retrieval 2026-09-27T16:51:01Z (unique to the second, repo-wide verified, 2026-09-27) — Gate 2 hardened-weather law satisfied. CH-01-003: Jungfrau, Interlaken. G1: Interlaken town spread between Lake Thun and Lake Brienz in the valley floor, snow-capped Jungfrau massif (Eiger/Mönch shoulders) rising behind under overcast — plausible high viewpoint. G2: dims exact; 'Jungfrau, Interlaken' / 14:38. G3–G5 clear.",
   "sha256_16x9": "967697e793ea287ae7442f2197f945be0cdcf00263e702dfc5e258b051f2e830",

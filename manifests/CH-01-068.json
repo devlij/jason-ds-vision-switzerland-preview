@@ -13,6 +13,42 @@
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
   "approval_status": "Approved",
+  "daylight_variant": {
+    "variant_of_entry_id": "CH-01-068",
+    "derived_from": "Text-prompt-only photorealistic daylight plate of the same place. Not image-anchored on the published master. Europe/Zurich was night on 4 October 2026, so this plate has no scenario timestamp and no weather line.",
+    "source_night": {
+      "16x9": {
+        "path": "library/world/Switzerland/Werdenberg/ch-01-068-16x9.png",
+        "sha256": "a90bb164477367a64fe1766983373f33a95c125c15783b5918167d3eeae730a6"
+      },
+      "4x5": {
+        "path": "library/world/Switzerland/Werdenberg/ch-01-068-4x5.png",
+        "sha256": "1334789d285b367a030c16679dbe3249f15d366d7d0d22021c334f45123060b5"
+      },
+      "9x16": {
+        "path": "library/world/Switzerland/Werdenberg/ch-01-068-9x16.png",
+        "sha256": "ed348fec46ae58860217927efe9a37edbfde93275ed3dcc6828a6f9defa483a6"
+      },
+      "recorded": "SHA-256 of the published masters immediately before this daylight batch. Post-write hashes are identical; published masters were not rewritten."
+    },
+    "files": {
+      "16x9": "library/world/Switzerland/Werdenberg/ch-01-068-daylight-16x9.png",
+      "4x5": "library/world/Switzerland/Werdenberg/ch-01-068-daylight-4x5.png",
+      "9x16": "library/world/Switzerland/Werdenberg/ch-01-068-daylight-9x16.png"
+    },
+    "sha256": {
+      "16x9": "348c4f86b7746deb4e59399f58ec2713b10016e3086b73c1ddf162afb66d4605",
+      "4x5": "ee280acc226ced711064f035202df57b75794e73b786a8a7b8c2a15fc2172233",
+      "9x16": "012cef4b66cd305964cd97133299bb34f9aa7f48ad004c2df642b524b280be3a"
+    },
+    "created_date": "2026-10-04",
+    "on_image_caption": "Werdenberg, Werdenberg",
+    "on_image_signature": "Jason D’s Vision",
+    "on_image_disclosure": "AI-generated artistic interpretation · Not a photograph.",
+    "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
+    "derivative_disclosure": "Daylight companion plate for the gallery daylight control. Text-prompt only. No weather claim. No scenario timestamp on the variant. The scene scenario_label is unchanged and is not a daylight weather assertion.",
+    "note": "Photorealistic daylight plate generated text-prompt-only on 2026-10-04. Not derived by relighting the published master and not image-anchored on it. No live daytime weather reading was available. The plate carries no scenario timestamp and no weather line. Published masters were not rewritten."
+  },
   "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
   "approval_basis": "Short street of medieval timber houses below the stone Schloss occupying the knoll above the roofs, no added scaffolding, overcast sky. Label bar verified on-image: \"Werdenberg, Werdenberg\", \"Scenario: 24 September 2026 · 16:01 Europe/Zurich\", disclosure, signature. Weather retrieval 2026-09-27T16:55:44Z unique to the second, separate GET for 47.16851,9.46165, scenario 16:01 inside 16:00–16:59 (code 3, 100% cloud — overcast consistent). Text-prompt-only per note. No people/logos.",
   "sha256_16x9": "a90bb164477367a64fe1766983373f33a95c125c15783b5918167d3eeae730a6",

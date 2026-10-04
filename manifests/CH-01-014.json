@@ -13,6 +13,42 @@
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
   "approval_status": "Approved",
+  "daylight_variant": {
+    "variant_of_entry_id": "CH-01-014",
+    "derived_from": "Text-prompt-only photorealistic daylight plate of the same place. Not image-anchored on the published master. Europe/Zurich was night (Open-Meteo is_day 0 at 2026-10-04T23:00 Europe/Zurich), so this plate has no scenario timestamp and no weather line.",
+    "source_night": {
+      "16x9": {
+        "path": "library/world/Switzerland/Thun/ch-01-014-16x9.png",
+        "sha256": "59f9c817f890846caa0a78e52d3e6901341ae11191761d7a550d3cba734fb46c"
+      },
+      "4x5": {
+        "path": "library/world/Switzerland/Thun/ch-01-014-4x5.png",
+        "sha256": "39b06ce2fda4aead664ff0f71bb4406bc374166e07fa4e9350a748a2fdb61ab6"
+      },
+      "9x16": {
+        "path": "library/world/Switzerland/Thun/ch-01-014-9x16.png",
+        "sha256": "aaf27985ed2f4ec1cef75ce4ee997d6eac13e1b65f2958f06fb6853afb4997d7"
+      },
+      "recorded": "SHA-256 of the published masters immediately before this daylight batch. Post-write hashes are identical; published masters were not rewritten."
+    },
+    "files": {
+      "16x9": "library/world/Switzerland/Thun/ch-01-014-daylight-16x9.png",
+      "4x5": "library/world/Switzerland/Thun/ch-01-014-daylight-4x5.png",
+      "9x16": "library/world/Switzerland/Thun/ch-01-014-daylight-9x16.png"
+    },
+    "sha256": {
+      "16x9": "8552bb8e1fa7841780e88338079325759dae9c968507cf5e2cb1c292fed15ba2",
+      "4x5": "562908ce67466946036d6cb0b25c2c1255c42e17963a494d676411e489f09208",
+      "9x16": "e1788132b8f32f120434e9f80d74f36ca84db9102856e9768debcaaf5fdbe647"
+    },
+    "created_date": "2026-10-04",
+    "on_image_caption": "Thun Castle, Thun",
+    "on_image_signature": "Jason D’s Vision",
+    "on_image_disclosure": "AI-generated artistic interpretation · Not a photograph.",
+    "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
+    "derivative_disclosure": "Daylight companion plate for the gallery daylight control. Text-prompt only. No weather claim. No scenario timestamp on the variant. The scene scenario_label is unchanged and is not a daylight weather assertion.",
+    "note": "Photorealistic daylight plate generated text-prompt-only on 2026-10-04. Not derived by relighting the published master and not image-anchored on it. No live daytime weather reading was available. The plate carries no scenario timestamp and no weather line. Published masters were not rewritten."
+  },
   "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
   "approval_basis": "Open-Meteo retrieval 2026-09-27T16:51:16Z (unique to the second, repo-wide verified, 2026-09-27) — Gate 2 hardened-weather law satisfied. CH-01-014: Thun Castle, Thun. G1: the massive white keep with four corner turrets above the old town rooftops, the Aare and snow peaks behind. G2: dims exact; 'Thun Castle, Thun' / 14:42. G3–G5 clear.",
   "sha256_16x9": "59f9c817f890846caa0a78e52d3e6901341ae11191761d7a550d3cba734fb46c",

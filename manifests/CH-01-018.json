@@ -13,6 +13,42 @@
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
   "approval_status": "Approved",
+  "daylight_variant": {
+    "variant_of_entry_id": "CH-01-018",
+    "derived_from": "Text-prompt-only photorealistic daylight plate of the same place. Not image-anchored on the published master. Europe/Zurich was night (Open-Meteo is_day 0 at 2026-10-04T23:00 Europe/Zurich), so this plate has no scenario timestamp and no weather line.",
+    "source_night": {
+      "16x9": {
+        "path": "library/world/Switzerland/Bettmeralp/ch-01-018-16x9.png",
+        "sha256": "d7bdc0bc29d633c6611858cfe44dddc3ef65c37f716f22456f5de96a62ee2344"
+      },
+      "4x5": {
+        "path": "library/world/Switzerland/Bettmeralp/ch-01-018-4x5.png",
+        "sha256": "9780f95fefdfab4d57e1af519682dd8547518b166e36180c29edd9d71861e9c4"
+      },
+      "9x16": {
+        "path": "library/world/Switzerland/Bettmeralp/ch-01-018-9x16.png",
+        "sha256": "9c6135f24fb6b3a32acfe93be32ebf62d2d69028116ba0a46829d3260c24eb32"
+      },
+      "recorded": "SHA-256 of the published masters immediately before this daylight batch. Post-write hashes are identical; published masters were not rewritten."
+    },
+    "files": {
+      "16x9": "library/world/Switzerland/Bettmeralp/ch-01-018-daylight-16x9.png",
+      "4x5": "library/world/Switzerland/Bettmeralp/ch-01-018-daylight-4x5.png",
+      "9x16": "library/world/Switzerland/Bettmeralp/ch-01-018-daylight-9x16.png"
+    },
+    "sha256": {
+      "16x9": "8266a0336d496bc097ebbb2f2768c754b902e410ee0304fae4a2c73057513461",
+      "4x5": "05e46b99308b5f89204aa4a07a421dd609cba26d8727b99016935dd4c97562ee",
+      "9x16": "62c74d48ad1aeeb383de3857d056cbcd0fd8bd99f79c0197cb5a7178e018be6e"
+    },
+    "created_date": "2026-10-04",
+    "on_image_caption": "Aletsch Glacier, Bettmeralp",
+    "on_image_signature": "Jason D’s Vision",
+    "on_image_disclosure": "AI-generated artistic interpretation · Not a photograph.",
+    "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
+    "derivative_disclosure": "Daylight companion plate for the gallery daylight control. Text-prompt only. No weather claim. No scenario timestamp on the variant. The scene scenario_label is unchanged and is not a daylight weather assertion.",
+    "note": "Photorealistic daylight plate generated text-prompt-only on 2026-10-04. Not derived by relighting the published master and not image-anchored on it. No live daytime weather reading was available. The plate carries no scenario timestamp and no weather line. Published masters were not rewritten."
+  },
   "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
   "approval_basis": "Approved · Cosmo QC 5/5 · Daylight. Gate 1: Great Aletsch Glacier as a long ice stream with dark medial moraine and a broad curve, cloud-shrouded peaks closing the head, rocky Bettmerhorn ridge foreground — recognizable, clean framing. Gate 2: dims verified; on-bar 'Aletsch Glacier, Bettmeralp', 'Scenario: 24 September 2026 · 15:08 Europe/Zurich', disclosure + signature; retrieval 2026-09-27T16:51:22Z unique, 15:08 inside 15:00-15:59, code 3/95%/16.4°C matching flat gray light on the ice. Gate 3: text-prompt-only lineage. Gate 4: no people, no logos. Gate 5: no blockers.",
   "sha256_16x9": "d7bdc0bc29d633c6611858cfe44dddc3ef65c37f716f22456f5de96a62ee2344",

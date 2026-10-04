@@ -13,6 +13,38 @@
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
   "approval_status": "Approved",
+  "daylight_variant": {
+    "variant_of_entry_id": "CH-01-090",
+    "derived_from": "Text-prompt-only photorealistic daylight plate of the same place. Not image-anchored on the published master. Europe/Zurich was night on 4 October 2026, so this plate has no scenario timestamp and no weather line.",
+    "source_night": {
+      "16x9": {
+        "path": "library/world/Switzerland/Morcote/ch-01-090-16x9.png",
+        "sha256": "ab05ea8b18ae8fb66db80e29cd7d985c7ccd4ce75d941545ea1e5132a80d695c"
+      },
+      "4x5": {
+        "path": "library/world/Switzerland/Morcote/ch-01-090-4x5.png",
+        "sha256": "6fcf1b61647ce89958ad54a32442365f25587d7dffa2d1781f388b987f8a1490"
+      },
+      "recorded": "SHA-256 of the published masters immediately before this daylight batch. Post-write hashes are identical; published masters were not rewritten."
+    },
+    "files": {
+      "16x9": "library/world/Switzerland/Morcote/ch-01-090-daylight-16x9.png",
+      "4x5": "library/world/Switzerland/Morcote/ch-01-090-daylight-4x5.png",
+      "9x16": "library/world/Switzerland/Morcote/ch-01-090-daylight-9x16.png"
+    },
+    "sha256": {
+      "16x9": "2325d95288a8b3c98ec87bcba5af2a9294b28030e27373382907f05124644cb6",
+      "4x5": "fccbfcca3a77745869b9eaf7e756fe640b3b0b804501c239dd6b5957f2c1d0af",
+      "9x16": "2762051e56a7bd9fce071ee42f5b1c5b4fe862dc15d7c535b3ddcc03f20a26e6"
+    },
+    "created_date": "2026-10-04",
+    "on_image_caption": "Morcote, Morcote",
+    "on_image_signature": "Jason D’s Vision",
+    "on_image_disclosure": "AI-generated artistic interpretation · Not a photograph.",
+    "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
+    "derivative_disclosure": "Daylight companion plate for the gallery daylight control. Text-prompt only. No weather claim. No scenario timestamp on the variant. The scene scenario_label is unchanged and is not a daylight weather assertion.",
+    "note": "Photorealistic daylight plate generated text-prompt-only on 2026-10-04. Not derived by relighting the published master and not image-anchored on it. No live daytime weather reading was available. The plate carries no scenario timestamp and no weather line. Published masters were not rewritten."
+  },
   "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
   "approval_basis": "Gate 1: Morcote rising from Lake Lugano — arcaded stone houses stepping up the shore, Santa Maria del Sasso with its bell tower on the rocky outcrop above the roofs, tall cypresses, wooded hillside behind; partly cloudy sky consistent with the documented 57% cloud model. Gate 2: exact masters; on-image 'Morcote, Morcote', scenario '24 September 2026 · 16:17 Europe/Zurich', disclosure and curly-apostrophe signature confirmed. Retrieval 2026-09-25T23:40:29Z scene-unique; 16:17 inside the note's 16:00–16:59 model-valid hour. Gate 3: text-prompt-only, no photographic inputs. Gate 4: no people, logos, or readable marks; commercial call Jason's. Gate 5: no blockers.",
   "approved_at": "2026-09-26T04:35:33.398335+00:00",

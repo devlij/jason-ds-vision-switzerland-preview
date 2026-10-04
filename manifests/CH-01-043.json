@@ -13,6 +13,42 @@
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
   "approval_status": "Approved",
+  "daylight_variant": {
+    "variant_of_entry_id": "CH-01-043",
+    "derived_from": "Text-prompt-only photorealistic daylight plate of the same place. Not image-anchored on the published master. Europe/Zurich was night on 4 October 2026, so this plate has no scenario timestamp and no weather line.",
+    "source_night": {
+      "16x9": {
+        "path": "library/world/Switzerland/Stans/ch-01-043-16x9.png",
+        "sha256": "7f5cd2e7c4a86d40536dd9822ce4c2d81d7aa4e1d1a5f6b48aec5ee85ea2bfe7"
+      },
+      "4x5": {
+        "path": "library/world/Switzerland/Stans/ch-01-043-4x5.png",
+        "sha256": "f95385a892427e84db71d59fadaafa8e383851a1488c271d218ed3f87965a05b"
+      },
+      "9x16": {
+        "path": "library/world/Switzerland/Stans/ch-01-043-9x16.png",
+        "sha256": "a299f94b575b37a3231e81cf65cf9ed163f46c4f0eec17d079693c83a579ca06"
+      },
+      "recorded": "SHA-256 of the published masters immediately before this daylight batch. Post-write hashes are identical; published masters were not rewritten."
+    },
+    "files": {
+      "16x9": "library/world/Switzerland/Stans/ch-01-043-daylight-16x9.png",
+      "4x5": "library/world/Switzerland/Stans/ch-01-043-daylight-4x5.png",
+      "9x16": "library/world/Switzerland/Stans/ch-01-043-daylight-9x16.png"
+    },
+    "sha256": {
+      "16x9": "dd91330bb1fe7c2248094bb6d18e7313ad110349ddb24c082ff580f1c3b401c9",
+      "4x5": "9995268e2a1164904f79b74ad167f36e9b8e6ce56490fd2c324678838bd23def",
+      "9x16": "468d1c1cdc099f38004fb12b1175e963ca7e62f56949298f34bed31e1f14c483"
+    },
+    "created_date": "2026-10-04",
+    "on_image_caption": "Stanserhorn, Stans",
+    "on_image_signature": "Jason D’s Vision",
+    "on_image_disclosure": "AI-generated artistic interpretation · Not a photograph.",
+    "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
+    "derivative_disclosure": "Daylight companion plate for the gallery daylight control. Text-prompt only. No weather claim. No scenario timestamp on the variant. The scene scenario_label is unchanged and is not a daylight weather assertion.",
+    "note": "Photorealistic daylight plate generated text-prompt-only on 2026-10-04. Not derived by relighting the published master and not image-anchored on it. No live daytime weather reading was available. The plate carries no scenario timestamp and no weather line. Published masters were not rewritten."
+  },
   "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
   "approval_basis": "Gate 1: conical Stanserhorn over Stans with the baroque parish church and its onion domes in the foreground, overcast - recognizably Stanserhorn, Stans from a plausible tourist viewpoint; clean framing, no artifacts, no glaring misconfiguration. Gate 2: dims exact per sweep (1920x1270 / 864x1080); 190px label bar baked under the photo with exact caption 'Stanserhorn, Stans', scenario '24 September 2026 · 15:28 Europe/Zurich', AI disclosure, 'Jason D\\'s Vision' (curly apostrophe) + 'Jason A. Devlin' script signature; zero text over the photo area. 4:5 master compared against 16:9 for subject-identity agreement. Per-scene Open-Meteo retrieval 2026-09-27T16:53:37Z, unique to the second repo-wide (full 365-note scan 2026-09-29); scenario inside the 15:00-15:59 model-valid hour; model code 3 / cloud 100% matches the overcast frame. Gate 3: text-prompt-only lineage per notes, no photographic inputs reported. Gate 4: no prominent people, focal logos, or private property visible (documented only). Gate 5: no open blockers.",
   "sha256_16x9": "7f5cd2e7c4a86d40536dd9822ce4c2d81d7aa4e1d1a5f6b48aec5ee85ea2bfe7",

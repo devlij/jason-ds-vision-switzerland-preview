@@ -13,6 +13,42 @@
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
   "approval_status": "Approved",
+  "daylight_variant": {
+    "variant_of_entry_id": "CH-01-006",
+    "derived_from": "Text-prompt-only photorealistic daylight plate of the same place. Not image-anchored on the published master. Europe/Zurich was night (Open-Meteo is_day 0 at 2026-10-04T23:00 Europe/Zurich), so this plate has no scenario timestamp and no weather line.",
+    "source_night": {
+      "16x9": {
+        "path": "library/world/Switzerland/Zurich/ch-01-006-16x9.png",
+        "sha256": "3951a5c41839762a4af3ac1b2f3855fc5754388d50ddb0db42ad9b4a62bb0c5e"
+      },
+      "4x5": {
+        "path": "library/world/Switzerland/Zurich/ch-01-006-4x5.png",
+        "sha256": "58c28b432dec6aa0f42d32ebe87bc861ea0e639e8b3c00ffa39d525a55084837"
+      },
+      "9x16": {
+        "path": "library/world/Switzerland/Zurich/ch-01-006-9x16.png",
+        "sha256": "46fbfc28cf8bb5dd6b5098622d7f5e6a47139344c2428a6321c3a6b48198f351"
+      },
+      "recorded": "SHA-256 of the published masters immediately before this daylight batch. Post-write hashes are identical; published masters were not rewritten."
+    },
+    "files": {
+      "16x9": "library/world/Switzerland/Zurich/ch-01-006-daylight-16x9.png",
+      "4x5": "library/world/Switzerland/Zurich/ch-01-006-daylight-4x5.png",
+      "9x16": "library/world/Switzerland/Zurich/ch-01-006-daylight-9x16.png"
+    },
+    "sha256": {
+      "16x9": "9d775d3fbf7c4aee6684a8f2a393de343f8e9498e5ce45970407181797487c70",
+      "4x5": "5180152abf3472eeda481d6312960cf6948964a3af08129235ad6e16da74dc0c",
+      "9x16": "83fc83decdfdfa220aa2b098d9584b28c9c2c66f4f46639cf0b3cb8466304dcf"
+    },
+    "created_date": "2026-10-04",
+    "on_image_caption": "Limmatquai, Zurich",
+    "on_image_signature": "Jason D’s Vision",
+    "on_image_disclosure": "AI-generated artistic interpretation · Not a photograph.",
+    "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
+    "derivative_disclosure": "Daylight companion plate for the gallery daylight control. Text-prompt only. No weather claim. No scenario timestamp on the variant. The scene scenario_label is unchanged and is not a daylight weather assertion.",
+    "note": "Photorealistic daylight plate generated text-prompt-only on 2026-10-04. Not derived by relighting the published master and not image-anchored on it. No live daytime weather reading was available. The plate carries no scenario timestamp and no weather line. Published masters were not rewritten."
+  },
   "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
   "approval_basis": "Open-Meteo retrieval 2026-09-27T16:51:05Z (unique to the second, repo-wide verified, 2026-09-27) — Gate 2 hardened-weather law satisfied. CH-01-006: Limmatquai, Zurich. G1: Limmat riverfront with the Grossmünster's twin towers, historic guild houses along the Limmatquai, bridge at frame edge. G2: dims exact; 'Limmatquai, Zurich' / 14:40. G3–G5 clear.",
   "sha256_16x9": "3951a5c41839762a4af3ac1b2f3855fc5754388d50ddb0db42ad9b4a62bb0c5e",

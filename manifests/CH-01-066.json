@@ -13,6 +13,42 @@
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
   "approval_status": "Approved",
+  "daylight_variant": {
+    "variant_of_entry_id": "CH-01-066",
+    "derived_from": "Text-prompt-only photorealistic daylight plate of the same place. Not image-anchored on the published master. Europe/Zurich was night on 4 October 2026, so this plate has no scenario timestamp and no weather line.",
+    "source_night": {
+      "16x9": {
+        "path": "library/world/Switzerland/Urnäsch/ch-01-066-16x9.png",
+        "sha256": "027d9a4bf88038b6ee93c6c5014d8f8033cd6229a111d976dee2fc974fa615b0"
+      },
+      "4x5": {
+        "path": "library/world/Switzerland/Urnäsch/ch-01-066-4x5.png",
+        "sha256": "c92968ede2cd390957e14b5cd0eaa8f95c68b751d565d2e60a38f4648afd5f74"
+      },
+      "9x16": {
+        "path": "library/world/Switzerland/Urnäsch/ch-01-066-9x16.png",
+        "sha256": "0ca01b0700fbbcf783e135b75c02098aaf513010c0a7f1185d87e950e1c25310"
+      },
+      "recorded": "SHA-256 of the published masters immediately before this daylight batch. Post-write hashes are identical; published masters were not rewritten."
+    },
+    "files": {
+      "16x9": "library/world/Switzerland/Urnäsch/ch-01-066-daylight-16x9.png",
+      "4x5": "library/world/Switzerland/Urnäsch/ch-01-066-daylight-4x5.png",
+      "9x16": "library/world/Switzerland/Urnäsch/ch-01-066-daylight-9x16.png"
+    },
+    "sha256": {
+      "16x9": "56eb82065d268108d504576e435e491d60bbe16738926de40906862968f93f25",
+      "4x5": "fa3c4da2d3b4fb2f4fc56efd170506d46ce476c4b9cdc1ab3e398b2aa2c7e3b1",
+      "9x16": "44773105c3b00ae21ed7aae08af6820bb0c296d49ad221060769e368b2719808"
+    },
+    "created_date": "2026-10-04",
+    "on_image_caption": "Urnäsch, Urnäsch",
+    "on_image_signature": "Jason D’s Vision",
+    "on_image_disclosure": "AI-generated artistic interpretation · Not a photograph.",
+    "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
+    "derivative_disclosure": "Daylight companion plate for the gallery daylight control. Text-prompt only. No weather claim. No scenario timestamp on the variant. The scene scenario_label is unchanged and is not a daylight weather assertion.",
+    "note": "Photorealistic daylight plate generated text-prompt-only on 2026-10-04. Not derived by relighting the published master and not image-anchored on it. No live daytime weather reading was available. The plate carries no scenario timestamp and no weather line. Published masters were not rewritten."
+  },
   "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
   "approval_basis": "Village of dark wooden farmhouses with white church in green rolling pasture, distant hills only (no close Alpstein wall, matching anchor), overcast sky, no people in the square. Label bar verified on-image: \"Urnäsch, Urnäsch\", \"Scenario: 24 September 2026 · 16:00 Europe/Zurich\", disclosure, signature. Weather retrieval 2026-09-27T16:55:41Z unique to the second, separate GET for 47.3167,9.2795, scenario 16:00 inside 16:00–16:59 (code 3, 100% cloud — overcast consistent). Text-prompt-only per note. No people/logos.",
   "sha256_16x9": "027d9a4bf88038b6ee93c6c5014d8f8033cd6229a111d976dee2fc974fa615b0",

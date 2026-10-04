@@ -13,6 +13,42 @@
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
   "approval_status": "Approved",
+  "daylight_variant": {
+    "variant_of_entry_id": "CH-01-038",
+    "derived_from": "Text-prompt-only photorealistic daylight plate of the same place. Not image-anchored on the published master. Europe/Zurich was night on 4 October 2026, so this plate has no scenario timestamp and no weather line.",
+    "source_night": {
+      "16x9": {
+        "path": "library/world/Switzerland/Einsiedeln/ch-01-038-16x9.png",
+        "sha256": "3f7979ba7484fe9bffe4178126976c0b9a4c2fb4855d100fd5b97ee0fb83ad31"
+      },
+      "4x5": {
+        "path": "library/world/Switzerland/Einsiedeln/ch-01-038-4x5.png",
+        "sha256": "990ebfaae55a6fa23cb01a8091bb38c8c453cbd54acef6f01f497e1a3e950e50"
+      },
+      "9x16": {
+        "path": "library/world/Switzerland/Einsiedeln/ch-01-038-9x16.png",
+        "sha256": "a6019d51c28b68c9bf49ff8bff08336d5fc918dd9fe49a9f0de158d5c2b7d22f"
+      },
+      "recorded": "SHA-256 of the published masters immediately before this daylight batch. Post-write hashes are identical; published masters were not rewritten."
+    },
+    "files": {
+      "16x9": "library/world/Switzerland/Einsiedeln/ch-01-038-daylight-16x9.png",
+      "4x5": "library/world/Switzerland/Einsiedeln/ch-01-038-daylight-4x5.png",
+      "9x16": "library/world/Switzerland/Einsiedeln/ch-01-038-daylight-9x16.png"
+    },
+    "sha256": {
+      "16x9": "1754dc43c24af31940dac0beea2ff562d8e544dffdd6b492cd3717760d5ddebb",
+      "4x5": "5f2c6dfdce3a46346e745b5220a4b1c810dd9f254cd121f4b866b15078acda4f",
+      "9x16": "bfa819b7f0da7eb3980937efcd606efe5f78d70608627b74a2d8d4a6b8a42df1"
+    },
+    "created_date": "2026-10-04",
+    "on_image_caption": "Einsiedeln Abbey, Einsiedeln",
+    "on_image_signature": "Jason D’s Vision",
+    "on_image_disclosure": "AI-generated artistic interpretation · Not a photograph.",
+    "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
+    "derivative_disclosure": "Daylight companion plate for the gallery daylight control. Text-prompt only. No weather claim. No scenario timestamp on the variant. The scene scenario_label is unchanged and is not a daylight weather assertion.",
+    "note": "Photorealistic daylight plate generated text-prompt-only on 2026-10-04. Not derived by relighting the published master and not image-anchored on it. No live daytime weather reading was available. The plate carries no scenario timestamp and no weather line. Published masters were not rewritten."
+  },
   "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
   "approval_basis": "Gate 1: baroque west front with twin onion domes seen from Klosterplatz, stone fountain in the foreground, empty square - recognizably Einsiedeln Abbey, Einsiedeln from a plausible tourist viewpoint; clean framing, no artifacts, no glaring misconfiguration. Gate 2: dims exact per sweep (1920x1270 / 864x1080); 190px label bar baked under the photo with exact caption 'Einsiedeln Abbey, Einsiedeln', scenario '24 September 2026 · 15:27 Europe/Zurich', AI disclosure, 'Jason D\\'s Vision' (curly apostrophe) + 'Jason A. Devlin' script signature; zero text over the photo area. 4:5 master compared against 16:9 for subject-identity agreement. Per-scene Open-Meteo retrieval 2026-09-27T16:53:30Z, unique to the second repo-wide (full 365-note scan 2026-09-29); scenario inside the 15:00-15:59 model-valid hour; model code 3 / cloud 97% matches the overcast frame. Gate 3: text-prompt-only lineage per notes, no photographic inputs reported. Gate 4: no prominent people, focal logos, or private property visible (documented only). Gate 5: no open blockers.",
   "sha256_16x9": "3f7979ba7484fe9bffe4178126976c0b9a4c2fb4855d100fd5b97ee0fb83ad31",

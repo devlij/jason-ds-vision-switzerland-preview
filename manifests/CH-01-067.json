@@ -13,6 +13,42 @@
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
   "approval_status": "Approved",
+  "daylight_variant": {
+    "variant_of_entry_id": "CH-01-067",
+    "derived_from": "Text-prompt-only photorealistic daylight plate of the same place. Not image-anchored on the published master. Europe/Zurich was night on 4 October 2026, so this plate has no scenario timestamp and no weather line.",
+    "source_night": {
+      "16x9": {
+        "path": "library/world/Switzerland/Heiden/ch-01-067-16x9.png",
+        "sha256": "7ad9100a9723568f5d7ff1a312f6a3e454017b56b38e028d4837b5e68fe21420"
+      },
+      "4x5": {
+        "path": "library/world/Switzerland/Heiden/ch-01-067-4x5.png",
+        "sha256": "ddfce249d44023580aa9ba871b8e0f1d6097d202b4be4ce32d63f3eda62dab06"
+      },
+      "9x16": {
+        "path": "library/world/Switzerland/Heiden/ch-01-067-9x16.png",
+        "sha256": "d895f1f29a91c30c79f6172c87c4c970018deacdf182b9d783ff24fe0c7e855f"
+      },
+      "recorded": "SHA-256 of the published masters immediately before this daylight batch. Post-write hashes are identical; published masters were not rewritten."
+    },
+    "files": {
+      "16x9": "library/world/Switzerland/Heiden/ch-01-067-daylight-16x9.png",
+      "4x5": "library/world/Switzerland/Heiden/ch-01-067-daylight-4x5.png",
+      "9x16": "library/world/Switzerland/Heiden/ch-01-067-daylight-9x16.png"
+    },
+    "sha256": {
+      "16x9": "2c546ab931db0e200ee8475f6967ecfc69c3ff6f3ddd2b35084997d557146317",
+      "4x5": "47e18007178930ed31af278edcc36807d92b03f7ac60c2b5057035d0f116f5d0",
+      "9x16": "36153ae1efd243ab0c253d7973ce4a5114bc4af1ee935068c8beb7bd73773211"
+    },
+    "created_date": "2026-10-04",
+    "on_image_caption": "Heiden, Heiden",
+    "on_image_signature": "Jason D’s Vision",
+    "on_image_disclosure": "AI-generated artistic interpretation · Not a photograph.",
+    "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
+    "derivative_disclosure": "Daylight companion plate for the gallery daylight control. Text-prompt only. No weather claim. No scenario timestamp on the variant. The scene scenario_label is unchanged and is not a daylight weather assertion.",
+    "note": "Photorealistic daylight plate generated text-prompt-only on 2026-10-04. Not derived by relighting the published master and not image-anchored on it. No live daytime weather reading was available. The plate carries no scenario timestamp and no weather line. Published masters were not rewritten."
+  },
   "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
   "approval_basis": "Church and village roofs on a high terrace with land dropping to Lake Constance and the far shore, no emblem or portrait monument as subject, overcast sky. Label bar verified on-image: \"Heiden, Heiden\", \"Scenario: 24 September 2026 · 16:00 Europe/Zurich\", disclosure, signature. Weather retrieval 2026-09-27T16:55:43Z unique to the second, separate GET for 47.44415,9.53565, scenario 16:00 inside 16:00–16:59 (code 3, 100% cloud — overcast consistent). Text-prompt-only per note. No people/logos.",
   "sha256_16x9": "7ad9100a9723568f5d7ff1a312f6a3e454017b56b38e028d4837b5e68fe21420",

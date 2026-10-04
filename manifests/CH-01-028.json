@@ -13,6 +13,42 @@
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
   "approval_status": "Approved",
+  "daylight_variant": {
+    "variant_of_entry_id": "CH-01-028",
+    "derived_from": "Text-prompt-only photorealistic daylight plate of the same place. Not image-anchored on the published master. Europe/Zurich was night (Open-Meteo is_day 0 at 2026-10-04T23:00 Europe/Zurich), so this plate has no scenario timestamp and no weather line.",
+    "source_night": {
+      "16x9": {
+        "path": "library/world/Switzerland/Rapperswil/ch-01-028-16x9.png",
+        "sha256": "16e26a7b9da08b1b39e5df97e25b8f43bc59d1adbbd3381f78c86c472608d92a"
+      },
+      "4x5": {
+        "path": "library/world/Switzerland/Rapperswil/ch-01-028-4x5.png",
+        "sha256": "2e95b106d7149756cb2ef62925f2069a8136a83d96ad249016b81f5b1d361bf4"
+      },
+      "9x16": {
+        "path": "library/world/Switzerland/Rapperswil/ch-01-028-9x16.png",
+        "sha256": "8f9d625a564afd6726fc5573beb58b9ddbfc56691098f556fd8b5fbc95332958"
+      },
+      "recorded": "SHA-256 of the published masters immediately before this daylight batch. Post-write hashes are identical; published masters were not rewritten."
+    },
+    "files": {
+      "16x9": "library/world/Switzerland/Rapperswil/ch-01-028-daylight-16x9.png",
+      "4x5": "library/world/Switzerland/Rapperswil/ch-01-028-daylight-4x5.png",
+      "9x16": "library/world/Switzerland/Rapperswil/ch-01-028-daylight-9x16.png"
+    },
+    "sha256": {
+      "16x9": "1dde1b9571e8b7d0c11ce56844658ec72928c120e5e8d866a9db6f4ab055260d",
+      "4x5": "19c7d7803ab43d8737ae2308728aa3bdc6a60e89c961e437ac54e492bac2e27c",
+      "9x16": "a0f8a895c90ee85f64739cb6a8ea69a65699d2da157e63e849fe2135947d6aa9"
+    },
+    "created_date": "2026-10-04",
+    "on_image_caption": "Rapperswil Castle, Rapperswil",
+    "on_image_signature": "Jason D’s Vision",
+    "on_image_disclosure": "AI-generated artistic interpretation · Not a photograph.",
+    "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
+    "derivative_disclosure": "Daylight companion plate for the gallery daylight control. Text-prompt only. No weather claim. No scenario timestamp on the variant. The scene scenario_label is unchanged and is not a daylight weather assertion.",
+    "note": "Photorealistic daylight plate generated text-prompt-only on 2026-10-04. Not derived by relighting the published master and not image-anchored on it. No live daytime weather reading was available. The plate carries no scenario timestamp and no weather line. Published masters were not rewritten."
+  },
   "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
   "approval_basis": "Approved · Cosmo QC 5/5 · Daylight. Gate 1: Rapperswil Castle with three towers on the rocky promontory, St. John's church spire, old town houses, Lake Zurich with the wooden footbridge — correct identity; clean framing. Gate 2: dims verified; on-bar 'Rapperswil Castle, Rapperswil', 'Scenario: 24 September 2026 · 15:09 Europe/Zurich', disclosure + signature; retrieval 2026-09-27T16:51:35Z unique, 15:09 inside 15:00-15:59, code 3/97%/22.8°C. Gate 3: text-prompt-only lineage. Gate 4: no identifiable people, no logos. Gate 5: no blockers.",
   "sha256_16x9": "16e26a7b9da08b1b39e5df97e25b8f43bc59d1adbbd3381f78c86c472608d92a",

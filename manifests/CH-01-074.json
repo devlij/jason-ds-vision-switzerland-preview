@@ -13,6 +13,42 @@
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
   "approval_status": "Approved",
+  "daylight_variant": {
+    "variant_of_entry_id": "CH-01-074",
+    "derived_from": "Text-prompt-only photorealistic daylight plate of the same place. Not image-anchored on the published master. Europe/Zurich was night on 4 October 2026, so this plate has no scenario timestamp and no weather line.",
+    "source_night": {
+      "16x9": {
+        "path": "library/world/Switzerland/Steckborn/ch-01-074-16x9.png",
+        "sha256": "8beb1659bd79ba7bb6fc078dfba7cc9898035879c5385f22485998be7668db32"
+      },
+      "4x5": {
+        "path": "library/world/Switzerland/Steckborn/ch-01-074-4x5.png",
+        "sha256": "6dcdc37889f5e6f399249eb0afbedf5fc5cd60d1b443e8c33b77f98a9e3c782f"
+      },
+      "9x16": {
+        "path": "library/world/Switzerland/Steckborn/ch-01-074-9x16.png",
+        "sha256": "55c3a98eadb1d468da3c63f0ee6269672824ebf5e174643917b014436d3c84d4"
+      },
+      "recorded": "SHA-256 of the published masters immediately before this daylight batch. Post-write hashes are identical; published masters were not rewritten."
+    },
+    "files": {
+      "16x9": "library/world/Switzerland/Steckborn/ch-01-074-daylight-16x9.png",
+      "4x5": "library/world/Switzerland/Steckborn/ch-01-074-daylight-4x5.png",
+      "9x16": "library/world/Switzerland/Steckborn/ch-01-074-daylight-9x16.png"
+    },
+    "sha256": {
+      "16x9": "de2f25a51f1c933f7d50b82183d5c4ec47b9ea6c7e57d424d0fdb1afce395f54",
+      "4x5": "bd10a9672b09470c82f36ec8b65606f1303f299733283bd855b6e3acfecdd235",
+      "9x16": "12fd8ba40f7e9786e8f4121b892e86e45f0a74b4994d3f40b93aea47cac3d914"
+    },
+    "created_date": "2026-10-04",
+    "on_image_caption": "Steckborn, Steckborn",
+    "on_image_signature": "Jason D’s Vision",
+    "on_image_disclosure": "AI-generated artistic interpretation · Not a photograph.",
+    "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
+    "derivative_disclosure": "Daylight companion plate for the gallery daylight control. Text-prompt only. No weather claim. No scenario timestamp on the variant. The scene scenario_label is unchanged and is not a daylight weather assertion.",
+    "note": "Photorealistic daylight plate generated text-prompt-only on 2026-10-04. Not derived by relighting the published master and not image-anchored on it. No live daytime weather reading was available. The plate carries no scenario timestamp and no weather line. Published masters were not rewritten."
+  },
   "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
   "approval_basis": "The Turmhof — medieval tower house with round stair turret and baroque roof cap — stands directly on the Untersee beside half-timbered houses along the promenade, low far shore, overcast sky. Label bar verified on-image: \"Steckborn, Steckborn\", \"Scenario: 24 September 2026 · 16:01 Europe/Zurich\", disclosure, signature. 9:16 crop spot-checked: same turret, roof cap, half-timbered house (inter-format subject agreement). Weather retrieval 2026-09-27T16:55:52Z unique to the second, separate GET for 47.66895,8.98286, scenario 16:01 inside 16:00–16:59 (code 3, 99% cloud — overcast consistent). Text-prompt-only per note. No people/logos.",
   "sha256_16x9": "8beb1659bd79ba7bb6fc078dfba7cc9898035879c5385f22485998be7668db32",

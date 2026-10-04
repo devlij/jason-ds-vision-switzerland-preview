@@ -13,6 +13,42 @@
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
   "approval_status": "Approved",
+  "daylight_variant": {
+    "variant_of_entry_id": "CH-01-013",
+    "derived_from": "Text-prompt-only photorealistic daylight plate of the same place. Not image-anchored on the published master. Europe/Zurich was night (Open-Meteo is_day 0 at 2026-10-04T23:00 Europe/Zurich), so this plate has no scenario timestamp and no weather line.",
+    "source_night": {
+      "16x9": {
+        "path": "library/world/Switzerland/Basel/ch-01-013-16x9.png",
+        "sha256": "2ff26ab9f79f6693b005fbb802140d75f18111f8e68be075873521772f47fa09"
+      },
+      "4x5": {
+        "path": "library/world/Switzerland/Basel/ch-01-013-4x5.png",
+        "sha256": "7d68677965f7f64118228c4b669fc06259d1f93a2834de6a3623cf34b8e4dc03"
+      },
+      "9x16": {
+        "path": "library/world/Switzerland/Basel/ch-01-013-9x16.png",
+        "sha256": "3dd17e32d55e92f81a23d75c6b6e454a80c9090c478782423c09ffba224847d3"
+      },
+      "recorded": "SHA-256 of the published masters immediately before this daylight batch. Post-write hashes are identical; published masters were not rewritten."
+    },
+    "files": {
+      "16x9": "library/world/Switzerland/Basel/ch-01-013-daylight-16x9.png",
+      "4x5": "library/world/Switzerland/Basel/ch-01-013-daylight-4x5.png",
+      "9x16": "library/world/Switzerland/Basel/ch-01-013-daylight-9x16.png"
+    },
+    "sha256": {
+      "16x9": "a19137d10fd4b042e8f68a0e22b6f43fba766a81286de80f004f028eea792067",
+      "4x5": "7c4c1101773ea078ccd84b902cca749d9c512773561c11227039041f9a9d955c",
+      "9x16": "e2321d8712d5796702fbfc789b2190de1b1239ec8c4afcfdd96c95e29dbc89e8"
+    },
+    "created_date": "2026-10-04",
+    "on_image_caption": "Mittlere Brücke, Basel",
+    "on_image_signature": "Jason D’s Vision",
+    "on_image_disclosure": "AI-generated artistic interpretation · Not a photograph.",
+    "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
+    "derivative_disclosure": "Daylight companion plate for the gallery daylight control. Text-prompt only. No weather claim. No scenario timestamp on the variant. The scene scenario_label is unchanged and is not a daylight weather assertion.",
+    "note": "Photorealistic daylight plate generated text-prompt-only on 2026-10-04. Not derived by relighting the published master and not image-anchored on it. No live daytime weather reading was available. The plate carries no scenario timestamp and no weather line. Published masters were not rewritten."
+  },
   "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
   "approval_basis": "Open-Meteo retrieval 2026-09-27T16:51:15Z (unique to the second, repo-wide verified, 2026-09-27) — Gate 2 hardened-weather law satisfied. CH-01-013: Mittlere Brücke, Basel. G1: the stone bridge over the Rhine with the Basel Minster's red-sandstone twin spires and green copper roof beyond. G2: dims exact; 'Mittlere Brücke, Basel' / '24 September 2026 · 14:41 Europe/Zurich'. G3–G5 clear.",
   "sha256_16x9": "2ff26ab9f79f6693b005fbb802140d75f18111f8e68be075873521772f47fa09",

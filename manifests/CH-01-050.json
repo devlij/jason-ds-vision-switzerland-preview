@@ -13,6 +13,42 @@
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
   "approval_status": "Approved",
+  "daylight_variant": {
+    "variant_of_entry_id": "CH-01-050",
+    "derived_from": "Text-prompt-only photorealistic daylight plate of the same place. Not image-anchored on the published master. Europe/Zurich was night on 4 October 2026, so this plate has no scenario timestamp and no weather line.",
+    "source_night": {
+      "16x9": {
+        "path": "library/world/Switzerland/Augst/ch-01-050-16x9.png",
+        "sha256": "dfbec44c74ec91638afeb9d3f95576ed8af88f83f8b7e107eb89ce853951d83e"
+      },
+      "4x5": {
+        "path": "library/world/Switzerland/Augst/ch-01-050-4x5.png",
+        "sha256": "b345dbc87e3c28448afea4efea366b7710162b3e3b3dcf187fe8a3ea3f54d1cc"
+      },
+      "9x16": {
+        "path": "library/world/Switzerland/Augst/ch-01-050-9x16.png",
+        "sha256": "4e6b6b1e58990d173e33635d8457dff2c29e8cd9b1651a1dc2b2e417a30c6442"
+      },
+      "recorded": "SHA-256 of the published masters immediately before this daylight batch. Post-write hashes are identical; published masters were not rewritten."
+    },
+    "files": {
+      "16x9": "library/world/Switzerland/Augst/ch-01-050-daylight-16x9.png",
+      "4x5": "library/world/Switzerland/Augst/ch-01-050-daylight-4x5.png",
+      "9x16": "library/world/Switzerland/Augst/ch-01-050-daylight-9x16.png"
+    },
+    "sha256": {
+      "16x9": "894b3911ee45071494ed4cdc2b9ea5b75fb93e57e059a38f4e286ebde5fa5844",
+      "4x5": "eb818b374eb62891b5dc52d5a80894cede3d74d1334cfa437240b14ad2460ae2",
+      "9x16": "07d7b41b036ef523136eb6071c8f083706a07a2406ac92e397e6f8a2c3d1db6d"
+    },
+    "created_date": "2026-10-04",
+    "on_image_caption": "Augusta Raurica, Augst",
+    "on_image_signature": "Jason D’s Vision",
+    "on_image_disclosure": "AI-generated artistic interpretation · Not a photograph.",
+    "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
+    "derivative_disclosure": "Daylight companion plate for the gallery daylight control. Text-prompt only. No weather claim. No scenario timestamp on the variant. The scene scenario_label is unchanged and is not a daylight weather assertion.",
+    "note": "Photorealistic daylight plate generated text-prompt-only on 2026-10-04. Not derived by relighting the published master and not image-anchored on it. No live daytime weather reading was available. The plate carries no scenario timestamp and no weather line. Published masters were not rewritten."
+  },
   "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
   "approval_basis": "theatre cavea and stage ruins render cleanly with no anachronisms; label bar exact; per-scene retrieval 2026-09-27T16:53:46Z unique; Art. 50 chunks present, 2026-09-27.",
   "sha256_16x9": "dfbec44c74ec91638afeb9d3f95576ed8af88f83f8b7e107eb89ce853951d83e",

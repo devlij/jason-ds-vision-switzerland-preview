@@ -13,6 +13,42 @@
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
   "approval_status": "Approved",
+  "daylight_variant": {
+    "variant_of_entry_id": "CH-01-053",
+    "derived_from": "Text-prompt-only photorealistic daylight plate of the same place. Not image-anchored on the published master. Europe/Zurich was night on 4 October 2026, so this plate has no scenario timestamp and no weather line.",
+    "source_night": {
+      "16x9": {
+        "path": "library/world/Switzerland/Wasserauen/ch-01-053-16x9.png",
+        "sha256": "014f1e4471ea65258b6bace7ae50f2d9a975933669a4c685e0a93b7db9aa38c0"
+      },
+      "4x5": {
+        "path": "library/world/Switzerland/Wasserauen/ch-01-053-4x5.png",
+        "sha256": "744515e63fd6243980af75ee3cab150cf7fe7661ccb9edd19c22ed445182aea0"
+      },
+      "9x16": {
+        "path": "library/world/Switzerland/Wasserauen/ch-01-053-9x16.png",
+        "sha256": "1a36f644edca363bde5b957feb63b6f79144c14fcc6c81c440d2deda4e265c89"
+      },
+      "recorded": "SHA-256 of the published masters immediately before this daylight batch. Post-write hashes are identical; published masters were not rewritten."
+    },
+    "files": {
+      "16x9": "library/world/Switzerland/Wasserauen/ch-01-053-daylight-16x9.png",
+      "4x5": "library/world/Switzerland/Wasserauen/ch-01-053-daylight-4x5.png",
+      "9x16": "library/world/Switzerland/Wasserauen/ch-01-053-daylight-9x16.png"
+    },
+    "sha256": {
+      "16x9": "80dba7e3d136f391416a16970816cec075cbce7df2ba381d0de669aa422b9f61",
+      "4x5": "56405677ed9a3cdd7719080f43c0efce3c3df87e6ab97ced20672783f0cd0a9a",
+      "9x16": "011072074742a02a55a2d3eb295b4ddbb7015bae200a0a341111452acac1fcbc"
+    },
+    "created_date": "2026-10-04",
+    "on_image_caption": "Seealpsee, Wasserauen",
+    "on_image_signature": "Jason D’s Vision",
+    "on_image_disclosure": "AI-generated artistic interpretation · Not a photograph.",
+    "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
+    "derivative_disclosure": "Daylight companion plate for the gallery daylight control. Text-prompt only. No weather claim. No scenario timestamp on the variant. The scene scenario_label is unchanged and is not a daylight weather assertion.",
+    "note": "Photorealistic daylight plate generated text-prompt-only on 2026-10-04. Not derived by relighting the published master and not image-anchored on it. No live daytime weather reading was available. The plate carries no scenario timestamp and no weather line. Published masters were not rewritten."
+  },
   "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
   "approval_basis": "lake, limestone walls and cloud cap compose the classic Seealpsee frame cleanly; label bar exact; per-scene retrieval 2026-09-27T16:53:50Z unique; Art. 50 chunks present, 2026-09-27.",
   "sha256_16x9": "014f1e4471ea65258b6bace7ae50f2d9a975933669a4c685e0a93b7db9aa38c0",

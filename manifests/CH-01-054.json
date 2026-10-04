@@ -13,6 +13,42 @@
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
   "approval_status": "Approved",
+  "daylight_variant": {
+    "variant_of_entry_id": "CH-01-054",
+    "derived_from": "Text-prompt-only photorealistic daylight plate of the same place. Not image-anchored on the published master. Europe/Zurich was night on 4 October 2026, so this plate has no scenario timestamp and no weather line.",
+    "source_night": {
+      "16x9": {
+        "path": "library/world/Switzerland/Schwägalp/ch-01-054-16x9.png",
+        "sha256": "dedcba4bd6ca3896d1abdffc094f4286e8b5a53f9efe965e2f560f57ae28ef72"
+      },
+      "4x5": {
+        "path": "library/world/Switzerland/Schwägalp/ch-01-054-4x5.png",
+        "sha256": "a26d1614768a9f27f52a7b53c02be13b92da2aaf37a3e4d66955f911e86fa94f"
+      },
+      "9x16": {
+        "path": "library/world/Switzerland/Schwägalp/ch-01-054-9x16.png",
+        "sha256": "a8f1d3c2361dda8b7f3b11a8deb62f6e2d2137466fbabecfc545c3c417ec9691"
+      },
+      "recorded": "SHA-256 of the published masters immediately before this daylight batch. Post-write hashes are identical; published masters were not rewritten."
+    },
+    "files": {
+      "16x9": "library/world/Switzerland/Schwägalp/ch-01-054-daylight-16x9.png",
+      "4x5": "library/world/Switzerland/Schwägalp/ch-01-054-daylight-4x5.png",
+      "9x16": "library/world/Switzerland/Schwägalp/ch-01-054-daylight-9x16.png"
+    },
+    "sha256": {
+      "16x9": "447228c0755b566fe305b08d96e5dad1e2a399e76ae39f8651c8a4fe7f64f507",
+      "4x5": "91c830f884dd1519b1d945c46ddeff5f81f5a5c84dcee97c5ca7718c7b6e6377",
+      "9x16": "23582e0de725c3abb1f581fb798b63bb603925685c222b1c7e891386706c0417"
+    },
+    "created_date": "2026-10-04",
+    "on_image_caption": "Säntis, Schwägalp",
+    "on_image_signature": "Jason D’s Vision",
+    "on_image_disclosure": "AI-generated artistic interpretation · Not a photograph.",
+    "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
+    "derivative_disclosure": "Daylight companion plate for the gallery daylight control. Text-prompt only. No weather claim. No scenario timestamp on the variant. The scene scenario_label is unchanged and is not a daylight weather assertion.",
+    "note": "Photorealistic daylight plate generated text-prompt-only on 2026-10-04. Not derived by relighting the published master and not image-anchored on it. No live daytime weather reading was available. The plate carries no scenario timestamp and no weather line. Published masters were not rewritten."
+  },
   "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
   "approval_basis": "the cloud-wreathed limestone summit reads as Säntis with clean framing; label bar exact; per-scene retrieval 2026-09-27T16:53:52Z unique; Art. 50 chunks present, 2026-09-27.",
   "sha256_16x9": "dedcba4bd6ca3896d1abdffc094f4286e8b5a53f9efe965e2f560f57ae28ef72",

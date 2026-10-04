@@ -13,6 +13,42 @@
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
   "approval_status": "Approved",
+  "daylight_variant": {
+    "variant_of_entry_id": "CH-01-029",
+    "derived_from": "Text-prompt-only photorealistic daylight plate of the same place. Not image-anchored on the published master. Europe/Zurich was night (Open-Meteo is_day 0 at 2026-10-04T23:00 Europe/Zurich), so this plate has no scenario timestamp and no weather line.",
+    "source_night": {
+      "16x9": {
+        "path": "library/world/Switzerland/Geneva/ch-01-029-16x9.png",
+        "sha256": "9854505425797ab79a7742e88b43bbe9bf8e2faef75badd1c5415a33048fd682"
+      },
+      "4x5": {
+        "path": "library/world/Switzerland/Geneva/ch-01-029-4x5.png",
+        "sha256": "d7aae3e39df5d00eb823e1ede0812ffc8c9d4fb54dc3a81063919430d87b1c83"
+      },
+      "9x16": {
+        "path": "library/world/Switzerland/Geneva/ch-01-029-9x16.png",
+        "sha256": "ffc50533c454c202dc309570c7805c3b46dcc9b1921ad045b7098ea7d011b37e"
+      },
+      "recorded": "SHA-256 of the published masters immediately before this daylight batch. Post-write hashes are identical; published masters were not rewritten."
+    },
+    "files": {
+      "16x9": "library/world/Switzerland/Geneva/ch-01-029-daylight-16x9.png",
+      "4x5": "library/world/Switzerland/Geneva/ch-01-029-daylight-4x5.png",
+      "9x16": "library/world/Switzerland/Geneva/ch-01-029-daylight-9x16.png"
+    },
+    "sha256": {
+      "16x9": "eb786bd92b66baa03058fae9a5723656d8acd0f959db55b7301ab7491a082be7",
+      "4x5": "71f46627196b28dbb48652f301c295bb198dc8ae4dd3439c08f7155f5a05e3a9",
+      "9x16": "2dfc7b14eb3bbf5ae9b952cff4e284509cb90ca0ba5fe26e2a57c2dbb3cdbad3"
+    },
+    "created_date": "2026-10-04",
+    "on_image_caption": "St. Pierre Cathedral, Geneva",
+    "on_image_signature": "Jason D’s Vision",
+    "on_image_disclosure": "AI-generated artistic interpretation · Not a photograph.",
+    "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
+    "derivative_disclosure": "Daylight companion plate for the gallery daylight control. Text-prompt only. No weather claim. No scenario timestamp on the variant. The scene scenario_label is unchanged and is not a daylight weather assertion.",
+    "note": "Photorealistic daylight plate generated text-prompt-only on 2026-10-04. Not derived by relighting the published master and not image-anchored on it. No live daytime weather reading was available. The plate carries no scenario timestamp and no weather line. Published masters were not rewritten."
+  },
   "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
   "approval_basis": "Approved · Cosmo QC 5/5 · Daylight. Gate 1: St. Pierre Cathedral with its neo-classical columned portico and Gothic north tower with spire, Geneva old town around it — correct identity; clean framing. Gate 2: dims verified; on-bar 'St. Pierre Cathedral, Geneva', 'Scenario: 24 September 2026 · 15:09 Europe/Zurich', disclosure + signature; retrieval 2026-09-27T16:53:17Z unique, 15:09 inside 15:00-15:59, code 3/99%/25.1°C. Gate 3: text-prompt-only lineage. Gate 4: no people, no logos. Gate 5: no blockers.",
   "sha256_16x9": "9854505425797ab79a7742e88b43bbe9bf8e2faef75badd1c5415a33048fd682",

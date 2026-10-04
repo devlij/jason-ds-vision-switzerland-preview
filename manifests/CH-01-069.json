@@ -13,6 +13,42 @@
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
   "approval_status": "Approved",
+  "daylight_variant": {
+    "variant_of_entry_id": "CH-01-069",
+    "derived_from": "Text-prompt-only photorealistic daylight plate of the same place. Not image-anchored on the published master. Europe/Zurich was night on 4 October 2026, so this plate has no scenario timestamp and no weather line.",
+    "source_night": {
+      "16x9": {
+        "path": "library/world/Switzerland/Aarau/ch-01-069-16x9.png",
+        "sha256": "33729b2c42f61d48fc34ee69c3d021d1a7b24622de573ce94ceaa71cb775e4e4"
+      },
+      "4x5": {
+        "path": "library/world/Switzerland/Aarau/ch-01-069-4x5.png",
+        "sha256": "b4f3980d9f29704748ae4d234e50f0b4ef5d7afb1118f539646e4a052b1f2033"
+      },
+      "9x16": {
+        "path": "library/world/Switzerland/Aarau/ch-01-069-9x16.png",
+        "sha256": "b9664b4143c356b69b25e8ecb7348ef4afa93bcaf66055ff1c89169f5fe9b536"
+      },
+      "recorded": "SHA-256 of the published masters immediately before this daylight batch. Post-write hashes are identical; published masters were not rewritten."
+    },
+    "files": {
+      "16x9": "library/world/Switzerland/Aarau/ch-01-069-daylight-16x9.png",
+      "4x5": "library/world/Switzerland/Aarau/ch-01-069-daylight-4x5.png",
+      "9x16": "library/world/Switzerland/Aarau/ch-01-069-daylight-9x16.png"
+    },
+    "sha256": {
+      "16x9": "4c7cd0be7291416b95278aaf46db6d8cb01428629ae4092b6887c8f6edaccda6",
+      "4x5": "c8a2e697330473bfb1175573b515bb78ddd0870b3ec3c512558e13ba362057fd",
+      "9x16": "9fe99ed9638e1efb89de1c498ce3dac52bf96597691d1990dccaae6e51cbe0d4"
+    },
+    "created_date": "2026-10-04",
+    "on_image_caption": "Aarau Old Town, Aarau",
+    "on_image_signature": "Jason D’s Vision",
+    "on_image_disclosure": "AI-generated artistic interpretation · Not a photograph.",
+    "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
+    "derivative_disclosure": "Daylight companion plate for the gallery daylight control. Text-prompt only. No weather claim. No scenario timestamp on the variant. The scene scenario_label is unchanged and is not a daylight weather assertion.",
+    "note": "Photorealistic daylight plate generated text-prompt-only on 2026-10-04. Not derived by relighting the published master and not image-anchored on it. No live daytime weather reading was available. The plate carries no scenario timestamp and no weather line. Published masters were not rewritten."
+  },
   "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
   "approval_basis": "Narrow old-town street with wide painted eaves/frescoes carrying no legible lettering (per anchor), leading to the stone Oberer Turm with steep pyramidal roof, overcast sky. Label bar verified on-image: \"Aarau Old Town, Aarau\", \"Scenario: 24 September 2026 · 16:01 Europe/Zurich\", disclosure, signature. 4:5 crop spot-checked: same tower and frescoed eaves (inter-format subject agreement). Weather retrieval 2026-09-27T16:55:45Z unique to the second, separate GET for 47.3925,8.0442, scenario 16:01 inside 16:00–16:59 (code 3, 100% cloud — overcast consistent). Text-prompt-only per note. No people/logos.",
   "sha256_16x9": "33729b2c42f61d48fc34ee69c3d021d1a7b24622de573ce94ceaa71cb775e4e4",

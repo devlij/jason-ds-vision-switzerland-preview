@@ -13,6 +13,42 @@
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
   "approval_status": "Approved",
+  "daylight_variant": {
+    "variant_of_entry_id": "CH-01-070",
+    "derived_from": "Text-prompt-only photorealistic daylight plate of the same place. Not image-anchored on the published master. Europe/Zurich was night on 4 October 2026, so this plate has no scenario timestamp and no weather line.",
+    "source_night": {
+      "16x9": {
+        "path": "library/world/Switzerland/Lenzburg/ch-01-070-16x9.png",
+        "sha256": "475d04ca7553eeeafd704eb7ff528bc20d2f1fe1c2a25bd7da6bfd4a0f2b21d2"
+      },
+      "4x5": {
+        "path": "library/world/Switzerland/Lenzburg/ch-01-070-4x5.png",
+        "sha256": "be999cb274049b2dd8c5505aa6690fed4b404ac2e626342edd91220d8e74178f"
+      },
+      "9x16": {
+        "path": "library/world/Switzerland/Lenzburg/ch-01-070-9x16.png",
+        "sha256": "e15487cc1239a40532abd89f14fdf25417def6fad31309d949c261664a13f3fd"
+      },
+      "recorded": "SHA-256 of the published masters immediately before this daylight batch. Post-write hashes are identical; published masters were not rewritten."
+    },
+    "files": {
+      "16x9": "library/world/Switzerland/Lenzburg/ch-01-070-daylight-16x9.png",
+      "4x5": "library/world/Switzerland/Lenzburg/ch-01-070-daylight-4x5.png",
+      "9x16": "library/world/Switzerland/Lenzburg/ch-01-070-daylight-9x16.png"
+    },
+    "sha256": {
+      "16x9": "bcbfa746116ff4c0fe7423cebf318791ffb9f993020f75beab440fb18b803d5e",
+      "4x5": "abd351329519134629abe210fdb606fb405da942561c3457e41d106a6b45a12a",
+      "9x16": "fd6790fb9d7321475f8a8b17c9ce1e47f0156e5758afd089da1762061e6bdebe"
+    },
+    "created_date": "2026-10-04",
+    "on_image_caption": "Lenzburg Castle, Lenzburg",
+    "on_image_signature": "Jason D’s Vision",
+    "on_image_disclosure": "AI-generated artistic interpretation · Not a photograph.",
+    "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
+    "derivative_disclosure": "Daylight companion plate for the gallery daylight control. Text-prompt only. No weather claim. No scenario timestamp on the variant. The scene scenario_label is unchanged and is not a daylight weather assertion.",
+    "note": "Photorealistic daylight plate generated text-prompt-only on 2026-10-04. Not derived by relighting the published master and not image-anchored on it. No live daytime weather reading was available. The plate carries no scenario timestamp and no weather line. Published masters were not rewritten."
+  },
   "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
   "approval_basis": "Horseshoe of castle buildings with towers covers the wooded molasse hilltop, old-town roofs far below, no construction crane, overcast sky. Label bar verified on-image: \"Lenzburg Castle, Lenzburg\", \"Scenario: 24 September 2026 · 16:01 Europe/Zurich\", disclosure, signature. Weather retrieval 2026-09-27T16:55:47Z unique to the second, separate GET for 47.38738,8.18548, scenario 16:01 inside 16:00–16:59 (code 3, 100% cloud — overcast consistent). Text-prompt-only per note. No people/logos.",
   "sha256_16x9": "475d04ca7553eeeafd704eb7ff528bc20d2f1fe1c2a25bd7da6bfd4a0f2b21d2",

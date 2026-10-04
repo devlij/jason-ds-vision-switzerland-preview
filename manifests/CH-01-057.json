@@ -13,6 +13,42 @@
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
   "approval_status": "Approved",
+  "daylight_variant": {
+    "variant_of_entry_id": "CH-01-057",
+    "derived_from": "Text-prompt-only photorealistic daylight plate of the same place. Not image-anchored on the published master. Europe/Zurich was night on 4 October 2026, so this plate has no scenario timestamp and no weather line.",
+    "source_night": {
+      "16x9": {
+        "path": "library/world/Switzerland/Chur/ch-01-057-16x9.png",
+        "sha256": "e548347454667451dacba7fca0db382feacd67f26ca6696dbbc8286e88681b2f"
+      },
+      "4x5": {
+        "path": "library/world/Switzerland/Chur/ch-01-057-4x5.png",
+        "sha256": "feee278913796433327ae99f819d29e4010798e7e0dda786f1cd1fc749268cda"
+      },
+      "9x16": {
+        "path": "library/world/Switzerland/Chur/ch-01-057-9x16.png",
+        "sha256": "e2b33a37af6dfbe12480bfddbfb4ec3d427404b3cec5eed22c1561b4a77a396d"
+      },
+      "recorded": "SHA-256 of the published masters immediately before this daylight batch. Post-write hashes are identical; published masters were not rewritten."
+    },
+    "files": {
+      "16x9": "library/world/Switzerland/Chur/ch-01-057-daylight-16x9.png",
+      "4x5": "library/world/Switzerland/Chur/ch-01-057-daylight-4x5.png",
+      "9x16": "library/world/Switzerland/Chur/ch-01-057-daylight-9x16.png"
+    },
+    "sha256": {
+      "16x9": "d1de898f7cc1f63fe68f4eb3b215f5dd138bc800313160252fd562a703c60525",
+      "4x5": "dbfad2385336b40972517fbf5a19a32b5eb6b2ca59199487e3c1d5ed3e2b9633",
+      "9x16": "952b5672032a1b36c3ff852f669fc49dcc208197149a65a8db9995db9cbe567b"
+    },
+    "created_date": "2026-10-04",
+    "on_image_caption": "Chur Old Town, Chur",
+    "on_image_signature": "Jason D’s Vision",
+    "on_image_disclosure": "AI-generated artistic interpretation · Not a photograph.",
+    "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
+    "derivative_disclosure": "Daylight companion plate for the gallery daylight control. Text-prompt only. No weather claim. No scenario timestamp on the variant. The scene scenario_label is unchanged and is not a daylight weather assertion.",
+    "note": "Photorealistic daylight plate generated text-prompt-only on 2026-10-04. Not derived by relighting the published master and not image-anchored on it. No live daytime weather reading was available. The plate carries no scenario timestamp and no weather line. Published masters were not rewritten."
+  },
   "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
   "approval_basis": "street, church tower and hilltop Hof compose the classic Chur frame; label bar exact; per-scene retrieval 2026-09-27T16:53:56Z unique; Art. 50 chunks present, 2026-09-27.",
   "sha256_16x9": "e548347454667451dacba7fca0db382feacd67f26ca6696dbbc8286e88681b2f",

@@ -13,6 +13,42 @@
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
   "approval_status": "Approved",
+  "daylight_variant": {
+    "variant_of_entry_id": "CH-01-048",
+    "derived_from": "Text-prompt-only photorealistic daylight plate of the same place. Not image-anchored on the published master. Europe/Zurich was night on 4 October 2026, so this plate has no scenario timestamp and no weather line.",
+    "source_night": {
+      "16x9": {
+        "path": "library/world/Switzerland/Basel/ch-01-048-16x9.png",
+        "sha256": "f4385885edaeb3be28f6bc1061aecd32c6ff65a2a584064c4629aab0828ebea4"
+      },
+      "4x5": {
+        "path": "library/world/Switzerland/Basel/ch-01-048-4x5.png",
+        "sha256": "e0e8fa4d8dd7c7c64400eefe54e4560ddd3d0dd895335e14a69655f8f6c02b02"
+      },
+      "9x16": {
+        "path": "library/world/Switzerland/Basel/ch-01-048-9x16.png",
+        "sha256": "0ef1049ebdc59de6046073f8120d30429501ae0e07af50820054c3cd3e2de36c"
+      },
+      "recorded": "SHA-256 of the published masters immediately before this daylight batch. Post-write hashes are identical; published masters were not rewritten."
+    },
+    "files": {
+      "16x9": "library/world/Switzerland/Basel/ch-01-048-daylight-16x9.png",
+      "4x5": "library/world/Switzerland/Basel/ch-01-048-daylight-4x5.png",
+      "9x16": "library/world/Switzerland/Basel/ch-01-048-daylight-9x16.png"
+    },
+    "sha256": {
+      "16x9": "91f2806b5395e1f1a89fa4b47eb8b0225db50d8cd0099d9cbb8581aa24ca2a79",
+      "4x5": "f1abd6d10fed2f703d50bc8c114c923672b9acfb1bc18847db5990c4d8d4f0c3",
+      "9x16": "cd552bc990f7f060750907c69c593e0abdc2c0efc454044e83212e7b72df3617"
+    },
+    "created_date": "2026-10-04",
+    "on_image_caption": "Basel Minster, Basel",
+    "on_image_signature": "Jason D’s Vision",
+    "on_image_disclosure": "AI-generated artistic interpretation · Not a photograph.",
+    "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
+    "derivative_disclosure": "Daylight companion plate for the gallery daylight control. Text-prompt only. No weather claim. No scenario timestamp on the variant. The scene scenario_label is unchanged and is not a daylight weather assertion.",
+    "note": "Photorealistic daylight plate generated text-prompt-only on 2026-10-04. Not derived by relighting the published master and not image-anchored on it. No live daytime weather reading was available. The plate carries no scenario timestamp and no weather line. Published masters were not rewritten."
+  },
   "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
   "approval_basis": "red-sandstone towers and diamond-pattern roof are the Minster's defining features and both read clearly; label bar exact; per-scene retrieval 2026-09-27T16:53:43Z unique repo-wide; Art. 50 chunks present, 2026-09-27.",
   "sha256_16x9": "f4385885edaeb3be28f6bc1061aecd32c6ff65a2a584064c4629aab0828ebea4",

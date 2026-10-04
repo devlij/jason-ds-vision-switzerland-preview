@@ -13,6 +13,42 @@
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
   "approval_status": "Approved",
+  "daylight_variant": {
+    "variant_of_entry_id": "CH-01-082",
+    "derived_from": "Text-prompt-only photorealistic daylight plate of the same place. Not image-anchored on the published master. Europe/Zurich was night on 4 October 2026, so this plate has no scenario timestamp and no weather line.",
+    "source_night": {
+      "16x9": {
+        "path": "library/world/Switzerland/Glarus/ch-01-082-16x9.png",
+        "sha256": "fd5c51f4459aa7c1c6b09038717f309302a84a83c45da50f431b48398f5f8aea"
+      },
+      "4x5": {
+        "path": "library/world/Switzerland/Glarus/ch-01-082-4x5.png",
+        "sha256": "cff12818622e727e3bd20cbb5408560a8305042589085f38e4dbf3c1b7303533"
+      },
+      "9x16": {
+        "path": "library/world/Switzerland/Glarus/ch-01-082-9x16.png",
+        "sha256": "3482cfb69eb970690071d497c1355905e76e79c64860eac5bd657db6ae472dbb"
+      },
+      "recorded": "SHA-256 of the published masters immediately before this daylight batch. Post-write hashes are identical; published masters were not rewritten."
+    },
+    "files": {
+      "16x9": "library/world/Switzerland/Glarus/ch-01-082-daylight-16x9.png",
+      "4x5": "library/world/Switzerland/Glarus/ch-01-082-daylight-4x5.png",
+      "9x16": "library/world/Switzerland/Glarus/ch-01-082-daylight-9x16.png"
+    },
+    "sha256": {
+      "16x9": "814b4ff2a943f0d4c9fe001da23544e80d06ab7ae9d90a885ab62b06b11cd706",
+      "4x5": "62efa558290fa4c21635f2621e75cda01ac0c17893ae4edd0515bb3f8f96a6a1",
+      "9x16": "529fdaf4879f639f9fa6f7b911e053d705dacb0535daabb9751f2d174a33558d"
+    },
+    "created_date": "2026-10-04",
+    "on_image_caption": "Klöntalersee, Glarus",
+    "on_image_signature": "Jason D’s Vision",
+    "on_image_disclosure": "AI-generated artistic interpretation · Not a photograph.",
+    "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
+    "derivative_disclosure": "Daylight companion plate for the gallery daylight control. Text-prompt only. No weather claim. No scenario timestamp on the variant. The scene scenario_label is unchanged and is not a daylight weather assertion.",
+    "note": "Photorealistic daylight plate generated text-prompt-only on 2026-10-04. Not derived by relighting the published master and not image-anchored on it. No live daytime weather reading was available. The plate carries no scenario timestamp and no weather line. Published masters were not rewritten."
+  },
   "qc_status": "Approved",
   "approval_basis": "G1: Klöntalersee valley lake with the Glärnisch massif wall along the southern shore, chalets and hamlets on the green shoreline, cloud on the summit — the classic valley-lake view. G2: 16:9 1920×1270, baked 190px bar with exact caption 'Klöntalersee, Glarus', scenario '24 September 2026 · 16:14 Europe/Zurich', AI-disclosure and curly-apostrophe Jason D's Vision + Jason A. Devlin signature, legible; weather retrieval 2026-09-27T16:56:03Z unique to this scene, valid 2026-09-24T16:00 Europe/Zurich hour contains the scenario, WMO 3 overcast/100% matching the grey lake image; Art. 50 chunks present (Comment embedded 2026-09-27). G3: text-prompt-only lineage, no photographic inputs documented. G4: no people/logos, lake and hillside farms — documented. G5: clear.",
   "sha256_16x9": "fd5c51f4459aa7c1c6b09038717f309302a84a83c45da50f431b48398f5f8aea",

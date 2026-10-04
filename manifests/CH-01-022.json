@@ -13,6 +13,42 @@
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
   "approval_status": "Approved",
+  "daylight_variant": {
+    "variant_of_entry_id": "CH-01-022",
+    "derived_from": "Text-prompt-only photorealistic daylight plate of the same place. Not image-anchored on the published master. Europe/Zurich was night (Open-Meteo is_day 0 at 2026-10-04T23:00 Europe/Zurich), so this plate has no scenario timestamp and no weather line.",
+    "source_night": {
+      "16x9": {
+        "path": "library/world/Switzerland/Bern/ch-01-022-16x9.png",
+        "sha256": "59f44d0b3745016682f370ce285c34f744b08fb7c464dd926804b86a34ed10f4"
+      },
+      "4x5": {
+        "path": "library/world/Switzerland/Bern/ch-01-022-4x5.png",
+        "sha256": "925fd8dbe79bfb8b0f5b969ec13079562eeb672e34c54b5faf29b0b58e2f3bcc"
+      },
+      "9x16": {
+        "path": "library/world/Switzerland/Bern/ch-01-022-9x16.png",
+        "sha256": "989f0bbff7f35e6ee88a42ea797efab32b7b30ed9f0aed724a5afc54a5f72858"
+      },
+      "recorded": "SHA-256 of the published masters immediately before this daylight batch. Post-write hashes are identical; published masters were not rewritten."
+    },
+    "files": {
+      "16x9": "library/world/Switzerland/Bern/ch-01-022-daylight-16x9.png",
+      "4x5": "library/world/Switzerland/Bern/ch-01-022-daylight-4x5.png",
+      "9x16": "library/world/Switzerland/Bern/ch-01-022-daylight-9x16.png"
+    },
+    "sha256": {
+      "16x9": "451aec5059533c6ff047bedc18d8dbf567c879832dfae53c3146aa9f4ad943a7",
+      "4x5": "bbfb69acc770d021be49acd7c39a948897afaebffe5ca6bb6f6932661b60cb63",
+      "9x16": "2c2aec193c2359ae5440fd30adec0ebdc71ce7f7b9aec8b205185da0d8c6214a"
+    },
+    "created_date": "2026-10-04",
+    "on_image_caption": "Bundeshaus, Bern",
+    "on_image_signature": "Jason D’s Vision",
+    "on_image_disclosure": "AI-generated artistic interpretation · Not a photograph.",
+    "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
+    "derivative_disclosure": "Daylight companion plate for the gallery daylight control. Text-prompt only. No weather claim. No scenario timestamp on the variant. The scene scenario_label is unchanged and is not a daylight weather assertion.",
+    "note": "Photorealistic daylight plate generated text-prompt-only on 2026-10-04. Not derived by relighting the published master and not image-anchored on it. No live daytime weather reading was available. The plate carries no scenario timestamp and no weather line. Published masters were not rewritten."
+  },
   "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
   "approval_basis": "Approved · Cosmo QC 5/5 · Daylight. Gate 1: symmetrical neoclassical Bundeshaus with central dome and portico, Bundesplatz with the circular fountain in front — correct identity; clean, no artifacts. Gate 2: dims verified; on-bar 'Bundeshaus, Bern', 'Scenario: 24 September 2026 · 15:09 Europe/Zurich', disclosure + signature; retrieval 2026-09-27T16:51:27Z unique, 15:09 inside 15:00-15:59, code 3/100%/22.2°C matching the flat overcast light. Gate 3: text-prompt-only lineage. Gate 4: no people, no logos. Gate 5: no blockers.",
   "sha256_16x9": "59f44d0b3745016682f370ce285c34f744b08fb7c464dd926804b86a34ed10f4",

@@ -13,6 +13,42 @@
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
   "approval_status": "Approved",
+  "daylight_variant": {
+    "variant_of_entry_id": "CH-01-076",
+    "derived_from": "Text-prompt-only photorealistic daylight plate of the same place. Not image-anchored on the published master. Europe/Zurich was night on 4 October 2026, so this plate has no scenario timestamp and no weather line.",
+    "source_night": {
+      "16x9": {
+        "path": "library/world/Switzerland/Vevey/ch-01-076-16x9.png",
+        "sha256": "100f81d828caa9ac3ee45639e6ae26769f75cf34bc953e7a1bf1c8f38bb45994"
+      },
+      "4x5": {
+        "path": "library/world/Switzerland/Vevey/ch-01-076-4x5.png",
+        "sha256": "83dd694a36c3051b822a147de676370eb236cbcc72cf608c80a89072aa6e37b7"
+      },
+      "9x16": {
+        "path": "library/world/Switzerland/Vevey/ch-01-076-9x16.png",
+        "sha256": "8ce61dbfd485b90a5f2ba4da648f40dedb33628beaefa7c7027cba9806827379"
+      },
+      "recorded": "SHA-256 of the published masters immediately before this daylight batch. Post-write hashes are identical; published masters were not rewritten."
+    },
+    "files": {
+      "16x9": "library/world/Switzerland/Vevey/ch-01-076-daylight-16x9.png",
+      "4x5": "library/world/Switzerland/Vevey/ch-01-076-daylight-4x5.png",
+      "9x16": "library/world/Switzerland/Vevey/ch-01-076-daylight-9x16.png"
+    },
+    "sha256": {
+      "16x9": "5b96ba71b46212465b412de10a1da317a3492b38fdc77ae9d14d80f2dea61a73",
+      "4x5": "bc215c11466c9475acb37212ebce771461986220628149a4fa3e31394c27aeb5",
+      "9x16": "b010e080e19f91ed65613a05fd1355e3ed33ba830bf805a94220daa57bbea21e"
+    },
+    "created_date": "2026-10-04",
+    "on_image_caption": "Vevey, Vevey",
+    "on_image_signature": "Jason D’s Vision",
+    "on_image_disclosure": "AI-generated artistic interpretation · Not a photograph.",
+    "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
+    "derivative_disclosure": "Daylight companion plate for the gallery daylight control. Text-prompt only. No weather claim. No scenario timestamp on the variant. The scene scenario_label is unchanged and is not a daylight weather assertion.",
+    "note": "Photorealistic daylight plate generated text-prompt-only on 2026-10-04. Not derived by relighting the published master and not image-anchored on it. No live daytime weather reading was available. The plate carries no scenario timestamp and no weather line. Published masters were not rewritten."
+  },
   "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
   "approval_basis": "G1: Vevey from the lakeside — Saint-Martin tower with old-town roofs in the left foreground, Lake Geneva filling the mid-frame, the Alps with early snow across the water, quay plane trees just beginning to turn; G2: 16:9 1920×1270, baked 190px bar with exact caption 'Vevey, Vevey', scenario '24 September 2026 · 16:01 Europe/Zurich', AI-disclosure, curly-apostrophe Jason D's Vision + Jason A. Devlin signature, legible; weather retrieval 2026-09-27T16:55:55Z unique to this scene, valid 2026-09-24T16:00 Europe/Zurich hour contains the scenario, WMO 3 overcast/99% matching the cloudy lake image; G3: text-prompt-only, no photographic inputs documented; G4: no people/logos/private property, public waterfront; G5: clear.",
   "sha256_16x9": "100f81d828caa9ac3ee45639e6ae26769f75cf34bc953e7a1bf1c8f38bb45994",
