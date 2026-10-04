@@ -13,6 +13,38 @@
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
   "approval_status": "Approved",
+  "daylight_variant": {
+    "variant_of_entry_id": "CH-01-165",
+    "derived_from": "Text-prompt-only photorealistic daylight plate of the same place. Not image-anchored on the published master. Europe/Zurich was night on 4 October 2026, so this plate has no scenario timestamp and no weather line.",
+    "source_night": {
+      "16x9": {
+        "path": "library/world/Switzerland/Zinal/ch-01-165-16x9.png",
+        "sha256": "66edd1ce90ba5c6bb21960d1ca99c2723983e593842fc577ebfc4502585edf30"
+      },
+      "4x5": {
+        "path": "library/world/Switzerland/Zinal/ch-01-165-4x5.png",
+        "sha256": "6be18713d5799c068cef22722c4938be53795eaf5eb23c512adba6e20af1298f"
+      },
+      "recorded": "SHA-256 of the published masters immediately before this daylight batch. Post-write hashes are identical; published masters were not rewritten."
+    },
+    "files": {
+      "16x9": "library/world/Switzerland/Zinal/ch-01-165-daylight-16x9.png",
+      "4x5": "library/world/Switzerland/Zinal/ch-01-165-daylight-4x5.png",
+      "9x16": "library/world/Switzerland/Zinal/ch-01-165-daylight-9x16.png"
+    },
+    "sha256": {
+      "16x9": "1355577c955ee25dd1ca8d39d9f281b98caab030eaec25cfa7aa0be9b4a4709c",
+      "4x5": "8542a5f9a319b8fda959893b5775f7ba7fbf8366f247ebc19cc49630dda29f48",
+      "9x16": "971ee701d644470cccb38d5a2fd988e957a8b2a928b8553d5d56c5ca5ad3e82b"
+    },
+    "created_date": "2026-10-04",
+    "on_image_caption": "Zinal, Zinal",
+    "on_image_signature": "Jason D’s Vision",
+    "on_image_disclosure": "AI-generated artistic interpretation · Not a photograph.",
+    "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
+    "derivative_disclosure": "Daylight companion plate for the gallery daylight control. Text-prompt only. No weather claim. No scenario timestamp on the variant. The scene scenario_label is unchanged and is not a daylight weather assertion.",
+    "note": "Photorealistic daylight plate generated text-prompt-only on 2026-10-04. Not derived by relighting the published master and not image-anchored on it. No live daytime weather reading was available. The plate carries no scenario timestamp and no weather line. Published masters were not rewritten."
+  },
   "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
   "approval_basis": "Gate 1: Zinal spread across a high meadow at the head of the Val de Zinal — stone church with squat tower center frame, wooden chalets, larch trees, the Imperial Crown snow wall behind — matches the independent description, no artifacts. Gate 2: exact masters; caption 'Zinal, Zinal', scenario '24 September 2026 · 17:50 Europe/Zurich', disclosure and signature legible bottom band. Retrieval 2026-09-25T23:43:47Z unique to this scene (coords 46.13629, 7.62680), scenario inside model-valid hour. Gate 3: text-prompt-only. Gate 4: no people/logos (documented only). Gate 5: no open blockers.",
   "approved_at": "2026-09-26T09:35:12.863226+00:00",

@@ -13,6 +13,38 @@
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
   "approval_status": "Approved",
+  "daylight_variant": {
+    "variant_of_entry_id": "CH-01-180",
+    "derived_from": "Text-prompt-only photorealistic daylight plate of the same place. Not image-anchored on the published master. Europe/Zurich was night on 4 October 2026, so this plate has no scenario timestamp and no weather line.",
+    "source_night": {
+      "16x9": {
+        "path": "library/world/Switzerland/Brienz/ch-01-180-16x9.png",
+        "sha256": "e68ed36bebc094b75c9eadefe356080a757531c6d0025dd822a8e8c9d01bb879"
+      },
+      "4x5": {
+        "path": "library/world/Switzerland/Brienz/ch-01-180-4x5.png",
+        "sha256": "fc080f45f69f2c46fd5edd905471f7047ec3b0f18b25c63145554798e741a8cd"
+      },
+      "recorded": "SHA-256 of the published masters immediately before this daylight batch. Post-write hashes are identical; published masters were not rewritten."
+    },
+    "files": {
+      "16x9": "library/world/Switzerland/Brienz/ch-01-180-daylight-16x9.png",
+      "4x5": "library/world/Switzerland/Brienz/ch-01-180-daylight-4x5.png",
+      "9x16": "library/world/Switzerland/Brienz/ch-01-180-daylight-9x16.png"
+    },
+    "sha256": {
+      "16x9": "7764ad44a798bf419bd35f357cf967496e83f4364a30daa5e1954f0969ff826d",
+      "4x5": "0e55434f471a9a81cfac631bf4fefb442d248fb46bfb045658d737d6421e37f2",
+      "9x16": "deedfcc6dc9d448d4199487c4a431a6a8b1c7606ed24efa70e455708beef7ce6"
+    },
+    "created_date": "2026-10-04",
+    "on_image_caption": "Giessbach Falls, Brienz",
+    "on_image_signature": "Jason D’s Vision",
+    "on_image_disclosure": "AI-generated artistic interpretation · Not a photograph.",
+    "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
+    "derivative_disclosure": "Daylight companion plate for the gallery daylight control. Text-prompt only. No weather claim. No scenario timestamp on the variant. The scene scenario_label is unchanged and is not a daylight weather assertion.",
+    "note": "Photorealistic daylight plate generated text-prompt-only on 2026-10-04. Not derived by relighting the published master and not image-anchored on it. No live daytime weather reading was available. The plate carries no scenario timestamp and no weather line. Published masters were not rewritten."
+  },
   "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
   "approval_basis": "Gate 1: the master shows the Giessbach Falls dropping in many tiers through forest beside the Belle Epoque Grandhotel Giessbach — pale walls, steep mansard roof — with Lake Brienz below left and only a thin historic funicular line on the right; no village quay and no scaffolding, plausible slope viewpoint, clean framing, no artifacts. Gate 2: both masters exact dims (sweep-verified); caption 'Giessbach Falls, Brienz', scenario '24 September 2026 · 18:08 Europe/Zurich', AI disclosure legible on gradient; exact 'Jason D's Vision' signature bottom-right; weather retrieved 2026-09-25T23:44:02Z, unique repo-wide, valid 18:00–18:59 hour covering 18:08, overcast code 3/100% matching the diffuse light. Gate 3: text-prompt-only lineage, no photographic inputs. Gate 4: no prominent person or focal logo — documented only. Gate 5: no open blockers.",
   "approved_at": "2026-09-26T10:35:30.958558+00:00",

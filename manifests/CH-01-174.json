@@ -13,6 +13,38 @@
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
   "approval_status": "Approved",
+  "daylight_variant": {
+    "variant_of_entry_id": "CH-01-174",
+    "derived_from": "Text-prompt-only photorealistic daylight plate of the same place. Not image-anchored on the published master. Europe/Zurich was night on 4 October 2026, so this plate has no scenario timestamp and no weather line.",
+    "source_night": {
+      "16x9": {
+        "path": "library/world/Switzerland/Aarberg/ch-01-174-16x9.png",
+        "sha256": "78456037a52b30725562cd09397c8525372accedd1fac3509204fb72e8951918"
+      },
+      "4x5": {
+        "path": "library/world/Switzerland/Aarberg/ch-01-174-4x5.png",
+        "sha256": "540c26ee7a2ee83ca01f898ac5e5ef88b28865dea1e3143f1db4d46d78dce54f"
+      },
+      "recorded": "SHA-256 of the published masters immediately before this daylight batch. Post-write hashes are identical; published masters were not rewritten."
+    },
+    "files": {
+      "16x9": "library/world/Switzerland/Aarberg/ch-01-174-daylight-16x9.png",
+      "4x5": "library/world/Switzerland/Aarberg/ch-01-174-daylight-4x5.png",
+      "9x16": "library/world/Switzerland/Aarberg/ch-01-174-daylight-9x16.png"
+    },
+    "sha256": {
+      "16x9": "7611d870d3d3252f49d57ca35cca7767f57f5b78d3312354bbf2f3a84198a36f",
+      "4x5": "385f6ca9b5ff1042c8f461f6e397afdd138495ba804964c12ea1942885f2a83c",
+      "9x16": "b1d6c00ff9898038d37f5265516734697b0c13eb2d6be23a2e600b316c84f1e6"
+    },
+    "created_date": "2026-10-04",
+    "on_image_caption": "Aarberg, Aarberg",
+    "on_image_signature": "Jason D’s Vision",
+    "on_image_disclosure": "AI-generated artistic interpretation · Not a photograph.",
+    "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
+    "derivative_disclosure": "Daylight companion plate for the gallery daylight control. Text-prompt only. No weather claim. No scenario timestamp on the variant. The scene scenario_label is unchanged and is not a daylight weather assertion.",
+    "note": "Photorealistic daylight plate generated text-prompt-only on 2026-10-04. Not derived by relighting the published master and not image-anchored on it. No live daytime weather reading was available. The plate carries no scenario timestamp and no weather line. Published masters were not rewritten."
+  },
   "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
   "approval_basis": "Gate 1: Aarberg's covered wooden bridge of 1566-69 on three stone piers crossing the Alte Aare, the arcaded house row of the Stadtplatz behind with the central fountain, brown tile roofs — matches the noted old-town arrangement under flat overcast. Gate 2: exact masters (1920x1080, 864x1080); caption 'Aarberg, Aarberg', scenario '24 September 2026 · 17:51 Europe/Zurich', disclosure and curly-apostrophe signature legible. Retrieval 2026-09-25T23:43:56Z unique to this scene (coords 47.04364, 7.27442), scenario inside model-valid hour. Gate 3: text-prompt-only lineage, no photographic inputs. Gate 4: no people or logos (documented only). Gate 5: no open blockers.",
   "approved_at": "2026-09-26T09:36:55.184535+00:00",

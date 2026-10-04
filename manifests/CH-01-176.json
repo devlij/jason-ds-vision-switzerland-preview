@@ -13,6 +13,38 @@
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
   "approval_status": "Approved",
+  "daylight_variant": {
+    "variant_of_entry_id": "CH-01-176",
+    "derived_from": "Text-prompt-only photorealistic daylight plate of the same place. Not image-anchored on the published master. Europe/Zurich was night on 4 October 2026, so this plate has no scenario timestamp and no weather line.",
+    "source_night": {
+      "16x9": {
+        "path": "library/world/Switzerland/Langnau im Emmental/ch-01-176-16x9.png",
+        "sha256": "ecfb92cc441e6025e1b002af7400c1b16af2dc5dde7bb686c00a4c651515a531"
+      },
+      "4x5": {
+        "path": "library/world/Switzerland/Langnau im Emmental/ch-01-176-4x5.png",
+        "sha256": "e108e022b1451d2bd9a341b506c9374fdb520321673f43a7406bd20039322467"
+      },
+      "recorded": "SHA-256 of the published masters immediately before this daylight batch. Post-write hashes are identical; published masters were not rewritten."
+    },
+    "files": {
+      "16x9": "library/world/Switzerland/Langnau im Emmental/ch-01-176-daylight-16x9.png",
+      "4x5": "library/world/Switzerland/Langnau im Emmental/ch-01-176-daylight-4x5.png",
+      "9x16": "library/world/Switzerland/Langnau im Emmental/ch-01-176-daylight-9x16.png"
+    },
+    "sha256": {
+      "16x9": "2c8cb1087d6ecb591df0025f192acf96ada72c09c8828fbb64403f7c6aecf7f1",
+      "4x5": "826392e086e5ccab390029a7f51cff8d19ad921b2bad164424553a4e5fb45613",
+      "9x16": "b3fef5fb648987187f81d0672c44321d63ecb5e0352dc37b5821a7bf6765e5eb"
+    },
+    "created_date": "2026-10-04",
+    "on_image_caption": "Langnau im Emmental, Langnau im Emmental",
+    "on_image_signature": "Jason D’s Vision",
+    "on_image_disclosure": "AI-generated artistic interpretation · Not a photograph.",
+    "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
+    "derivative_disclosure": "Daylight companion plate for the gallery daylight control. Text-prompt only. No weather claim. No scenario timestamp on the variant. The scene scenario_label is unchanged and is not a daylight weather assertion.",
+    "note": "Photorealistic daylight plate generated text-prompt-only on 2026-10-04. Not derived by relighting the published master and not image-anchored on it. No live daytime weather reading was available. The plate carries no scenario timestamp and no weather line. Published masters were not rewritten."
+  },
   "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
   "approval_basis": "Gate 1: the master shows the Langnau Reformed church on its spur — late-Gothic hall with high hipped roof, older stone tower, pointed-arch windows facing the square — with rolling Emmental pasture hills behind the roofs, a plausible tourist viewpoint from Bärenplatz, clean framing, no artifacts. Gate 2: both masters at exact 1920x1080/864x1080 (sweep-verified); on-image caption 'Langnau im Emmental, Langnau im Emmental', scenario '24 September 2026 · 17:51 Europe/Zurich', AI disclosure legible bottom-left on gradient scrim; exact 'Jason D's Vision' signature bottom-right; Open-Meteo weather retrieved 2026-09-25T23:43:58Z, unique to this scene repo-wide, valid model hour 17:00–17:59 covering the 17:51 scenario, overcast code 3/100% cloud matching the diffuse light. Gate 3: builder note records text-prompt-only lineage, no photographic inputs. Gate 4: no prominent identifiable person or focal logo — documented only. Gate 5: no open blockers.",
   "approved_at": "2026-09-26T10:34:28.133204+00:00",

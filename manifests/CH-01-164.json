@@ -13,6 +13,38 @@
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
   "approval_status": "Approved",
+  "daylight_variant": {
+    "variant_of_entry_id": "CH-01-164",
+    "derived_from": "Text-prompt-only photorealistic daylight plate of the same place. Not image-anchored on the published master. Europe/Zurich was night on 4 October 2026, so this plate has no scenario timestamp and no weather line.",
+    "source_night": {
+      "16x9": {
+        "path": "library/world/Switzerland/Grimentz/ch-01-164-16x9.png",
+        "sha256": "18a9f8bfda480ac2ea63bc8898f18190e72629e1a9645bc89ce0ca75122c0b5f"
+      },
+      "4x5": {
+        "path": "library/world/Switzerland/Grimentz/ch-01-164-4x5.png",
+        "sha256": "4c6d101244428eb3f438a5374070c02d09e8dfc0cc3543c10cfc3d0c609da935"
+      },
+      "recorded": "SHA-256 of the published masters immediately before this daylight batch. Post-write hashes are identical; published masters were not rewritten."
+    },
+    "files": {
+      "16x9": "library/world/Switzerland/Grimentz/ch-01-164-daylight-16x9.png",
+      "4x5": "library/world/Switzerland/Grimentz/ch-01-164-daylight-4x5.png",
+      "9x16": "library/world/Switzerland/Grimentz/ch-01-164-daylight-9x16.png"
+    },
+    "sha256": {
+      "16x9": "cb7078ab544e7de4575cbdce77075f5e51f7ad244778dd253d4253ad0d6022ac",
+      "4x5": "1280d380f60374b6d8d6cc30ead4c97b088257cac274c32d7b86fbc09bf83718",
+      "9x16": "da4e69d02d519f10ca6362980902741640a6126cce2905226d44aeafc0c90335"
+    },
+    "created_date": "2026-10-04",
+    "on_image_caption": "Grimentz, Grimentz",
+    "on_image_signature": "Jason D’s Vision",
+    "on_image_disclosure": "AI-generated artistic interpretation · Not a photograph.",
+    "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
+    "derivative_disclosure": "Daylight companion plate for the gallery daylight control. Text-prompt only. No weather claim. No scenario timestamp on the variant. The scene scenario_label is unchanged and is not a daylight weather assertion.",
+    "note": "Photorealistic daylight plate generated text-prompt-only on 2026-10-04. Not derived by relighting the published master and not image-anchored on it. No live daytime weather reading was available. The plate carries no scenario timestamp and no weather line. Published masters were not rewritten."
+  },
   "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
   "approval_basis": "Gate 1: cobbled Rue du Village flanked by sun-darkened larch houses and stilted granaries on stone posts, the white church with slender spire at the vanishing point under heavy overcast — Grimentz's wooden-village character is unmistakable, clean framing. Gate 2: exact masters; caption 'Grimentz, Grimentz', scenario '24 September 2026 · 17:50 Europe/Zurich', disclosure and curly-apostrophe signature legible. Retrieval 2026-09-25T23:43:46Z unique to this scene (coords 46.18034, 7.57602), scenario inside model-valid hour. Gate 3: text-prompt-only lineage. Gate 4: no people or logos (documented only). Gate 5: no open blockers.",
   "approved_at": "2026-09-26T09:35:08.750877+00:00",

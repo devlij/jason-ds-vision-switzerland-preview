@@ -13,6 +13,38 @@
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
   "approval_status": "Approved",
+  "daylight_variant": {
+    "variant_of_entry_id": "CH-01-177",
+    "derived_from": "Text-prompt-only photorealistic daylight plate of the same place. Not image-anchored on the published master. Europe/Zurich was night on 4 October 2026, so this plate has no scenario timestamp and no weather line.",
+    "source_night": {
+      "16x9": {
+        "path": "library/world/Switzerland/Thun/ch-01-177-16x9.png",
+        "sha256": "5598660d99e9f1b697c444689e3a148d23bb081a2a2956af5cea3633ba87e02f"
+      },
+      "4x5": {
+        "path": "library/world/Switzerland/Thun/ch-01-177-4x5.png",
+        "sha256": "c5c819202aaaa16d3c1f6ae1b78679afbdae7fd8fd4c7e07298919318d3d1564"
+      },
+      "recorded": "SHA-256 of the published masters immediately before this daylight batch. Post-write hashes are identical; published masters were not rewritten."
+    },
+    "files": {
+      "16x9": "library/world/Switzerland/Thun/ch-01-177-daylight-16x9.png",
+      "4x5": "library/world/Switzerland/Thun/ch-01-177-daylight-4x5.png",
+      "9x16": "library/world/Switzerland/Thun/ch-01-177-daylight-9x16.png"
+    },
+    "sha256": {
+      "16x9": "e29f5a3ad589d2986665dc0ba64ee01c72469e7a76143390e2bb4a179994be8d",
+      "4x5": "3e00958df7e9c38a49fd16f1bf239c68fe16bc66663e4dbeb66ebf4d7208005f",
+      "9x16": "cf133e883e13f7e217e02491223e74f6dee9721f82243940596b7b0dd7122968"
+    },
+    "created_date": "2026-10-04",
+    "on_image_caption": "Thun lakefront, Thun",
+    "on_image_signature": "Jason D’s Vision",
+    "on_image_disclosure": "AI-generated artistic interpretation · Not a photograph.",
+    "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
+    "derivative_disclosure": "Daylight companion plate for the gallery daylight control. Text-prompt only. No weather claim. No scenario timestamp on the variant. The scene scenario_label is unchanged and is not a daylight weather assertion.",
+    "note": "Photorealistic daylight plate generated text-prompt-only on 2026-10-04. Not derived by relighting the published master and not image-anchored on it. No live daytime weather reading was available. The plate carries no scenario timestamp and no weather line. Published masters were not rewritten."
+  },
   "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
   "approval_basis": "Gate 1: the master shows the Thun lakefront promenade beside Schadau Park — Schloss Schadau's white château with steep spired roofs set in parkland on the Aare outlet, the open water of Lake Thun, and the pyramidal Niesen faint across the lake under cloud; correct subject (not the Thun Castle keep), plausible lakeside viewpoint, clean framing, no artifacts. Gate 2: both masters exact dims (sweep-verified); caption 'Thun lakefront, Thun', scenario '24 September 2026 · 18:07 Europe/Zurich', AI disclosure legible on gradient; exact 'Jason D's Vision' signature bottom-right; weather retrieved 2026-09-25T23:43:59Z, unique repo-wide, valid 18:00–18:59 hour covering 18:07, overcast code 3/89% matching the diffuse light. Gate 3: text-prompt-only lineage, no photographic inputs. Gate 4: no prominent person or focal logo — documented only. Gate 5: no open blockers.",
   "approved_at": "2026-09-26T10:34:43.530665+00:00",

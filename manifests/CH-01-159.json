@@ -13,6 +13,38 @@
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
   "approval_status": "Approved",
+  "daylight_variant": {
+    "variant_of_entry_id": "CH-01-159",
+    "derived_from": "Text-prompt-only photorealistic daylight plate of the same place. Not image-anchored on the published master. Europe/Zurich was night on 4 October 2026, so this plate has no scenario timestamp and no weather line.",
+    "source_night": {
+      "16x9": {
+        "path": "library/world/Switzerland/Estavayer-le-Lac/ch-01-159-16x9.png",
+        "sha256": "738bb87c7667bcb494745b66d78ac50548618ed17c5729caf2559483b107eaa0"
+      },
+      "4x5": {
+        "path": "library/world/Switzerland/Estavayer-le-Lac/ch-01-159-4x5.png",
+        "sha256": "b6d2a3e21f8ac15e5ced1fab050d6c6e078770610542b82df008e1c7bc828dc1"
+      },
+      "recorded": "SHA-256 of the published masters immediately before this daylight batch. Post-write hashes are identical; published masters were not rewritten."
+    },
+    "files": {
+      "16x9": "library/world/Switzerland/Estavayer-le-Lac/ch-01-159-daylight-16x9.png",
+      "4x5": "library/world/Switzerland/Estavayer-le-Lac/ch-01-159-daylight-4x5.png",
+      "9x16": "library/world/Switzerland/Estavayer-le-Lac/ch-01-159-daylight-9x16.png"
+    },
+    "sha256": {
+      "16x9": "8d8774665765ed3029f53937950df31a01f88bc97e02f062f554ac221c597b91",
+      "4x5": "0f3e8fc2c928f49daf4a6f81b11270a562268b570a891c44870661bf6d7c1bb3",
+      "9x16": "458a379bc6cbeae9e6a44416e887158fe76b93bffa2078a2552b64cc932f0b69"
+    },
+    "created_date": "2026-10-04",
+    "on_image_caption": "Estavayer-le-Lac, Estavayer-le-Lac",
+    "on_image_signature": "Jason D’s Vision",
+    "on_image_disclosure": "AI-generated artistic interpretation · Not a photograph.",
+    "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
+    "derivative_disclosure": "Daylight companion plate for the gallery daylight control. Text-prompt only. No weather claim. No scenario timestamp on the variant. The scene scenario_label is unchanged and is not a daylight weather assertion.",
+    "note": "Photorealistic daylight plate generated text-prompt-only on 2026-10-04. Not derived by relighting the published master and not image-anchored on it. No live daytime weather reading was available. The plate carries no scenario timestamp and no weather line. Published masters were not rewritten."
+  },
   "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
   "approval_basis": "Gate 1 PASS: Estavayer-le-Lac with Chenaux Castle on the height above the old town's red-tiled roofs and Lake Neuchâtel beyond, plausible hillside tourist viewpoint, clean framing, no artifacts. Gate 2 PASS: mechanical 1920x1080/864x1080 verified; on-image caption 'Estavayer-le-Lac, Estavayer-le-Lac', scenario '24 September 2026 · 17:34 Europe/Zurich', disclosure 'AI-generated artistic interpretation · Not a photograph.' bottom-left and exact 'Jason D's Vision' signature bottom-right, legible on the gradient scrim; note records a separate Open-Meteo retrieval at 2026-09-25T23:42:40Z unique repo-wide to this scene, valid for the model hour covering the scenario. Gate 3: text-prompt-only lineage, no photographic inputs reported. Gate 4: no people, logos, or recognizable private property (documented only). Gate 5: no open blockers.",
   "approved_at": "2026-09-26T08:41:26.910576+00:00",

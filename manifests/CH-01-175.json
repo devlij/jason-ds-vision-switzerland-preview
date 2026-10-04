@@ -13,6 +13,38 @@
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
   "approval_status": "Approved",
+  "daylight_variant": {
+    "variant_of_entry_id": "CH-01-175",
+    "derived_from": "Text-prompt-only photorealistic daylight plate of the same place. Not image-anchored on the published master. Europe/Zurich was night on 4 October 2026, so this plate has no scenario timestamp and no weather line.",
+    "source_night": {
+      "16x9": {
+        "path": "library/world/Switzerland/Burgdorf/ch-01-175-16x9.png",
+        "sha256": "fe3013c360e37d7a489f6176084089c49a2ff3c286586a1496001cd9bf6a521d"
+      },
+      "4x5": {
+        "path": "library/world/Switzerland/Burgdorf/ch-01-175-4x5.png",
+        "sha256": "d38e348e15936e049358bbe1dd3197a9400680c959c1b0cee0a4042534f62a02"
+      },
+      "recorded": "SHA-256 of the published masters immediately before this daylight batch. Post-write hashes are identical; published masters were not rewritten."
+    },
+    "files": {
+      "16x9": "library/world/Switzerland/Burgdorf/ch-01-175-daylight-16x9.png",
+      "4x5": "library/world/Switzerland/Burgdorf/ch-01-175-daylight-4x5.png",
+      "9x16": "library/world/Switzerland/Burgdorf/ch-01-175-daylight-9x16.png"
+    },
+    "sha256": {
+      "16x9": "15eb5b5cfe650ef5759fc08b4b66a6d95033548c52673c761ccb1cd9c214f244",
+      "4x5": "bb40f13bdc3eb66a1c466eb788428da6ce3f6a402ac16b61d8008b0ec6b8f293",
+      "9x16": "ebba586c4bbb64cbadc6558870d4eb91c3240a621fcaabc4385c7b20e9ef194d"
+    },
+    "created_date": "2026-10-04",
+    "on_image_caption": "Burgdorf Castle, Burgdorf",
+    "on_image_signature": "Jason D’s Vision",
+    "on_image_disclosure": "AI-generated artistic interpretation · Not a photograph.",
+    "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
+    "derivative_disclosure": "Daylight companion plate for the gallery daylight control. Text-prompt only. No weather claim. No scenario timestamp on the variant. The scene scenario_label is unchanged and is not a daylight weather assertion.",
+    "note": "Photorealistic daylight plate generated text-prompt-only on 2026-10-04. Not derived by relighting the published master and not image-anchored on it. No live daytime weather reading was available. The plate carries no scenario timestamp and no weather line. Published masters were not rewritten."
+  },
   "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
   "approval_basis": "Gate 1: Burgdorf Castle crowning its rocky hill — the tall square keep with hipped roof, the round tower with conical cap, stone curtain walls — the old town's brown rooftops and the Emme river valley spreading below under grey cloud. Gate 2: exact masters; caption 'Burgdorf Castle, Burgdorf', scenario '24 September 2026 · 17:51 Europe/Zurich', disclosure and signature legible bottom band. Retrieval 2026-09-25T23:43:57Z unique to this scene (coords 47.05487, 7.62899), scenario inside model-valid hour. Gate 3: text-prompt-only. Gate 4: no people or logos (documented only). Gate 5: no open blockers.",
   "approved_at": "2026-09-26T09:36:59.682882+00:00",
