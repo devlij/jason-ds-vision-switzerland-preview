@@ -13,6 +13,42 @@
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
   "approval_status": "Approved",
+  "daylight_variant": {
+    "variant_of_entry_id": "CH-01-008",
+    "derived_from": "Text-prompt-only photorealistic daylight plate of the same place. Not image-anchored on the published master. Europe/Zurich was night (Open-Meteo is_day 0 at 2026-10-04T23:00 Europe/Zurich), so this plate has no scenario timestamp and no weather line.",
+    "source_night": {
+      "16x9": {
+        "path": "library/world/Switzerland/Gruyères/ch-01-008-16x9.png",
+        "sha256": "fc4c36da721844769c4879f7d055643e4d4fa39eb8faeb4dbae8cb02a70c5d4e"
+      },
+      "4x5": {
+        "path": "library/world/Switzerland/Gruyères/ch-01-008-4x5.png",
+        "sha256": "25ec77aca9bb336d6717c934dd2aca03222b48222acae0dc53246722c9b80268"
+      },
+      "9x16": {
+        "path": "library/world/Switzerland/Gruyères/ch-01-008-9x16.png",
+        "sha256": "9087916afe21a0a507851a8c9779bd195a898963f75f6d98c7c1e6dfece03345"
+      },
+      "recorded": "SHA-256 of the published masters immediately before this daylight batch. Post-write hashes are identical; published masters were not rewritten."
+    },
+    "files": {
+      "16x9": "library/world/Switzerland/Gruyères/ch-01-008-daylight-16x9.png",
+      "4x5": "library/world/Switzerland/Gruyères/ch-01-008-daylight-4x5.png",
+      "9x16": "library/world/Switzerland/Gruyères/ch-01-008-daylight-9x16.png"
+    },
+    "sha256": {
+      "16x9": "507247bf93d784806bfdd47803261d8e154f9c4279cee500b690825bd2dd10e2",
+      "4x5": "fecd6b419547eccc6d91769164f2d13a264521ba1c43565a269547fa16058d1e",
+      "9x16": "390a277f105a3706cdd5dc117ad7895c93d7f4e8ec0df7be8bfd3405afa481d6"
+    },
+    "created_date": "2026-10-04",
+    "on_image_caption": "Gruyères Castle, Gruyères",
+    "on_image_signature": "Jason D’s Vision",
+    "on_image_disclosure": "AI-generated artistic interpretation · Not a photograph.",
+    "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
+    "derivative_disclosure": "Daylight companion plate for the gallery daylight control. Text-prompt only. No weather claim. No scenario timestamp on the variant. The scene scenario_label is unchanged and is not a daylight weather assertion.",
+    "note": "Photorealistic daylight plate generated text-prompt-only on 2026-10-04. Not derived by relighting the published master and not image-anchored on it. No live daytime weather reading was available. The plate carries no scenario timestamp and no weather line. Published masters were not rewritten."
+  },
   "qc_notes": [
     {
       "at": "2026-09-25T04:34:21.739714+00:00",

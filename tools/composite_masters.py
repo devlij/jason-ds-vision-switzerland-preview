@@ -151,7 +151,12 @@ def layout_fonts(width: int, caption: str, scenario: str) -> tuple[dict[str, Ima
     raise SystemExit(f"label text does not fit a {width}px bar")
 
 
-def draw_label_bar(photo: Image.Image, caption: str, scenario_label: str) -> Image.Image:
+def draw_label_bar(
+    photo: Image.Image,
+    caption: str,
+    scenario_label: str,
+    middle_line: str | None = None,
+) -> Image.Image:
     photo = photo.convert("RGB")
     pw, ph = photo.size
     canvas = Image.new("RGB", (pw, ph + BAR_H), BAR_BG)
@@ -159,10 +164,12 @@ def draw_label_bar(photo: Image.Image, caption: str, scenario_label: str) -> Ima
     draw = ImageDraw.Draw(canvas)
     draw.rectangle((0, ph, pw - 1, ph + HAIRLINE - 1), fill=HAIR)
 
-    fonts, gap = layout_fonts(pw, caption, f"Scenario: {scenario_label}")
+    # Daylight variants pass middle_line so the bar does not invent a
+    # "Scenario:" timestamp or a weather line. Masters keep the prefix.
+    scenario = middle_line if middle_line is not None else f"Scenario: {scenario_label}"
+    fonts, gap = layout_fonts(pw, caption, scenario)
     margin = max(20, int(round(pw * 0.028)))
     col_gap = max(16, int(round(pw * 0.018)))
-    scenario = f"Scenario: {scenario_label}"
     left = [
         (caption, fonts["cap"], INK),
         (scenario, fonts["sc"], INK_SCENARIO),

@@ -95,7 +95,8 @@ def test_daylight_pair_is_published_only_when_both_masters_exist() -> None:
     assert lit["file_4x5_day"].endswith("ch-01-297-daylight-4x5.png")
     assert gallery.master_exists(lit["file_16x9_day"])
     assert gallery.master_exists(lit["file_4x5_day"])
-    assert "file_16x9_day" not in by_id["CH-01-001"]
+    # CH-01-031 has no daylight variant. CH-01-001 may, once a batch lands one.
+    assert "file_16x9_day" not in by_id["CH-01-031"]
     assert lit["approval_status"] == "Approved"
 
     def exists(path: str) -> bool:

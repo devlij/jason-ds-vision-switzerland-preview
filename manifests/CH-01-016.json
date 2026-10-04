@@ -13,6 +13,42 @@
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
   "approval_status": "Approved",
+  "daylight_variant": {
+    "variant_of_entry_id": "CH-01-016",
+    "derived_from": "Text-prompt-only photorealistic daylight plate of the same place. Not image-anchored on the published master. Europe/Zurich was night (Open-Meteo is_day 0 at 2026-10-04T23:00 Europe/Zurich), so this plate has no scenario timestamp and no weather line.",
+    "source_night": {
+      "16x9": {
+        "path": "library/world/Switzerland/Schaffhausen/ch-01-016-16x9.png",
+        "sha256": "e743349f97af053eccc1a78c26b4dff6d5bdee201b9848714026893bc4d80002"
+      },
+      "4x5": {
+        "path": "library/world/Switzerland/Schaffhausen/ch-01-016-4x5.png",
+        "sha256": "c59630eee7efd8d442650c2d58a2e9e6990c8eb9be874d8a2a4a51e691299de3"
+      },
+      "9x16": {
+        "path": "library/world/Switzerland/Schaffhausen/ch-01-016-9x16.png",
+        "sha256": "b5619d7012ddeb5429da67cd5369441b238436c291c455a5f6080efd3af60121"
+      },
+      "recorded": "SHA-256 of the published masters immediately before this daylight batch. Post-write hashes are identical; published masters were not rewritten."
+    },
+    "files": {
+      "16x9": "library/world/Switzerland/Schaffhausen/ch-01-016-daylight-16x9.png",
+      "4x5": "library/world/Switzerland/Schaffhausen/ch-01-016-daylight-4x5.png",
+      "9x16": "library/world/Switzerland/Schaffhausen/ch-01-016-daylight-9x16.png"
+    },
+    "sha256": {
+      "16x9": "298fc94c42d333c9f83cc79cfbdd0811b142c3571d60c6e666be026bcf03b4d9",
+      "4x5": "8536b6d7d0db5b522ce7df44f70b2b024ae21896cb3e49ef8c49a3ccd91870d0",
+      "9x16": "da7b1621c45b8d3d55f5e68d00d32ef03cc90c34a782194ed7a4f24c0383e107"
+    },
+    "created_date": "2026-10-04",
+    "on_image_caption": "Rhine Falls, Schaffhausen",
+    "on_image_signature": "Jason D’s Vision",
+    "on_image_disclosure": "AI-generated artistic interpretation · Not a photograph.",
+    "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
+    "derivative_disclosure": "Daylight companion plate for the gallery daylight control. Text-prompt only. No weather claim. No scenario timestamp on the variant. The scene scenario_label is unchanged and is not a daylight weather assertion.",
+    "note": "Photorealistic daylight plate generated text-prompt-only on 2026-10-04. Not derived by relighting the published master and not image-anchored on it. No live daytime weather reading was available. The plate carries no scenario timestamp and no weather line. Published masters were not rewritten."
+  },
   "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
   "approval_basis": "Approved · Cosmo QC 5/5 · Daylight. Gate 1: wide Rhine Falls breaking around the central rock, Schloss Laufen (half-timbered + tower) on the left cliff, Schloss Wörth on the right bank, visitor railing bottom-left — recognizable, clean framing, no artifacts; overcast gray sky. Gate 2: 1920x1270/864x1270/1080x2110 verified; on-bar 'Rhine Falls, Schaffhausen', 'Scenario: 24 September 2026 · 14:42 Europe/Zurich', 'AI-generated artistic interpretation · Not a photograph.', curly-apostrophe Jason D's Vision + Jason A. Devlin script; per-scene weather retrieval 2026-09-27T16:51:19Z (unique repo-wide), scenario 14:42 inside model-valid hour 14:00-14:59, code 3/88% cloud/21.7°C matching the diffuse overcast. Gate 3: notes document text-prompt-only lineage, no photographic inputs. Gate 4: no identifiable people, no logos; public landmarks only. Gate 5: no blockers.",
   "sha256_16x9": "e743349f97af053eccc1a78c26b4dff6d5bdee201b9848714026893bc4d80002",

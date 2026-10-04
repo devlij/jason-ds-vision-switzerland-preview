@@ -13,6 +13,42 @@
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
   "approval_status": "Approved",
+  "daylight_variant": {
+    "variant_of_entry_id": "CH-01-023",
+    "derived_from": "Text-prompt-only photorealistic daylight plate of the same place. Not image-anchored on the published master. Europe/Zurich was night (Open-Meteo is_day 0 at 2026-10-04T23:00 Europe/Zurich), so this plate has no scenario timestamp and no weather line.",
+    "source_night": {
+      "16x9": {
+        "path": "library/world/Switzerland/Wengen/ch-01-023-16x9.png",
+        "sha256": "2fe7c738cbdcd4aa7970cb41430ed764453869882138e68541b7f7c8ed7676ca"
+      },
+      "4x5": {
+        "path": "library/world/Switzerland/Wengen/ch-01-023-4x5.png",
+        "sha256": "3569cab0572c5df472336aabe98c7e723f5310ff5dd32d06e838e298c97c3e3f"
+      },
+      "9x16": {
+        "path": "library/world/Switzerland/Wengen/ch-01-023-9x16.png",
+        "sha256": "39d82b17271737f480028c8e0bb6e7fafa4ae535bf79170bfcf0cf7d0b78b3b0"
+      },
+      "recorded": "SHA-256 of the published masters immediately before this daylight batch. Post-write hashes are identical; published masters were not rewritten."
+    },
+    "files": {
+      "16x9": "library/world/Switzerland/Wengen/ch-01-023-daylight-16x9.png",
+      "4x5": "library/world/Switzerland/Wengen/ch-01-023-daylight-4x5.png",
+      "9x16": "library/world/Switzerland/Wengen/ch-01-023-daylight-9x16.png"
+    },
+    "sha256": {
+      "16x9": "d95852b5adde1601383ed4ba26b90ff1c19968338800a8ea511ea91ff5d0bb71",
+      "4x5": "2c67d368c94febcd1b9adb01afcee09060db3f9deac6b0fa5871e4125cf18fb3",
+      "9x16": "0542b0c3d057809fa8c76d5398191985a4470a8b232ebcd7586133d30fec6651"
+    },
+    "created_date": "2026-10-04",
+    "on_image_caption": "Wengen, Wengen",
+    "on_image_signature": "Jason D’s Vision",
+    "on_image_disclosure": "AI-generated artistic interpretation · Not a photograph.",
+    "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
+    "derivative_disclosure": "Daylight companion plate for the gallery daylight control. Text-prompt only. No weather claim. No scenario timestamp on the variant. The scene scenario_label is unchanged and is not a daylight weather assertion.",
+    "note": "Photorealistic daylight plate generated text-prompt-only on 2026-10-04. Not derived by relighting the published master and not image-anchored on it. No live daytime weather reading was available. The plate carries no scenario timestamp and no weather line. Published masters were not rewritten."
+  },
   "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
   "approval_basis": "Approved · Cosmo QC 5/5 · Daylight. Gate 1: Wengen's chalet village with church spire, snow-dusted rock wall behind in cloud, early autumn foliage — correct car-free-village identity; clean framing. Gate 2: dims verified; on-bar 'Wengen, Wengen', 'Scenario: 24 September 2026 · 15:09 Europe/Zurich', disclosure + signature; retrieval 2026-09-27T16:51:29Z unique, 15:09 inside 15:00-15:59, code 3/96%/17.4°C. Gate 3: text-prompt-only lineage. Gate 4: no identifiable people, no logos. Gate 5: no blockers.",
   "sha256_16x9": "2fe7c738cbdcd4aa7970cb41430ed764453869882138e68541b7f7c8ed7676ca",

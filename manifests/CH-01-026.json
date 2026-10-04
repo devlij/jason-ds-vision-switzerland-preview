@@ -13,6 +13,42 @@
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
   "approval_status": "Approved",
+  "daylight_variant": {
+    "variant_of_entry_id": "CH-01-026",
+    "derived_from": "Text-prompt-only photorealistic daylight plate of the same place. Not image-anchored on the published master. Europe/Zurich was night (Open-Meteo is_day 0 at 2026-10-04T23:00 Europe/Zurich), so this plate has no scenario timestamp and no weather line.",
+    "source_night": {
+      "16x9": {
+        "path": "library/world/Switzerland/Zurich/ch-01-026-16x9.png",
+        "sha256": "a7363e5bb4a2629b33ec73924ffbb0ce22eaa8ebe188f60ebd0df9155edc1ea7"
+      },
+      "4x5": {
+        "path": "library/world/Switzerland/Zurich/ch-01-026-4x5.png",
+        "sha256": "4070a27f03193d65c5b03f88bba45d2a4b21494f83d66edd1d9bd73685b99fd2"
+      },
+      "9x16": {
+        "path": "library/world/Switzerland/Zurich/ch-01-026-9x16.png",
+        "sha256": "9ba4ea4bf26f9c92fda19834834a5ec3e4cd68c816ba62e134dd8b9fc5df74da"
+      },
+      "recorded": "SHA-256 of the published masters immediately before this daylight batch. Post-write hashes are identical; published masters were not rewritten."
+    },
+    "files": {
+      "16x9": "library/world/Switzerland/Zurich/ch-01-026-daylight-16x9.png",
+      "4x5": "library/world/Switzerland/Zurich/ch-01-026-daylight-4x5.png",
+      "9x16": "library/world/Switzerland/Zurich/ch-01-026-daylight-9x16.png"
+    },
+    "sha256": {
+      "16x9": "e26d8d8f1103574b2c6106cec9a3befb8649e81703fa1d8c0d83d0d90b6ab4dd",
+      "4x5": "8ae3cf841c47561ee680bdd9e34ac7e45872a909c70596b130bdb9728d7fe7a1",
+      "9x16": "6256d84fbef8ebc88c242f10dc9cf9332e8c4b6ba0bca7a783ec8a05701b5e36"
+    },
+    "created_date": "2026-10-04",
+    "on_image_caption": "Grossmünster, Zurich",
+    "on_image_signature": "Jason D’s Vision",
+    "on_image_disclosure": "AI-generated artistic interpretation · Not a photograph.",
+    "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
+    "derivative_disclosure": "Daylight companion plate for the gallery daylight control. Text-prompt only. No weather claim. No scenario timestamp on the variant. The scene scenario_label is unchanged and is not a daylight weather assertion.",
+    "note": "Photorealistic daylight plate generated text-prompt-only on 2026-10-04. Not derived by relighting the published master and not image-anchored on it. No live daytime weather reading was available. The plate carries no scenario timestamp and no weather line. Published masters were not rewritten."
+  },
   "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
   "approval_basis": "Approved · Cosmo QC 5/5 · Daylight. Gate 1: Grossmünster's twin-towered Romanesque church with apse and stonework on the Münsterhof plaza — correct identity; clean framing, no artifacts. Gate 2: dims verified; on-bar 'Grossmünster, Zurich', 'Scenario: 24 September 2026 · 15:09 Europe/Zurich', disclosure + signature; retrieval 2026-09-27T16:51:33Z unique, 15:09 inside 15:00-15:59, code 3/98%/22.1°C. Gate 3: text-prompt-only lineage. Gate 4: no people, no logos. Gate 5: no blockers.",
   "sha256_16x9": "a7363e5bb4a2629b33ec73924ffbb0ce22eaa8ebe188f60ebd0df9155edc1ea7",

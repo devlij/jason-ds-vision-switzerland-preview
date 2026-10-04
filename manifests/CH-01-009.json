@@ -13,6 +13,42 @@
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
   "approval_status": "Approved",
+  "daylight_variant": {
+    "variant_of_entry_id": "CH-01-009",
+    "derived_from": "Text-prompt-only photorealistic daylight plate of the same place. Not image-anchored on the published master. Europe/Zurich was night (Open-Meteo is_day 0 at 2026-10-04T23:00 Europe/Zurich), so this plate has no scenario timestamp and no weather line.",
+    "source_night": {
+      "16x9": {
+        "path": "library/world/Switzerland/Montreux/ch-01-009-16x9.png",
+        "sha256": "f362a80a91342775bb7a1c6275ed060e1ebf595e8cdbeb5b99ede03e081b8447"
+      },
+      "4x5": {
+        "path": "library/world/Switzerland/Montreux/ch-01-009-4x5.png",
+        "sha256": "ce7a55aaf0a66b940610a0985f34dc8c40509f385e5c1cbe95a700d8033a3dd0"
+      },
+      "9x16": {
+        "path": "library/world/Switzerland/Montreux/ch-01-009-9x16.png",
+        "sha256": "4ed3f24145d731e69ca2c0252604ef8bc9718d2d621ac7afbedf5350f135c8a4"
+      },
+      "recorded": "SHA-256 of the published masters immediately before this daylight batch. Post-write hashes are identical; published masters were not rewritten."
+    },
+    "files": {
+      "16x9": "library/world/Switzerland/Montreux/ch-01-009-daylight-16x9.png",
+      "4x5": "library/world/Switzerland/Montreux/ch-01-009-daylight-4x5.png",
+      "9x16": "library/world/Switzerland/Montreux/ch-01-009-daylight-9x16.png"
+    },
+    "sha256": {
+      "16x9": "79bf6eec6f6fe771c5fdebbee6d783fa3a8f09d8f126184aeb3d18a3162157b1",
+      "4x5": "0ce805190cb7a11d31ea7effddb55a3c356f5907aaa5e8f8c5f6b1f52f80bf21",
+      "9x16": "e2ad2f7009e3194a94d32ddf91a4cfcc2a1cb3bc0a1084153741933fd76e4449"
+    },
+    "created_date": "2026-10-04",
+    "on_image_caption": "Chillon Castle, Montreux",
+    "on_image_signature": "Jason D’s Vision",
+    "on_image_disclosure": "AI-generated artistic interpretation · Not a photograph.",
+    "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
+    "derivative_disclosure": "Daylight companion plate for the gallery daylight control. Text-prompt only. No weather claim. No scenario timestamp on the variant. The scene scenario_label is unchanged and is not a daylight weather assertion.",
+    "note": "Photorealistic daylight plate generated text-prompt-only on 2026-10-04. Not derived by relighting the published master and not image-anchored on it. No live daytime weather reading was available. The plate carries no scenario timestamp and no weather line. Published masters were not rewritten."
+  },
   "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
   "approval_basis": "Open-Meteo retrieval 2026-09-27T16:51:09Z (unique to the second, repo-wide verified, 2026-09-27) — Gate 2 hardened-weather law satisfied. CH-01-009: Chillon Castle, Montreux. G1: the lakeside castle with its bridge, towers and crenellation on Lake Geneva, snow-dusted Savoy Alps across the water. G2: dims exact; 'Chillon Castle, Montreux' / 14:40. G3–G5 clear.",
   "sha256_16x9": "f362a80a91342775bb7a1c6275ed060e1ebf595e8cdbeb5b99ede03e081b8447",

@@ -13,6 +13,42 @@
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
   "approval_status": "Approved",
+  "daylight_variant": {
+    "variant_of_entry_id": "CH-01-005",
+    "derived_from": "Text-prompt-only photorealistic daylight plate of the same place. Not image-anchored on the published master. Europe/Zurich was night (Open-Meteo is_day 0 at 2026-10-04T23:00 Europe/Zurich), so this plate has no scenario timestamp and no weather line.",
+    "source_night": {
+      "16x9": {
+        "path": "library/world/Switzerland/Bern/ch-01-005-16x9.png",
+        "sha256": "5706a244db9789b0ed786cfee13c9ddd8ac016fe0cdccdc3466b8adf59c40f6a"
+      },
+      "4x5": {
+        "path": "library/world/Switzerland/Bern/ch-01-005-4x5.png",
+        "sha256": "ce0b5a034daa4b5497316d2b6ecfffb59cf45a80725a0b034a915b16267205d0"
+      },
+      "9x16": {
+        "path": "library/world/Switzerland/Bern/ch-01-005-9x16.png",
+        "sha256": "ea710049526d2e1d12f1847270faf73fa16dbfb9da4e87dbb41c95bff2e4fa65"
+      },
+      "recorded": "SHA-256 of the published masters immediately before this daylight batch. Post-write hashes are identical; published masters were not rewritten."
+    },
+    "files": {
+      "16x9": "library/world/Switzerland/Bern/ch-01-005-daylight-16x9.png",
+      "4x5": "library/world/Switzerland/Bern/ch-01-005-daylight-4x5.png",
+      "9x16": "library/world/Switzerland/Bern/ch-01-005-daylight-9x16.png"
+    },
+    "sha256": {
+      "16x9": "dfcf4317490055a286e6d499a2b17f66364b23064deefbb21ceb7f9ddb3310e5",
+      "4x5": "224078c53fb8badc2020137be67c4c34e3c5684fa77e66c2314bfaa6516c21d5",
+      "9x16": "d877f1d60bbf4cbc56746f18c3a87b03e722fdd5ee1988dadf760fdff371b000"
+    },
+    "created_date": "2026-10-04",
+    "on_image_caption": "Zytglogge, Bern",
+    "on_image_signature": "Jason D’s Vision",
+    "on_image_disclosure": "AI-generated artistic interpretation · Not a photograph.",
+    "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
+    "derivative_disclosure": "Daylight companion plate for the gallery daylight control. Text-prompt only. No weather claim. No scenario timestamp on the variant. The scene scenario_label is unchanged and is not a daylight weather assertion.",
+    "note": "Photorealistic daylight plate generated text-prompt-only on 2026-10-04. Not derived by relighting the published master and not image-anchored on it. No live daytime weather reading was available. The plate carries no scenario timestamp and no weather line. Published masters were not rewritten."
+  },
   "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
   "approval_basis": "Open-Meteo retrieval 2026-09-27T16:51:04Z (unique to the second, repo-wide verified, 2026-09-27) — Gate 2 hardened-weather law satisfied. CH-01-005: Zytglogge, Bern. G1: the medieval clock tower with its astronomical dial and spire centered at the end of a cobbled arcade street, Bern's covered arcades both sides. G2: dims exact; 'Zytglogge, Bern' / '24 September 2026 · 14:40 Europe/Zurich'. G3–G5 clear.",
   "sha256_16x9": "5706a244db9789b0ed786cfee13c9ddd8ac016fe0cdccdc3466b8adf59c40f6a",

@@ -13,6 +13,42 @@
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
   "approval_status": "Approved",
+  "daylight_variant": {
+    "variant_of_entry_id": "CH-01-019",
+    "derived_from": "Text-prompt-only photorealistic daylight plate of the same place. Not image-anchored on the published master. Europe/Zurich was night (Open-Meteo is_day 0 at 2026-10-04T23:00 Europe/Zurich), so this plate has no scenario timestamp and no weather line.",
+    "source_night": {
+      "16x9": {
+        "path": "library/world/Switzerland/Sion/ch-01-019-16x9.png",
+        "sha256": "858556918594f61015c1da2bf33b96fb45c1ff762ecf8d1f89ba64daa6c246f7"
+      },
+      "4x5": {
+        "path": "library/world/Switzerland/Sion/ch-01-019-4x5.png",
+        "sha256": "934157561c1b4d529c2f32161abad065a098096a9d500cf39ad811ee9ddf8561"
+      },
+      "9x16": {
+        "path": "library/world/Switzerland/Sion/ch-01-019-9x16.png",
+        "sha256": "8ce482d03d40ebe12b012765f2696ae48c6c986243393a232c931d2db1a8fde6"
+      },
+      "recorded": "SHA-256 of the published masters immediately before this daylight batch. Post-write hashes are identical; published masters were not rewritten."
+    },
+    "files": {
+      "16x9": "library/world/Switzerland/Sion/ch-01-019-daylight-16x9.png",
+      "4x5": "library/world/Switzerland/Sion/ch-01-019-daylight-4x5.png",
+      "9x16": "library/world/Switzerland/Sion/ch-01-019-daylight-9x16.png"
+    },
+    "sha256": {
+      "16x9": "46e8cc10365086d776f93110af9eb2a0b3e273f742d40e7faf2772cc5c7af0d7",
+      "4x5": "ebed91e0abd179bc243429c1266fbfee8d2180079256e9539038dcedd57e37a9",
+      "9x16": "6466047e2f4e80212164b4477136d073cacfa6f5b15aa8792484553598d00455"
+    },
+    "created_date": "2026-10-04",
+    "on_image_caption": "Valère Basilica, Sion",
+    "on_image_signature": "Jason D’s Vision",
+    "on_image_disclosure": "AI-generated artistic interpretation · Not a photograph.",
+    "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
+    "derivative_disclosure": "Daylight companion plate for the gallery daylight control. Text-prompt only. No weather claim. No scenario timestamp on the variant. The scene scenario_label is unchanged and is not a daylight weather assertion.",
+    "note": "Photorealistic daylight plate generated text-prompt-only on 2026-10-04. Not derived by relighting the published master and not image-anchored on it. No live daytime weather reading was available. The plate carries no scenario timestamp and no weather line. Published masters were not rewritten."
+  },
   "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
   "approval_basis": "Approved · Cosmo QC 5/5 · Daylight. Gate 1: fortified Valère Basilica on the left hill, Tourbillon castle ruins on the right hill, Sion's town spread below — the two-hill identity is correct; clean framing, overcast. Gate 2: dims verified; on-bar 'Valère Basilica, Sion', 'Scenario: 24 September 2026 · 15:08 Europe/Zurich', disclosure + signature; retrieval 2026-09-27T16:51:23Z unique, 15:08 inside 15:00-15:59, code 3/83%/25.3°C. Gate 3: text-prompt-only lineage. Gate 4: no identifiable people, no logos. Gate 5: no blockers.",
   "sha256_16x9": "858556918594f61015c1da2bf33b96fb45c1ff762ecf8d1f89ba64daa6c246f7",

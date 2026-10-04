@@ -13,6 +13,42 @@
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
   "approval_status": "Approved",
+  "daylight_variant": {
+    "variant_of_entry_id": "CH-01-020",
+    "derived_from": "Text-prompt-only photorealistic daylight plate of the same place. Not image-anchored on the published master. Europe/Zurich was night (Open-Meteo is_day 0 at 2026-10-04T23:00 Europe/Zurich), so this plate has no scenario timestamp and no weather line.",
+    "source_night": {
+      "16x9": {
+        "path": "library/world/Switzerland/Lucerne/ch-01-020-16x9.png",
+        "sha256": "1937a97151585b7ff2ae912df2cd81837f2251de9d0690d86049ad7709996b8b"
+      },
+      "4x5": {
+        "path": "library/world/Switzerland/Lucerne/ch-01-020-4x5.png",
+        "sha256": "1f9b26a3010753b9b97194249c10ddaef2c75fa59e38d386d969ffb1e3848062"
+      },
+      "9x16": {
+        "path": "library/world/Switzerland/Lucerne/ch-01-020-9x16.png",
+        "sha256": "901a4b5e45748b02c2ac4c0f2eb7407909bfd16bbd0a177664c0d2fb322c5970"
+      },
+      "recorded": "SHA-256 of the published masters immediately before this daylight batch. Post-write hashes are identical; published masters were not rewritten."
+    },
+    "files": {
+      "16x9": "library/world/Switzerland/Lucerne/ch-01-020-daylight-16x9.png",
+      "4x5": "library/world/Switzerland/Lucerne/ch-01-020-daylight-4x5.png",
+      "9x16": "library/world/Switzerland/Lucerne/ch-01-020-daylight-9x16.png"
+    },
+    "sha256": {
+      "16x9": "65009c328f60ff9433c45d011fb8836cdf5fb08bfb968ced63e9c5d0f04da76a",
+      "4x5": "1b6469acfae357454affdad34634469395f7f6cbe826cb858917c0d887919155",
+      "9x16": "7f6ef28b77ca6abf850101f76a8e68ce31aa7a174f8344c6d3c3d4eddeb47820"
+    },
+    "created_date": "2026-10-04",
+    "on_image_caption": "Mount Pilatus, Lucerne",
+    "on_image_signature": "Jason D’s Vision",
+    "on_image_disclosure": "AI-generated artistic interpretation · Not a photograph.",
+    "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
+    "derivative_disclosure": "Daylight companion plate for the gallery daylight control. Text-prompt only. No weather claim. No scenario timestamp on the variant. The scene scenario_label is unchanged and is not a daylight weather assertion.",
+    "note": "Photorealistic daylight plate generated text-prompt-only on 2026-10-04. Not derived by relighting the published master and not image-anchored on it. No live daytime weather reading was available. The plate carries no scenario timestamp and no weather line. Published masters were not rewritten."
+  },
   "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
   "approval_basis": "Approved · Cosmo QC 5/5 · Daylight. Gate 1: jagged rocky Pilatus massif with snow patches rising over Lake Lucerne, shoreline town at its foot — recognizable from the lakeside viewpoint; clean, no artifacts. Gate 2: dims verified; on-bar 'Mount Pilatus, Lucerne', 'Scenario: 24 September 2026 · 15:08 Europe/Zurich', disclosure + signature; retrieval 2026-09-27T16:51:24Z unique, 15:08 inside 15:00-15:59, code 3/99%/21.4°C. Gate 3: text-prompt-only lineage. Gate 4: no people, no logos. Gate 5: no blockers.",
   "sha256_16x9": "1937a97151585b7ff2ae912df2cd81837f2251de9d0690d86049ad7709996b8b",
