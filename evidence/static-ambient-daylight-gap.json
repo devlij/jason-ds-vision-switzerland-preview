@@ -481,6 +481,246 @@
       "caption": "Nyon Castle, Nyon",
       "qc": "pass",
       "output": "assets/ch-01-092-motion-10s-4x5.mp4"
+    },
+    {
+      "entry_id": "CH-01-093",
+      "caption": "Yverdon-les-Bains, Yverdon-les-Bains",
+      "qc": "pass",
+      "output": "assets/ch-01-093-motion-10s-4x5.mp4"
+    },
+    {
+      "entry_id": "CH-01-094",
+      "caption": "Martigny, Martigny",
+      "qc": "pass",
+      "output": "assets/ch-01-094-motion-10s-4x5.mp4"
+    },
+    {
+      "entry_id": "CH-01-095",
+      "caption": "Leukerbad, Leukerbad",
+      "qc": "pass",
+      "output": "assets/ch-01-095-motion-10s-4x5.mp4"
+    },
+    {
+      "entry_id": "CH-01-096",
+      "caption": "Crans-Montana, Crans-Montana",
+      "qc": "pass",
+      "output": "assets/ch-01-096-motion-10s-4x5.mp4"
+    },
+    {
+      "entry_id": "CH-01-097",
+      "caption": "Winterthur, Winterthur",
+      "qc": "pass",
+      "output": "assets/ch-01-097-motion-10s-4x5.mp4"
+    },
+    {
+      "entry_id": "CH-01-098",
+      "caption": "Baden, Baden",
+      "qc": "pass",
+      "output": "assets/ch-01-098-motion-10s-4x5.mp4"
+    },
+    {
+      "entry_id": "CH-01-099",
+      "caption": "Rheinfelden, Rheinfelden",
+      "qc": "pass",
+      "output": "assets/ch-01-099-motion-10s-4x5.mp4"
+    },
+    {
+      "entry_id": "CH-01-100",
+      "caption": "Meiringen, Meiringen",
+      "qc": "pass",
+      "output": "assets/ch-01-100-motion-10s-4x5.mp4"
+    },
+    {
+      "entry_id": "CH-01-101",
+      "caption": "Reichenbach Falls, Schattenhalb",
+      "qc": "pass",
+      "output": "assets/ch-01-101-motion-10s-4x5.mp4"
+    },
+    {
+      "entry_id": "CH-01-102",
+      "caption": "Bachalpsee, Grindelwald",
+      "qc": "pass",
+      "output": "assets/ch-01-102-motion-10s-4x5.mp4"
+    },
+    {
+      "entry_id": "CH-01-103",
+      "caption": "Tr\u00fcmmelbach Falls, Lauterbrunnen",
+      "qc": "pass",
+      "output": "assets/ch-01-103-motion-10s-4x5.mp4"
+    },
+    {
+      "entry_id": "CH-01-104",
+      "caption": "Jungfraujoch, Fieschertal",
+      "qc": "pass",
+      "output": "assets/ch-01-104-motion-10s-4x5.mp4"
+    },
+    {
+      "entry_id": "CH-01-105",
+      "caption": "Verbier, Verbier",
+      "qc": "pass",
+      "output": "assets/ch-01-105-motion-10s-4x5.mp4"
+    },
+    {
+      "entry_id": "CH-01-106",
+      "caption": "Arosa, Arosa",
+      "qc": "pass",
+      "output": "assets/ch-01-106-motion-10s-4x5.mp4"
+    },
+    {
+      "entry_id": "CH-01-107",
+      "caption": "Pontresina, Pontresina",
+      "qc": "pass",
+      "output": "assets/ch-01-107-motion-10s-4x5.mp4"
+    },
+    {
+      "entry_id": "CH-01-108",
+      "caption": "Scuol, Scuol",
+      "qc": "pass",
+      "output": "assets/ch-01-108-motion-10s-4x5.mp4"
+    },
+    {
+      "entry_id": "CH-01-109",
+      "caption": "Gandria, Lugano",
+      "qc": "pass",
+      "output": "assets/ch-01-109-motion-10s-4x5.mp4"
+    },
+    {
+      "entry_id": "CH-01-110",
+      "caption": "Monte Generoso, Val Mara",
+      "qc": "pass",
+      "output": "assets/ch-01-110-motion-10s-4x5.mp4"
+    },
+    {
+      "entry_id": "CH-01-111",
+      "caption": "Schloss Laufen, Laufen-Uhwiesen",
+      "qc": "pass",
+      "output": "assets/ch-01-111-motion-10s-4x5.mp4"
+    },
+    {
+      "entry_id": "CH-01-112",
+      "caption": "Soubey, Soubey",
+      "qc": "pass",
+      "output": "assets/ch-01-112-motion-10s-4x5.mp4"
+    },
+    {
+      "entry_id": "CH-01-113",
+      "caption": "Brunnen, Brunnen",
+      "qc": "pass",
+      "output": "assets/ch-01-113-motion-10s-4x5.mp4"
+    },
+    {
+      "entry_id": "CH-01-114",
+      "caption": "Fl\u00fcelen, Fl\u00fcelen",
+      "qc": "pass",
+      "output": "assets/ch-01-114-motion-10s-4x5.mp4"
+    },
+    {
+      "entry_id": "CH-01-115",
+      "caption": "Schwyz Hauptplatz, Schwyz",
+      "qc": "pass",
+      "output": "assets/ch-01-115-motion-10s-4x5.mp4"
+    },
+    {
+      "entry_id": "CH-01-116",
+      "caption": "Viamala Gorge, Zillis-Reischen",
+      "qc": "pass",
+      "output": "assets/ch-01-116-motion-10s-4x5.mp4"
+    },
+    {
+      "entry_id": "CH-01-117",
+      "caption": "Zernez, Zernez",
+      "qc": "pass",
+      "output": "assets/ch-01-117-motion-10s-4x5.mp4"
+    },
+    {
+      "entry_id": "CH-01-118",
+      "caption": "Guarda, Guarda",
+      "qc": "pass",
+      "output": "assets/ch-01-118-motion-10s-4x5.mp4"
+    },
+    {
+      "entry_id": "CH-01-119",
+      "caption": "Silvaplana, Silvaplana",
+      "qc": "pass",
+      "output": "assets/ch-01-119-motion-10s-4x5.mp4"
+    },
+    {
+      "entry_id": "CH-01-120",
+      "caption": "Champ\u00e9ry, Champ\u00e9ry",
+      "qc": "pass",
+      "output": "assets/ch-01-120-motion-10s-4x5.mp4"
+    },
+    {
+      "entry_id": "CH-01-121",
+      "caption": "Evol\u00e8ne, Evol\u00e8ne",
+      "qc": "pass",
+      "output": "assets/ch-01-121-motion-10s-4x5.mp4"
+    },
+    {
+      "entry_id": "CH-01-122",
+      "caption": "H\u00f6heweg, Interlaken",
+      "qc": "pass",
+      "output": "assets/ch-01-122-motion-10s-4x5.mp4"
+    },
+    {
+      "entry_id": "CH-01-123",
+      "caption": "Harder Kulm, Unterseen",
+      "qc": "pass",
+      "output": "assets/ch-01-123-motion-10s-4x5.mp4"
+    },
+    {
+      "entry_id": "CH-01-124",
+      "caption": "Schynige Platte, G\u00fcndlischwand",
+      "qc": "pass",
+      "output": "assets/ch-01-124-motion-10s-4x5.mp4"
+    },
+    {
+      "entry_id": "CH-01-125",
+      "caption": "First, Grindelwald",
+      "qc": "pass",
+      "output": "assets/ch-01-125-motion-10s-4x5.mp4"
+    },
+    {
+      "entry_id": "CH-01-126",
+      "caption": "Romont Castle, Romont",
+      "qc": "pass",
+      "output": "assets/ch-01-126-motion-10s-4x5.mp4"
+    },
+    {
+      "entry_id": "CH-01-127",
+      "caption": "Avenches, Avenches",
+      "qc": "pass",
+      "output": "assets/ch-01-127-motion-10s-4x5.mp4"
+    },
+    {
+      "entry_id": "CH-01-128",
+      "caption": "Payerne Abbey, Payerne",
+      "qc": "pass",
+      "output": "assets/ch-01-128-motion-10s-4x5.mp4"
+    },
+    {
+      "entry_id": "CH-01-129",
+      "caption": "Klosters, Klosters",
+      "qc": "pass",
+      "output": "assets/ch-01-129-motion-10s-4x5.mp4"
+    },
+    {
+      "entry_id": "CH-01-130",
+      "caption": "Lenzerheide, Vaz/Obervaz",
+      "qc": "pass",
+      "output": "assets/ch-01-130-motion-10s-4x5.mp4"
+    },
+    {
+      "entry_id": "CH-01-131",
+      "caption": "Flims, Flims",
+      "qc": "pass",
+      "output": "assets/ch-01-131-motion-10s-4x5.mp4"
+    },
+    {
+      "entry_id": "CH-01-132",
+      "caption": "Laax, Laax",
+      "qc": "pass",
+      "output": "assets/ch-01-132-motion-10s-4x5.mp4"
     }
   ],
   "passed": [
@@ -563,12 +803,7 @@
     "CH-01-089",
     "CH-01-090",
     "CH-01-091",
-    "CH-01-092"
-  ],
-  "holds": [],
-  "stopped_early": false,
-  "clip_count": 80,
-  "remaining_daylight_missing": [
+    "CH-01-092",
     "CH-01-093",
     "CH-01-094",
     "CH-01-095",
@@ -608,7 +843,12 @@
     "CH-01-129",
     "CH-01-130",
     "CH-01-131",
-    "CH-01-132",
+    "CH-01-132"
+  ],
+  "holds": [],
+  "stopped_early": false,
+  "clip_count": 120,
+  "remaining_daylight_missing": [
     "CH-01-133",
     "CH-01-134",
     "CH-01-135",
@@ -658,5 +898,5 @@
     "CH-01-368",
     "CH-01-369"
   ],
-  "remaining_count": 88
+  "remaining_count": 48
 }
