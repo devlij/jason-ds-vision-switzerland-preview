@@ -1,0 +1,38 @@
+{
+  "entry_id": "CH-01-008",
+  "caption": "Gruy\u00e8res Castle, Gruy\u00e8res",
+  "method": "static-ambient",
+  "daylight": true,
+  "night_master_used": false,
+  "source": "library/world/Switzerland/Gruy\u00e8res/ch-01-008-daylight-4x5.png",
+  "night_master": "library/world/Switzerland/Gruy\u00e8res/ch-01-008-4x5.png",
+  "crop": {
+    "x": 0,
+    "y": 0,
+    "width": 864,
+    "height": 1080,
+    "label_bar_px": 190
+  },
+  "output": "assets/ch-01-008-motion-10s-4x5.mp4",
+  "duration_s": 10.0,
+  "width": 864,
+  "height": 1080,
+  "fps": 30,
+  "frames": 300,
+  "ken_burns": {
+    "zoom": "1.00 to 1.07, cosine ease",
+    "pan": "up",
+    "tool": "ffmpeg zoompan"
+  },
+  "qc": "pass",
+  "sha256": "fbe0b4017554c08948ef07a4691ba413df98ccbac43a9a54047f4ee77020f6ba",
+  "metrics": {
+    "width": 864,
+    "height": 1080,
+    "frames": 300,
+    "duration_s": 10.0,
+    "start_vs_source_mad": 1.385,
+    "adjacent_mad": 0.335,
+    "ends_mad": 19.475
+  }
+}

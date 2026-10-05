@@ -136,6 +136,17 @@
       border-radius: 8px; padding: 0.4rem 0.7rem; font-size: 0.85rem; border: 1px solid var(--line);
     }
     .actions a.download:hover { border-color: var(--accent); }
+    .actions button.motion {
+      display: inline-block; font: inherit; cursor: pointer; background: #3a221f; color: var(--text);
+      border-radius: 8px; padding: 0.4rem 0.7rem; font-size: 0.85rem; border: 1px solid var(--line);
+    }
+    .actions button.motion:hover { border-color: var(--accent); }
+    .actions button.motion.is-active { background: var(--accent); color: var(--bg); border-color: var(--accent); font-weight: 700; }
+    .thumb[hidden] { display: none !important; }
+    .preview video.motion-clip {
+      width: calc(100% - 1.3rem); height: auto; display: block; border-radius: 8px; background: #000;
+      aspect-ratio: 4 / 5; object-fit: contain; margin: 0.65rem 0.65rem 0;
+    }
     .badge {
       display: inline-block; font-size: 0.75rem; color: var(--bg); background: var(--accent);
       border-radius: 999px; padding: 0.25rem 0.6rem; text-decoration: none; font-weight: 600;
@@ -439,6 +450,7 @@
         const day16 = s.file_16x9_day || "";
         const day45 = s.file_4x5_day || "";
         const day916 = s.file_9x16_day || "";
+        const motion = s.file_motion_4x5 || "";
         const dayReady = !!day16 && (!file45 || !!day45) && (!file916 || !!day916);
         const status = s.approval_status || 'Candidate';
         const formats = [];
@@ -480,19 +492,60 @@
               ${file16 ? `<a class="download" data-dl="16x9" href="${esc(file16)}" download="${esc(fileName(file16))}">Download 16:9</a>` : ""}
               ${file45 ? `<a class="download" data-dl="4x5" href="${esc(file45)}" download="${esc(fileName(file45))}">Download 4:5</a>` : ""}
               ${file916 ? `<a class="download" data-dl="9x16" href="${esc(file916)}" download="${esc(fileName(file916))}">Download 9:16</a>` : ""}
-              
+              ${motion ? `<button type="button" class="motion" data-motion="${esc(motion)}" aria-pressed="false" aria-label="Play 10 second daylight motion">Motion</button>` : ""}
             </div>
           </div>`;
         phase1Enhance(card, s);
         grid.appendChild(card);
       }
     }
+    function stopCardMotion(card) {
+      if (!card) return;
+      const video = card.querySelector('video.motion-clip');
+      if (video) { video.pause(); video.remove(); }
+      const link = card.querySelector('a.thumb');
+      if (link) link.hidden = false;
+      const btn = card.querySelector('.motion');
+      if (btn) { btn.classList.remove('is-active'); btn.setAttribute('aria-pressed', 'false'); }
+    }
+    function toggleCardMotion(btn) {
+      const card = btn.closest('.card');
+      if (!card) return;
+      if (card.querySelector('video.motion-clip')) { stopCardMotion(card); return; }
+      document.querySelectorAll('article.card').forEach(stopCardMotion);
+      const src = btn.getAttribute('data-motion');
+      const preview = card.querySelector('.preview');
+      const link = card.querySelector('a.thumb');
+      if (!preview || !src) return;
+      const video = document.createElement('video');
+      video.className = 'motion-clip';
+      video.src = src;
+      video.playsInline = true;
+      video.muted = true;
+      video.preload = 'auto';
+      video.setAttribute('aria-label', 'Daylight static-ambient motion');
+      if (link) link.hidden = true;
+      preview.appendChild(video);
+      preview.scrollIntoView({block: 'center'});
+      btn.classList.add('is-active');
+      btn.setAttribute('aria-pressed', 'true');
+      video.addEventListener('ended', function () { stopCardMotion(card); });
+      const playing = video.play();
+      if (playing && playing.catch) playing.catch(function () { stopCardMotion(card); });
+    }
     grid.addEventListener('click', (event) => {
+      const motionBtn = event.target.closest('.motion');
+      if (motionBtn) {
+        event.preventDefault();
+        toggleCardMotion(motionBtn);
+        return;
+      }
       const dtab = event.target.closest('.day-tab');
       if (dtab) {
         event.preventDefault();
         const dcard = dtab.closest('.card');
         if (!dcard) return;
+        stopCardMotion(dcard);
         const isDay = !dtab.classList.contains('is-active');
         dtab.classList.toggle('is-active', isDay);
         dtab.setAttribute('aria-pressed', isDay ? 'true' : 'false');
@@ -522,6 +575,7 @@
       event.stopPropagation();
       const card = tab.closest('.card');
       if (!card) return;
+      stopCardMotion(card);
       const fmt = tab.dataset.format;
       card.querySelectorAll('.fmt-tab').forEach((item) => {
         const on = item === tab;
