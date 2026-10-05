@@ -13,6 +13,38 @@
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
   "approval_status": "Approved",
+  "daylight_variant": {
+    "variant_of_entry_id": "CH-01-270",
+    "derived_from": "Text-prompt-only photorealistic daylight plate of the same place. Not image-anchored on the published master. Europe/Zurich was night on 5 October 2026, so this plate has no scenario timestamp and no weather line.",
+    "source_night": {
+      "16x9": {
+        "path": "library/world/Switzerland/Lugano/ch-01-270-16x9.png",
+        "sha256": "b0a766a7a07a671c54de621d3846ee13e15994338eb90566b0d02b99f9908fbd"
+      },
+      "4x5": {
+        "path": "library/world/Switzerland/Lugano/ch-01-270-4x5.png",
+        "sha256": "b8c3a14520e9ff31e44a410022bf22f3be9565aa9b1e560bf8ca0b68c78d56ba"
+      },
+      "recorded": "SHA-256 of the published masters immediately before this daylight batch. Post-write hashes are identical; published masters were not rewritten."
+    },
+    "files": {
+      "16x9": "library/world/Switzerland/Lugano/ch-01-270-daylight-16x9.png",
+      "4x5": "library/world/Switzerland/Lugano/ch-01-270-daylight-4x5.png",
+      "9x16": "library/world/Switzerland/Lugano/ch-01-270-daylight-9x16.png"
+    },
+    "sha256": {
+      "16x9": "109a83d9ab14202395d828bfc5275c8627480ce86a450484ddb5509373dac923",
+      "4x5": "d1d314cf9b04f9852bb704f08beb0f7123ea9dcbd1736f9b475c21d77a16df0a",
+      "9x16": "e3830dcf070c3e5bb8209450894bbf0e00ab297f9cc6e7218485fe9b8b2c4bae"
+    },
+    "created_date": "2026-10-05",
+    "on_image_caption": "Carona, Lugano",
+    "on_image_signature": "Jason D’s Vision",
+    "on_image_disclosure": "AI-generated artistic interpretation · Not a photograph.",
+    "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
+    "derivative_disclosure": "Daylight companion plate for the gallery daylight control. Text-prompt only. No weather claim. No scenario timestamp on the variant. The scene scenario_label is unchanged and is not a daylight weather assertion.",
+    "note": "Photorealistic daylight plate generated text-prompt-only on 2026-10-05. Not derived by relighting the published master and not image-anchored on it. No live daytime weather reading was available. The plate carries no scenario timestamp and no weather line. Published masters were not rewritten."
+  },
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "Gate 1 PASS: stone church with tall illuminated bell tower and adjacent loggia arcade at Carona, framed by chestnut foliage, lights along the cloister arch; clean night framing, no artifacts. Gate 2 PASS: 1920x1080/864x1080 exact per sweep; caption 'Carona, Lugano', scenario '24 September 2026 · 19:39 Europe/Zurich', disclosure and 'Jason D's Vision' signature (curly apostrophe) on the bottom scrim, legible; 4:5 master shows the same church and loggia (inter-format identity agrees). Weather per-scene retrieval 2026-09-25T23:47:36Z, unique to the second; model-valid hour 19:00–19:59 Europe/Zurich, scenario 19:39 inside; code 0 clear / 15% cloud / 18.0C consistent with the starry sky. Gate 3: text-prompt-only lineage per note. Gate 4: no visible people, no logos. Gate 5: no open blockers.",
   "approved_at": "2026-09-26T16:40:14.120381+00:00",

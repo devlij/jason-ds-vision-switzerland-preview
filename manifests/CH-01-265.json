@@ -13,6 +13,38 @@
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
   "approval_status": "Approved",
+  "daylight_variant": {
+    "variant_of_entry_id": "CH-01-265",
+    "derived_from": "Text-prompt-only photorealistic daylight plate of the same place. Not image-anchored on the published master. Europe/Zurich was night on 5 October 2026, so this plate has no scenario timestamp and no weather line.",
+    "source_night": {
+      "16x9": {
+        "path": "library/world/Switzerland/Mesocco/ch-01-265-16x9.png",
+        "sha256": "6b03843ff72016d18142932ac832b567ec9986c7b012b58054dce40d6f97d55c"
+      },
+      "4x5": {
+        "path": "library/world/Switzerland/Mesocco/ch-01-265-4x5.png",
+        "sha256": "e777cf6eb0f4b7eb545d52ea6a24161e9d208111391d388b368dd5d1b91c232e"
+      },
+      "recorded": "SHA-256 of the published masters immediately before this daylight batch. Post-write hashes are identical; published masters were not rewritten."
+    },
+    "files": {
+      "16x9": "library/world/Switzerland/Mesocco/ch-01-265-daylight-16x9.png",
+      "4x5": "library/world/Switzerland/Mesocco/ch-01-265-daylight-4x5.png",
+      "9x16": "library/world/Switzerland/Mesocco/ch-01-265-daylight-9x16.png"
+    },
+    "sha256": {
+      "16x9": "9dceae6f1b664e694552abc62f308b41beb1287eb7b8c179d8e364a614e29642",
+      "4x5": "5794063c9b800aa0b37d5e6b3e5bdd83c2e7857a2528225f2d42343d966e1f85",
+      "9x16": "d9673d946dab1000c3c16e0c24b8c891a13c59c0956143aa87f9bd9549cb0524"
+    },
+    "created_date": "2026-10-05",
+    "on_image_caption": "San Bernardino Pass, Mesocco",
+    "on_image_signature": "Jason D’s Vision",
+    "on_image_disclosure": "AI-generated artistic interpretation · Not a photograph.",
+    "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
+    "derivative_disclosure": "Daylight companion plate for the gallery daylight control. Text-prompt only. No weather claim. No scenario timestamp on the variant. The scene scenario_label is unchanged and is not a daylight weather assertion.",
+    "note": "Photorealistic daylight plate generated text-prompt-only on 2026-10-05. Not derived by relighting the published master and not image-anchored on it. No live daytime weather reading was available. The plate carries no scenario timestamp and no weather line. Published masters were not rewritten."
+  },
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "San Bernardino Pass, Mesocco alpine tarn at night: Gate 1 pass — dark mountain lake between rocky snow-patched slopes, curving pass road at right, starry sky with twilight glow on the horizon, matching the pass-crest viewpoint. Gate 2 pass — exact dims, caption 'San Bernardino Pass, Mesocco', scenario '24 September 2026 · 19:39 Europe/Zurich', disclosure, signature; retrieval 2026-09-25T23:47:31Z unique repo-wide, 19:30 model step covers scenario. Gate 3 pass — text-prompt-only. Gate 4 noted — no people, no logos. Gate 5 pass.",
   "approved_at": "2026-09-26T15:37:47.666584+00:00",

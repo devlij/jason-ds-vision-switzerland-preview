@@ -13,6 +13,38 @@
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
   "approval_status": "Approved",
+  "daylight_variant": {
+    "variant_of_entry_id": "CH-01-246",
+    "derived_from": "Text-prompt-only photorealistic daylight plate of the same place. Not image-anchored on the published master. Europe/Zurich was night on 5 October 2026, so this plate has no scenario timestamp and no weather line.",
+    "source_night": {
+      "16x9": {
+        "path": "library/world/Switzerland/Unterseen/ch-01-246-16x9.png",
+        "sha256": "e818789c3e211756d7eeb119f1eafb22f86ff97bf80fc62913c9a8ef1e5e343f"
+      },
+      "4x5": {
+        "path": "library/world/Switzerland/Unterseen/ch-01-246-4x5.png",
+        "sha256": "273ed412c4cdbad445b46a2269777037dba8e9b7c798cbbecd70be844e0c3259"
+      },
+      "recorded": "SHA-256 of the published masters immediately before this daylight batch. Post-write hashes are identical; published masters were not rewritten."
+    },
+    "files": {
+      "16x9": "library/world/Switzerland/Unterseen/ch-01-246-daylight-16x9.png",
+      "4x5": "library/world/Switzerland/Unterseen/ch-01-246-daylight-4x5.png",
+      "9x16": "library/world/Switzerland/Unterseen/ch-01-246-daylight-9x16.png"
+    },
+    "sha256": {
+      "16x9": "5a434be48d2ff08626ab7757b830b6efb7fd520cae92c064e31ba28cd46c45a6",
+      "4x5": "ee0dcb988cdbdffad46bdd83cd17721153f3e742e4b80cfc1f8aedf77e41b673",
+      "9x16": "579c70a4701e47373ce63af7fccaa7c878ca4b8f7b19c6e610fb3f09234be057"
+    },
+    "created_date": "2026-10-05",
+    "on_image_caption": "Old Town, Unterseen",
+    "on_image_signature": "Jason D’s Vision",
+    "on_image_disclosure": "AI-generated artistic interpretation · Not a photograph.",
+    "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
+    "derivative_disclosure": "Daylight companion plate for the gallery daylight control. Text-prompt only. No weather claim. No scenario timestamp on the variant. The scene scenario_label is unchanged and is not a daylight weather assertion.",
+    "note": "Photorealistic daylight plate generated text-prompt-only on 2026-10-05. Not derived by relighting the published master and not image-anchored on it. No live daytime weather reading was available. The plate carries no scenario timestamp and no weather line. Published masters were not rewritten."
+  },
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "Gate 1: the Stedli's arcaded wooden street of Unterseen at twilight closing on the reformed church with its tall tower and clock, lit windows, overcast sky — old town, not the Harder Kulm terrace, no festival banners. Gate 2: exact 1920x1080/864x1080; signature/caption 'Old Town, Unterseen'/scenario '24 September 2026 · 19:20 Europe/Zurich'/disclosure all on-image; retrieval 2026-09-25T23:46:11Z unique per-scene (repo-wide no duplicates), valid 19:15 hour. Gate 3: text-prompt-only. Gate 4: no visible people or logos.",
   "approved_at": "2026-09-26T15:13:17.842025+00:00",

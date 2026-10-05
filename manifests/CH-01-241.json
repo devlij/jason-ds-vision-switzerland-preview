@@ -13,6 +13,38 @@
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
   "approval_status": "Approved",
+  "daylight_variant": {
+    "variant_of_entry_id": "CH-01-241",
+    "derived_from": "Text-prompt-only photorealistic daylight plate of the same place. Not image-anchored on the published master. Europe/Zurich was night on 5 October 2026, so this plate has no scenario timestamp and no weather line.",
+    "source_night": {
+      "16x9": {
+        "path": "library/world/Switzerland/Innertkirchen/ch-01-241-16x9.png",
+        "sha256": "bbb1739bbbc59139f5ee578c5680332ccff1733df1a33958e3c222448bdd8ecf"
+      },
+      "4x5": {
+        "path": "library/world/Switzerland/Innertkirchen/ch-01-241-4x5.png",
+        "sha256": "8f4a3e4298228965502fa41a4a9b76bbf74b3f8d1739af669d85d9edc27ee869"
+      },
+      "recorded": "SHA-256 of the published masters immediately before this daylight batch. Post-write hashes are identical; published masters were not rewritten."
+    },
+    "files": {
+      "16x9": "library/world/Switzerland/Innertkirchen/ch-01-241-daylight-16x9.png",
+      "4x5": "library/world/Switzerland/Innertkirchen/ch-01-241-daylight-4x5.png",
+      "9x16": "library/world/Switzerland/Innertkirchen/ch-01-241-daylight-9x16.png"
+    },
+    "sha256": {
+      "16x9": "d2547a14354dabee0d3a6a4926fcca504e5af1d3e9a5582a779a5f87f48474a5",
+      "4x5": "a26418dda58b087bdb5c24f9e87d9ad14bf86611bdd3d434bec70362c7220af9",
+      "9x16": "b776f6cbde43c6ab22e15caa7a1a791d62407ed36baa9bc25e410ce79079f37e"
+    },
+    "created_date": "2026-10-05",
+    "on_image_caption": "Susten Pass, Innertkirchen",
+    "on_image_signature": "Jason D’s Vision",
+    "on_image_disclosure": "AI-generated artistic interpretation · Not a photograph.",
+    "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
+    "derivative_disclosure": "Daylight companion plate for the gallery daylight control. Text-prompt only. No weather claim. No scenario timestamp on the variant. The scene scenario_label is unchanged and is not a daylight weather assertion.",
+    "note": "Photorealistic daylight plate generated text-prompt-only on 2026-10-05. Not derived by relighting the published master and not image-anchored on it. No live daytime weather reading was available. The plate carries no scenario timestamp and no weather line. Published masters were not rewritten."
+  },
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "Gate 1: Steinsee at blue-hour night with the low pass hotel's lit windows, the road along the shore, and the pale Stein Glacier tongue above — twilight sky with stars, matching the note's night/solar-altitude -1° calculation; not Wassen, not Grimsel. Gate 2: exact dims; signature 'Jason D's Vision'; caption 'Susten Pass, Innertkirchen' + scenario '24 September 2026 · 19:20 Europe/Zurich' + disclosure on scrim; retrieval 2026-09-25T23:46:06Z unique per-scene (repo-wide scan: no duplicate timestamps), valid 19:15 hour covers the 19:20 scenario. Gate 3: text-prompt-only. Gate 4: no people, no logos.",
   "approved_at": "2026-09-26T15:12:52.819397+00:00",

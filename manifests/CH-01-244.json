@@ -13,6 +13,38 @@
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
   "approval_status": "Approved",
+  "daylight_variant": {
+    "variant_of_entry_id": "CH-01-244",
+    "derived_from": "Text-prompt-only photorealistic daylight plate of the same place. Not image-anchored on the published master. Europe/Zurich was night on 5 October 2026, so this plate has no scenario timestamp and no weather line.",
+    "source_night": {
+      "16x9": {
+        "path": "library/world/Switzerland/Brienz/ch-01-244-16x9.png",
+        "sha256": "291bc3c9bf612da1dd917e8436a64383034cd5bb6c92eb7068ea8c0dad362039"
+      },
+      "4x5": {
+        "path": "library/world/Switzerland/Brienz/ch-01-244-4x5.png",
+        "sha256": "15242ed0c2ee7ddc478bc76d7f1a9c937d951039bbfd0298f9f8c645e9ee3c1c"
+      },
+      "recorded": "SHA-256 of the published masters immediately before this daylight batch. Post-write hashes are identical; published masters were not rewritten."
+    },
+    "files": {
+      "16x9": "library/world/Switzerland/Brienz/ch-01-244-daylight-16x9.png",
+      "4x5": "library/world/Switzerland/Brienz/ch-01-244-daylight-4x5.png",
+      "9x16": "library/world/Switzerland/Brienz/ch-01-244-daylight-9x16.png"
+    },
+    "sha256": {
+      "16x9": "8f840231b1460044f17d8827371681561720b3da2ced906868eee429f78d6839",
+      "4x5": "c941cad082ab94641d1fa1a876cd0a650ebc25a95657a418e34f1d902bffb190",
+      "9x16": "a80061b94f7e60662c3e9936e64f9340f9eeaa08b545a9315612247fa603fb4a"
+    },
+    "created_date": "2026-10-05",
+    "on_image_caption": "Axalp, Brienz",
+    "on_image_signature": "Jason D’s Vision",
+    "on_image_disclosure": "AI-generated artistic interpretation · Not a photograph.",
+    "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
+    "derivative_disclosure": "Daylight companion plate for the gallery daylight control. Text-prompt only. No weather claim. No scenario timestamp on the variant. The scene scenario_label is unchanged and is not a daylight weather assertion.",
+    "note": "Photorealistic daylight plate generated text-prompt-only on 2026-10-05. Not derived by relighting the published master and not image-anchored on it. No live daytime weather reading was available. The plate carries no scenario timestamp and no weather line. Published masters were not rewritten."
+  },
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "Gate 1: wooden Axalp chalets and the modest inn on the tawny pasture above dark Lake Brienz with its far-shore lights, heavy overcast, no snow, no aircraft, no rebuilt grand hotel. Gate 2: exact 1920x1080/864x1080; signature; caption 'Axalp, Brienz' + scenario '24 September 2026 · 19:20 Europe/Zurich' + disclosure legible; retrieval 2026-09-25T23:46:09Z unique per-scene (repo-wide scan clean), valid 19:15 hour covers scenario. Gate 3: text-prompt-only lineage. Gate 4: no visible people or logos.",
   "approved_at": "2026-09-26T15:13:08.102666+00:00",

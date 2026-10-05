@@ -13,6 +13,38 @@
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
   "approval_status": "Approved",
+  "daylight_variant": {
+    "variant_of_entry_id": "CH-01-255",
+    "derived_from": "Text-prompt-only photorealistic daylight plate of the same place. Not image-anchored on the published master. Europe/Zurich was night on 5 October 2026, so this plate has no scenario timestamp and no weather line.",
+    "source_night": {
+      "16x9": {
+        "path": "library/world/Switzerland/Brusio/ch-01-255-16x9.png",
+        "sha256": "0c714c12cb7be4b81f862005033ac919179be516a130b66d1b3479d5029c7c52"
+      },
+      "4x5": {
+        "path": "library/world/Switzerland/Brusio/ch-01-255-4x5.png",
+        "sha256": "fc860461b479955e1e0907ca793e2f4bcd939cc660d1c6e7d03ee9f50c1ffec2"
+      },
+      "recorded": "SHA-256 of the published masters immediately before this daylight batch. Post-write hashes are identical; published masters were not rewritten."
+    },
+    "files": {
+      "16x9": "library/world/Switzerland/Brusio/ch-01-255-daylight-16x9.png",
+      "4x5": "library/world/Switzerland/Brusio/ch-01-255-daylight-4x5.png",
+      "9x16": "library/world/Switzerland/Brusio/ch-01-255-daylight-9x16.png"
+    },
+    "sha256": {
+      "16x9": "cc3abd4dc592f881559b38de4347d10e23ea49bd9d69ff73d5e7aef24f3cfb44",
+      "4x5": "ccf529354762b10ca56f992630c78839887ba94a50a12abcfa0b6a1f1833dd62",
+      "9x16": "2cf37caccb9147b373cd23119256796ee7d94ba269ed761c4c9abf78f70e4270"
+    },
+    "created_date": "2026-10-05",
+    "on_image_caption": "Spiral Viaduct, Brusio",
+    "on_image_signature": "Jason D’s Vision",
+    "on_image_disclosure": "AI-generated artistic interpretation · Not a photograph.",
+    "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
+    "derivative_disclosure": "Daylight companion plate for the gallery daylight control. Text-prompt only. No weather claim. No scenario timestamp on the variant. The scene scenario_label is unchanged and is not a daylight weather assertion.",
+    "note": "Photorealistic daylight plate generated text-prompt-only on 2026-10-05. Not derived by relighting the published master and not image-anchored on it. No live daytime weather reading was available. The plate carries no scenario timestamp and no weather line. Published masters were not rewritten."
+  },
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "Spiral Viaduct, Brusio circular viaduct at nightfall: Gate 1 pass — nine-arch stone viaduct completing a full loop in open valley meadows, track on top with an unbranded lit train car, late-September trees in leaf, no snow, not the Landwasser. Gate 2 pass — exact dims, caption 'Spiral Viaduct, Brusio', scenario '24 September 2026 · 19:21 Europe/Zurich', disclosure, signature; retrieval 2026-09-25T23:46:20Z unique repo-wide, model step 19:15 valid for scenario. Gate 3 pass — text-prompt-only. Gate 4 noted — no readable train brand, no people. Gate 5 pass.",
   "approved_at": "2026-09-26T15:37:00.918057+00:00",

@@ -13,6 +13,38 @@
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
   "approval_status": "Approved",
+  "daylight_variant": {
+    "variant_of_entry_id": "CH-01-249",
+    "derived_from": "Text-prompt-only photorealistic daylight plate of the same place. Not image-anchored on the published master. Europe/Zurich was night on 5 October 2026, so this plate has no scenario timestamp and no weather line.",
+    "source_night": {
+      "16x9": {
+        "path": "library/world/Switzerland/Lauterbrunnen/ch-01-249-16x9.png",
+        "sha256": "0768a1a9f50d6eac6a4cadc0ed76fb9a5eb64d7522fdcff2de6c2211497c5e04"
+      },
+      "4x5": {
+        "path": "library/world/Switzerland/Lauterbrunnen/ch-01-249-4x5.png",
+        "sha256": "7955988205fd5245a3218e43ae2cc32ce919be88cb7ae76286003295315b99e4"
+      },
+      "recorded": "SHA-256 of the published masters immediately before this daylight batch. Post-write hashes are identical; published masters were not rewritten."
+    },
+    "files": {
+      "16x9": "library/world/Switzerland/Lauterbrunnen/ch-01-249-daylight-16x9.png",
+      "4x5": "library/world/Switzerland/Lauterbrunnen/ch-01-249-daylight-4x5.png",
+      "9x16": "library/world/Switzerland/Lauterbrunnen/ch-01-249-daylight-9x16.png"
+    },
+    "sha256": {
+      "16x9": "2fc3097f73f7c30b846f540841e0dabf5bde22778847337809b82c167391f2f3",
+      "4x5": "5de4f6c1b53ad1f45c3212b4f0b92ad1733f0549ec4ac312cc49c36b590ef9b1",
+      "9x16": "b1a0c563c854a21ae65b0a9966ead2977a6c1e37af283c41b7334d0e798f0e52"
+    },
+    "created_date": "2026-10-05",
+    "on_image_caption": "Parish Church, Lauterbrunnen",
+    "on_image_signature": "Jason D’s Vision",
+    "on_image_disclosure": "AI-generated artistic interpretation · Not a photograph.",
+    "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
+    "derivative_disclosure": "Daylight companion plate for the gallery daylight control. Text-prompt only. No weather claim. No scenario timestamp on the variant. The scene scenario_label is unchanged and is not a daylight weather assertion.",
+    "note": "Photorealistic daylight plate generated text-prompt-only on 2026-10-05. Not derived by relighting the published master and not image-anchored on it. No live daytime weather reading was available. The plate carries no scenario timestamp and no weather line. Published masters were not rewritten."
+  },
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "Gate 1: Lauterbrunnen's parish church spire with one lit stained-glass window rising over the dark village street of wooden chalets with glowing windows at night — plausible street-level viewpoint, no glaring misconfiguration. Gate 2: exact dims; 'Jason D's Vision' signature bottom-right; caption 'Parish Church, Lauterbrunnen' + scenario '24 September 2026 · 19:21 Europe/Zurich' + disclosure on scrim; retrieval 2026-09-25T23:46:14Z unique per-scene (repo-wide zero duplicates), valid 19:15 hour. Gate 3: text-prompt-only. Gate 4: no people, no logos.",
   "approved_at": "2026-09-26T15:13:31.546067+00:00",
