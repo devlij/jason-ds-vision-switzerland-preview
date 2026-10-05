@@ -1,0 +1,38 @@
+{
+  "entry_id": "CH-01-082",
+  "caption": "Kl\u00f6ntalersee, Glarus",
+  "method": "static-ambient",
+  "daylight": true,
+  "night_master_used": false,
+  "source": "library/world/Switzerland/Glarus/ch-01-082-daylight-4x5.png",
+  "night_master": "library/world/Switzerland/Glarus/ch-01-082-4x5.png",
+  "crop": {
+    "x": 0,
+    "y": 0,
+    "width": 864,
+    "height": 1080,
+    "label_bar_px": 190
+  },
+  "output": "assets/ch-01-082-motion-10s-4x5.mp4",
+  "duration_s": 10.0,
+  "width": 864,
+  "height": 1080,
+  "fps": 30,
+  "frames": 300,
+  "ken_burns": {
+    "zoom": "1.00 to 1.07, cosine ease",
+    "pan": "left",
+    "tool": "ffmpeg zoompan"
+  },
+  "qc": "pass",
+  "sha256": "2e38f3d095e4507d63b789f784849f1f19358995c0ad98f3ee907f42dd594f3c",
+  "metrics": {
+    "width": 864,
+    "height": 1080,
+    "frames": 300,
+    "duration_s": 10.0,
+    "start_vs_source_mad": 1.273,
+    "adjacent_mad": 0.385,
+    "ends_mad": 13.345
+  }
+}

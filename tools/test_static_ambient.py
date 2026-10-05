@@ -24,19 +24,30 @@ def _scene(entry_id: str, hour: int, source: str = "day") -> dict:
     }
 
 
-def test_night_hour_and_night_tag_are_excluded() -> None:
+def test_day_tag_wins_over_night_hour_and_night_tag_stays_out() -> None:
     scenes = [
         _scene("CH-01-001", 14),
         _scene("CH-01-002", 19),
         _scene("CH-01-003", 14),
         _scene("CH-01-004", 5),
+        _scene("CH-01-005", 12),
+        _scene("CH-01-006", 20),
     ]
-    tags = {"CH-01-001": "day", "CH-01-002": "day", "CH-01-003": "night", "CH-01-004": "day"}
+    tags = {
+        "CH-01-001": "day",
+        "CH-01-002": "day",
+        "CH-01-003": "night",
+        "CH-01-004": "day",
+    }
     chosen = [
         scene["entry_id"]
         for scene in ambient.select_candidates(scenes, tags, set(), exists=lambda entry_id: False)
     ]
-    assert chosen == ["CH-01-001"]
+    assert chosen == ["CH-01-001", "CH-01-002", "CH-01-004", "CH-01-005"]
+    assert ambient.is_daylight_scene(scenes[1], "day") is True
+    assert ambient.is_daylight_scene(scenes[2], "night") is False
+    assert ambient.is_daylight_scene(scenes[4], None) is True
+    assert ambient.is_daylight_scene(scenes[5], None) is False
 
 
 def test_lowest_ids_skip_existing_clips_and_holds() -> None:
@@ -83,6 +94,20 @@ def test_three_different_holds_stop_without_a_fourth_attempt() -> None:
     assert [row["qc"] for row in mixed["attempted"]] == ["hold", "pass", "hold", "hold", "hold"]
 
 
+def test_initial_streak_stops_on_the_next_hold() -> None:
+    scenes = [_scene(f"CH-01-{i:03d}", 14) for i in range(1, 4)]
+    calls: list[str] = []
+
+    def all_hold(scene: dict):
+        calls.append(scene["entry_id"])
+        return "hold", "qc"
+
+    outcome = ambient.consume(scenes, all_hold, limit=12, initial_streak=2)
+    assert outcome["stopped_early"] is True
+    assert outcome["streak"] == 3
+    assert calls == ["CH-01-001"]
+
+
 def test_a_pass_resets_the_streak() -> None:
     scenes = [_scene(f"CH-01-{i:03d}", 12) for i in range(1, 5)]
 
@@ -115,9 +140,10 @@ def test_motion_button_is_published_only_when_the_clip_exists() -> None:
 
 
 def main() -> None:
-    test_night_hour_and_night_tag_are_excluded()
+    test_day_tag_wins_over_night_hour_and_night_tag_stays_out()
     test_lowest_ids_skip_existing_clips_and_holds()
     test_three_different_holds_stop_without_a_fourth_attempt()
+    test_initial_streak_stops_on_the_next_hold()
     test_a_pass_resets_the_streak()
     test_motion_button_is_published_only_when_the_clip_exists()
     print("static-ambient tests passed")

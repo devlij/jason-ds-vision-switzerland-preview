@@ -1,0 +1,38 @@
+{
+  "entry_id": "CH-01-134",
+  "caption": "Trogen, Trogen",
+  "method": "static-ambient",
+  "daylight": true,
+  "night_master_used": false,
+  "source": "library/world/Switzerland/Trogen/ch-01-134-daylight-4x5.png",
+  "night_master": "library/world/Switzerland/Trogen/ch-01-134-4x5.png",
+  "crop": {
+    "x": 0,
+    "y": 0,
+    "width": 864,
+    "height": 1080,
+    "label_bar_px": 190
+  },
+  "output": "assets/ch-01-134-motion-10s-4x5.mp4",
+  "duration_s": 10.0,
+  "width": 864,
+  "height": 1080,
+  "fps": 30,
+  "frames": 300,
+  "ken_burns": {
+    "zoom": "1.00 to 1.07, cosine ease",
+    "pan": "left",
+    "tool": "ffmpeg zoompan"
+  },
+  "qc": "pass",
+  "sha256": "66c4e9aea59fe4e3b68d594ddbc6329937d7b07cf6f728e86a271435280c2fa1",
+  "metrics": {
+    "width": 864,
+    "height": 1080,
+    "frames": 300,
+    "duration_s": 10.0,
+    "start_vs_source_mad": 1.35,
+    "adjacent_mad": 0.284,
+    "ends_mad": 19.312
+  }
+}

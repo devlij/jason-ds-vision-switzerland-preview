@@ -1,0 +1,38 @@
+{
+  "entry_id": "CH-01-203",
+  "caption": "Bad Ragaz, Bad Ragaz",
+  "method": "static-ambient",
+  "daylight": true,
+  "night_master_used": false,
+  "source": "library/world/Switzerland/Bad Ragaz/ch-01-203-daylight-4x5.png",
+  "night_master": "library/world/Switzerland/Bad Ragaz/ch-01-203-4x5.png",
+  "crop": {
+    "x": 0,
+    "y": 0,
+    "width": 864,
+    "height": 1080,
+    "label_bar_px": 190
+  },
+  "output": "assets/ch-01-203-motion-10s-4x5.mp4",
+  "duration_s": 10.0,
+  "width": 864,
+  "height": 1080,
+  "fps": 30,
+  "frames": 300,
+  "ken_burns": {
+    "zoom": "1.00 to 1.07, cosine ease",
+    "pan": "down",
+    "tool": "ffmpeg zoompan"
+  },
+  "qc": "pass",
+  "sha256": "77cda9730b3deed7e06a0c2e0c4722218c21508dc8294603b5d00e61cb5ab69d",
+  "metrics": {
+    "width": 864,
+    "height": 1080,
+    "frames": 300,
+    "duration_s": 10.0,
+    "start_vs_source_mad": 1.376,
+    "adjacent_mad": 0.331,
+    "ends_mad": 24.083
+  }
+}

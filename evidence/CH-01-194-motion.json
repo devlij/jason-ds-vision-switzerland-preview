@@ -1,0 +1,38 @@
+{
+  "entry_id": "CH-01-194",
+  "caption": "San Quirico, Minusio",
+  "method": "static-ambient",
+  "daylight": true,
+  "night_master_used": false,
+  "source": "library/world/Switzerland/Minusio/ch-01-194-daylight-4x5.png",
+  "night_master": "library/world/Switzerland/Minusio/ch-01-194-4x5.png",
+  "crop": {
+    "x": 0,
+    "y": 0,
+    "width": 864,
+    "height": 1080,
+    "label_bar_px": 190
+  },
+  "output": "assets/ch-01-194-motion-10s-4x5.mp4",
+  "duration_s": 10.0,
+  "width": 864,
+  "height": 1080,
+  "fps": 30,
+  "frames": 300,
+  "ken_burns": {
+    "zoom": "1.00 to 1.07, cosine ease",
+    "pan": "left",
+    "tool": "ffmpeg zoompan"
+  },
+  "qc": "pass",
+  "sha256": "eebe52f2b26f6a53fe70d2a663e872f053eba3c77db5ace2ec8814620011b819",
+  "metrics": {
+    "width": 864,
+    "height": 1080,
+    "frames": 300,
+    "duration_s": 10.0,
+    "start_vs_source_mad": 1.4,
+    "adjacent_mad": 0.388,
+    "ends_mad": 20.58
+  }
+}

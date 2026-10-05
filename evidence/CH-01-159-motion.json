@@ -1,0 +1,38 @@
+{
+  "entry_id": "CH-01-159",
+  "caption": "Estavayer-le-Lac, Estavayer-le-Lac",
+  "method": "static-ambient",
+  "daylight": true,
+  "night_master_used": false,
+  "source": "library/world/Switzerland/Estavayer-le-Lac/ch-01-159-daylight-4x5.png",
+  "night_master": "library/world/Switzerland/Estavayer-le-Lac/ch-01-159-4x5.png",
+  "crop": {
+    "x": 0,
+    "y": 0,
+    "width": 864,
+    "height": 1080,
+    "label_bar_px": 190
+  },
+  "output": "assets/ch-01-159-motion-10s-4x5.mp4",
+  "duration_s": 10.0,
+  "width": 864,
+  "height": 1080,
+  "fps": 30,
+  "frames": 300,
+  "ken_burns": {
+    "zoom": "1.00 to 1.07, cosine ease",
+    "pan": "down",
+    "tool": "ffmpeg zoompan"
+  },
+  "qc": "pass",
+  "sha256": "dfa9cfa057e0d7c56f9451da4d546f39361ddc68ca8434bf5f7519d6e2a4af4c",
+  "metrics": {
+    "width": 864,
+    "height": 1080,
+    "frames": 300,
+    "duration_s": 10.0,
+    "start_vs_source_mad": 1.371,
+    "adjacent_mad": 0.354,
+    "ends_mad": 24.153
+  }
+}

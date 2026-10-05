@@ -1,0 +1,38 @@
+{
+  "entry_id": "CH-01-057",
+  "caption": "Chur Old Town, Chur",
+  "method": "static-ambient",
+  "daylight": true,
+  "night_master_used": false,
+  "source": "library/world/Switzerland/Chur/ch-01-057-daylight-4x5.png",
+  "night_master": "library/world/Switzerland/Chur/ch-01-057-4x5.png",
+  "crop": {
+    "x": 0,
+    "y": 0,
+    "width": 864,
+    "height": 1080,
+    "label_bar_px": 190
+  },
+  "output": "assets/ch-01-057-motion-10s-4x5.mp4",
+  "duration_s": 10.0,
+  "width": 864,
+  "height": 1080,
+  "fps": 30,
+  "frames": 300,
+  "ken_burns": {
+    "zoom": "1.00 to 1.07, cosine ease",
+    "pan": "right",
+    "tool": "ffmpeg zoompan"
+  },
+  "qc": "pass",
+  "sha256": "48d6658e482d717ef200b1b1c83c15e466701d541a35171bfc61249131a7911d",
+  "metrics": {
+    "width": 864,
+    "height": 1080,
+    "frames": 300,
+    "duration_s": 10.0,
+    "start_vs_source_mad": 1.432,
+    "adjacent_mad": 0.366,
+    "ends_mad": 27.009
+  }
+}
