@@ -141,10 +141,14 @@ def select_candidates(
     return chosen
 
 
-def consume(candidates: list[dict], produce, limit: int = 12) -> dict:
-    """One attempt per scene. Three different HOLDs in a row stop the pack."""
+def consume(candidates: list[dict], produce, limit: int = 12, initial_streak: int = 0) -> dict:
+    """One attempt per scene. Three different HOLDs in a row stop the pack.
+
+    initial_streak carries a HOLD streak from the previous batch so a stop
+    still lands on three consecutive scenes when encodes are committed in chunks.
+    """
     attempted: list[dict] = []
-    streak = 0
+    streak = initial_streak
     stopped = False
     for scene in candidates[:limit]:
         qc, reason = produce(scene)
@@ -156,7 +160,7 @@ def consume(candidates: list[dict], produce, limit: int = 12) -> dict:
                 break
         else:
             streak = 0
-    return {"attempted": attempted, "stopped_early": stopped}
+    return {"attempted": attempted, "stopped_early": stopped, "streak": streak}
 
 
 def _png_size(path: Path) -> tuple[int, int] | None:
@@ -485,7 +489,104 @@ def run_pack(limit: int = 12) -> dict:
     return summary
 
 
+GAP_EVIDENCE = "static-ambient-daylight-gap.json"
+
+
+def _pack1_ids() -> set[str]:
+    path = EVIDENCE / "static-ambient-pack-1.json"
+    if not path.is_file():
+        return set()
+    data = json.loads(path.read_text(encoding="utf-8"))
+    return {entry_id for entry_id in data.get("passed") or [] if isinstance(entry_id, str)}
+
+
+def build_gap_summary(stopped_early: bool = False) -> dict:
+    """Scenes encoded after pack 1, plus any HOLD, and the daylight ids still missing a clip."""
+    scenes = load_scenes()
+    tags = load_tags()
+    skip = _pack1_ids()
+    catalog: list[dict] = []
+    holds: list[dict] = []
+    for scene in scenes:
+        entry_id = scene["entry_id"]
+        if entry_id in skip:
+            continue
+        path = evidence_path(entry_id)
+        if not path.is_file():
+            continue
+        row = json.loads(path.read_text(encoding="utf-8"))
+        if row.get("method") != METHOD:
+            continue
+        item = {
+            "entry_id": entry_id,
+            "caption": row.get("caption") or scene.get("caption") or "",
+            "qc": row.get("qc") or "",
+            "output": row.get("output") or "",
+        }
+        if row.get("qc") == "hold":
+            item["qc_reason"] = row.get("qc_reason") or ""
+            holds.append({
+                "entry_id": entry_id,
+                "caption": item["caption"],
+                "qc_reason": item["qc_reason"],
+            })
+        catalog.append(item)
+    missing = remaining_daylight(scenes, tags)
+    passed = [item["entry_id"] for item in catalog if item["qc"] == "pass"]
+    return {
+        "method": METHOD,
+        "scope": "daylight scenes still missing a clip after static-ambient pack 1",
+        "scenes": catalog,
+        "passed": passed,
+        "holds": holds,
+        "stopped_early": stopped_early,
+        "clip_count": len(passed),
+        "remaining_daylight_missing": missing,
+        "remaining_count": len(missing),
+    }
+
+
+def run_daylight_gap(limit: int = 40, initial_streak: int = 0) -> dict:
+    """Encode the next daylight scenes that have no clip. One attempt each."""
+    scenes = load_scenes()
+    tags = load_tags()
+    candidates = select_candidates(scenes, tags, held_ids())
+
+    def produce(scene: dict):
+        print(f"attempt {scene['entry_id']}", flush=True)
+        qc, reason = attempt(scene)
+        print(f"  {qc} {reason}", flush=True)
+        return qc, reason
+
+    outcome = consume(candidates, produce, limit, initial_streak=initial_streak)
+    summary = build_gap_summary(outcome["stopped_early"])
+    wire_motion_buttons([item["entry_id"] for item in summary["scenes"] if item["qc"] == "pass"])
+    EVIDENCE.mkdir(parents=True, exist_ok=True)
+    (EVIDENCE / GAP_EVIDENCE).write_text(json.dumps(summary, indent=2) + "\n", encoding="utf-8")
+    summary["streak"] = outcome["streak"]
+    summary["batch_attempted"] = [row["entry_id"] for row in outcome["attempted"]]
+    return summary
+
+
 def main() -> None:
+    import argparse
+
+    parser = argparse.ArgumentParser(description="Static-ambient Ken Burns packs")
+    parser.add_argument("--gap", action="store_true", help="encode the remaining daylight gap")
+    parser.add_argument("--limit", type=int, default=40)
+    parser.add_argument("--initial-streak", type=int, default=0)
+    args = parser.parse_args()
+    if args.gap:
+        summary = run_daylight_gap(args.limit, args.initial_streak)
+        print(json.dumps({
+            "clip_count": summary["clip_count"],
+            "holds": summary["holds"],
+            "stopped_early": summary["stopped_early"],
+            "streak": summary["streak"],
+            "batch_attempted": summary["batch_attempted"],
+            "remaining_count": summary["remaining_count"],
+        }, indent=2))
+        return
     summary = run_pack(12)
     print(json.dumps({k: summary[k] for k in ("passed", "holds", "stopped_early", "remaining_count")}, indent=2))
 

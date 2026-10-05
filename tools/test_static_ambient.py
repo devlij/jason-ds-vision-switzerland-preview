@@ -83,6 +83,20 @@ def test_three_different_holds_stop_without_a_fourth_attempt() -> None:
     assert [row["qc"] for row in mixed["attempted"]] == ["hold", "pass", "hold", "hold", "hold"]
 
 
+def test_initial_streak_stops_on_the_next_hold() -> None:
+    scenes = [_scene(f"CH-01-{i:03d}", 14) for i in range(1, 4)]
+    calls: list[str] = []
+
+    def all_hold(scene: dict):
+        calls.append(scene["entry_id"])
+        return "hold", "qc"
+
+    outcome = ambient.consume(scenes, all_hold, limit=12, initial_streak=2)
+    assert outcome["stopped_early"] is True
+    assert outcome["streak"] == 3
+    assert calls == ["CH-01-001"]
+
+
 def test_a_pass_resets_the_streak() -> None:
     scenes = [_scene(f"CH-01-{i:03d}", 12) for i in range(1, 5)]
 
@@ -118,6 +132,7 @@ def main() -> None:
     test_night_hour_and_night_tag_are_excluded()
     test_lowest_ids_skip_existing_clips_and_holds()
     test_three_different_holds_stop_without_a_fourth_attempt()
+    test_initial_streak_stops_on_the_next_hold()
     test_a_pass_resets_the_streak()
     test_motion_button_is_published_only_when_the_clip_exists()
     print("static-ambient tests passed")

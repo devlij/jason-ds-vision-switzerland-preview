@@ -1,0 +1,38 @@
+{
+  "entry_id": "CH-01-013",
+  "caption": "Mittlere Br\u00fccke, Basel",
+  "method": "static-ambient",
+  "daylight": true,
+  "night_master_used": false,
+  "source": "library/world/Switzerland/Basel/ch-01-013-daylight-4x5.png",
+  "night_master": "library/world/Switzerland/Basel/ch-01-013-4x5.png",
+  "crop": {
+    "x": 0,
+    "y": 0,
+    "width": 864,
+    "height": 1080,
+    "label_bar_px": 190
+  },
+  "output": "assets/ch-01-013-motion-10s-4x5.mp4",
+  "duration_s": 10.0,
+  "width": 864,
+  "height": 1080,
+  "fps": 30,
+  "frames": 300,
+  "ken_burns": {
+    "zoom": "1.00 to 1.07, cosine ease",
+    "pan": "right",
+    "tool": "ffmpeg zoompan"
+  },
+  "qc": "pass",
+  "sha256": "cc4e2d197c77c76aebb42b337f0938096272adf2a1426beb5378680a8c3d72aa",
+  "metrics": {
+    "width": 864,
+    "height": 1080,
+    "frames": 300,
+    "duration_s": 10.0,
+    "start_vs_source_mad": 1.293,
+    "adjacent_mad": 0.335,
+    "ends_mad": 13.286
+  }
+}

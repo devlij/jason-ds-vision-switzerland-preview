@@ -1,0 +1,38 @@
+{
+  "entry_id": "CH-01-031",
+  "caption": "Lavaux vineyards, Rivaz",
+  "method": "static-ambient",
+  "daylight": true,
+  "night_master_used": false,
+  "source": "library/world/Switzerland/Rivaz/ch-01-031-daylight-4x5.png",
+  "night_master": "library/world/Switzerland/Rivaz/ch-01-031-4x5.png",
+  "crop": {
+    "x": 0,
+    "y": 0,
+    "width": 864,
+    "height": 1080,
+    "label_bar_px": 190
+  },
+  "output": "assets/ch-01-031-motion-10s-4x5.mp4",
+  "duration_s": 10.0,
+  "width": 864,
+  "height": 1080,
+  "fps": 30,
+  "frames": 300,
+  "ken_burns": {
+    "zoom": "1.00 to 1.07, cosine ease",
+    "pan": "down",
+    "tool": "ffmpeg zoompan"
+  },
+  "qc": "pass",
+  "sha256": "f73e919db884f676f96bc135eaeb255c3a14de2c651622232dfe03e412b33126",
+  "metrics": {
+    "width": 864,
+    "height": 1080,
+    "frames": 300,
+    "duration_s": 10.0,
+    "start_vs_source_mad": 1.341,
+    "adjacent_mad": 0.368,
+    "ends_mad": 18.098
+  }
+}
