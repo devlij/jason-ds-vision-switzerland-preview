@@ -781,7 +781,8 @@
       var im=a.querySelector('img');
       if(im&&card.querySelector('.night-tab.is-active')){
         var nk=fmt==='4x5'?'data-src-45-night':fmt==='9x16'?'data-src-916-night':'data-src-16-night';
-        return im.getAttribute(nk)||'';
+        var ns=im.getAttribute(nk);
+        if(ns)return ns;
       }
       if(lbDay==='day'&&im){
         var dk=fmt==='4x5'?'data-src-45-day':fmt==='9x16'?'data-src-916-day':'data-src-16-day';

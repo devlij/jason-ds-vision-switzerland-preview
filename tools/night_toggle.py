@@ -97,7 +97,8 @@ SRC_OLD = """      var im=a.querySelector('img');
 SRC_NEW = """      var im=a.querySelector('img');
       if(im&&card.querySelector('.night-tab.is-active')){
         var nk=fmt==='4x5'?'data-src-45-night':fmt==='9x16'?'data-src-916-night':'data-src-16-night';
-        return im.getAttribute(nk)||'';
+        var ns=im.getAttribute(nk);
+        if(ns)return ns;
       }
       if(lbDay==='day'&&im){"""
 
@@ -384,9 +385,22 @@ def upgrade_shell(text: str) -> str:
     if "CH_NIGHT_TOGGLE START" not in text:
         text = _replace_once(text, LISTEN_ANCHOR, LISTENER + LISTEN_ANCHOR, "night click")
     src_at = text.find("function cardSrc")
-    src_body = text[src_at : src_at + 700] if src_at >= 0 else ""
+    src_body = text[src_at : src_at + 900] if src_at >= 0 else ""
     if "data-src-45-night" not in src_body:
         text = _replace_once(text, SRC_OLD, SRC_NEW, "night lightbox")
+    # An empty night src used to drop the card from the lightbox list.
+    # A missing 9:16 night portrait falls through to the non-night image.
+    buggy = (
+        "        var nk=fmt==='4x5'?'data-src-45-night':fmt==='9x16'?'data-src-916-night':'data-src-16-night';\n"
+        "        return im.getAttribute(nk)||'';\n"
+    )
+    fixed = (
+        "        var nk=fmt==='4x5'?'data-src-45-night':fmt==='9x16'?'data-src-916-night':'data-src-16-night';\n"
+        "        var ns=im.getAttribute(nk);\n"
+        "        if(ns)return ns;\n"
+    )
+    if buggy in text:
+        text = _replace_once(text, buggy, fixed, "lightbox night fallback")
     return text
 
 
@@ -565,6 +579,8 @@ def check_html(html: str, template: str, night: dict[str, list[str]]) -> dict:
     handler = html.split("CH_NIGHT_TOGGLE START", 1)[1].split("CH_NIGHT_TOGGLE END", 1)[0]
     if "data-src-16')" in handler or "data-src-916')" in handler or "data-src-45')" in handler:
         raise SystemExit("night click handler falls back to a daylight or scene master")
+    if "return im.getAttribute(nk)||''" in html or "return im.getAttribute(nk)||''" in template:
+        raise SystemExit("lightbox drops a night card that has no plate for this format")
     scenes = extract_scenes(html)
     errors: list[str] = []
     buttons = 0
