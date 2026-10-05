@@ -14,6 +14,42 @@
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
   "approval_status": "Approved",
+  "daylight_variant": {
+    "variant_of_entry_id": "CH-01-366",
+    "derived_from": "Text-prompt-only photorealistic daylight plate of the same place. Not image-anchored on the published master. Europe/Zurich was night on 5 October 2026, so this plate has no scenario timestamp and no weather line.",
+    "source_night": {
+      "16x9": {
+        "path": "library/world/Switzerland/Zermatt/ch-01-366-16x9.png",
+        "sha256": "f5a0dc100226ae76bcaf533e3daeb47659ce430056cd5c6b63c8bde6bef484a4"
+      },
+      "4x5": {
+        "path": "library/world/Switzerland/Zermatt/ch-01-366-4x5.png",
+        "sha256": "185898d65fb119b06dbf458224d7b00788a955bf43c076099e7d3f488994cb72"
+      },
+      "9x16": {
+        "path": "library/world/Switzerland/Zermatt/ch-01-366-9x16.png",
+        "sha256": "c449d1ab0df343cecc36ec805de8781bf1f6e28301e50d652a7e2ca4d0ef72ce"
+      },
+      "recorded": "SHA-256 of the published masters immediately before this daylight batch. Post-write hashes are identical; published masters were not rewritten."
+    },
+    "files": {
+      "16x9": "library/world/Switzerland/Zermatt/ch-01-366-daylight-16x9.png",
+      "4x5": "library/world/Switzerland/Zermatt/ch-01-366-daylight-4x5.png",
+      "9x16": "library/world/Switzerland/Zermatt/ch-01-366-daylight-9x16.png"
+    },
+    "sha256": {
+      "16x9": "42748efea4789e2293a0734afafc2d51c2dc9cc9a8182032751aaf0e62033d84",
+      "4x5": "7f8df757e69738ccc3b0e0ed5f1988499d8bbc54bca90c21daf6c5853578d7c7",
+      "9x16": "7b6ef88881bb3d7d4109024321650c64f2f91f35e0154139576c89957e3ebc0d"
+    },
+    "created_date": "2026-10-05",
+    "on_image_caption": "Matterhorn above Zermatt, Zermatt",
+    "on_image_signature": "Jason D’s Vision",
+    "on_image_disclosure": "AI-generated artistic interpretation · Not a photograph.",
+    "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
+    "derivative_disclosure": "Daylight companion plate for the gallery daylight control. Text-prompt only. No weather claim. No scenario timestamp on the variant. The scene scenario_label is unchanged and is not a daylight weather assertion.",
+    "note": "Photorealistic daylight plate generated text-prompt-only on 2026-10-05. Not derived by relighting the published master and not image-anchored on it. No live daytime weather reading was available. The plate carries no scenario timestamp and no weather line. Published masters were not rewritten. The 9:16 daylight plate is included because a 9:16 master exists and the gallery daylight control requires that ratio."
+  },
   "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
   "approval_basis": "Open-Meteo retrieval 2026-10-01T21:03:29Z (unique to the second, Matterhorn repair batch, 2026-10-01) — Gate 2 hardened-weather law satisfied. CH-01-366: Matterhorn above Zermatt, Zermatt. G1: The classic postcard view: the Matterhorn's pyramidal peak centered above the dark-wooden chalets of Zermatt, green alpine meadows and forested then rocky slopes rising toward the peak — no glacier beneath the mountain. Bright midday light under a blue sky with scattered clouds. G2: dims exact 1920x1270/864x1270/1080x2110; bar 'Matterhorn above Zermatt, Zermatt' / '1 October 2026 · 11:05 Europe/Zurich'; Art.50 chunks embedded. G3 text-prompt-only generation, no reference imagery; G4 no people/logos; G5 captions/signature/disclosure verified on the finished master.",
   "sha256_16x9": "f5a0dc100226ae76bcaf533e3daeb47659ce430056cd5c6b63c8bde6bef484a4",

@@ -15,33 +15,33 @@
   "approval_status": "Approved",
   "daylight_variant": {
     "variant_of_entry_id": "CH-01-362",
-    "derived_from": "Live gallery night master library/world/Switzerland/Surses/ch-01-362-16x9.png (16:9) and library/world/Switzerland/Surses/ch-01-362-4x5.png (4:5) of the same scene; not an independently modelled weather or lighting scenario",
+    "derived_from": "Text-prompt-only photorealistic daylight plate of the same place. Not image-anchored on the published master. Europe/Zurich was night on 5 October 2026, so this plate has no scenario timestamp and no weather line.",
     "source_night": {
       "16x9": {
         "path": "library/world/Switzerland/Surses/ch-01-362-16x9.png",
-        "sha256": "207a29240e45b860aec7a4721110abe00c6a563d5a86738c1fd887eec93ee13f"
+        "sha256": "0317f301393900cb986664b7bd4b1be244f957420230d3bb498f9178387cb364"
       },
       "4x5": {
         "path": "library/world/Switzerland/Surses/ch-01-362-4x5.png",
-        "sha256": "ebc99416c2b0886b48bc8ed40a968a8901a332de7e5d172db9174e87346b668d"
+        "sha256": "783adf1a1276ee5d5c4848ef0dc8c094c9f9d66443f87c45ede5401e3f006679"
       },
-      "recorded": "SHA-256 of the night masters immediately before this daylight batch. Post-write hashes are identical; night masters were not rewritten."
+      "recorded": "SHA-256 of the published masters immediately before this daylight batch. Post-write hashes are identical; published masters were not rewritten."
     },
     "files": {
       "16x9": "library/world/Switzerland/Surses/ch-01-362-daylight-16x9.png",
       "4x5": "library/world/Switzerland/Surses/ch-01-362-daylight-4x5.png"
     },
     "sha256": {
-      "16x9": "3158d79e3bfe4450cfdecdcd07fac63a4bcd2397d7d46cc41048c13cdba5998d",
-      "4x5": "423ceb1623609590ece7f6fb1b1b84a6d6874209a53c9facea84f2a8aa35e5b9"
+      "16x9": "656f81981863ba2403a6b15667ecece5d7d1f27734ca7a544edd3f6dbda2a1a6",
+      "4x5": "318537c0c977de00aa47e9a7cff2daacb0ab9d4aa14a41aa218512e336b77753"
     },
-    "created_date": "2026-09-26",
+    "created_date": "2026-10-05",
     "on_image_caption": "Savognin, Surses",
     "on_image_signature": "Jason D’s Vision",
     "on_image_disclosure": "AI-generated artistic interpretation · Not a photograph.",
     "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
-    "derivative_disclosure": "Derivative of the night interpretation of this same viewpoint. Not an independently modelled weather or lighting scenario. No weather claim. No scenario timestamp on the variant.",
-    "note": "AI-generated daylight re-interpretation derived from the night master of the same viewpoint and composition. Not a new scene. Architecture and landscape preserved; lighting only was changed from night to daylight. No weather evidence invented. The variant image carries no weather claim and no scenario timestamp. The scene scenario_label remains the night scene's label and is not a daylight weather assertion."
+    "derivative_disclosure": "Daylight companion plate for the gallery daylight control. Text-prompt only. No weather claim. No scenario timestamp on the variant. The scene scenario_label is unchanged and is not a daylight weather assertion.",
+    "note": "Photorealistic daylight plate generated text-prompt-only on 2026-10-05. Not derived by relighting the published master and not image-anchored on it. No live daytime weather reading was available. The plate carries no scenario timestamp and no weather line. Published masters were not rewritten."
   },
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "Gate 1: white church with a tall needle spire in a valley village of dark chalets, jagged peak rising behind — matches the anchors (Savognin church, Surses valley); both formats agree on the church, village and peak. Gate 2: exact 1920x1080 and 864x1080; caption 'Savognin, Surses', scenario '24 September 2026 · 23:46 Europe/Zurich', disclosure 'AI-generated artistic interpretation · Not a photograph.' and signature 'Jason D\\u2019s Vision' legible on the bottom scrim; scenario 23:46 inside the model-valid 23:45 step; weather retrieved 2026-09-25T23:49:08Z, verified unique across all 365 Switzerland note files. Gate 3: approvals note records text-prompt-only lineage, no photographic inputs. Gate 4: no identifiable people, no logos or focal artwork — documented only, final commercial call is Jason's. Gate 5: all gates closed.",

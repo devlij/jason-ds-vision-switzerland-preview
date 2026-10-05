@@ -16,33 +16,39 @@
   "approval_status": "Approved",
   "daylight_variant": {
     "variant_of_entry_id": "CH-01-365",
-    "derived_from": "Live gallery night master library/world/Switzerland/Haute-Sorne/ch-01-365-16x9.png (16:9) and library/world/Switzerland/Haute-Sorne/ch-01-365-4x5.png (4:5) of the same scene; not an independently modelled weather or lighting scenario",
+    "derived_from": "Text-prompt-only photorealistic daylight plate of the same place. Not image-anchored on the published master. Europe/Zurich was night on 5 October 2026, so this plate has no scenario timestamp and no weather line.",
     "source_night": {
       "16x9": {
         "path": "library/world/Switzerland/Haute-Sorne/ch-01-365-16x9.png",
-        "sha256": "160709030942be870940439467495801e7df14e63a8ff8bdca450bf1f2ae0a9e"
+        "sha256": "7ed94adf0030429acaa2aa95cb573702ec6e37a23a6e55e985f2b3b86bda63ba"
       },
       "4x5": {
         "path": "library/world/Switzerland/Haute-Sorne/ch-01-365-4x5.png",
-        "sha256": "1a16c9b738080fb0337dffa52b99f6f6da5f1e77a9bae17c5c0a9378a885fdc2"
+        "sha256": "c5a4f5e30396cbbd53b18c172db45429a87a8588c8d17c2dfe8501639050a307"
       },
-      "recorded": "SHA-256 of the night masters immediately before this daylight batch. Post-write hashes are identical; night masters were not rewritten."
+      "9x16": {
+        "path": "library/world/Switzerland/Haute-Sorne/ch-01-365-9x16.png",
+        "sha256": "2491aea5cc45542c5602af084af3bb722c15d19a850580c1fcc3450f2f398d2d"
+      },
+      "recorded": "SHA-256 of the published masters immediately before this daylight batch. Post-write hashes are identical; published masters were not rewritten."
     },
     "files": {
       "16x9": "library/world/Switzerland/Haute-Sorne/ch-01-365-daylight-16x9.png",
-      "4x5": "library/world/Switzerland/Haute-Sorne/ch-01-365-daylight-4x5.png"
+      "4x5": "library/world/Switzerland/Haute-Sorne/ch-01-365-daylight-4x5.png",
+      "9x16": "library/world/Switzerland/Haute-Sorne/ch-01-365-daylight-9x16.png"
     },
     "sha256": {
-      "16x9": "ac5e18f47438e159c3c0646c8b59ca561a2887bf96c7f87282a14a6a5a0b28c4",
-      "4x5": "c0ba88215783b937de3d713d71fd1411d15e96b6054525f5abe4e889be55431b"
+      "16x9": "192a423451148d411d29f28db8d950bc0397834e1d9a2b509dc8b51bb2f13284",
+      "4x5": "8a6bed035661c1292d5f2f23863d0ced1f40c08bf2363a35af7cfa679cc24020",
+      "9x16": "7858e3e980af48a8c533d3671d9596887e58b2e5c26908aa4a69384c64dd5f0e"
     },
-    "created_date": "2026-09-26",
+    "created_date": "2026-10-05",
     "on_image_caption": "Pichoux Gorge, Haute-Sorne",
     "on_image_signature": "Jason D’s Vision",
     "on_image_disclosure": "AI-generated artistic interpretation · Not a photograph.",
     "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
-    "derivative_disclosure": "Derivative of the night interpretation of this same viewpoint. Not an independently modelled weather or lighting scenario. No weather claim. No scenario timestamp on the variant.",
-    "note": "AI-generated daylight re-interpretation derived from the night master of the same viewpoint and composition. Not a new scene. Architecture and landscape preserved; lighting only was changed from night to daylight. No weather evidence invented. The variant image carries no weather claim and no scenario timestamp. The scene scenario_label remains the night scene's label and is not a daylight weather assertion."
+    "derivative_disclosure": "Daylight companion plate for the gallery daylight control. Text-prompt only. No weather claim. No scenario timestamp on the variant. The scene scenario_label is unchanged and is not a daylight weather assertion.",
+    "note": "Photorealistic daylight plate generated text-prompt-only on 2026-10-05. Not derived by relighting the published master and not image-anchored on it. No live daytime weather reading was available. The plate carries no scenario timestamp and no weather line. Published masters were not rewritten. The 9:16 daylight plate is included because a 9:16 master exists and the gallery daylight control requires that ratio."
   },
   "qc_notes": [
     {
