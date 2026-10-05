@@ -108,6 +108,16 @@
     .day-tab.is-active {
       background: #e8b23a; border-color: #e8b23a; color: #1a1405; font-weight: 700;
     }
+    .night-tab {
+      display: inline-block; background: #243049; color: var(--text);
+      border-radius: 8px; padding: 0.4rem 0.7rem; font-size: 0.85rem; border: 1px solid var(--line);
+      cursor: pointer; font: inherit; margin-right: 0.35rem;
+    }
+    .night-tab:hover { border-color: var(--accent); }
+    .night-tab.is-active {
+      background: #1b2744; border-color: #9eb6e0; color: #e7eefc; font-weight: 700;
+    }
+    .fmt-tab:disabled, .fmt-tab.is-disabled { opacity: 0.4; cursor: default; }
     .thumb {
       display: block; padding: 0.65rem 0.65rem 0; background: #120c0c; line-height: 0;
     }
@@ -452,6 +462,10 @@
         const day916 = s.file_9x16_day || "";
         const motion = s.file_motion_4x5 || "";
         const dayReady = !!day16 && (!file45 || !!day45) && (!file916 || !!day916);
+        const night16 = s.file_16x9_night || "";
+        const night45 = s.file_4x5_night || "";
+        const night916 = s.file_9x16_night || "";
+        const hasNight = !!(night16 || night45 || night916);
         const status = s.approval_status || 'Candidate';
         const formats = [];
         if (file16) formats.push("16x9");
@@ -467,7 +481,10 @@
           (day16 ? ` data-src-16-day="${esc(day16)}"` : "") +
           (day45 ? ` data-src-45-day="${esc(day45)}"` : "") +
           (file916 ? ` data-src-916="${esc(file916)}"` : "") +
-          (day916 ? ` data-src-916-day="${esc(day916)}"` : "");
+          (day916 ? ` data-src-916-day="${esc(day916)}"` : "") +
+          (night16 ? ` data-src-16-night="${esc(night16)}"` : "") +
+          (night45 ? ` data-src-45-night="${esc(night45)}"` : "") +
+          (night916 ? ` data-src-916-night="${esc(night916)}"` : "");
         card.innerHTML = `
           ${file16 ? `<div class="preview">
             <a class="thumb" href="${esc(file16)}">
@@ -477,7 +494,7 @@
           ${formats.length ? `<div class="fmt-tabs" role="group" aria-label="Image size">
               ${fmtHtml}
             </div>` : ""}
-          ${dayReady ? `<div class="day-row"><button type="button" class="day-tab" data-daynight="night" aria-pressed="false" title="Toggle the daylight variant">\u2600 Daylight</button></div>` : ""}
+          ${(hasNight || dayReady) ? `<div class="day-row">${hasNight ? `<button type="button" class="night-tab" aria-pressed="false" title="Show the night image">\uD83C\uDF19 Night</button>` : ""}${dayReady ? `<button type="button" class="day-tab" data-daynight="night" aria-pressed="false" title="Toggle the daylight variant">\u2600 Daylight</button>` : ""}</div>` : ""}
           <div class="card-body">
             <div class="status-row">
               <div class="entry-id">${esc(s.entry_id)}</div>
@@ -599,6 +616,171 @@
       link.classList.toggle('tall', fmt === '4x5');
       link.classList.toggle('tall916', fmt === '9x16');
     });
+    /* CH_NIGHT_TOGGLE START */
+    function nightAttr(fmt) {
+      return fmt === '4x5' ? 'data-src-45-night' : fmt === '9x16' ? 'data-src-916-night' : 'data-src-16-night';
+    }
+    function sceneAttr(fmt) {
+      return fmt === '4x5' ? 'data-src-45' : fmt === '9x16' ? 'data-src-916' : 'data-src-16';
+    }
+    function stopCardMotionForNight(card) {
+      var video = card.querySelector('video.motion-clip');
+      if (video) { video.pause(); video.remove(); }
+      var link = card.querySelector('a.thumb');
+      if (link) link.hidden = false;
+      card.querySelectorAll('.motion.is-active, .motion-btn.is-active, .motion-tab.is-active').forEach(function (btn) {
+        btn.classList.remove('is-active');
+        btn.setAttribute('aria-pressed', 'false');
+      });
+    }
+    function showRecordedScenario(card) {
+      var sc = card.querySelector('p.scenario');
+      if (sc && sc.getAttribute('data-scenario')) sc.textContent = 'Scenario: ' + sc.getAttribute('data-scenario');
+    }
+    function enable916(card) {
+      var tab = card.querySelector('.fmt-tab[data-format="9x16"]');
+      if (!tab) return;
+      tab.disabled = false;
+      tab.classList.remove('is-disabled');
+    }
+    function applyNightImage(card, fmt) {
+      var link = card.querySelector('a.thumb');
+      var img = link && link.querySelector('img');
+      if (!img || !link) return false;
+      var next = img.getAttribute(nightAttr(fmt));
+      if (!next) return false;
+      img.src = next;
+      link.href = next;
+      link.classList.toggle('tall', fmt === '4x5');
+      link.classList.toggle('tall916', fmt === '9x16');
+      return true;
+    }
+    function applyNightDownloads(card) {
+      var img = card.querySelector('a.thumb img');
+      card.querySelectorAll('a.download').forEach(function (a) {
+        var fmt = a.getAttribute('data-dl') || '16x9';
+        var url = img && img.getAttribute(nightAttr(fmt));
+        if (url) {
+          a.hidden = false;
+          a.href = url;
+          a.setAttribute('download', url.split('/').pop());
+        } else {
+          a.hidden = true;
+        }
+      });
+    }
+    function showSceneDownloads(card) {
+      var img = card.querySelector('a.thumb img');
+      card.querySelectorAll('a.download').forEach(function (a) {
+        var fmt = a.getAttribute('data-dl') || '16x9';
+        var url = img && img.getAttribute(sceneAttr(fmt));
+        if (url) {
+          a.hidden = false;
+          a.href = url;
+          a.setAttribute('download', url.split('/').pop());
+        }
+      });
+    }
+    function restoreSceneImage(card) {
+      var link = card.querySelector('a.thumb');
+      var img = link && link.querySelector('img');
+      var active = card.querySelector('.fmt-tab.is-active');
+      var fmt = active ? active.getAttribute('data-format') : '16x9';
+      if (!img || !link) return;
+      var next = img.getAttribute(sceneAttr(fmt));
+      if (!next) return;
+      img.src = next;
+      link.href = next;
+      link.classList.toggle('tall', fmt === '4x5');
+      link.classList.toggle('tall916', fmt === '9x16');
+    }
+    function activateNight(card) {
+      stopCardMotionForNight(card);
+      var sun = card.querySelector('.day-tab:not(.pc-tab)');
+      if (sun) {
+        sun.classList.remove('is-active');
+        sun.setAttribute('aria-pressed', 'false');
+        sun.setAttribute('data-daynight', 'night');
+      }
+      var postcard = card.querySelector('.pc-tab');
+      if (postcard) {
+        postcard.classList.remove('is-active');
+        postcard.setAttribute('aria-pressed', 'false');
+        postcard.setAttribute('data-postcard', 'off');
+      }
+      var night = card.querySelector('.night-tab');
+      if (night) {
+        night.classList.add('is-active');
+        night.setAttribute('aria-pressed', 'true');
+      }
+      var img = card.querySelector('a.thumb img');
+      var portrait = card.querySelector('.fmt-tab[data-format="9x16"]');
+      var portraitOk = !!(img && img.getAttribute('data-src-916-night'));
+      if (portrait) {
+        portrait.disabled = !portraitOk;
+        portrait.classList.toggle('is-disabled', !portraitOk);
+      }
+      var active = card.querySelector('.fmt-tab.is-active');
+      var fmt = active ? active.getAttribute('data-format') : '16x9';
+      if (!img || !img.getAttribute(nightAttr(fmt))) {
+        var fallback = card.querySelector('.fmt-tab[data-format="16x9"]') || card.querySelector('.fmt-tab[data-format="4x5"]');
+        if (fallback) {
+          fmt = fallback.getAttribute('data-format');
+          card.querySelectorAll('.fmt-tab').forEach(function (tab) {
+            var on = tab === fallback;
+            tab.classList.toggle('is-active', on);
+            tab.setAttribute('aria-pressed', on ? 'true' : 'false');
+          });
+        }
+      }
+      applyNightImage(card, fmt);
+      applyNightDownloads(card);
+      showRecordedScenario(card);
+    }
+    function deactivateNight(card, restoreImage) {
+      var night = card.querySelector('.night-tab');
+      if (!night || !night.classList.contains('is-active')) return;
+      night.classList.remove('is-active');
+      night.setAttribute('aria-pressed', 'false');
+      enable916(card);
+      showSceneDownloads(card);
+      if (restoreImage) {
+        restoreSceneImage(card);
+        showRecordedScenario(card);
+      }
+    }
+    grid.addEventListener('click', function (event) {
+      var card = event.target.closest && event.target.closest('.card');
+      if (!card || !grid.contains(card)) return;
+      var nightBtn = event.target.closest('.night-tab');
+      if (nightBtn && card.contains(nightBtn)) {
+        event.preventDefault();
+        event.stopPropagation();
+        activateNight(card);
+        return;
+      }
+      var fmtTab = event.target.closest('.fmt-tab');
+      if (fmtTab && card.querySelector('.night-tab.is-active')) {
+        event.preventDefault();
+        event.stopPropagation();
+        if (fmtTab.disabled || fmtTab.classList.contains('is-disabled')) return;
+        stopCardMotionForNight(card);
+        var fmt = fmtTab.getAttribute('data-format');
+        if (!applyNightImage(card, fmt)) return;
+        card.querySelectorAll('.fmt-tab').forEach(function (tab) {
+          var on = tab === fmtTab;
+          tab.classList.toggle('is-active', on);
+          tab.setAttribute('aria-pressed', on ? 'true' : 'false');
+        });
+        applyNightDownloads(card);
+        return;
+      }
+      var off = event.target.closest('.day-tab, .pc-tab, .motion, .motion-btn, .motion-tab');
+      if (!off || off.classList.contains('night-tab')) return;
+      var turningDaylight = off.classList.contains('day-tab') && !off.classList.contains('pc-tab');
+      deactivateNight(card, !turningDaylight);
+    }, true);
+    /* CH_NIGHT_TOGGLE END */
     q.addEventListener('input', render);
     region.addEventListener('change', render);
     if (fDaynight) fDaynight.addEventListener('change', render);
@@ -651,6 +833,11 @@
       var a=card.querySelector('a.thumb');
       if(!a)return'';
       var im=a.querySelector('img');
+      if(im&&card.querySelector('.night-tab.is-active')){
+        var nk=fmt==='4x5'?'data-src-45-night':fmt==='9x16'?'data-src-916-night':'data-src-16-night';
+        var ns=im.getAttribute(nk);
+        if(ns)return ns;
+      }
       if(lbDay==='day'&&im){
         var dk=fmt==='4x5'?'data-src-45-day':fmt==='9x16'?'data-src-916-day':'data-src-16-day';
         var ds=im.getAttribute(dk);

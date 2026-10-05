@@ -145,6 +145,8 @@ def image_alt(scene: dict) -> str:
 
 
 def publishable_scenes(manifests: list[dict], exists=master_exists) -> list[dict]:
+    from night_toggle import attach_night_masters
+
     scenes: list[dict] = []
     for source in manifests:
         scene: dict = {}
@@ -180,6 +182,8 @@ def publishable_scenes(manifests: list[dict], exists=master_exists) -> list[dict
         if exists(motion):
             scene["file_motion_4x5"] = motion
         scene["image_alt"] = image_alt(source)
+        # Night masters only. A later rebuild keeps the moon button's sources.
+        attach_night_masters(scene, source, exists)
         scenes.append(scene)
     return scenes
 
