@@ -961,6 +961,54 @@
       "caption": "Liestal, Liestal",
       "qc": "pass",
       "output": "assets/ch-01-172-motion-10s-4x5.mp4"
+    },
+    {
+      "entry_id": "CH-01-173",
+      "caption": "Waldenburg Ruin, Waldenburg",
+      "qc": "pass",
+      "output": "assets/ch-01-173-motion-10s-4x5.mp4"
+    },
+    {
+      "entry_id": "CH-01-174",
+      "caption": "Aarberg, Aarberg",
+      "qc": "pass",
+      "output": "assets/ch-01-174-motion-10s-4x5.mp4"
+    },
+    {
+      "entry_id": "CH-01-175",
+      "caption": "Burgdorf Castle, Burgdorf",
+      "qc": "pass",
+      "output": "assets/ch-01-175-motion-10s-4x5.mp4"
+    },
+    {
+      "entry_id": "CH-01-176",
+      "caption": "Langnau im Emmental, Langnau im Emmental",
+      "qc": "pass",
+      "output": "assets/ch-01-176-motion-10s-4x5.mp4"
+    },
+    {
+      "entry_id": "CH-01-366",
+      "caption": "Matterhorn above Zermatt, Zermatt",
+      "qc": "pass",
+      "output": "assets/ch-01-366-motion-10s-4x5.mp4"
+    },
+    {
+      "entry_id": "CH-01-367",
+      "caption": "Matterhorn reflected in Riffelsee, Zermatt",
+      "qc": "pass",
+      "output": "assets/ch-01-367-motion-10s-4x5.mp4"
+    },
+    {
+      "entry_id": "CH-01-368",
+      "caption": "Matterhorn at sunrise, Zermatt",
+      "qc": "pass",
+      "output": "assets/ch-01-368-motion-10s-4x5.mp4"
+    },
+    {
+      "entry_id": "CH-01-369",
+      "caption": "Matterhorn from Rothorn, Zermatt",
+      "qc": "pass",
+      "output": "assets/ch-01-369-motion-10s-4x5.mp4"
     }
   ],
   "passed": [
@@ -1123,12 +1171,7 @@
     "CH-01-169",
     "CH-01-170",
     "CH-01-171",
-    "CH-01-172"
-  ],
-  "holds": [],
-  "stopped_early": false,
-  "clip_count": 160,
-  "remaining_daylight_missing": [
+    "CH-01-172",
     "CH-01-173",
     "CH-01-174",
     "CH-01-175",
@@ -1138,5 +1181,9 @@
     "CH-01-368",
     "CH-01-369"
   ],
-  "remaining_count": 8
+  "holds": [],
+  "stopped_early": false,
+  "clip_count": 168,
+  "remaining_daylight_missing": [],
+  "remaining_count": 0
 }
