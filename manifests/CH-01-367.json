@@ -14,6 +14,42 @@
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
   "approval_status": "Approved",
+  "daylight_variant": {
+    "variant_of_entry_id": "CH-01-367",
+    "derived_from": "Text-prompt-only photorealistic daylight plate of the same place. Not image-anchored on the published master. Europe/Zurich was night on 5 October 2026, so this plate has no scenario timestamp and no weather line.",
+    "source_night": {
+      "16x9": {
+        "path": "library/world/Switzerland/Zermatt/ch-01-367-16x9.png",
+        "sha256": "d3c133a73e89cb2b0b44fdfffd4f722272ffcc4c3c8d1032884e2870e6585986"
+      },
+      "4x5": {
+        "path": "library/world/Switzerland/Zermatt/ch-01-367-4x5.png",
+        "sha256": "1d62724060bb1edc35783e21b2b0bd68c50443b241d110cac2e14805a66de748"
+      },
+      "9x16": {
+        "path": "library/world/Switzerland/Zermatt/ch-01-367-9x16.png",
+        "sha256": "03cfa36198d04fd5dac21e9786fac020b9828a144bfe550ae1d1ea13ea06ee9f"
+      },
+      "recorded": "SHA-256 of the published masters immediately before this daylight batch. Post-write hashes are identical; published masters were not rewritten."
+    },
+    "files": {
+      "16x9": "library/world/Switzerland/Zermatt/ch-01-367-daylight-16x9.png",
+      "4x5": "library/world/Switzerland/Zermatt/ch-01-367-daylight-4x5.png",
+      "9x16": "library/world/Switzerland/Zermatt/ch-01-367-daylight-9x16.png"
+    },
+    "sha256": {
+      "16x9": "bb3df7791310b796e3312475d7041fbf36d68f6bb96da06c8c96e73f6866730b",
+      "4x5": "838d063bbc7ebd196c37ad42606259f159ffca41559e927608a0eef476a32aa5",
+      "9x16": "a3e904323bafd6f5a549af835e6fa2bdefffceddff7e576824ff2b0b2425ada7"
+    },
+    "created_date": "2026-10-05",
+    "on_image_caption": "Matterhorn reflected in Riffelsee, Zermatt",
+    "on_image_signature": "Jason D’s Vision",
+    "on_image_disclosure": "AI-generated artistic interpretation · Not a photograph.",
+    "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
+    "derivative_disclosure": "Daylight companion plate for the gallery daylight control. Text-prompt only. No weather claim. No scenario timestamp on the variant. The scene scenario_label is unchanged and is not a daylight weather assertion.",
+    "note": "Photorealistic daylight plate generated text-prompt-only on 2026-10-05. Not derived by relighting the published master and not image-anchored on it. No live daytime weather reading was available. The plate carries no scenario timestamp and no weather line. Published masters were not rewritten. The 9:16 daylight plate is included because a 9:16 master exists and the gallery daylight control requires that ratio."
+  },
   "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
   "approval_basis": "Open-Meteo retrieval 2026-10-01T21:03:33Z (unique to the second, Matterhorn repair batch, 2026-10-01) — Gate 2 hardened-weather law satisfied. CH-01-367: Matterhorn reflected in Riffelsee, Zermatt. G1: The iconic mirror view: the Matterhorn's pyramidal peak with snow on its upper faces reflected almost perfectly in the calm Riffelsee; rocky shoreline with tawny grass and stones around the water — no glacier beneath the mountain. Soft clear morning light. G2: dims exact 1920x1270/864x1270/1080x2110; bar 'Matterhorn reflected in Riffelsee, Zermatt' / '1 October 2026 · 08:40 Europe/Zurich'; Art.50 chunks embedded. G3 text-prompt-only generation, no reference imagery; G4 no people/logos; G5 captions/signature/disclosure verified on the finished master.",
   "sha256_16x9": "d3c133a73e89cb2b0b44fdfffd4f722272ffcc4c3c8d1032884e2870e6585986",
