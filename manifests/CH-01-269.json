@@ -13,6 +13,38 @@
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
   "approval_status": "Approved",
+  "daylight_variant": {
+    "variant_of_entry_id": "CH-01-269",
+    "derived_from": "Text-prompt-only photorealistic daylight plate of the same place. Not image-anchored on the published master. Europe/Zurich was night on 5 October 2026, so this plate has no scenario timestamp and no weather line.",
+    "source_night": {
+      "16x9": {
+        "path": "library/world/Switzerland/Lugano/ch-01-269-16x9.png",
+        "sha256": "dd71d281469efb319b94ad0e65c9debf17cf63eb81c2a45f928b67dca96e1baa"
+      },
+      "4x5": {
+        "path": "library/world/Switzerland/Lugano/ch-01-269-4x5.png",
+        "sha256": "b7060e15988ae9a9c397b3b0d75a8e4b828c5bac60ed407119d412a6019b0179"
+      },
+      "recorded": "SHA-256 of the published masters immediately before this daylight batch. Post-write hashes are identical; published masters were not rewritten."
+    },
+    "files": {
+      "16x9": "library/world/Switzerland/Lugano/ch-01-269-daylight-16x9.png",
+      "4x5": "library/world/Switzerland/Lugano/ch-01-269-daylight-4x5.png",
+      "9x16": "library/world/Switzerland/Lugano/ch-01-269-daylight-9x16.png"
+    },
+    "sha256": {
+      "16x9": "a5cf1aa545ae6f85640f51c831db129c92aaafd957a1d9dcf82895f3b21d4fdf",
+      "4x5": "325b3da1ffaf8f18d6f52f7f28ef3ea6e72fef43c56adc9fe8dc0f2c5655a954",
+      "9x16": "599a9dfef59964e14eee1c777debf1bfb21e3554922048cfc720664fe9d26655"
+    },
+    "created_date": "2026-10-05",
+    "on_image_caption": "Castagnola, Lugano",
+    "on_image_signature": "Jason D’s Vision",
+    "on_image_disclosure": "AI-generated artistic interpretation · Not a photograph.",
+    "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
+    "derivative_disclosure": "Daylight companion plate for the gallery daylight control. Text-prompt only. No weather claim. No scenario timestamp on the variant. The scene scenario_label is unchanged and is not a daylight weather assertion.",
+    "note": "Photorealistic daylight plate generated text-prompt-only on 2026-10-05. Not derived by relighting the published master and not image-anchored on it. No live daytime weather reading was available. The plate carries no scenario timestamp and no weather line. Published masters were not rewritten."
+  },
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "Gate 1 PASS: Castagnola lakeshore row of villas with tall cypresses, lit promenade lamps reflected in Lake Lugano, wooded hillside behind, pink afterglow at left; clean framing, no artifacts. Gate 2 PASS: 1920x1080/864x1080 exact per sweep; caption 'Castagnola, Lugano', scenario '24 September 2026 · 19:39 Europe/Zurich', disclosure and 'Jason D's Vision' signature (curly apostrophe) on the bottom scrim, legible; 4:5 master shows the same villa row and reflections (inter-format identity agrees). Weather per-scene retrieval 2026-09-25T23:47:35Z, unique to the second; model-valid hour 19:00–19:59 Europe/Zurich, scenario 19:39 inside; code 0 clear / 7% cloud / 21.5C matches the clear starry sky. Gate 3: text-prompt-only lineage per note. Gate 4: no visible people, no logos. Gate 5: no open blockers.",
   "approved_at": "2026-09-26T16:40:09.485344+00:00",

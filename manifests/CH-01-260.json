@@ -13,6 +13,38 @@
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
   "approval_status": "Approved",
+  "daylight_variant": {
+    "variant_of_entry_id": "CH-01-260",
+    "derived_from": "Text-prompt-only photorealistic daylight plate of the same place. Not image-anchored on the published master. Europe/Zurich was night on 5 October 2026, so this plate has no scenario timestamp and no weather line.",
+    "source_night": {
+      "16x9": {
+        "path": "library/world/Switzerland/Zuoz/ch-01-260-16x9.png",
+        "sha256": "44adb154352c4164359b505caf6dd447faa18f276ade398b7976a506ca5046a5"
+      },
+      "4x5": {
+        "path": "library/world/Switzerland/Zuoz/ch-01-260-4x5.png",
+        "sha256": "7971a625d844a81a7ae02034810782777d93c9a7a92c664c981add9c480449b6"
+      },
+      "recorded": "SHA-256 of the published masters immediately before this daylight batch. Post-write hashes are identical; published masters were not rewritten."
+    },
+    "files": {
+      "16x9": "library/world/Switzerland/Zuoz/ch-01-260-daylight-16x9.png",
+      "4x5": "library/world/Switzerland/Zuoz/ch-01-260-daylight-4x5.png",
+      "9x16": "library/world/Switzerland/Zuoz/ch-01-260-daylight-9x16.png"
+    },
+    "sha256": {
+      "16x9": "e94034c039a1d4259f9e1e2e4a8e9f13a3f7a0e08884db43fbf202372912b0a4",
+      "4x5": "be76c6dec51a70141c3cce248a57d7c516b868206eaf068a810e69fca4b69a08",
+      "9x16": "84617ce56f04a948a63cd2c3d8a3adafa7281a07fb92944ffd267d6fca1fcdf4"
+    },
+    "created_date": "2026-10-05",
+    "on_image_caption": "Zuoz, Zuoz",
+    "on_image_signature": "Jason D’s Vision",
+    "on_image_disclosure": "AI-generated artistic interpretation · Not a photograph.",
+    "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
+    "derivative_disclosure": "Daylight companion plate for the gallery daylight control. Text-prompt only. No weather claim. No scenario timestamp on the variant. The scene scenario_label is unchanged and is not a daylight weather assertion.",
+    "note": "Photorealistic daylight plate generated text-prompt-only on 2026-10-05. Not derived by relighting the published master and not image-anchored on it. No live daytime weather reading was available. The plate carries no scenario timestamp and no weather line. Published masters were not rewritten."
+  },
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "Zuoz village square at night: Gate 1 pass — wide stone square with central fountain, San Luzi church with tall tower and pyramidal spire, sgraffito-decorated houses, warm street lamps, per the note's anchors. Gate 2 pass — exact dims, caption 'Zuoz, Zuoz', scenario '24 September 2026 · 19:38 Europe/Zurich', disclosure, signature; retrieval 2026-09-25T23:47:26Z unique repo-wide, model step 19:30 covers scenario. Gate 3 pass — text-prompt-only. Gate 4 noted — no readable inn names, no people. Gate 5 pass.",
   "approved_at": "2026-09-26T15:37:24.955780+00:00",

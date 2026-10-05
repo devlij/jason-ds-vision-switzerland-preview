@@ -13,6 +13,38 @@
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
   "approval_status": "Approved",
+  "daylight_variant": {
+    "variant_of_entry_id": "CH-01-243",
+    "derived_from": "Text-prompt-only photorealistic daylight plate of the same place. Not image-anchored on the published master. Europe/Zurich was night on 5 October 2026, so this plate has no scenario timestamp and no weather line.",
+    "source_night": {
+      "16x9": {
+        "path": "library/world/Switzerland/Brienz/ch-01-243-16x9.png",
+        "sha256": "4ab72666720be74bda24be9c3a1f32b31d935a3c9e0f456b068ff493184d1afb"
+      },
+      "4x5": {
+        "path": "library/world/Switzerland/Brienz/ch-01-243-4x5.png",
+        "sha256": "01186a4f4511844a16bfd41fd1dc84a6fc5da35193acf21be41137e47b3b6766"
+      },
+      "recorded": "SHA-256 of the published masters immediately before this daylight batch. Post-write hashes are identical; published masters were not rewritten."
+    },
+    "files": {
+      "16x9": "library/world/Switzerland/Brienz/ch-01-243-daylight-16x9.png",
+      "4x5": "library/world/Switzerland/Brienz/ch-01-243-daylight-4x5.png",
+      "9x16": "library/world/Switzerland/Brienz/ch-01-243-daylight-9x16.png"
+    },
+    "sha256": {
+      "16x9": "aa08019937660d96d8ca814b2df3560dd41322fced3a268a92fc95fb6e00e34a",
+      "4x5": "d9d9ee8c3098bdf598a16f8f6676b812283853a18e0fe34cbf5db26798060ba2",
+      "9x16": "9728471c5b18f99120ef162d6b208e501d64339d91e7b896115741a7517d9aa1"
+    },
+    "created_date": "2026-10-05",
+    "on_image_caption": "Brienz Rothorn, Brienz",
+    "on_image_signature": "Jason D’s Vision",
+    "on_image_disclosure": "AI-generated artistic interpretation · Not a photograph.",
+    "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
+    "derivative_disclosure": "Daylight companion plate for the gallery daylight control. Text-prompt only. No weather claim. No scenario timestamp on the variant. The scene scenario_label is unchanged and is not a daylight weather assertion.",
+    "note": "Photorealistic daylight plate generated text-prompt-only on 2026-10-05. Not derived by relighting the published master and not image-anchored on it. No live daytime weather reading was available. The plate carries no scenario timestamp and no weather line. Published masters were not rewritten."
+  },
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "Gate 1: Brienzer Rothorn summit station swallowed by full cloud, cog track arriving at the lit hotel building on the rocky ridge — cloud 100% per the note, no lakeside promenade, no waterfall, no fresh snow falling. Gate 2: exact dims; 'Jason D's Vision' signature bottom-right; caption 'Brienz Rothorn, Brienz' + scenario '24 September 2026 · 19:20 Europe/Zurich' + disclosure on scrim; retrieval 2026-09-25T23:46:08Z unique per-scene (repo-wide no duplicates), valid 19:15 hour. Gate 3: text-prompt-only. Gate 4: no people, no logos.",
   "approved_at": "2026-09-26T15:13:03.270265+00:00",

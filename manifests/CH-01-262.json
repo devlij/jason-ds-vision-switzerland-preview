@@ -13,6 +13,38 @@
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
   "approval_status": "Approved",
+  "daylight_variant": {
+    "variant_of_entry_id": "CH-01-262",
+    "derived_from": "Text-prompt-only photorealistic daylight plate of the same place. Not image-anchored on the published master. Europe/Zurich was night on 5 October 2026, so this plate has no scenario timestamp and no weather line.",
+    "source_night": {
+      "16x9": {
+        "path": "library/world/Switzerland/Bregaglia/ch-01-262-16x9.png",
+        "sha256": "5663192b6cce0a83216f1ee09b78b55196a24b91ebf7633e7425bd4c357bfafa"
+      },
+      "4x5": {
+        "path": "library/world/Switzerland/Bregaglia/ch-01-262-4x5.png",
+        "sha256": "3c65089aed114bc06df610679d592c2450b4c433e87d51d397a3329e4dbb033c"
+      },
+      "recorded": "SHA-256 of the published masters immediately before this daylight batch. Post-write hashes are identical; published masters were not rewritten."
+    },
+    "files": {
+      "16x9": "library/world/Switzerland/Bregaglia/ch-01-262-daylight-16x9.png",
+      "4x5": "library/world/Switzerland/Bregaglia/ch-01-262-daylight-4x5.png",
+      "9x16": "library/world/Switzerland/Bregaglia/ch-01-262-daylight-9x16.png"
+    },
+    "sha256": {
+      "16x9": "07ad6f0b704fa5c7892b478ef8fb90097b9f5ad28e19f79c086eb5985c0c14f8",
+      "4x5": "2e2fc18c21653ff11066561aa35c11d088158ec401a292cf48e40044d1fb543d",
+      "9x16": "af242671610c26c1039f08bbb125ea05bfd798cc5ec2fcf0b0369fff0a67f843"
+    },
+    "created_date": "2026-10-05",
+    "on_image_caption": "Maloja Pass, Bregaglia",
+    "on_image_signature": "Jason D’s Vision",
+    "on_image_disclosure": "AI-generated artistic interpretation · Not a photograph.",
+    "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
+    "derivative_disclosure": "Daylight companion plate for the gallery daylight control. Text-prompt only. No weather claim. No scenario timestamp on the variant. The scene scenario_label is unchanged and is not a daylight weather assertion.",
+    "note": "Photorealistic daylight plate generated text-prompt-only on 2026-10-05. Not derived by relighting the published master and not image-anchored on it. No live daytime weather reading was available. The plate carries no scenario timestamp and no weather line. Published masters were not rewritten."
+  },
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "Maloja Pass hairpin road at night: Gate 1 pass — lamp-lit hairpins descending from the crest into Val Bregaglia, dark rocky alpine slopes, starry sky, Lake Sils behind the camera per the note. Gate 2 pass — exact dims, caption 'Maloja Pass, Bregaglia', scenario '24 September 2026 · 19:38 Europe/Zurich', disclosure, signature; retrieval 2026-09-25T23:47:28Z unique repo-wide, 19:30 model step covers scenario. Gate 3 pass — text-prompt-only. Gate 4 noted — no people, no logos. Gate 5 pass.",
   "approved_at": "2026-09-26T15:37:34.500333+00:00",

@@ -13,6 +13,38 @@
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
   "approval_status": "Approved",
+  "daylight_variant": {
+    "variant_of_entry_id": "CH-01-266",
+    "derived_from": "Text-prompt-only photorealistic daylight plate of the same place. Not image-anchored on the published master. Europe/Zurich was night on 5 October 2026, so this plate has no scenario timestamp and no weather line.",
+    "source_night": {
+      "16x9": {
+        "path": "library/world/Switzerland/Mesocco/ch-01-266-16x9.png",
+        "sha256": "b0eccbe9d581f871f96410a38ecf539cb5cafb06bee487e2731c465bed1347d0"
+      },
+      "4x5": {
+        "path": "library/world/Switzerland/Mesocco/ch-01-266-4x5.png",
+        "sha256": "71bacf71736ff04864e00f2210d28eec5762f6da9e3fca73371fd0a4b7432ff3"
+      },
+      "recorded": "SHA-256 of the published masters immediately before this daylight batch. Post-write hashes are identical; published masters were not rewritten."
+    },
+    "files": {
+      "16x9": "library/world/Switzerland/Mesocco/ch-01-266-daylight-16x9.png",
+      "4x5": "library/world/Switzerland/Mesocco/ch-01-266-daylight-4x5.png",
+      "9x16": "library/world/Switzerland/Mesocco/ch-01-266-daylight-9x16.png"
+    },
+    "sha256": {
+      "16x9": "10675ee732a3201da784b8d5ff84d64852db93292a76a3721c133719333a46e5",
+      "4x5": "c519f6da283cbafd105f46e07357281e18d86a84d0b515359a056edaf18ee172",
+      "9x16": "d8ad536d160cb59d74824c2318246e25e1a511aba71fd745057b2ed0e3514ff8"
+    },
+    "created_date": "2026-10-05",
+    "on_image_caption": "Mesocco Castle, Mesocco",
+    "on_image_signature": "Jason D’s Vision",
+    "on_image_disclosure": "AI-generated artistic interpretation · Not a photograph.",
+    "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
+    "derivative_disclosure": "Daylight companion plate for the gallery daylight control. Text-prompt only. No weather claim. No scenario timestamp on the variant. The scene scenario_label is unchanged and is not a daylight weather assertion.",
+    "note": "Photorealistic daylight plate generated text-prompt-only on 2026-10-05. Not derived by relighting the published master and not image-anchored on it. No live daytime weather reading was available. The plate carries no scenario timestamp and no weather line. Published masters were not rewritten."
+  },
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "Gate 1 PASS: ruin of Mesocco Castle — broken wall towers and the tall Romanesque bell tower of San Carpoforo crowning the castle rock, lit Santa Maria del Castello at the northern approach lower left, star field over the Moesa valley with valley lights right; plausible tourist viewpoint, clean framing, no artifacts. Gate 2 PASS: 1920x1080/864x1080 exact per sweep; caption 'Mesocco Castle, Mesocco', scenario '24 September 2026 · 19:39 Europe/Zurich', disclosure 'AI-generated artistic interpretation · Not a photograph.', signature 'Jason D's Vision' (curly apostrophe) all baked bottom-left/right on the gradient scrim and legible; 4:5 master shows the same ruin/tower/church (inter-format identity agrees). Weather per-scene retrieval 2026-09-25T23:47:32Z, unique to the second in the batch; model-valid hour 19:00–19:59 Europe/Zurich, scenario 19:39 inside; code 0 clear / 4% cloud / 17.7C matches the starry early-night frame. Gate 3: note records text-prompt-only lineage, no photographic inputs. Gate 4: no visible people, no logos (documented only). Gate 5: no open blockers.",
   "approved_at": "2026-09-26T16:39:54.679728+00:00",

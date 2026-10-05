@@ -13,6 +13,38 @@
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
   "approval_status": "Approved",
+  "daylight_variant": {
+    "variant_of_entry_id": "CH-01-257",
+    "derived_from": "Text-prompt-only photorealistic daylight plate of the same place. Not image-anchored on the published master. Europe/Zurich was night on 5 October 2026, so this plate has no scenario timestamp and no weather line.",
+    "source_night": {
+      "16x9": {
+        "path": "library/world/Switzerland/St. Moritz/ch-01-257-16x9.png",
+        "sha256": "875cef4ce4f104717210bc6190da69aecf8a690a91374db5380c4bb1b5cb351a"
+      },
+      "4x5": {
+        "path": "library/world/Switzerland/St. Moritz/ch-01-257-4x5.png",
+        "sha256": "bceb7f4f4fe65983b3f6c9c558622613d5f602cf0d981ec700927625d21f1082"
+      },
+      "recorded": "SHA-256 of the published masters immediately before this daylight batch. Post-write hashes are identical; published masters were not rewritten."
+    },
+    "files": {
+      "16x9": "library/world/Switzerland/St. Moritz/ch-01-257-daylight-16x9.png",
+      "4x5": "library/world/Switzerland/St. Moritz/ch-01-257-daylight-4x5.png",
+      "9x16": "library/world/Switzerland/St. Moritz/ch-01-257-daylight-9x16.png"
+    },
+    "sha256": {
+      "16x9": "54adcf5f0b5e8008a318b782ba98dab0bb0d48cf5d74ee9301d7f8ea7579ccff",
+      "4x5": "f8bfed643492b04e7fcef75ce598f608613df043f7b89ea0a48e57e39701c00b",
+      "9x16": "62c419df883e3554a18fb3b5d90eeff500c4fa3ef4616bee0e0e82d3861d9d0f"
+    },
+    "created_date": "2026-10-05",
+    "on_image_caption": "St. Moritz Bad, St. Moritz",
+    "on_image_signature": "Jason D’s Vision",
+    "on_image_disclosure": "AI-generated artistic interpretation · Not a photograph.",
+    "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
+    "derivative_disclosure": "Daylight companion plate for the gallery daylight control. Text-prompt only. No weather claim. No scenario timestamp on the variant. The scene scenario_label is unchanged and is not a daylight weather assertion.",
+    "note": "Photorealistic daylight plate generated text-prompt-only on 2026-10-05. Not derived by relighting the published master and not image-anchored on it. No live daytime weather reading was available. The plate carries no scenario timestamp and no weather line. Published masters were not rewritten."
+  },
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "St. Moritz Bad lakeshore at night: Gate 1 pass — spa hotels along the southwest shore where the Inn leaves Lake St. Moritz, Dorf lights on the slope above at left, not the open-lake postcard view per the note. Gate 2 pass — exact dims, caption 'St. Moritz Bad, St. Moritz', scenario '24 September 2026 · 19:38 Europe/Zurich', disclosure, signature; retrieval 2026-09-25T23:46:22Z unique repo-wide, model step 19:30 valid for the 19:38 scenario. Gate 3 pass — text-prompt-only. Gate 4 noted — no readable hotel names, no people. Gate 5 pass.",
   "approved_at": "2026-09-26T15:37:10.436751+00:00",

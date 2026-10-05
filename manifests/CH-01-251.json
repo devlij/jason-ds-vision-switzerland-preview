@@ -13,6 +13,38 @@
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
   "approval_status": "Approved",
+  "daylight_variant": {
+    "variant_of_entry_id": "CH-01-251",
+    "derived_from": "Text-prompt-only photorealistic daylight plate of the same place. Not image-anchored on the published master. Europe/Zurich was night on 5 October 2026, so this plate has no scenario timestamp and no weather line.",
+    "source_night": {
+      "16x9": {
+        "path": "library/world/Switzerland/Lauterbrunnen/ch-01-251-16x9.png",
+        "sha256": "c077bc776350f026acc4cdc3be2e62d87ccb9521c761bdecb2fa4a530d2890e9"
+      },
+      "4x5": {
+        "path": "library/world/Switzerland/Lauterbrunnen/ch-01-251-4x5.png",
+        "sha256": "537fb348e36a43cd772c65a6862617191725fa96fc26cabc092c5e750a41bf53"
+      },
+      "recorded": "SHA-256 of the published masters immediately before this daylight batch. Post-write hashes are identical; published masters were not rewritten."
+    },
+    "files": {
+      "16x9": "library/world/Switzerland/Lauterbrunnen/ch-01-251-daylight-16x9.png",
+      "4x5": "library/world/Switzerland/Lauterbrunnen/ch-01-251-daylight-4x5.png",
+      "9x16": "library/world/Switzerland/Lauterbrunnen/ch-01-251-daylight-9x16.png"
+    },
+    "sha256": {
+      "16x9": "9c098fc0a3935c06529956471f343a790b29535412c7058d67624926a9ff14f7",
+      "4x5": "3cfe6bd93e35f10525eda8671c81a2e69d96a289f0affdffe3eb17d3598003af",
+      "9x16": "ea60488b2720e5cc2e140d5c443ca7568a089222e5eae06a6744ce882805e7b8"
+    },
+    "created_date": "2026-10-05",
+    "on_image_caption": "Gimmelwald, Lauterbrunnen",
+    "on_image_signature": "Jason D’s Vision",
+    "on_image_disclosure": "AI-generated artistic interpretation · Not a photograph.",
+    "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
+    "derivative_disclosure": "Daylight companion plate for the gallery daylight control. Text-prompt only. No weather claim. No scenario timestamp on the variant. The scene scenario_label is unchanged and is not a daylight weather assertion.",
+    "note": "Photorealistic daylight plate generated text-prompt-only on 2026-10-05. Not derived by relighting the published master and not image-anchored on it. No live daytime weather reading was available. The plate carries no scenario timestamp and no weather line. Published masters were not rewritten."
+  },
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "Gimmelwald, Lauterbrunnen, night frame over the cliff-edge terrace: Gate 1 pass — dark wooden chalets clustered on the car-free terrace with the Lauterbrunnen valley dropping away at left and lit windows under a starry sky, plausible Gimmelwald viewpoint. Gate 2 pass — 16:9 1920x1080 and 4:5 864x1080 verified, on-image caption 'Gimmelwald, Lauterbrunnen', scenario '24 September 2026 · 19:21 Europe/Zurich' matching the 19:21 baked label, AI disclosure and Jason D's Vision signature legible; note records Open-Meteo retrieval 2026-09-25T23:46:16Z, unique repo-wide (0/365 notes share it), valid model hour 19:00–19:59 with scenario 19:21 inside. Gate 3 pass — builder note documents text-prompt-only generation, no photographic inputs. Gate 4 noted — no visible people, no readable logos. Gate 5 pass.",
   "approved_at": "2026-09-26T15:36:42.653861+00:00",
