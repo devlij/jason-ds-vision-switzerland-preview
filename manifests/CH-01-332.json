@@ -15,33 +15,33 @@
   "approval_status": "Approved",
   "daylight_variant": {
     "variant_of_entry_id": "CH-01-332",
-    "derived_from": "Live gallery night master library/world/Switzerland/Basel/ch-01-332-16x9.png (16:9) and library/world/Switzerland/Basel/ch-01-332-4x5.png (4:5) of the same scene; not an independently modelled weather or lighting scenario",
+    "derived_from": "Text-prompt-only photorealistic daylight plate of the same place. Not image-anchored on the published master. Europe/Zurich was night on 5 October 2026, so this plate has no scenario timestamp and no weather line.",
     "source_night": {
       "16x9": {
         "path": "library/world/Switzerland/Basel/ch-01-332-16x9.png",
-        "sha256": "e727e4a44b4e68e39d5d227d93ec7bc57e5bf96818a7fc3e1da49df47b157727"
+        "sha256": "3bf6933789f44314268debf60c4cece6561ac0b020118a87345a3d3edde1d133"
       },
       "4x5": {
         "path": "library/world/Switzerland/Basel/ch-01-332-4x5.png",
-        "sha256": "ab65b2378340af4ad4a120053baa55828ff6d123a62091970f27ae4dcceb2944"
+        "sha256": "541be305862f3268f1b95a18dd7b6cfd1651df59b1445ba026def3b6ccc174d7"
       },
-      "recorded": "SHA-256 of the night masters immediately before this daylight batch. Post-write hashes are identical; night masters were not rewritten."
+      "recorded": "SHA-256 of the published masters immediately before this daylight batch. Post-write hashes are identical; published masters were not rewritten."
     },
     "files": {
       "16x9": "library/world/Switzerland/Basel/ch-01-332-daylight-16x9.png",
       "4x5": "library/world/Switzerland/Basel/ch-01-332-daylight-4x5.png"
     },
     "sha256": {
-      "16x9": "08998c885fc014e13ff4f5b598ecc6b1813896c7cea446f7ec14acd492994eed",
-      "4x5": "e51163b592044a25ac40b274c771b6d65be51d985dee3e71527fef6e437ad36b"
+      "16x9": "2a35a8a2f0e8208dbeb3f7ff7e20a0e84d724ee7b387307ebdae59ba52147902",
+      "4x5": "b98e0ec95af23ed7c15c7eaa9a8c6647480a78b07130d1164d21096f1e69de49"
     },
-    "created_date": "2026-09-26",
+    "created_date": "2026-10-05",
     "on_image_caption": "Spalentor, Basel",
     "on_image_signature": "Jason D’s Vision",
     "on_image_disclosure": "AI-generated artistic interpretation · Not a photograph.",
     "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
-    "derivative_disclosure": "Derivative of the night interpretation of this same viewpoint. Not an independently modelled weather or lighting scenario. No weather claim. No scenario timestamp on the variant.",
-    "note": "AI-generated daylight re-interpretation derived from the night master of the same viewpoint and composition. Not a new scene. Architecture and landscape preserved; lighting only was changed from night to daylight. No weather evidence invented. The variant image carries no weather claim and no scenario timestamp. The scene scenario_label remains the night scene's label and is not a daylight weather assertion."
+    "derivative_disclosure": "Daylight companion plate for the gallery daylight control. Text-prompt only. No weather claim. No scenario timestamp on the variant. The scene scenario_label is unchanged and is not a daylight weather assertion.",
+    "note": "Photorealistic daylight plate generated text-prompt-only on 2026-10-05. Not derived by relighting the published master and not image-anchored on it. No live daytime weather reading was available. The plate carries no scenario timestamp and no weather line. Published masters were not rewritten."
   },
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "Gate 1: Basel's Spalentor city gate at night — two round towers flanking a taller central tower with pointed roof, lit stonework against dark cloud, matching the build-agent description (two round towers + taller central pointed tower); both formats agree on that defining arrangement. Gate 2: 1920×1080/864×1080 exact; caption 'Spalentor, Basel', scenario '24 September 2026 · 23:10 Europe/Zurich', 'Jason D’s Vision' signature bottom-right and 'AI-generated artistic interpretation · Not a photograph.' bottom-left legible; Open-Meteo weather retrieved 2026-09-25T23:48:38Z, per-scene unique across all 39 candidates, valid slot 23:00 consistent with 23:10 scenario. Gate 3: note documents text-prompt-only lineage, no photo inputs. Gate 4: historic public monument; no people or logos. Gate 5: no blockers.",

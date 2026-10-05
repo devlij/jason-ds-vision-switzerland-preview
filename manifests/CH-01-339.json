@@ -15,33 +15,33 @@
   "approval_status": "Approved",
   "daylight_variant": {
     "variant_of_entry_id": "CH-01-339",
-    "derived_from": "Live gallery night master library/world/Switzerland/Solothurn/ch-01-339-16x9.png (16:9) and library/world/Switzerland/Solothurn/ch-01-339-4x5.png (4:5) of the same scene; not an independently modelled weather or lighting scenario",
+    "derived_from": "Text-prompt-only photorealistic daylight plate of the same place. Not image-anchored on the published master. Europe/Zurich was night on 5 October 2026, so this plate has no scenario timestamp and no weather line.",
     "source_night": {
       "16x9": {
         "path": "library/world/Switzerland/Solothurn/ch-01-339-16x9.png",
-        "sha256": "ac0215eaf653efc42b9a7f2fdeed6bd40656635738330a767c6bfa008f1cb98d"
+        "sha256": "f2366eba633f3bff926c342b1ce675a57a2bc2409cd0e7d57be568e0c1ec19f3"
       },
       "4x5": {
         "path": "library/world/Switzerland/Solothurn/ch-01-339-4x5.png",
-        "sha256": "24f694a9dab0acee28987c34a1311979fad0229748ae72370702e063eead205d"
+        "sha256": "7d42a936afd18cbe9ad894a8536e82eaaa2f340dcd7dc1553637e615e81df3af"
       },
-      "recorded": "SHA-256 of the night masters immediately before this daylight batch. Post-write hashes are identical; night masters were not rewritten."
+      "recorded": "SHA-256 of the published masters immediately before this daylight batch. Post-write hashes are identical; published masters were not rewritten."
     },
     "files": {
       "16x9": "library/world/Switzerland/Solothurn/ch-01-339-daylight-16x9.png",
       "4x5": "library/world/Switzerland/Solothurn/ch-01-339-daylight-4x5.png"
     },
     "sha256": {
-      "16x9": "b37879fa3485989999fbfa3d88f242882b8be7db677138dbd00a09013f1ba6ac",
-      "4x5": "2e300ef375c8003695eafcf7611ec90abce0f05598692c8da1890ef9294d1729"
+      "16x9": "1efeaae0c0bb21f5b59e91a0d36bc07db724276e8ec0f31371a1d08cf8c748cf",
+      "4x5": "178fbecfa3b19594fcdb6400b7fbd8af7bf59f80f6f318474a4f8cc87a4af502"
     },
-    "created_date": "2026-09-26",
+    "created_date": "2026-10-05",
     "on_image_caption": "Zeitglockenturm, Solothurn",
     "on_image_signature": "Jason D’s Vision",
     "on_image_disclosure": "AI-generated artistic interpretation · Not a photograph.",
     "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
-    "derivative_disclosure": "Derivative of the night interpretation of this same viewpoint. Not an independently modelled weather or lighting scenario. No weather claim. No scenario timestamp on the variant.",
-    "note": "AI-generated daylight re-interpretation derived from the night master of the same viewpoint and composition. Not a new scene. Architecture and landscape preserved; lighting only was changed from night to daylight. No weather evidence invented. The variant image carries no weather claim and no scenario timestamp. The scene scenario_label remains the night scene's label and is not a daylight weather assertion."
+    "derivative_disclosure": "Daylight companion plate for the gallery daylight control. Text-prompt only. No weather claim. No scenario timestamp on the variant. The scene scenario_label is unchanged and is not a daylight weather assertion.",
+    "note": "Photorealistic daylight plate generated text-prompt-only on 2026-10-05. Not derived by relighting the published master and not image-anchored on it. No live daytime weather reading was available. The plate carries no scenario timestamp and no weather line. Published masters were not rewritten."
   },
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "Gate 1: the Zeitglockenturm in Solothurn's Hauptgasse — medieval clock tower with two illuminated clock faces between pale baroque house fronts, lantern-lit street; both formats agree on the clock tower with lit faces and the flanking baroque fronts. Gate 2: 1920×1080/864×1080 exact; caption 'Zeitglockenturm, Solothurn', scenario '24 September 2026 · 23:28 Europe/Zurich', 'Jason D’s Vision' signature bottom-right and 'AI-generated artistic interpretation · Not a photograph.' bottom-left legible; Open-Meteo weather retrieved 2026-09-25T23:48:45Z, per-scene unique across all 39 candidates, valid slot 23:15 consistent with 23:28 scenario. Gate 3: note documents text-prompt-only lineage, no photo inputs. Gate 4: public clock tower and street; no people or logos. Gate 5: no blockers.",

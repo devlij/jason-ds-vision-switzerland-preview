@@ -15,33 +15,33 @@
   "approval_status": "Approved",
   "daylight_variant": {
     "variant_of_entry_id": "CH-01-337",
-    "derived_from": "Live gallery night master library/world/Switzerland/Boudry/ch-01-337-16x9.png (16:9) and library/world/Switzerland/Boudry/ch-01-337-4x5.png (4:5) of the same scene; not an independently modelled weather or lighting scenario",
+    "derived_from": "Text-prompt-only photorealistic daylight plate of the same place. Not image-anchored on the published master. Europe/Zurich was night on 5 October 2026, so this plate has no scenario timestamp and no weather line.",
     "source_night": {
       "16x9": {
         "path": "library/world/Switzerland/Boudry/ch-01-337-16x9.png",
-        "sha256": "beac3d5eab73aa6db6c69d76ecb818fd6abbb8ae2f27c73efa2b99db0d6a06dc"
+        "sha256": "c64fd0c9bc5a633ddbefdc511bb4c014c47137bbf7a5226c9a911800c79788db"
       },
       "4x5": {
         "path": "library/world/Switzerland/Boudry/ch-01-337-4x5.png",
-        "sha256": "c2ebdfce88d0862664f374a56064c248fcf01acbb843b81e307db7ae01f690bf"
+        "sha256": "b30541e632de0af849980c22ebaa943dde2c927c3ec172d87ab9cbe58a61b74e"
       },
-      "recorded": "SHA-256 of the night masters immediately before this daylight batch. Post-write hashes are identical; night masters were not rewritten."
+      "recorded": "SHA-256 of the published masters immediately before this daylight batch. Post-write hashes are identical; published masters were not rewritten."
     },
     "files": {
       "16x9": "library/world/Switzerland/Boudry/ch-01-337-daylight-16x9.png",
       "4x5": "library/world/Switzerland/Boudry/ch-01-337-daylight-4x5.png"
     },
     "sha256": {
-      "16x9": "b846e36c64267b87ea5f11b34084b6b3352eeb5702b55507d1fdd2ac92a62e14",
-      "4x5": "274952e9c71e66a94a7601e7dc862f830629169c4a7a1ec33f9f02f4fb20ba94"
+      "16x9": "f182f1012c73d98b31343f85b3c2d22543435b0a2075b516402b85e9b0e0ab35",
+      "4x5": "d0233aed5919444521bd4fea492c66d5e9f34cbd57ea1ad3ce3979ac7a9d674f"
     },
-    "created_date": "2026-09-26",
+    "created_date": "2026-10-05",
     "on_image_caption": "Boudry Castle, Boudry",
     "on_image_signature": "Jason D’s Vision",
     "on_image_disclosure": "AI-generated artistic interpretation · Not a photograph.",
     "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
-    "derivative_disclosure": "Derivative of the night interpretation of this same viewpoint. Not an independently modelled weather or lighting scenario. No weather claim. No scenario timestamp on the variant.",
-    "note": "AI-generated daylight re-interpretation derived from the night master of the same viewpoint and composition. Not a new scene. Architecture and landscape preserved; lighting only was changed from night to daylight. No weather evidence invented. The variant image carries no weather claim and no scenario timestamp. The scene scenario_label remains the night scene's label and is not a daylight weather assertion."
+    "derivative_disclosure": "Daylight companion plate for the gallery daylight control. Text-prompt only. No weather claim. No scenario timestamp on the variant. The scene scenario_label is unchanged and is not a daylight weather assertion.",
+    "note": "Photorealistic daylight plate generated text-prompt-only on 2026-10-05. Not derived by relighting the published master and not image-anchored on it. No live daytime weather reading was available. The plate carries no scenario timestamp and no weather line. Published masters were not rewritten."
   },
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "Gate 1: Boudry Castle on its spur above the Areuse — stone castle with the defining round tower, old-town roofs below, autumn vineyard slopes in the foreground; both formats agree on the round tower, spur, and old town (inter-format check). Gate 2: 1920×1080/864×1080 exact; caption 'Boudry Castle, Boudry', scenario '24 September 2026 · 23:27 Europe/Zurich', 'Jason D’s Vision' signature bottom-right and 'AI-generated artistic interpretation · Not a photograph.' bottom-left legible; Open-Meteo weather retrieved 2026-09-25T23:48:43Z, per-scene unique across all 39 candidates, valid slot 23:15 consistent with 23:27 scenario. Gate 3: note documents text-prompt-only lineage, no photo inputs. Gate 4: historic castle; no people or logos. Gate 5: no blockers.",

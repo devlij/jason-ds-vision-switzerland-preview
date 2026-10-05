@@ -15,33 +15,33 @@
   "approval_status": "Approved",
   "daylight_variant": {
     "variant_of_entry_id": "CH-01-333",
-    "derived_from": "Live gallery night master library/world/Switzerland/Arlesheim/ch-01-333-16x9.png (16:9) and library/world/Switzerland/Arlesheim/ch-01-333-4x5.png (4:5) of the same scene; not an independently modelled weather or lighting scenario",
+    "derived_from": "Text-prompt-only photorealistic daylight plate of the same place. Not image-anchored on the published master. Europe/Zurich was night on 5 October 2026, so this plate has no scenario timestamp and no weather line.",
     "source_night": {
       "16x9": {
         "path": "library/world/Switzerland/Arlesheim/ch-01-333-16x9.png",
-        "sha256": "ff048b246659f0128a79c49f69d46a1bb5f940d5a8e58e1164fef1be7e0f137d"
+        "sha256": "54ac905b9faeb02b8a49d2d1d628517a187721a3852908c8ec8174d1b6bdbe08"
       },
       "4x5": {
         "path": "library/world/Switzerland/Arlesheim/ch-01-333-4x5.png",
-        "sha256": "748d04d2f16a4a2dcb2cb339a66a61705a5e34a90bc1a6f41c4e33b133c6f347"
+        "sha256": "188f1e516a913c45bce71275def3f4d25354e24fd709e69b858a15645db16d51"
       },
-      "recorded": "SHA-256 of the night masters immediately before this daylight batch. Post-write hashes are identical; night masters were not rewritten."
+      "recorded": "SHA-256 of the published masters immediately before this daylight batch. Post-write hashes are identical; published masters were not rewritten."
     },
     "files": {
       "16x9": "library/world/Switzerland/Arlesheim/ch-01-333-daylight-16x9.png",
       "4x5": "library/world/Switzerland/Arlesheim/ch-01-333-daylight-4x5.png"
     },
     "sha256": {
-      "16x9": "adcd64fe8c0d918049f47c2fd20c518393e5b32b2032640c915c40d786de4605",
-      "4x5": "add0cb73897ee311944bd61b1a4387d6738f6b1e6cbde6d73eab49b2abc2d155"
+      "16x9": "85e637bb9c6e64820b30f60056a68a9a476d1fbf2fd6e584c36d9639c23efba4",
+      "4x5": "933fa4c50c6493bc0e28b9e410b591087d9c192e4ebf9718307ff3a09252e39d"
     },
-    "created_date": "2026-09-26",
+    "created_date": "2026-10-05",
     "on_image_caption": "Arlesheim Cathedral, Arlesheim",
     "on_image_signature": "Jason D’s Vision",
     "on_image_disclosure": "AI-generated artistic interpretation · Not a photograph.",
     "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
-    "derivative_disclosure": "Derivative of the night interpretation of this same viewpoint. Not an independently modelled weather or lighting scenario. No weather claim. No scenario timestamp on the variant.",
-    "note": "AI-generated daylight re-interpretation derived from the night master of the same viewpoint and composition. Not a new scene. Architecture and landscape preserved; lighting only was changed from night to daylight. No weather evidence invented. The variant image carries no weather claim and no scenario timestamp. The scene scenario_label remains the night scene's label and is not a daylight weather assertion."
+    "derivative_disclosure": "Daylight companion plate for the gallery daylight control. Text-prompt only. No weather claim. No scenario timestamp on the variant. The scene scenario_label is unchanged and is not a daylight weather assertion.",
+    "note": "Photorealistic daylight plate generated text-prompt-only on 2026-10-05. Not derived by relighting the published master and not image-anchored on it. No live daytime weather reading was available. The plate carries no scenario timestamp and no weather line. Published masters were not rewritten."
   },
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "Gate 1: Arlesheim Cathedral closing Domplatz — yellow-white baroque front with two towers carrying light-green spires, floodlit against dark cloud, matching the note's description (two towers, light-green roofs, yellow-white baroque front); both formats agree on the twin green spires. Gate 2: 1920×1080/864×1080 exact; caption 'Arlesheim Cathedral, Arlesheim', scenario '24 September 2026 · 23:10 Europe/Zurich', 'Jason D’s Vision' signature bottom-right and 'AI-generated artistic interpretation · Not a photograph.' bottom-left legible; Open-Meteo weather retrieved 2026-09-25T23:48:39Z, per-scene unique across all 39 candidates, valid slot 23:00 consistent with 23:10 scenario. Gate 3: note documents text-prompt-only lineage, no photo inputs. Gate 4: public church on the square; no people or logos. Gate 5: no blockers.",

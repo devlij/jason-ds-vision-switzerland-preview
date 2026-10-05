@@ -15,33 +15,33 @@
   "approval_status": "Approved",
   "daylight_variant": {
     "variant_of_entry_id": "CH-01-349",
-    "derived_from": "Live gallery night master library/world/Switzerland/Plaffeien/ch-01-349-16x9.png (16:9) and library/world/Switzerland/Plaffeien/ch-01-349-4x5.png (4:5) of the same scene; not an independently modelled weather or lighting scenario",
+    "derived_from": "Text-prompt-only photorealistic daylight plate of the same place. Not image-anchored on the published master. Europe/Zurich was night on 5 October 2026, so this plate has no scenario timestamp and no weather line.",
     "source_night": {
       "16x9": {
         "path": "library/world/Switzerland/Plaffeien/ch-01-349-16x9.png",
-        "sha256": "36be72ae48ad6d443bc6457a5952b31cc21938f7e6ac920f2db3307dafcc4a90"
+        "sha256": "d64c39e10915924fdf63bca56331e6df617fb06db43e13350574903717a6f763"
       },
       "4x5": {
         "path": "library/world/Switzerland/Plaffeien/ch-01-349-4x5.png",
-        "sha256": "a4f66dc3c9f4978c4ac491a6e499c268747de4da2bb8401077971c4d0cbab1f5"
+        "sha256": "b0c63d52dde7e98c860867d3ee06616789407bbf8053b6bd09b478e7731366b3"
       },
-      "recorded": "SHA-256 of the night masters immediately before this daylight batch. Post-write hashes are identical; night masters were not rewritten."
+      "recorded": "SHA-256 of the published masters immediately before this daylight batch. Post-write hashes are identical; published masters were not rewritten."
     },
     "files": {
       "16x9": "library/world/Switzerland/Plaffeien/ch-01-349-daylight-16x9.png",
       "4x5": "library/world/Switzerland/Plaffeien/ch-01-349-daylight-4x5.png"
     },
     "sha256": {
-      "16x9": "840958ad3b7fb0c285cd83ef230e839c9efdea302345de16ade9af3c68649235",
-      "4x5": "d1aa0b7ca715b78202b2f9097b6260e64451d94bc2f67519fa5bc63184760265"
+      "16x9": "600deb87b7c293238b467aa27b6905f778bdba5c315fc63e35b3694b486f5c2c",
+      "4x5": "5ad6e7e3e150f77ab4cb6b8af8673da85175bb05ab0710628c23c01d39474045"
     },
-    "created_date": "2026-09-26",
+    "created_date": "2026-10-05",
     "on_image_caption": "Schwarzsee, Plaffeien",
     "on_image_signature": "Jason D’s Vision",
     "on_image_disclosure": "AI-generated artistic interpretation · Not a photograph.",
     "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
-    "derivative_disclosure": "Derivative of the night interpretation of this same viewpoint. Not an independently modelled weather or lighting scenario. No weather claim. No scenario timestamp on the variant.",
-    "note": "AI-generated daylight re-interpretation derived from the night master of the same viewpoint and composition. Not a new scene. Architecture and landscape preserved; lighting only was changed from night to daylight. No weather evidence invented. The variant image carries no weather claim and no scenario timestamp. The scene scenario_label remains the night scene's label and is not a daylight weather assertion."
+    "derivative_disclosure": "Daylight companion plate for the gallery daylight control. Text-prompt only. No weather claim. No scenario timestamp on the variant. The scene scenario_label is unchanged and is not a daylight weather assertion.",
+    "note": "Photorealistic daylight plate generated text-prompt-only on 2026-10-05. Not derived by relighting the published master and not image-anchored on it. No live daytime weather reading was available. The plate carries no scenario timestamp and no weather line. Published masters were not rewritten."
   },
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "Gate 1 — 16:9 master shows Schwarzsee at night: a dark mountain lake with forested shores, a few warm lights from the small settlement reflected on still water, low cloud over the hills — matches the anchors (dark mountain lake, forested shores, few settlement lights). 4:5 crop shows the same lake, shores, and reflected lights — no inter-format subject disagreement. Gate 2 — exact 1920x1080 / 864x1080 masters; on-image caption 'Schwarzsee, Plaffeien', scenario '24 September 2026 · 23:28 Europe/Zurich', disclosure and exact curly-apostrophe 'Jason D's Vision' signature legible on the scrim. Weather per approvals note: Open-Meteo retrieved 2026-09-25T23:48:55Z, unique per-scene timestamp across the 27-scene candidate window, model-valid hour covering the scenario time with per-scene coordinates. Gate 3 — text-prompt-only lineage documented, no photographic inputs. Gate 4 — no visible people, logos, or recognizable private property; documented only.",

@@ -15,33 +15,33 @@
   "approval_status": "Approved",
   "daylight_variant": {
     "variant_of_entry_id": "CH-01-336",
-    "derived_from": "Live gallery night master library/world/Switzerland/Hauterive/ch-01-336-16x9.png (16:9) and library/world/Switzerland/Hauterive/ch-01-336-4x5.png (4:5) of the same scene; not an independently modelled weather or lighting scenario",
+    "derived_from": "Text-prompt-only photorealistic daylight plate of the same place. Not image-anchored on the published master. Europe/Zurich was night on 5 October 2026, so this plate has no scenario timestamp and no weather line.",
     "source_night": {
       "16x9": {
         "path": "library/world/Switzerland/Hauterive/ch-01-336-16x9.png",
-        "sha256": "9d48bf2ad9ac0ec35e7c7707ad0a4306a2a30baedf0f5293a77365a8500a7799"
+        "sha256": "efb65fd06e72d70cf59b50e3087d254a0f8893e1465ef1e7772b056e0678dc24"
       },
       "4x5": {
         "path": "library/world/Switzerland/Hauterive/ch-01-336-4x5.png",
-        "sha256": "4c57fecf7a85f73ca8abf4cfed4d5ba52623bce2a6c6a26a1c72126c3270f695"
+        "sha256": "749cbbe84b6bcb43be17186ba022a4575b316fa49fa4f42dcc8d95a0fa98e8b4"
       },
-      "recorded": "SHA-256 of the night masters immediately before this daylight batch. Post-write hashes are identical; night masters were not rewritten."
+      "recorded": "SHA-256 of the published masters immediately before this daylight batch. Post-write hashes are identical; published masters were not rewritten."
     },
     "files": {
       "16x9": "library/world/Switzerland/Hauterive/ch-01-336-daylight-16x9.png",
       "4x5": "library/world/Switzerland/Hauterive/ch-01-336-daylight-4x5.png"
     },
     "sha256": {
-      "16x9": "1540ebf327c6e1a2fb12bf621dcf3afbe6727fdb69a301ea0d949998c02aacae",
-      "4x5": "12dd633399d45032fbc5f9dc91b2f14fedf24b5f957d93eba91ae6c5b39bcb94"
+      "16x9": "ee2ec22d2232af468f747abcb0a0f553dea2031eecdeff47de3285dd08a7cd2d",
+      "4x5": "dd06480ef13838f69c40b043327bd7d2ef18a89a921e4e02ba479cf294c473be"
     },
-    "created_date": "2026-09-26",
+    "created_date": "2026-10-05",
     "on_image_caption": "Hauterive Abbey, Hauterive",
     "on_image_signature": "Jason D’s Vision",
     "on_image_disclosure": "AI-generated artistic interpretation · Not a photograph.",
     "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
-    "derivative_disclosure": "Derivative of the night interpretation of this same viewpoint. Not an independently modelled weather or lighting scenario. No weather claim. No scenario timestamp on the variant.",
-    "note": "AI-generated daylight re-interpretation derived from the night master of the same viewpoint and composition. Not a new scene. Architecture and landscape preserved; lighting only was changed from night to daylight. No weather evidence invented. The variant image carries no weather claim and no scenario timestamp. The scene scenario_label remains the night scene's label and is not a daylight weather assertion."
+    "derivative_disclosure": "Daylight companion plate for the gallery daylight control. Text-prompt only. No weather claim. No scenario timestamp on the variant. The scene scenario_label is unchanged and is not a daylight weather assertion.",
+    "note": "Photorealistic daylight plate generated text-prompt-only on 2026-10-05. Not derived by relighting the published master and not image-anchored on it. No live daytime weather reading was available. The plate carries no scenario timestamp and no weather line. Published masters were not rewritten."
   },
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "Gate 1: Hauterive Abbey on the Sarine bend — plain stone Cistercian church with its small tower and cloister arcade, cliff rising behind, river in the foreground; both formats agree on the church-with-tower, cloister, and cliff. Gate 2: 1920×1080/864×1080 exact; caption 'Hauterive Abbey, Hauterive', scenario '24 September 2026 · 23:10 Europe/Zurich', 'Jason D’s Vision' signature bottom-right and 'AI-generated artistic interpretation · Not a photograph.' bottom-left legible; Open-Meteo weather retrieved 2026-09-25T23:48:42Z, per-scene unique across all 39 candidates, valid slot 23:00 consistent with 23:10 scenario. Gate 3: note documents text-prompt-only lineage, no photo inputs. Gate 4: historic abbey site; no people or logos. Gate 5: no blockers.",

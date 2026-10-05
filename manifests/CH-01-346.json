@@ -15,33 +15,33 @@
   "approval_status": "Approved",
   "daylight_variant": {
     "variant_of_entry_id": "CH-01-346",
-    "derived_from": "Live gallery night master library/world/Switzerland/Montreux/ch-01-346-16x9.png (16:9) and library/world/Switzerland/Montreux/ch-01-346-4x5.png (4:5) of the same scene; not an independently modelled weather or lighting scenario",
+    "derived_from": "Text-prompt-only photorealistic daylight plate of the same place. Not image-anchored on the published master. Europe/Zurich was night on 5 October 2026, so this plate has no scenario timestamp and no weather line.",
     "source_night": {
       "16x9": {
         "path": "library/world/Switzerland/Montreux/ch-01-346-16x9.png",
-        "sha256": "73cbfaff12bbd18ce19cf0832100f42e3481d30be989f49536ffb66d063b18eb"
+        "sha256": "87cb3788d27329e27b433072183aea622e2c2fa6e31e2e0c0bf7032fd57e7e4f"
       },
       "4x5": {
         "path": "library/world/Switzerland/Montreux/ch-01-346-4x5.png",
-        "sha256": "8c26dd3d75ae2aaed6e63a5fc9df916ca119ba5dcc611d5bcd03da2089c87842"
+        "sha256": "143ab2eb02a7dc4b5a640638a86d471b021aca71dde446f66a2515d8176eb90a"
       },
-      "recorded": "SHA-256 of the night masters immediately before this daylight batch. Post-write hashes are identical; night masters were not rewritten."
+      "recorded": "SHA-256 of the published masters immediately before this daylight batch. Post-write hashes are identical; published masters were not rewritten."
     },
     "files": {
       "16x9": "library/world/Switzerland/Montreux/ch-01-346-daylight-16x9.png",
       "4x5": "library/world/Switzerland/Montreux/ch-01-346-daylight-4x5.png"
     },
     "sha256": {
-      "16x9": "6f979616b9bdaa8aedb0a2488431db44b1d5be50ec8bb0247f4fc6d0f5cca2c6",
-      "4x5": "bcb62c6dea895da446e96781068994df63a18d7a494dd21c4a434307a1399815"
+      "16x9": "b38b4201cd65a9c25c437fd5974a22a6ac5759e1772584aa92ebdeab29c37b1b",
+      "4x5": "2adb538f392c0a5bebe276614f8dc12bfa78cd88e034b229e1ad4157b4468ead"
     },
-    "created_date": "2026-09-26",
+    "created_date": "2026-10-05",
     "on_image_caption": "Les Avants, Montreux",
     "on_image_signature": "Jason D’s Vision",
     "on_image_disclosure": "AI-generated artistic interpretation · Not a photograph.",
     "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
-    "derivative_disclosure": "Derivative of the night interpretation of this same viewpoint. Not an independently modelled weather or lighting scenario. No weather claim. No scenario timestamp on the variant.",
-    "note": "AI-generated daylight re-interpretation derived from the night master of the same viewpoint and composition. Not a new scene. Architecture and landscape preserved; lighting only was changed from night to daylight. No weather evidence invented. The variant image carries no weather claim and no scenario timestamp. The scene scenario_label remains the night scene's label and is not a daylight weather assertion."
+    "derivative_disclosure": "Daylight companion plate for the gallery daylight control. Text-prompt only. No weather claim. No scenario timestamp on the variant. The scene scenario_label is unchanged and is not a daylight weather assertion.",
+    "note": "Photorealistic daylight plate generated text-prompt-only on 2026-10-05. Not derived by relighting the published master and not image-anchored on it. No live daytime weather reading was available. The plate carries no scenario timestamp and no weather line. Published masters were not rewritten."
   },
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "Gate 1 — 16:9 master shows the hamlet of Les Avants at night: a lane of wooden chalets with warm lit windows receding along a dark road, meadows and bare trees on the mountain slope — matches the anchors (lane of wooden chalets, meadows rather than the lake quay) and the independent description. 4:5 crop shows the same chalet lane — no inter-format subject disagreement. Gate 2 — exact 1920x1080 / 864x1080 masters; on-image caption 'Les Avants, Montreux', scenario '24 September 2026 · 23:28 Europe/Zurich', disclosure and exact curly-apostrophe 'Jason D's Vision' signature legible on the scrim. Weather per approvals note: Open-Meteo retrieved 2026-09-25T23:48:52Z, unique per-scene timestamp across the 27-scene candidate window, model-valid hour covering the scenario time with per-scene coordinates. Gate 3 — text-prompt-only lineage documented, no photographic inputs. Gate 4 — no visible people, logos, or recognizable private property; documented only.",

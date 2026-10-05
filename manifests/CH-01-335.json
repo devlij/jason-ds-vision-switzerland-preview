@@ -15,33 +15,33 @@
   "approval_status": "Approved",
   "daylight_variant": {
     "variant_of_entry_id": "CH-01-335",
-    "derived_from": "Live gallery night master library/world/Switzerland/Eglisau/ch-01-335-16x9.png (16:9) and library/world/Switzerland/Eglisau/ch-01-335-4x5.png (4:5) of the same scene; not an independently modelled weather or lighting scenario",
+    "derived_from": "Text-prompt-only photorealistic daylight plate of the same place. Not image-anchored on the published master. Europe/Zurich was night on 5 October 2026, so this plate has no scenario timestamp and no weather line.",
     "source_night": {
       "16x9": {
         "path": "library/world/Switzerland/Eglisau/ch-01-335-16x9.png",
-        "sha256": "7b88f3da6d142daa2d31bd3708ea4c2a109c9596f2819f9997faa22daac86230"
+        "sha256": "955fa715d6169530b5dfeb6227e19786cfe2fc664f54ce298b1768119d1ea650"
       },
       "4x5": {
         "path": "library/world/Switzerland/Eglisau/ch-01-335-4x5.png",
-        "sha256": "5ba725f88acd565a360ec7af3480ed69b9ef1194896d9ae9a2907d42010f5d2a"
+        "sha256": "d0eb32d434f7652b423651e2636c654c4eddb4ae9ae3cff0ec9c1359a3d00b29"
       },
-      "recorded": "SHA-256 of the night masters immediately before this daylight batch. Post-write hashes are identical; night masters were not rewritten."
+      "recorded": "SHA-256 of the published masters immediately before this daylight batch. Post-write hashes are identical; published masters were not rewritten."
     },
     "files": {
       "16x9": "library/world/Switzerland/Eglisau/ch-01-335-daylight-16x9.png",
       "4x5": "library/world/Switzerland/Eglisau/ch-01-335-daylight-4x5.png"
     },
     "sha256": {
-      "16x9": "c095a1b903b6764ebc3060edb0a7655f13cd54812468794288f9d50226fff2f7",
-      "4x5": "4225995e388f0db13123c98dcbdda489bf37838e333be369fb097230b0fef16a"
+      "16x9": "e0fe3743ae136a7cb5e8841972a6f3874473abefbf27da29aaff052105682fef",
+      "4x5": "a7fd07b7f41f8346012272f2d17a75ad1302a564af323aae82872232c5b4a9a6"
     },
-    "created_date": "2026-09-26",
+    "created_date": "2026-10-05",
     "on_image_caption": "Railway bridge, Eglisau",
     "on_image_signature": "Jason D’s Vision",
     "on_image_disclosure": "AI-generated artistic interpretation · Not a photograph.",
     "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
-    "derivative_disclosure": "Derivative of the night interpretation of this same viewpoint. Not an independently modelled weather or lighting scenario. No weather claim. No scenario timestamp on the variant.",
-    "note": "AI-generated daylight re-interpretation derived from the night master of the same viewpoint and composition. Not a new scene. Architecture and landscape preserved; lighting only was changed from night to daylight. No weather evidence invented. The variant image carries no weather claim and no scenario timestamp. The scene scenario_label remains the night scene's label and is not a daylight weather assertion."
+    "derivative_disclosure": "Daylight companion plate for the gallery daylight control. Text-prompt only. No weather claim. No scenario timestamp on the variant. The scene scenario_label is unchanged and is not a daylight weather assertion.",
+    "note": "Photorealistic daylight plate generated text-prompt-only on 2026-10-05. Not derived by relighting the published master and not image-anchored on it. No live daytime weather reading was available. The plate carries no scenario timestamp and no weather line. Published masters were not rewritten."
   },
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "Gate 1: Eglisau railway bridge high above the Rhine at night — limestone arches with the defining central steel truss, lit old town with the church spire below the deck, river reflections; both formats agree on arches + steel truss + town with church spire. Gate 2: 1920×1080/864×1080 exact; caption 'Railway bridge, Eglisau', scenario '24 September 2026 · 23:10 Europe/Zurich', 'Jason D’s Vision' signature bottom-right and 'AI-generated artistic interpretation · Not a photograph.' bottom-left legible; Open-Meteo weather retrieved 2026-09-25T23:48:41Z, per-scene unique across all 39 candidates, valid slot 23:00 consistent with 23:10 scenario. Gate 3: note documents text-prompt-only lineage, no photo inputs. Gate 4: public infrastructure and townscape; no people or logos. Gate 5: no blockers.",

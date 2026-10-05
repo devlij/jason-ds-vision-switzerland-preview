@@ -15,33 +15,33 @@
   "approval_status": "Approved",
   "daylight_variant": {
     "variant_of_entry_id": "CH-01-359",
-    "derived_from": "Live gallery night master library/world/Switzerland/Bosco-Gurin/ch-01-359-16x9.png (16:9) and library/world/Switzerland/Bosco-Gurin/ch-01-359-4x5.png (4:5) of the same scene; not an independently modelled weather or lighting scenario",
+    "derived_from": "Text-prompt-only photorealistic daylight plate of the same place. Not image-anchored on the published master. Europe/Zurich was night on 5 October 2026, so this plate has no scenario timestamp and no weather line.",
     "source_night": {
       "16x9": {
         "path": "library/world/Switzerland/Bosco-Gurin/ch-01-359-16x9.png",
-        "sha256": "4f8b1f30410d7d70d79d98d7250ee6c3e9994f5cfbf2316e3970634024b372cf"
+        "sha256": "67ad9cbe7198508ac296e260d09cd586b09b3e38d51bb2a7fe13491dcbb432f8"
       },
       "4x5": {
         "path": "library/world/Switzerland/Bosco-Gurin/ch-01-359-4x5.png",
-        "sha256": "690842784c355938b556ea5ab93014dd5a8a7c9a252bff02bc28d5b64e6f07fd"
+        "sha256": "a7b7c9f73381580654f4172037c8d6ce2541219b2c630af3841f44d8e572aad9"
       },
-      "recorded": "SHA-256 of the night masters immediately before this daylight batch. Post-write hashes are identical; night masters were not rewritten."
+      "recorded": "SHA-256 of the published masters immediately before this daylight batch. Post-write hashes are identical; published masters were not rewritten."
     },
     "files": {
       "16x9": "library/world/Switzerland/Bosco-Gurin/ch-01-359-daylight-16x9.png",
       "4x5": "library/world/Switzerland/Bosco-Gurin/ch-01-359-daylight-4x5.png"
     },
     "sha256": {
-      "16x9": "ec284513b981f2a60545aecb32095842c52336c641b9a17e3de170d4a5ba0293",
-      "4x5": "a479983f79e59804d13f6d42ab21c00b96e0b80f7d3a4205b722154cd3a53c1f"
+      "16x9": "72fb9916b524e42ff7eccf8132ae40059ceaf777b0c295706cdb757ddb190ce5",
+      "4x5": "439e4d3454f88640bdf3062f86a2cb8406d1eb13c9a931620fa5ff053d17992b"
     },
-    "created_date": "2026-09-26",
+    "created_date": "2026-10-05",
     "on_image_caption": "Bosco Gurin, Bosco/Gurin",
     "on_image_signature": "Jason D’s Vision",
     "on_image_disclosure": "AI-generated artistic interpretation · Not a photograph.",
     "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
-    "derivative_disclosure": "Derivative of the night interpretation of this same viewpoint. Not an independently modelled weather or lighting scenario. No weather claim. No scenario timestamp on the variant.",
-    "note": "AI-generated daylight re-interpretation derived from the night master of the same viewpoint and composition. Not a new scene. Architecture and landscape preserved; lighting only was changed from night to daylight. No weather evidence invented. The variant image carries no weather claim and no scenario timestamp. The scene scenario_label remains the night scene's label and is not a daylight weather assertion."
+    "derivative_disclosure": "Daylight companion plate for the gallery daylight control. Text-prompt only. No weather claim. No scenario timestamp on the variant. The scene scenario_label is unchanged and is not a daylight weather assertion.",
+    "note": "Photorealistic daylight plate generated text-prompt-only on 2026-10-05. Not derived by relighting the published master and not image-anchored on it. No live daytime weather reading was available. The plate carries no scenario timestamp and no weather line. Published masters were not rewritten."
   },
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "Gate 1: stone church with spire on a tawny rise above a cluster of dark wooden Walser chalets, mountains behind — matches the anchors (Bosco Gurin Walser village, stone church); both formats agree on church, chalets and mountain setting. Gate 2: exact 1920x1080 and 864x1080; caption 'Bosco Gurin, Bosco/Gurin', scenario '24 September 2026 · 23:46 Europe/Zurich', disclosure 'AI-generated artistic interpretation · Not a photograph.' and signature 'Jason D\\u2019s Vision' legible on the bottom scrim; scenario 23:46 inside the model-valid 23:45 step; weather retrieved 2026-09-25T23:49:05Z, verified unique across all 365 Switzerland note files. Gate 3: approvals note records text-prompt-only lineage, no photographic inputs. Gate 4: no identifiable people, no logos or focal artwork — documented only, final commercial call is Jason's. Gate 5: all gates closed.",
