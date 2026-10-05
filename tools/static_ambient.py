@@ -64,15 +64,19 @@ def is_night_hour(hour: int | None) -> bool:
 
 
 def is_daylight_scene(scene: dict, tag: str | None) -> bool:
-    """Daylight only. A night tag or a night-hour scenario excludes the scene."""
+    """Daylight only. A day tag wins over the scenario hour.
+
+    A night tag always excludes the scene, even when a daylight master exists.
+    With no phase-1 tag, a night-hour scenario excludes the scene and a
+    daytime hour is the only thing that includes it.
+    """
     if tag == "night":
-        return False
-    hour = scenario_hour(scene)
-    if is_night_hour(hour):
         return False
     if tag == "day":
         return True
-    # No phase-1 tag: trust a daytime scenario hour, and nothing else.
+    hour = scenario_hour(scene)
+    if is_night_hour(hour):
+        return False
     return hour is not None
 
 

@@ -1,0 +1,38 @@
+{
+  "entry_id": "CH-01-217",
+  "caption": "Murten lakefront, Murten",
+  "method": "static-ambient",
+  "daylight": true,
+  "night_master_used": false,
+  "source": "library/world/Switzerland/Murten/ch-01-217-daylight-4x5.png",
+  "night_master": "library/world/Switzerland/Murten/ch-01-217-4x5.png",
+  "crop": {
+    "x": 0,
+    "y": 0,
+    "width": 864,
+    "height": 1080,
+    "label_bar_px": 190
+  },
+  "output": "assets/ch-01-217-motion-10s-4x5.mp4",
+  "duration_s": 10.0,
+  "width": 864,
+  "height": 1080,
+  "fps": 30,
+  "frames": 300,
+  "ken_burns": {
+    "zoom": "1.00 to 1.07, cosine ease",
+    "pan": "right",
+    "tool": "ffmpeg zoompan"
+  },
+  "qc": "pass",
+  "sha256": "87847eb7f30ef64e26919b0cd7f92c90b5355f3d4b87e3036c1bef16530a377d",
+  "metrics": {
+    "width": 864,
+    "height": 1080,
+    "frames": 300,
+    "duration_s": 10.0,
+    "start_vs_source_mad": 1.362,
+    "adjacent_mad": 0.378,
+    "ends_mad": 17.904
+  }
+}
