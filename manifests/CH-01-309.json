@@ -30,11 +30,13 @@
     },
     "files": {
       "16x9": "library/world/Switzerland/Brig-Glis/ch-01-309-daylight-16x9.png",
-      "4x5": "library/world/Switzerland/Brig-Glis/ch-01-309-daylight-4x5.png"
+      "4x5": "library/world/Switzerland/Brig-Glis/ch-01-309-daylight-4x5.png",
+      "9x16": "library/world/Switzerland/Brig-Glis/ch-01-309-daylight-9x16.png"
     },
     "sha256": {
       "16x9": "9f5d686b1f1f264482da8fe485c6c6640898e057c0f3a1beea74a540126e3390",
-      "4x5": "7bc8487df3e3552cbe8cd64a3a0bfc5f3e426636190f0bad27987ab77a794a21"
+      "4x5": "7bc8487df3e3552cbe8cd64a3a0bfc5f3e426636190f0bad27987ab77a794a21",
+      "9x16": "c7fd5f2043b2f170b90b991df2a8c8941f661924605ab258c88e603ffe1fbcb3"
     },
     "created_date": "2026-09-26",
     "on_image_caption": "Glis Church, Brig-Glis",
@@ -42,7 +44,7 @@
     "on_image_disclosure": "AI-generated artistic interpretation · Not a photograph.",
     "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
     "derivative_disclosure": "Derivative of the night interpretation of this same viewpoint. Not an independently modelled weather or lighting scenario. No weather claim. No scenario timestamp on the variant.",
-    "note": "AI-generated daylight re-interpretation derived from the night master of the same viewpoint and composition. Not a new scene. Architecture and landscape preserved; lighting only was changed from night to daylight. No weather evidence invented. The variant image carries no weather claim and no scenario timestamp. The scene scenario_label remains the night scene's label and is not a daylight weather assertion."
+    "note": "AI-generated daylight re-interpretation derived from the night master of the same viewpoint and composition. Not a new scene. Architecture and landscape preserved; lighting only was changed from night to daylight. No weather evidence invented. The variant image carries no weather claim and no scenario timestamp. The scene scenario_label remains the night scene's label and is not a daylight weather assertion. The 9:16 daylight plate was added on 2026-10-05 as a text-prompt-only photorealistic plate, because a 9:16 master exists and the gallery daylight control requires that ratio. It is not image-anchored on the night master. It carries no scenario timestamp and no weather line. The existing 16:9 and 4:5 daylight files were left in place. Published masters were not rewritten."
   },
   "qc_notes": [
     {
