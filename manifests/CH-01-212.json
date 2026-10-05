@@ -13,6 +13,38 @@
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
   "approval_status": "Approved",
+  "daylight_variant": {
+    "variant_of_entry_id": "CH-01-212",
+    "derived_from": "Text-prompt-only photorealistic daylight plate of the same place. Not image-anchored on the published master. Europe/Zurich was night on 5 October 2026, so this plate has no scenario timestamp and no weather line.",
+    "source_night": {
+      "16x9": {
+        "path": "library/world/Switzerland/Môtiers/ch-01-212-16x9.png",
+        "sha256": "ef0d72d85f257da2e03222af06a13531a9abb3c482a052ce59abca4287e82719"
+      },
+      "4x5": {
+        "path": "library/world/Switzerland/Môtiers/ch-01-212-4x5.png",
+        "sha256": "4cade04e95444d28f8f01af1f6715f6c6347c9aecfbb2d59abb0685bbb308884"
+      },
+      "recorded": "SHA-256 of the published masters immediately before this daylight batch. Post-write hashes are identical; published masters were not rewritten."
+    },
+    "files": {
+      "16x9": "library/world/Switzerland/Môtiers/ch-01-212-daylight-16x9.png",
+      "4x5": "library/world/Switzerland/Môtiers/ch-01-212-daylight-4x5.png",
+      "9x16": "library/world/Switzerland/Môtiers/ch-01-212-daylight-9x16.png"
+    },
+    "sha256": {
+      "16x9": "3f8a717cff70f7751d601b9303ed3ac5ada8d45ed2ae6a5bb835d9ace7a8f409",
+      "4x5": "20db5dc13f4b2777f49ad43c0f17e08801cb0fe6c9775aba74bbd362c05bcf9b",
+      "9x16": "7dfeb6ee709c2722dbcc61271e8c7676db65862642bd6bf7d23907a24c47adf8"
+    },
+    "created_date": "2026-10-05",
+    "on_image_caption": "Môtiers, Môtiers",
+    "on_image_signature": "Jason D’s Vision",
+    "on_image_disclosure": "AI-generated artistic interpretation · Not a photograph.",
+    "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
+    "derivative_disclosure": "Daylight companion plate for the gallery daylight control. Text-prompt only. No weather claim. No scenario timestamp on the variant. The scene scenario_label is unchanged and is not a daylight weather assertion.",
+    "note": "Photorealistic daylight plate generated text-prompt-only on 2026-10-05. Not derived by relighting the published master and not image-anchored on it. No live daytime weather reading was available. The plate carries no scenario timestamp and no weather line. Published masters were not rewritten."
+  },
   "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
   "approval_basis": "Gate 1: compact valley street of stone and rendered houses with the modest Protestant temple (open bell gable) on the street and wooded Areuse-valley slopes behind — plausibly Môtiers, no Creux du Van in frame, clean framing. Gate 2: exact 1920x1080/864x1080 masters; on-image caption 'Môtiers, Môtiers' and scenario '24 September 2026 · 18:46 Europe/Zurich'; curly-apostrophe signature bottom-right; disclosure legible; per-scene Open-Meteo retrieval 2026-09-25T23:45:36Z (unique second), scenario inside model-valid 18:00–18:59 hour, overcast sky matches code 3. Gate 3: text-prompt-only lineage, no photographic input. Gate 4: no people/logos visible — documented only. Gate 5: no open blockers.",
   "approved_at": "2026-09-26T12:34:25.076848+00:00",

@@ -13,6 +13,38 @@
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
   "approval_status": "Approved",
+  "daylight_variant": {
+    "variant_of_entry_id": "CH-01-221",
+    "derived_from": "Text-prompt-only photorealistic daylight plate of the same place. Not image-anchored on the published master. Europe/Zurich was night on 5 October 2026, so this plate has no scenario timestamp and no weather line.",
+    "source_night": {
+      "16x9": {
+        "path": "library/world/Switzerland/Fully/ch-01-221-16x9.png",
+        "sha256": "b80854e4aa2e11bbcad9489a302ee59a220633a1a1eac4bb8ce53cb032c05455"
+      },
+      "4x5": {
+        "path": "library/world/Switzerland/Fully/ch-01-221-4x5.png",
+        "sha256": "b45777db33f693028058d1c3be9b6f2b7c9bb24e323325bbd78720e963d9163d"
+      },
+      "recorded": "SHA-256 of the published masters immediately before this daylight batch. Post-write hashes are identical; published masters were not rewritten."
+    },
+    "files": {
+      "16x9": "library/world/Switzerland/Fully/ch-01-221-daylight-16x9.png",
+      "4x5": "library/world/Switzerland/Fully/ch-01-221-daylight-4x5.png",
+      "9x16": "library/world/Switzerland/Fully/ch-01-221-daylight-9x16.png"
+    },
+    "sha256": {
+      "16x9": "889fe2bae2a6f17b92d67d9ae96c1ba91d9fb2faa17734d95d9c04fe7fcec123",
+      "4x5": "e4524feed719365d9a591a0c81dc98430e5f10ca0082f5c29a17e24e8b604a9b",
+      "9x16": "4a5d7e9f47f1479fdc8b1df8befdca90176915f51debe493c8d67a5f7ac92f99"
+    },
+    "created_date": "2026-10-05",
+    "on_image_caption": "Fully, Fully",
+    "on_image_signature": "Jason D’s Vision",
+    "on_image_disclosure": "AI-generated artistic interpretation · Not a photograph.",
+    "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
+    "derivative_disclosure": "Daylight companion plate for the gallery daylight control. Text-prompt only. No weather claim. No scenario timestamp on the variant. The scene scenario_label is unchanged and is not a daylight weather assertion.",
+    "note": "Photorealistic daylight plate generated text-prompt-only on 2026-10-05. Not derived by relighting the published master and not image-anchored on it. No live daytime weather reading was available. The plate carries no scenario timestamp and no weather line. Published masters were not rewritten."
+  },
   "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
   "approval_basis": "Gate 1: stone-terraced vineyards turning yellow-red, tall church spire among village roofs, rocky Follatères shoulder, flat Rhône plain beyond — recognizably Fully. Gate 2: on-image caption 'Fully, Fully', scenario '24 September 2026 · 18:46 Europe/Zurich' inside the model-valid hour; per-scene retrieval 2026-09-25T23:45:45Z unique to this scene, values differ from siblings (code 2, 83% cloud); exact dims verified; 'Jason D's Vision' signature and AI-interpretation disclosure present and legible. Gate 3: text-prompt-only lineage recorded, no photographic inputs. Gate 4: no prominent people or focal logos; documented-only. Gate 5: no open blockers.",
   "approved_at": "2026-09-26T13:33:37.236946+00:00",

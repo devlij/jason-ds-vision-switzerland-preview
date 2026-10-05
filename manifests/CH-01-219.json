@@ -13,6 +13,38 @@
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
   "approval_status": "Approved",
+  "daylight_variant": {
+    "variant_of_entry_id": "CH-01-219",
+    "derived_from": "Text-prompt-only photorealistic daylight plate of the same place. Not image-anchored on the published master. Europe/Zurich was night on 5 October 2026, so this plate has no scenario timestamp and no weather line.",
+    "source_night": {
+      "16x9": {
+        "path": "library/world/Switzerland/Charmey/ch-01-219-16x9.png",
+        "sha256": "c7efb764214297602a4714d3121c37c80d103079cd0e56fbfb1851605dabf8b7"
+      },
+      "4x5": {
+        "path": "library/world/Switzerland/Charmey/ch-01-219-4x5.png",
+        "sha256": "538439960764fb6bdc2ca3faaeb987cc8c63580c0f36d203f3123320af300984"
+      },
+      "recorded": "SHA-256 of the published masters immediately before this daylight batch. Post-write hashes are identical; published masters were not rewritten."
+    },
+    "files": {
+      "16x9": "library/world/Switzerland/Charmey/ch-01-219-daylight-16x9.png",
+      "4x5": "library/world/Switzerland/Charmey/ch-01-219-daylight-4x5.png",
+      "9x16": "library/world/Switzerland/Charmey/ch-01-219-daylight-9x16.png"
+    },
+    "sha256": {
+      "16x9": "94c8b09dcd003b24115842a6dd6701c61ac6d46857e732ddff45640da8d7a1f3",
+      "4x5": "f6fb05c4f2b8b1aa23bf68335fe365fe363f1469a789e97f9625ec8be7102423",
+      "9x16": "559cbe815ab02ac2337b8d4442efec9e1f8849dd8cd4abec78686adc4478e4ed"
+    },
+    "created_date": "2026-10-05",
+    "on_image_caption": "Charmey, Charmey",
+    "on_image_signature": "Jason D’s Vision",
+    "on_image_disclosure": "AI-generated artistic interpretation · Not a photograph.",
+    "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
+    "derivative_disclosure": "Daylight companion plate for the gallery daylight control. Text-prompt only. No weather claim. No scenario timestamp on the variant. The scene scenario_label is unchanged and is not a daylight weather assertion.",
+    "note": "Photorealistic daylight plate generated text-prompt-only on 2026-10-05. Not derived by relighting the published master and not image-anchored on it. No live daytime weather reading was available. The plate carries no scenario timestamp and no weather line. Published masters were not rewritten."
+  },
   "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
   "approval_basis": "Gate 1: pre-Alpine village of wooden chalets and stone houses with a church among the roofs, Jogne valley and steep limestone peaks with fir forest and tawny September meadows behind, no snow — plausibly Charmey, clean framing. Gate 2: exact 1920x1080/864x1080 masters; on-image caption 'Charmey, Charmey' and scenario '24 September 2026 · 18:46 Europe/Zurich'; curly-apostrophe signature bottom-right; disclosure present; per-scene Open-Meteo retrieval 2026-09-25T23:45:43Z (unique second), scenario inside 18:00–18:59 model hour, heavy cloud matches code 3. Gate 3: text-prompt-only lineage, no photographic input. Gate 4: no people/logos visible — documented only. Gate 5: no open blockers.",
   "approved_at": "2026-09-26T12:34:58.299138+00:00",

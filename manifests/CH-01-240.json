@@ -13,6 +13,38 @@
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
   "approval_status": "Approved",
+  "daylight_variant": {
+    "variant_of_entry_id": "CH-01-240",
+    "derived_from": "Text-prompt-only photorealistic daylight plate of the same place. Not image-anchored on the published master. Europe/Zurich was night on 5 October 2026, so this plate has no scenario timestamp and no weather line.",
+    "source_night": {
+      "16x9": {
+        "path": "library/world/Switzerland/Guttannen/ch-01-240-16x9.png",
+        "sha256": "eabcca35f932770de6a211ad56e1f9e1214c14c2acb262b9047de3924a454b03"
+      },
+      "4x5": {
+        "path": "library/world/Switzerland/Guttannen/ch-01-240-4x5.png",
+        "sha256": "f13eeebfab39771be5b40cc451c69a6f5a123469839a0e590f6de5b40e0d11c8"
+      },
+      "recorded": "SHA-256 of the published masters immediately before this daylight batch. Post-write hashes are identical; published masters were not rewritten."
+    },
+    "files": {
+      "16x9": "library/world/Switzerland/Guttannen/ch-01-240-daylight-16x9.png",
+      "4x5": "library/world/Switzerland/Guttannen/ch-01-240-daylight-4x5.png",
+      "9x16": "library/world/Switzerland/Guttannen/ch-01-240-daylight-9x16.png"
+    },
+    "sha256": {
+      "16x9": "13ac42a63b8c3fb9bd1a5ec96f5c42c2d57e1eb45470663bb976a9de1e6a726d",
+      "4x5": "ec82c37f60db45bca632c7eff142163db3611eecada4fe23e985d9246b85b47a",
+      "9x16": "673def5472b6f4279a9dbd71140321541a0635f5e1b6fb4ffd114ea3bb5446e7"
+    },
+    "created_date": "2026-10-05",
+    "on_image_caption": "Grimsel Pass, Guttannen",
+    "on_image_signature": "Jason D’s Vision",
+    "on_image_disclosure": "AI-generated artistic interpretation · Not a photograph.",
+    "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
+    "derivative_disclosure": "Daylight companion plate for the gallery daylight control. Text-prompt only. No weather claim. No scenario timestamp on the variant. The scene scenario_label is unchanged and is not a daylight weather assertion.",
+    "note": "Photorealistic daylight plate generated text-prompt-only on 2026-10-05. Not derived by relighting the published master and not image-anchored on it. No live daytime weather reading was available. The plate carries no scenario timestamp and no weather line. Published masters were not rewritten."
+  },
   "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
   "approval_basis": "Gate 1: granite Grimsel road curving along the rocky ridge with the dark Bernese-side reservoir below and the small stone hospice at the water's edge; the Totensee correctly absent from the subject. Gate 2: exact 1920x1080/864x1080; signature bottom-right; caption 'Grimsel Pass, Guttannen' + scenario '24 September 2026 · 19:03 Europe/Zurich' + disclosure on scrim; retrieval 2026-09-25T23:46:05Z unique per-scene (repo-wide zero duplicates), valid 19:00 hour. Gate 3: text-prompt-only lineage. Gate 4: no visible people or logos.",
   "approved_at": "2026-09-26T15:12:45.362429+00:00",

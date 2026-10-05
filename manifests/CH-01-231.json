@@ -13,6 +13,38 @@
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
   "approval_status": "Approved",
+  "daylight_variant": {
+    "variant_of_entry_id": "CH-01-231",
+    "derived_from": "Text-prompt-only photorealistic daylight plate of the same place. Not image-anchored on the published master. Europe/Zurich was night on 5 October 2026, so this plate has no scenario timestamp and no weather line.",
+    "source_night": {
+      "16x9": {
+        "path": "library/world/Switzerland/Rapperswil-Jona/ch-01-231-16x9.png",
+        "sha256": "29123e6a5829a4ca7c87202fd79d24ccbd2422ded01dd01ceb10cad9f55db973"
+      },
+      "4x5": {
+        "path": "library/world/Switzerland/Rapperswil-Jona/ch-01-231-4x5.png",
+        "sha256": "77cd250bd521a98bfdc01c2deddbc6d8a2d5b857aa09ecf28fd9591162b10b66"
+      },
+      "recorded": "SHA-256 of the published masters immediately before this daylight batch. Post-write hashes are identical; published masters were not rewritten."
+    },
+    "files": {
+      "16x9": "library/world/Switzerland/Rapperswil-Jona/ch-01-231-daylight-16x9.png",
+      "4x5": "library/world/Switzerland/Rapperswil-Jona/ch-01-231-daylight-4x5.png",
+      "9x16": "library/world/Switzerland/Rapperswil-Jona/ch-01-231-daylight-9x16.png"
+    },
+    "sha256": {
+      "16x9": "390c884aec3baf29d00c3e432a1fccbce9c5dfb0b344d4a67248789888383a6f",
+      "4x5": "e1cba1dac28b5cd83d829c19300e204755f7d3273bfd1b7fc2316ad4d25394be",
+      "9x16": "291583e0bf8f7801f943465b164745e07dd24b59665981f5964df6a39ce08a8c"
+    },
+    "created_date": "2026-10-05",
+    "on_image_caption": "Seedamm, Rapperswil-Jona",
+    "on_image_signature": "Jason D’s Vision",
+    "on_image_disclosure": "AI-generated artistic interpretation · Not a photograph.",
+    "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
+    "derivative_disclosure": "Daylight companion plate for the gallery daylight control. Text-prompt only. No weather claim. No scenario timestamp on the variant. The scene scenario_label is unchanged and is not a daylight weather assertion.",
+    "note": "Photorealistic daylight plate generated text-prompt-only on 2026-10-05. Not derived by relighting the published master and not image-anchored on it. No live daytime weather reading was available. The plate carries no scenario timestamp and no weather line. Published masters were not rewritten."
+  },
   "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
   "approval_basis": "Gate 1: the Seedamm causeway across upper Lake Zurich with the long wooden footbridge on piles beside it, open water and reeds on both sides, low far shore — recognizably the Rapperswil–Hurden crossing. Gate 2: on-image caption 'Seedamm, Rapperswil-Jona', scenario '24 September 2026 · 19:03 Europe/Zurich' inside the model-valid hour; per-scene retrieval 2026-09-25T23:45:56Z, unique, code 3 overcast matching the rendered cloud cover; dims verified; signature and disclosure present. Gate 3: text-prompt-only lineage. Gate 4: no prominent people or focal logos; documented-only. Gate 5: no open blockers.",
   "approved_at": "2026-09-26T13:35:11.421886+00:00",

@@ -13,6 +13,38 @@
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
   "approval_status": "Approved",
+  "daylight_variant": {
+    "variant_of_entry_id": "CH-01-238",
+    "derived_from": "Text-prompt-only photorealistic daylight plate of the same place. Not image-anchored on the published master. Europe/Zurich was night on 5 October 2026, so this plate has no scenario timestamp and no weather line.",
+    "source_night": {
+      "16x9": {
+        "path": "library/world/Switzerland/Realp/ch-01-238-16x9.png",
+        "sha256": "362574c175c341d0931680992edec341d0616ccf43c9c5f457eb52b629ecec67"
+      },
+      "4x5": {
+        "path": "library/world/Switzerland/Realp/ch-01-238-4x5.png",
+        "sha256": "07118149c31a2344f6b7240e6d9b60d86464120fb8af518cf285e0d5b3af568f"
+      },
+      "recorded": "SHA-256 of the published masters immediately before this daylight batch. Post-write hashes are identical; published masters were not rewritten."
+    },
+    "files": {
+      "16x9": "library/world/Switzerland/Realp/ch-01-238-daylight-16x9.png",
+      "4x5": "library/world/Switzerland/Realp/ch-01-238-daylight-4x5.png",
+      "9x16": "library/world/Switzerland/Realp/ch-01-238-daylight-9x16.png"
+    },
+    "sha256": {
+      "16x9": "bee8cf87d1beaded03c7bc0ddaa1d9e305343048f565dda69c7feb212a6b3d67",
+      "4x5": "b3b31761f11f54897a44a19c8b42d482cae7e167e2388f39edc45ab5d3ce652f",
+      "9x16": "bf4b8770fc129cc9e9db404c86875626c9a89c6357e2580fb4bf4776f3e4a4cc"
+    },
+    "created_date": "2026-10-05",
+    "on_image_caption": "Realp, Realp",
+    "on_image_signature": "Jason D’s Vision",
+    "on_image_disclosure": "AI-generated artistic interpretation · Not a photograph.",
+    "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
+    "derivative_disclosure": "Daylight companion plate for the gallery daylight control. Text-prompt only. No weather claim. No scenario timestamp on the variant. The scene scenario_label is unchanged and is not a daylight weather assertion.",
+    "note": "Photorealistic daylight plate generated text-prompt-only on 2026-10-05. Not derived by relighting the published master and not image-anchored on it. No live daytime weather reading was available. The plate carries no scenario timestamp and no weather line. Published masters were not rewritten."
+  },
   "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
   "approval_basis": "Gate 1: dark-wood chalets of Realp scattered on the Urseren floor with the modest white church, tawny September grass, and the Furka massif rising behind — village, not pass summit, no snow on the houses, no railway branding. Gate 2: exact 1920x1080/864x1080; signature/caption 'Realp, Realp'/scenario 19:03 24 September 2026/disclosure all on-image; weather retrieval 2026-09-25T23:46:03Z unique per-scene (repo-wide scan clean), valid 19:00 hour. Gate 3: text-prompt-only, no photo inputs. Gate 4: no people, no logos.",
   "approved_at": "2026-09-26T15:12:30.481883+00:00",

@@ -13,6 +13,38 @@
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
   "approval_status": "Approved",
+  "daylight_variant": {
+    "variant_of_entry_id": "CH-01-236",
+    "derived_from": "Text-prompt-only photorealistic daylight plate of the same place. Not image-anchored on the published master. Europe/Zurich was night on 5 October 2026, so this plate has no scenario timestamp and no weather line.",
+    "source_night": {
+      "16x9": {
+        "path": "library/world/Switzerland/Wassen/ch-01-236-16x9.png",
+        "sha256": "fabfa85d99a9b0b32e32aa5b550d8e5ab7caeaed08ba3cd7b212744046c02d15"
+      },
+      "4x5": {
+        "path": "library/world/Switzerland/Wassen/ch-01-236-4x5.png",
+        "sha256": "a89ed4b7b48e6f24cb11b2619603cf7dd2a6bc78bc82b6b1ed313e062b623082"
+      },
+      "recorded": "SHA-256 of the published masters immediately before this daylight batch. Post-write hashes are identical; published masters were not rewritten."
+    },
+    "files": {
+      "16x9": "library/world/Switzerland/Wassen/ch-01-236-daylight-16x9.png",
+      "4x5": "library/world/Switzerland/Wassen/ch-01-236-daylight-4x5.png",
+      "9x16": "library/world/Switzerland/Wassen/ch-01-236-daylight-9x16.png"
+    },
+    "sha256": {
+      "16x9": "9dc629cec7432eb37145c1e27a53f0a3f29c4a64ac6ee12338e67677541aed25",
+      "4x5": "8218740b6df195a7ae5db3cf3e64c77427faf4bd4cf97492561c549fbfac0d69",
+      "9x16": "7e1855100bba5d7b5894583a3b134eb1a3683c089fb72717536d2f1ce234fb67"
+    },
+    "created_date": "2026-10-05",
+    "on_image_caption": "Wassen, Wassen",
+    "on_image_signature": "Jason D’s Vision",
+    "on_image_disclosure": "AI-generated artistic interpretation · Not a photograph.",
+    "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
+    "derivative_disclosure": "Daylight companion plate for the gallery daylight control. Text-prompt only. No weather claim. No scenario timestamp on the variant. The scene scenario_label is unchanged and is not a daylight weather assertion.",
+    "note": "Photorealistic daylight plate generated text-prompt-only on 2026-10-05. Not derived by relighting the published master and not image-anchored on it. No live daytime weather reading was available. The plate carries no scenario timestamp and no weather line. Published masters were not rewritten."
+  },
   "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
   "approval_basis": "Gate 1: white St. Gallus church on its rocky knoll above Wassen with two stone railway viaduct tiers in the gorge and village roofs below — the classic Gotthard-loop viewpoint, clean framing, no artifacts. Gate 2: exact 1920x1080/864x1080, 'Jason D's Vision' signature bottom-right, caption 'Wassen, Wassen' + scenario '24 September 2026 · 19:03 Europe/Zurich' + 'AI-generated artistic interpretation · Not a photograph.' on scrim; weather retrieved 2026-09-25T23:46:01Z, unique per-scene (repo-wide scan: no duplicates), valid 19:00 hour covering the 19:03 scenario. Gate 3: text-prompt-only, no photographic inputs. Gate 4: no people, no logos, no readable brands.",
   "approved_at": "2026-09-26T15:12:15.720543+00:00",

@@ -13,6 +13,38 @@
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
   "approval_status": "Approved",
+  "daylight_variant": {
+    "variant_of_entry_id": "CH-01-216",
+    "derived_from": "Text-prompt-only photorealistic daylight plate of the same place. Not image-anchored on the published master. Europe/Zurich was night on 5 October 2026, so this plate has no scenario timestamp and no weather line.",
+    "source_night": {
+      "16x9": {
+        "path": "library/world/Switzerland/Fribourg/ch-01-216-16x9.png",
+        "sha256": "35c8e41fc91c389e65521a0dc1fec0e43f35a123181a5c0dbf0e32e6f59ca9b1"
+      },
+      "4x5": {
+        "path": "library/world/Switzerland/Fribourg/ch-01-216-4x5.png",
+        "sha256": "bd22df6fa4be9dae18adc3c9f6b37a2c60cefb2179d911bc07e9243019c2a681"
+      },
+      "recorded": "SHA-256 of the published masters immediately before this daylight batch. Post-write hashes are identical; published masters were not rewritten."
+    },
+    "files": {
+      "16x9": "library/world/Switzerland/Fribourg/ch-01-216-daylight-16x9.png",
+      "4x5": "library/world/Switzerland/Fribourg/ch-01-216-daylight-4x5.png",
+      "9x16": "library/world/Switzerland/Fribourg/ch-01-216-daylight-9x16.png"
+    },
+    "sha256": {
+      "16x9": "29533ba9ce81da59608c055130eec74213f43812f89ee92ea6884e142176c69e",
+      "4x5": "bde4f7733b8446369ddaf9f0b53ad2febe11e2f117b52aa1dc171eaf13414d85",
+      "9x16": "7401a821d05bd06c0d8913f015d47e62ec57136ac7d49622247d137b1936d680"
+    },
+    "created_date": "2026-10-05",
+    "on_image_caption": "Fribourg bridges, Fribourg",
+    "on_image_signature": "Jason D’s Vision",
+    "on_image_disclosure": "AI-generated artistic interpretation · Not a photograph.",
+    "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
+    "derivative_disclosure": "Daylight companion plate for the gallery daylight control. Text-prompt only. No weather claim. No scenario timestamp on the variant. The scene scenario_label is unchanged and is not a daylight weather assertion.",
+    "note": "Photorealistic daylight plate generated text-prompt-only on 2026-10-05. Not derived by relighting the published master and not image-anchored on it. No live daytime weather reading was available. The plate carries no scenario timestamp and no weather line. Published masters were not rewritten."
+  },
   "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
   "approval_basis": "Gate 1: dark-roofed covered wooden Pont de Berne low over the Sarine on a central stone pier with the tall 1924 concrete Zähringen viaduct crossing the gorge high above, houses on the rock walls — both named bridges in one frame, clean and plausible. Gate 2: exact 1920x1080/864x1080 masters; on-image caption 'Fribourg bridges, Fribourg' and scenario '24 September 2026 · 18:46 Europe/Zurich'; curly-apostrophe signature bottom-right; disclosure legible; per-scene Open-Meteo retrieval 2026-09-25T23:45:40Z (unique second), scenario inside model-valid 18:00–18:59 hour, broken cloud matches code 2. Gate 3: text-prompt-only lineage, no photographic input. Gate 4: no people/logos visible — documented only. Gate 5: no open blockers.",
   "approved_at": "2026-09-26T12:34:43.956798+00:00",

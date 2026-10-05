@@ -13,6 +13,38 @@
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
   "approval_status": "Approved",
+  "daylight_variant": {
+    "variant_of_entry_id": "CH-01-230",
+    "derived_from": "Text-prompt-only photorealistic daylight plate of the same place. Not image-anchored on the published master. Europe/Zurich was night on 5 October 2026, so this plate has no scenario timestamp and no weather line.",
+    "source_night": {
+      "16x9": {
+        "path": "library/world/Switzerland/Rapperswil/ch-01-230-16x9.png",
+        "sha256": "bd79f248e4e2932c21523c716cf0bc316829cc114813143d9a532bed3cc7e4d3"
+      },
+      "4x5": {
+        "path": "library/world/Switzerland/Rapperswil/ch-01-230-4x5.png",
+        "sha256": "06daa20b0deaaf57607ef57ebf36609a62ed064f3269b6c4521e2ac31af02f9f"
+      },
+      "recorded": "SHA-256 of the published masters immediately before this daylight batch. Post-write hashes are identical; published masters were not rewritten."
+    },
+    "files": {
+      "16x9": "library/world/Switzerland/Rapperswil/ch-01-230-daylight-16x9.png",
+      "4x5": "library/world/Switzerland/Rapperswil/ch-01-230-daylight-4x5.png",
+      "9x16": "library/world/Switzerland/Rapperswil/ch-01-230-daylight-9x16.png"
+    },
+    "sha256": {
+      "16x9": "b7eee0ef2f24719ef038bf9c36d44a79e4d4bc12e32334eb7a968c1e852bf223",
+      "4x5": "081d26ad253fbf7be1fd6a2f70e5d7b4ea2937c8538559d5c241a790ff5cab82",
+      "9x16": "f4227d1297387111344365a8a476bbc68b3827070bb21256919979f84db94274"
+    },
+    "created_date": "2026-10-05",
+    "on_image_caption": "Lakeside Promenade, Rapperswil",
+    "on_image_signature": "Jason D’s Vision",
+    "on_image_disclosure": "AI-generated artistic interpretation · Not a photograph.",
+    "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
+    "derivative_disclosure": "Daylight companion plate for the gallery daylight control. Text-prompt only. No weather claim. No scenario timestamp on the variant. The scene scenario_label is unchanged and is not a daylight weather assertion.",
+    "note": "Photorealistic daylight plate generated text-prompt-only on 2026-10-05. Not derived by relighting the published master and not image-anchored on it. No live daytime weather reading was available. The plate carries no scenario timestamp and no weather line. Published masters were not rewritten."
+  },
   "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
   "approval_basis": "Gate 1: Rapperswil's Fischmarktplatz promenade — plane trees, stone quay, moored boats, old-town houses, view west so the castle stays behind the camera — recognizably the lakeside promenade. Gate 2: on-image caption 'Lakeside Promenade, Rapperswil', scenario '24 September 2026 · 19:03 Europe/Zurich' inside the model-valid hour; per-scene retrieval 2026-09-25T23:45:55Z, unique, code 3 overcast matching the grey rendered sky; dims verified; signature and disclosure legible. Gate 3: text-prompt-only lineage. Gate 4: no prominent people or focal logos; documented-only. Gate 5: no open blockers.",
   "approved_at": "2026-09-26T13:35:06.970888+00:00",

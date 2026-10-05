@@ -13,6 +13,38 @@
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
   "approval_status": "Approved",
+  "daylight_variant": {
+    "variant_of_entry_id": "CH-01-234",
+    "derived_from": "Text-prompt-only photorealistic daylight plate of the same place. Not image-anchored on the published master. Europe/Zurich was night on 5 October 2026, so this plate has no scenario timestamp and no weather line.",
+    "source_night": {
+      "16x9": {
+        "path": "library/world/Switzerland/Muotathal/ch-01-234-16x9.png",
+        "sha256": "7e700b03a12d99103f1a5b6fb3dcf804e05610795e0e427e01a7d7ed7407bcf4"
+      },
+      "4x5": {
+        "path": "library/world/Switzerland/Muotathal/ch-01-234-4x5.png",
+        "sha256": "a10808eda4a5dcbbf6ad6c4cf70915a225c1e4be11dce79991311a82420210cc"
+      },
+      "recorded": "SHA-256 of the published masters immediately before this daylight batch. Post-write hashes are identical; published masters were not rewritten."
+    },
+    "files": {
+      "16x9": "library/world/Switzerland/Muotathal/ch-01-234-daylight-16x9.png",
+      "4x5": "library/world/Switzerland/Muotathal/ch-01-234-daylight-4x5.png",
+      "9x16": "library/world/Switzerland/Muotathal/ch-01-234-daylight-9x16.png"
+    },
+    "sha256": {
+      "16x9": "f788791f96b918d63adf96de38196e3e264f5311a1b512bb60c0762d1dbeb8b1",
+      "4x5": "a9b290370f89ad4f7f517dc117007ef0e4b42de945c116f1c99a6dc0408a6d72",
+      "9x16": "f59c1cd993c45dcdd12cdf5d3dddfeb5111eed88e38803f460b25c1a1b4ba557"
+    },
+    "created_date": "2026-10-05",
+    "on_image_caption": "Muotathal, Muotathal",
+    "on_image_signature": "Jason D’s Vision",
+    "on_image_disclosure": "AI-generated artistic interpretation · Not a photograph.",
+    "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
+    "derivative_disclosure": "Daylight companion plate for the gallery daylight control. Text-prompt only. No weather claim. No scenario timestamp on the variant. The scene scenario_label is unchanged and is not a daylight weather assertion.",
+    "note": "Photorealistic daylight plate generated text-prompt-only on 2026-10-05. Not derived by relighting the published master and not image-anchored on it. No live daytime weather reading was available. The plate carries no scenario timestamp and no weather line. Published masters were not rewritten."
+  },
   "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
   "approval_basis": "Gate 1: Muotathal on the Muota valley floor — compact village with its church tower beneath steep wooded valley walls, late-September green-and-tawny pastures, no snow — recognizably Muotathal. Gate 2: on-image caption 'Muotathal, Muotathal', scenario '24 September 2026 · 19:03 Europe/Zurich' inside the model-valid hour; per-scene retrieval 2026-09-25T23:45:59Z, unique, code 3 overcast matching the rendered grey sky; dims verified; signature and disclosure legible. Gate 3: text-prompt-only lineage. Gate 4: no prominent people or focal logos; documented-only. Gate 5: no open blockers.",
   "approved_at": "2026-09-26T13:35:25.009095+00:00",

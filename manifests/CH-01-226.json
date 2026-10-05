@@ -13,6 +13,38 @@
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
   "approval_status": "Approved",
+  "daylight_variant": {
+    "variant_of_entry_id": "CH-01-226",
+    "derived_from": "Text-prompt-only photorealistic daylight plate of the same place. Not image-anchored on the published master. Europe/Zurich was night on 5 October 2026, so this plate has no scenario timestamp and no weather line.",
+    "source_night": {
+      "16x9": {
+        "path": "library/world/Switzerland/Zurich/ch-01-226-16x9.png",
+        "sha256": "7530b80e86bbfd3fd85385115622585b04bc6a63b20438ffbf66b8a8c9f210dd"
+      },
+      "4x5": {
+        "path": "library/world/Switzerland/Zurich/ch-01-226-4x5.png",
+        "sha256": "40445f2fe9382a63440c62e383fd68d3aa40d3c7a1dbf1ee060f55d9838718d8"
+      },
+      "recorded": "SHA-256 of the published masters immediately before this daylight batch. Post-write hashes are identical; published masters were not rewritten."
+    },
+    "files": {
+      "16x9": "library/world/Switzerland/Zurich/ch-01-226-daylight-16x9.png",
+      "4x5": "library/world/Switzerland/Zurich/ch-01-226-daylight-4x5.png",
+      "9x16": "library/world/Switzerland/Zurich/ch-01-226-daylight-9x16.png"
+    },
+    "sha256": {
+      "16x9": "5c65b6e09d2a00633e3ded3b1a3fde028c7675f3bf962551df651b09f07ae645",
+      "4x5": "27f4ee4bd00c98d2b864b465f47ec8eba38532ad5887dfd3679e91668a9418f8",
+      "9x16": "af122d5518f4d413dfc0a70de9905c32fc7c886854554d2e7dda8ebc613150ec"
+    },
+    "created_date": "2026-10-05",
+    "on_image_caption": "Bellevue, Zurich",
+    "on_image_signature": "Jason D’s Vision",
+    "on_image_disclosure": "AI-generated artistic interpretation · Not a photograph.",
+    "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
+    "derivative_disclosure": "Daylight companion plate for the gallery daylight control. Text-prompt only. No weather claim. No scenario timestamp on the variant. The scene scenario_label is unchanged and is not a daylight weather assertion.",
+    "note": "Photorealistic daylight plate generated text-prompt-only on 2026-10-05. Not derived by relighting the published master and not image-anchored on it. No live daytime weather reading was available. The plate carries no scenario timestamp and no weather line. Published masters were not rewritten."
+  },
   "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
   "approval_basis": "Gate 1: Bellevueplatz junction — plane trees, period apartment blocks, tram tracks crossing, view opening south onto the lake — recognizably Bellevue. Gate 2: on-image caption 'Bellevue, Zurich', scenario '24 September 2026 · 19:02 Europe/Zurich' inside the model-valid hour; per-scene retrieval 2026-09-25T23:45:51Z, unique, code 3 overcast consistent with the grey rendered sky; dims verified; signature and disclosure legible. Gate 3: text-prompt-only lineage. Gate 4: no prominent people or focal logos; documented-only. Gate 5: no open blockers.",
   "approved_at": "2026-09-26T13:33:59.280801+00:00",
