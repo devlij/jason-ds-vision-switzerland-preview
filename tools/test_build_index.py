@@ -119,6 +119,70 @@ def test_status_class_follows_approval_status_text() -> None:
     assert scenes[0]["approval_status"] == "Candidate"
 
 
+def test_switcher_daylight_gate_and_approval_copy() -> None:
+    """D031–D034: live galleries, genuine daylight gate, approval copy."""
+    template = (TOOLS / "gallery_template.html").read_text(encoding="utf-8")
+    page = (TOOLS.parent / "index.html").read_text(encoding="utf-8")
+    for html in (template, page):
+        assert "https://norway.jdvision.org/" in html
+        assert "https://denmark.jdvision.org/" in html
+        assert "jason-ds-vision-norway-preview" not in html
+        assert "jason-ds-vision-denmark-preview" not in html
+        assert "https://netherlands.jdvision.org/" in html
+        assert "https://devlij.github.io/jason-ds-vision-finland-preview/" in html
+        assert "https://sweden.jdvision.org/" in html
+        assert "https://ireland.jdvision.org/" in html
+        assert "https://uk.jdvision.org/" in html
+        assert "Belgium" not in html[html.find('class="country-switch"'):html.find('id="gallery-lead"')]
+        assert "Austria" not in html[html.find('class="country-switch"'):html.find('id="gallery-lead"')]
+        nav = html[html.find('<nav class="country-switch"'):html.find("</nav>")]
+        assert 'class="current"' in nav
+        assert "<a " not in nav[nav.find('class="current"'):]
+        names = [
+            "Germany",
+            "Italy",
+            "France",
+            "Spain",
+            "Greece",
+            "Norway",
+            "Denmark",
+            "Netherlands",
+            "Finland",
+            "Sweden",
+            "Ireland",
+            "United Kingdom",
+            "Switzerland",
+        ]
+        positions = [nav.index(name) for name in names]
+        assert positions == sorted(positions)
+        assert 'id="gallery-lead"' in html
+        assert "Candidate scenes until an independent QC pass</p>" not in html
+        assert "const dayReady = !!day16 && (!file45 || !!day45);" in html
+        assert "(!file916 || !!day916)" not in html
+        assert 'class="status ${esc(status.toLowerCase())}"' in html
+        assert 'x.approval_status === "Approved"' in html
+    # The seven night scenes with 9:16 masters and 16:9/4:5 daylight files
+    # must keep those daylight paths. A9 does not regenerate the files.
+    scenes = gallery.publishable_scenes(gallery.load_manifests())
+    by_id = {scene["entry_id"]: scene for scene in scenes}
+    held = [
+        "CH-01-301",
+        "CH-01-302",
+        "CH-01-309",
+        "CH-01-345",
+        "CH-01-354",
+        "CH-01-364",
+        "CH-01-365",
+    ]
+    for entry_id in held:
+        scene = by_id[entry_id]
+        assert scene["file_16x9_day"].endswith(f"{entry_id.lower()}-daylight-16x9.png")
+        assert scene["file_4x5_day"].endswith(f"{entry_id.lower()}-daylight-4x5.png")
+        assert "file_9x16_day" not in scene
+        assert gallery.master_exists(scene["file_16x9_day"])
+        assert gallery.master_exists(scene["file_4x5_day"])
+
+
 def test_page_javascript_matches_python_related_order() -> None:
     scenes = gallery.publishable_scenes(gallery.load_manifests())
     meta = gallery.phase1_meta(scenes, gallery.load_tags())
@@ -169,6 +233,7 @@ process.stdout.write(JSON.stringify(out));
 
 
 def main() -> None:
+    test_switcher_daylight_gate_and_approval_copy()
     test_publishable_scenes_match_recorded_fields()
     test_related_is_region_first_then_mood_then_id()
     test_missing_master_is_omitted_from_scene_and_related()
