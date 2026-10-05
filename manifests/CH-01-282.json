@@ -13,6 +13,38 @@
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
   "approval_status": "Approved",
+  "daylight_variant": {
+    "variant_of_entry_id": "CH-01-282",
+    "derived_from": "Text-prompt-only photorealistic daylight plate of the same place. Not image-anchored on the published master. Europe/Zurich was night on 5 October 2026, so this plate has no scenario timestamp and no weather line.",
+    "source_night": {
+      "16x9": {
+        "path": "library/world/Switzerland/Spiez/ch-01-282-16x9.png",
+        "sha256": "465c2114fa9e75d141b5c707c4c605cdb5989f1aad8c3c1c31aa2be3954bd11d"
+      },
+      "4x5": {
+        "path": "library/world/Switzerland/Spiez/ch-01-282-4x5.png",
+        "sha256": "113ee8d8e7bc40e56b7240d1f6b69341443f587f7e38eaf5277bdec77cefac7c"
+      },
+      "recorded": "SHA-256 of the published masters immediately before this daylight batch. Post-write hashes are identical; published masters were not rewritten."
+    },
+    "files": {
+      "16x9": "library/world/Switzerland/Spiez/ch-01-282-daylight-16x9.png",
+      "4x5": "library/world/Switzerland/Spiez/ch-01-282-daylight-4x5.png",
+      "9x16": "library/world/Switzerland/Spiez/ch-01-282-daylight-9x16.png"
+    },
+    "sha256": {
+      "16x9": "08bcf936f98fdca02b3377034e91c5aabf18626a217c3bab3312752a5f5934ec",
+      "4x5": "f11b6414a979dbf868b7d989f15b434d323a0f86affef6446cdb8d417ec00550",
+      "9x16": "4d0ec890d9c3054e7535b57c8c65d72c085823597cc337e579f015c0700d4807"
+    },
+    "created_date": "2026-10-05",
+    "on_image_caption": "Spiez lakefront, Spiez",
+    "on_image_signature": "Jason D’s Vision",
+    "on_image_disclosure": "AI-generated artistic interpretation · Not a photograph.",
+    "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
+    "derivative_disclosure": "Daylight companion plate for the gallery daylight control. Text-prompt only. No weather claim. No scenario timestamp on the variant. The scene scenario_label is unchanged and is not a daylight weather assertion.",
+    "note": "Photorealistic daylight plate generated text-prompt-only on 2026-10-05. Not derived by relighting the published master and not image-anchored on it. No live daytime weather reading was available. The plate carries no scenario timestamp and no weather line. Published masters were not rewritten."
+  },
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "Gate 1: night lakefront at Spiez with moored rowboats in the foreground, lamp-lit promenade curving along the shore, vineyards on the hillside left, and the pyramid silhouette of the Niesen across Lake Thun; plausible tourist viewpoint from the jetty. Gate 2: exact 1920x1080/864x1080; caption 'Spiez lakefront, Spiez', scenario '24 September 2026 - 19:57 Europe/Zurich', AI-disclosure and 'Jason D's Vision' signature verified on-image; weather retrieved 2026-09-25T23:47:48Z, unique repo-wide, valid hour 19:00-19:59 matches scenario. Gate 3: text-prompt-only lineage per note, no photographic inputs. Gate 4: no identifiable people or logos (documented only).",
   "approved_at": "2026-09-26T17:42:13.271573+00:00",

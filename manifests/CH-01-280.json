@@ -13,6 +13,38 @@
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
   "approval_status": "Approved",
+  "daylight_variant": {
+    "variant_of_entry_id": "CH-01-280",
+    "derived_from": "Text-prompt-only photorealistic daylight plate of the same place. Not image-anchored on the published master. Europe/Zurich was night on 5 October 2026, so this plate has no scenario timestamp and no weather line.",
+    "source_night": {
+      "16x9": {
+        "path": "library/world/Switzerland/Hilterfingen/ch-01-280-16x9.png",
+        "sha256": "5edd5c475e2517f0956d676b67f552691480928caf9557196c4c8b7487b300f1"
+      },
+      "4x5": {
+        "path": "library/world/Switzerland/Hilterfingen/ch-01-280-4x5.png",
+        "sha256": "1f6e0a510a60452300a133e65ea475e7bc34327c1df391c652d68c5d032487cb"
+      },
+      "recorded": "SHA-256 of the published masters immediately before this daylight batch. Post-write hashes are identical; published masters were not rewritten."
+    },
+    "files": {
+      "16x9": "library/world/Switzerland/Hilterfingen/ch-01-280-daylight-16x9.png",
+      "4x5": "library/world/Switzerland/Hilterfingen/ch-01-280-daylight-4x5.png",
+      "9x16": "library/world/Switzerland/Hilterfingen/ch-01-280-daylight-9x16.png"
+    },
+    "sha256": {
+      "16x9": "5b4a3a6b4bd7b1dd028964c442dff788f8b5cab4c1b58b5fa55a23f5d9bbd780",
+      "4x5": "6fc125ed3e0f310b00db613f5e9401f4856cea90659636d2f6ce2ab0bd44afb1",
+      "9x16": "9bbe9a9c5f0b3440c90635a2c3d95323f56ac9b31bc2040960a2f8a8641ea58e"
+    },
+    "created_date": "2026-10-05",
+    "on_image_caption": "Hilterfingen, Hilterfingen",
+    "on_image_signature": "Jason D’s Vision",
+    "on_image_disclosure": "AI-generated artistic interpretation · Not a photograph.",
+    "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
+    "derivative_disclosure": "Daylight companion plate for the gallery daylight control. Text-prompt only. No weather claim. No scenario timestamp on the variant. The scene scenario_label is unchanged and is not a daylight weather assertion.",
+    "note": "Photorealistic daylight plate generated text-prompt-only on 2026-10-05. Not derived by relighting the published master and not image-anchored on it. No live daytime weather reading was available. The plate carries no scenario timestamp and no weather line. Published masters were not rewritten."
+  },
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "Gate 1 PASS: Schloss Hünegg at Hilterfingen — Loire-inspired historicist castle with multiple slate spires and turrets, lit windows, set in its dark park by Lake Thun, overcast dusk; matches the note's independent description, clean framing, no artifacts. Gate 2 PASS: 1920x1080/864x1080 exact per sweep; caption 'Hilterfingen, Hilterfingen', scenario '24 September 2026 · 19:57 Europe/Zurich', disclosure and 'Jason D's Vision' signature (curly apostrophe) on the bottom scrim, legible; 4:5 master shows the same spired castle (inter-format identity agrees). Weather per-scene retrieval 2026-09-25T23:47:46Z, unique to the second; model-valid hour 19:00–19:59 Europe/Zurich, scenario 19:57 inside; code 3 overcast / 98% cloud / 17.9C matches the heavy cloud cover. Gate 3: text-prompt-only lineage per note. Gate 4: no visible people, no logos. Gate 5: no open blockers.",
   "approved_at": "2026-09-26T16:41:00.343914+00:00",

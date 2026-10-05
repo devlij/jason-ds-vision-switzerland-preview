@@ -13,6 +13,38 @@
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
   "approval_status": "Approved",
+  "daylight_variant": {
+    "variant_of_entry_id": "CH-01-272",
+    "derived_from": "Text-prompt-only photorealistic daylight plate of the same place. Not image-anchored on the published master. Europe/Zurich was night on 5 October 2026, so this plate has no scenario timestamp and no weather line.",
+    "source_night": {
+      "16x9": {
+        "path": "library/world/Switzerland/Gambarogno/ch-01-272-16x9.png",
+        "sha256": "e01e725c8a884434182b696da3b95493e605a98e9502c6193ff62785aa825643"
+      },
+      "4x5": {
+        "path": "library/world/Switzerland/Gambarogno/ch-01-272-4x5.png",
+        "sha256": "55b6c721ced304093649f1874b8daa41efbdb44d611df744848f3adbf68185a8"
+      },
+      "recorded": "SHA-256 of the published masters immediately before this daylight batch. Post-write hashes are identical; published masters were not rewritten."
+    },
+    "files": {
+      "16x9": "library/world/Switzerland/Gambarogno/ch-01-272-daylight-16x9.png",
+      "4x5": "library/world/Switzerland/Gambarogno/ch-01-272-daylight-4x5.png",
+      "9x16": "library/world/Switzerland/Gambarogno/ch-01-272-daylight-9x16.png"
+    },
+    "sha256": {
+      "16x9": "82a2c48b3a6f019bc4548cfcb90c977c0b135a38ea912f6923e68f64ef072500",
+      "4x5": "7269b608053c5d43dc5709e724fc36d7052ba1283a2e0f87d953bb1dddcb9112",
+      "9x16": "d97d1f3966ca3f164ef1c3dc7bb27388d646457c25f59456aee2a59dd0a42a56"
+    },
+    "created_date": "2026-10-05",
+    "on_image_caption": "Magadino, Gambarogno",
+    "on_image_signature": "Jason D’s Vision",
+    "on_image_disclosure": "AI-generated artistic interpretation · Not a photograph.",
+    "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
+    "derivative_disclosure": "Daylight companion plate for the gallery daylight control. Text-prompt only. No weather claim. No scenario timestamp on the variant. The scene scenario_label is unchanged and is not a daylight weather assertion.",
+    "note": "Photorealistic daylight plate generated text-prompt-only on 2026-10-05. Not derived by relighting the published master and not image-anchored on it. No live daytime weather reading was available. The plate carries no scenario timestamp and no weather line. Published masters were not rewritten."
+  },
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "Gate 1 PASS: Magadino church with domed bell tower beside Lake Maggiore, reed beds in the foreground shallows, layered mountain silhouettes and broken-cloud night sky; clean framing, no artifacts. Gate 2 PASS: 1920x1080/864x1080 exact per sweep; caption 'Magadino, Gambarogno', scenario '24 September 2026 · 19:39 Europe/Zurich', disclosure and 'Jason D's Vision' signature (curly apostrophe) on the bottom scrim, legible; 4:5 master shows the same church and reed beds (inter-format identity agrees). Weather per-scene retrieval 2026-09-25T23:47:38Z, unique to the second; model-valid hour 19:00–19:59 Europe/Zurich, scenario 19:39 inside; code 1 mainly clear / 30% cloud / 19.6C matches the clouded sky. Gate 3: text-prompt-only lineage per note. Gate 4: no visible people, no logos. Gate 5: no open blockers.",
   "approved_at": "2026-09-26T16:40:24.119311+00:00",
