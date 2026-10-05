@@ -13,6 +13,38 @@
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
   "approval_status": "Approved",
+  "daylight_variant": {
+    "variant_of_entry_id": "CH-01-209",
+    "derived_from": "Text-prompt-only photorealistic daylight plate of the same place. Not image-anchored on the published master. Europe/Zurich was night on 4 October 2026, so this plate has no scenario timestamp and no weather line.",
+    "source_night": {
+      "16x9": {
+        "path": "library/world/Switzerland/Neuchâtel/ch-01-209-16x9.png",
+        "sha256": "0c3997492c60df78c4300e1654bc5c66c428e73aa73ccc2b2a45586f17784380"
+      },
+      "4x5": {
+        "path": "library/world/Switzerland/Neuchâtel/ch-01-209-4x5.png",
+        "sha256": "a2a46ea0c6966236faa99e6f73b595f25c998a5359254e5052182b4da10b2fd7"
+      },
+      "recorded": "SHA-256 of the published masters immediately before this daylight batch. Post-write hashes are identical; published masters were not rewritten."
+    },
+    "files": {
+      "16x9": "library/world/Switzerland/Neuchâtel/ch-01-209-daylight-16x9.png",
+      "4x5": "library/world/Switzerland/Neuchâtel/ch-01-209-daylight-4x5.png",
+      "9x16": "library/world/Switzerland/Neuchâtel/ch-01-209-daylight-9x16.png"
+    },
+    "sha256": {
+      "16x9": "15b0e55f7a12f68b436ac973589cab30ed57cc3cfc3bdd63eaeea915c952259a",
+      "4x5": "92416ea77122bb8a6985f9fa442ff70ae2e6e5c3cfd39203895a07c39be3ef57",
+      "9x16": "6714395e6ccd332534d9b61ec5cbcf2848a07b04bcb648ddd8f3d74ce34f4adb"
+    },
+    "created_date": "2026-10-04",
+    "on_image_caption": "Neuchâtel lakefront, Neuchâtel",
+    "on_image_signature": "Jason D’s Vision",
+    "on_image_disclosure": "AI-generated artistic interpretation · Not a photograph.",
+    "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
+    "derivative_disclosure": "Daylight companion plate for the gallery daylight control. Text-prompt only. No weather claim. No scenario timestamp on the variant. The scene scenario_label is unchanged and is not a daylight weather assertion.",
+    "note": "Photorealistic daylight plate generated text-prompt-only on 2026-10-04. Not derived by relighting the published master and not image-anchored on it. No live daytime weather reading was available. The plate carries no scenario timestamp and no weather line. Published masters were not rewritten."
+  },
   "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
   "approval_basis": "Gate 1: outer stone quay of the Port of Neuchâtel with a stone mole and moored boats, open lake running southwest to a low far shore — the lakefront frame, correctly without château or old-town streets, clean and plausible. Gate 2: exact 1920x1080/864x1080 masters; on-image caption 'Neuchâtel lakefront, Neuchâtel' and scenario '24 September 2026 · 18:45 Europe/Zurich'; curly-apostrophe signature bottom-right; disclosure present; per-scene Open-Meteo retrieval 2026-09-25T23:45:33Z (unique second), scenario inside the 18:00–18:59 model hour, heavy-cloud sky matches code 3. Gate 3: text-prompt-only lineage, no photographic input. Gate 4: no people/logos visible — documented only. Gate 5: no open blockers.",
   "approved_at": "2026-09-26T12:34:11.707832+00:00",

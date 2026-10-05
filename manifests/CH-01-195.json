@@ -13,6 +13,38 @@
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
   "approval_status": "Approved",
+  "daylight_variant": {
+    "variant_of_entry_id": "CH-01-195",
+    "derived_from": "Text-prompt-only photorealistic daylight plate of the same place. Not image-anchored on the published master. Europe/Zurich was night on 4 October 2026, so this plate has no scenario timestamp and no weather line.",
+    "source_night": {
+      "16x9": {
+        "path": "library/world/Switzerland/Brissago/ch-01-195-16x9.png",
+        "sha256": "22ad90cfdce68f0ce1f515518a3cdc459516b5bbbe2cd79a407e71c332190e8c"
+      },
+      "4x5": {
+        "path": "library/world/Switzerland/Brissago/ch-01-195-4x5.png",
+        "sha256": "03568b8b5915dc42d9bc9020a473279a4c064c5842dc445db95f560d77206d5a"
+      },
+      "recorded": "SHA-256 of the published masters immediately before this daylight batch. Post-write hashes are identical; published masters were not rewritten."
+    },
+    "files": {
+      "16x9": "library/world/Switzerland/Brissago/ch-01-195-daylight-16x9.png",
+      "4x5": "library/world/Switzerland/Brissago/ch-01-195-daylight-4x5.png",
+      "9x16": "library/world/Switzerland/Brissago/ch-01-195-daylight-9x16.png"
+    },
+    "sha256": {
+      "16x9": "44a5330aaaebd06e5bd2b5f6ba592138faaafcdfa7afc5b1a0fb076720115f50",
+      "4x5": "e0a0d9cb295e87cf2ddd6f3d23616da6a88d3df20b933b55248c25e55aa00667",
+      "9x16": "12660ff9c933d25a9c07618e34a613847e59d4eeb955b7e2c3a51f4d604d3967"
+    },
+    "created_date": "2026-10-04",
+    "on_image_caption": "Brissago Islands, Brissago",
+    "on_image_signature": "Jason D’s Vision",
+    "on_image_disclosure": "AI-generated artistic interpretation · Not a photograph.",
+    "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
+    "derivative_disclosure": "Daylight companion plate for the gallery daylight control. Text-prompt only. No weather claim. No scenario timestamp on the variant. The scene scenario_label is unchanged and is not a daylight weather assertion.",
+    "note": "Photorealistic daylight plate generated text-prompt-only on 2026-10-04. Not derived by relighting the published master and not image-anchored on it. No live daytime weather reading was available. The plate carries no scenario timestamp and no weather line. Published masters were not rewritten."
+  },
   "qc_status": "Approved - Cosmo QC 5/5 - Daylight",
   "approval_basis": "Gate 1: master shows the boat approach to Isola Grande - large stone villa with balustrades set among cypresses and palms on the wooded island, second wooded islet to the right, Lake Maggiore water and mountain backdrop - plausible Brissago Islands view. Gate 2: exact caption 'Brissago Islands, Brissago' and 'Scenario: 24 September 2026 - 18:27 Europe/Zurich' verified on-image with AI disclosure and curly-apostrophe Jason D's Vision signature; weather retrieval 2026-09-25T23:45:19Z unique repo-wide, valid model hour 2026-09-24T18:15 containing the 18:27 scenario. Gate 3: text-prompt-only, no photographic inputs. Gate 4: no identifiable people or focal logos - documented only. Gate 5: no open blockers.",
   "approved_at": "2026-09-26T11:38:54.027567+00:00",

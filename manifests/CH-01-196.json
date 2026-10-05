@@ -13,6 +13,38 @@
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
   "approval_status": "Approved",
+  "daylight_variant": {
+    "variant_of_entry_id": "CH-01-196",
+    "derived_from": "Text-prompt-only photorealistic daylight plate of the same place. Not image-anchored on the published master. Europe/Zurich was night on 4 October 2026, so this plate has no scenario timestamp and no weather line.",
+    "source_night": {
+      "16x9": {
+        "path": "library/world/Switzerland/Bellinzona/ch-01-196-16x9.png",
+        "sha256": "96e12d86c3ca353bc5ef2d5cf8457dec6b28b0e012bfda0ac2175ff5a30992b5"
+      },
+      "4x5": {
+        "path": "library/world/Switzerland/Bellinzona/ch-01-196-4x5.png",
+        "sha256": "5ddf8da6517e4f4051db50d6392b09df6cf60c2734668c58552816e8112c30f2"
+      },
+      "recorded": "SHA-256 of the published masters immediately before this daylight batch. Post-write hashes are identical; published masters were not rewritten."
+    },
+    "files": {
+      "16x9": "library/world/Switzerland/Bellinzona/ch-01-196-daylight-16x9.png",
+      "4x5": "library/world/Switzerland/Bellinzona/ch-01-196-daylight-4x5.png",
+      "9x16": "library/world/Switzerland/Bellinzona/ch-01-196-daylight-9x16.png"
+    },
+    "sha256": {
+      "16x9": "2837d63202a31a8e3e52f7dedb9780cdfe2243b5e084f01293a1f991bb64d017",
+      "4x5": "81866d9f8e50c7b9c6b8a0678e67e525a5b3a45e9718cc4dcbf4d8ba319c6f79",
+      "9x16": "9e431347fc7803a83c86c7c31d6dc3cb45e30234b6287056f42c63c13cdb05eb"
+    },
+    "created_date": "2026-10-04",
+    "on_image_caption": "Montebello, Bellinzona",
+    "on_image_signature": "Jason D’s Vision",
+    "on_image_disclosure": "AI-generated artistic interpretation · Not a photograph.",
+    "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
+    "derivative_disclosure": "Daylight companion plate for the gallery daylight control. Text-prompt only. No weather claim. No scenario timestamp on the variant. The scene scenario_label is unchanged and is not a daylight weather assertion.",
+    "note": "Photorealistic daylight plate generated text-prompt-only on 2026-10-04. Not derived by relighting the published master and not image-anchored on it. No live daytime weather reading was available. The plate carries no scenario timestamp and no weather line. Published masters were not rewritten."
+  },
   "qc_status": "Approved - Cosmo QC 5/5 - Daylight",
   "approval_basis": "Gate 1: master shows the pale-walled Montebello castle with its tall keep on the wooded slope, the Murata wall descending toward Bellinzona's town rooftops - plausible view of the middle Bellinzona castle. Gate 2: exact caption 'Montebello, Bellinzona' and 'Scenario: 24 September 2026 - 18:28 Europe/Zurich' verified on-image with AI disclosure and curly-apostrophe Jason D's Vision signature; weather retrieval 2026-09-25T23:45:20Z unique repo-wide, valid model hour 2026-09-24T18:15 containing the 18:28 scenario. Gate 3: text-prompt-only, no photographic inputs. Gate 4: no identifiable people or focal logos - documented only. Gate 5: no open blockers.",
   "approved_at": "2026-09-26T11:38:59.068766+00:00",

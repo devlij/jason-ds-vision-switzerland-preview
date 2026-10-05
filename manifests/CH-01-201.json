@@ -13,6 +13,38 @@
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
   "approval_status": "Approved",
+  "daylight_variant": {
+    "variant_of_entry_id": "CH-01-201",
+    "derived_from": "Text-prompt-only photorealistic daylight plate of the same place. Not image-anchored on the published master. Europe/Zurich was night on 4 October 2026, so this plate has no scenario timestamp and no weather line.",
+    "source_night": {
+      "16x9": {
+        "path": "library/world/Switzerland/Chur/ch-01-201-16x9.png",
+        "sha256": "31ca90aae017d17ce16b2e43f8ca7d3c505c320ee068191da91f7afc43423e46"
+      },
+      "4x5": {
+        "path": "library/world/Switzerland/Chur/ch-01-201-4x5.png",
+        "sha256": "47fafeb5f19a482ea36ac86fb35ca250bb8bd688d40c8b5a206fd292bfffefda"
+      },
+      "recorded": "SHA-256 of the published masters immediately before this daylight batch. Post-write hashes are identical; published masters were not rewritten."
+    },
+    "files": {
+      "16x9": "library/world/Switzerland/Chur/ch-01-201-daylight-16x9.png",
+      "4x5": "library/world/Switzerland/Chur/ch-01-201-daylight-4x5.png",
+      "9x16": "library/world/Switzerland/Chur/ch-01-201-daylight-9x16.png"
+    },
+    "sha256": {
+      "16x9": "3df5967caeac506bf9529ba98a5409535ad81656afc9f31cfb5b61ed1c718ffd",
+      "4x5": "f5a49e85a76b12a482f6ba8f32e745aa95fd72d34be621b2d449caf46f3008c2",
+      "9x16": "a0f6603ca42dd119f87671aa36684c85a85e31c4bc5d5f23fdf91daa0da9a5b7"
+    },
+    "created_date": "2026-10-04",
+    "on_image_caption": "Chur Cathedral, Chur",
+    "on_image_signature": "Jason D’s Vision",
+    "on_image_disclosure": "AI-generated artistic interpretation · Not a photograph.",
+    "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
+    "derivative_disclosure": "Daylight companion plate for the gallery daylight control. Text-prompt only. No weather claim. No scenario timestamp on the variant. The scene scenario_label is unchanged and is not a daylight weather assertion.",
+    "note": "Photorealistic daylight plate generated text-prompt-only on 2026-10-04. Not derived by relighting the published master and not image-anchored on it. No live daytime weather reading was available. The plate carries no scenario timestamp and no weather line. Published masters were not rewritten."
+  },
   "qc_status": "Approved - Cosmo QC 5/5 - Daylight",
   "approval_basis": "Gate 1: master shows Chur Cathedral's Romanesque west front with round-arched portal and triplet windows, tall stone tower with pointed spire, rounded apse, and the bishop's palace range in the Hof - plausible Hof-quarter view under overcast sky. Gate 2: exact caption 'Chur Cathedral, Chur' and 'Scenario: 24 September 2026 - 18:28 Europe/Zurich' verified on-image with AI disclosure and curly-apostrophe Jason D's Vision signature; weather retrieval 2026-09-25T23:45:25Z unique repo-wide, valid model hour 2026-09-24T18:15 containing the 18:28 scenario. Gate 3: text-prompt-only, no photographic inputs. Gate 4: no identifiable people or focal logos - documented only. Gate 5: no open blockers.",
   "approved_at": "2026-09-26T11:39:21.285499+00:00",

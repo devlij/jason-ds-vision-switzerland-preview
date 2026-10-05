@@ -13,6 +13,38 @@
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
   "approval_status": "Approved",
+  "daylight_variant": {
+    "variant_of_entry_id": "CH-01-202",
+    "derived_from": "Text-prompt-only photorealistic daylight plate of the same place. Not image-anchored on the published master. Europe/Zurich was night on 4 October 2026, so this plate has no scenario timestamp and no weather line.",
+    "source_night": {
+      "16x9": {
+        "path": "library/world/Switzerland/Maienfeld/ch-01-202-16x9.png",
+        "sha256": "05f0d56552f1a8b8c50f7b641c7b7aa927f131294722967eb42b97dd76025bea"
+      },
+      "4x5": {
+        "path": "library/world/Switzerland/Maienfeld/ch-01-202-4x5.png",
+        "sha256": "5c4efb2e70f2e9e83750dc4e19bed1fb68e740ab4552d4ea13b17245356eec1b"
+      },
+      "recorded": "SHA-256 of the published masters immediately before this daylight batch. Post-write hashes are identical; published masters were not rewritten."
+    },
+    "files": {
+      "16x9": "library/world/Switzerland/Maienfeld/ch-01-202-daylight-16x9.png",
+      "4x5": "library/world/Switzerland/Maienfeld/ch-01-202-daylight-4x5.png",
+      "9x16": "library/world/Switzerland/Maienfeld/ch-01-202-daylight-9x16.png"
+    },
+    "sha256": {
+      "16x9": "2a17bd9b2488d6308b6070dbc429cb08eefaefb18cd8cb00bc7ae95d4804623f",
+      "4x5": "02cb32c17f15663661b26f2f91bf87180b5d9d8268a79bbc6bc859be3abc871a",
+      "9x16": "9066e48a188da96de7b36cc83e8fd7e5a4c475a0d855bdc01684af3bfdadcc44"
+    },
+    "created_date": "2026-10-04",
+    "on_image_caption": "Maienfeld, Maienfeld",
+    "on_image_signature": "Jason D’s Vision",
+    "on_image_disclosure": "AI-generated artistic interpretation · Not a photograph.",
+    "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
+    "derivative_disclosure": "Daylight companion plate for the gallery daylight control. Text-prompt only. No weather claim. No scenario timestamp on the variant. The scene scenario_label is unchanged and is not a daylight weather assertion.",
+    "note": "Photorealistic daylight plate generated text-prompt-only on 2026-10-04. Not derived by relighting the published master and not image-anchored on it. No live daytime weather reading was available. The plate carries no scenario timestamp and no weather line. Published masters were not rewritten."
+  },
   "qc_status": "Approved - Cosmo QC 5/5 - Daylight",
   "approval_basis": "Gate 1: master shows the square medieval stone tower of Schloss Brandis among old-town roofs with the autumn vineyards of the Bundner Herrschaft rolling behind - plausible Maienfeld old-town view. Gate 2: exact caption 'Maienfeld, Maienfeld' and 'Scenario: 24 September 2026 - 18:28 Europe/Zurich' verified on-image with AI disclosure and curly-apostrophe Jason D's Vision signature; weather retrieval 2026-09-25T23:45:26Z unique repo-wide, valid model hour 2026-09-24T18:15 containing the 18:28 scenario. Gate 3: text-prompt-only, no photographic inputs. Gate 4: no identifiable people or focal logos - documented only. Gate 5: no open blockers.",
   "approved_at": "2026-09-26T11:39:25.452295+00:00",

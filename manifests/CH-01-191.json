@@ -13,6 +13,38 @@
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
   "approval_status": "Approved",
+  "daylight_variant": {
+    "variant_of_entry_id": "CH-01-191",
+    "derived_from": "Text-prompt-only photorealistic daylight plate of the same place. Not image-anchored on the published master. Europe/Zurich was night on 4 October 2026, so this plate has no scenario timestamp and no weather line.",
+    "source_night": {
+      "16x9": {
+        "path": "library/world/Switzerland/Basel/ch-01-191-16x9.png",
+        "sha256": "ffbe2ee5dabcb4c65b2bc634ff8d5f5c5f8c8e1118d439d4e7ea82361c3fe44b"
+      },
+      "4x5": {
+        "path": "library/world/Switzerland/Basel/ch-01-191-4x5.png",
+        "sha256": "247a57034f95b4ad47866cc17810c67c5a59d4fdd7620900612995d7b7a69632"
+      },
+      "recorded": "SHA-256 of the published masters immediately before this daylight batch. Post-write hashes are identical; published masters were not rewritten."
+    },
+    "files": {
+      "16x9": "library/world/Switzerland/Basel/ch-01-191-daylight-16x9.png",
+      "4x5": "library/world/Switzerland/Basel/ch-01-191-daylight-4x5.png",
+      "9x16": "library/world/Switzerland/Basel/ch-01-191-daylight-9x16.png"
+    },
+    "sha256": {
+      "16x9": "3513c8c16912e4fb3f5d8d3b55ff17f4a51ba49ae1eb8a3e1552b3fa5c5138f5",
+      "4x5": "73a22038316c0cb667864775e70b288232cc910a3cbae700813b400e15834590",
+      "9x16": "8ce04f2952d2ad4ee2d9d2923a45906ecb3f99ffd7540873d5e22178b04bc894"
+    },
+    "created_date": "2026-10-04",
+    "on_image_caption": "Tinguely Fountain, Basel",
+    "on_image_signature": "Jason D’s Vision",
+    "on_image_disclosure": "AI-generated artistic interpretation · Not a photograph.",
+    "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
+    "derivative_disclosure": "Daylight companion plate for the gallery daylight control. Text-prompt only. No weather claim. No scenario timestamp on the variant. The scene scenario_label is unchanged and is not a daylight weather assertion.",
+    "note": "Photorealistic daylight plate generated text-prompt-only on 2026-10-04. Not derived by relighting the published master and not image-anchored on it. No live daytime weather reading was available. The plate carries no scenario timestamp and no weather line. Published masters were not rewritten."
+  },
   "qc_status": "Approved - Cosmo QC 5/5 - Daylight",
   "approval_basis": "Gate 1: master shows black iron kinetic sculptures (wheel-like machines on arms) standing in the shallow dark circular pool on Theaterplatz, neoclassical theatre front with columns behind, overcast late-afternoon sky - plausible Fasnachts-Brunnen view. Gate 2: exact caption 'Tinguely Fountain, Basel' and 'Scenario: 24 September 2026 - 18:08 Europe/Zurich' verified on-image with 'AI-generated artistic interpretation - Not a photograph.'; curly-apostrophe Jason D's Vision signature bottom-right; weather retrieval 2026-09-25T23:45:14Z unique repo-wide, valid model hour 2026-09-24T18:00 containing the 18:08 scenario. Gate 3: note records text-prompt-only, no photographic inputs. Gate 4: no identifiable people or focal logos - documented, final commercial call is Jason's. Gate 5: no open blockers.",
   "approved_at": "2026-09-26T11:38:34.104259+00:00",

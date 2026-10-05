@@ -13,6 +13,38 @@
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
   "approval_status": "Approved",
+  "daylight_variant": {
+    "variant_of_entry_id": "CH-01-200",
+    "derived_from": "Text-prompt-only photorealistic daylight plate of the same place. Not image-anchored on the published master. Europe/Zurich was night on 4 October 2026, so this plate has no scenario timestamp and no weather line.",
+    "source_night": {
+      "16x9": {
+        "path": "library/world/Switzerland/Faido/ch-01-200-16x9.png",
+        "sha256": "dcab0effcee8b1c52448f215d2f633bf297d9571ebaf35be0e966b09fa115e5f"
+      },
+      "4x5": {
+        "path": "library/world/Switzerland/Faido/ch-01-200-4x5.png",
+        "sha256": "7a7bdc5938e47d3c970fa365e1d4dec9b88e3a06f3db45fd87f71de7afd3bf5e"
+      },
+      "recorded": "SHA-256 of the published masters immediately before this daylight batch. Post-write hashes are identical; published masters were not rewritten."
+    },
+    "files": {
+      "16x9": "library/world/Switzerland/Faido/ch-01-200-daylight-16x9.png",
+      "4x5": "library/world/Switzerland/Faido/ch-01-200-daylight-4x5.png",
+      "9x16": "library/world/Switzerland/Faido/ch-01-200-daylight-9x16.png"
+    },
+    "sha256": {
+      "16x9": "8c0d08798300acb4ab159053d92aa4e097a760862e06c57a8171e37add36923e",
+      "4x5": "2e3a5a2e6ef1f570c3c98aa1d54208033a69b2a253db7793e27fb05369d4c8de",
+      "9x16": "3d3c44d578d8f01fc996c284db751c9e3d9b7412f8c85b67452671358e529da1"
+    },
+    "created_date": "2026-10-04",
+    "on_image_caption": "Faido, Faido",
+    "on_image_signature": "Jason D’s Vision",
+    "on_image_disclosure": "AI-generated artistic interpretation · Not a photograph.",
+    "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
+    "derivative_disclosure": "Daylight companion plate for the gallery daylight control. Text-prompt only. No weather claim. No scenario timestamp on the variant. The scene scenario_label is unchanged and is not a daylight weather assertion.",
+    "note": "Photorealistic daylight plate generated text-prompt-only on 2026-10-04. Not derived by relighting the published master and not image-anchored on it. No live daytime weather reading was available. The plate carries no scenario timestamp and no weather line. Published masters were not rewritten."
+  },
   "qc_status": "Approved - Cosmo QC 5/5 - Daylight",
   "approval_basis": "Gate 1: master shows Sant'Andrea's neoclassical stone church body with rose window and tall square bell tower above the old town of slab-roofed houses in the Leventina valley, mountains behind - plausible Faido view. Gate 2: exact caption 'Faido, Faido' and 'Scenario: 24 September 2026 - 18:28 Europe/Zurich' verified on-image with AI disclosure and curly-apostrophe Jason D's Vision signature; weather retrieval 2026-09-25T23:45:24Z unique repo-wide, valid model hour 2026-09-24T18:15 containing the 18:28 scenario. Gate 3: text-prompt-only, no photographic inputs. Gate 4: no identifiable people or focal logos - documented only. Gate 5: no open blockers.",
   "approved_at": "2026-09-26T11:39:16.781926+00:00",
