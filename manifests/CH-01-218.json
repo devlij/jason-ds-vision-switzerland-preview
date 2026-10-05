@@ -13,6 +13,38 @@
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
   "approval_status": "Approved",
+  "daylight_variant": {
+    "variant_of_entry_id": "CH-01-218",
+    "derived_from": "Text-prompt-only photorealistic daylight plate of the same place. Not image-anchored on the published master. Europe/Zurich was night on 5 October 2026, so this plate has no scenario timestamp and no weather line.",
+    "source_night": {
+      "16x9": {
+        "path": "library/world/Switzerland/Broc/ch-01-218-16x9.png",
+        "sha256": "d2d0145d86b8f8e6fea8e0ac3cdb77e741ee4cc6715a25ec5603ee907ad36ba3"
+      },
+      "4x5": {
+        "path": "library/world/Switzerland/Broc/ch-01-218-4x5.png",
+        "sha256": "065f9f3847e21d3df3680115b836eae6c4072d4190108ef7490c8ff01a52c431"
+      },
+      "recorded": "SHA-256 of the published masters immediately before this daylight batch. Post-write hashes are identical; published masters were not rewritten."
+    },
+    "files": {
+      "16x9": "library/world/Switzerland/Broc/ch-01-218-daylight-16x9.png",
+      "4x5": "library/world/Switzerland/Broc/ch-01-218-daylight-4x5.png",
+      "9x16": "library/world/Switzerland/Broc/ch-01-218-daylight-9x16.png"
+    },
+    "sha256": {
+      "16x9": "734f4e829f9bc65bacdc11e6a001b683c78ee5e1f1593f3053689f9d4841c26b",
+      "4x5": "0dcf8ca33eede69b2a903435f077aeadfb67f1b08ec8c0432d951439ed77620e",
+      "9x16": "a2a355d20b3150d6035b8accf91f9a3913516e4274531d501c581321be4caba5"
+    },
+    "created_date": "2026-10-05",
+    "on_image_caption": "Broc, Broc",
+    "on_image_signature": "Jason D’s Vision",
+    "on_image_disclosure": "AI-generated artistic interpretation · Not a photograph.",
+    "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
+    "derivative_disclosure": "Daylight companion plate for the gallery daylight control. Text-prompt only. No weather claim. No scenario timestamp on the variant. The scene scenario_label is unchanged and is not a daylight weather assertion.",
+    "note": "Photorealistic daylight plate generated text-prompt-only on 2026-10-05. Not derived by relighting the published master and not image-anchored on it. No live daytime weather reading was available. The plate carries no scenario timestamp and no weather line. Published masters were not rewritten."
+  },
   "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
   "approval_basis": "Gate 1: village church spire among tile roofs with the Jogne valley opening toward the Gruyère Prealps behind — plausibly Broc, no castle and no brand signage, clean framing. Gate 2: exact 1920x1080/864x1080 masters; on-image caption 'Broc, Broc' and scenario '24 September 2026 · 18:46 Europe/Zurich'; curly-apostrophe signature bottom-right; disclosure legible; per-scene Open-Meteo retrieval 2026-09-25T23:45:42Z (unique second), scenario inside model-valid 18:00–18:59 hour, overcast sky matches code 3. Gate 3: text-prompt-only lineage, no photographic input. Gate 4: no people/logos visible — documented only. Gate 5: no open blockers.",
   "approved_at": "2026-09-26T12:34:53.680177+00:00",

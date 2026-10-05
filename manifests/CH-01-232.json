@@ -13,6 +13,38 @@
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
   "approval_status": "Approved",
+  "daylight_variant": {
+    "variant_of_entry_id": "CH-01-232",
+    "derived_from": "Text-prompt-only photorealistic daylight plate of the same place. Not image-anchored on the published master. Europe/Zurich was night on 5 October 2026, so this plate has no scenario timestamp and no weather line.",
+    "source_night": {
+      "16x9": {
+        "path": "library/world/Switzerland/Einsiedeln/ch-01-232-16x9.png",
+        "sha256": "842a5b5849d3b36e43139b86c8943bc0f08ec84648aa8a6f149bae041fb9fe7b"
+      },
+      "4x5": {
+        "path": "library/world/Switzerland/Einsiedeln/ch-01-232-4x5.png",
+        "sha256": "6b22b5e0ed2e71f9d41ce860195f17dcec8d4365ecef943cc92a4fb390153a31"
+      },
+      "recorded": "SHA-256 of the published masters immediately before this daylight batch. Post-write hashes are identical; published masters were not rewritten."
+    },
+    "files": {
+      "16x9": "library/world/Switzerland/Einsiedeln/ch-01-232-daylight-16x9.png",
+      "4x5": "library/world/Switzerland/Einsiedeln/ch-01-232-daylight-4x5.png",
+      "9x16": "library/world/Switzerland/Einsiedeln/ch-01-232-daylight-9x16.png"
+    },
+    "sha256": {
+      "16x9": "8c8c8723ebb93098cbfc40b653b8024a6e5a877fc9f377ea89efb7d2deb22f7b",
+      "4x5": "13e3718c607e18ceb983dcb51591712df8c9227f21915c5349d4f162a6d6b931",
+      "9x16": "9b8f391d4cff700f1507cf3e89cffe9f3dff36de48e2545cff1326682768f3d5"
+    },
+    "created_date": "2026-10-05",
+    "on_image_caption": "Dorfplatz, Einsiedeln",
+    "on_image_signature": "Jason D’s Vision",
+    "on_image_disclosure": "AI-generated artistic interpretation · Not a photograph.",
+    "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
+    "derivative_disclosure": "Daylight companion plate for the gallery daylight control. Text-prompt only. No weather claim. No scenario timestamp on the variant. The scene scenario_label is unchanged and is not a daylight weather assertion.",
+    "note": "Photorealistic daylight plate generated text-prompt-only on 2026-10-05. Not derived by relighting the published master and not image-anchored on it. No live daytime weather reading was available. The plate carries no scenario timestamp and no weather line. Published masters were not rewritten."
+  },
   "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
   "approval_basis": "Gate 1: Dorfplatz in Einsiedeln's Unterdorf — village square among traditional town houses where Hauptstrasse meets the side lanes, abbey west front correctly out of frame — recognizably the village square. Gate 2: on-image caption 'Dorfplatz, Einsiedeln', scenario '24 September 2026 · 19:03 Europe/Zurich' inside the model-valid hour; per-scene retrieval 2026-09-25T23:45:57Z, unique, code 3 overcast consistent with the rendered sky; dims verified; signature and disclosure legible. Gate 3: text-prompt-only lineage. Gate 4: no prominent people or focal logos; documented-only. Gate 5: no open blockers.",
   "approved_at": "2026-09-26T13:35:15.809282+00:00",

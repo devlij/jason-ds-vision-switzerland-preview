@@ -13,6 +13,38 @@
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
   "approval_status": "Approved",
+  "daylight_variant": {
+    "variant_of_entry_id": "CH-01-237",
+    "derived_from": "Text-prompt-only photorealistic daylight plate of the same place. Not image-anchored on the published master. Europe/Zurich was night on 5 October 2026, so this plate has no scenario timestamp and no weather line.",
+    "source_night": {
+      "16x9": {
+        "path": "library/world/Switzerland/Göschenen/ch-01-237-16x9.png",
+        "sha256": "d127e9f598b1aea087d25c18e7cd4665cfd96e643f95c59e3c98c35edbe19c80"
+      },
+      "4x5": {
+        "path": "library/world/Switzerland/Göschenen/ch-01-237-4x5.png",
+        "sha256": "c135494564c225832c9a49cf4866c07c2875931a6569f52b5abda5551b04cecd"
+      },
+      "recorded": "SHA-256 of the published masters immediately before this daylight batch. Post-write hashes are identical; published masters were not rewritten."
+    },
+    "files": {
+      "16x9": "library/world/Switzerland/Göschenen/ch-01-237-daylight-16x9.png",
+      "4x5": "library/world/Switzerland/Göschenen/ch-01-237-daylight-4x5.png",
+      "9x16": "library/world/Switzerland/Göschenen/ch-01-237-daylight-9x16.png"
+    },
+    "sha256": {
+      "16x9": "a2d2b23b3d82a35b46f62691c087103958203a4114851f192db0bafa0bcb25e8",
+      "4x5": "737d18bf9792992d345dc0c08233f133ef54988cbb7df93dbbf5b0e49753e1fb",
+      "9x16": "677a89bff7b4693de0fbae0f4d38d413e07d27bf84306bc63992b2395534daeb"
+    },
+    "created_date": "2026-10-05",
+    "on_image_caption": "Göschenen, Göschenen",
+    "on_image_signature": "Jason D’s Vision",
+    "on_image_disclosure": "AI-generated artistic interpretation · Not a photograph.",
+    "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
+    "derivative_disclosure": "Daylight companion plate for the gallery daylight control. Text-prompt only. No weather claim. No scenario timestamp on the variant. The scene scenario_label is unchanged and is not a daylight weather assertion.",
+    "note": "Photorealistic daylight plate generated text-prompt-only on 2026-10-05. Not derived by relighting the published master and not image-anchored on it. No live daytime weather reading was available. The plate carries no scenario timestamp and no weather line. Published masters were not rewritten."
+  },
   "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
   "approval_basis": "Gate 1: compact stone village of Göschenen with the Romanesque-revival Maria Himmelfahrt church and solid tower among the houses, steep rock walls closing the valley, clear dusk sky — matches the evidence card, no Devil's Bridge, no tunnel-portal sign. Gate 2: exact dims; signature 'Jason D's Vision' bottom-right; caption 'Göschenen, Göschenen' + scenario '24 September 2026 · 19:03 Europe/Zurich' + disclosure on scrim; retrieval 2026-09-25T23:46:02Z unique per-scene (repo-wide zero duplicates), valid 19:00 hour covers scenario. Gate 3: text-prompt-only lineage. Gate 4: no visible people or logos.",
   "approved_at": "2026-09-26T15:12:23.173600+00:00",

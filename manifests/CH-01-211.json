@@ -13,6 +13,38 @@
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
   "approval_status": "Approved",
+  "daylight_variant": {
+    "variant_of_entry_id": "CH-01-211",
+    "derived_from": "Text-prompt-only photorealistic daylight plate of the same place. Not image-anchored on the published master. Europe/Zurich was night on 5 October 2026, so this plate has no scenario timestamp and no weather line.",
+    "source_night": {
+      "16x9": {
+        "path": "library/world/Switzerland/Le Locle/ch-01-211-16x9.png",
+        "sha256": "ff9e3676db357e4351b8acca1d192988be9c191789d55021798506498ebfdbfb"
+      },
+      "4x5": {
+        "path": "library/world/Switzerland/Le Locle/ch-01-211-4x5.png",
+        "sha256": "e6304993cf711e8d57648e276558399beb300c81e60d791e79052bc08c1cbc23"
+      },
+      "recorded": "SHA-256 of the published masters immediately before this daylight batch. Post-write hashes are identical; published masters were not rewritten."
+    },
+    "files": {
+      "16x9": "library/world/Switzerland/Le Locle/ch-01-211-daylight-16x9.png",
+      "4x5": "library/world/Switzerland/Le Locle/ch-01-211-daylight-4x5.png",
+      "9x16": "library/world/Switzerland/Le Locle/ch-01-211-daylight-9x16.png"
+    },
+    "sha256": {
+      "16x9": "5e864d15cff13a454fb471133e3478569308a5ee4a813789aa25bbc4159f764a",
+      "4x5": "bd4a97fd15d300f9617bcc60b10e8f96af245918d7b466b6f3b5599fa52695c9",
+      "9x16": "56516cbe3f350cfe62ea0d4358a929707936d247f110cbf9378ecd188c46438e"
+    },
+    "created_date": "2026-10-05",
+    "on_image_caption": "Le Locle, Le Locle",
+    "on_image_signature": "Jason D’s Vision",
+    "on_image_disclosure": "AI-generated artistic interpretation · Not a photograph.",
+    "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
+    "derivative_disclosure": "Daylight companion plate for the gallery daylight control. Text-prompt only. No weather claim. No scenario timestamp on the variant. The scene scenario_label is unchanged and is not a daylight weather assertion.",
+    "note": "Photorealistic daylight plate generated text-prompt-only on 2026-10-05. Not derived by relighting the published master and not image-anchored on it. No live daytime weather reading was available. The plate carries no scenario timestamp and no weather line. Published masters were not rewritten."
+  },
   "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
   "approval_basis": "Gate 1: straight valley street with parallel rows of pale stone houses and workshops, wooded Jura slopes close on both sides — the watchmaking-town valley fabric of Le Locle, not the Chaux-de-Fonds plateau grid, plausible and clean. Gate 2: exact 1920x1080/864x1080 masters; on-image caption 'Le Locle, Le Locle' and scenario '24 September 2026 · 18:46 Europe/Zurich'; curly-apostrophe signature bottom-right; disclosure present; per-scene Open-Meteo retrieval 2026-09-25T23:45:35Z (unique second), scenario inside 18:00–18:59 model hour, broken cloud matches code 3. Gate 3: text-prompt-only lineage, no photographic input. Gate 4: no people/logos visible — documented only. Gate 5: no open blockers.",
   "approved_at": "2026-09-26T12:34:20.289997+00:00",

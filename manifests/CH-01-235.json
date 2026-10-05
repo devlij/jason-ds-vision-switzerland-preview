@@ -13,6 +13,38 @@
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
   "approval_status": "Approved",
+  "daylight_variant": {
+    "variant_of_entry_id": "CH-01-235",
+    "derived_from": "Text-prompt-only photorealistic daylight plate of the same place. Not image-anchored on the published master. Europe/Zurich was night on 5 October 2026, so this plate has no scenario timestamp and no weather line.",
+    "source_night": {
+      "16x9": {
+        "path": "library/world/Switzerland/Altdorf/ch-01-235-16x9.png",
+        "sha256": "9be79460525397c59cbbfa136ae7f808992fe92006cf936db09316e4f2fc5ee5"
+      },
+      "4x5": {
+        "path": "library/world/Switzerland/Altdorf/ch-01-235-4x5.png",
+        "sha256": "d2fbe1f4119841c39287c85b39ad0527201a39041a3ebe4239994090a59b0a2e"
+      },
+      "recorded": "SHA-256 of the published masters immediately before this daylight batch. Post-write hashes are identical; published masters were not rewritten."
+    },
+    "files": {
+      "16x9": "library/world/Switzerland/Altdorf/ch-01-235-daylight-16x9.png",
+      "4x5": "library/world/Switzerland/Altdorf/ch-01-235-daylight-4x5.png",
+      "9x16": "library/world/Switzerland/Altdorf/ch-01-235-daylight-9x16.png"
+    },
+    "sha256": {
+      "16x9": "8b5b385117dacbe1c7ba508c3b80c36dd98263e0be078ff498e68582aa9ead4a",
+      "4x5": "675496009b0c02b6f79d0638cafc7b791a56806074e960229a40f335f564e4b0",
+      "9x16": "384e2f7e1a9bf39d54fdc2827d499d108c32d036b7409e4e08e630c3395ce092"
+    },
+    "created_date": "2026-10-05",
+    "on_image_caption": "St. Martin, Altdorf",
+    "on_image_signature": "Jason D’s Vision",
+    "on_image_disclosure": "AI-generated artistic interpretation · Not a photograph.",
+    "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
+    "derivative_disclosure": "Daylight companion plate for the gallery daylight control. Text-prompt only. No weather claim. No scenario timestamp on the variant. The scene scenario_label is unchanged and is not a daylight weather assertion.",
+    "note": "Photorealistic daylight plate generated text-prompt-only on 2026-10-05. Not derived by relighting the published master and not image-anchored on it. No live daytime weather reading was available. The plate carries no scenario timestamp and no weather line. Published masters were not rewritten."
+  },
   "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
   "approval_basis": "Gate 1: St. Martin in Altdorf — pale classicist church front with tower, small St. Anna chapel, churchyard and old-town houses closing Kirchplatz — recognizably the Altdorf parish church. Gate 2: on-image caption 'St. Martin, Altdorf', scenario '24 September 2026 · 19:03 Europe/Zurich' inside the model-valid hour; per-scene retrieval 2026-09-25T23:45:58Z replaced by the scene's own unique 2026-09-25T23:46:00Z retrieval, code 3 overcast matching the rendered sky; dims verified; signature and disclosure present. Gate 3: text-prompt-only lineage. Gate 4: no prominent people or focal logos; documented-only. Gate 5: no open blockers.",
   "approved_at": "2026-09-26T13:35:29.900810+00:00",

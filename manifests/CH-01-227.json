@@ -13,6 +13,38 @@
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
   "approval_status": "Approved",
+  "daylight_variant": {
+    "variant_of_entry_id": "CH-01-227",
+    "derived_from": "Text-prompt-only photorealistic daylight plate of the same place. Not image-anchored on the published master. Europe/Zurich was night on 5 October 2026, so this plate has no scenario timestamp and no weather line.",
+    "source_night": {
+      "16x9": {
+        "path": "library/world/Switzerland/Zurich/ch-01-227-16x9.png",
+        "sha256": "9e1e8e6004712a818cea69354250ca2707bd63ec5035ef6062cfecc90b4a48d2"
+      },
+      "4x5": {
+        "path": "library/world/Switzerland/Zurich/ch-01-227-4x5.png",
+        "sha256": "ba6df8870ed30afee0a6c98d146e5ab7d49b278327af33d5a930b43266750c8e"
+      },
+      "recorded": "SHA-256 of the published masters immediately before this daylight batch. Post-write hashes are identical; published masters were not rewritten."
+    },
+    "files": {
+      "16x9": "library/world/Switzerland/Zurich/ch-01-227-daylight-16x9.png",
+      "4x5": "library/world/Switzerland/Zurich/ch-01-227-daylight-4x5.png",
+      "9x16": "library/world/Switzerland/Zurich/ch-01-227-daylight-9x16.png"
+    },
+    "sha256": {
+      "16x9": "018be1f74f27c934d0f14f485481fb9eb5a589f1a2bb9678190b12d951866fb8",
+      "4x5": "73fa3f84da8e08436faa2cc9ff3c7e2b44e1ae481dc2a97ec1636fa1fff089cf",
+      "9x16": "a0d3dcdc4c85a195725c9c25b1827704ff1e512d10a45642e38a7d895af986e2"
+    },
+    "created_date": "2026-10-05",
+    "on_image_caption": "Enge Harbour, Zurich",
+    "on_image_signature": "Jason D’s Vision",
+    "on_image_disclosure": "AI-generated artistic interpretation · Not a photograph.",
+    "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
+    "derivative_disclosure": "Daylight companion plate for the gallery daylight control. Text-prompt only. No weather claim. No scenario timestamp on the variant. The scene scenario_label is unchanged and is not a daylight weather assertion.",
+    "note": "Photorealistic daylight plate generated text-prompt-only on 2026-10-05. Not derived by relighting the published master and not image-anchored on it. No live daytime weather reading was available. The plate carries no scenario timestamp and no weather line. Published masters were not rewritten."
+  },
   "qc_status": "Approved · Cosmo QC 5/5 · Daylight",
   "approval_basis": "Gate 1: Hafen Enge's stone harbour basin packed with sailboat masts, tree-lined Mythenquai in the near shore, faint Alps under cloud — recognizably the Enge west-shore harbour. Gate 2: on-image caption 'Enge Harbour, Zurich', scenario '24 September 2026 · 19:02 Europe/Zurich' inside the model-valid hour; per-scene retrieval 2026-09-25T23:45:52Z, unique, code 3 overcast matching the rendered cloud deck; dims verified; signature and disclosure present. Gate 3: text-prompt-only lineage. Gate 4: no prominent people or focal logos; documented-only. Gate 5: no open blockers.",
   "approved_at": "2026-09-26T13:34:04.427554+00:00",
