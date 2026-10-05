@@ -16,33 +16,39 @@
   "approval_status": "Approved",
   "daylight_variant": {
     "variant_of_entry_id": "CH-01-345",
-    "derived_from": "Live gallery night master library/world/Switzerland/Veytaux/ch-01-345-16x9.png (16:9) and library/world/Switzerland/Veytaux/ch-01-345-4x5.png (4:5) of the same scene; not an independently modelled weather or lighting scenario",
+    "derived_from": "Text-prompt-only photorealistic daylight plate of the same place. Not image-anchored on the published master. Europe/Zurich was night on 5 October 2026, so this plate has no scenario timestamp and no weather line.",
     "source_night": {
       "16x9": {
         "path": "library/world/Switzerland/Veytaux/ch-01-345-16x9.png",
-        "sha256": "16ac4d2462280cd60368028b0e146aab3fdca697add71cc4321d94b2e7a1f1aa"
+        "sha256": "04c90bdcd677e991a44f3fdaa4ed3b05246c17985208c9eccb6589d1bba7be4c"
       },
       "4x5": {
         "path": "library/world/Switzerland/Veytaux/ch-01-345-4x5.png",
-        "sha256": "7e639d591f4df96836f10f9b1ea6adb44fa21bba0ffd60cbada566744232c763"
+        "sha256": "dbdf1810ffe5778fc12aab74589839cb860193ad3a6938d4fda6b0336a340f44"
       },
-      "recorded": "SHA-256 of the night masters immediately before this daylight batch. Post-write hashes are identical; night masters were not rewritten."
+      "9x16": {
+        "path": "library/world/Switzerland/Veytaux/ch-01-345-9x16.png",
+        "sha256": "3cc7575de7e12f9161fe281dcabb51fc5d3dd647770728f7524ef80ffefaec56"
+      },
+      "recorded": "SHA-256 of the published masters immediately before this daylight batch. Post-write hashes are identical; published masters were not rewritten."
     },
     "files": {
       "16x9": "library/world/Switzerland/Veytaux/ch-01-345-daylight-16x9.png",
-      "4x5": "library/world/Switzerland/Veytaux/ch-01-345-daylight-4x5.png"
+      "4x5": "library/world/Switzerland/Veytaux/ch-01-345-daylight-4x5.png",
+      "9x16": "library/world/Switzerland/Veytaux/ch-01-345-daylight-9x16.png"
     },
     "sha256": {
-      "16x9": "3f07c7802ea94100f928684ec82c8f73e4e4b015f73d7ec301ba8fef6c5e98fa",
-      "4x5": "e0a05bb4b6426a975800655b440bdc0c3beda3a9cf8586301d7ba4cdeffefbfd"
+      "16x9": "0af4701c5b2f332813f9c92b3704cee96884fb06c4ad8c2e55996c7292b122ad",
+      "4x5": "b86ca375efff10b68b1705e3b8b4c8a3566bbbdac311af1b6aef7cd37ba2b658",
+      "9x16": "bcaacf81ee860769d4a552cfb97c8a36899031217a73aa3a8c8a9eb29103f790"
     },
-    "created_date": "2026-09-26",
+    "created_date": "2026-10-05",
     "on_image_caption": "Rochers-de-Naye, Veytaux",
     "on_image_signature": "Jason D’s Vision",
     "on_image_disclosure": "AI-generated artistic interpretation · Not a photograph.",
     "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
-    "derivative_disclosure": "Derivative of the night interpretation of this same viewpoint. Not an independently modelled weather or lighting scenario. No weather claim. No scenario timestamp on the variant.",
-    "note": "AI-generated daylight re-interpretation derived from the night master of the same viewpoint and composition. Not a new scene. Architecture and landscape preserved; lighting only was changed from night to daylight. No weather evidence invented. The variant image carries no weather claim and no scenario timestamp. The scene scenario_label remains the night scene's label and is not a daylight weather assertion."
+    "derivative_disclosure": "Daylight companion plate for the gallery daylight control. Text-prompt only. No weather claim. No scenario timestamp on the variant. The scene scenario_label is unchanged and is not a daylight weather assertion.",
+    "note": "Photorealistic daylight plate generated text-prompt-only on 2026-10-05. Not derived by relighting the published master and not image-anchored on it. No live daytime weather reading was available. The plate carries no scenario timestamp and no weather line. Published masters were not rewritten. The 9:16 daylight plate is included because a 9:16 master exists and the gallery daylight control requires that ratio."
   },
   "qc_notes": [
     {

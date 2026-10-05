@@ -15,33 +15,33 @@
   "approval_status": "Approved",
   "daylight_variant": {
     "variant_of_entry_id": "CH-01-355",
-    "derived_from": "Live gallery night master library/world/Switzerland/Morschach/ch-01-355-16x9.png (16:9) and library/world/Switzerland/Morschach/ch-01-355-4x5.png (4:5) of the same scene; not an independently modelled weather or lighting scenario",
+    "derived_from": "Text-prompt-only photorealistic daylight plate of the same place. Not image-anchored on the published master. Europe/Zurich was night on 5 October 2026, so this plate has no scenario timestamp and no weather line.",
     "source_night": {
       "16x9": {
         "path": "library/world/Switzerland/Morschach/ch-01-355-16x9.png",
-        "sha256": "d2414c1bdccde742dcea7b3974e68144d9a15c2e25c4c6dd795c7622aa358378"
+        "sha256": "bbfbe81a4f04a5ad30a143c4d4e3869928cfb0a7172ee5b4c4c8570593fbea40"
       },
       "4x5": {
         "path": "library/world/Switzerland/Morschach/ch-01-355-4x5.png",
-        "sha256": "82545096d7065a1ffdf25b3cc524825176916287331c037bb63fbcc62565d05b"
+        "sha256": "7a8eeb647646870249bb566ab4cdc9bd7bca8a6c16cda4592ee0e54d8ff936bb"
       },
-      "recorded": "SHA-256 of the night masters immediately before this daylight batch. Post-write hashes are identical; night masters were not rewritten."
+      "recorded": "SHA-256 of the published masters immediately before this daylight batch. Post-write hashes are identical; published masters were not rewritten."
     },
     "files": {
       "16x9": "library/world/Switzerland/Morschach/ch-01-355-daylight-16x9.png",
       "4x5": "library/world/Switzerland/Morschach/ch-01-355-daylight-4x5.png"
     },
     "sha256": {
-      "16x9": "05326eef4fde311c370e7af128d53bbfd84ffc9e272b7c70f61352925584f786",
-      "4x5": "5915a53209c8ccd126e289e2498926c59413cc457b3ed9ff6422415b4ee5c372"
+      "16x9": "0fbee7d67ef8cb106f804c43ef06eb2391f9d378ef8cc18f6e06ea73427b24fe",
+      "4x5": "e6f5e210584fb38c81d941adec26423c9922d533e9385f1915f0d45d59ab5c47"
     },
-    "created_date": "2026-09-26",
+    "created_date": "2026-10-05",
     "on_image_caption": "Stoos, Morschach",
     "on_image_signature": "Jason D’s Vision",
     "on_image_disclosure": "AI-generated artistic interpretation · Not a photograph.",
     "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
-    "derivative_disclosure": "Derivative of the night interpretation of this same viewpoint. Not an independently modelled weather or lighting scenario. No weather claim. No scenario timestamp on the variant.",
-    "note": "AI-generated daylight re-interpretation derived from the night master of the same viewpoint and composition. Not a new scene. Architecture and landscape preserved; lighting only was changed from night to daylight. No weather evidence invented. The variant image carries no weather claim and no scenario timestamp. The scene scenario_label remains the night scene's label and is not a daylight weather assertion."
+    "derivative_disclosure": "Daylight companion plate for the gallery daylight control. Text-prompt only. No weather claim. No scenario timestamp on the variant. The scene scenario_label is unchanged and is not a daylight weather assertion.",
+    "note": "Photorealistic daylight plate generated text-prompt-only on 2026-10-05. Not derived by relighting the published master and not image-anchored on it. No live daytime weather reading was available. The plate carries no scenario timestamp and no weather line. Published masters were not rewritten."
   },
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "Gate 1: night alpine hamlet of lit wooden chalets on a tawny grass shelf above a dark drop toward Lake Lucerne, jagged peaks behind — matches the text-prompt-only anchors (car-free terrace, no funicular, tawny late-September grass, no snow). Gate 2: exact 1920x1080 and 864x1080; caption 'Stoos, Morschach', scenario '24 September 2026 · 23:46 Europe/Zurich', disclosure 'AI-generated artistic interpretation · Not a photograph.' and signature 'Jason D\\u2019s Vision' all legible on the bottom scrim; scenario 23:46 sits inside the model-valid 23:45 step; weather retrieved 2026-09-25T23:49:01Z, verified unique across all 365 Switzerland note files. Gate 3: approvals note records text-prompt-only lineage, no photographic inputs. Gate 4: no identifiable people, no logos or focal artwork — documented only, final commercial call is Jason's. Gate 5: all gates closed, no open blockers.",

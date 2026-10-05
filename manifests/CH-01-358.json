@@ -15,33 +15,33 @@
   "approval_status": "Approved",
   "daylight_variant": {
     "variant_of_entry_id": "CH-01-358",
-    "derived_from": "Live gallery night master library/world/Switzerland/Hospental/ch-01-358-16x9.png (16:9) and library/world/Switzerland/Hospental/ch-01-358-4x5.png (4:5) of the same scene; not an independently modelled weather or lighting scenario",
+    "derived_from": "Text-prompt-only photorealistic daylight plate of the same place. Not image-anchored on the published master. Europe/Zurich was night on 5 October 2026, so this plate has no scenario timestamp and no weather line.",
     "source_night": {
       "16x9": {
         "path": "library/world/Switzerland/Hospental/ch-01-358-16x9.png",
-        "sha256": "7baae46fca528c8569ebd530570e3c0337bde54769f367512d81a4af0537e173"
+        "sha256": "a088fcd687f75387e040809db7879b39fc5c639669f2686c77977d3f919daad0"
       },
       "4x5": {
         "path": "library/world/Switzerland/Hospental/ch-01-358-4x5.png",
-        "sha256": "35baad7efcf596c1ae73e68bd80b0741def35457a4c319094b77092afb455022"
+        "sha256": "447a5e992314c9840c060f8f9e8244777693624e59279d7fbf6cefc28734f687"
       },
-      "recorded": "SHA-256 of the night masters immediately before this daylight batch. Post-write hashes are identical; night masters were not rewritten."
+      "recorded": "SHA-256 of the published masters immediately before this daylight batch. Post-write hashes are identical; published masters were not rewritten."
     },
     "files": {
       "16x9": "library/world/Switzerland/Hospental/ch-01-358-daylight-16x9.png",
       "4x5": "library/world/Switzerland/Hospental/ch-01-358-daylight-4x5.png"
     },
     "sha256": {
-      "16x9": "4d8ca90132179a595b7a08c76e73260afe09bf483ed0a254f597c05c51270748",
-      "4x5": "b0d7853197aed1a142b3ea7a923826af9370767cd377f1cd6dc3503459b8dbd7"
+      "16x9": "64640b3e75280b671c1fda796d9425f8722b20906bf072ddebd782b3ea7f5ef9",
+      "4x5": "01a835f66f562db27230600f3a1504a8d6a7d0af7066c686c2bf9692381e08a2"
     },
-    "created_date": "2026-09-26",
+    "created_date": "2026-10-05",
     "on_image_caption": "Hospental Tower, Hospental",
     "on_image_signature": "Jason D’s Vision",
     "on_image_disclosure": "AI-generated artistic interpretation · Not a photograph.",
     "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
-    "derivative_disclosure": "Derivative of the night interpretation of this same viewpoint. Not an independently modelled weather or lighting scenario. No weather claim. No scenario timestamp on the variant.",
-    "note": "AI-generated daylight re-interpretation derived from the night master of the same viewpoint and composition. Not a new scene. Architecture and landscape preserved; lighting only was changed from night to daylight. No weather evidence invented. The variant image carries no weather claim and no scenario timestamp. The scene scenario_label remains the night scene's label and is not a daylight weather assertion."
+    "derivative_disclosure": "Daylight companion plate for the gallery daylight control. Text-prompt only. No weather claim. No scenario timestamp on the variant. The scene scenario_label is unchanged and is not a daylight weather assertion.",
+    "note": "Photorealistic daylight plate generated text-prompt-only on 2026-10-05. Not derived by relighting the published master and not image-anchored on it. No live daytime weather reading was available. The plate carries no scenario timestamp and no weather line. Published masters were not rewritten."
   },
   "qc_notes": [
     {

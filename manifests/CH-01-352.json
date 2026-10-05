@@ -15,33 +15,33 @@
   "approval_status": "Approved",
   "daylight_variant": {
     "variant_of_entry_id": "CH-01-352",
-    "derived_from": "Live gallery night master library/world/Switzerland/Bern/ch-01-352-16x9.png (16:9) and library/world/Switzerland/Bern/ch-01-352-4x5.png (4:5) of the same scene; not an independently modelled weather or lighting scenario",
+    "derived_from": "Text-prompt-only photorealistic daylight plate of the same place. Not image-anchored on the published master. Europe/Zurich was night on 5 October 2026, so this plate has no scenario timestamp and no weather line.",
     "source_night": {
       "16x9": {
         "path": "library/world/Switzerland/Bern/ch-01-352-16x9.png",
-        "sha256": "4248eb6d1db3b6b197a2739ea80d67be21ed6645b202bc3b15abbc2e823a5d5b"
+        "sha256": "f1a10988501963bd415f0ef84cbccb1e03b09a0381f44edc7eae6fb14f1ef22d"
       },
       "4x5": {
         "path": "library/world/Switzerland/Bern/ch-01-352-4x5.png",
-        "sha256": "3735ee9866a367b0e3056f87f93498166fa110896bda89d1f6c9f602555225d4"
+        "sha256": "57305303a3f1fd3a586e37aceeff820e7828a1403ef75f490b75b4ed846e3664"
       },
-      "recorded": "SHA-256 of the night masters immediately before this daylight batch. Post-write hashes are identical; night masters were not rewritten."
+      "recorded": "SHA-256 of the published masters immediately before this daylight batch. Post-write hashes are identical; published masters were not rewritten."
     },
     "files": {
       "16x9": "library/world/Switzerland/Bern/ch-01-352-daylight-16x9.png",
       "4x5": "library/world/Switzerland/Bern/ch-01-352-daylight-4x5.png"
     },
     "sha256": {
-      "16x9": "4e8b7c43eded3c109eff7c97f0f537738ec26649eac245e2dfd3f7a833244591",
-      "4x5": "89136c881c2b10396dbb69d701477da3cd42de1a3de3a1d36c776138fbe87112"
+      "16x9": "74c3335aa5168f906c6a4bdb2c668efebc9b4c5abb0236be6b54d9ddcec930ca",
+      "4x5": "f870b68d2ffab566f6db051d3d44073e5a6fc9024954bd1ef9bf6e7f78ccbc50"
     },
-    "created_date": "2026-09-26",
+    "created_date": "2026-10-05",
     "on_image_caption": "Kirchenfeld Bridge, Bern",
     "on_image_signature": "Jason D’s Vision",
     "on_image_disclosure": "AI-generated artistic interpretation · Not a photograph.",
     "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
-    "derivative_disclosure": "Derivative of the night interpretation of this same viewpoint. Not an independently modelled weather or lighting scenario. No weather claim. No scenario timestamp on the variant.",
-    "note": "AI-generated daylight re-interpretation derived from the night master of the same viewpoint and composition. Not a new scene. Architecture and landscape preserved; lighting only was changed from night to daylight. No weather evidence invented. The variant image carries no weather claim and no scenario timestamp. The scene scenario_label remains the night scene's label and is not a daylight weather assertion."
+    "derivative_disclosure": "Daylight companion plate for the gallery daylight control. Text-prompt only. No weather claim. No scenario timestamp on the variant. The scene scenario_label is unchanged and is not a daylight weather assertion.",
+    "note": "Photorealistic daylight plate generated text-prompt-only on 2026-10-05. Not derived by relighting the published master and not image-anchored on it. No live daytime weather reading was available. The plate carries no scenario timestamp and no weather line. Published masters were not rewritten."
   },
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "Gate 1 — 16:9 master shows the Kirchenfeld Bridge at night from the riverbank: two riveted iron arches spanning the Aare with stone piers and the 1883 high deck, lit buildings on the far bank, reflections on the water — matches the anchors (two riveted iron arches, seen from the riverbank). 4:5 crop shows the same arches, piers, and deck — no inter-format subject disagreement. Gate 2 — exact 1920x1080 / 864x1080 masters; on-image caption 'Kirchenfeld Bridge, Bern', scenario '24 September 2026 · 23:28 Europe/Zurich', disclosure and exact curly-apostrophe 'Jason D's Vision' signature legible on the scrim. Weather per approvals note: Open-Meteo retrieved 2026-09-25T23:48:58Z, unique per-scene timestamp across the 27-scene candidate window, model-valid hour covering the scenario time with per-scene coordinates. Gate 3 — text-prompt-only lineage documented, no photographic inputs. Gate 4 — no visible people, logos, or recognizable private property; documented only.",

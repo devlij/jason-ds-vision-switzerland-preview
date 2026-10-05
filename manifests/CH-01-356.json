@@ -15,33 +15,33 @@
   "approval_status": "Approved",
   "daylight_variant": {
     "variant_of_entry_id": "CH-01-356",
-    "derived_from": "Live gallery night master library/world/Switzerland/Lauerz/ch-01-356-16x9.png (16:9) and library/world/Switzerland/Lauerz/ch-01-356-4x5.png (4:5) of the same scene; not an independently modelled weather or lighting scenario",
+    "derived_from": "Text-prompt-only photorealistic daylight plate of the same place. Not image-anchored on the published master. Europe/Zurich was night on 5 October 2026, so this plate has no scenario timestamp and no weather line.",
     "source_night": {
       "16x9": {
         "path": "library/world/Switzerland/Lauerz/ch-01-356-16x9.png",
-        "sha256": "a013e242b9d58a6ffd7038d2acd2f745f3896a7b847870f5b55d03c7fbeb713f"
+        "sha256": "203e87a3b0951d86b75082c5d2d6604bf28687bd49974e8f678acb00c6b858c7"
       },
       "4x5": {
         "path": "library/world/Switzerland/Lauerz/ch-01-356-4x5.png",
-        "sha256": "639ac782bf393af0b45aaeb735f4dfb50df49ab2e57b81253db798a50340d376"
+        "sha256": "2712cc1571525ed954cc8e8897b97ee0582baaeec8558b49ceca183ce654b227"
       },
-      "recorded": "SHA-256 of the night masters immediately before this daylight batch. Post-write hashes are identical; night masters were not rewritten."
+      "recorded": "SHA-256 of the published masters immediately before this daylight batch. Post-write hashes are identical; published masters were not rewritten."
     },
     "files": {
       "16x9": "library/world/Switzerland/Lauerz/ch-01-356-daylight-16x9.png",
       "4x5": "library/world/Switzerland/Lauerz/ch-01-356-daylight-4x5.png"
     },
     "sha256": {
-      "16x9": "07d08c64e56d6c8c4b0e35f32aa8b531bbca666c58bb953aa3509cb8f763f5e2",
-      "4x5": "49af421ca6463b9d8d6653a15d37bbedf324370e00fdc3004e6d4fc453517baf"
+      "16x9": "bd62d2898062cd678ab98af329a29f5673b6c1d5367d71ca644ba8c06386fe17",
+      "4x5": "b617d7d4bd9f362294f1fd6b3b84b390f3a2d9303d1b933c9086b74ea3586d1c"
     },
-    "created_date": "2026-09-26",
+    "created_date": "2026-10-05",
     "on_image_caption": "Schwanau, Lauerz",
     "on_image_signature": "Jason D’s Vision",
     "on_image_disclosure": "AI-generated artistic interpretation · Not a photograph.",
     "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
-    "derivative_disclosure": "Derivative of the night interpretation of this same viewpoint. Not an independently modelled weather or lighting scenario. No weather claim. No scenario timestamp on the variant.",
-    "note": "AI-generated daylight re-interpretation derived from the night master of the same viewpoint and composition. Not a new scene. Architecture and landscape preserved; lighting only was changed from night to daylight. No weather evidence invented. The variant image carries no weather claim and no scenario timestamp. The scene scenario_label remains the night scene's label and is not a daylight weather assertion."
+    "derivative_disclosure": "Daylight companion plate for the gallery daylight control. Text-prompt only. No weather claim. No scenario timestamp on the variant. The scene scenario_label is unchanged and is not a daylight weather assertion.",
+    "note": "Photorealistic daylight plate generated text-prompt-only on 2026-10-05. Not derived by relighting the published master and not image-anchored on it. No live daytime weather reading was available. The plate carries no scenario timestamp and no weather line. Published masters were not rewritten."
   },
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "Gate 1: wooded island with low stone ruin walls and a small chapel among the trees, twin Mythen silhouette beyond across the water — matches the anchors (Schwanau island, ruined medieval castle, chapel); the 4:5 master agrees on island, ruin walls, chapel and twin peaks. Gate 2: exact 1920x1080 and 864x1080; caption 'Schwanau, Lauerz', scenario '24 September 2026 · 23:46 Europe/Zurich', disclosure 'AI-generated artistic interpretation · Not a photograph.' and signature 'Jason D\\u2019s Vision' legible on the bottom scrim; scenario 23:46 inside the model-valid 23:45 step; weather retrieved 2026-09-25T23:49:02Z, verified unique across all 365 Switzerland note files. Gate 3: approvals note records text-prompt-only lineage, no photographic inputs. Gate 4: no identifiable people, no logos or focal artwork — documented only, final commercial call is Jason's. Gate 5: all gates closed.",

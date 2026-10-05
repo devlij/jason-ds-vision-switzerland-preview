@@ -15,33 +15,33 @@
   "approval_status": "Approved",
   "daylight_variant": {
     "variant_of_entry_id": "CH-01-357",
-    "derived_from": "Live gallery night master library/world/Switzerland/Sisikon/ch-01-357-16x9.png (16:9) and library/world/Switzerland/Sisikon/ch-01-357-4x5.png (4:5) of the same scene; not an independently modelled weather or lighting scenario",
+    "derived_from": "Text-prompt-only photorealistic daylight plate of the same place. Not image-anchored on the published master. Europe/Zurich was night on 5 October 2026, so this plate has no scenario timestamp and no weather line.",
     "source_night": {
       "16x9": {
         "path": "library/world/Switzerland/Sisikon/ch-01-357-16x9.png",
-        "sha256": "ce7891f0bf35694e0405bab2fb5a88c8e37966550b7a2f904620cee89d2c12da"
+        "sha256": "e264a19bb7aa31f033759d6377aa2e75c35112e68ea9ea0a6217a9492e86d924"
       },
       "4x5": {
         "path": "library/world/Switzerland/Sisikon/ch-01-357-4x5.png",
-        "sha256": "658fd96931b04b892e8461bf98151085bdde60507396bb5c56a3b42535bf5902"
+        "sha256": "eafde867510a42fa885bff74544a4e6fd2f05884195b4dcf4edc2d158d181412"
       },
-      "recorded": "SHA-256 of the night masters immediately before this daylight batch. Post-write hashes are identical; night masters were not rewritten."
+      "recorded": "SHA-256 of the published masters immediately before this daylight batch. Post-write hashes are identical; published masters were not rewritten."
     },
     "files": {
       "16x9": "library/world/Switzerland/Sisikon/ch-01-357-daylight-16x9.png",
       "4x5": "library/world/Switzerland/Sisikon/ch-01-357-daylight-4x5.png"
     },
     "sha256": {
-      "16x9": "7adcd74fb295def20e3f5f0017d028d75910998df84c49853ec09e73c80dc51c",
-      "4x5": "2c8f5d9db68eef482be13a32de25114e884b1428c737f2896dcf9c4ca136ccc1"
+      "16x9": "c0093542c716cac151f022c210e2c793f58e4a1814da4cc0c1d05285a73030c2",
+      "4x5": "683e178e90f82884a1cecb17b44ee0ed147be15c8371bb84abf410a9033000c6"
     },
-    "created_date": "2026-09-26",
+    "created_date": "2026-10-05",
     "on_image_caption": "Tell Chapel, Sisikon",
     "on_image_signature": "Jason D’s Vision",
     "on_image_disclosure": "AI-generated artistic interpretation · Not a photograph.",
     "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
-    "derivative_disclosure": "Derivative of the night interpretation of this same viewpoint. Not an independently modelled weather or lighting scenario. No weather claim. No scenario timestamp on the variant.",
-    "note": "AI-generated daylight re-interpretation derived from the night master of the same viewpoint and composition. Not a new scene. Architecture and landscape preserved; lighting only was changed from night to daylight. No weather evidence invented. The variant image carries no weather claim and no scenario timestamp. The scene scenario_label remains the night scene's label and is not a daylight weather assertion."
+    "derivative_disclosure": "Daylight companion plate for the gallery daylight control. Text-prompt only. No weather claim. No scenario timestamp on the variant. The scene scenario_label is unchanged and is not a daylight weather assertion.",
+    "note": "Photorealistic daylight plate generated text-prompt-only on 2026-10-05. Not derived by relighting the published master and not image-anchored on it. No live daytime weather reading was available. The plate carries no scenario timestamp and no weather line. Published masters were not rewritten. The 16:9 and 4:5 plates were regenerated on 2026-10-05 so the chapel reads as the Tellskapelle at Sisikon: an open round-arched arcade at the waterline, a hipped roof, and a small bell turret."
   },
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "Gate 1: small pale chapel with pitched roof on a rock ledge at the lake edge, tall dark cliff (Axenberg) behind, windows dark — matches the anchors (Tell Chapel, Tellsplatte, no frescoes, no statue); both formats agree on the chapel-on-ledge subject. Gate 2: exact 1920x1080 and 864x1080; caption 'Tell Chapel, Sisikon', scenario '24 September 2026 · 23:46 Europe/Zurich', disclosure 'AI-generated artistic interpretation · Not a photograph.' and signature 'Jason D\\u2019s Vision' legible on the bottom scrim; scenario 23:46 inside the model-valid 23:45 step; weather retrieved 2026-09-25T23:49:03Z, verified unique across all 365 Switzerland note files. Gate 3: approvals note records text-prompt-only lineage, no photographic inputs. Gate 4: no identifiable people, no logos or focal artwork — documented only, final commercial call is Jason's. Gate 5: all gates closed.",

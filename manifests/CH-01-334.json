@@ -15,33 +15,33 @@
   "approval_status": "Approved",
   "daylight_variant": {
     "variant_of_entry_id": "CH-01-334",
-    "derived_from": "Live gallery night master library/world/Switzerland/Zurich/ch-01-334-16x9.png (16:9) and library/world/Switzerland/Zurich/ch-01-334-4x5.png (4:5) of the same scene; not an independently modelled weather or lighting scenario",
+    "derived_from": "Text-prompt-only photorealistic daylight plate of the same place. Not image-anchored on the published master. Europe/Zurich was night on 5 October 2026, so this plate has no scenario timestamp and no weather line.",
     "source_night": {
       "16x9": {
         "path": "library/world/Switzerland/Zurich/ch-01-334-16x9.png",
-        "sha256": "41700ebeaa2aed5da16c1b8003dcce67e8e8c384bbab122bd817ec7341dbe2c5"
+        "sha256": "dddc38311344ff0d5af3455249ef5e22be2ee6d8dcc0d1031a27bef1dd929a0b"
       },
       "4x5": {
         "path": "library/world/Switzerland/Zurich/ch-01-334-4x5.png",
-        "sha256": "5ba0b3fcb332b545336a19970b2a36d653164194e7537238cf85a13bc2caa8a7"
+        "sha256": "6d305d9c68030449a6b6b26c62988264de2d94d89e64c4f112d9c501ed500814"
       },
-      "recorded": "SHA-256 of the night masters immediately before this daylight batch. Post-write hashes are identical; night masters were not rewritten."
+      "recorded": "SHA-256 of the published masters immediately before this daylight batch. Post-write hashes are identical; published masters were not rewritten."
     },
     "files": {
       "16x9": "library/world/Switzerland/Zurich/ch-01-334-daylight-16x9.png",
       "4x5": "library/world/Switzerland/Zurich/ch-01-334-daylight-4x5.png"
     },
     "sha256": {
-      "16x9": "891c74b4e0808feb142e8f4ccb65915008cb7676b12de3ff639d1fbaa4215e1a",
-      "4x5": "6196b5dc251822edc00b2613fdc54834c2a8e22566569698ff086b243ea46636"
+      "16x9": "109698f19abf0ec60d38f3df1d5a9966ad36640643d60c5675a3c68e23df22aa",
+      "4x5": "cb1c5f72ae54d495e4371fb36b0da20aab217da1e8ccbb88be3804ea4713e2bd"
     },
-    "created_date": "2026-09-26",
+    "created_date": "2026-10-05",
     "on_image_caption": "St. Peter, Zurich",
     "on_image_signature": "Jason D’s Vision",
     "on_image_disclosure": "AI-generated artistic interpretation · Not a photograph.",
     "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
-    "derivative_disclosure": "Derivative of the night interpretation of this same viewpoint. Not an independently modelled weather or lighting scenario. No weather claim. No scenario timestamp on the variant.",
-    "note": "AI-generated daylight re-interpretation derived from the night master of the same viewpoint and composition. Not a new scene. Architecture and landscape preserved; lighting only was changed from night to daylight. No weather evidence invented. The variant image carries no weather claim and no scenario timestamp. The scene scenario_label remains the night scene's label and is not a daylight weather assertion."
+    "derivative_disclosure": "Daylight companion plate for the gallery daylight control. Text-prompt only. No weather claim. No scenario timestamp on the variant. The scene scenario_label is unchanged and is not a daylight weather assertion.",
+    "note": "Photorealistic daylight plate generated text-prompt-only on 2026-10-05. Not derived by relighting the published master and not image-anchored on it. No live daytime weather reading was available. The plate carries no scenario timestamp and no weather line. Published masters were not rewritten."
   },
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "Gate 1: St. Peter's clock tower on its Zurich hill at night — stone tower with two large illuminated Roman-numeral clock faces and a tall spire, city lights and the lake haze below; both formats agree on the single clock tower with big faces and spire. Gate 2: 1920×1080/864×1080 exact; caption 'St. Peter, Zurich', scenario '24 September 2026 · 23:10 Europe/Zurich', 'Jason D’s Vision' signature bottom-right and 'AI-generated artistic interpretation · Not a photograph.' bottom-left legible; Open-Meteo weather retrieved 2026-09-25T23:48:40Z, per-scene unique across all 39 candidates, valid slot 23:00 consistent with 23:10 scenario. Gate 3: note documents text-prompt-only lineage, no photo inputs. Gate 4: public parish church; no people or logos. Gate 5: no blockers.",

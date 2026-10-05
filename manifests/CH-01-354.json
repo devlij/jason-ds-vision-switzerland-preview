@@ -16,33 +16,39 @@
   "approval_status": "Approved",
   "daylight_variant": {
     "variant_of_entry_id": "CH-01-354",
-    "derived_from": "Live gallery night master library/world/Switzerland/Gersau/ch-01-354-16x9.png (16:9) and library/world/Switzerland/Gersau/ch-01-354-4x5.png (4:5) of the same scene; not an independently modelled weather or lighting scenario",
+    "derived_from": "Text-prompt-only photorealistic daylight plate of the same place. Not image-anchored on the published master. Europe/Zurich was night on 5 October 2026, so this plate has no scenario timestamp and no weather line.",
     "source_night": {
       "16x9": {
         "path": "library/world/Switzerland/Gersau/ch-01-354-16x9.png",
-        "sha256": "ac0cc1d00bd5f230c5cf22cd9c4368efa184e99f84ca3921741731985d0d0106"
+        "sha256": "c03d4574f2a4912535c2e1eeeccfd6da7efdf1fd1d1e56f5f637c014e702639a"
       },
       "4x5": {
         "path": "library/world/Switzerland/Gersau/ch-01-354-4x5.png",
-        "sha256": "74b72b79a64c588f70d72748a9a3a5ab64ed24e98c975f4e82e20fc8b742f328"
+        "sha256": "67f6bf0c38715ac6a91339a67b0f5314b2cc38ae55f83fcb7c658587c74ab2aa"
       },
-      "recorded": "SHA-256 of the night masters immediately before this daylight batch. Post-write hashes are identical; night masters were not rewritten."
+      "9x16": {
+        "path": "library/world/Switzerland/Gersau/ch-01-354-9x16.png",
+        "sha256": "5ba8caa43452800047026f34e94312ea0e0878d5c778d3734231b1416972125d"
+      },
+      "recorded": "SHA-256 of the published masters immediately before this daylight batch. Post-write hashes are identical; published masters were not rewritten."
     },
     "files": {
       "16x9": "library/world/Switzerland/Gersau/ch-01-354-daylight-16x9.png",
-      "4x5": "library/world/Switzerland/Gersau/ch-01-354-daylight-4x5.png"
+      "4x5": "library/world/Switzerland/Gersau/ch-01-354-daylight-4x5.png",
+      "9x16": "library/world/Switzerland/Gersau/ch-01-354-daylight-9x16.png"
     },
     "sha256": {
-      "16x9": "83659fb88138de7cb638f7a8dd728028d270ba2fddf012a154ff74aec3ff109b",
-      "4x5": "64c145e466859aec4fbcb923badd4f83b2921615ea176ee2ee1f5289cf03be09"
+      "16x9": "098e55d81a230146b4a247244e1f5978fd68f3315d6688cb9030fcd00b14120f",
+      "4x5": "58cd30da5ea598788b7fd7f3e46682cda357277550d366ca85d0f6c08a15c925",
+      "9x16": "afb199fc5c3a07d58a854c0f4c5cea6493cd4a08cbde59eaab945e267b635898"
     },
-    "created_date": "2026-09-26",
+    "created_date": "2026-10-05",
     "on_image_caption": "Gersau, Gersau",
     "on_image_signature": "Jason D’s Vision",
     "on_image_disclosure": "AI-generated artistic interpretation · Not a photograph.",
     "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
-    "derivative_disclosure": "Derivative of the night interpretation of this same viewpoint. Not an independently modelled weather or lighting scenario. No weather claim. No scenario timestamp on the variant.",
-    "note": "AI-generated daylight re-interpretation derived from the night master of the same viewpoint and composition. Not a new scene. Architecture and landscape preserved; lighting only was changed from night to daylight. No weather evidence invented. The variant image carries no weather claim and no scenario timestamp. The scene scenario_label remains the night scene's label and is not a daylight weather assertion."
+    "derivative_disclosure": "Daylight companion plate for the gallery daylight control. Text-prompt only. No weather claim. No scenario timestamp on the variant. The scene scenario_label is unchanged and is not a daylight weather assertion.",
+    "note": "Photorealistic daylight plate generated text-prompt-only on 2026-10-05. Not derived by relighting the published master and not image-anchored on it. No live daytime weather reading was available. The plate carries no scenario timestamp and no weather line. Published masters were not rewritten. The 9:16 daylight plate is included because a 9:16 master exists and the gallery daylight control requires that ratio."
   },
   "qc_notes": [
     {

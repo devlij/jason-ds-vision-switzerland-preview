@@ -15,33 +15,33 @@
   "approval_status": "Approved",
   "daylight_variant": {
     "variant_of_entry_id": "CH-01-347",
-    "derived_from": "Live gallery night master library/world/Switzerland/La Tour-de-Peilz/ch-01-347-16x9.png (16:9) and library/world/Switzerland/La Tour-de-Peilz/ch-01-347-4x5.png (4:5) of the same scene; not an independently modelled weather or lighting scenario",
+    "derived_from": "Text-prompt-only photorealistic daylight plate of the same place. Not image-anchored on the published master. Europe/Zurich was night on 5 October 2026, so this plate has no scenario timestamp and no weather line.",
     "source_night": {
       "16x9": {
         "path": "library/world/Switzerland/La Tour-de-Peilz/ch-01-347-16x9.png",
-        "sha256": "4b4540d8cfd2f9a8da02c5ca8cae0198608aaa79266e8299fdd6dd3eb0dc267e"
+        "sha256": "3b2f14e18d436f1c41bbf02446b228a2e071ab89aee2a210c429556e45842364"
       },
       "4x5": {
         "path": "library/world/Switzerland/La Tour-de-Peilz/ch-01-347-4x5.png",
-        "sha256": "6afc504d6922c766800e6eb9e8e398c42988a883c0ae2c52d3a2b5b5551820e0"
+        "sha256": "d443bd2fca85a368253b5dbea3431e1ee544d4b70d822ec54a722caa72df1ee7"
       },
-      "recorded": "SHA-256 of the night masters immediately before this daylight batch. Post-write hashes are identical; night masters were not rewritten."
+      "recorded": "SHA-256 of the published masters immediately before this daylight batch. Post-write hashes are identical; published masters were not rewritten."
     },
     "files": {
       "16x9": "library/world/Switzerland/La Tour-de-Peilz/ch-01-347-daylight-16x9.png",
       "4x5": "library/world/Switzerland/La Tour-de-Peilz/ch-01-347-daylight-4x5.png"
     },
     "sha256": {
-      "16x9": "18304e85d3c7f1ec3fcb00b611bb324d221c18a6341ed2a01785141af15ce2fa",
-      "4x5": "7f2bfd58bad954eef952a140a66a5614e40be1d40a8870da63c74e2c3dc9ef48"
+      "16x9": "fdbc98ef1228efaba8cca43cbcbfe95e288d9a368278ea3601b3cd73e3864219",
+      "4x5": "122d16bef8b80b8b96ba9820ed9e84feb4c1fce3f6d87fc9ce32e5f1c126ac56"
     },
-    "created_date": "2026-09-26",
+    "created_date": "2026-10-05",
     "on_image_caption": "La Tour-de-Peilz Castle, La Tour-de-Peilz",
     "on_image_signature": "Jason D’s Vision",
     "on_image_disclosure": "AI-generated artistic interpretation · Not a photograph.",
     "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
-    "derivative_disclosure": "Derivative of the night interpretation of this same viewpoint. Not an independently modelled weather or lighting scenario. No weather claim. No scenario timestamp on the variant.",
-    "note": "AI-generated daylight re-interpretation derived from the night master of the same viewpoint and composition. Not a new scene. Architecture and landscape preserved; lighting only was changed from night to daylight. No weather evidence invented. The variant image carries no weather claim and no scenario timestamp. The scene scenario_label remains the night scene's label and is not a daylight weather assertion."
+    "derivative_disclosure": "Daylight companion plate for the gallery daylight control. Text-prompt only. No weather claim. No scenario timestamp on the variant. The scene scenario_label is unchanged and is not a daylight weather assertion.",
+    "note": "Photorealistic daylight plate generated text-prompt-only on 2026-10-05. Not derived by relighting the published master and not image-anchored on it. No live daytime weather reading was available. The plate carries no scenario timestamp and no weather line. Published masters were not rewritten."
   },
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "Gate 1 — 16:9 master shows the castle of La Tour-de-Peilz at night on Lake Geneva: the round stone keep with lower walls lit warm on the water, a small quay with bollards and a plane tree in the foreground; matches the anchors (round stone keep, lower walls, quay). 4:5 crop shows the same round keep, walls, and plane trees — no inter-format subject disagreement. Gate 2 — exact 1920x1080 / 864x1080 masters; on-image caption 'La Tour-de-Peilz Castle, La Tour-de-Peilz', scenario '24 September 2026 · 23:28 Europe/Zurich', disclosure and exact curly-apostrophe 'Jason D's Vision' signature legible on the scrim. Weather per approvals note: Open-Meteo retrieved 2026-09-25T23:48:53Z, unique per-scene timestamp across the 27-scene candidate window, model-valid hour covering the scenario time with per-scene coordinates. Gate 3 — text-prompt-only lineage documented, no photographic inputs. Gate 4 — no visible people, logos, or recognizable private property; documented only.",

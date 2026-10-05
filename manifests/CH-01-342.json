@@ -15,33 +15,33 @@
   "approval_status": "Approved",
   "daylight_variant": {
     "variant_of_entry_id": "CH-01-342",
-    "derived_from": "Live gallery night master library/world/Switzerland/St. Gallen/ch-01-342-16x9.png (16:9) and library/world/Switzerland/St. Gallen/ch-01-342-4x5.png (4:5) of the same scene; not an independently modelled weather or lighting scenario",
+    "derived_from": "Text-prompt-only photorealistic daylight plate of the same place. Not image-anchored on the published master. Europe/Zurich was night on 5 October 2026, so this plate has no scenario timestamp and no weather line.",
     "source_night": {
       "16x9": {
         "path": "library/world/Switzerland/St. Gallen/ch-01-342-16x9.png",
-        "sha256": "8e2ce63da38eca40a5df279d62aee57839d70229ab790229755d3365472b0597"
+        "sha256": "ac144b790e1aeba06fee284bf6d37eee4d78365679ce657ab3bc86f21b2dc3dd"
       },
       "4x5": {
         "path": "library/world/Switzerland/St. Gallen/ch-01-342-4x5.png",
-        "sha256": "ba045222fb43f2c41900a6327b9fa0c0828a8b93e852ff606edc43403e534f00"
+        "sha256": "0fda0afa4ff8406408bab6e40df17cd80b1ebe8f514830004c8e2048903f725b"
       },
-      "recorded": "SHA-256 of the night masters immediately before this daylight batch. Post-write hashes are identical; night masters were not rewritten."
+      "recorded": "SHA-256 of the published masters immediately before this daylight batch. Post-write hashes are identical; published masters were not rewritten."
     },
     "files": {
       "16x9": "library/world/Switzerland/St. Gallen/ch-01-342-daylight-16x9.png",
       "4x5": "library/world/Switzerland/St. Gallen/ch-01-342-daylight-4x5.png"
     },
     "sha256": {
-      "16x9": "0f8326a98db5c639dcb6bde9dc5005a9c9b752888145e588a674830989928843",
-      "4x5": "530956f9f35a83c7b242f22a1c3012ce68882080650ed26e57a4d21f1cef89c6"
+      "16x9": "9282d765e8c646cef89f081cd016fe9d2f4e758331e528b276e5e59e6f78543b",
+      "4x5": "c3fd452cf88ce598ad13eaba1f9d7a2bab23eb0fccd65bffa23dc8a79593edd7"
     },
-    "created_date": "2026-09-26",
+    "created_date": "2026-10-05",
     "on_image_caption": "St. Laurenzen, St. Gallen",
     "on_image_signature": "Jason D’s Vision",
     "on_image_disclosure": "AI-generated artistic interpretation · Not a photograph.",
     "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
-    "derivative_disclosure": "Derivative of the night interpretation of this same viewpoint. Not an independently modelled weather or lighting scenario. No weather claim. No scenario timestamp on the variant.",
-    "note": "AI-generated daylight re-interpretation derived from the night master of the same viewpoint and composition. Not a new scene. Architecture and landscape preserved; lighting only was changed from night to daylight. No weather evidence invented. The variant image carries no weather claim and no scenario timestamp. The scene scenario_label remains the night scene's label and is not a daylight weather assertion."
+    "derivative_disclosure": "Daylight companion plate for the gallery daylight control. Text-prompt only. No weather claim. No scenario timestamp on the variant. The scene scenario_label is unchanged and is not a daylight weather assertion.",
+    "note": "Photorealistic daylight plate generated text-prompt-only on 2026-10-05. Not derived by relighting the published master and not image-anchored on it. No live daytime weather reading was available. The plate carries no scenario timestamp and no weather line. Published masters were not rewritten."
   },
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "Gate 1 — 16:9 master shows the neo-Gothic stone church of St. Laurenzen at night from the Marktgasse: single square-shafted tower with octagonal upper stage and pointed helm, patterned colored glazed-tile nave roof, lit street lamps; matches all three geometry anchors (single spire, not the abbey's baroque towers; glazed-tile roof; windows dark). 4:5 crop shows the same tower and helm — no inter-format subject disagreement. Gate 2 — both masters exact 1920x1080 / 864x1080; on-image caption 'St. Laurenzen, St. Gallen', scenario '24 September 2026 · 23:28 Europe/Zurich', disclosure 'AI-generated artistic interpretation · Not a photograph.' and exact curly-apostrophe 'Jason D's Vision' signature all legible on the gradient scrim without covering the architecture. Weather per approvals note: Open-Meteo retrieved 2026-09-25T23:48:48Z for 47.42440, 9.37706, model-valid hour 23:00-23:59 Europe/Zurich covering the scenario time; timestamp unique to the second across the full 27-scene candidate window. Gate 3 — build notes document text-prompt-only lineage, no photographic inputs. Gate 4 — no visible people, logos, or recognizable private property; documented only, final commercial call is Jason's.",

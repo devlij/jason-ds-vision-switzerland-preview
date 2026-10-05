@@ -15,33 +15,33 @@
   "approval_status": "Approved",
   "daylight_variant": {
     "variant_of_entry_id": "CH-01-343",
-    "derived_from": "Live gallery night master library/world/Switzerland/Walenstadt/ch-01-343-16x9.png (16:9) and library/world/Switzerland/Walenstadt/ch-01-343-4x5.png (4:5) of the same scene; not an independently modelled weather or lighting scenario",
+    "derived_from": "Text-prompt-only photorealistic daylight plate of the same place. Not image-anchored on the published master. Europe/Zurich was night on 5 October 2026, so this plate has no scenario timestamp and no weather line.",
     "source_night": {
       "16x9": {
         "path": "library/world/Switzerland/Walenstadt/ch-01-343-16x9.png",
-        "sha256": "7f0e6178d62198a6287151c380c7b71a2dd08f52821078e34571def2f42c4455"
+        "sha256": "048a7605a97890052816b85ef6bccb3333094c1f01dc6dd5a8debd88cb7319fe"
       },
       "4x5": {
         "path": "library/world/Switzerland/Walenstadt/ch-01-343-4x5.png",
-        "sha256": "68648e13d991e8e7c13a7ae127553d2750c80d93c7b5c1d886b797a5c2cbcb68"
+        "sha256": "f2ab5da068d29420a46d9a62ae4f34e5a416f7e96158309373c3064d7ee4d456"
       },
-      "recorded": "SHA-256 of the night masters immediately before this daylight batch. Post-write hashes are identical; night masters were not rewritten."
+      "recorded": "SHA-256 of the published masters immediately before this daylight batch. Post-write hashes are identical; published masters were not rewritten."
     },
     "files": {
       "16x9": "library/world/Switzerland/Walenstadt/ch-01-343-daylight-16x9.png",
       "4x5": "library/world/Switzerland/Walenstadt/ch-01-343-daylight-4x5.png"
     },
     "sha256": {
-      "16x9": "5611f237bbadf80494f0d92d5e892e563c45b9991f7f729c199c7d99a47bba4d",
-      "4x5": "89ea6932e17fe6e7022c41b5c909322154b57ab34cdf02c89812f6485cd836c1"
+      "16x9": "0d53e3d04d3d7488d3eecbe2617b95891c135a2b9c0b05d1a52aae2ad89d78a4",
+      "4x5": "a08083847a771fb5a8d9036f10c5b973a75d364aa22a11bcf65c95d0d874b711"
     },
-    "created_date": "2026-09-26",
+    "created_date": "2026-10-05",
     "on_image_caption": "Walenstadt, Walenstadt",
     "on_image_signature": "Jason D’s Vision",
     "on_image_disclosure": "AI-generated artistic interpretation · Not a photograph.",
     "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
-    "derivative_disclosure": "Derivative of the night interpretation of this same viewpoint. Not an independently modelled weather or lighting scenario. No weather claim. No scenario timestamp on the variant.",
-    "note": "AI-generated daylight re-interpretation derived from the night master of the same viewpoint and composition. Not a new scene. Architecture and landscape preserved; lighting only was changed from night to daylight. No weather evidence invented. The variant image carries no weather claim and no scenario timestamp. The scene scenario_label remains the night scene's label and is not a daylight weather assertion."
+    "derivative_disclosure": "Daylight companion plate for the gallery daylight control. Text-prompt only. No weather claim. No scenario timestamp on the variant. The scene scenario_label is unchanged and is not a daylight weather assertion.",
+    "note": "Photorealistic daylight plate generated text-prompt-only on 2026-10-05. Not derived by relighting the published master and not image-anchored on it. No live daytime weather reading was available. The plate carries no scenario timestamp and no weather line. Published masters were not rewritten."
   },
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "Gate 1 — 16:9 master shows Walenstadt at night from the town shore: lit lakeside promenade with lamps and trees in the left foreground, town lights scattered along the far shore, and the dark limestone wall of the Churfirsten rising across the frame; matches the geometry anchors (east end of Walensee, Churfirsten wall). 4:5 crop shows the same cliff wall over the lit shore — no inter-format subject disagreement. Gate 2 — exact 1920x1080 / 864x1080 masters; on-image caption 'Walenstadt, Walenstadt', scenario '24 September 2026 · 23:28 Europe/Zurich', disclosure and exact curly-apostrophe 'Jason D's Vision' signature legible on the scrim. Weather per approvals note: Open-Meteo retrieved 2026-09-25T23:48:49Z, unique per-scene timestamp across the 27-scene candidate window, model-valid hour covering the scenario time with per-scene coordinates. Gate 3 — text-prompt-only lineage documented, no photographic inputs. Gate 4 — no visible people, logos, or recognizable private property; documented only.",

@@ -15,33 +15,33 @@
   "approval_status": "Approved",
   "daylight_variant": {
     "variant_of_entry_id": "CH-01-331",
-    "derived_from": "Live gallery night master library/world/Switzerland/Valangin/ch-01-331-16x9.png (16:9) and library/world/Switzerland/Valangin/ch-01-331-4x5.png (4:5) of the same scene; not an independently modelled weather or lighting scenario",
+    "derived_from": "Text-prompt-only photorealistic daylight plate of the same place. Not image-anchored on the published master. Europe/Zurich was night on 5 October 2026, so this plate has no scenario timestamp and no weather line.",
     "source_night": {
       "16x9": {
         "path": "library/world/Switzerland/Valangin/ch-01-331-16x9.png",
-        "sha256": "8c643391c4c7eb209cfe662325235b50c292afb2c0891efa6116fe4422af8bb7"
+        "sha256": "a00bae18cf7e87be98d03e3e6857ddcdbd66c191d65108a7af784782272886f1"
       },
       "4x5": {
         "path": "library/world/Switzerland/Valangin/ch-01-331-4x5.png",
-        "sha256": "c489f37c5af4128aa0bdeae8682ae48576b0ad4fed4e98f2b618e80133cddb69"
+        "sha256": "df6a6e1532bf18c8439368965314b38e09dfb84c6e7df6912f28a0a5cd531469"
       },
-      "recorded": "SHA-256 of the night masters immediately before this daylight batch. Post-write hashes are identical; night masters were not rewritten."
+      "recorded": "SHA-256 of the published masters immediately before this daylight batch. Post-write hashes are identical; published masters were not rewritten."
     },
     "files": {
       "16x9": "library/world/Switzerland/Valangin/ch-01-331-daylight-16x9.png",
       "4x5": "library/world/Switzerland/Valangin/ch-01-331-daylight-4x5.png"
     },
     "sha256": {
-      "16x9": "5816dfddf8925eeb24783a0b15d1fdb8e47dd03eb087757fbf0e2a438638b072",
-      "4x5": "9e7ceb02f910300a9dbf2c7b3a0cf68301b2bfb463960dcea5df93f170f94ffa"
+      "16x9": "46666fe4cbcfe1ccfacb2bd1c3c7f031d9aa18b2b34378d0bc32ba57d99687bd",
+      "4x5": "4538156b235c1eab09ffcb84a85976112b60af4892f63aafc297727a76c4933b"
     },
-    "created_date": "2026-09-26",
+    "created_date": "2026-10-05",
     "on_image_caption": "Valangin Castle, Valangin",
     "on_image_signature": "Jason D’s Vision",
     "on_image_disclosure": "AI-generated artistic interpretation · Not a photograph.",
     "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
-    "derivative_disclosure": "Derivative of the night interpretation of this same viewpoint. Not an independently modelled weather or lighting scenario. No weather claim. No scenario timestamp on the variant.",
-    "note": "AI-generated daylight re-interpretation derived from the night master of the same viewpoint and composition. Not a new scene. Architecture and landscape preserved; lighting only was changed from night to daylight. No weather evidence invented. The variant image carries no weather claim and no scenario timestamp. The scene scenario_label remains the night scene's label and is not a daylight weather assertion."
+    "derivative_disclosure": "Daylight companion plate for the gallery daylight control. Text-prompt only. No weather claim. No scenario timestamp on the variant. The scene scenario_label is unchanged and is not a daylight weather assertion.",
+    "note": "Photorealistic daylight plate generated text-prompt-only on 2026-10-05. Not derived by relighting the published master and not image-anchored on it. No live daytime weather reading was available. The plate carries no scenario timestamp and no weather line. Published masters were not rewritten."
   },
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "Gate 1: Valangin Castle on its rocky spur above the Seyon at night — stone buildings with the defining round tower, lit windows against dark cloud, matching the note's own description; both formats agree on the round tower and rocky spur (inter-format check). Gate 2: 1920×1080/864×1080 exact; caption 'Valangin Castle, Valangin', scenario '24 September 2026 · 23:10 Europe/Zurich', 'Jason D’s Vision' signature bottom-right and 'AI-generated artistic interpretation · Not a photograph.' bottom-left legible; Open-Meteo weather retrieved 2026-09-25T23:48:37Z, per-scene unique across all 39 candidates, valid slot 23:00 consistent with 23:10 scenario. Gate 3: note documents text-prompt-only lineage, no photo inputs. Gate 4: castle is a historic public site; no people or logos visible. Gate 5: no blockers.",

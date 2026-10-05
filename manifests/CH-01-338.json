@@ -15,33 +15,33 @@
   "approval_status": "Approved",
   "daylight_variant": {
     "variant_of_entry_id": "CH-01-338",
-    "derived_from": "Live gallery night master library/world/Switzerland/Le Locle/ch-01-338-16x9.png (16:9) and library/world/Switzerland/Le Locle/ch-01-338-4x5.png (4:5) of the same scene; not an independently modelled weather or lighting scenario",
+    "derived_from": "Text-prompt-only photorealistic daylight plate of the same place. Not image-anchored on the published master. Europe/Zurich was night on 5 October 2026, so this plate has no scenario timestamp and no weather line.",
     "source_night": {
       "16x9": {
         "path": "library/world/Switzerland/Le Locle/ch-01-338-16x9.png",
-        "sha256": "43cc5800664a06726152802a9507ebb1c51975399fc50f16e4cab19cd38ad8c8"
+        "sha256": "e275f19a1c201fee08c4884a9cf4fd34ad5b49571b00dbb239b04784f07c9239"
       },
       "4x5": {
         "path": "library/world/Switzerland/Le Locle/ch-01-338-4x5.png",
-        "sha256": "deaa4e8c599c71fe86f97c43bdda9e0b7bba8017786f4382797b0d550f737262"
+        "sha256": "d7822e2fc5ac2d6db46ef7718affebcba3c8849be86c5e2127b0def3b6f7aa89"
       },
-      "recorded": "SHA-256 of the night masters immediately before this daylight batch. Post-write hashes are identical; night masters were not rewritten."
+      "recorded": "SHA-256 of the published masters immediately before this daylight batch. Post-write hashes are identical; published masters were not rewritten."
     },
     "files": {
       "16x9": "library/world/Switzerland/Le Locle/ch-01-338-daylight-16x9.png",
       "4x5": "library/world/Switzerland/Le Locle/ch-01-338-daylight-4x5.png"
     },
     "sha256": {
-      "16x9": "217a95fd0f3338f42fce1a1614deb892f24e743a5df018281c03fc204c4a11cc",
-      "4x5": "dfe0c6cb771d76a824459ccbc00da6c01b125e53b85061fcba338f7e953f7b34"
+      "16x9": "3587acb511ea9ef6fd9492306a05f57e7fbb6bb22f664768e7aeaaa45b6bee31",
+      "4x5": "bc8c89d169779cf642b9b45c8762ec916832c8efa28890ca258b25992c8fc742"
     },
-    "created_date": "2026-09-26",
+    "created_date": "2026-10-05",
     "on_image_caption": "Lac des Brenets, Le Locle",
     "on_image_signature": "Jason D’s Vision",
     "on_image_disclosure": "AI-generated artistic interpretation · Not a photograph.",
     "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
-    "derivative_disclosure": "Derivative of the night interpretation of this same viewpoint. Not an independently modelled weather or lighting scenario. No weather claim. No scenario timestamp on the variant.",
-    "note": "AI-generated daylight re-interpretation derived from the night master of the same viewpoint and composition. Not a new scene. Architecture and landscape preserved; lighting only was changed from night to daylight. No weather evidence invented. The variant image carries no weather claim and no scenario timestamp. The scene scenario_label remains the night scene's label and is not a daylight weather assertion."
+    "derivative_disclosure": "Daylight companion plate for the gallery daylight control. Text-prompt only. No weather claim. No scenario timestamp on the variant. The scene scenario_label is unchanged and is not a daylight weather assertion.",
+    "note": "Photorealistic daylight plate generated text-prompt-only on 2026-10-05. Not derived by relighting the published master and not image-anchored on it. No live daytime weather reading was available. The plate carries no scenario timestamp and no weather line. Published masters were not rewritten."
   },
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "Gate 1: Lac des Brenets from the Swiss landing — narrow dark lake between limestone walls fading into night fog, small boats at the wooden and stone landings; both formats agree on the gorge lake, boats, and fog. Gate 2: 1920×1080/864×1080 exact; caption 'Lac des Brenets, Le Locle', scenario '24 September 2026 · 23:27 Europe/Zurich', 'Jason D’s Vision' signature bottom-right and 'AI-generated artistic interpretation · Not a photograph.' bottom-left legible; Open-Meteo weather retrieved 2026-09-25T23:48:44Z, per-scene unique across all 39 candidates, valid slot 23:15 consistent with 23:27 scenario. Gate 3: note documents text-prompt-only lineage, no photo inputs. Gate 4: natural landscape; no people or logos. Gate 5: no blockers.",
