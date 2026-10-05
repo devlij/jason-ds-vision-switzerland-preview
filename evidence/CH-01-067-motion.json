@@ -1,0 +1,38 @@
+{
+  "entry_id": "CH-01-067",
+  "caption": "Heiden, Heiden",
+  "method": "static-ambient",
+  "daylight": true,
+  "night_master_used": false,
+  "source": "library/world/Switzerland/Heiden/ch-01-067-daylight-4x5.png",
+  "night_master": "library/world/Switzerland/Heiden/ch-01-067-4x5.png",
+  "crop": {
+    "x": 0,
+    "y": 0,
+    "width": 864,
+    "height": 1080,
+    "label_bar_px": 190
+  },
+  "output": "assets/ch-01-067-motion-10s-4x5.mp4",
+  "duration_s": 10.0,
+  "width": 864,
+  "height": 1080,
+  "fps": 30,
+  "frames": 300,
+  "ken_burns": {
+    "zoom": "1.00 to 1.07, cosine ease",
+    "pan": "down",
+    "tool": "ffmpeg zoompan"
+  },
+  "qc": "pass",
+  "sha256": "a1bc5d8a7be6be9fe69c6e876b5e61c2a2ea3ca5ac48c3ba68d776a68b965435",
+  "metrics": {
+    "width": 864,
+    "height": 1080,
+    "frames": 300,
+    "duration_s": 10.0,
+    "start_vs_source_mad": 1.316,
+    "adjacent_mad": 0.313,
+    "ends_mad": 16.13
+  }
+}
