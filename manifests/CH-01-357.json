@@ -32,8 +32,8 @@
       "4x5": "library/world/Switzerland/Sisikon/ch-01-357-daylight-4x5.png"
     },
     "sha256": {
-      "16x9": "c337f1acd3221ae1541bcd579fb5dfc5f8b75237a1429027e0f5900cb77cf879",
-      "4x5": "50caeee85ccadf9646764eec9f0e1914d9c477dcda4fd7a634157be7cffac0e1"
+      "16x9": "c0093542c716cac151f022c210e2c793f58e4a1814da4cc0c1d05285a73030c2",
+      "4x5": "683e178e90f82884a1cecb17b44ee0ed147be15c8371bb84abf410a9033000c6"
     },
     "created_date": "2026-10-05",
     "on_image_caption": "Tell Chapel, Sisikon",
@@ -41,7 +41,7 @@
     "on_image_disclosure": "AI-generated artistic interpretation · Not a photograph.",
     "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
     "derivative_disclosure": "Daylight companion plate for the gallery daylight control. Text-prompt only. No weather claim. No scenario timestamp on the variant. The scene scenario_label is unchanged and is not a daylight weather assertion.",
-    "note": "Photorealistic daylight plate generated text-prompt-only on 2026-10-05. Not derived by relighting the published master and not image-anchored on it. No live daytime weather reading was available. The plate carries no scenario timestamp and no weather line. Published masters were not rewritten."
+    "note": "Photorealistic daylight plate generated text-prompt-only on 2026-10-05. Not derived by relighting the published master and not image-anchored on it. No live daytime weather reading was available. The plate carries no scenario timestamp and no weather line. Published masters were not rewritten. The 16:9 and 4:5 plates were regenerated on 2026-10-05 so the chapel reads as the Tellskapelle at Sisikon: an open round-arched arcade at the waterline, a hipped roof, and a small bell turret."
   },
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "Gate 1: small pale chapel with pitched roof on a rock ledge at the lake edge, tall dark cliff (Axenberg) behind, windows dark — matches the anchors (Tell Chapel, Tellsplatte, no frescoes, no statue); both formats agree on the chapel-on-ledge subject. Gate 2: exact 1920x1080 and 864x1080; caption 'Tell Chapel, Sisikon', scenario '24 September 2026 · 23:46 Europe/Zurich', disclosure 'AI-generated artistic interpretation · Not a photograph.' and signature 'Jason D\\u2019s Vision' legible on the bottom scrim; scenario 23:46 inside the model-valid 23:45 step; weather retrieved 2026-09-25T23:49:03Z, verified unique across all 365 Switzerland note files. Gate 3: approvals note records text-prompt-only lineage, no photographic inputs. Gate 4: no identifiable people, no logos or focal artwork — documented only, final commercial call is Jason's. Gate 5: all gates closed.",

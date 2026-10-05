@@ -32,8 +32,8 @@
       "4x5": "library/world/Switzerland/Basel/ch-01-332-daylight-4x5.png"
     },
     "sha256": {
-      "16x9": "2a35a8a2f0e8208dbeb3f7ff7e20a0e84d724ee7b387307ebdae59ba52147902",
-      "4x5": "b98e0ec95af23ed7c15c7eaa9a8c6647480a78b07130d1164d21096f1e69de49"
+      "16x9": "4210a4048bb9df642e0f8e5940f78936731a1fbcc1ec59c11cd91d34957f33bd",
+      "4x5": "efe2cf5af0d5432b0ec56e96867ad42b63d7fbac588138df43867f8bed708f0b"
     },
     "created_date": "2026-10-05",
     "on_image_caption": "Spalentor, Basel",
@@ -41,7 +41,7 @@
     "on_image_disclosure": "AI-generated artistic interpretation · Not a photograph.",
     "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
     "derivative_disclosure": "Daylight companion plate for the gallery daylight control. Text-prompt only. No weather claim. No scenario timestamp on the variant. The scene scenario_label is unchanged and is not a daylight weather assertion.",
-    "note": "Photorealistic daylight plate generated text-prompt-only on 2026-10-05. Not derived by relighting the published master and not image-anchored on it. No live daytime weather reading was available. The plate carries no scenario timestamp and no weather line. Published masters were not rewritten."
+    "note": "Photorealistic daylight plate generated text-prompt-only on 2026-10-05. Not derived by relighting the published master and not image-anchored on it. No live daytime weather reading was available. The plate carries no scenario timestamp and no weather line. Published masters were not rewritten. The 16:9 and 4:5 plates were regenerated on 2026-10-05 so the gate reads as the Spalentor: one tall square central tower with a steep tiled roof, and two shorter round crenellated side towers with flat tops."
   },
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "Gate 1: Basel's Spalentor city gate at night — two round towers flanking a taller central tower with pointed roof, lit stonework against dark cloud, matching the build-agent description (two round towers + taller central pointed tower); both formats agree on that defining arrangement. Gate 2: 1920×1080/864×1080 exact; caption 'Spalentor, Basel', scenario '24 September 2026 · 23:10 Europe/Zurich', 'Jason D’s Vision' signature bottom-right and 'AI-generated artistic interpretation · Not a photograph.' bottom-left legible; Open-Meteo weather retrieved 2026-09-25T23:48:38Z, per-scene unique across all 39 candidates, valid slot 23:00 consistent with 23:10 scenario. Gate 3: note documents text-prompt-only lineage, no photo inputs. Gate 4: historic public monument; no people or logos. Gate 5: no blockers.",
