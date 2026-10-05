@@ -1,0 +1,38 @@
+{
+  "entry_id": "CH-01-038",
+  "caption": "Einsiedeln Abbey, Einsiedeln",
+  "method": "static-ambient",
+  "daylight": true,
+  "night_master_used": false,
+  "source": "library/world/Switzerland/Einsiedeln/ch-01-038-daylight-4x5.png",
+  "night_master": "library/world/Switzerland/Einsiedeln/ch-01-038-4x5.png",
+  "crop": {
+    "x": 0,
+    "y": 0,
+    "width": 864,
+    "height": 1080,
+    "label_bar_px": 190
+  },
+  "output": "assets/ch-01-038-motion-10s-4x5.mp4",
+  "duration_s": 10.0,
+  "width": 864,
+  "height": 1080,
+  "fps": 30,
+  "frames": 300,
+  "ken_burns": {
+    "zoom": "1.00 to 1.07, cosine ease",
+    "pan": "left",
+    "tool": "ffmpeg zoompan"
+  },
+  "qc": "pass",
+  "sha256": "f3e198bd0c496e0bccbb11adb309caa3fda65f6ae8c2ffbd08ecd6a98fa4da41",
+  "metrics": {
+    "width": 864,
+    "height": 1080,
+    "frames": 300,
+    "duration_s": 10.0,
+    "start_vs_source_mad": 1.242,
+    "adjacent_mad": 0.289,
+    "ends_mad": 21.246
+  }
+}

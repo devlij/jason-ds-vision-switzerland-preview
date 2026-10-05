@@ -1,0 +1,38 @@
+{
+  "entry_id": "CH-01-200",
+  "caption": "Faido, Faido",
+  "method": "static-ambient",
+  "daylight": true,
+  "night_master_used": false,
+  "source": "library/world/Switzerland/Faido/ch-01-200-daylight-4x5.png",
+  "night_master": "library/world/Switzerland/Faido/ch-01-200-4x5.png",
+  "crop": {
+    "x": 0,
+    "y": 0,
+    "width": 864,
+    "height": 1080,
+    "label_bar_px": 190
+  },
+  "output": "assets/ch-01-200-motion-10s-4x5.mp4",
+  "duration_s": 10.0,
+  "width": 864,
+  "height": 1080,
+  "fps": 30,
+  "frames": 300,
+  "ken_burns": {
+    "zoom": "1.00 to 1.07, cosine ease",
+    "pan": "up",
+    "tool": "ffmpeg zoompan"
+  },
+  "qc": "pass",
+  "sha256": "73734c7e977b96364e01730bacbe6f47465e86cb66f51498d3eb99e2fb9ddb44",
+  "metrics": {
+    "width": 864,
+    "height": 1080,
+    "frames": 300,
+    "duration_s": 10.0,
+    "start_vs_source_mad": 1.367,
+    "adjacent_mad": 0.353,
+    "ends_mad": 21.676
+  }
+}

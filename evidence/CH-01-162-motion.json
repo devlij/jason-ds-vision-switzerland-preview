@@ -1,0 +1,38 @@
+{
+  "entry_id": "CH-01-162",
+  "caption": "Klein Matterhorn, Zermatt",
+  "method": "static-ambient",
+  "daylight": true,
+  "night_master_used": false,
+  "source": "library/world/Switzerland/Zermatt/ch-01-162-daylight-4x5.png",
+  "night_master": "library/world/Switzerland/Zermatt/ch-01-162-4x5.png",
+  "crop": {
+    "x": 0,
+    "y": 0,
+    "width": 864,
+    "height": 1080,
+    "label_bar_px": 190
+  },
+  "output": "assets/ch-01-162-motion-10s-4x5.mp4",
+  "duration_s": 10.0,
+  "width": 864,
+  "height": 1080,
+  "fps": 30,
+  "frames": 300,
+  "ken_burns": {
+    "zoom": "1.00 to 1.07, cosine ease",
+    "pan": "left",
+    "tool": "ffmpeg zoompan"
+  },
+  "qc": "pass",
+  "sha256": "f2df1722bb8c0f202ea861e09f516869ae8abf985d0137f83135ba112b8c1029",
+  "metrics": {
+    "width": 864,
+    "height": 1080,
+    "frames": 300,
+    "duration_s": 10.0,
+    "start_vs_source_mad": 1.352,
+    "adjacent_mad": 0.402,
+    "ends_mad": 25.871
+  }
+}

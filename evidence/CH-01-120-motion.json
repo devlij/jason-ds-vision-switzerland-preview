@@ -1,0 +1,38 @@
+{
+  "entry_id": "CH-01-120",
+  "caption": "Champ\u00e9ry, Champ\u00e9ry",
+  "method": "static-ambient",
+  "daylight": true,
+  "night_master_used": false,
+  "source": "library/world/Switzerland/Champ\u00e9ry/ch-01-120-daylight-4x5.png",
+  "night_master": "library/world/Switzerland/Champ\u00e9ry/ch-01-120-4x5.png",
+  "crop": {
+    "x": 0,
+    "y": 0,
+    "width": 864,
+    "height": 1080,
+    "label_bar_px": 190
+  },
+  "output": "assets/ch-01-120-motion-10s-4x5.mp4",
+  "duration_s": 10.0,
+  "width": 864,
+  "height": 1080,
+  "fps": 30,
+  "frames": 300,
+  "ken_burns": {
+    "zoom": "1.00 to 1.07, cosine ease",
+    "pan": "up",
+    "tool": "ffmpeg zoompan"
+  },
+  "qc": "pass",
+  "sha256": "4a5ff436459f735f2ae260bc01c72f066dd6199c74017a99b0e83a460c07c114",
+  "metrics": {
+    "width": 864,
+    "height": 1080,
+    "frames": 300,
+    "duration_s": 10.0,
+    "start_vs_source_mad": 1.326,
+    "adjacent_mad": 0.378,
+    "ends_mad": 24.86
+  }
+}

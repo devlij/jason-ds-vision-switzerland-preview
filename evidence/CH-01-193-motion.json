@@ -1,0 +1,38 @@
+{
+  "entry_id": "CH-01-193",
+  "caption": "Locarno lakefront, Locarno",
+  "method": "static-ambient",
+  "daylight": true,
+  "night_master_used": false,
+  "source": "library/world/Switzerland/Locarno/ch-01-193-daylight-4x5.png",
+  "night_master": "library/world/Switzerland/Locarno/ch-01-193-4x5.png",
+  "crop": {
+    "x": 0,
+    "y": 0,
+    "width": 864,
+    "height": 1080,
+    "label_bar_px": 190
+  },
+  "output": "assets/ch-01-193-motion-10s-4x5.mp4",
+  "duration_s": 10.0,
+  "width": 864,
+  "height": 1080,
+  "fps": 30,
+  "frames": 300,
+  "ken_burns": {
+    "zoom": "1.00 to 1.07, cosine ease",
+    "pan": "right",
+    "tool": "ffmpeg zoompan"
+  },
+  "qc": "pass",
+  "sha256": "214f1e3b91657df96d95202b9cec6bdc73935db8a6eb4433a84e23b10c6f87ca",
+  "metrics": {
+    "width": 864,
+    "height": 1080,
+    "frames": 300,
+    "duration_s": 10.0,
+    "start_vs_source_mad": 1.352,
+    "adjacent_mad": 0.324,
+    "ends_mad": 26.981
+  }
+}

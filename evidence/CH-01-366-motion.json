@@ -1,0 +1,38 @@
+{
+  "entry_id": "CH-01-366",
+  "caption": "Matterhorn above Zermatt, Zermatt",
+  "method": "static-ambient",
+  "daylight": true,
+  "night_master_used": false,
+  "source": "library/world/Switzerland/Zermatt/ch-01-366-daylight-4x5.png",
+  "night_master": "library/world/Switzerland/Zermatt/ch-01-366-4x5.png",
+  "crop": {
+    "x": 0,
+    "y": 0,
+    "width": 864,
+    "height": 1080,
+    "label_bar_px": 190
+  },
+  "output": "assets/ch-01-366-motion-10s-4x5.mp4",
+  "duration_s": 10.0,
+  "width": 864,
+  "height": 1080,
+  "fps": 30,
+  "frames": 300,
+  "ken_burns": {
+    "zoom": "1.00 to 1.07, cosine ease",
+    "pan": "left",
+    "tool": "ffmpeg zoompan"
+  },
+  "qc": "pass",
+  "sha256": "8b9c3cc74eba056c48e835c60fde32d84bb3d2bb3160f5c2b10b9a642d9c35d6",
+  "metrics": {
+    "width": 864,
+    "height": 1080,
+    "frames": 300,
+    "duration_s": 10.0,
+    "start_vs_source_mad": 1.356,
+    "adjacent_mad": 0.352,
+    "ends_mad": 20.169
+  }
+}

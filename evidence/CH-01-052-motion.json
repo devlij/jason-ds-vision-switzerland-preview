@@ -1,0 +1,38 @@
+{
+  "entry_id": "CH-01-052",
+  "caption": "Stein am Rhein, Stein am Rhein",
+  "method": "static-ambient",
+  "daylight": true,
+  "night_master_used": false,
+  "source": "library/world/Switzerland/Stein am Rhein/ch-01-052-daylight-4x5.png",
+  "night_master": "library/world/Switzerland/Stein am Rhein/ch-01-052-4x5.png",
+  "crop": {
+    "x": 0,
+    "y": 0,
+    "width": 864,
+    "height": 1080,
+    "label_bar_px": 190
+  },
+  "output": "assets/ch-01-052-motion-10s-4x5.mp4",
+  "duration_s": 10.0,
+  "width": 864,
+  "height": 1080,
+  "fps": 30,
+  "frames": 300,
+  "ken_burns": {
+    "zoom": "1.00 to 1.07, cosine ease",
+    "pan": "up",
+    "tool": "ffmpeg zoompan"
+  },
+  "qc": "pass",
+  "sha256": "ba09b1993e6928b21affd48b0558352d0669f949ec01410383f630119042665d",
+  "metrics": {
+    "width": 864,
+    "height": 1080,
+    "frames": 300,
+    "duration_s": 10.0,
+    "start_vs_source_mad": 1.422,
+    "adjacent_mad": 0.412,
+    "ends_mad": 25.552
+  }
+}

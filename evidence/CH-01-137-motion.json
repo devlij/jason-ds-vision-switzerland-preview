@@ -1,0 +1,38 @@
+{
+  "entry_id": "CH-01-137",
+  "caption": "Sargans Castle, Sargans",
+  "method": "static-ambient",
+  "daylight": true,
+  "night_master_used": false,
+  "source": "library/world/Switzerland/Sargans/ch-01-137-daylight-4x5.png",
+  "night_master": "library/world/Switzerland/Sargans/ch-01-137-4x5.png",
+  "crop": {
+    "x": 0,
+    "y": 0,
+    "width": 864,
+    "height": 1080,
+    "label_bar_px": 190
+  },
+  "output": "assets/ch-01-137-motion-10s-4x5.mp4",
+  "duration_s": 10.0,
+  "width": 864,
+  "height": 1080,
+  "fps": 30,
+  "frames": 300,
+  "ken_burns": {
+    "zoom": "1.00 to 1.07, cosine ease",
+    "pan": "right",
+    "tool": "ffmpeg zoompan"
+  },
+  "qc": "pass",
+  "sha256": "89dddec1c834ece33bef886c83ed8a57e9db312d486a61eaab7672dea7ae636e",
+  "metrics": {
+    "width": 864,
+    "height": 1080,
+    "frames": 300,
+    "duration_s": 10.0,
+    "start_vs_source_mad": 1.35,
+    "adjacent_mad": 0.366,
+    "ends_mad": 22.216
+  }
+}

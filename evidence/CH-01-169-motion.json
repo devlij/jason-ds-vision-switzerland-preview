@@ -1,0 +1,38 @@
+{
+  "entry_id": "CH-01-169",
+  "caption": "Rolle, Rolle",
+  "method": "static-ambient",
+  "daylight": true,
+  "night_master_used": false,
+  "source": "library/world/Switzerland/Rolle/ch-01-169-daylight-4x5.png",
+  "night_master": "library/world/Switzerland/Rolle/ch-01-169-4x5.png",
+  "crop": {
+    "x": 0,
+    "y": 0,
+    "width": 864,
+    "height": 1080,
+    "label_bar_px": 190
+  },
+  "output": "assets/ch-01-169-motion-10s-4x5.mp4",
+  "duration_s": 10.0,
+  "width": 864,
+  "height": 1080,
+  "fps": 30,
+  "frames": 300,
+  "ken_burns": {
+    "zoom": "1.00 to 1.07, cosine ease",
+    "pan": "right",
+    "tool": "ffmpeg zoompan"
+  },
+  "qc": "pass",
+  "sha256": "8cfdaf44112e30577d0a7619f03ca338b8bc1b2342501598d19efddf0dd5efa2",
+  "metrics": {
+    "width": 864,
+    "height": 1080,
+    "frames": 300,
+    "duration_s": 10.0,
+    "start_vs_source_mad": 1.269,
+    "adjacent_mad": 0.292,
+    "ends_mad": 13.042
+  }
+}

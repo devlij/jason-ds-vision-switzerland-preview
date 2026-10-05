@@ -1,0 +1,38 @@
+{
+  "entry_id": "CH-01-088",
+  "caption": "Bahnhofstrasse, Zurich",
+  "method": "static-ambient",
+  "daylight": true,
+  "night_master_used": false,
+  "source": "library/world/Switzerland/Zurich/ch-01-088-daylight-4x5.png",
+  "night_master": "library/world/Switzerland/Zurich/ch-01-088-4x5.png",
+  "crop": {
+    "x": 0,
+    "y": 0,
+    "width": 864,
+    "height": 1080,
+    "label_bar_px": 190
+  },
+  "output": "assets/ch-01-088-motion-10s-4x5.mp4",
+  "duration_s": 10.0,
+  "width": 864,
+  "height": 1080,
+  "fps": 30,
+  "frames": 300,
+  "ken_burns": {
+    "zoom": "1.00 to 1.07, cosine ease",
+    "pan": "up",
+    "tool": "ffmpeg zoompan"
+  },
+  "qc": "pass",
+  "sha256": "a9f92f4a5ab9b5f31ba6b30f4b15dcb53b8b6c519e7558c6ee59d7004f2c7cae",
+  "metrics": {
+    "width": 864,
+    "height": 1080,
+    "frames": 300,
+    "duration_s": 10.0,
+    "start_vs_source_mad": 1.358,
+    "adjacent_mad": 0.32,
+    "ends_mad": 22.556
+  }
+}

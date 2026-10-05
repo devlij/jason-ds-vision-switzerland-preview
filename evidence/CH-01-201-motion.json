@@ -1,0 +1,38 @@
+{
+  "entry_id": "CH-01-201",
+  "caption": "Chur Cathedral, Chur",
+  "method": "static-ambient",
+  "daylight": true,
+  "night_master_used": false,
+  "source": "library/world/Switzerland/Chur/ch-01-201-daylight-4x5.png",
+  "night_master": "library/world/Switzerland/Chur/ch-01-201-4x5.png",
+  "crop": {
+    "x": 0,
+    "y": 0,
+    "width": 864,
+    "height": 1080,
+    "label_bar_px": 190
+  },
+  "output": "assets/ch-01-201-motion-10s-4x5.mp4",
+  "duration_s": 10.0,
+  "width": 864,
+  "height": 1080,
+  "fps": 30,
+  "frames": 300,
+  "ken_burns": {
+    "zoom": "1.00 to 1.07, cosine ease",
+    "pan": "right",
+    "tool": "ffmpeg zoompan"
+  },
+  "qc": "pass",
+  "sha256": "9d26b36d11bc78cb35ce5aac56896b14e700b7bb5c342e0f1b2e7badb739563d",
+  "metrics": {
+    "width": 864,
+    "height": 1080,
+    "frames": 300,
+    "duration_s": 10.0,
+    "start_vs_source_mad": 1.39,
+    "adjacent_mad": 0.295,
+    "ends_mad": 19.716
+  }
+}

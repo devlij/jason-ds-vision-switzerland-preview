@@ -1,0 +1,38 @@
+{
+  "entry_id": "CH-01-112",
+  "caption": "Soubey, Soubey",
+  "method": "static-ambient",
+  "daylight": true,
+  "night_master_used": false,
+  "source": "library/world/Switzerland/Soubey/ch-01-112-daylight-4x5.png",
+  "night_master": "library/world/Switzerland/Soubey/ch-01-112-4x5.png",
+  "crop": {
+    "x": 0,
+    "y": 0,
+    "width": 864,
+    "height": 1080,
+    "label_bar_px": 190
+  },
+  "output": "assets/ch-01-112-motion-10s-4x5.mp4",
+  "duration_s": 10.0,
+  "width": 864,
+  "height": 1080,
+  "fps": 30,
+  "frames": 300,
+  "ken_burns": {
+    "zoom": "1.00 to 1.07, cosine ease",
+    "pan": "up",
+    "tool": "ffmpeg zoompan"
+  },
+  "qc": "pass",
+  "sha256": "0ceaa54b3a44a71c79e8e7fe122a8506a74fd22a4cd2149ad193701c3426b88b",
+  "metrics": {
+    "width": 864,
+    "height": 1080,
+    "frames": 300,
+    "duration_s": 10.0,
+    "start_vs_source_mad": 1.398,
+    "adjacent_mad": 0.383,
+    "ends_mad": 22.344
+  }
+}

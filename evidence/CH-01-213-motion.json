@@ -1,0 +1,38 @@
+{
+  "entry_id": "CH-01-213",
+  "caption": "Saignel\u00e9gier, Saignel\u00e9gier",
+  "method": "static-ambient",
+  "daylight": true,
+  "night_master_used": false,
+  "source": "library/world/Switzerland/Saignel\u00e9gier/ch-01-213-daylight-4x5.png",
+  "night_master": "library/world/Switzerland/Saignel\u00e9gier/ch-01-213-4x5.png",
+  "crop": {
+    "x": 0,
+    "y": 0,
+    "width": 864,
+    "height": 1080,
+    "label_bar_px": 190
+  },
+  "output": "assets/ch-01-213-motion-10s-4x5.mp4",
+  "duration_s": 10.0,
+  "width": 864,
+  "height": 1080,
+  "fps": 30,
+  "frames": 300,
+  "ken_burns": {
+    "zoom": "1.00 to 1.07, cosine ease",
+    "pan": "right",
+    "tool": "ffmpeg zoompan"
+  },
+  "qc": "pass",
+  "sha256": "a9f1d8594fee435bb4e28f3190ce46266aef357cc608a270028d3d2a2ddf72b0",
+  "metrics": {
+    "width": 864,
+    "height": 1080,
+    "frames": 300,
+    "duration_s": 10.0,
+    "start_vs_source_mad": 1.362,
+    "adjacent_mad": 0.314,
+    "ends_mad": 18.3
+  }
+}

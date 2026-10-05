@@ -1,0 +1,38 @@
+{
+  "entry_id": "CH-01-065",
+  "caption": "Herisau, Herisau",
+  "method": "static-ambient",
+  "daylight": true,
+  "night_master_used": false,
+  "source": "library/world/Switzerland/Herisau/ch-01-065-daylight-4x5.png",
+  "night_master": "library/world/Switzerland/Herisau/ch-01-065-4x5.png",
+  "crop": {
+    "x": 0,
+    "y": 0,
+    "width": 864,
+    "height": 1080,
+    "label_bar_px": 190
+  },
+  "output": "assets/ch-01-065-motion-10s-4x5.mp4",
+  "duration_s": 10.0,
+  "width": 864,
+  "height": 1080,
+  "fps": 30,
+  "frames": 300,
+  "ken_burns": {
+    "zoom": "1.00 to 1.07, cosine ease",
+    "pan": "right",
+    "tool": "ffmpeg zoompan"
+  },
+  "qc": "pass",
+  "sha256": "3157db72bbcc624547a4712359c991209d3e10bc48454f61093f2ee578e62b4e",
+  "metrics": {
+    "width": 864,
+    "height": 1080,
+    "frames": 300,
+    "duration_s": 10.0,
+    "start_vs_source_mad": 1.298,
+    "adjacent_mad": 0.297,
+    "ends_mad": 23.335
+  }
+}
