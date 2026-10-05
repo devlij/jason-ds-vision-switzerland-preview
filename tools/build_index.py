@@ -174,6 +174,11 @@ def publishable_scenes(manifests: list[dict], exists=master_exists) -> list[dict
             day916 = daylight_916(source)
             if exists(day916):
                 scene["file_9x16_day"] = day916
+        # Static-ambient clips are optional. The card shows Motion only when
+        # the 10s 4:5 file is on disk.
+        motion = f"assets/{source['entry_id'].lower()}-motion-10s-4x5.mp4"
+        if exists(motion):
+            scene["file_motion_4x5"] = motion
         scene["image_alt"] = image_alt(source)
         scenes.append(scene)
     return scenes
