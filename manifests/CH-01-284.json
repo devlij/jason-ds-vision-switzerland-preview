@@ -13,6 +13,38 @@
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
   "approval_status": "Approved",
+  "daylight_variant": {
+    "variant_of_entry_id": "CH-01-284",
+    "derived_from": "Text-prompt-only photorealistic daylight plate of the same place. Not image-anchored on the published master. Europe/Zurich was night on 5 October 2026, so this plate has no scenario timestamp and no weather line.",
+    "source_night": {
+      "16x9": {
+        "path": "library/world/Switzerland/Leissigen/ch-01-284-16x9.png",
+        "sha256": "7dec72e3bed3f713bf8a5f133eede79960eacb1b92e85140f96996ec15007bd0"
+      },
+      "4x5": {
+        "path": "library/world/Switzerland/Leissigen/ch-01-284-4x5.png",
+        "sha256": "32741d225eaaf726a5a39c0d56d480112d6403e5b760c402b9d8b2c0182480bc"
+      },
+      "recorded": "SHA-256 of the published masters immediately before this daylight batch. Post-write hashes are identical; published masters were not rewritten."
+    },
+    "files": {
+      "16x9": "library/world/Switzerland/Leissigen/ch-01-284-daylight-16x9.png",
+      "4x5": "library/world/Switzerland/Leissigen/ch-01-284-daylight-4x5.png",
+      "9x16": "library/world/Switzerland/Leissigen/ch-01-284-daylight-9x16.png"
+    },
+    "sha256": {
+      "16x9": "ad13ca91e476ea7db42342cd974f4cfce0aa0e9f9b37f7a4a87dceff1522c26f",
+      "4x5": "44cc59c30172240ed84357f27cc2e82d86086b0cf89ba4c7f2e26617b8efd360",
+      "9x16": "7d764ad8677908b17a0e27cf6d5933621b9f71b4b8b289babe0e184dca93775d"
+    },
+    "created_date": "2026-10-05",
+    "on_image_caption": "Leissigen, Leissigen",
+    "on_image_signature": "Jason D’s Vision",
+    "on_image_disclosure": "AI-generated artistic interpretation · Not a photograph.",
+    "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
+    "derivative_disclosure": "Daylight companion plate for the gallery daylight control. Text-prompt only. No weather claim. No scenario timestamp on the variant. The scene scenario_label is unchanged and is not a daylight weather assertion.",
+    "note": "Photorealistic daylight plate generated text-prompt-only on 2026-10-05. Not derived by relighting the published master and not image-anchored on it. No live daytime weather reading was available. The plate carries no scenario timestamp and no weather line. Published masters were not rewritten."
+  },
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "Gate 1: night view across the lake of Leissigen with the illuminated church on the wooded hill, village lights strung along the shore, dark forested slopes behind; plausible lake viewpoint. Gate 2: exact 1920x1080/864x1080; caption 'Leissigen, Leissigen', scenario '24 September 2026 - 19:57 Europe/Zurich', disclosure and signature verified on-image; weather retrieved 2026-09-25T23:47:50Z, unique repo-wide, valid hour 19:00-19:59 matches scenario. Gate 3: text-prompt-only lineage per note. Gate 4: no people or logos visible (documented only).",
   "approved_at": "2026-09-26T17:42:22.252099+00:00",

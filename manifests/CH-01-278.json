@@ -13,6 +13,38 @@
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
   "approval_status": "Approved",
+  "daylight_variant": {
+    "variant_of_entry_id": "CH-01-278",
+    "derived_from": "Text-prompt-only photorealistic daylight plate of the same place. Not image-anchored on the published master. Europe/Zurich was night on 5 October 2026, so this plate has no scenario timestamp and no weather line.",
+    "source_night": {
+      "16x9": {
+        "path": "library/world/Switzerland/Worb/ch-01-278-16x9.png",
+        "sha256": "6bcf253a5a3a22845c79aa1554ba5f18ae37b14ec7dac16c2384ad238a5ca2c9"
+      },
+      "4x5": {
+        "path": "library/world/Switzerland/Worb/ch-01-278-4x5.png",
+        "sha256": "c797becbd7309ff3279b6a9a188b9c9cce23cff02dda9e578648e9ac4182a947"
+      },
+      "recorded": "SHA-256 of the published masters immediately before this daylight batch. Post-write hashes are identical; published masters were not rewritten."
+    },
+    "files": {
+      "16x9": "library/world/Switzerland/Worb/ch-01-278-daylight-16x9.png",
+      "4x5": "library/world/Switzerland/Worb/ch-01-278-daylight-4x5.png",
+      "9x16": "library/world/Switzerland/Worb/ch-01-278-daylight-9x16.png"
+    },
+    "sha256": {
+      "16x9": "322211880239a9cdd80653b06d7b59b56b6ea5eabbd36f1c68d26b15e44f1d47",
+      "4x5": "c1a744ec4cec07714589a0360afb75cdf8f2e4f6613ad6c1ffa9f119f7c617ad",
+      "9x16": "e26dbb2b60fef7939277fd94d04e7fd91ac590bd7c3235d95b20d32614eeb8cd"
+    },
+    "created_date": "2026-10-05",
+    "on_image_caption": "Worb Castle, Worb",
+    "on_image_signature": "Jason D’s Vision",
+    "on_image_disclosure": "AI-generated artistic interpretation · Not a photograph.",
+    "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
+    "derivative_disclosure": "Daylight companion plate for the gallery daylight control. Text-prompt only. No weather claim. No scenario timestamp on the variant. The scene scenario_label is unchanged and is not a daylight weather assertion.",
+    "note": "Photorealistic daylight plate generated text-prompt-only on 2026-10-05. Not derived by relighting the published master and not image-anchored on it. No live daytime weather reading was available. The plate carries no scenario timestamp and no weather line. Published masters were not rewritten."
+  },
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "Gate 1 PASS: Worb Castle's stone towers and lit windows rising above the village, autumn trees around, overcast dusk; clean framing, no artifacts. Gate 2 PASS: 1920x1080/864x1080 exact per sweep; caption 'Worb Castle, Worb', scenario '24 September 2026 · 19:57 Europe/Zurich', disclosure and 'Jason D's Vision' signature (curly apostrophe) on the bottom scrim, legible; 4:5 master shows the same castle and village (inter-format identity agrees). Weather per-scene retrieval 2026-09-25T23:47:44Z, unique to the second; model-valid hour 19:00–19:59 Europe/Zurich, scenario 19:57 inside; code 3 overcast / 94% cloud / 15.0C matches the cloudy dusk light. Gate 3: text-prompt-only lineage per note. Gate 4: no visible people, no logos. Gate 5: no open blockers.",
   "approved_at": "2026-09-26T16:40:50.647976+00:00",

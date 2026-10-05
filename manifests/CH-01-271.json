@@ -13,6 +13,38 @@
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
   "approval_status": "Approved",
+  "daylight_variant": {
+    "variant_of_entry_id": "CH-01-271",
+    "derived_from": "Text-prompt-only photorealistic daylight plate of the same place. Not image-anchored on the published master. Europe/Zurich was night on 5 October 2026, so this plate has no scenario timestamp and no weather line.",
+    "source_night": {
+      "16x9": {
+        "path": "library/world/Switzerland/Agno/ch-01-271-16x9.png",
+        "sha256": "2c9f513c6beb72a6d0d50722f4b7192a026b8b3117a0d44a7802535ec66dd694"
+      },
+      "4x5": {
+        "path": "library/world/Switzerland/Agno/ch-01-271-4x5.png",
+        "sha256": "919afbc3e52a02ff65b8aa5dc463f84dc2fb4380451f8826f0e19933e81ac8e7"
+      },
+      "recorded": "SHA-256 of the published masters immediately before this daylight batch. Post-write hashes are identical; published masters were not rewritten."
+    },
+    "files": {
+      "16x9": "library/world/Switzerland/Agno/ch-01-271-daylight-16x9.png",
+      "4x5": "library/world/Switzerland/Agno/ch-01-271-daylight-4x5.png",
+      "9x16": "library/world/Switzerland/Agno/ch-01-271-daylight-9x16.png"
+    },
+    "sha256": {
+      "16x9": "a071689b653f9be6e44021afe1912831eb3556f8e55a6ebaf5322727b2b2dfcb",
+      "4x5": "19cef6fe6e826d931e3ef55b818e82cf1b184d476bbbb252b758f7defeb79de4",
+      "9x16": "b5d724227abfcacf04f045336d1766d4a24e83177b5584c0509007588b461ff7"
+    },
+    "created_date": "2026-10-05",
+    "on_image_caption": "Agno, Agno",
+    "on_image_signature": "Jason D’s Vision",
+    "on_image_disclosure": "AI-generated artistic interpretation · Not a photograph.",
+    "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
+    "derivative_disclosure": "Daylight companion plate for the gallery daylight control. Text-prompt only. No weather claim. No scenario timestamp on the variant. The scene scenario_label is unchanged and is not a daylight weather assertion.",
+    "note": "Photorealistic daylight plate generated text-prompt-only on 2026-10-05. Not derived by relighting the published master and not image-anchored on it. No live daytime weather reading was available. The plate carries no scenario timestamp and no weather line. Published masters were not rewritten."
+  },
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "Gate 1 PASS: church with slender spired bell tower on the Agno lakeshore promenade, lamp-lit path along calm Lake Lugano, village lights climbing the hill, orange afterglow east; clean framing, no artifacts. Gate 2 PASS: 1920x1080/864x1080 exact per sweep; caption 'Agno, Agno', scenario '24 September 2026 · 19:39 Europe/Zurich', disclosure and 'Jason D's Vision' signature (curly apostrophe) on the bottom scrim, legible; 4:5 master shows the same church and shoreline (inter-format identity agrees). Weather per-scene retrieval 2026-09-25T23:47:37Z, unique to the second; model-valid hour 19:00–19:59 Europe/Zurich, scenario 19:39 inside; code 0 clear / 6% cloud / 20.5C matches the clear twilight sky. Gate 3: text-prompt-only lineage per note. Gate 4: no visible people, no logos. Gate 5: no open blockers.",
   "approved_at": "2026-09-26T16:40:19.063668+00:00",

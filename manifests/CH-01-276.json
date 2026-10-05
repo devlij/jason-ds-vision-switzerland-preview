@@ -13,6 +13,38 @@
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
   "approval_status": "Approved",
+  "daylight_variant": {
+    "variant_of_entry_id": "CH-01-276",
+    "derived_from": "Text-prompt-only photorealistic daylight plate of the same place. Not image-anchored on the published master. Europe/Zurich was night on 5 October 2026, so this plate has no scenario timestamp and no weather line.",
+    "source_night": {
+      "16x9": {
+        "path": "library/world/Switzerland/Bern/ch-01-276-16x9.png",
+        "sha256": "157bdeb5ac1f1a0aa9507287babb5e9abaea2a9fc741cffebd43209010d00aaa"
+      },
+      "4x5": {
+        "path": "library/world/Switzerland/Bern/ch-01-276-4x5.png",
+        "sha256": "5b1799da31f0dfdaeff71e0768efb8f97fcda8ddbe03ff758c605ca0ab551676"
+      },
+      "recorded": "SHA-256 of the published masters immediately before this daylight batch. Post-write hashes are identical; published masters were not rewritten."
+    },
+    "files": {
+      "16x9": "library/world/Switzerland/Bern/ch-01-276-daylight-16x9.png",
+      "4x5": "library/world/Switzerland/Bern/ch-01-276-daylight-4x5.png",
+      "9x16": "library/world/Switzerland/Bern/ch-01-276-daylight-9x16.png"
+    },
+    "sha256": {
+      "16x9": "5d54d9de051516c2ac8048996d0ad1b3d6900a4e061607123f6a379852039503",
+      "4x5": "22f859051497afba92e0954cd1309f9c000ebc374b65f65ab5a349f6178437e6",
+      "9x16": "3fd0fa035e6db4bd516493abe1fe424bd26fa54d882415005d87870b93c29ded"
+    },
+    "created_date": "2026-10-05",
+    "on_image_caption": "Mattequartier, Bern",
+    "on_image_signature": "Jason D’s Vision",
+    "on_image_disclosure": "AI-generated artistic interpretation · Not a photograph.",
+    "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
+    "derivative_disclosure": "Daylight companion plate for the gallery daylight control. Text-prompt only. No weather claim. No scenario timestamp on the variant. The scene scenario_label is unchanged and is not a daylight weather assertion.",
+    "note": "Photorealistic daylight plate generated text-prompt-only on 2026-10-05. Not derived by relighting the published master and not image-anchored on it. No live daytime weather reading was available. The plate carries no scenario timestamp and no weather line. Published masters were not rewritten."
+  },
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "Gate 1 PASS: Mattequartier riverside row of lit half-timbered houses along the Aare, cliff face with the old town above, overcast night; clean framing, no artifacts. Gate 2 PASS: 1920x1080/864x1080 exact per sweep; caption 'Mattequartier, Bern', scenario '24 September 2026 · 19:57 Europe/Zurich', disclosure and 'Jason D's Vision' signature (curly apostrophe) on the bottom scrim, legible; 4:5 master shows the same house row and cliff (inter-format identity agrees). Weather per-scene retrieval 2026-09-25T23:47:42Z, unique to the second; model-valid hour 19:00–19:59 Europe/Zurich, scenario 19:57 inside; code 3 overcast / 96% cloud / 17.3C matches the cloudy night. Gate 3: text-prompt-only lineage per note. Gate 4: no visible people, no logos. Gate 5: no open blockers.",
   "approved_at": "2026-09-26T16:40:41.656337+00:00",

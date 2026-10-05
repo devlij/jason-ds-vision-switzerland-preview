@@ -13,6 +13,38 @@
   "license_badge": "Free · no credit needed",
   "license_anchor": "#license",
   "approval_status": "Approved",
+  "daylight_variant": {
+    "variant_of_entry_id": "CH-01-281",
+    "derived_from": "Text-prompt-only photorealistic daylight plate of the same place. Not image-anchored on the published master. Europe/Zurich was night on 5 October 2026, so this plate has no scenario timestamp and no weather line.",
+    "source_night": {
+      "16x9": {
+        "path": "library/world/Switzerland/Oberhofen am Thunersee/ch-01-281-16x9.png",
+        "sha256": "1cde0585e5567bd2fb69ad9ffaf24ff4d8792c3ac8d52428f6da891a1d87275e"
+      },
+      "4x5": {
+        "path": "library/world/Switzerland/Oberhofen am Thunersee/ch-01-281-4x5.png",
+        "sha256": "1621f9a8fa730cb9da434b3f48bfc0aee543b894ccdcb878002b6a3d0c10cd4e"
+      },
+      "recorded": "SHA-256 of the published masters immediately before this daylight batch. Post-write hashes are identical; published masters were not rewritten."
+    },
+    "files": {
+      "16x9": "library/world/Switzerland/Oberhofen am Thunersee/ch-01-281-daylight-16x9.png",
+      "4x5": "library/world/Switzerland/Oberhofen am Thunersee/ch-01-281-daylight-4x5.png",
+      "9x16": "library/world/Switzerland/Oberhofen am Thunersee/ch-01-281-daylight-9x16.png"
+    },
+    "sha256": {
+      "16x9": "72e884aa970cbf1d4d56d90f2849f041ace26ae3a340a33f0b7809d17fd2c3aa",
+      "4x5": "a315992f698577d1ffbd48c228dfef332ec87ee6d7aba305fc504f589beb9149",
+      "9x16": "a0e0bc480f36999efa6242ba9e63a8d623f4ae9effe96a84611dfec4caa56e5a"
+    },
+    "created_date": "2026-10-05",
+    "on_image_caption": "Oberhofen Castle, Oberhofen am Thunersee",
+    "on_image_signature": "Jason D’s Vision",
+    "on_image_disclosure": "AI-generated artistic interpretation · Not a photograph.",
+    "on_image_marking": "☀ Daylight variant · derived from the night interpretation",
+    "derivative_disclosure": "Daylight companion plate for the gallery daylight control. Text-prompt only. No weather claim. No scenario timestamp on the variant. The scene scenario_label is unchanged and is not a daylight weather assertion.",
+    "note": "Photorealistic daylight plate generated text-prompt-only on 2026-10-05. Not derived by relighting the published master and not image-anchored on it. No live daytime weather reading was available. The plate carries no scenario timestamp and no weather line. Published masters were not rewritten."
+  },
   "qc_status": "Approved · Cosmo QC 5/5 · Night",
   "approval_basis": "Gate 1: night frame shows Oberhofen Castle on Lake Thun with the medieval keep and the spire-capped water tower standing in the lake, park trees along the shore, matching the note's anchors (11x12m keep, 19th-century romantic rebuilding; not Thun/Spiez/Huenegg). Gate 2: exact 1920x1080/864x1080; on-image caption 'Oberhofen Castle, Oberhofen am Thunersee', scenario '24 September 2026 - 19:57 Europe/Zurich', AI-disclosure bottom-left on legible scrim, 'Jason D's Vision' signature bottom-right; weather retrieved 2026-09-25T23:47:47Z, unique repo-wide (verified against all 365 notes), valid hour 19:00-19:59 matches scenario, overcast/is_day 0 consistent with the night frame. Gate 3: note records text-prompt-only lineage, no photographic inputs. Gate 4: no visible people or logos (documented only).",
   "approved_at": "2026-09-26T17:42:08.018733+00:00",
