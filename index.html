@@ -8229,7 +8229,21 @@
         const day45 = s.file_4x5_day || "";
         const day916 = s.file_9x16_day || "";
         const motion = s.file_motion_4x5 || "";
-        const dayReady = !!day16 && (!file45 || !!day45) && (!file916 || !!day916);
+        // Daylight is a variant control. Show it only when the primary is night
+        // or evening and every published format has a daylight master. The phase
+        // tag is SWITZERLAND_META[id][1] (day | night | evening). With no tag,
+        // the scenario clock uses the gallery night window (hour >= 18 or < 6).
+        const phaseRow = (typeof SWITZERLAND_META !== "undefined") ? SWITZERLAND_META[s.entry_id] : null;
+        const phase = phaseRow && phaseRow[1] ? String(phaseRow[1]) : "";
+        let nightOrEvening = phase === "night" || phase === "evening";
+        if (!phase) {
+          const clock = String(s.scenario_label || "").match(/(\d{1,2}):(\d{2})/);
+          if (clock) {
+            const hour = parseInt(clock[1], 10);
+            nightOrEvening = hour >= 18 || hour < 6;
+          }
+        }
+        const dayReady = nightOrEvening && !!day16 && (!file45 || !!day45) && (!file916 || !!day916);
         const night16 = s.file_16x9_night || "";
         const night45 = s.file_4x5_night || "";
         const night916 = s.file_9x16_night || "";
